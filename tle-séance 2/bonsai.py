@@ -60,10 +60,16 @@ def arbre(x, u, v):
     ),
 )"""
 
-exemple = (
+"""exemple = (
     "A",
     ("B", ("C", None, ("E", None, None)), ("D", None, None)),
     ("F", ("G", ("I", None, None), None), ("H", None, ("J", None, None))),
+)"""
+
+exemple = (
+    8,
+    (3, (1, None, None), (6, (4, None, None), (7, None, None))),
+    (10, None, (14, (13, None, None), None)),
 )
 
 
@@ -153,6 +159,59 @@ def dessiner_aux(t, rect, dy, labels):
     if not est_vide(t2):
         c, d = ((xm, (x2 + xm) // 2), (y2, y2 - dy))
         plt.plot(c, d, "k", marker="o", markerfacecolor="r")
+
+
+def rechercher(x, t):
+    if est_vide(t):
+        return False
+    else:
+        y, u, v = racine(t), fg(t), fd(t)
+        if x < y:
+            return rechercher(x, u)
+        elif x > y:
+            return rechercher(x, v)
+        else:
+            return True
+
+
+def maximum(t):
+    if est_vide(t):
+        return Exception("Arbre vide")
+    else:
+        x, _, v = racine(t), fg(t), fd(t)
+        if est_vide(v):
+            return x
+        else:
+            return maximum(v)
+
+
+def minimum(t):
+    if est_vide(t):
+        return Exception("Arbre vide")
+    else:
+        x, u, _ = racine(t), fg(t), fd(t)
+        if est_vide(u):
+            return x
+        else:
+            return minimum(u)
+
+
+def supprimer(x, t):
+    if est_vide(t):
+        return None
+    else:
+        y, u, v = racine(t), fg(t), fd(t)
+        print("y", y, "u", u, "v", v)
+        if x < y:
+            return (y, supprimer(x, u), v)
+        elif x > y:
+            return (y, u, supprimer(x, v))
+        elif est_vide(v):
+            return u
+        else:
+            m = minimum(v)
+            print("m", m)
+            return (m, u, supprimer(m, v))
 
 
 dessiner(exemple)
