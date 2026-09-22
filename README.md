@@ -7,12 +7,19 @@
 
 25-26 première </br>
 26-27 terminale (tle)
+
 > [!TIP]
 > créez un environnement virtuel avant d'installer les dépendances
+>
 > ```bash
 > python -m venv .venv
 > ```
+
 ## dépendances
 
 > [!IMPORTANT]
 > les dépendances se trouvent dans les README de chaque séance
+
+## side projects personnel que je sais pas où mettre
+
+- [crabe](./crabe/)
