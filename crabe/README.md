@@ -13,7 +13,7 @@
 
 ## dépendances
 
-rust
+rust <br>
 windows:
 
 ```powershell
