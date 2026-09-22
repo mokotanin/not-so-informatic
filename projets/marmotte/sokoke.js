@@ -4,7 +4,7 @@ const jeu = {
     c: [
       {
         get t() {
-          return badEnding9 ? "Oubliez mes salutations..." : "Bonjour"
+          return badEnding9 ? "Oubliez mes salutations..." : "Bonjour";
         },
         next: 1,
       },
@@ -25,8 +25,8 @@ const jeu = {
       {
         t: "Non merci",
         action: (button) => {
-          deplacerBouton(button)
-          return false
+          deplacerBouton(button);
+          return false;
         },
       },
     ],
@@ -84,7 +84,7 @@ const jeu = {
         t: "Non",
         next: 0,
         action: () => {
-          badEnding9 = true
+          badEnding9 = true;
         },
       },
     ],
@@ -198,7 +198,10 @@ const jeu = {
       { t: "D'aller à gauche", next: 105 },
       { t: "De revenir sur vos pas", next: 106 },
       { t: "D'avancer", next: 108 },
-      { t: "D'aller à droite (même si je peux vous dire que c'est une mauvaise idée)", next: 107 },
+      {
+        t: "D'aller à droite (même si je peux vous dire que c'est une mauvaise idée)",
+        next: 107,
+      },
     ],
     url: "foret.jpg",
     music: "oiseau",
@@ -257,7 +260,10 @@ const jeu = {
   110: {
     t: "Le chat vous regarde et tout à coup vous tend sa patte :",
     c: [
-      { t: "Vous la prenez sans réfléchir (la patte) : Après tout que pourrait-il arriver ?", next: 112 },
+      {
+        t: "Vous la prenez sans réfléchir (la patte) : Après tout que pourrait-il arriver ?",
+        next: 112,
+      },
       { t: "Vous n'êtes pas fou, vous gardez vos distances ", next: 111 },
     ],
     url: "foretchat.jpg",
@@ -306,7 +312,8 @@ const jeu = {
         next: 115,
       },
     ],
-    alert: "Nouvelle mission  : Trouver un moyen de vous échapper du Lycée Jean Mermoz",
+    alert:
+      "Nouvelle mission  : Trouver un moyen de vous échapper du Lycée Jean Mermoz",
     url: "lycéechat.png",
     audio: "meow.mp3",
   },
@@ -328,14 +335,14 @@ const jeu = {
       {
         t: "Vous essayer la porte bleue",
         action: () => {
-          porteb = true
+          porteb = true;
         },
         next: 117,
       },
       {
         t: "Vous essayez la porte jaune",
         action: () => {
-          portej = true
+          portej = true;
         },
         next: 118,
       },
@@ -343,14 +350,17 @@ const jeu = {
         t: "Vous essayez la porte pas peinte",
         action: () => {
           if (porteb && portej) {
-            choix(121)
+            choix(121);
           } else {
-            choix(120)
+            choix(120);
           }
-          return false
+          return false;
         },
       },
-      { t: "Pourquoi entendons nous des gens discuter en fond alors que le lycée est complètement désert ?", next: 119 },
+      {
+        t: "Pourquoi entendons nous des gens discuter en fond alors que le lycée est complètement désert ?",
+        next: 119,
+      },
     ],
     url: "lycée.jpg",
   },
@@ -480,7 +490,10 @@ const jeu = {
   129: {
     t: "Vous entrez dans une salle de cours assez banale, se nommant apparament la B101. Vous y découvrez une autre porte menant vers la salle d'à-côté, vérouillée par un cadenas à 3 chiffres. Vous trouvez aussi une lettre rédigée dans une magnifique italique posée sur une table. ",
     c: [
-      { t: "Regarder la lettre rédigée dans une magnifique italique", next: 130 },
+      {
+        t: "Regarder la lettre rédigée dans une magnifique italique",
+        next: 130,
+      },
       { t: "Essayer de déverrouiller le cadenas ", next: 131 },
     ],
     url: "lycée.jpg",
@@ -500,25 +513,25 @@ const jeu = {
       {
         t: "Entrer le code",
         action: () => {
-          const code = prompt("Entrez le code à 3 chiffres :")
-          const clean = code.trim()
+          const code = prompt("Entrez le code à 3 chiffres :");
+          const clean = code.trim();
 
           if (clean.length !== 3) {
-            alert("C'est un cadenas à 3 chiffres… pas plus, pas moins.")
-            return false
+            alert("C'est un cadenas à 3 chiffres… pas plus, pas moins.");
+            return false;
           }
 
           if (code === "100") {
-            choix(133)
+            choix(133);
           } else {
-            alert("Bouh loser, c'est pas ça")
-            return false
+            alert("Bouh loser, c'est pas ça");
+            return false;
           }
 
-          return false
+          return false;
         },
       },
-      {t: "Retourner en arrière.", next: 129,},
+      { t: "Retourner en arrière.", next: 129 },
     ],
   },
   133: {
@@ -548,8 +561,8 @@ const jeu = {
       {
         t: "Pub",
         action: () => {
-          lancerVideo("Pub.mp4")
-          return false
+          lancerVideo("Pub.mp4");
+          return false;
         },
       },
     ],
@@ -600,8 +613,14 @@ const jeu = {
     t: "Alors que vous vous éloigné, le chat vous rappelle : Attendez jeune entrepreneur, vous n'avez pas tirer de leçon de cette aventure ? Alors dite-moi qu'elle est la morale de l'histoire ?",
     c: [
       { t: "D'éviter au plus possible le Lycée Jean Mermoz ? ", next: 142 },
-      { t: "De ne jamais m'approcher d'un chat fumant dans un bois ? ", next: 142 },
-      { t: "De ne pas jouer à un jeu programmé par 3 adolescents ? ", next: 142 },
+      {
+        t: "De ne jamais m'approcher d'un chat fumant dans un bois ? ",
+        next: 142,
+      },
+      {
+        t: "De ne pas jouer à un jeu programmé par 3 adolescents ? ",
+        next: 142,
+      },
     ],
     alert: "Mission accomplie : Vous vous êtes échappé du Lycée Jean Mermoz !",
     url: "lycéechat.png",
@@ -626,13 +645,14 @@ const jeu = {
         {
           t: "Merci",
           action: () => {
-            end1 = true
+            end1 = true;
           },
           next: end1 && end2 ? 1000 : 21,
         },
-      ]
+      ];
     },
-    alert: "Accomplissement : Le chat fumant semble avoir dévellopé des sentiments pour vous.",
+    alert:
+      "Accomplissement : Le chat fumant semble avoir dévellopé des sentiments pour vous.",
   },
 
   300: {
@@ -644,7 +664,7 @@ const jeu = {
     music: "foret",
     bg: "#3B4D37",
     boxbg: "#4B573E",
-    border: "#3E4031"
+    border: "#3E4031",
   },
 
   301: {
@@ -723,12 +743,14 @@ const jeu = {
     music: "riviere",
     bg: "#ADCACA",
     boxbg: "#6BBFBF",
-    border: "#244040"
+    border: "#244040",
   },
 
   311: {
     t: "Et vous attendez quoi on peut savoir ?",
-    c: [{ t: "Vous êtes mort d'ennuie, vous recommencez... encore", next: 300 }],
+    c: [
+      { t: "Vous êtes mort d'ennuie, vous recommencez... encore", next: 300 },
+    ],
     audio: "meurt.mp3",
   },
 
@@ -746,11 +768,11 @@ const jeu = {
         {
           t: "BRAVO vous avez enfin terminé ce jeu",
           action: () => {
-            end2 = true
+            end2 = true;
           },
           next: end1 && end2 ? 1000 : 22,
         },
-      ]
+      ];
     },
   },
 
@@ -818,7 +840,7 @@ const jeu = {
     music: "riviere",
     bg: "#ADCACA",
     boxbg: "#6BBFBF",
-    border: "#244040"
+    border: "#244040",
   },
 
   335: {
@@ -834,14 +856,14 @@ const jeu = {
     url: "akinator_p.png",
     music: "victoire",
   },
-}
-let porteb = false
-let portej = false
+};
+let porteb = false;
+let portej = false;
 
-let scenarioActuel = 0
-let badEnding9 = false
-let end1 = false
-let end2 = false
+let scenarioActuel = 0;
+let badEnding9 = false;
+let end1 = false;
+let end2 = false;
 
 const musiques = {
   intro: { src: "for_the_fans.mp3", volume: 0.05 },
@@ -852,232 +874,236 @@ const musiques = {
   foret: { src: "foret.mp3", volume: 0.5 },
   riviere: { src: "riviere.mp3", volume: 0.4 },
   victoire: { src: "petit yodé et l'enfant siro - victoire.mp3", volume: 0.6 },
-}
+};
 
-const lecteurMusique = new Audio()
-lecteurMusique.loop = true
+const lecteurMusique = new Audio();
+lecteurMusique.loop = true;
 
-let musiqueCourante = null
-let audioDebloque = false
-let progressionInterval = null
-let progressionValeur = 0
-const volumeEffetsDefaut = 0.35
+let musiqueCourante = null;
+let audioDebloque = false;
+let progressionInterval = null;
+let progressionValeur = 0;
+const volumeEffetsDefaut = 0.35;
 
 function changerFond(couleur) {
-  document.documentElement.style.setProperty("--bodybg", couleur)
+  document.documentElement.style.setProperty("--bodybg", couleur);
 }
 
 function changerBordure(couleur) {
-  document.documentElement.style.setProperty("--border", couleur)
+  document.documentElement.style.setProperty("--border", couleur);
 }
 
 function changerFondBoite(couleur) {
-  document.documentElement.style.setProperty("--boxbg", couleur)
+  document.documentElement.style.setProperty("--boxbg", couleur);
 }
 
 function changerFondImage(urll) {
-  document.documentElement.style.setProperty("--defaulturl", `url("${urll}")`)
+  document.documentElement.style.setProperty("--defaulturl", `url("${urll}")`);
 }
 
 function debloquerAudio() {
-  if (audioDebloque) return
-  audioDebloque = true
+  if (audioDebloque) return;
+  audioDebloque = true;
 }
 
 function jouerMusique(id) {
-  if (!id) return
-  if (musiqueCourante === id) return
+  if (!id) return;
+  if (musiqueCourante === id) return;
 
-  const piste = musiques[id]
-  if (!piste) return
+  const piste = musiques[id];
+  if (!piste) return;
 
-  musiqueCourante = id
-  lecteurMusique.src = piste.src
-  lecteurMusique.volume = piste.volume ?? 0.2
+  musiqueCourante = id;
+  lecteurMusique.src = piste.src;
+  lecteurMusique.volume = piste.volume ?? 0.2;
   lecteurMusique.play().catch(() => {
-    audioDebloque = false
-  })
+    audioDebloque = false;
+  });
 }
 
 function deplacerBouton(button) {
-  button.style.position = "fixed"
-  button.style.left = Math.random() * 80 + "vw"
-  button.style.top = Math.random() * 80 + "vh"
+  button.style.position = "fixed";
+  button.style.left = Math.random() * 80 + "vw";
+  button.style.top = Math.random() * 80 + "vh";
 }
 
 function reinitialiserProgression() {
   if (progressionInterval) {
-    clearInterval(progressionInterval)
-    progressionInterval = null
+    clearInterval(progressionInterval);
+    progressionInterval = null;
   }
 
-  progressionValeur = 0
-  const barre = document.getElementById("bar")
-  const container = document.getElementById("progressContainer")
+  progressionValeur = 0;
+  const barre = document.getElementById("bar");
+  const container = document.getElementById("progressContainer");
 
   if (barre) {
-    barre.style.width = "0%"
+    barre.style.width = "0%";
   }
 
   if (container) {
-    container.style.display = "none"
-    container.setAttribute("aria-hidden", "true")
+    container.style.display = "none";
+    container.setAttribute("aria-hidden", "true");
   }
 }
 
 function demarrerProgressionScenario18() {
-  const barre = document.getElementById("bar")
-  const container = document.getElementById("progressContainer")
-  if (!barre || !container) return
+  const barre = document.getElementById("bar");
+  const container = document.getElementById("progressContainer");
+  if (!barre || !container) return;
 
-  if (progressionInterval) return
+  if (progressionInterval) return;
 
-  container.style.display = "flex"
-  container.setAttribute("aria-hidden", "false")
-  barre.style.width = "0%"
-  progressionValeur = 0
+  container.style.display = "flex";
+  container.setAttribute("aria-hidden", "false");
+  barre.style.width = "0%";
+  progressionValeur = 0;
 
   progressionInterval = setInterval(() => {
-    progressionValeur += 25
+    progressionValeur += 25;
 
     if (progressionValeur >= 100) {
-      progressionValeur = 100
-      barre.style.width = `${progressionValeur}%`
-      clearInterval(progressionInterval)
-      progressionInterval = null
-      choix(19)
-      return
+      progressionValeur = 100;
+      barre.style.width = `${progressionValeur}%`;
+      clearInterval(progressionInterval);
+      progressionInterval = null;
+      choix(19);
+      return;
     }
 
-    barre.style.width = `${progressionValeur}%`
-  }, 1500)
+    barre.style.width = `${progressionValeur}%`;
+  }, 1500);
 }
 
 function afficherScenario() {
-  const scenario = jeu[scenarioActuel]
-  const storyDiv = document.getElementById("story")
-  const buttonsDiv = document.querySelector(".buttons")
+  const scenario = jeu[scenarioActuel];
+  const storyDiv = document.getElementById("story");
+  const buttonsDiv = document.querySelector(".buttons");
 
-  storyDiv.innerHTML = ""
+  storyDiv.innerHTML = "";
 
-  const texte = document.createElement("h1")
-  texte.textContent = scenario.t
-  storyDiv.appendChild(texte)
+  const texte = document.createElement("h1");
+  texte.textContent = scenario.t;
+  storyDiv.appendChild(texte);
 
   if (scenario.img) {
-    const image = document.createElement("img")
-    image.src = scenario.img
-    storyDiv.appendChild(image)
+    const image = document.createElement("img");
+    image.src = scenario.img;
+    storyDiv.appendChild(image);
   }
-  buttonsDiv.innerHTML = ""
+  buttonsDiv.innerHTML = "";
 
   if (scenario.alert) {
-    alert(scenario.alert)
+    alert(scenario.alert);
   }
 
   // Si un changement de fond existe
   if (scenario.bg) {
-    changerFond(scenario.bg)
+    changerFond(scenario.bg);
   }
 
   if (scenario.border) {
-    changerBordure(scenario.border)
+    changerBordure(scenario.border);
   }
 
   if (scenario.boxbg) {
-    changerFondBoite(scenario.boxbg)
+    changerFondBoite(scenario.boxbg);
   }
 
   if (scenario.url) {
-    changerFondImage(scenario.url)
+    changerFondImage(scenario.url);
   } else {
-    document.documentElement.style.setProperty("--defaulturl", "none")
+    document.documentElement.style.setProperty("--defaulturl", "none");
   }
 
   // Si un son existe
   if (scenario.audio) {
-    const audio = new Audio(scenario.audio)
-    audio.volume = scenario.audioVolume ?? volumeEffetsDefaut
-    audio.play()
+    const audio = new Audio(scenario.audio);
+    audio.volume = scenario.audioVolume ?? volumeEffetsDefaut;
+    audio.play();
   }
 
   // Si une musique existe
   if (scenario.music) {
-    jouerMusique(scenario.music)
+    jouerMusique(scenario.music);
   }
 
   if (scenarioActuel === 18) {
-    demarrerProgressionScenario18()
+    demarrerProgressionScenario18();
   } else {
-    reinitialiserProgression()
+    reinitialiserProgression();
   }
 
-  ;(scenario.c ?? []).forEach((choixOption, index) => {
-    const button = document.createElement("button")
-    button.id = "btn" + (index + 1) // Simplicité pour sélectionner un bouton en CSS
-    button.textContent = choixOption.t
+  (scenario.c ?? []).forEach((choixOption, index) => {
+    const button = document.createElement("button");
+    button.id = "btn" + (index + 1); // Simplicité pour sélectionner un bouton en CSS
+    button.textContent = choixOption.t;
 
     if (scenarioActuel === 1000 && index === 0) {
-      button.style.position = "fixed"
-      button.style.left = "1016px"
-      button.style.top = "322px"
-      button.style.transform = "translate(-50%, -50%)"
-      button.style.margin = "0"
-      button.style.paddingLeft = "10px"
-      button.style.paddingRight = "30px"
-      button.style.backgroundColor = "transparent"
-      button.style.borderColor = "transparent"
-      button.style.color = "transparent"
-      button.style.boxShadow = "none"
-      button.style.opacity = "0"
+      button.style.position = "fixed";
+      button.style.left = "1016px";
+      button.style.top = "322px";
+      button.style.transform = "translate(-50%, -50%)";
+      button.style.margin = "0";
+      button.style.paddingLeft = "10px";
+      button.style.paddingRight = "30px";
+      button.style.backgroundColor = "transparent";
+      button.style.borderColor = "transparent";
+      button.style.color = "transparent";
+      button.style.boxShadow = "none";
+      button.style.opacity = "0";
     }
 
     button.onclick = () => {
       if (scenarioActuel === 1000 && index === 0) {
-        window.location.reload()
-        return
+        window.location.reload();
+        return;
       }
 
-      debloquerAudio()
+      debloquerAudio();
 
-      const continuer = choixOption.action ? choixOption.action(button) : true
+      const continuer = choixOption.action ? choixOption.action(button) : true;
       if (continuer !== false) {
-        let next = choixOption.next
+        let next = choixOption.next;
         // Calculer dynamiquement après l'action pour 143 et 313
-        if ((scenarioActuel === 143 || scenarioActuel === 313) && end1 && end2) {
-          next = 1000
+        if (
+          (scenarioActuel === 143 || scenarioActuel === 313) &&
+          end1 &&
+          end2
+        ) {
+          next = 1000;
         }
-        choix(next)
+        choix(next);
       }
-    }
-    buttonsDiv.appendChild(button)
-  })
+    };
+    buttonsDiv.appendChild(button);
+  });
 }
 
 function choix(numeroScenario) {
-  scenarioActuel = numeroScenario
-  afficherScenario()
+  scenarioActuel = numeroScenario;
+  afficherScenario();
 }
 
 function lancerVideo(src) {
-  const storyDiv = document.getElementById("story")
-  const buttonsDiv = document.querySelector(".buttons")
+  const storyDiv = document.getElementById("story");
+  const buttonsDiv = document.querySelector(".buttons");
 
-  storyDiv.innerHTML = ""
-  buttonsDiv.innerHTML = ""
+  storyDiv.innerHTML = "";
+  buttonsDiv.innerHTML = "";
 
-  const video = document.createElement("video")
-  video.src = src
-  video.autoplay = true
-  video.controls = false
-  video.style.maxWidth = "100%"
+  const video = document.createElement("video");
+  video.src = src;
+  video.autoplay = true;
+  video.controls = false;
+  video.style.maxWidth = "100%";
 
-  storyDiv.appendChild(video)
+  storyDiv.appendChild(video);
 
   video.addEventListener("ended", () => {
-    choix(137)
-  })
+    choix(137);
+  });
 }
 
 // Initialiser le jeu au chargement
-window.onload = afficherScenario
+window.onload = afficherScenario;

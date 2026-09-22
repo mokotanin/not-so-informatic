@@ -3,7 +3,9 @@
 1.
 
 # dépendances
+
 pour bien visualiser les données, il est nécessaire d'installer la bibliothèque matplotlib et tk. Vous pouvez l'installer en utilisant pip :
+
 ```bash
 pip install matplotlib tk
 ```

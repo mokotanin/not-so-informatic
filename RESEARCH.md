@@ -3,7 +3,7 @@
 ## prologue
 
 Le papier suivant décrit mes étapes pour réussir à me connecter et à accéder à internet depuis mon ordinateur opérant sous Arch Linux.\
-Si vous n'utilisez pas Linux, voir *proxy*.
+Si vous n'utilisez pas Linux, voir _proxy_.
 
 ### dépendances
 
@@ -45,7 +45,7 @@ Donc pour se connecter:
 nmtui
 ```
 
-Utilisez les **flèches directrices** et le **bouton** `Entrée` pour pouvoir naviguer dans le tui (*la souris ne fonctionnera jamais*).\
+Utilisez les **flèches directrices** et le **bouton** `Entrée` pour pouvoir naviguer dans le tui (_la souris ne fonctionnera jamais_).\
 Allez dans la **section** `Activer une connexion` et **sélectionnez** `Etablissement_invite`.\
 Quand un petit `*` apparaît à côté du nom du réseau, ça veut dire qu'on y est bien **connecté**.
 
@@ -56,7 +56,7 @@ Donc dans votre **navigateur**, écrivez:
 http://neverssl.com
 ```
 
-Quand la **page** avec *Lycée 4.0* apparaît, entrez votre **identifiant** et votre **mot de passe** tout en acceptant les conditions.\
+Quand la **page** avec _Lycée 4.0_ apparaît, entrez votre **identifiant** et votre **mot de passe** tout en acceptant les conditions.\
 Ensuite, un **bouton** `Téléchargement` apparaît sur la page. **Cliquez** dessus et un fichier `OnboardCertificate.pkcs12` devrait se **télécharger**.
 
 > [!CAUTION]
@@ -200,7 +200,7 @@ ping -c 4 1.1.1.1
 
 Quand je veux `curl`, je ne vais **jamais** réussir à **recevoir** les paquets.
 
-Je vais donc **chercher** la *route*.
+Je vais donc **chercher** la _route_.
 
 ```bash
 ip route
@@ -253,6 +253,7 @@ Et là on **obtient** du **HTML** avec `Web managerment Home` et un script qui *
 Je vais donc comparer le **réseau local** et **internet**.
 
 **Test des ports locaux:**
+
 ```bash
 nc -vz -w 5 10.167.227.254 443
 ```

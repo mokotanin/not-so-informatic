@@ -1,7 +1,8 @@
-![html](../assets/html.png) ![css](../assets/css.png) ![js](../assets/js.png)  ![php](../assets/php.png) 
+![html](../assets/html.png) ![css](../assets/css.png) ![js](../assets/js.png) ![php](../assets/php.png)
+
 # séance 10
 
-1. [code(Sic.)](./code(Sic)/) (html et css)
+1. [code(Sic.)](<./code(Sic)/>) (html et css)
 2. [pipo](./popipopipopipo/) (php)
 3. [jarvanIV](./jsarvanIV/)
 
@@ -17,7 +18,7 @@ mklink "C:\xampp\htdocs\NAME.php" "C:\PATH\TO\SOURCE.php"
 ## configurer XAMPP
 
 > [!IMPORTANT]
-> si le bouton `start` fonctionne sans rien faire, configurer XAMPP n'est *pas nécessaire*.
+> si le bouton `start` fonctionne sans rien faire, configurer XAMPP n'est _pas nécessaire_.
 
 1. cliquer sur `config` de `Apache`
 2. cliquer sur `httpd.conf`

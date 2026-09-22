@@ -1,4 +1,6 @@
-let nb = prompt("Entrer la numerooooooooooooo de la table de MULT1pL11c4110n que vous souhaitez afficher:");
+let nb = prompt(
+  "Entrer la numerooooooooooooo de la table de MULT1pL11c4110n que vous souhaitez afficher:",
+);
 document.getElementById("tab").innerText =
   "La table de multiplication de  " + nb + " est : ";
 let resultat_a_afficher = "";
