@@ -1,109 +1,147 @@
-name: Rust Release
+name: Deploy Rust Apps
 
 on:
   push:
-    tags:
-      - "*-v*"
+    branches: [main, master]
+    paths:
+      - "crabe/**"
+      - ".github/workflows/deploy-rust.yml"
+  pull_request:
+    paths:
+      - "crabe/**"
+  workflow_dispatch:
 
-permissions:
-  contents: write
+env:
+  CARGO_TERM_COLOR: always
 
 jobs:
-  release:
-    name: Build and release
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - os: ubuntu-latest
-            target: x86_64-unknown-linux-gnu
-            suffix: linux-x86_64
-
-          - os: windows-latest
-            target: x86_64-pc-windows-msvc
-            suffix: windows-x86_64
-
+  # ─────────────────────────────────────────────────────────
+  # 1. Découverte automatique des projets dans crabe/
+  # ─────────────────────────────────────────────────────────
+  discover:
+    name: Discover Rust projects
+    runs-on: ubuntu-latest
+    outputs:
+      apps: ${{ steps.list.outputs.apps }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get application
-        id: app
+      - name: List projects (any dir in crabe/ with a Cargo.toml)
+        id: list
         shell: bash
         run: |
-          TAG="${GITHUB_REF_NAME}"
-          APP="${TAG%-v*}"
-          VERSION="v${TAG#*-v}"
+          set -e
+          apps="[]"
+          if [ -d crabe ]; then
+            for dir in crabe/*/; do
+              [ -d "$dir" ] || continue
+              if [ -f "${dir}Cargo.toml" ]; then
+                name=$(basename "$dir")
+                apps=$(echo "$apps" | jq -c --arg n "$name" '. + [$n]')
+              fi
+            done
+          fi
+          echo "Découverts : $apps"
+          echo "apps=$apps" >> "$GITHUB_OUTPUT"
 
-          case "$APP" in
-            etchebest|grrs|gruyere|rmtui)
-              ;;
-            *)
-              echo "Unknown application: $APP"
-              exit 1
-              ;;
-          esac
+      - name: Fail if no project found
+        if: steps.list.outputs.apps == '[]'
+        run: |
+          echo "::error::Aucun projet Rust trouvé dans crabe/ (Cargo.toml manquant ?)"
+          exit 1
 
-          echo "app=$APP" >> "$GITHUB_OUTPUT"
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+  # ─────────────────────────────────────────────────────────
+  # 2. Build de chaque app × OS
+  # ─────────────────────────────────────────────────────────
+  build:
+    name: ${{ matrix.app }} → ${{ matrix.target }}
+    needs: discover
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        app: ${{ fromJSON(needs.discover.outputs.apps) }}
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            ext: ""
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            ext: ".exe"
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            ext: ""
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Rust
+      - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
         with:
           targets: ${{ matrix.target }}
 
-      - name: Build
-        working-directory: ${{ steps.app.outputs.app }}
+      - name: Cache Cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: crabe/${{ matrix.app }} -> target
+
+      - name: Build release
+        working-directory: crabe/${{ matrix.app }}
         run: cargo build --release --target ${{ matrix.target }}
 
-      - name: Package Linux
-        if: runner.os == 'Linux'
+      - name: Stage artifact
         shell: bash
         run: |
-          APP="${{ steps.app.outputs.app }}"
-          VERSION="${{ steps.app.outputs.version }}"
+          set -e
+          # Nom du binaire = nom du crate déclaré dans Cargo.toml (fallback: nom du dossier)
+          BIN_NAME=$(grep -m1 '^name' crabe/${{ matrix.app }}/Cargo.toml | sed -E 's/.*"(.*)".*/\1/')
+          [ -n "$BIN_NAME" ] || BIN_NAME="${{ matrix.app }}"
 
-          mkdir release
+          SRC="crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/${BIN_NAME}${{ matrix.ext }}"
+          OUT="${{ matrix.app }}-${{ matrix.target }}${{ matrix.ext }}"
 
-          cp "$APP/target/${{ matrix.target }}/release/$APP" \
-            "release/${APP}-${VERSION}-linux-x86_64"
-
-      - name: Package Windows
-        if: runner.os == 'Windows'
-        shell: bash
-        run: |
-          APP="${{ steps.app.outputs.app }}"
-          VERSION="${{ steps.app.outputs.version }}"
-
-          mkdir release
-
-          cp "$APP/target/${{ matrix.target }}/release/$APP.exe" \
-            "release/${APP}-${VERSION}-windows-x86_64.exe"
+          if [ ! -f "$SRC" ]; then
+            echo "::warning::Binaire introuvable à $SRC — dossier listing :"
+            ls -la "crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true
+            exit 1
+          fi
+          cp "$SRC" "$OUT"
+          echo "ARTIFACT_NAME=$OUT" >> "$GITHUB_ENV"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.suffix }}
-          path: release/*
+          name: ${{ matrix.app }}-${{ matrix.target }}
+          path: ${{ env.ARTIFACT_NAME }}
+          if-no-files-found: error
 
-  publish:
-    name: Publish release
-    needs: release
+  # ─────────────────────────────────────────────────────────
+  # 3. Release GitHub (uniquement sur tag v* ou manuel)
+  # ─────────────────────────────────────────────────────────
+  release:
+    name: Publish GitHub Release
+    needs: [discover, build]
     runs-on: ubuntu-latest
-
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
     steps:
-      - name: Download artifacts
+      - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
-          path: release
+          path: ./artifacts
           merge-multiple: true
 
-      - name: Create GitHub Release
+      - name: List
+        run: find ./artifacts -type f -exec ls -lh {} \;
+
+      - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
-          name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
           generate_release_notes: true
-          files: release/*
+          files: ./artifacts/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
