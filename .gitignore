@@ -7,3 +7,5 @@ nsi.code-workspace/
 /projets/marmotte/akinator.png
 venv/
 /crabe/*/target/
+dist/
+node_modules/
