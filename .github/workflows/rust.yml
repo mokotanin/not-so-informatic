@@ -1,0 +1,179 @@
+name: Deploy Rust Apps
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to release (e.g. 1.0.0)"
+        required: true
+        default: "1.0.0"
+        type: string
+      apps:
+        description: "Apps à builder (vide = toutes). Ex: grrs gruyere"
+        required: false
+        default: ""
+        type: string
+      draft:
+        description: "Create a draft release"
+        required: false
+        default: false
+        type: boolean
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  # ─────────────────────────────────────────────────────────
+  # 1. Découverte automatique des projets dans crabe/
+  # ─────────────────────────────────────────────────────────
+  discover:
+    name: Discover Rust projects
+    runs-on: ubuntu-latest
+    outputs:
+      apps: ${{ steps.list.outputs.apps }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List projects
+        id: list
+        shell: bash
+        run: |
+          set -e
+          apps="[]"
+          selected="${{ inputs.apps }}"
+          echo "Filtre demandé : '${selected}'"
+
+          if [ -d crabe ]; then
+            for dir in crabe/*/; do
+              [ -d "$dir" ] || continue
+              [ -f "${dir}Cargo.toml" ] || continue
+              name=$(basename "$dir")
+
+              # Si un filtre est fourni, ne garder que les apps demandées
+              if [ -n "$selected" ] && ! echo " $selected " | grep -q " $name "; then
+                echo "⏭️  $name : filtré"
+                continue
+              fi
+
+              echo "✅ $name : retenu"
+              apps=$(echo "$apps" | jq -c --arg n "$name" '. + [$n]')
+            done
+          fi
+
+          echo "Apps retenues : $apps"
+          echo "apps=$apps" >> "$GITHUB_OUTPUT"
+
+      - name: Fail if empty
+        if: steps.list.outputs.apps == '[]'
+        run: |
+          echo "::error::Aucun projet Rust à builder (vérifie le filtre 'apps' ou crabe/)"
+          exit 1
+
+  # ─────────────────────────────────────────────────────────
+  # 2. Build : app × target
+  # ─────────────────────────────────────────────────────────
+  build:
+    name: ${{ matrix.app }} → ${{ matrix.target }}
+    needs: discover
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        app: ${{ fromJSON(needs.discover.outputs.apps) }}
+        target:
+          - x86_64-unknown-linux-gnu
+          - x86_64-pc-windows-msvc
+          - aarch64-apple-darwin
+        include:
+          - target: x86_64-unknown-linux-gnu
+            os: ubuntu-latest
+            ext: ""
+          - target: x86_64-pc-windows-msvc
+            os: windows-latest
+            ext: ".exe"
+          - target: aarch64-apple-darwin
+            os: macos-latest
+            ext: ""
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - name: Cache Cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: crabe/${{ matrix.app }} -> target
+
+      - name: Build release
+        working-directory: crabe/${{ matrix.app }}
+        run: cargo build --release --target ${{ matrix.target }}
+
+      - name: Stage artifact
+        shell: bash
+        run: |
+          set -e
+          BIN_NAME=$(grep -m1 '^name' crabe/${{ matrix.app }}/Cargo.toml | sed -E 's/.*"(.*)".*/\1/')
+          [ -n "$BIN_NAME" ] || BIN_NAME="${{ matrix.app }}"
+
+          case "${{ matrix.target }}" in
+            x86_64-unknown-linux-gnu)   LABEL="linux-x64"   ;;
+            x86_64-pc-windows-msvc)     LABEL="windows-x64" ;;
+            aarch64-apple-darwin)       LABEL="macos-arm64" ;;
+            *)                          LABEL="${{ matrix.target }}" ;;
+          esac
+
+          SRC="crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/${BIN_NAME}${{ matrix.ext }}"
+          OUT="${{ matrix.app }}-${LABEL}${{ matrix.ext }}"
+
+          [ -f "$SRC" ] || { echo "::error::Binaire introuvable : $SRC"; ls -la "crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true; exit 1; }
+          cp "$SRC" "$OUT"
+          echo "ARTIFACT_NAME=$OUT" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.app }}-${{ matrix.target }}
+          path: ${{ env.ARTIFACT_NAME }}
+          if-no-files-found: error
+
+  # ─────────────────────────────────────────────────────────
+  # 3. Une release par app
+  # ─────────────────────────────────────────────────────────
+  release:
+    name: Release ${{ matrix.app }}
+    needs: [discover, build]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        app: ${{ fromJSON(needs.discover.outputs.apps) }}
+    steps:
+      - name: Check tag doesn't exist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh api "repos/${{ github.repository }}/git/refs/tags/${{ matrix.app }}-v${{ inputs.version }}" >/dev/null 2>&1; then
+            echo "::error::Le tag ${{ matrix.app }}-v${{ inputs.version }} existe déjà"
+            exit 1
+          fi
+
+      - name: Download artifacts for ${{ matrix.app }}
+        uses: actions/download-artifact@v4
+        with:
+          path: ./artifacts
+          pattern: ${{ matrix.app }}-*
+          merge-multiple: true
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ matrix.app }}-v${{ inputs.version }}
+          name: ${{ matrix.app }} v${{ inputs.version }}
+          draft: ${{ inputs.draft }}
+          generate_release_notes: true
+          files: ./artifacts/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
