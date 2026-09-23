@@ -24,10 +24,9 @@ jobs:
     outputs:
       apps: ${{ steps.list.outputs.apps }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: List projects (any dir in crabe/ with a Cargo.toml)
+      - name: List projects
         id: list
         shell: bash
         run: |
@@ -37,22 +36,21 @@ jobs:
             for dir in crabe/*/; do
               [ -d "$dir" ] || continue
               if [ -f "${dir}Cargo.toml" ]; then
-                name=$(basename "$dir")
-                apps=$(echo "$apps" | jq -c --arg n "$name" '. + [$n]')
+                apps=$(echo "$apps" | jq -c --arg n "$(basename "$dir")" '. + [$n]')
               fi
             done
           fi
           echo "Découverts : $apps"
           echo "apps=$apps" >> "$GITHUB_OUTPUT"
 
-      - name: Fail if no project found
+      - name: Fail if empty
         if: steps.list.outputs.apps == '[]'
         run: |
-          echo "::error::Aucun projet Rust trouvé dans crabe/ (Cargo.toml manquant ?)"
+          echo "::error::Aucun projet Rust trouvé dans crabe/"
           exit 1
 
   # ─────────────────────────────────────────────────────────
-  # 2. Build de chaque app × OS
+  # 2. Build : app × target  (os/ext fournis par include)
   # ─────────────────────────────────────────────────────────
   build:
     name: ${{ matrix.app }} → ${{ matrix.target }}
@@ -62,19 +60,22 @@ jobs:
       fail-fast: false
       matrix:
         app: ${{ fromJSON(needs.discover.outputs.apps) }}
+        target:
+          - x86_64-unknown-linux-gnu
+          - x86_64-pc-windows-msvc
+          - aarch64-apple-darwin
         include:
-          - os: ubuntu-latest
-            target: x86_64-unknown-linux-gnu
+          - target: x86_64-unknown-linux-gnu
+            os: ubuntu-latest
             ext: ""
-          - os: windows-latest
-            target: x86_64-pc-windows-msvc
+          - target: x86_64-pc-windows-msvc
+            os: windows-latest
             ext: ".exe"
-          - os: macos-latest
-            target: aarch64-apple-darwin
+          - target: aarch64-apple-darwin
+            os: macos-latest
             ext: ""
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
@@ -94,30 +95,24 @@ jobs:
         shell: bash
         run: |
           set -e
-          # Nom du binaire = nom du crate déclaré dans Cargo.toml (fallback: nom du dossier)
           BIN_NAME=$(grep -m1 '^name' crabe/${{ matrix.app }}/Cargo.toml | sed -E 's/.*"(.*)".*/\1/')
           [ -n "$BIN_NAME" ] || BIN_NAME="${{ matrix.app }}"
 
           SRC="crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/${BIN_NAME}${{ matrix.ext }}"
           OUT="${{ matrix.app }}-${{ matrix.target }}${{ matrix.ext }}"
 
-          if [ ! -f "$SRC" ]; then
-            echo "::warning::Binaire introuvable à $SRC — dossier listing :"
-            ls -la "crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true
-            exit 1
-          fi
+          [ -f "$SRC" ] || { echo "::error::Binaire introuvable : $SRC"; ls -la "crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true; exit 1; }
           cp "$SRC" "$OUT"
           echo "ARTIFACT_NAME=$OUT" >> "$GITHUB_ENV"
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.app }}-${{ matrix.target }}
           path: ${{ env.ARTIFACT_NAME }}
           if-no-files-found: error
 
   # ─────────────────────────────────────────────────────────
-  # 3. Release GitHub (uniquement sur tag v* ou manuel)
+  # 3. Release + SHA256SUMS
   # ─────────────────────────────────────────────────────────
   release:
     name: Publish GitHub Release
@@ -127,17 +122,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Download all artifacts
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           path: ./artifacts
           merge-multiple: true
 
-      - name: List
-        run: find ./artifacts -type f -exec ls -lh {} \;
+      - name: Generate SHA256SUMS
+        working-directory: ./artifacts
+        run: |
+          set -e
+          find . -maxdepth 1 -type f ! -name 'SHA256SUMS*' -printf '%f\n' \
+            | sort | xargs sha256sum > SHA256SUMS
+          cat SHA256SUMS
 
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
           name: Release ${{ github.ref_name }}
