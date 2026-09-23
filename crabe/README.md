@@ -9,6 +9,7 @@
 # listes des dossiers et c koi
 
 - [grrs](./grrs/) bootleg de `grep` et la pire conception de `ripgrep`. en tout honnêteté, je me suis rendu compte que trop tard que c'était pas ce que je voulais vraiment faire...
+- [etchebest](./etchebest/) hello world MONSIEUR RATATOUILLE (ratatui)
 - [rmtui](./rmtui/) premier vrai project dans l'optique de faire un nmtui plus moderne, minimal mais beau.
 
 ## dépendances
