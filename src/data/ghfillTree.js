@@ -123,6 +123,22 @@ function addFile(root, filePath, content) {
   })
 }
 
+function sortTree(nodes) {
+  return nodes
+    .map((node) =>
+      node.type === "folder"
+        ? { ...node, children: sortTree(node.children) }
+        : node,
+    )
+    .sort((left, right) => {
+      if (left.type !== right.type) return left.type === "folder" ? -1 : 1
+      return left.name.localeCompare(right.name, "fr", {
+        numeric: true,
+        sensitivity: "base",
+      })
+    })
+}
+
 async function buildTree() {
   const tree = await fetchJson(
     `https://api.github.com/repos/${repository}/git/trees/${branch}?recursive=1`,
@@ -138,7 +154,7 @@ async function buildTree() {
   const root = []
 
   files.forEach((entry, index) => addFile(root, entry.path, contents[index]))
-  return root
+  return sortTree(root)
 }
 
 function generatedModule(tree) {
