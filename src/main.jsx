@@ -4,13 +4,11 @@ import { HashRouter } from "react-router-dom"
 import App from "./App.jsx"
 import "./index.css"
 
-const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/"
-
 document.documentElement.classList.add("dark")
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter basename={basename}>
+    <HashRouter>
       <App />
     </HashRouter>
   </StrictMode>,

@@ -5,6 +5,9 @@ const apiHeaders = {
   Accept: "application/vnd.github+json",
   "User-Agent": "nsi-build",
 }
+const maxConcurrentFetches = 8
+const maxFetchAttempts = 3
+const retryDelayMs = 400
 
 const languageByExtension = {
   c: "C",
@@ -72,12 +75,29 @@ function isTextFile(filePath, size) {
   return !binaryExtensions.has(extension) && size <= 1_000_000
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, { headers: apiHeaders })
-  if (!response.ok) {
-    throw new Error(`GitHub API ${response.status}: ${url}`)
+async function fetchWithRetry(url, responseType, context) {
+  let error = null
+
+  for (let attempt = 1; attempt <= maxFetchAttempts; attempt += 1) {
+    try {
+      const response = await fetch(url, { headers: apiHeaders })
+      if (!response.ok) {
+        throw new Error(`GitHub ${response.status}: ${context}`)
+      }
+      return responseType === "json" ? response.json() : response.text()
+    } catch (nextError) {
+      error = nextError
+      if (attempt < maxFetchAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, retryDelayMs * attempt))
+      }
+    }
   }
-  return response.json()
+
+  throw error
+}
+
+async function fetchJson(url) {
+  return fetchWithRetry(url, "json", url)
 }
 
 async function fetchFileContent(filePath) {
@@ -85,11 +105,24 @@ async function fetchFileContent(filePath) {
     .split("/")
     .map(encodeURIComponent)
     .join("/")}`
-  const response = await fetch(url, { headers: apiHeaders })
-  if (!response.ok) {
-    throw new Error(`GitHub raw ${response.status}: ${filePath}`)
+  return fetchWithRetry(url, "text", filePath)
+}
+
+async function mapWithConcurrency(items, mapper) {
+  const results = new Array(items.length)
+  let currentIndex = 0
+
+  async function worker() {
+    while (currentIndex < items.length) {
+      const index = currentIndex
+      currentIndex += 1
+      results[index] = await mapper(items[index], index)
+    }
   }
-  return response.text()
+
+  const workerCount = Math.min(maxConcurrentFetches, items.length)
+  await Promise.all(Array.from({ length: workerCount }, () => worker()))
+  return results
 }
 
 function binaryFileContent(filePath, size) {
@@ -144,12 +177,10 @@ async function buildTree() {
     `https://api.github.com/repos/${repository}/git/trees/${branch}?recursive=1`,
   )
   const files = tree.tree.filter((entry) => entry.type === "blob")
-  const contents = await Promise.all(
-    files.map((entry) =>
-      isTextFile(entry.path, entry.size)
-        ? fetchFileContent(entry.path)
-        : binaryFileContent(entry.path, entry.size),
-    ),
+  const contents = await mapWithConcurrency(files, (entry) =>
+    isTextFile(entry.path, entry.size)
+      ? fetchFileContent(entry.path)
+      : binaryFileContent(entry.path, entry.size),
   )
   const root = []
 
@@ -182,7 +213,13 @@ export function ghfillTreePlugin() {
     enforce: "pre",
     async buildStart() {
       this.warn(`Chargement de ${repository}@${branch} pour ghfillTree.js...`)
-      generatedCode = generatedModule(await buildTree())
+      try {
+        generatedCode = generatedModule(await buildTree())
+      } catch (error) {
+        this.warn(
+          `Impossible de charger les données GitHub, fallback local utilisé: ${error.message}`,
+        )
+      }
     },
     load(id) {
       if (id.replaceAll("\\", "/").endsWith(modulePath) && generatedCode) {
@@ -193,14 +230,5 @@ export function ghfillTreePlugin() {
   }
 }
 
-export const fileTree = []
-export const ghfillTree = fileTree
-
-export function flattenTree(nodes, ancestors = []) {
-  return nodes.flatMap((node) => {
-    const entry = { ...node, ancestors }
-    return node.type === "folder"
-      ? [entry, ...flattenTree(node.children, [...ancestors, node])]
-      : [entry]
-  })
-}
+export { fileTree, flattenTree } from "./fileTree"
+export { fileTree as ghfillTree } from "./fileTree"

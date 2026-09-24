@@ -1,4 +1,4 @@
-import { cn } from "cn"
+import { cn } from "@/lib/utils"
 
 function ScrollArea({ className, viewportClassName, children, ...props }) {
   return (
