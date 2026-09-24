@@ -1,13 +1,13 @@
-const repository = "mokotanin/nsi"
-const branch = "main"
-const modulePath = "/src/data/ghfillTree.js"
+const repository = "mokotanin/not-so-informatic";
+const branch = "main";
+const modulePath = "/src/data/ghfillTree.js";
 const apiHeaders = {
   Accept: "application/vnd.github+json",
   "User-Agent": "nsi-build",
-}
-const maxConcurrentFetches = 8
-const maxFetchAttempts = 3
-const retryDelayMs = 400
+};
+const maxConcurrentFetches = 8;
+const maxFetchAttempts = 3;
+const retryDelayMs = 400;
 
 const languageByExtension = {
   c: "C",
@@ -32,7 +32,7 @@ const languageByExtension = {
   xml: "XML",
   yaml: "YAML",
   yml: "YAML",
-}
+};
 
 const binaryExtensions = new Set([
   "7z",
@@ -63,88 +63,97 @@ const binaryExtensions = new Set([
   "xls",
   "xlsx",
   "zip",
-])
+]);
 
 function getLanguage(filePath) {
-  const extension = filePath.split(".").pop()?.toLowerCase()
-  return languageByExtension[extension] ?? "Text"
+  const extension = filePath.split(".").pop()?.toLowerCase();
+  return languageByExtension[extension] ?? "Text";
 }
 
 function isTextFile(filePath, size) {
-  const extension = filePath.split(".").pop()?.toLowerCase()
-  return !binaryExtensions.has(extension) && size <= 1_000_000
+  const extension = filePath.split(".").pop()?.toLowerCase();
+  return !binaryExtensions.has(extension) && size <= 1_000_000;
 }
 
 async function fetchWithRetry(url, responseType, context) {
-  let error = null
+  let error = null;
 
   for (let attempt = 1; attempt <= maxFetchAttempts; attempt += 1) {
     try {
-      const response = await fetch(url, { headers: apiHeaders })
+      const response = await fetch(url, { headers: apiHeaders });
       if (!response.ok) {
-        throw new Error(`GitHub ${response.status}: ${context}`)
+        throw new Error(`GitHub ${response.status}: ${context}`);
       }
-      return responseType === "json" ? response.json() : response.text()
+      return responseType === "json" ? response.json() : response.text();
     } catch (nextError) {
-      error = nextError
+      error = nextError;
       if (attempt < maxFetchAttempts) {
-        await new Promise((resolve) => setTimeout(resolve, retryDelayMs * attempt))
+        await new Promise((resolve) =>
+          setTimeout(resolve, retryDelayMs * attempt),
+        );
       }
     }
   }
 
-  throw error
+  throw error;
 }
 
 async function fetchJson(url) {
-  return fetchWithRetry(url, "json", url)
+  return fetchWithRetry(url, "json", url);
 }
 
 async function fetchFileContent(filePath, revision) {
   const url = `https://raw.githubusercontent.com/${repository}/${revision}/${filePath
     .split("/")
     .map(encodeURIComponent)
-    .join("/")}`
-  return fetchWithRetry(url, "text", filePath)
+    .join("/")}`;
+  return fetchWithRetry(url, "text", filePath);
 }
 
 async function mapWithConcurrency(items, mapper) {
-  const results = new Array(items.length)
-  let currentIndex = 0
+  const results = new Array(items.length);
+  let currentIndex = 0;
 
   async function worker() {
     while (currentIndex < items.length) {
-      const index = currentIndex
-      currentIndex += 1
-      results[index] = await mapper(items[index], index)
+      const index = currentIndex;
+      currentIndex += 1;
+      results[index] = await mapper(items[index], index);
     }
   }
 
-  const workerCount = Math.min(maxConcurrentFetches, items.length)
-  await Promise.all(Array.from({ length: workerCount }, () => worker()))
-  return results
+  const workerCount = Math.min(maxConcurrentFetches, items.length);
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return results;
 }
 
 function binaryFileContent(filePath, size) {
-  const extension = filePath.split(".").pop()?.toLowerCase()
-  const type = binaryExtensions.has(extension) ? "binaire" : "trop volumineux"
-  return `[Fichier ${type} non affichable dans l'explorateur: ${filePath} (${size} octets)]`
+  const extension = filePath.split(".").pop()?.toLowerCase();
+  const type = binaryExtensions.has(extension) ? "binaire" : "trop volumineux";
+  return `[Fichier ${type} non affichable dans l'explorateur: ${filePath} (${size} octets)]`;
 }
 
 function addFile(root, filePath, content) {
-  const parts = filePath.split("/")
-  const fileName = parts.pop()
-  let current = root
-  let currentPath = ""
+  const parts = filePath.split("/");
+  const fileName = parts.pop();
+  let current = root;
+  let currentPath = "";
 
   for (const folderName of parts) {
-    currentPath = currentPath ? `${currentPath}/${folderName}` : folderName
-    let folder = current.find((node) => node.type === "folder" && node.name === folderName)
+    currentPath = currentPath ? `${currentPath}/${folderName}` : folderName;
+    let folder = current.find(
+      (node) => node.type === "folder" && node.name === folderName,
+    );
     if (!folder) {
-      folder = { type: "folder", name: folderName, path: currentPath, children: [] }
-      current.push(folder)
+      folder = {
+        type: "folder",
+        name: folderName,
+        path: currentPath,
+        children: [],
+      };
+      current.push(folder);
     }
-    current = folder.children
+    current = folder.children;
   }
 
   current.push({
@@ -153,7 +162,7 @@ function addFile(root, filePath, content) {
     path: filePath,
     language: getLanguage(filePath),
     content,
-  })
+  });
 }
 
 function sortTree(nodes) {
@@ -164,31 +173,31 @@ function sortTree(nodes) {
         : node,
     )
     .sort((left, right) => {
-      if (left.type !== right.type) return left.type === "folder" ? -1 : 1
+      if (left.type !== right.type) return left.type === "folder" ? -1 : 1;
       return left.name.localeCompare(right.name, "fr", {
         numeric: true,
         sensitivity: "base",
-      })
-    })
+      });
+    });
 }
 
 async function buildTree() {
   const commit = await fetchJson(
     `https://api.github.com/repos/${repository}/commits/${branch}`,
-  )
+  );
   const tree = await fetchJson(
     `https://api.github.com/repos/${repository}/git/trees/${commit.sha}?recursive=1`,
-  )
-  const files = tree.tree.filter((entry) => entry.type === "blob")
+  );
+  const files = tree.tree.filter((entry) => entry.type === "blob");
   const contents = await mapWithConcurrency(files, (entry) =>
     isTextFile(entry.path, entry.size)
       ? fetchFileContent(entry.path, commit.sha)
       : binaryFileContent(entry.path, entry.size),
-  )
-  const root = []
+  );
+  const root = [];
 
-  files.forEach((entry, index) => addFile(root, entry.path, contents[index]))
-  return sortTree(root)
+  files.forEach((entry, index) => addFile(root, entry.path, contents[index]));
+  return sortTree(root);
 }
 
 function generatedModule(tree) {
@@ -205,33 +214,33 @@ export function flattenTree(nodes, ancestors = []) {
       : [entry]
   })
 }
-`
+`;
 }
 
 export function ghfillTreePlugin() {
-  let generatedCode
+  let generatedCode;
 
   return {
     name: "ghfill-tree",
     enforce: "pre",
     async buildStart() {
-      this.warn(`Chargement de ${repository}@${branch} pour ghfillTree.js...`)
+      this.warn(`Chargement de ${repository}@${branch} pour ghfillTree.js...`);
       try {
-        generatedCode = generatedModule(await buildTree())
+        generatedCode = generatedModule(await buildTree());
       } catch (error) {
         this.warn(
           `Impossible de charger les données GitHub, fallback local utilisé: ${error.message}`,
-        )
+        );
       }
     },
     load(id) {
       if (id.replaceAll("\\", "/").endsWith(modulePath) && generatedCode) {
-        return generatedCode
+        return generatedCode;
       }
-      return null
+      return null;
     },
-  }
+  };
 }
 
-export { fileTree, flattenTree } from "./fileTree.js"
-export { fileTree as ghfillTree } from "./fileTree.js"
+export { fileTree, flattenTree } from "./fileTree.js";
+export { fileTree as ghfillTree } from "./fileTree.js";
