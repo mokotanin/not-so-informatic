@@ -1,4 +1,5 @@
-import { Fragment, useEffect, useMemo, useRef, useState } from "react"
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import {
   Braces,
   ChevronDown,
@@ -13,38 +14,47 @@ import {
   Menu,
   Search,
   X,
-} from "lucide-react"
-import { AppleSwitch } from "@/components/AppleSwitch"
-import { Button } from "@/components/ui/button"
+} from "lucide-react";
+import favicon from "../../assets/favicon.png";
+import { AppleSwitch } from "@/components/AppleSwitch";
+import { Button } from "@/components/ui/button";
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
-import { Input } from "@/components/ui/input"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet"
-import { flattenTree, fileTree } from "@/data/ghfillTree"
+} from "@/components/ui/breadcrumb";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { Input } from "@/components/ui/input";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
+import { flattenTree, fileTree } from "@/data/ghfillTree";
 
 function getFileIcon(name) {
-  const extension = name.split(".").pop()?.toLowerCase()
-  if (["md", "txt", "pdf"].includes(extension)) return FileText
-  if (["py", "js", "jsx", "html", "css", "sql", "json"].includes(extension)) return FileCode2
-  return File
+  const extension = name.split(".").pop()?.toLowerCase();
+  if (["md", "txt", "pdf"].includes(extension)) return FileText;
+  if (["py", "js", "jsx", "html", "css", "sql", "json"].includes(extension))
+    return FileCode2;
+  return File;
 }
 
 function includesTerm(node, term) {
-  if (node.name.toLocaleLowerCase("fr").includes(term)) return true
-  return node.type === "folder" && node.children.some((child) => includesTerm(child, term))
+  if (node.name.toLocaleLowerCase("fr").includes(term)) return true;
+  return (
+    node.type === "folder" &&
+    node.children.some((child) => includesTerm(child, term))
+  );
 }
 
 function HighlightedName({ name, term }) {
-  if (!term) return name
-  const start = name.toLocaleLowerCase("fr").indexOf(term)
-  if (start < 0) return name
+  if (!term) return name;
+  const start = name.toLocaleLowerCase("fr").indexOf(term);
+  if (start < 0) return name;
 
   return (
     <>
@@ -54,7 +64,7 @@ function HighlightedName({ name, term }) {
       </mark>
       {name.slice(start + term.length)}
     </>
-  )
+  );
 }
 
 function FileTree({
@@ -68,15 +78,27 @@ function FileTree({
   onFileSelect,
   onToggle,
 }) {
-  const visibleNodes = query ? nodes.filter((node) => includesTerm(node, query)) : nodes
+  const visibleNodes = query
+    ? nodes.filter((node) => includesTerm(node, query))
+    : nodes;
 
   return visibleNodes.map((node) => {
-    const isFolder = node.type === "folder"
+    const isFolder = node.type === "folder";
     const isOpen =
       expanded.has(node.path) ||
-      Boolean(query && isFolder && node.children.some((child) => includesTerm(child, query)))
-    const isSelected = isFolder ? currentFolderPath === node.path : selectedPath === node.path
-    const Icon = isFolder ? (isOpen ? FolderOpen : Folder) : getFileIcon(node.name)
+      Boolean(
+        query &&
+        isFolder &&
+        node.children.some((child) => includesTerm(child, query)),
+      );
+    const isSelected = isFolder
+      ? currentFolderPath === node.path
+      : selectedPath === node.path;
+    const Icon = isFolder
+      ? isOpen
+        ? FolderOpen
+        : Folder
+      : getFileIcon(node.name);
 
     return (
       <div key={node.path}>
@@ -142,8 +164,8 @@ function FileTree({
           </div>
         )}
       </div>
-    )
-  })
+    );
+  });
 }
 
 function SidebarContents({
@@ -157,25 +179,44 @@ function SidebarContents({
   onRootSelect,
   onClose,
 }) {
-  const allEntries = useMemo(() => flattenTree(fileTree), [])
-  const fileCount = allEntries.filter((entry) => entry.type === "file").length
+  const [isLogoOpen, setIsLogoOpen] = useState(false);
+  const allEntries = useMemo(() => flattenTree(fileTree), []);
+  const fileCount = allEntries.filter((entry) => entry.type === "file").length;
+
+  useEffect(() => {
+    if (!isLogoOpen) return;
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setIsLogoOpen(false);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isLogoOpen]);
 
   return (
     <div className="flex h-full min-h-0 flex-col bg-background text-foreground">
       <div className="flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4">
-        <Button
-          type="button"
-          variant="ghost"
-          onClick={onRootSelect}
-          className="h-auto justify-start gap-2.5 p-0 text-left hover:bg-transparent"
-        >
-          <span className="flex size-7 items-center justify-center rounded-md border border-border bg-secondary text-[11px] font-semibold tracking-tight text-foreground">
-            N
-          </span>
-          <span className="text-xs font-medium tracking-wide">
-            NSI <span className="text-muted-foreground">/ explorer</span>
-          </span>
-        </Button>
+        <div className="flex min-w-0 items-center gap-2.5">
+          <button
+            type="button"
+            onClick={() => setIsLogoOpen(true)}
+            aria-label="Agrandir le logo NSI"
+            className="flex size-7 shrink-0 items-center justify-center rounded-md border border-border bg-secondary transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
+            <img src={favicon} alt="" className="size-6 object-contain" />
+          </button>
+          <Button
+            type="button"
+            variant="ghost"
+            onClick={onRootSelect}
+            className="h-auto justify-start p-0 text-left hover:bg-transparent"
+          >
+            <span className="text-xs font-medium tracking-wide">
+              NSI <span className="text-muted-foreground">/ explorer</span>
+            </span>
+          </Button>
+        </div>
         {onClose && (
           <Button
             type="button"
@@ -190,11 +231,47 @@ function SidebarContents({
         )}
       </div>
 
+      {isLogoOpen &&
+        createPortal(
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label="Logo NSI en grand"
+            onClick={() => setIsLogoOpen(false)}
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/75 p-6 backdrop-blur-sm"
+          >
+            <div
+              onClick={(event) => event.stopPropagation()}
+              className="relative rounded-2xl border border-border bg-background p-5 shadow-2xl"
+            >
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                onClick={() => setIsLogoOpen(false)}
+                aria-label="Fermer"
+                autoFocus
+                className="absolute right-2 top-2 z-10"
+              >
+                <X />
+              </Button>
+              <img
+                src={favicon}
+                alt="Logo NSI"
+                className="max-h-[75vh] max-w-[min(80vw,40rem)] object-contain"
+              />
+            </div>
+          </div>,
+          document.body,
+        )}
+
       <div className="flex items-center justify-between px-4 pb-2 pt-5">
         <span className="text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
           Explorateur
         </span>
-        <span className="font-mono text-[10px] text-muted-foreground/70">{fileCount}</span>
+        <span className="font-mono text-[10px] text-muted-foreground/70">
+          {fileCount}
+        </span>
       </div>
       <Button
         type="button"
@@ -205,7 +282,10 @@ function SidebarContents({
         <Home className="size-3.5" /> Accueil
       </Button>
 
-      <ScrollArea className="min-h-0 flex-1 px-2 pb-4" viewportClassName="h-full">
+      <ScrollArea
+        className="min-h-0 flex-1 px-2 pb-4"
+        viewportClassName="h-full"
+      >
         {query && !fileTree.some((node) => includesTerm(node, query)) ? (
           <p className="px-3 py-5 text-xs text-muted-foreground">
             Aucun fichier ou dossier trouvé.
@@ -230,62 +310,65 @@ function SidebarContents({
         </p>
       </div>
     </div>
-  )
+  );
 }
 
 function ExplorerPage() {
-  const [query, setQuery] = useState("")
+  const [query, setQuery] = useState("");
   const [expanded, setExpanded] = useState(
     () => new Set(["Algorithmique", "Python", "Bases de données", "Réseaux"]),
-  )
-  const [currentFolderPath, setCurrentFolderPath] = useState("")
-  const [selectedFile, setSelectedFile] = useState(null)
-  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
-  const [wrapLines, setWrapLines] = useState(false)
-  const searchRef = useRef(null)
-  const normalizedQuery = query.trim().toLocaleLowerCase("fr")
+  );
+  const [currentFolderPath, setCurrentFolderPath] = useState("");
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+  const [wrapLines, setWrapLines] = useState(false);
+  const searchRef = useRef(null);
+  const normalizedQuery = query.trim().toLocaleLowerCase("fr");
   const pathParts = selectedFile
     ? selectedFile.path.split("/")
     : currentFolderPath
       ? currentFolderPath.split("/")
-      : []
-  const lineCount = selectedFile?.content.split("\n").length ?? 0
+      : [];
+  const lineCount = selectedFile?.content.split("\n").length ?? 0;
 
   useEffect(() => {
     function handleShortcut(event) {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
-        event.preventDefault()
-        searchRef.current?.focus()
+        event.preventDefault();
+        searchRef.current?.focus();
       }
-      if (event.key === "Escape" && document.activeElement === searchRef.current) {
-        setQuery("")
-        searchRef.current?.blur()
+      if (
+        event.key === "Escape" &&
+        document.activeElement === searchRef.current
+      ) {
+        setQuery("");
+        searchRef.current?.blur();
       }
     }
 
-    window.addEventListener("keydown", handleShortcut)
-    return () => window.removeEventListener("keydown", handleShortcut)
-  }, [])
+    window.addEventListener("keydown", handleShortcut);
+    return () => window.removeEventListener("keydown", handleShortcut);
+  }, []);
 
   function selectFolder(path) {
-    setCurrentFolderPath(path)
-    setSelectedFile(null)
-    setMobileSidebarOpen(false)
+    setCurrentFolderPath(path);
+    setSelectedFile(null);
+    setMobileSidebarOpen(false);
   }
 
   function selectFile(file) {
-    setSelectedFile(file)
-    setCurrentFolderPath(file.path.split("/").slice(0, -1).join("/"))
-    setMobileSidebarOpen(false)
+    setSelectedFile(file);
+    setCurrentFolderPath(file.path.split("/").slice(0, -1).join("/"));
+    setMobileSidebarOpen(false);
   }
 
   function toggleFolder(path) {
     setExpanded((previous) => {
-      const next = new Set(previous)
-      if (next.has(path)) next.delete(path)
-      else next.add(path)
-      return next
-    })
+      const next = new Set(previous);
+      if (next.has(path)) next.delete(path);
+      else next.add(path);
+      return next;
+    });
   }
 
   function renderSidebar(onClose) {
@@ -296,15 +379,15 @@ function ExplorerPage() {
         currentFolderPath={currentFolderPath}
         selectedPath={selectedFile?.path}
         onFolderSelect={(folder) => {
-          selectFolder(folder.path)
-          setExpanded((previous) => new Set(previous).add(folder.path))
+          selectFolder(folder.path);
+          setExpanded((previous) => new Set(previous).add(folder.path));
         }}
         onFileSelect={selectFile}
         onToggle={toggleFolder}
         onRootSelect={() => selectFolder("")}
         onClose={onClose}
       />
-    )
+    );
   }
 
   return (
@@ -352,8 +435,8 @@ function ExplorerPage() {
                 </Button>
               </BreadcrumbItem>
               {pathParts.map((part, index) => {
-                const path = pathParts.slice(0, index + 1).join("/")
-                const isCurrent = index === pathParts.length - 1
+                const path = pathParts.slice(0, index + 1).join("/");
+                const isCurrent = index === pathParts.length - 1;
 
                 return (
                   <Fragment key={path}>
@@ -376,7 +459,7 @@ function ExplorerPage() {
                       )}
                     </BreadcrumbItem>
                   </Fragment>
-                )
+                );
               })}
             </BreadcrumbList>
           </Breadcrumb>
@@ -413,7 +496,11 @@ function ExplorerPage() {
         <div className="flex min-h-0 flex-1 flex-col">
           <div className="flex h-10 shrink-0 items-center justify-between border-b border-border bg-secondary/20 px-4 sm:px-6">
             <div className="flex min-w-0 items-center gap-2 text-xs text-muted-foreground">
-              {selectedFile ? <Code2 className="size-3.5" /> : <Braces className="size-3.5" />}
+              {selectedFile ? (
+                <Code2 className="size-3.5" />
+              ) : (
+                <Braces className="size-3.5" />
+              )}
               <span className="truncate">{selectedFile?.name ?? "Aperçu"}</span>
               {selectedFile && (
                 <span className="hidden font-mono text-[10px] text-muted-foreground/60 sm:inline">
@@ -454,7 +541,11 @@ function ExplorerPage() {
               <ScrollArea className="min-h-0 flex-1" viewportClassName="h-full">
                 <div className="file-preview min-w-0 py-5 pr-6">
                   <pre
-                    className={wrapLines ? "whitespace-pre-wrap wrap-break-word" : "whitespace-pre"}
+                    className={
+                      wrapLines
+                        ? "whitespace-pre-wrap wrap-break-word"
+                        : "whitespace-pre"
+                    }
                   >
                     <code>
                       {selectedFile.content.split("\n").map((line, index) => (
@@ -488,11 +579,16 @@ function ExplorerPage() {
                 </div>
                 <h1 className="text-sm font-medium">Sélectionne un fichier</h1>
                 <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
-                  Choisis un fichier dans l’explorateur pour consulter son contenu.
+                  Choisis un fichier dans l’explorateur pour consulter son
+                  contenu.
                 </p>
                 <p className="mt-5 font-mono text-[10px] text-muted-foreground/60">
-                  {flattenTree(fileTree).filter((entry) => entry.type === "file").length} fichiers ·
-                  NSI
+                  {
+                    flattenTree(fileTree).filter(
+                      (entry) => entry.type === "file",
+                    ).length
+                  }{" "}
+                  fichiers · Not So Informatic
                 </p>
               </div>
             </div>
@@ -500,7 +596,7 @@ function ExplorerPage() {
         </div>
       </section>
     </main>
-  )
+  );
 }
 
-export { ExplorerPage }
+export { ExplorerPage };
