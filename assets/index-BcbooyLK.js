@@ -7166,7 +7166,7 @@ Ce projet est un jeu type space invader basé sur la bibliothèque Pyxel et les 
 - [morpion](./morpion/)
 - [space invader](./space%20invader/)
 - [marmotte](./marmotte/)
-`}]},{type:`folder`,name:`séance 7`,path:`séance 7`,children:[{type:`file`,name:`iris.csv`,path:`séance 7/iris.csv`,language:`Text`,content:`petal_length,petal_width,species
+`}]},{type:`folder`,name:`séance 07`,path:`séance 07`,children:[{type:`file`,name:`iris.csv`,path:`séance 07/iris.csv`,language:`Text`,content:`petal_length,petal_width,species
 1.4,0.2,0
 1.4,0.2,0
 1.3,0.2,0
@@ -7317,7 +7317,7 @@ Ce projet est un jeu type space invader basé sur la bibliothèque Pyxel et les 
 5.2,2.0,2
 5.4,2.3,2
 5.1,1.8,2
-`},{type:`file`,name:`KNN.py`,path:`séance 7/KNN.py`,language:`Python`,content:`import pandas
+`},{type:`file`,name:`KNN.py`,path:`séance 07/KNN.py`,language:`Python`,content:`import pandas
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 iris=pandas.read_csv("iris.csv")
@@ -7349,7 +7349,7 @@ plt.text(3,0.5,"largeur : {0} cm, longueur : {1} cm.".format(largeur,longueur),f
 plt.text(3,0.3, "k : {0}".format(k), fontsize=12) 
 plt.text(3,0.1, txt, fontsize=12) 
 #fin affichage résultats
-plt.show()`},{type:`file`,name:`NSI_1iere_S7.pdf`,path:`séance 7/NSI_1iere_S7.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 7/NSI_1iere_S7.pdf (433442 octets)]`},{type:`file`,name:`README.md`,path:`séance 7/README.md`,language:`Markdown`,content:`# KNN
+plt.show()`},{type:`file`,name:`NSI_1iere_S7.pdf`,path:`séance 07/NSI_1iere_S7.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 07/NSI_1iere_S7.pdf (433442 octets)]`},{type:`file`,name:`README.md`,path:`séance 07/README.md`,language:`Markdown`,content:`# KNN
 
 jsp à quoi ce truc sert mais en tout cas c'est fleuri
 
@@ -7358,7 +7358,7 @@ jsp à quoi ce truc sert mais en tout cas c'est fleuri
 \`\`\`
 pip install matplotlib scikit-learn pandas
 \`\`\`
-`}]},{type:`folder`,name:`séance 8`,path:`séance 8`,children:[{type:`folder`,name:`1. première application`,path:`séance 8/1. première application`,children:[{type:`file`,name:`bot ver.py`,path:`séance 8/1. première application/bot ver.py`,language:`Python`,content:`from tkinter import *
+`}]},{type:`folder`,name:`séance 08`,path:`séance 08`,children:[{type:`folder`,name:`1. première application`,path:`séance 08/1. première application`,children:[{type:`file`,name:`bot ver.py`,path:`séance 08/1. première application/bot ver.py`,language:`Python`,content:`from tkinter import *
 import webbrowser
 window=Tk()
 window.title("Mon Application")
@@ -7379,7 +7379,7 @@ def ouvrir_nsi():
 bouton_nsi=Button(frame2,text="NSI",font=("Courrier",20),bg="#0050FF",fg="white",command=ouvrir_nsi)
 bouton_nsi.pack(pady=50,fill=X,padx=50)
 
-window.mainloop()`},{type:`file`,name:`chiyo ver.py`,path:`séance 8/1. première application/chiyo ver.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`chiyo ver.py`,path:`séance 08/1. première application/chiyo ver.py`,language:`Python`,content:`from tkinter import *
 import webbrowser
 from PIL import Image, ImageTk
 window=Tk()
@@ -7406,12 +7406,12 @@ def ouvrir_nsi():
 bouton_nsi=Button(frame2,text="NSI",font=("Courrier",20),bg="#0050FF",fg="white",command=ouvrir_nsi)
 bouton_nsi.pack(pady=50,fill=X,padx=50)
 
-window.mainloop()`},{type:`file`,name:`ouii.jpg`,path:`séance 8/1. première application/ouii.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 8/1. première application/ouii.jpg (50050 octets)]`},{type:`file`,name:`README.md`,path:`séance 8/1. première application/README.md`,language:`Markdown`,content:`# 1. première application
+window.mainloop()`},{type:`file`,name:`ouii.jpg`,path:`séance 08/1. première application/ouii.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/1. première application/ouii.jpg (50050 octets)]`},{type:`file`,name:`README.md`,path:`séance 08/1. première application/README.md`,language:`Markdown`,content:`# 1. première application
 
 - [bot ver](/séance%208/1.%20première%20application/bot%20ver.py)
 - [chiyo ver](/séance%208/1.%20première%20application/chiyo%20ver.py)
 - [sac-a-dos](/séance%208/1.%20première%20application/sac-a-dos.py) (inutile ?)
-`},{type:`file`,name:`sac-a-dos.py`,path:`séance 8/1. première application/sac-a-dos.py`,language:`Python`,content:`# Créé par csieg, le 28/11/2025 en Python 3.7
+`},{type:`file`,name:`sac-a-dos.py`,path:`séance 08/1. première application/sac-a-dos.py`,language:`Python`,content:`# Créé par csieg, le 28/11/2025 en Python 3.7
 # Créé par csieg, le 21/11/2025 en Python 3.7
 
 Valeurs=[[4,6],[6,7],[8,13],[12,16]] #declaration des objets
@@ -7440,7 +7440,7 @@ for i in range(0,len(rapport)):# on veut lire chaque element des coefficient rap
 print("valeurs",Valeurs)
 print("rapport",rapport)
 print("indice",indices)
-`}]},{type:`folder`,name:`2. générateur de mot de passe`,path:`séance 8/2. générateur de mot de passe`,children:[{type:`file`,name:`login.png`,path:`séance 8/2. générateur de mot de passe/login.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 8/2. générateur de mot de passe/login.png (17969 octets)]`},{type:`file`,name:`mdp.py`,path:`séance 8/2. générateur de mot de passe/mdp.py`,language:`Python`,content:`from tkinter import *
+`}]},{type:`folder`,name:`2. générateur de mot de passe`,path:`séance 08/2. générateur de mot de passe`,children:[{type:`file`,name:`login.png`,path:`séance 08/2. générateur de mot de passe/login.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/2. générateur de mot de passe/login.png (17969 octets)]`},{type:`file`,name:`mdp.py`,path:`séance 08/2. générateur de mot de passe/mdp.py`,language:`Python`,content:`from tkinter import *
 from string import *
 from random import *
 import tkinter as tk
@@ -7514,10 +7514,10 @@ menu_fichier.add_command(label="Quitter", command=window.quit)
 menu_barre.add_cascade(label="Fichier", menu=menu_fichier)
 window.config(menu=menu_barre)
 
-window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 8/2. générateur de mot de passe/README.md`,language:`Markdown`,content:`# 2. générateur de mot de passe
+window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 08/2. générateur de mot de passe/README.md`,language:`Markdown`,content:`# 2. générateur de mot de passe
 
 - [mdp](/séance%208/2.%20générateur%20de%20mot%20de%20passe/mdp.py)
-`}]},{type:`folder`,name:`exercices`,path:`séance 8/exercices`,children:[{type:`file`,name:`exercice 1.py`,path:`séance 8/exercices/exercice 1.py`,language:`Python`,content:`import tkinter as tk
+`}]},{type:`folder`,name:`exercices`,path:`séance 08/exercices`,children:[{type:`file`,name:`exercice 1.py`,path:`séance 08/exercices/exercice 1.py`,language:`Python`,content:`import tkinter as tk
 from tkinter import *
 
 window=Tk()
@@ -7530,7 +7530,7 @@ Label=Label(Frame,text="Bonjour tout le monde")
 Label.pack()
 Button=Button(Frame,text="Quitter",command=quit)
 Button.pack()
-window.mainloop()`},{type:`file`,name:`exercice 2.py`,path:`séance 8/exercices/exercice 2.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 2.py`,path:`séance 08/exercices/exercice 2.py`,language:`Python`,content:`from tkinter import *
 from random import *
 
 def NouveauLance():
@@ -7554,7 +7554,7 @@ LabelResultat.pack(padx=0,pady=0)
 BoutonQuitter=Button(window,text="Quitter",command=quit)
 BoutonQuitter.pack(padx=15,pady=5)
 
-window.mainloop()`},{type:`file`,name:`exercice 3.py`,path:`séance 8/exercices/exercice 3.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 3.py`,path:`séance 08/exercices/exercice 3.py`,language:`Python`,content:`from tkinter import *
 
 window=Tk()
 window.title("Exo3")
@@ -7574,7 +7574,7 @@ carre()
 Resultatat=Label(window,textvariable=Resultat)
 Resultatat.place(x=100,y=30)
 
-window.mainloop()`},{type:`file`,name:`exercice 4.py`,path:`séance 8/exercices/exercice 4.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 4.py`,path:`séance 08/exercices/exercice 4.py`,language:`Python`,content:`from tkinter import *
 
 def plus():
     Valeur.set(str(int(Valeur.get())+10))
@@ -7595,7 +7595,7 @@ BP_plus=Button(window,text="+",command=plus)
 BP_plus.pack(padx=0,pady=0)
 BP_moins=Button(window,text="-",command=moins)
 BP_moins.pack(padx=10,pady=10)
-window.mainloop()`},{type:`file`,name:`exercice 5.py`,path:`séance 8/exercices/exercice 5.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 5.py`,path:`séance 08/exercices/exercice 5.py`,language:`Python`,content:`from tkinter import *
 from random import *
 
 def nl():
@@ -7641,7 +7641,7 @@ BoutonL.pack(side=LEFT,padx=15,pady=15)
 BoutonQ=Button(Frame2,text='Quitter',command=quit)
 BoutonQ.pack(side=RIGHT,padx=15,pady=33)
 
-window.mainloop()`},{type:`file`,name:`exercice 6.py`,path:`séance 8/exercices/exercice 6.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 6.py`,path:`séance 08/exercices/exercice 6.py`,language:`Python`,content:`from tkinter import *
 from string import *
 from random import *
 import tkinter as tk
@@ -7697,7 +7697,7 @@ effacer.pack(side=LEFT,ipadx=15,pady=5)
 quitter=ttk.Button(window,text='Quitter',command=quit)
 quitter.pack(side=RIGHT,padx=5)
 
-window.mainloop()`},{type:`file`,name:`exercice 7.py`,path:`séance 8/exercices/exercice 7.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 7.py`,path:`séance 08/exercices/exercice 7.py`,language:`Python`,content:`from tkinter import *
 from time import *
 
 def h():
@@ -7713,7 +7713,7 @@ heure = StringVar()
 aff_h=Label(window,font=('Rubik',20,),bg="#1C1C1C",fg='white',textvariable=heure)
 aff_h.pack(ipadx=50,ipady=50)
 h()
-window.mainloop()`},{type:`file`,name:`exercice 8.py`,path:`séance 8/exercices/exercice 8.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()`},{type:`file`,name:`exercice 8.py`,path:`séance 08/exercices/exercice 8.py`,language:`Python`,content:`from tkinter import *
 from string import *
 from random import *
 import tkinter as tk
@@ -7790,7 +7790,7 @@ fast.pack(side=LEFT,fill=X)
 slow=ttk.Button(window,text="Plus doucement",command=slow,style="button.TButton")
 slow.pack(side=LEFT,fill=X)
 
-window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 8/exercices/README.md`,language:`Markdown`,content:`# exercices
+window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 08/exercices/README.md`,language:`Markdown`,content:`# exercices
 
 - [exercice 1](/séance%208/exercices/exercice%201.py)
 - [exercice 2](/séance%208/exercices/exercice%202.py)
@@ -7800,7 +7800,7 @@ window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 8/exercices/READ
 - [exercice 6](/séance%208/exercices/exercice%206.py)
 - [exercice 7](/séance%208/exercices/exercice%207.py)
 - [exercice 8](/séance%208/exercices/exercice%208.py)
-`}]},{type:`file`,name:`NSI_1iere_S8.pdf`,path:`séance 8/NSI_1iere_S8.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 8/NSI_1iere_S8.pdf (132833 octets)]`},{type:`file`,name:`README.md`,path:`séance 8/README.md`,language:`Markdown`,content:`![sakurajimamamai](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/2163af2a3a3f08237ba79cf7d59c7a72d4e849da/Python/mai_sakurajima_holding_python_programming_3in1_book.png) ![pillow](../assets/pillow.png) ![python](../assets/compact_46h.png)
+`}]},{type:`file`,name:`NSI_1iere_S8.pdf`,path:`séance 08/NSI_1iere_S8.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/NSI_1iere_S8.pdf (132833 octets)]`},{type:`file`,name:`README.md`,path:`séance 08/README.md`,language:`Markdown`,content:`![sakurajimamamai](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/2163af2a3a3f08237ba79cf7d59c7a72d4e849da/Python/mai_sakurajima_holding_python_programming_3in1_book.png) ![pillow](../assets/pillow.png) ![python](../assets/compact_46h.png)
 
 # séance 8
 
@@ -7815,7 +7815,7 @@ pillow :
 \`\`\`
 pip install pillow
 \`\`\`
-`}]},{type:`folder`,name:`séance 9`,path:`séance 9`,children:[{type:`folder`,name:`exercices`,path:`séance 9/exercices`,children:[{type:`file`,name:`carre_couleur.py`,path:`séance 9/exercices/carre_couleur.py`,language:`Python`,content:`import pyxel
+`}]},{type:`folder`,name:`séance 09`,path:`séance 09`,children:[{type:`folder`,name:`exercices`,path:`séance 09/exercices`,children:[{type:`file`,name:`carre_couleur.py`,path:`séance 09/exercices/carre_couleur.py`,language:`Python`,content:`import pyxel
 
 liste_couleurs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
@@ -7840,7 +7840,7 @@ def draw():
     carre()
 
 pyxel.init(400, 300)
-pyxel.run(update, draw)`},{type:`file`,name:`carre.py`,path:`séance 9/exercices/carre.py`,language:`Python`,content:`import pyxel
+pyxel.run(update, draw)`},{type:`file`,name:`carre.py`,path:`séance 09/exercices/carre.py`,language:`Python`,content:`import pyxel
 
 posx=10
 posy=10
@@ -7876,7 +7876,7 @@ def draw():
 def update():
     move()
     pass
-pyxel.run(draw,update)`},{type:`file`,name:`cercle.py`,path:`séance 9/exercices/cercle.py`,language:`Python`,content:`import random
+pyxel.run(draw,update)`},{type:`file`,name:`cercle.py`,path:`séance 09/exercices/cercle.py`,language:`Python`,content:`import random
 import pyxel
 
 cercles = []
@@ -7904,7 +7904,7 @@ def draw():
 def update():
     nya()
     
-pyxel.run(update, draw)`},{type:`file`,name:`couleurs.py`,path:`séance 9/exercices/couleurs.py`,language:`Python`,content:`import pyxel
+pyxel.run(update, draw)`},{type:`file`,name:`couleurs.py`,path:`séance 09/exercices/couleurs.py`,language:`Python`,content:`import pyxel
 pyxel.init(320, 320, title="couleurs")
 
 def update():
@@ -7916,7 +7916,7 @@ def draw():
     for i in range(16):
         pyxel.rect(20*i, 0, 20, 20, i)
 
-pyxel.run(update, draw)`},{type:`file`,name:`images.py`,path:`séance 9/exercices/images.py`,language:`Python`,content:`import pyxel
+pyxel.run(update, draw)`},{type:`file`,name:`images.py`,path:`séance 09/exercices/images.py`,language:`Python`,content:`import pyxel
 
 pyxel.init(600,600,title="Mermoz")
 pyxel.image(0).load(0,0,"logo_mermoz.png")
@@ -7930,7 +7930,7 @@ def draw():
     taille=255
     pyxel.blt(pyxel.width//2-(taille//2),0,0,0,0,taille,236)
     pyxel.blt(pyxel.width//2-(taille//2),300,1,0,0,taille,154)
-pyxel.run(update,draw)`},{type:`file`,name:`images2.py`,path:`séance 9/exercices/images2.py`,language:`Python`,content:`import pyxel
+pyxel.run(update,draw)`},{type:`file`,name:`images2.py`,path:`séance 09/exercices/images2.py`,language:`Python`,content:`import pyxel
 pyxel.init(600, 600, title="Mermoz")
 pyxel.image(0).load(0, 0, "NSI.png")
 pyxel.image(1).load(0, 0, "logo_mermoz.png")
@@ -7949,7 +7949,7 @@ def draw():
     pyxel.cls(0)
     taille_img=(pyxel.image(change).width,pyxel.image(change).height)
     pyxel.blt(pyxel.width//2-(taille_img[0]//2),0,change,0,0,taille_img[0],taille_img[1])
-pyxel.run(update, draw)`},{type:`file`,name:`logo_mermoz.png`,path:`séance 9/exercices/logo_mermoz.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 9/exercices/logo_mermoz.png (39283 octets)]`},{type:`file`,name:`neige.py`,path:`séance 9/exercices/neige.py`,language:`Python`,content:`import pyxel
+pyxel.run(update, draw)`},{type:`file`,name:`logo_mermoz.png`,path:`séance 09/exercices/logo_mermoz.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/logo_mermoz.png (39283 octets)]`},{type:`file`,name:`neige.py`,path:`séance 09/exercices/neige.py`,language:`Python`,content:`import pyxel
 import random
 
 pyxel.init(400,300,title="neige",fps=400)
@@ -7975,7 +7975,7 @@ def draw():
     pyxel.cls(0)
     for flocon in neige:
         pyxel.circ(flocon[0],flocon[1],flocon[2],7)
-pyxel.run(update, draw)`},{type:`file`,name:`NSI.png`,path:`séance 9/exercices/NSI.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 9/exercices/NSI.png (65229 octets)]`},{type:`file`,name:`NSI.py`,path:`séance 9/exercices/NSI.py`,language:`Python`,content:`import pyxel
+pyxel.run(update, draw)`},{type:`file`,name:`NSI.png`,path:`séance 09/exercices/NSI.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/NSI.png (65229 octets)]`},{type:`file`,name:`NSI.py`,path:`séance 09/exercices/NSI.py`,language:`Python`,content:`import pyxel
 
 HAUTEUR = 100
 LARGEUR = 40
@@ -8022,7 +8022,7 @@ def update():
 
 pyxel.init(220, 160, title="NSI")
 pyxel.run(update, draw)
-`}]},{type:`file`,name:`NSI_1iere_S9.pdf`,path:`séance 9/NSI_1iere_S9.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 9/NSI_1iere_S9.pdf (296462 octets)]`},{type:`file`,name:`README.md`,path:`séance 9/README.md`,language:`Markdown`,content:`![slaakak](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/2163af2a3a3f08237ba79cf7d59c7a72d4e849da/Python/mai_sakurajima_holding_python_programming_3in1_book.png) ![pyxel](../assets/pyxel.png) ![python](../assets/compact_46h.png)
+`}]},{type:`file`,name:`NSI_1iere_S9.pdf`,path:`séance 09/NSI_1iere_S9.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/NSI_1iere_S9.pdf (296462 octets)]`},{type:`file`,name:`README.md`,path:`séance 09/README.md`,language:`Markdown`,content:`![slaakak](https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/2163af2a3a3f08237ba79cf7d59c7a72d4e849da/Python/mai_sakurajima_holding_python_programming_3in1_book.png) ![pyxel](../assets/pyxel.png) ![python](../assets/compact_46h.png)
 
 # séance 9
 
@@ -11375,8 +11375,8 @@ async function fetchJson(url) {
   return fetchWithRetry(url, "json", url)
 }
 
-async function fetchFileContent(filePath) {
-  const url = \`https://raw.githubusercontent.com/\${repository}/\${branch}/\${filePath
+async function fetchFileContent(filePath, revision) {
+  const url = \`https://raw.githubusercontent.com/\${repository}/\${revision}/\${filePath
     .split("/")
     .map(encodeURIComponent)
     .join("/")}\`
@@ -11448,13 +11448,16 @@ function sortTree(nodes) {
 }
 
 async function buildTree() {
+  const commit = await fetchJson(
+    \`https://api.github.com/repos/\${repository}/commits/\${branch}\`,
+  )
   const tree = await fetchJson(
-    \`https://api.github.com/repos/\${repository}/git/trees/\${branch}?recursive=1\`,
+    \`https://api.github.com/repos/\${repository}/git/trees/\${commit.sha}?recursive=1\`,
   )
   const files = tree.tree.filter((entry) => entry.type === "blob")
   const contents = await mapWithConcurrency(files, (entry) =>
     isTextFile(entry.path, entry.size)
-      ? fetchFileContent(entry.path)
+      ? fetchFileContent(entry.path, commit.sha)
       : binaryFileContent(entry.path, entry.size),
   )
   const root = []
@@ -11505,8 +11508,8 @@ export function ghfillTreePlugin() {
   }
 }
 
-export { fileTree, flattenTree } from "./fileTree"
-export { fileTree as ghfillTree } from "./fileTree"
+export { fileTree, flattenTree } from "./fileTree.js"
+export { fileTree as ghfillTree } from "./fileTree.js"
 `}]},{type:`folder`,name:`hooks`,path:`src/hooks`,children:[{type:`file`,name:`use-mobile.js`,path:`src/hooks/use-mobile.js`,language:`JavaScript`,content:`import * as React from "react"
 
 const MOBILE_BREAKPOINT = 768
@@ -12481,7 +12484,7 @@ un site simple pour naviguer dans les fichiers du repo.
 - [x] à gauche, un petit menu avec les dossier comme les text editors (VS, Zed, etc)
 - [x] en haut à gauche, le breadcrumb
 - [ ] quand clique sur recherche, un popup apparait (ref. shadcn/ui website)
-`}]},{type:`folder`,name:`tle-séance 1`,path:`tle-séance 1`,children:[{type:`folder`,name:`chipeur`,path:`tle-séance 1/chipeur`,children:[{type:`file`,name:`bri.py`,path:`tle-séance 1/chipeur/bri.py`,language:`Python`,content:`def defiler(f):
+`}]},{type:`folder`,name:`tle-séance 01`,path:`tle-séance 01`,children:[{type:`folder`,name:`chipeur`,path:`tle-séance 01/chipeur`,children:[{type:`file`,name:`bri.py`,path:`tle-séance 01/chipeur/bri.py`,language:`Python`,content:`def defiler(f):
     if f[2] == 0:
         print("La file est vide")
     else:
@@ -12494,7 +12497,7 @@ un site simple pour naviguer dans les fichiers du repo.
         return e
 
     print(defiler(f))
-`},{type:`file`,name:`filature.py`,path:`tle-séance 1/chipeur/filature.py`,language:`Python`,content:`def enfiler(f, e):
+`},{type:`file`,name:`filature.py`,path:`tle-séance 01/chipeur/filature.py`,language:`Python`,content:`def enfiler(f, e):
     if f[2] == len(f) - 3:
         print(f"La file {f} est pleine")
         return False
@@ -12506,13 +12509,13 @@ un site simple pour naviguer dans les fichiers du repo.
             f[1] = f[1] + 1
         f[2] = f[2] + 1
         return True
-`},{type:`file`,name:`file_dattente.py`,path:`tle-séance 1/chipeur/file_dattente.py`,language:`Python`,content:`def file(n):
+`},{type:`file`,name:`file_dattente.py`,path:`tle-séance 01/chipeur/file_dattente.py`,language:`Python`,content:`def file(n):
     f = [None] * (n + 3)
     f[0] = 3  # indice premier élément
     f[1] = 3  # indice dernier élément (3 car elle est vide donc y'en a pas)
     f[2] = 0  # correspond à la taille
     return f
-`},{type:`file`,name:`oui.sh`,path:`tle-séance 1/chipeur/oui.sh`,language:`Shell`,content:`❯ python nsi.py
+`},{type:`file`,name:`oui.sh`,path:`tle-séance 01/chipeur/oui.sh`,language:`Shell`,content:`❯ python nsi.py
 [3, 3, 0, None, None, None, None, None, None]
 [3, 4, 1, 1, None, None, None, None, None]
 [3, 5, 2, 1, 2, None, None, None, None]
@@ -12525,7 +12528,7 @@ un site simple pour naviguer dans les fichiers du repo.
 [4, 4, 6, 66, 2, 3, 4, 5, 6]
 2
 [5, 4, 5, 66, 2, 3, 4, 5, 6]
-`},{type:`file`,name:`rondeur.py`,path:`tle-séance 1/chipeur/rondeur.py`,language:`Python`,content:`from bri import defiler
+`},{type:`file`,name:`rondeur.py`,path:`tle-séance 01/chipeur/rondeur.py`,language:`Python`,content:`from bri import defiler
 from filature import enfiler
 from file_dattente import file
 
@@ -12560,7 +12563,7 @@ print(defiler(File))
 print(File)
 
 # retour ./oui.sh
-`}]},{type:`folder`,name:`duracell`,path:`tle-séance 1/duracell`,children:[{type:`file`,name:`casser_pile.py`,path:`tle-séance 1/duracell/casser_pile.py`,language:`Python`,content:`def depiler(p):
+`}]},{type:`folder`,name:`duracell`,path:`tle-séance 01/duracell`,children:[{type:`file`,name:`casser_pile.py`,path:`tle-séance 01/duracell/casser_pile.py`,language:`Python`,content:`def depiler(p):
     if p[0] != 1:
         p[0] = p[0] - 1
         return p[p[0]]
@@ -12568,11 +12571,11 @@ print(File)
         print("La pile est vide")
 
     print(depiler(p))
-`},{type:`file`,name:`cree_energie.py`,path:`tle-séance 1/duracell/cree_energie.py`,language:`Python`,content:`def pile(n):
+`},{type:`file`,name:`cree_energie.py`,path:`tle-séance 01/duracell/cree_energie.py`,language:`Python`,content:`def pile(n):
     p = [None] * (n + 1)
     p[0] = 1
     return p
-`},{type:`file`,name:`devenir_pile.py`,path:`tle-séance 1/duracell/devenir_pile.py`,language:`Python`,content:`def empiler(p, e):
+`},{type:`file`,name:`devenir_pile.py`,path:`tle-séance 01/duracell/devenir_pile.py`,language:`Python`,content:`def empiler(p, e):
     if p[0] == len(p):
         print(f"La pile {p} est pleine")
         return False
@@ -12581,7 +12584,7 @@ print(File)
         p[p[0]] = e
         p[0] = p[0] + 1
         return True
-`}]},{type:`folder`,name:`fichéS`,path:`tle-séance 1/fichéS`,children:[{type:`file`,name:`annihiliation.py`,path:`tle-séance 1/fichéS/annihiliation.py`,language:`Python`,content:`def supprimer(L, i):
+`}]},{type:`folder`,name:`fichéS`,path:`tle-séance 01/fichéS`,children:[{type:`file`,name:`annihiliation.py`,path:`tle-séance 01/fichéS/annihiliation.py`,language:`Python`,content:`def supprimer(L, i):
     if (L[0] != 0) and (i <= L[0]):
         for k in range(i, L[0] - 1, -1):
             L[k] = L[k + 1]
@@ -12591,7 +12594,7 @@ print(File)
     else:
         print(f"La liste {L} est vide ou l'index {i} n'est pas correct")
     return False
-`},{type:`file`,name:`avril2027.py`,path:`tle-séance 1/fichéS/avril2027.py`,language:`Python`,content:`urne1 = ["Balludur", "Giscard", "Macron"]
+`},{type:`file`,name:`avril2027.py`,path:`tle-séance 01/fichéS/avril2027.py`,language:`Python`,content:`urne1 = ["Balludur", "Giscard", "Macron"]
 urne2 = ["Attal", "Bardella", "Macron"]
 urne3 = ["Bardella", "LePen", "Zémour", "Attal"]
 
@@ -12614,12 +12617,12 @@ print(d)
 # ou pour un meilleur rendu
 for nom, valeur in d.items():
     print(f"{nom}: {valeur}")
-`},{type:`file`,name:`doigt.py`,path:`tle-séance 1/fichéS/doigt.py`,language:`Python`,content:`def indexer(L, i):
+`},{type:`file`,name:`doigt.py`,path:`tle-séance 01/fichéS/doigt.py`,language:`Python`,content:`def indexer(L, i):
     if i > L[0]:  # élimine le cas du None
         return "Il n'y a pas d'élément à cet indice"
     else:
         return L[i]
-`},{type:`file`,name:`insertionWord.py`,path:`tle-séance 1/fichéS/insertionWord.py`,language:`Python`,content:`def inserer(L, e, i):
+`},{type:`file`,name:`insertionWord.py`,path:`tle-séance 01/fichéS/insertionWord.py`,language:`Python`,content:`def inserer(L, e, i):
     if (L[0] == len(L)) or (i - 1 > L[0]):
         print(f"La liste {L} est pleine ou {i} n'est pas correct")
         return False
@@ -12629,7 +12632,7 @@ for nom, valeur in d.items():
         L[i] = e
         L[0] += 1
     return True
-`},{type:`file`,name:`lafillestvide.py`,path:`tle-séance 1/fichéS/lafillestvide.py`,language:`Python`,content:`def vide(n):
+`},{type:`file`,name:`lafillestvide.py`,path:`tle-séance 01/fichéS/lafillestvide.py`,language:`Python`,content:`def vide(n):
     L = [None] * (n + 1)
     L[0] = 0
     return L
@@ -12657,17 +12660,17 @@ inserer(L, 1, 3)
 inserer(L, 8, 4)
 
 print(L)
-`},{type:`file`,name:`longevite.py`,path:`tle-séance 1/fichéS/longevite.py`,language:`Python`,content:`
+`},{type:`file`,name:`longevite.py`,path:`tle-séance 01/fichéS/longevite.py`,language:`Python`,content:`
 def longueur(L)
 	return L[0]
-`},{type:`file`,name:`photoshop.py`,path:`tle-séance 1/fichéS/photoshop.py`,language:`Python`,content:`def modifier(L, e, i):
+`},{type:`file`,name:`photoshop.py`,path:`tle-séance 01/fichéS/photoshop.py`,language:`Python`,content:`def modifier(L, e, i):
     if i > L[0]:
         print("Il n'y a pas d'élément à cet indice")
         return False
     else:
         L[i] = e
         return True
-`},{type:`file`,name:`recroom.py`,path:`tle-séance 1/fichéS/recroom.py`,language:`Python`,content:`# fonction récursive
+`},{type:`file`,name:`recroom.py`,path:`tle-séance 01/fichéS/recroom.py`,language:`Python`,content:`# fonction récursive
 def fact(N):
     # arrêt -> if N==1: return 1
     return N * fact(N - 1)
@@ -12677,13 +12680,13 @@ def fact(N):
 L = [1, 2, 3]
 L2 = L  # la même fonction : quand L modifiée, L2 modifiée (vice versa)
 L3 = L[:]  # indépendante
-`},{type:`file`,name:`sherlock.py`,path:`tle-séance 1/fichéS/sherlock.py`,language:`Python`,content:`def rechercher(L, e):
+`},{type:`file`,name:`sherlock.py`,path:`tle-séance 01/fichéS/sherlock.py`,language:`Python`,content:`def rechercher(L, e):
     indice = -1
     for k in range(1, L[0] + 1, 1):
         if L[k] == e:
             indice = k
     return indice
-`}]},{type:`folder`,name:`Три полоски`,path:`tle-séance 1/Три полоски`,children:[{type:`file`,name:`calcalata.py`,path:`tle-séance 1/Три полоски/calcalata.py`,language:`Python`,content:`exp = " 26+1-"
+`}]},{type:`folder`,name:`Три полоски`,path:`tle-séance 01/Три полоски`,children:[{type:`file`,name:`calcalata.py`,path:`tle-séance 01/Три полоски/calcalata.py`,language:`Python`,content:`exp = " 26+1-"
 pile = []
 op1 = 0
 op2 = 0
@@ -12705,7 +12708,7 @@ for c in exp:
         elif c == "/" and op2 != 0:
             pile.append(op1 / op2)
 print(pile, "est la réponse")
-`},{type:`file`,name:`douane.py`,path:`tle-séance 1/Три полоски/douane.py`,language:`Python`,content:`expression = input("creez votre formule")
+`},{type:`file`,name:`douane.py`,path:`tle-séance 01/Три полоски/douane.py`,language:`Python`,content:`expression = input("creez votre formule")
 
 
 def verification(expresion):
@@ -12720,7 +12723,7 @@ def verification(expresion):
             else:
                 pile.pop()
     return len(pile) == 0
-`},{type:`file`,name:`hanoi.py`,path:`tle-séance 1/Три полоски/hanoi.py`,language:`Python`,content:`def hanoi(n, depart, arrivee, intermediaire):
+`},{type:`file`,name:`hanoi.py`,path:`tle-séance 01/Три полоски/hanoi.py`,language:`Python`,content:`def hanoi(n, depart, arrivee, intermediaire):
     global compteur
 
     if n != 0:
@@ -12751,7 +12754,7 @@ print(p1, p2, p3)
 hanoi(n, p1, p3, p2)
 
 print(compteur)
-`}]},{type:`file`,name:`README.md`,path:`tle-séance 1/README.md`,language:`Markdown`,content:`![py](../assets/py.png)
+`}]},{type:`file`,name:`README.md`,path:`tle-séance 01/README.md`,language:`Markdown`,content:`![py](../assets/py.png)
 
 # tle séance 1
 
@@ -12765,7 +12768,7 @@ print(compteur)
 \`\`\`python
 dépendances=[None]
 \`\`\`
-`}]},{type:`folder`,name:`tle-séance 2`,path:`tle-séance 2`,children:[{type:`file`,name:`bonsai.py`,path:`tle-séance 2/bonsai.py`,language:`Python`,content:`import queue
+`}]},{type:`folder`,name:`tle-séance 02`,path:`tle-séance 02`,children:[{type:`file`,name:`bonsai.py`,path:`tle-séance 02/bonsai.py`,language:`Python`,content:`import queue
 import random
 
 import matplotlib
@@ -12982,7 +12985,7 @@ def supprimer(x, t):
 
 
 dessiner(exemple)
-`},{type:`file`,name:`README.md`,path:`tle-séance 2/README.md`,language:`Markdown`,content:`# tle séance 2
+`},{type:`file`,name:`README.md`,path:`tle-séance 02/README.md`,language:`Markdown`,content:`# tle séance 2
 
 1. [bonsai.py](./bonsai.py) programme simple qui fait un arbre selon la variable \`exemple\`
 2. [winrar.py](./winrar.py) honnêtement, jsp
@@ -12997,7 +13000,7 @@ pip install matplotlib tk
 
 > [!note]
 > selon votre système d'exploitation, vous pourriez avoir besoin d'installer tk séparément. Pour les utilisateurs de Windows, tk est généralement inclus avec Python. Pour les utilisateurs de macOS et Linux, vous pouvez installer tk via votre gestionnaire de paquets.
-`},{type:`file`,name:`winrar.py`,path:`tle-séance 2/winrar.py`,language:`Python`,content:`# THIS IS NOT A WINRAR BOOTLEG
+`},{type:`file`,name:`winrar.py`,path:`tle-séance 02/winrar.py`,language:`Python`,content:`# THIS IS NOT A WINRAR BOOTLEG
 # merci à damien pour le script très bien commenté...
 
 
@@ -13118,12 +13121,12 @@ heappush(L, (4, ["F", "0"]))
 print(L)
 for x in range(len(L)):
     print(heappop(L))
-`}]},{type:`folder`,name:`tle-séance 3`,path:`tle-séance 3`,children:[{type:`folder`,name:`def`,path:`tle-séance 3/def`,children:[{type:`file`,name:`cafe_moka.py`,path:`tle-séance 3/def/cafe_moka.py`,language:`Python`,content:`# WHO'S YOUR BIAS, I'M YOUR BIAS
+`}]},{type:`folder`,name:`tle-séance 03`,path:`tle-séance 03`,children:[{type:`folder`,name:`def`,path:`tle-séance 03/def`,children:[{type:`file`,name:`cafe_moka.py`,path:`tle-séance 03/def/cafe_moka.py`,language:`Python`,content:`# WHO'S YOUR BIAS, I'M YOUR BIAS
 # WHO'S YOUR BIAS, I'M YOUR BIAS
 # WHO'S YOUR BIAS, I'M YOUR BIAS
 
 print(list(filter(lambda n: n < 10, [8, 12, 9, 14, 15, 3, 13])))
-`},{type:`file`,name:`examens.py`,path:`tle-séance 3/def/examens.py`,language:`Python`,content:`p1 = {
+`},{type:`file`,name:`examens.py`,path:`tle-séance 03/def/examens.py`,language:`Python`,content:`p1 = {
     "nom": "DUPONT",
     "prenom": "Maxime",
     "notes": [("NSI", 12), ("philo", 8), ("maths", 15), ("anglais", 5)],
@@ -13156,20 +13159,20 @@ print(
         for p in nice
     ]
 )
-`},{type:`file`,name:`googlemaps.py`,path:`tle-séance 3/def/googlemaps.py`,language:`Python`,content:`print(list(map(abs, [9, -4, -7, -6, 4, 8])))
+`},{type:`file`,name:`googlemaps.py`,path:`tle-séance 03/def/googlemaps.py`,language:`Python`,content:`print(list(map(abs, [9, -4, -7, -6, 4, 8])))
 
 print(list(map(lambda n: n + 2, [4, 7, 2, 0, 3, 4, 9])))
-`},{type:`file`,name:`la_taille_de_damien.py`,path:`tle-séance 3/def/la_taille_de_damien.py`,language:`Python`,content:`from functools import reduce
+`},{type:`file`,name:`la_taille_de_damien.py`,path:`tle-séance 03/def/la_taille_de_damien.py`,language:`Python`,content:`from functools import reduce
 
 print(reduce(lambda x, y: x + y, [1, 2, 3, 4, 5]))
-`},{type:`file`,name:`triangularité.py`,path:`tle-séance 3/def/triangularité.py`,language:`Python`,content:`print((lambda x, y: x * y)(1, 3))
+`},{type:`file`,name:`triangularité.py`,path:`tle-séance 03/def/triangularité.py`,language:`Python`,content:`print((lambda x, y: x * y)(1, 3))
 
 print((lambda x, y: x / y)(6, 4))
 print((lambda x, y: x / y)(9, 3))
 
 print((lambda x, y, k: 3 * x + 5 * y + 6 * k)(2, 4, 12))
 print((lambda x, y, k: 3 * x + 5 * y + 6 * k)(1, 2, 3))
-`}]},{type:`folder`,name:`nightcity`,path:`tle-séance 3/nightcity`,children:[{type:`file`,name:`matrix.py`,path:`tle-séance 3/nightcity/matrix.py`,language:`Python`,content:`from pyDatalog import pyDatalog as pg
+`}]},{type:`folder`,name:`nightcity`,path:`tle-séance 03/nightcity`,children:[{type:`file`,name:`matrix.py`,path:`tle-séance 03/nightcity/matrix.py`,language:`Python`,content:`from pyDatalog import pyDatalog as pg
 
 pg.create_terms(
     "ours,elephant,chat,chien,petit,grand,brun,noir,blanc,sombre,clair,couleur,taille,X"
@@ -13194,7 +13197,7 @@ clair(X) <= (couleur(X, "blanc"))
 print(clair(X))
 
 print(sombre(X) & (taille(X, "grand")))
-`},{type:`file`,name:`tielafamille.py`,path:`tle-séance 3/nightcity/tielafamille.py`,language:`Python`,content:`from pyDatalog import pyDatalog as py
+`},{type:`file`,name:`tielafamille.py`,path:`tle-séance 03/nightcity/tielafamille.py`,language:`Python`,content:`from pyDatalog import pyDatalog as py
 
 py.create_terms("pere,frere,cousin,petit_fils,X,Y,Z,W,A,E")
 
@@ -13215,7 +13218,7 @@ print(cousin(X,Y))
 print("Petit fils")
 print(petit_fils(X,Y))
 """
-`}]},{type:`file`,name:`README.md`,path:`tle-séance 3/README.md`,language:`Markdown`,content:`# tle séance 3
+`}]},{type:`file`,name:`README.md`,path:`tle-séance 03/README.md`,language:`Markdown`,content:`# tle séance 3
 
 On m'a parlé de famille avec des pères, fils, petit-fils, cousins... heuresement que j'ai rien suivi !
 `}]},{type:`file`,name:`.gitattributes`,path:`.gitattributes`,language:`Text`,content:`*.mov filter=lfs diff=lfs merge=lfs -text
@@ -13306,18 +13309,21 @@ export default defineConfig([
 ])
 `},{type:`file`,name:`index.html`,path:`index.html`,language:`HTML`,content:`<!doctype html>
 <html lang="fr" class="dark">
-  <head>
-    <meta charset="UTF-8" />
+    <head>
+        <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#111111" />
-    <meta name="description" content="Un explorateur minimaliste pour les ressources NSI." />
-    <title>NSI — Explorateur</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"><\/script>
-  </body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#111111" />
+        <meta
+            name="description"
+            content="un explorateur de fichiers des cours de NSI."
+        />
+        <title>not so informatic</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"><\/script>
+    </body>
 </html>
 `},{type:`file`,name:`jsconfig.json`,path:`jsconfig.json`,language:`JSON`,content:`{
   "compilerOptions": {
@@ -20285,7 +20291,7 @@ SOFTWARE.
     petite trace des prémices <b>sombres</b> de la programmation<br>
 </p>
 
-# nsi
+# Not So Informatic
 
 25-26 première </br>
 26-27 terminale (tle)
@@ -20721,4 +20727,4 @@ export default defineConfig(({ mode }) => ({
 }))
 `}];function qs(e,t=[]){return e.flatMap(e=>{let n={...e,ancestors:t};return e.type===`folder`?[n,...qs(e.children,[...t,e])]:[n]})}function Js(e){let t=e.split(`.`).pop()?.toLowerCase();return[`md`,`txt`,`pdf`].includes(t)?Bt:[`py`,`js`,`jsx`,`html`,`css`,`sql`,`json`].includes(t)?Rt:Ht}function Ys(e,t){return e.name.toLocaleLowerCase(`fr`).includes(t)?!0:e.type===`folder`&&e.children.some(e=>Ys(e,t))}function Xs({name:e,term:t}){if(!t)return e;let n=e.toLocaleLowerCase(`fr`).indexOf(t);return n<0?e:(0,B.jsxs)(B.Fragment,{children:[e.slice(0,n),(0,B.jsx)(`mark`,{className:`rounded-sm bg-foreground/15 text-foreground`,children:e.slice(n,n+t.length)}),e.slice(n+t.length)]})}function Zs({nodes:e,depth:t=0,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c}){return(n?e.filter(e=>Ys(e,n)):e).map(e=>{let l=e.type===`folder`,u=r.has(e.path)||!!(n&&l&&e.children.some(e=>Ys(e,n))),d=l?i===e.path:a===e.path,f=l?u?R:Gt:Js(e.name);return(0,B.jsx)(`div`,{children:l?(0,B.jsxs)(Ar,{open:u,onOpenChange:()=>c(e.path),children:[(0,B.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,B.jsx)(jr,{"aria-label":`${u?`Replier`:`Déplier`} ${e.name}`,className:`flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground/70 transition-colors hover:bg-foreground/5 hover:text-foreground`,children:u?(0,B.jsx)(Mt,{className:`size-3.5`}):(0,B.jsx)(Pt,{className:`size-3.5`})}),(0,B.jsxs)(Cr,{type:`button`,variant:`ghost`,onClick:()=>o(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,B.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,B.jsx)(`span`,{className:`truncate`,children:(0,B.jsx)(Xs,{name:e.name,term:n})})]})]}),(0,B.jsx)(Mr,{children:(0,B.jsx)(Zs,{nodes:e.children,depth:t+1,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c})})]}):(0,B.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,B.jsx)(`span`,{className:`w-6 shrink-0`}),(0,B.jsxs)(Cr,{type:`button`,variant:`ghost`,onClick:()=>s(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,B.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,B.jsx)(`span`,{className:`truncate`,children:(0,B.jsx)(Xs,{name:e.name,term:n})})]})]})},e.path)})}function Qs({query:e,expanded:t,currentFolderPath:n,selectedPath:r,onFolderSelect:i,onFileSelect:a,onToggle:o,onRootSelect:s,onClose:c}){let l=(0,g.useMemo)(()=>qs(Ks),[]).filter(e=>e.type===`file`).length;return(0,B.jsxs)(`div`,{className:`flex h-full min-h-0 flex-col bg-background text-foreground`,children:[(0,B.jsxs)(`div`,{className:`flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4`,children:[(0,B.jsxs)(Cr,{type:`button`,variant:`ghost`,onClick:s,className:`h-auto justify-start gap-2.5 p-0 text-left hover:bg-transparent`,children:[(0,B.jsx)(`span`,{className:`flex size-7 items-center justify-center rounded-md border border-border bg-secondary text-[11px] font-semibold tracking-tight text-foreground`,children:`N`}),(0,B.jsxs)(`span`,{className:`text-xs font-medium tracking-wide`,children:[`NSI `,(0,B.jsx)(`span`,{className:`text-muted-foreground`,children:`/ explorer`})]})]}),c&&(0,B.jsx)(Cr,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:c,"aria-label":`Fermer la navigation`,className:`text-muted-foreground`,children:(0,B.jsx)($t,{})})]}),(0,B.jsxs)(`div`,{className:`flex items-center justify-between px-4 pb-2 pt-5`,children:[(0,B.jsx)(`span`,{className:`text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground`,children:`Explorateur`}),(0,B.jsx)(`span`,{className:`font-mono text-[10px] text-muted-foreground/70`,children:l})]}),(0,B.jsxs)(Cr,{type:`button`,variant:`ghost`,onClick:s,className:`mx-2 mb-2 h-8 w-auto justify-start gap-2 rounded-md px-2.5 text-xs ${n===``&&!r?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,children:[(0,B.jsx)(qt,{className:`size-3.5`}),` Accueil`]}),(0,B.jsx)(Na,{className:`min-h-0 flex-1 px-2 pb-4`,viewportClassName:`h-full`,children:e&&!Ks.some(t=>Ys(t,e))?(0,B.jsx)(`p`,{className:`px-3 py-5 text-xs text-muted-foreground`,children:`Aucun fichier ou dossier trouvé.`}):(0,B.jsx)(Zs,{nodes:Ks,query:e,expanded:t,currentFolderPath:n,selectedPath:r,onFolderSelect:i,onFileSelect:a,onToggle:o})}),(0,B.jsx)(`div`,{className:`border-t border-border px-4 py-3`,children:(0,B.jsxs)(`p`,{className:`font-mono text-[10px] text-muted-foreground`,children:[`Les prémices de la programmation`,` `]})})]})}function $s(){let[e,t]=(0,g.useState)(``),[n,r]=(0,g.useState)(()=>new Set([`Algorithmique`,`Python`,`Bases de données`,`Réseaux`])),[i,a]=(0,g.useState)(``),[o,s]=(0,g.useState)(null),[c,l]=(0,g.useState)(!1),[u,d]=(0,g.useState)(!1),f=(0,g.useRef)(null),p=e.trim().toLocaleLowerCase(`fr`),m=o?o.path.split(`/`):i?i.split(`/`):[],h=o?.content.split(`
 `).length??0;(0,g.useEffect)(()=>{function e(e){(e.metaKey||e.ctrlKey)&&e.key.toLowerCase()===`k`&&(e.preventDefault(),f.current?.focus()),e.key===`Escape`&&document.activeElement===f.current&&(t(``),f.current?.blur())}return window.addEventListener(`keydown`,e),()=>window.removeEventListener(`keydown`,e)},[]);function _(e){a(e),s(null),l(!1)}function v(e){s(e),a(e.path.split(`/`).slice(0,-1).join(`/`)),l(!1)}function y(e){r(t=>{let n=new Set(t);return n.has(e)?n.delete(e):n.add(e),n})}function b(e){return(0,B.jsx)(Qs,{query:p,expanded:n,currentFolderPath:i,selectedPath:o?.path,onFolderSelect:e=>{_(e.path),r(t=>new Set(t).add(e.path))},onFileSelect:v,onToggle:y,onRootSelect:()=>_(``),onClose:e})}return(0,B.jsxs)(`main`,{className:`explorer-shell flex h-dvh min-h-105 w-full overflow-hidden bg-background text-foreground`,children:[(0,B.jsx)(`aside`,{className:`hidden w-64.5 shrink-0 border-r border-border md:block`,children:b()}),(0,B.jsx)(Vs,{open:c,onOpenChange:l,children:(0,B.jsxs)(Ws,{side:`left`,showCloseButton:!1,className:`w-72.5 max-w-[85vw] gap-0 border-r border-border bg-background p-0 sm:max-w-72.5`,children:[(0,B.jsx)(Gs,{className:`sr-only`,children:`Explorateur de fichiers`}),b(()=>l(!1))]})}),(0,B.jsxs)(`section`,{className:`flex min-w-0 flex-1 flex-col`,children:[(0,B.jsxs)(`header`,{className:`flex min-h-14.5 shrink-0 items-center gap-3 border-b border-border px-3 sm:px-5`,children:[(0,B.jsx)(Cr,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>l(!0),"aria-label":`Ouvrir la navigation`,className:`shrink-0 text-muted-foreground md:hidden`,children:(0,B.jsx)(Yt,{})}),(0,B.jsx)(wr,{className:`min-w-0 flex-1`,children:(0,B.jsxs)(Tr,{className:`flex-nowrap gap-1 overflow-hidden text-xs`,children:[(0,B.jsx)(Er,{children:(0,B.jsxs)(Cr,{type:`button`,variant:`ghost`,size:`xs`,onClick:()=>_(``),className:`h-7 gap-1.5 px-1.5 text-muted-foreground hover:text-foreground`,children:[(0,B.jsx)(qt,{className:`size-3.5`}),(0,B.jsx)(`span`,{className:`hidden sm:inline`,children:`Accueil`})]})}),m.map((e,t)=>{let n=m.slice(0,t+1).join(`/`),r=t===m.length-1;return(0,B.jsxs)(g.Fragment,{children:[(0,B.jsx)(Or,{className:`text-muted-foreground/50`}),(0,B.jsx)(Er,{className:`min-w-0`,children:r?(0,B.jsx)(Dr,{className:`max-w-[min(35vw,220px)] truncate text-xs`,children:e}):(0,B.jsx)(Cr,{type:`button`,variant:`ghost`,size:`xs`,onClick:()=>_(n),className:`h-7 max-w-[min(24vw,150px)] truncate px-1.5 text-muted-foreground hover:text-foreground`,children:e})})]},n)})]})}),(0,B.jsxs)(`label`,{className:`relative ml-auto block w-[clamp(124px,34vw,270px)] shrink-0`,children:[(0,B.jsx)(Zt,{className:`pointer-events-none absolute left-2.5 top-1/2 size-3.5 -translate-y-1/2 text-muted-foreground`}),(0,B.jsx)(Ma,{ref:f,value:e,onChange:e=>t(e.target.value),placeholder:`Rechercher dans le projet…`,"aria-label":`Rechercher des fichiers et dossiers`,className:`h-8 rounded-md border-border bg-secondary/50 pl-8 pr-14 text-xs placeholder:text-muted-foreground/70 focus-visible:bg-background`}),e?(0,B.jsx)(Cr,{type:`button`,variant:`ghost`,size:`icon-xs`,onClick:()=>t(``),"aria-label":`Effacer la recherche`,className:`absolute right-1 top-1/2 size-6 -translate-y-1/2 text-muted-foreground`,children:(0,B.jsx)($t,{className:`size-3`})}):(0,B.jsx)(`kbd`,{className:`pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 rounded border border-border px-1 font-mono text-[9px] text-muted-foreground`,children:`⌘ K`})]})]}),(0,B.jsxs)(`div`,{className:`flex min-h-0 flex-1 flex-col`,children:[(0,B.jsxs)(`div`,{className:`flex h-10 shrink-0 items-center justify-between border-b border-border bg-secondary/20 px-4 sm:px-6`,children:[(0,B.jsxs)(`div`,{className:`flex min-w-0 items-center gap-2 text-xs text-muted-foreground`,children:[o?(0,B.jsx)(It,{className:`size-3.5`}):(0,B.jsx)(At,{className:`size-3.5`}),(0,B.jsx)(`span`,{className:`truncate`,children:o?.name??`Aperçu`}),o&&(0,B.jsx)(`span`,{className:`hidden font-mono text-[10px] text-muted-foreground/60 sm:inline`,children:o.language})]}),o&&(0,B.jsxs)(`div`,{className:`flex items-center gap-2.5`,children:[(0,B.jsx)(`span`,{className:`hidden text-[10px] text-muted-foreground sm:inline`,children:`Retour à la ligne`}),(0,B.jsx)(nn,{checked:u,onCheckedChange:d,label:`Renvoyer les longues lignes à la ligne`,className:`h-6 w-11`})]})]}),o?(0,B.jsxs)(`div`,{className:`flex min-h-0 flex-1 flex-col`,children:[(0,B.jsxs)(`div`,{className:`flex shrink-0 items-center justify-between border-b border-border/70 px-4 py-2.5 sm:px-6`,children:[(0,B.jsxs)(`div`,{className:`min-w-0`,children:[(0,B.jsx)(`h1`,{className:`truncate text-sm font-medium tracking-tight`,children:o.name}),(0,B.jsx)(`p`,{className:`mt-0.5 truncate font-mono text-[10px] text-muted-foreground`,children:o.path})]}),(0,B.jsxs)(`span`,{className:`ml-4 shrink-0 font-mono text-[10px] text-muted-foreground`,children:[h,` lignes`]})]}),(0,B.jsx)(Na,{className:`min-h-0 flex-1`,viewportClassName:`h-full`,children:(0,B.jsx)(`div`,{className:`file-preview min-w-0 py-5 pr-6`,children:(0,B.jsx)(`pre`,{className:u?`whitespace-pre-wrap wrap-break-word`:`whitespace-pre`,children:(0,B.jsx)(`code`,{children:o.content.split(`
-`).map((e,t)=>(0,B.jsxs)(`span`,{className:`code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]`,children:[(0,B.jsx)(`span`,{"aria-hidden":`true`,className:`select-none pr-4 text-right text-muted-foreground/40`,children:t+1}),(0,B.jsx)(`span`,{children:e||` `})]},`${t}-${e}`))})})})}),(0,B.jsxs)(`footer`,{className:`flex h-7 shrink-0 items-center justify-between border-t border-border bg-secondary/20 px-3 font-mono text-[9px] text-muted-foreground sm:px-5`,children:[(0,B.jsx)(`span`,{children:o.language}),(0,B.jsx)(`span`,{children:`UTF-8`})]})]}):(0,B.jsx)(`div`,{className:`flex min-h-0 flex-1 items-center justify-center px-6 text-center`,children:(0,B.jsxs)(`div`,{className:`max-w-sm`,children:[(0,B.jsx)(`div`,{className:`mx-auto mb-4 flex size-11 items-center justify-center rounded-xl border border-border bg-secondary/50 text-muted-foreground`,children:(0,B.jsx)(Rt,{className:`size-5`})}),(0,B.jsx)(`h1`,{className:`text-sm font-medium`,children:`Sélectionne un fichier`}),(0,B.jsx)(`p`,{className:`mt-1.5 text-xs leading-relaxed text-muted-foreground`,children:`Choisis un fichier dans l’explorateur pour consulter son contenu.`}),(0,B.jsxs)(`p`,{className:`mt-5 font-mono text-[10px] text-muted-foreground/60`,children:[qs(Ks).filter(e=>e.type===`file`).length,` fichiers · NSI`]})]})})]})]})]})}var ec=[`N`,`S`,`I`];function tc(){let e=ze(),[t,n]=(0,g.useState)(!1);return(0,g.useEffect)(()=>{let t=window.setTimeout(()=>n(!0),1550),r=window.setTimeout(()=>e(`/explorer`,{replace:!0}),2050);return()=>{window.clearTimeout(t),window.clearTimeout(r)}},[e]),(0,B.jsxs)(`main`,{className:`intro-screen fixed inset-0 z-50 grid place-items-center bg-background ${t?`intro-screen-leaving`:``}`,children:[(0,B.jsx)(`div`,{"aria-label":`NSI`,className:`intro-wordmark flex items-center font-mono text-[clamp(5rem,22vw,15rem)] font-medium leading-none tracking-[-0.12em] text-foreground`,children:ec.map((e,t)=>(0,B.jsx)(`span`,{"aria-hidden":`true`,style:{animationDelay:`${t*150}ms`},children:e},e))}),(0,B.jsx)(`p`,{className:`intro-caption absolute bottom-[18vh] font-mono text-[10px] uppercase tracking-[0.42em] text-muted-foreground`,children:`Un espace pour apprendre`})]})}function nc(){return(0,B.jsxs)(lt,{children:[(0,B.jsx)(st,{path:`/`,element:(0,B.jsx)(tc,{})}),(0,B.jsx)(st,{path:`/explorer`,element:(0,B.jsx)($s,{})}),(0,B.jsx)(st,{path:`*`,element:(0,B.jsx)(ot,{to:`/`,replace:!0})})]})}document.documentElement.classList.add(`dark`),(0,v.createRoot)(document.getElementById(`root`)).render((0,B.jsx)(g.StrictMode,{children:(0,B.jsx)(mt,{children:(0,B.jsx)(nc,{})})}));
+`).map((e,t)=>(0,B.jsxs)(`span`,{className:`code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]`,children:[(0,B.jsx)(`span`,{"aria-hidden":`true`,className:`select-none pr-4 text-right text-muted-foreground/40`,children:t+1}),(0,B.jsx)(`span`,{children:e||` `})]},`${t}-${e}`))})})})}),(0,B.jsxs)(`footer`,{className:`flex h-7 shrink-0 items-center justify-between border-t border-border bg-secondary/20 px-3 font-mono text-[9px] text-muted-foreground sm:px-5`,children:[(0,B.jsx)(`span`,{children:o.language}),(0,B.jsx)(`span`,{children:`UTF-8`})]})]}):(0,B.jsx)(`div`,{className:`flex min-h-0 flex-1 items-center justify-center px-6 text-center`,children:(0,B.jsxs)(`div`,{className:`max-w-sm`,children:[(0,B.jsx)(`div`,{className:`mx-auto mb-4 flex size-11 items-center justify-center rounded-xl border border-border bg-secondary/50 text-muted-foreground`,children:(0,B.jsx)(Rt,{className:`size-5`})}),(0,B.jsx)(`h1`,{className:`text-sm font-medium`,children:`Sélectionne un fichier`}),(0,B.jsx)(`p`,{className:`mt-1.5 text-xs leading-relaxed text-muted-foreground`,children:`Choisis un fichier dans l’explorateur pour consulter son contenu.`}),(0,B.jsxs)(`p`,{className:`mt-5 font-mono text-[10px] text-muted-foreground/60`,children:[qs(Ks).filter(e=>e.type===`file`).length,` fichiers · NSI`]})]})})]})]})]})}var ec=[`N`,`S`,`I`];function tc(){let e=ze(),[t,n]=(0,g.useState)(!1);return(0,g.useEffect)(()=>{let t=window.setTimeout(()=>n(!0),1550),r=window.setTimeout(()=>e(`/explorer`,{replace:!0}),2050);return()=>{window.clearTimeout(t),window.clearTimeout(r)}},[e]),(0,B.jsxs)(`main`,{className:`intro-screen fixed inset-0 z-50 grid place-items-center bg-background ${t?`intro-screen-leaving`:``}`,children:[(0,B.jsx)(`div`,{"aria-label":`NSI`,className:`intro-wordmark flex items-center font-mono text-[clamp(5rem,22vw,15rem)] font-medium leading-none tracking-[-0.12em] text-foreground`,children:ec.map((e,t)=>(0,B.jsx)(`span`,{"aria-hidden":`true`,style:{animationDelay:`${t*150}ms`},children:e},e))}),(0,B.jsx)(`p`,{className:`intro-caption absolute bottom-[18vh] font-mono text-[10px] uppercase tracking-[0.42em] text-muted-foreground`,children:`Not So Informatic`})]})}function nc(){return(0,B.jsxs)(lt,{children:[(0,B.jsx)(st,{path:`/`,element:(0,B.jsx)(tc,{})}),(0,B.jsx)(st,{path:`/explorer`,element:(0,B.jsx)($s,{})}),(0,B.jsx)(st,{path:`*`,element:(0,B.jsx)(ot,{to:`/`,replace:!0})})]})}document.documentElement.classList.add(`dark`),(0,v.createRoot)(document.getElementById(`root`)).render((0,B.jsx)(g.StrictMode,{children:(0,B.jsx)(mt,{children:(0,B.jsx)(nc,{})})}));
