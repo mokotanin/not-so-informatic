@@ -3,7 +3,7 @@
     petite trace des prémices <b>sombres</b> de la programmation<br>
 </p>
 
-# nsi
+# Not So Informatic
 
 25-26 première </br>
 26-27 terminale (tle)
