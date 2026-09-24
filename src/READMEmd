@@ -1,0 +1,11 @@
+# site
+un site simple pour naviguer dans les fichiers du repo.
+
+
+### todo (TBR)
+- [x] accueil avec animation texte `"NSI"`
+- [x] ensuite page d'accueil avec un explorateur de fichiers
+- [x] une barre de recherche pour trouver des fichiers ou dossiers
+- [x] à gauche, un petit menu avec les dossier comme les text editors (VS, Zed, etc)
+- [x] en haut à gauche, le breadcrumb
+- [ ] quand clique sur recherche, un popup apparait (ref. shadcn/ui website)
