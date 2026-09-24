@@ -26,12 +26,8 @@ import {
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import {
-  Sheet,
-  SheetContent,
-  SheetTitle,
-} from "@/components/ui/sheet"
-import { flattenTree, fileTree } from "@/data/fileTree"
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet"
+import { flattenTree, fileTree } from "@/data/ghfillTree"
 
 function getFileIcon(name) {
   const extension = name.split(".").pop()?.toLowerCase()
@@ -53,7 +49,9 @@ function HighlightedName({ name, term }) {
   return (
     <>
       {name.slice(0, start)}
-      <mark className="rounded-sm bg-foreground/15 text-foreground">{name.slice(start, start + term.length)}</mark>
+      <mark className="rounded-sm bg-foreground/15 text-foreground">
+        {name.slice(start, start + term.length)}
+      </mark>
       {name.slice(start + term.length)}
     </>
   )
@@ -74,7 +72,9 @@ function FileTree({
 
   return visibleNodes.map((node) => {
     const isFolder = node.type === "folder"
-    const isOpen = expanded.has(node.path) || Boolean(query && isFolder && node.children.some((child) => includesTerm(child, query)))
+    const isOpen =
+      expanded.has(node.path) ||
+      Boolean(query && isFolder && node.children.some((child) => includesTerm(child, query)))
     const isSelected = isFolder ? currentFolderPath === node.path : selectedPath === node.path
     const Icon = isFolder ? (isOpen ? FolderOpen : Folder) : getFileIcon(node.name)
 
@@ -90,7 +90,11 @@ function FileTree({
                 aria-label={`${isOpen ? "Replier" : "Déplier"} ${node.name}`}
                 className="flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground/70 transition-colors hover:bg-foreground/5 hover:text-foreground"
               >
-                {isOpen ? <ChevronDown className="size-3.5" /> : <ChevronRight className="size-3.5" />}
+                {isOpen ? (
+                  <ChevronDown className="size-3.5" />
+                ) : (
+                  <ChevronRight className="size-3.5" />
+                )}
               </CollapsibleTrigger>
               <Button
                 type="button"
@@ -99,7 +103,9 @@ function FileTree({
                 className="h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground"
               >
                 <Icon className="size-3.5 shrink-0 text-muted-foreground" />
-                <span className="truncate"><HighlightedName name={node.name} term={query} /></span>
+                <span className="truncate">
+                  <HighlightedName name={node.name} term={query} />
+                </span>
               </Button>
             </div>
             <CollapsibleContent>
@@ -129,7 +135,9 @@ function FileTree({
               className="h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground"
             >
               <Icon className="size-3.5 shrink-0 text-muted-foreground" />
-              <span className="truncate"><HighlightedName name={node.name} term={query} /></span>
+              <span className="truncate">
+                <HighlightedName name={node.name} term={query} />
+              </span>
             </Button>
           </div>
         )}
@@ -155,19 +163,37 @@ function SidebarContents({
   return (
     <div className="flex h-full min-h-0 flex-col bg-background text-foreground">
       <div className="flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4">
-        <Button type="button" variant="ghost" onClick={onRootSelect} className="h-auto justify-start gap-2.5 p-0 text-left hover:bg-transparent">
-          <span className="flex size-7 items-center justify-center rounded-md border border-border bg-secondary text-[11px] font-semibold tracking-tight text-foreground">N</span>
-          <span className="text-xs font-medium tracking-wide">NSI <span className="text-muted-foreground">/ explorer</span></span>
+        <Button
+          type="button"
+          variant="ghost"
+          onClick={onRootSelect}
+          className="h-auto justify-start gap-2.5 p-0 text-left hover:bg-transparent"
+        >
+          <span className="flex size-7 items-center justify-center rounded-md border border-border bg-secondary text-[11px] font-semibold tracking-tight text-foreground">
+            N
+          </span>
+          <span className="text-xs font-medium tracking-wide">
+            NSI <span className="text-muted-foreground">/ explorer</span>
+          </span>
         </Button>
         {onClose && (
-          <Button type="button" variant="ghost" size="icon-sm" onClick={onClose} aria-label="Fermer la navigation" className="text-muted-foreground">
+          <Button
+            type="button"
+            variant="ghost"
+            size="icon-sm"
+            onClick={onClose}
+            aria-label="Fermer la navigation"
+            className="text-muted-foreground"
+          >
             <X />
           </Button>
         )}
       </div>
 
       <div className="flex items-center justify-between px-4 pb-2 pt-5">
-        <span className="text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">Explorateur</span>
+        <span className="text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground">
+          Explorateur
+        </span>
         <span className="font-mono text-[10px] text-muted-foreground/70">{fileCount}</span>
       </div>
       <Button
@@ -181,7 +207,9 @@ function SidebarContents({
 
       <ScrollArea className="min-h-0 flex-1 px-2 pb-4" viewportClassName="h-full">
         {query && !fileTree.some((node) => includesTerm(node, query)) ? (
-          <p className="px-3 py-5 text-xs text-muted-foreground">Aucun fichier ou dossier trouvé.</p>
+          <p className="px-3 py-5 text-xs text-muted-foreground">
+            Aucun fichier ou dossier trouvé.
+          </p>
         ) : (
           <FileTree
             nodes={fileTree}
@@ -197,7 +225,9 @@ function SidebarContents({
       </ScrollArea>
 
       <div className="border-t border-border px-4 py-3">
-        <p className="font-mono text-[10px] text-muted-foreground">NSI · ressources de cours</p>
+        <p className="font-mono text-[10px] text-muted-foreground">
+          Les prémices de la programmation{" "}
+        </p>
       </div>
     </div>
   )
@@ -205,7 +235,9 @@ function SidebarContents({
 
 function ExplorerPage() {
   const [query, setQuery] = useState("")
-  const [expanded, setExpanded] = useState(() => new Set(["Algorithmique", "Python", "Bases de données", "Réseaux"]))
+  const [expanded, setExpanded] = useState(
+    () => new Set(["Algorithmique", "Python", "Bases de données", "Réseaux"]),
+  )
   const [currentFolderPath, setCurrentFolderPath] = useState("")
   const [selectedFile, setSelectedFile] = useState(null)
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false)
@@ -282,7 +314,11 @@ function ExplorerPage() {
       </aside>
 
       <Sheet open={mobileSidebarOpen} onOpenChange={setMobileSidebarOpen}>
-        <SheetContent side="left" showCloseButton={false} className="w-72.5 max-w-[85vw] gap-0 border-r border-border bg-background p-0 sm:max-w-72.5">
+        <SheetContent
+          side="left"
+          showCloseButton={false}
+          className="w-72.5 max-w-[85vw] gap-0 border-r border-border bg-background p-0 sm:max-w-72.5"
+        >
           <SheetTitle className="sr-only">Explorateur de fichiers</SheetTitle>
           {renderSidebar(() => setMobileSidebarOpen(false))}
         </SheetContent>
@@ -367,7 +403,9 @@ function ExplorerPage() {
                 <X className="size-3" />
               </Button>
             ) : (
-              <kbd className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 rounded border border-border px-1 font-mono text-[9px] text-muted-foreground">⌘ K</kbd>
+              <kbd className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 rounded border border-border px-1 font-mono text-[9px] text-muted-foreground">
+                ⌘ K
+              </kbd>
             )}
           </label>
         </header>
@@ -377,12 +415,23 @@ function ExplorerPage() {
             <div className="flex min-w-0 items-center gap-2 text-xs text-muted-foreground">
               {selectedFile ? <Code2 className="size-3.5" /> : <Braces className="size-3.5" />}
               <span className="truncate">{selectedFile?.name ?? "Aperçu"}</span>
-              {selectedFile && <span className="hidden font-mono text-[10px] text-muted-foreground/60 sm:inline">{selectedFile.language}</span>}
+              {selectedFile && (
+                <span className="hidden font-mono text-[10px] text-muted-foreground/60 sm:inline">
+                  {selectedFile.language}
+                </span>
+              )}
             </div>
             {selectedFile && (
               <div className="flex items-center gap-2.5">
-                <span className="hidden text-[10px] text-muted-foreground sm:inline">Retour à la ligne</span>
-                <AppleSwitch checked={wrapLines} onCheckedChange={setWrapLines} label="Renvoyer les longues lignes à la ligne" className="h-6 w-11" />
+                <span className="hidden text-[10px] text-muted-foreground sm:inline">
+                  Retour à la ligne
+                </span>
+                <AppleSwitch
+                  checked={wrapLines}
+                  onCheckedChange={setWrapLines}
+                  label="Renvoyer les longues lignes à la ligne"
+                  className="h-6 w-11"
+                />
               </div>
             )}
           </div>
@@ -391,18 +440,34 @@ function ExplorerPage() {
             <div className="flex min-h-0 flex-1 flex-col">
               <div className="flex shrink-0 items-center justify-between border-b border-border/70 px-4 py-2.5 sm:px-6">
                 <div className="min-w-0">
-                  <h1 className="truncate text-sm font-medium tracking-tight">{selectedFile.name}</h1>
-                  <p className="mt-0.5 truncate font-mono text-[10px] text-muted-foreground">{selectedFile.path}</p>
+                  <h1 className="truncate text-sm font-medium tracking-tight">
+                    {selectedFile.name}
+                  </h1>
+                  <p className="mt-0.5 truncate font-mono text-[10px] text-muted-foreground">
+                    {selectedFile.path}
+                  </p>
                 </div>
-                <span className="ml-4 shrink-0 font-mono text-[10px] text-muted-foreground">{lineCount} lignes</span>
+                <span className="ml-4 shrink-0 font-mono text-[10px] text-muted-foreground">
+                  {lineCount} lignes
+                </span>
               </div>
               <ScrollArea className="min-h-0 flex-1" viewportClassName="h-full">
                 <div className="file-preview min-w-0 py-5 pr-6">
-                  <pre className={wrapLines ? "whitespace-pre-wrap wrap-break-word" : "whitespace-pre"}>
+                  <pre
+                    className={wrapLines ? "whitespace-pre-wrap wrap-break-word" : "whitespace-pre"}
+                  >
                     <code>
                       {selectedFile.content.split("\n").map((line, index) => (
-                        <span className="code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]" key={`${index}-${line}`}>
-                          <span aria-hidden="true" className="select-none pr-4 text-right text-muted-foreground/40">{index + 1}</span>
+                        <span
+                          className="code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]"
+                          key={`${index}-${line}`}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="select-none pr-4 text-right text-muted-foreground/40"
+                          >
+                            {index + 1}
+                          </span>
                           <span>{line || " "}</span>
                         </span>
                       ))}
@@ -422,8 +487,13 @@ function ExplorerPage() {
                   <FileCode2 className="size-5" />
                 </div>
                 <h1 className="text-sm font-medium">Sélectionne un fichier</h1>
-                <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">Choisis un fichier dans l’explorateur pour consulter son contenu.</p>
-                <p className="mt-5 font-mono text-[10px] text-muted-foreground/60">{flattenTree(fileTree).filter((entry) => entry.type === "file").length} fichiers · NSI</p>
+                <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
+                  Choisis un fichier dans l’explorateur pour consulter son contenu.
+                </p>
+                <p className="mt-5 font-mono text-[10px] text-muted-foreground/60">
+                  {flattenTree(fileTree).filter((entry) => entry.type === "file").length} fichiers ·
+                  NSI
+                </p>
               </div>
             </div>
           )}
