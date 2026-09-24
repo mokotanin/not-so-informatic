@@ -1,17 +1,18 @@
+// example file for previous tests
 const file = (name, path, language, content) => ({
   type: "file",
   name,
   path,
   language,
   content,
-})
+});
 
 const folder = (name, path, children) => ({
   type: "folder",
   name,
   path,
   children,
-})
+});
 
 export const fileTree = [
   folder("Algorithmique", "Algorithmique", [
@@ -307,13 +308,13 @@ bouton.addEventListener("click", () => {
 })`,
     ),
   ]),
-]
+];
 
 export function flattenTree(nodes, ancestors = []) {
   return nodes.flatMap((node) => {
-    const entry = { ...node, ancestors }
+    const entry = { ...node, ancestors };
     return node.type === "folder"
       ? [entry, ...flattenTree(node.children, [...ancestors, node])]
-      : [entry]
-  })
+      : [entry];
+  });
 }
