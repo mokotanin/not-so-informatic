@@ -100,8 +100,8 @@ async function fetchJson(url) {
   return fetchWithRetry(url, "json", url)
 }
 
-async function fetchFileContent(filePath) {
-  const url = `https://raw.githubusercontent.com/${repository}/${branch}/${filePath
+async function fetchFileContent(filePath, revision) {
+  const url = `https://raw.githubusercontent.com/${repository}/${revision}/${filePath
     .split("/")
     .map(encodeURIComponent)
     .join("/")}`
@@ -173,13 +173,16 @@ function sortTree(nodes) {
 }
 
 async function buildTree() {
+  const commit = await fetchJson(
+    `https://api.github.com/repos/${repository}/commits/${branch}`,
+  )
   const tree = await fetchJson(
-    `https://api.github.com/repos/${repository}/git/trees/${branch}?recursive=1`,
+    `https://api.github.com/repos/${repository}/git/trees/${commit.sha}?recursive=1`,
   )
   const files = tree.tree.filter((entry) => entry.type === "blob")
   const contents = await mapWithConcurrency(files, (entry) =>
     isTextFile(entry.path, entry.size)
-      ? fetchFileContent(entry.path)
+      ? fetchFileContent(entry.path, commit.sha)
       : binaryFileContent(entry.path, entry.size),
   )
   const root = []
@@ -230,5 +233,5 @@ export function ghfillTreePlugin() {
   }
 }
 
-export { fileTree, flattenTree } from "./fileTree"
-export { fileTree as ghfillTree } from "./fileTree"
+export { fileTree, flattenTree } from "./fileTree.js"
+export { fileTree as ghfillTree } from "./fileTree.js"
