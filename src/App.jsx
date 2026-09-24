@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button";
+import { Navigate, Route, Routes } from "react-router-dom"
+import { ExplorerPage } from "@/pages/ExplorerPage"
+import { IntroScreen } from "@/components/IntroScreen"
 
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <Button>Hello world</Button>
-    </main>
-  );
+    <Routes>
+      <Route path="/" element={<IntroScreen />} />
+      <Route path="/explorer" element={<ExplorerPage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  )
 }
 
-export default App;
+export default App
