@@ -1,4 +1,4 @@
-import { cn } from "cn"
+import { cn } from "@/lib/utils"
 
 function AppleSwitch({ checked, onCheckedChange, label, className, disabled = false }) {
   return (
