@@ -1,10 +1,11 @@
-import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import {
   Braces,
   ChevronDown,
   ChevronRight,
   Code2,
+  Eye,
   File,
   FileCode2,
   FileText,
@@ -35,6 +36,59 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { flattenTree, fileTree } from "@/data/ghfillTree";
 import hljs from "highlight.js/lib/common";
+
+const MarkdownRenderer = lazy(async () => {
+  const [
+    { default: ReactMarkdown },
+    { default: remarkGfm },
+    { default: remarkAlert },
+    { default: rehypeRaw },
+    { default: rehypeSanitize, defaultSchema },
+  ] = await Promise.all([
+    import("react-markdown"),
+    import("remark-gfm"),
+    import("remark-github-blockquote-alert"),
+    import("rehype-raw"),
+    import("rehype-sanitize"),
+  ]);
+  const sanitizeSchema = {
+    ...defaultSchema,
+    attributes: {
+      ...defaultSchema.attributes,
+      div: [
+        ...(defaultSchema.attributes.div ?? []),
+        [
+          "className",
+          /^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/,
+        ],
+      ],
+      img: [
+        ...(defaultSchema.attributes.img ?? []),
+        ["width", /^\d{1,4}$/],
+        ["height", /^\d{1,4}$/],
+        ["align", /^(?:left|center|right)$/],
+      ],
+      p: [
+        ...(defaultSchema.attributes.p ?? []),
+        ["align", /^(?:left|center|right)$/],
+        ["className", "markdown-alert-title"],
+      ],
+    },
+  };
+
+  function MarkdownContent({ children }) {
+    return (
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm, remarkAlert]}
+        rehypePlugins={[rehypeRaw, [rehypeSanitize, sanitizeSchema]]}
+      >
+        {children}
+      </ReactMarkdown>
+    );
+  }
+
+  return { default: MarkdownContent };
+});
 
 const highlightLanguageByName = {
   C: "c",
@@ -362,6 +416,7 @@ function ExplorerPage() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [wrapLines, setWrapLines] = useState(false);
+  const [markdownPreview, setMarkdownPreview] = useState(false);
   const searchRef = useRef(null);
   const normalizedQuery = query.trim().toLocaleLowerCase("fr");
   const pathParts = selectedFile
@@ -370,6 +425,7 @@ function ExplorerPage() {
       ? currentFolderPath.split("/")
       : [];
   const lineCount = selectedFile?.content.split("\n").length ?? 0;
+  const isMarkdownFile = selectedFile?.language === "Markdown";
   const highlightedLines = useMemo(
     () =>
       selectedFile
@@ -405,6 +461,7 @@ function ExplorerPage() {
 
   function selectFile(file) {
     setSelectedFile(file);
+    setMarkdownPreview(file.language === "Markdown");
     setCurrentFolderPath(file.path.split("/").slice(0, -1).join("/"));
     setMobileSidebarOpen(false);
   }
@@ -555,19 +612,43 @@ function ExplorerPage() {
                 </span>
               )}
             </div>
-            {selectedFile && (
-              <div className="flex items-center gap-2.5">
-                <span className="hidden text-[10px] text-muted-foreground sm:inline">
-                  Retour à la ligne
-                </span>
-                <AppleSwitch
-                  checked={wrapLines}
-                  onCheckedChange={setWrapLines}
-                  label="Renvoyer les longues lignes à la ligne"
-                  className="h-6 w-11"
-                />
-              </div>
-            )}
+            {selectedFile &&
+              (isMarkdownFile ? (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="xs"
+                  onClick={() => setMarkdownPreview((previous) => !previous)}
+                  aria-label={
+                    markdownPreview
+                      ? "Afficher la source Markdown"
+                      : "Afficher l’aperçu Markdown"
+                  }
+                  className="shrink-0 gap-1.5 text-xs text-muted-foreground"
+                >
+                  {markdownPreview ? (
+                    <>
+                      <Code2 className="size-3.5" /> Source
+                    </>
+                  ) : (
+                    <>
+                      <Eye className="size-3.5" /> Aperçu
+                    </>
+                  )}
+                </Button>
+              ) : (
+                <div className="flex items-center gap-2.5">
+                  <span className="hidden text-[10px] text-muted-foreground sm:inline">
+                    Retour à la ligne
+                  </span>
+                  <AppleSwitch
+                    checked={wrapLines}
+                    onCheckedChange={setWrapLines}
+                    label="Renvoyer les longues lignes à la ligne"
+                    className="h-6 w-11"
+                  />
+                </div>
+              ))}
           </div>
 
           {selectedFile ? (
@@ -586,40 +667,54 @@ function ExplorerPage() {
                 </span>
               </div>
               <ScrollArea className="min-h-0 flex-1" viewportClassName="h-full">
-                <div className="file-preview min-w-0 py-5 pr-6">
-                  <pre
-                    className={
-                      wrapLines
-                        ? "whitespace-pre-wrap wrap-break-word"
-                        : "whitespace-pre"
-                    }
-                  >
-                    <code className={highlightedLines ? "hljs" : undefined}>
-                      {selectedFile.content.split("\n").map((line, index) => (
-                        <span
-                          className="code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]"
-                          key={`${index}-${line}`}
-                        >
+                {isMarkdownFile && markdownPreview ? (
+                  <article className="markdown-preview mx-auto w-full max-w-4xl px-6 py-6">
+                    <Suspense
+                      fallback={
+                        <p className="text-muted-foreground">
+                          Chargement de l’aperçu…
+                        </p>
+                      }
+                    >
+                      <MarkdownRenderer>{selectedFile.content}</MarkdownRenderer>
+                    </Suspense>
+                  </article>
+                ) : (
+                  <div className="file-preview min-w-0 py-5 pr-6">
+                    <pre
+                      className={
+                        wrapLines || isMarkdownFile
+                          ? "whitespace-pre-wrap wrap-break-word"
+                          : "whitespace-pre"
+                      }
+                    >
+                      <code className={highlightedLines ? "hljs" : undefined}>
+                        {selectedFile.content.split("\n").map((line, index) => (
                           <span
-                            aria-hidden="true"
-                            className="select-none pr-4 text-right text-muted-foreground/40"
+                            className="code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]"
+                            key={`${index}-${line}`}
                           >
-                            {index + 1}
-                          </span>
-                          {highlightedLines ? (
                             <span
-                              dangerouslySetInnerHTML={{
-                                __html: highlightedLines[index],
-                              }}
-                            />
-                          ) : (
-                            <span>{line || " "}</span>
-                          )}
-                        </span>
-                      ))}
-                    </code>
-                  </pre>
-                </div>
+                              aria-hidden="true"
+                              className="select-none pr-4 text-right text-muted-foreground/40"
+                            >
+                              {index + 1}
+                            </span>
+                            {highlightedLines ? (
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: highlightedLines[index],
+                                }}
+                              />
+                            ) : (
+                              <span>{line || " "}</span>
+                            )}
+                          </span>
+                        ))}
+                      </code>
+                    </pre>
+                  </div>
+                )}
               </ScrollArea>
               <footer className="flex h-7 shrink-0 items-center justify-between border-t border-border bg-secondary/20 px-3 font-mono text-[9px] text-muted-foreground sm:px-5">
                 <span>{selectedFile.language}</span>

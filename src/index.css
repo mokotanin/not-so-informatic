@@ -150,6 +150,188 @@
   min-height: 29px;
 }
 
+.markdown-preview {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.markdown-preview > :first-child {
+  margin-top: 0;
+}
+
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+  margin: 1.6em 0 0.65em;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.markdown-preview h1 {
+  font-size: 1.8em;
+}
+
+.markdown-preview h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+  font-size: 1.45em;
+}
+
+.markdown-preview h3 {
+  font-size: 1.2em;
+}
+
+.markdown-preview p,
+.markdown-preview ul,
+.markdown-preview ol,
+.markdown-preview blockquote,
+.markdown-preview table,
+.markdown-preview pre {
+  margin: 1em 0;
+}
+
+.markdown-preview ul,
+.markdown-preview ol {
+  padding-left: 1.6em;
+}
+
+.markdown-preview ul {
+  list-style: disc;
+}
+
+.markdown-preview ol {
+  list-style: decimal;
+}
+
+.markdown-preview li + li {
+  margin-top: 0.25em;
+}
+
+.markdown-preview a {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-decoration-color: var(--muted-foreground);
+  text-underline-offset: 3px;
+}
+
+.markdown-preview blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 1em;
+  color: var(--muted-foreground);
+}
+
+.markdown-preview .markdown-alert {
+  --markdown-alert-color: var(--ring);
+  margin: 1em 0;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--markdown-alert-color);
+  border-radius: 0.5rem;
+  background: color-mix(
+    in oklab,
+    var(--markdown-alert-color) 9%,
+    var(--background)
+  );
+  padding: 0.75rem 1rem;
+}
+
+.markdown-preview .markdown-alert-note {
+  --markdown-alert-color: oklch(0.75 0.13 250);
+}
+
+.markdown-preview .markdown-alert-tip {
+  --markdown-alert-color: oklch(0.76 0.14 155);
+}
+
+.markdown-preview .markdown-alert-important {
+  --markdown-alert-color: oklch(0.75 0.14 300);
+}
+
+.markdown-preview .markdown-alert-warning {
+  --markdown-alert-color: oklch(0.78 0.14 85);
+}
+
+.markdown-preview .markdown-alert-caution {
+  --markdown-alert-color: oklch(0.72 0.19 25);
+}
+
+.markdown-preview .markdown-alert-title {
+  margin: 0 0 0.4em;
+  color: var(--markdown-alert-color);
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.markdown-preview .markdown-alert > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown-preview :not(pre) > code {
+  border: 1px solid var(--border);
+  border-radius: 0.3rem;
+  background: var(--secondary);
+  padding: 0.12em 0.35em;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.9em;
+}
+
+.markdown-preview pre {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--secondary);
+  padding: 1em;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.9em;
+  tab-size: 4;
+}
+
+.markdown-preview pre code {
+  font: inherit;
+}
+
+.markdown-preview table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.markdown-preview th,
+.markdown-preview td {
+  border: 1px solid var(--border);
+  padding: 0.4em 0.75em;
+  text-align: left;
+}
+
+.markdown-preview th {
+  background: var(--secondary);
+  font-weight: 600;
+}
+
+.markdown-preview hr {
+  margin: 1.5em 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+.markdown-preview [align="center"] {
+  text-align: center;
+}
+
+.markdown-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
 .file-preview pre {
   margin: 0;
   min-width: max-content;
