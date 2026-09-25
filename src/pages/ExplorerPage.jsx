@@ -34,6 +34,46 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { flattenTree, fileTree } from "@/data/ghfillTree";
+import hljs from "highlight.js/lib/common";
+
+const highlightLanguageByName = {
+  C: "c",
+  "C++": "cpp",
+  CSS: "css",
+  HTML: "xml",
+  Java: "java",
+  JavaScript: "javascript",
+  "JavaScript JSX": "javascript",
+  JSON: "json",
+  Markdown: "markdown",
+  PHP: "php",
+  Python: "python",
+  Rust: "rust",
+  Shell: "bash",
+  SQL: "sql",
+  TOML: "ini",
+  TypeScript: "typescript",
+  "TypeScript JSX": "typescript",
+  Vue: "xml",
+  XML: "xml",
+  YAML: "yaml",
+};
+
+function highlightFileContent(content, fileLanguage) {
+  const language = highlightLanguageByName[fileLanguage];
+  if (!language || !hljs.getLanguage(language)) return null;
+
+  let continuation;
+  return content.split("\n").map((line) => {
+    const result = hljs.highlight(line, {
+      language,
+      ignoreIllegals: true,
+      continuation,
+    });
+    continuation = result.top;
+    return result.value || " ";
+  });
+}
 
 function getFileIcon(name) {
   const extension = name.split(".").pop()?.toLowerCase();
@@ -330,6 +370,13 @@ function ExplorerPage() {
       ? currentFolderPath.split("/")
       : [];
   const lineCount = selectedFile?.content.split("\n").length ?? 0;
+  const highlightedLines = useMemo(
+    () =>
+      selectedFile
+        ? highlightFileContent(selectedFile.content, selectedFile.language)
+        : null,
+    [selectedFile],
+  );
 
   useEffect(() => {
     function handleShortcut(event) {
@@ -547,7 +594,7 @@ function ExplorerPage() {
                         : "whitespace-pre"
                     }
                   >
-                    <code>
+                    <code className={highlightedLines ? "hljs" : undefined}>
                       {selectedFile.content.split("\n").map((line, index) => (
                         <span
                           className="code-line grid min-h-6 grid-cols-[3.25rem_minmax(0,1fr)]"
@@ -559,7 +606,15 @@ function ExplorerPage() {
                           >
                             {index + 1}
                           </span>
-                          <span>{line || " "}</span>
+                          {highlightedLines ? (
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: highlightedLines[index],
+                              }}
+                            />
+                          ) : (
+                            <span>{line || " "}</span>
+                          )}
                         </span>
                       ))}
                     </code>
