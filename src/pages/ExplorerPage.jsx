@@ -22,6 +22,7 @@ import {
   Folder,
   FolderOpen,
   Home,
+  Info,
   Menu,
   Search,
   X,
@@ -41,6 +42,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import siteInfoMarkdown from "@/data/site-info.md?raw";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
@@ -284,19 +286,23 @@ function SidebarContents({
   onClose,
 }) {
   const [isLogoOpen, setIsLogoOpen] = useState(false);
+  const [isInfoOpen, setIsInfoOpen] = useState(false);
   const allEntries = useMemo(() => flattenTree(fileTree), []);
   const fileCount = allEntries.filter((entry) => entry.type === "file").length;
 
   useEffect(() => {
-    if (!isLogoOpen) return;
+    if (!isLogoOpen && !isInfoOpen) return;
 
     const handleKeyDown = (event) => {
-      if (event.key === "Escape") setIsLogoOpen(false);
+      if (event.key === "Escape") {
+        setIsLogoOpen(false);
+        setIsInfoOpen(false);
+      }
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isLogoOpen]);
+  }, [isLogoOpen, isInfoOpen]);
 
   return (
     <div className="flex h-full min-h-0 flex-col bg-background text-foreground">
@@ -408,11 +414,67 @@ function SidebarContents({
         )}
       </ScrollArea>
 
-      <div className="border-t border-border px-4 py-3">
-        <p className="font-mono text-[10px] text-muted-foreground">
-          Les prémices de la programmation{" "}
+      <div className="flex items-center justify-between gap-2 border-t border-border px-4 py-3">
+        <p className="truncate font-mono text-[10px] text-muted-foreground">
+          Les prémices de la programmation
         </p>
+        <Button
+          type="button"
+          variant="ghost"
+          size="icon-xs"
+          onClick={() => setIsInfoOpen(true)}
+          aria-label="Informations sur le site"
+          title="Informations sur le site"
+          className="shrink-0 text-muted-foreground hover:text-foreground"
+        >
+          <Info className="size-3.5" />
+        </Button>
       </div>
+
+      {isInfoOpen &&
+        createPortal(
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label="Informations sur le site"
+            onClick={() => setIsInfoOpen(false)}
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/65 p-4 backdrop-blur-sm"
+          >
+            <div
+              onClick={(event) => event.stopPropagation()}
+              className="flex max-h-[min(80vh,42rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-2xl"
+            >
+              <div className="flex shrink-0 items-center justify-between border-b border-border px-5 py-3">
+                <h2 className="text-sm font-medium">À propos du site</h2>
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon-sm"
+                  onClick={() => setIsInfoOpen(false)}
+                  aria-label="Fermer les informations"
+                  autoFocus
+                  className="text-muted-foreground"
+                >
+                  <X />
+                </Button>
+              </div>
+              <ScrollArea className="min-h-0 flex-1" viewportClassName="h-full">
+                <article className="markdown-preview px-6 py-5">
+                  <Suspense
+                    fallback={
+                      <p className="text-sm text-muted-foreground">
+                        Chargement des informations…
+                      </p>
+                    }
+                  >
+                    <MarkdownRenderer>{siteInfoMarkdown}</MarkdownRenderer>
+                  </Suspense>
+                </article>
+              </ScrollArea>
+            </div>
+          </div>,
+          document.body,
+        )}
     </div>
   );
 }
