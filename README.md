@@ -37,4 +37,4 @@ vite affiche ensuite l’adresse locale dans le terminal.
 
 ## side projects personnel que je sais pas où mettre
 
-- [crabe](./crabe/)
+ce [dossier](./side-projects/) contient plusieurs anciens repos supprimés car soit le projet n'était pas assez pris au sérieux, soit était là pour rien sur mon profil.

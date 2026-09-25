@@ -6,7 +6,7 @@ nsi.code-workspace/
 .lnk
 /projets/marmotte/akinator.png
 venv/
-/crabe/*/target/
+side-projects/crabe/*/target/
 
 
 # react

@@ -24,7 +24,7 @@ env:
 
 jobs:
   # ─────────────────────────────────────────────────────────
-  # 1. Découverte automatique des projets dans crabe/
+  # 1. Découverte automatique des projets dans side-projects/crabe/
   # ─────────────────────────────────────────────────────────
   discover:
     name: Discover Rust projects
@@ -43,8 +43,8 @@ jobs:
           selected="${{ inputs.apps }}"
           echo "Filtre demandé : '${selected}'"
 
-          if [ -d crabe ]; then
-            for dir in crabe/*/; do
+          if [ -d side-projects/crabe ]; then
+            for dir in side-projects/crabe/*/; do
               [ -d "$dir" ] || continue
               [ -f "${dir}Cargo.toml" ] || continue
               name=$(basename "$dir")
@@ -66,7 +66,7 @@ jobs:
       - name: Fail if empty
         if: steps.list.outputs.apps == '[]'
         run: |
-          echo "::error::Aucun projet Rust à builder (vérifie le filtre 'apps' ou crabe/)"
+          echo "::error::Aucun projet Rust à builder (vérifie le filtre 'apps' ou side-projects/crabe/)"
           exit 1
 
   # ─────────────────────────────────────────────────────────
@@ -105,17 +105,17 @@ jobs:
       - name: Cache Cargo
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: crabe/${{ matrix.app }} -> target
+          workspaces: side-projects/crabe/${{ matrix.app }} -> target
 
       - name: Build release
-        working-directory: crabe/${{ matrix.app }}
+        working-directory: side-projects/crabe/${{ matrix.app }}
         run: cargo build --release --target ${{ matrix.target }}
 
       - name: Stage artifact
         shell: bash
         run: |
           set -e
-          BIN_NAME=$(grep -m1 '^name' crabe/${{ matrix.app }}/Cargo.toml | sed -E 's/.*"(.*)".*/\1/')
+          BIN_NAME=$(grep -m1 '^name' side-projects/crabe/${{ matrix.app }}/Cargo.toml | sed -E 's/.*"(.*)".*/\1/')
           [ -n "$BIN_NAME" ] || BIN_NAME="${{ matrix.app }}"
 
           case "${{ matrix.target }}" in
@@ -125,10 +125,10 @@ jobs:
             *)                          LABEL="${{ matrix.target }}" ;;
           esac
 
-          SRC="crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/${BIN_NAME}${{ matrix.ext }}"
+          SRC="side-projects/crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/${BIN_NAME}${{ matrix.ext }}"
           OUT="${{ matrix.app }}-${LABEL}${{ matrix.ext }}"
 
-          [ -f "$SRC" ] || { echo "::error::Binaire introuvable : $SRC"; ls -la "crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true; exit 1; }
+          [ -f "$SRC" ] || { echo "::error::Binaire introuvable : $SRC"; ls -la "side-projects/crabe/${{ matrix.app }}/target/${{ matrix.target }}/release/" || true; exit 1; }
           cp "$SRC" "$OUT"
           echo "ARTIFACT_NAME=$OUT" >> "$GITHUB_ENV"
 
