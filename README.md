@@ -24,7 +24,7 @@
 
 - [crabe](./crabe/)
 
-## Application web NSI
+## web explorer
 
 le dépôt inclut un explorateur de ressources réalisé avwec React 18, Vite, Tailwind CSS v4 et les composants shadcn/ui.
 
@@ -37,4 +37,4 @@ npm install
 npm run dev
 ```
 
-Vite affiche ensuite l’adresse locale dans le terminal.
+vite affiche ensuite l’adresse locale dans le terminal.
