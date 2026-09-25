@@ -20,10 +20,6 @@
 > [!IMPORTANT]
 > les dépendances se trouvent dans les README de chaque séance
 
-## side projects personnel que je sais pas où mettre
-
-- [crabe](./crabe/)
-
 ## web explorer
 
 le dépôt inclut un explorateur de ressources réalisé avwec React 18, Vite, Tailwind CSS v4 et les composants shadcn/ui.
@@ -38,3 +34,7 @@ npm run dev
 ```
 
 vite affiche ensuite l’adresse locale dans le terminal.
+
+## side projects personnel que je sais pas où mettre
+
+- [crabe](./crabe/)
