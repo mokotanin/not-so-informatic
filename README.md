@@ -4,6 +4,7 @@
 </p>
 
 # Not So Informatic
+En réalité, numérique et sciences informatiques
 
 25-26 première </br>
 26-27 terminale (tle)
