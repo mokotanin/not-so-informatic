@@ -1,8 +1,18 @@
-import { Fragment, lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
+import {
+  Fragment,
+  lazy,
+  Suspense,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { createPortal } from "react-dom";
 import {
+  ArrowRight,
   Braces,
   ChevronDown,
+  CornerDownLeft,
   ChevronRight,
   Code2,
   Eye,
@@ -417,8 +427,29 @@ function ExplorerPage() {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [wrapLines, setWrapLines] = useState(false);
   const [markdownPreview, setMarkdownPreview] = useState(false);
+  const [paletteOpen, setPaletteOpen] = useState(false);
+  const [paletteQuery, setPaletteQuery] = useState("");
+  const [activePaletteIndex, setActivePaletteIndex] = useState(0);
   const searchRef = useRef(null);
+  const paletteSearchRef = useRef(null);
+  const allEntries = useMemo(() => flattenTree(fileTree), []);
   const normalizedQuery = query.trim().toLocaleLowerCase("fr");
+  const normalizedPaletteQuery = paletteQuery.trim().toLocaleLowerCase("fr");
+  const paletteEntries = useMemo(() => {
+    const entries = normalizedPaletteQuery
+      ? allEntries.filter((entry) =>
+          `${entry.name} ${entry.path}`
+            .toLocaleLowerCase("fr")
+            .includes(normalizedPaletteQuery),
+        )
+      : fileTree;
+    return entries.slice(0, 50);
+  }, [allEntries, normalizedPaletteQuery]);
+  const paletteResults = [
+    { type: "home", name: "Accueil", path: "" },
+    ...paletteEntries,
+  ];
+  const activePaletteItem = paletteResults[activePaletteIndex];
   const pathParts = selectedFile
     ? selectedFile.path.split("/")
     : currentFolderPath
@@ -435,23 +466,56 @@ function ExplorerPage() {
   );
 
   useEffect(() => {
+    if (!paletteOpen) return;
+
+    paletteSearchRef.current?.focus();
+  }, [paletteOpen]);
+
+  useEffect(() => {
     function handleShortcut(event) {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+      const isSearchShortcut =
+        (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k";
+      const isTypingTarget =
+        event.target instanceof HTMLElement &&
+        (event.target.isContentEditable ||
+          ["INPUT", "TEXTAREA", "SELECT"].includes(event.target.tagName));
+      const isSlashShortcut = event.key === "/" && !isTypingTarget;
+
+      if (isSearchShortcut || isSlashShortcut) {
         event.preventDefault();
-        searchRef.current?.focus();
-      }
-      if (
-        event.key === "Escape" &&
-        document.activeElement === searchRef.current
-      ) {
-        setQuery("");
-        searchRef.current?.blur();
+        setPaletteQuery("");
+        setPaletteOpen(true);
+      } else if (event.key === "Escape" && paletteOpen) {
+        setPaletteOpen(false);
       }
     }
 
     window.addEventListener("keydown", handleShortcut);
     return () => window.removeEventListener("keydown", handleShortcut);
-  }, []);
+  }, [paletteOpen]);
+
+  function openPalette(initialQuery = "") {
+    setPaletteQuery(initialQuery);
+    setActivePaletteIndex(0);
+    setPaletteOpen(true);
+  }
+
+  function selectPaletteResult(entry) {
+    setPaletteOpen(false);
+    setPaletteQuery("");
+    setQuery("");
+    if (entry.type === "home") {
+      selectFolder("");
+    } else if (entry.type === "folder") {
+      selectFolder(entry.path);
+      const ancestorPaths = entry.path
+        .split("/")
+        .map((_, index, parts) => parts.slice(0, index + 1).join("/"));
+      setExpanded((previous) => new Set([...previous, ...ancestorPaths]));
+    } else {
+      selectFile(entry);
+    }
+  }
 
   function selectFolder(path) {
     setCurrentFolderPath(path);
@@ -568,15 +632,22 @@ function ExplorerPage() {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <label className="relative ml-auto block w-[clamp(124px,34vw,270px)] shrink-0">
+          <div className="relative ml-auto block w-[clamp(124px,34vw,270px)] shrink-0">
             <Search className="pointer-events-none absolute left-2.5 top-1/2 size-3.5 -translate-y-1/2 text-muted-foreground" />
             <Input
               ref={searchRef}
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              readOnly
+              onClick={() => openPalette(query)}
               placeholder="Rechercher dans le projet…"
-              aria-label="Rechercher des fichiers et dossiers"
-              className="h-8 rounded-md border-border bg-secondary/50 pl-8 pr-14 text-xs placeholder:text-muted-foreground/70 focus-visible:bg-background"
+              aria-label="Ouvrir la recherche"
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  openPalette(query);
+                }
+              }}
+              className="h-8 cursor-pointer rounded-md border-border bg-secondary/50 pl-8 pr-14 text-xs placeholder:text-muted-foreground/70 focus-visible:bg-background"
             />
             {query ? (
               <Button
@@ -591,10 +662,10 @@ function ExplorerPage() {
               </Button>
             ) : (
               <kbd className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 rounded border border-border px-1 font-mono text-[9px] text-muted-foreground">
-                ⌘ K
+                {navigator.platform?.includes("Mac") ? "⌘ K" : "Ctrl K"}
               </kbd>
             )}
-          </label>
+          </div>
         </header>
 
         <div className="flex min-h-0 flex-1 flex-col">
@@ -676,7 +747,9 @@ function ExplorerPage() {
                         </p>
                       }
                     >
-                      <MarkdownRenderer>{selectedFile.content}</MarkdownRenderer>
+                      <MarkdownRenderer>
+                        {selectedFile.content}
+                      </MarkdownRenderer>
                     </Suspense>
                   </article>
                 ) : (
@@ -745,6 +818,142 @@ function ExplorerPage() {
           )}
         </div>
       </section>
+
+      {paletteOpen &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-100 flex items-start justify-center overflow-y-auto bg-black/65 px-4 pb-8 pt-[min(10vh,5rem)] backdrop-blur-[2px]"
+            onClick={() => setPaletteOpen(false)}
+          >
+            <div
+              role="dialog"
+              aria-modal="true"
+              aria-label="Recherche dans le projet"
+              onClick={(event) => event.stopPropagation()}
+              onKeyDown={(event) => {
+                if (event.key === "ArrowDown") {
+                  event.preventDefault();
+                  setActivePaletteIndex(
+                    (index) => (index + 1) % paletteResults.length,
+                  );
+                } else if (event.key === "ArrowUp") {
+                  event.preventDefault();
+                  setActivePaletteIndex(
+                    (index) =>
+                      (index - 1 + paletteResults.length) %
+                      paletteResults.length,
+                  );
+                } else if (event.key === "Enter" && activePaletteItem) {
+                  event.preventDefault();
+                  selectPaletteResult(activePaletteItem);
+                } else if (event.key === "Escape") {
+                  event.preventDefault();
+                  setPaletteOpen(false);
+                }
+              }}
+              className="w-full max-w-xl overflow-hidden rounded-2xl border border-border bg-card text-card-foreground shadow-2xl shadow-black/40"
+            >
+              <div className="p-3">
+                <div className="relative">
+                  <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+                  <Input
+                    ref={paletteSearchRef}
+                    value={paletteQuery}
+                    onChange={(event) => {
+                      setPaletteQuery(event.target.value);
+                      setActivePaletteIndex(0);
+                    }}
+                    placeholder="Rechercher dans le projet…"
+                    aria-label="Rechercher des pages et fichiers"
+                    aria-autocomplete="list"
+                    aria-controls="palette-results"
+                    aria-activedescendant={
+                      activePaletteItem
+                        ? `palette-result-${activePaletteIndex}`
+                        : undefined
+                    }
+                    role="combobox"
+                    aria-expanded="true"
+                    className="h-10 rounded-lg border-border bg-secondary/60 pl-10 text-sm placeholder:text-muted-foreground/75 focus-visible:bg-background"
+                  />
+                </div>
+              </div>
+
+              <div className="px-5 pb-2 text-[11px] font-medium text-muted-foreground">
+                {normalizedPaletteQuery ? "Résultats" : "Pages"}
+              </div>
+              <div
+                id="palette-results"
+                role="listbox"
+                aria-label="Résultats de recherche"
+                className="max-h-[min(55vh,26rem)] overflow-y-auto px-2 pb-2"
+              >
+                {paletteResults.map((entry, index) => {
+                  const isActive = index === activePaletteIndex;
+                  const Icon =
+                    entry.type === "home"
+                      ? Home
+                      : entry.type === "folder"
+                        ? Folder
+                        : getFileIcon(entry.name);
+                  const parentPath = entry.path
+                    .split("/")
+                    .slice(0, -1)
+                    .join(" / ");
+
+                  return (
+                    <button
+                      type="button"
+                      role="option"
+                      aria-selected={isActive}
+                      id={`palette-result-${index}`}
+                      key={entry.path || "home"}
+                      onMouseEnter={() => setActivePaletteIndex(index)}
+                      onClick={() => selectPaletteResult(entry)}
+                      className={`flex min-h-9 w-full items-center gap-2.5 rounded-lg px-3 text-left text-sm transition-colors ${isActive ? "bg-accent text-foreground" : "text-foreground/90 hover:bg-accent/60"}`}
+                    >
+                      {entry.type === "home" ? (
+                        <ArrowRight className="size-3.5 shrink-0 text-muted-foreground" />
+                      ) : (
+                        <Icon className="size-3.5 shrink-0 text-muted-foreground" />
+                      )}
+                      <span className="min-w-0 flex-1 truncate font-medium">
+                        {entry.name}
+                      </span>
+                      {parentPath && (
+                        <span className="max-w-[45%] truncate text-xs text-muted-foreground">
+                          {parentPath}
+                        </span>
+                      )}
+                    </button>
+                  );
+                })}
+                {paletteResults.length === 1 && normalizedPaletteQuery && (
+                  <p className="px-3 py-6 text-center text-sm text-muted-foreground">
+                    Aucun résultat pour « {paletteQuery} ».
+                  </p>
+                )}
+              </div>
+
+              <div className="flex h-10 items-center justify-between border-t border-border bg-secondary/40 px-4 text-[11px] text-muted-foreground">
+                <span className="flex items-center gap-2">
+                  <kbd className="rounded border border-border bg-background px-1.5 py-0.5 font-mono text-[10px]">
+                    ↵
+                  </kbd>
+                  Ouvrir
+                </span>
+                <span className="flex items-center gap-2">
+                  <kbd className="rounded border border-border bg-background px-1.5 py-0.5 font-mono text-[10px]">
+                    Esc
+                  </kbd>
+                  Fermer
+                </span>
+                <CornerDownLeft className="size-3.5 opacity-50" />
+              </div>
+            </div>
+          </div>,
+          document.body,
+        )}
     </main>
   );
 }
