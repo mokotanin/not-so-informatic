@@ -35,6 +35,10 @@ npm run dev
 
 vite affiche ensuite l’adresse locale dans le terminal.
 
+## releases
+
+Le code source des releases est dispo dans [crabe🦀](./side-projects/crabe/)
+
 ## side projects personnel que je sais pas où mettre
 
 ce [dossier](./side-projects/) contient plusieurs anciens repos supprimés car soit le projet n'était pas assez pris au sérieux, soit était là pour rien sur mon profil.
