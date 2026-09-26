@@ -57,7 +57,7 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
     cmd.args([
         "-t",
         "-f",
-        "SSID",
+        "SSID", // dans la liste, y'a les infos "IN-USE,SSID,BAND,BARS"
         "device",
         "wifi",
         "list",
