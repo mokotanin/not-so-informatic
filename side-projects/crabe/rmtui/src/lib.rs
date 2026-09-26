@@ -33,7 +33,7 @@ pub fn scan_ntwks() {
         }
         Ok(output) => {
             let stderr = String::from_utf8_lossy(&output.stderr);
-            eprintln!("mcli failed: {}", stderr);
+            eprintln!("nmcli failed: {}", stderr);
         }
         Err(err) => {
             eprintln!("failed to execute nmcli: {}", err);
@@ -59,22 +59,49 @@ pub fn r_hn(name: &str) {
 
     println!("your hostname is now {}", name)
 }
-pub fn actv_ntwk(name: &str) -> std::io::Result<()> {
-    let output = Command::new("nmcli")
-        .args(["connection", "up", name])
-        .output()?;
+pub fn actv_ntwk(name: String) {
+    let pb = ProgressBar::new_spinner();
 
-    if output.status.success() {
-        println!("{name} activated");
-    } else {
-        let error = String::from_utf8_lossy(&output.stderr);
-        eprintln!("failed to activate {name}: {error}");
+    pb.set_style(
+        ProgressStyle::default_spinner()
+            .template("{spinner:.cyan} {msg}")
+            .expect("valid template"),
+    );
+
+    pb.set_message(format!("activating {name}"));
+    pb.enable_steady_tick(Duration::from_millis(100));
+
+    let command_name = name.clone();
+
+    let handle = thread::spawn(move || {
+        Command::new("nmcli")
+            .args(["connection", "up", &command_name])
+            .output()
+    });
+
+    let output_result = handle.join().expect("the background thread panicked");
+
+    pb.finish_and_clear();
+
+    match output_result {
+        Ok(output) if output.status.success() => {
+            println!("{name} activated");
+        }
+
+        Ok(output) => {
+            let stderr = String::from_utf8_lossy(&output.stderr);
+            eprintln!("nmcli failed: {stderr}");
+        }
+
+        Err(err) => {
+            eprintln!("failed to execute nmcli: {err}");
+        }
     }
-
-    Ok(())
 }
 
 pub fn get_ntwk_names() -> std::io::Result<String> {
+    //intended only in commands (not replacing scan_ntwks fn)
+
     let output = Command::new("nmcli")
         .args(["-t", "-f", "NAME", "connection", "show"])
         .output()?;

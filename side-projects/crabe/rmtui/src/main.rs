@@ -46,10 +46,10 @@ fn main() -> Result<()> {
         }
         Commands::Activate { name } => {
             if let Some(name) = name {
-                rmtui::actv_ntwk(&name)?;
+                rmtui::actv_ntwk(name);
             } else {
                 let name = rmtui::get_ntwk_names()?;
-                rmtui::actv_ntwk(&name)?;
+                rmtui::actv_ntwk(name);
             }
         }
         Commands::Edit { name } => {
