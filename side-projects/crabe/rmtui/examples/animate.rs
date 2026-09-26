@@ -1,3 +1,4 @@
+// spinner loading example
 use indicatif::{ProgressBar, ProgressStyle};
 use std::{thread, time::Duration};
 

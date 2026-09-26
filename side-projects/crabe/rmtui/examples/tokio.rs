@@ -1,3 +1,4 @@
+// async fn example
 use indicatif::{ProgressBar, ProgressStyle};
 use std::time::Duration;
 

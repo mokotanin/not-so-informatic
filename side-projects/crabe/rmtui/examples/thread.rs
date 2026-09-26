@@ -1,3 +1,4 @@
+// spinner using thread example
 use indicatif::{ProgressBar, ProgressStyle};
 use std::process::Command;
 use std::thread;
@@ -8,7 +9,6 @@ fn main() {
     let pb = ProgressBar::new_spinner();
     pb.set_style(
         ProgressStyle::default_spinner()
-            .tick_chars("⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏")
             .template("{spinner:.cyan} {msg}")
             .expect("Valid template"),
     );

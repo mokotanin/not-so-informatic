@@ -1,6 +1,7 @@
+use std::str;
+
 use anyhow::Result;
 use clap::{Parser, Subcommand};
-use std::process::{Command, Stdio};
 
 // redirection temporaire : pour l'instant cli ensuite on part sur un tui.
 
@@ -21,11 +22,11 @@ enum Commands {
     Scan,
     Activate {
         #[arg(short, long)]
-        name: Option<String>,
+        nkws_name: Option<String>,
     },
     Edit {
         #[arg(short, long)]
-        name: Option<String>,
+        nkws_name: Option<String>,
     },
     Hostname {
         #[arg(short, long)]
@@ -38,42 +39,27 @@ fn main() -> Result<()> {
 
     match args.command {
         Commands::Scan {} => {
-            println!("scanning for networks...")
-            // add loading icon
-            // add cache the list (needed, cuz for the after)
-            // in the end :
-            // rmcli scan
-            // > [liste...]
-            // >
-            // > séléctionne
-            // > entrée (se connecter)
+            rmtui::scan_nwks();
         }
-        Commands::Activate { name } => {
-            if let Some(name) = name {
-                println!("activating {name}")
+        Commands::Activate { nkws_name } => {
+            if let Some(nkws_name) = nkws_name {
+                println!("activating {nkws_name}")
             } else {
                 println!("what network do you want to activate?")
             }
         }
-        Commands::Edit { name } => {
-            if let Some(name) = name {
-                println!("editing {name}")
+        Commands::Edit { nkws_name } => {
+            if let Some(nkws_name) = nkws_name {
+                println!("editing {nkws_name}")
             } else {
                 println!("what network do you want to edit?")
             }
         }
         Commands::Hostname { rename } => {
             if let Some(rename) = rename {
-                println!("hostname renamed to {rename}")
+                rmtui::r_hn(&rename); //require sudo
             } else {
-                let output = Command::new("nmcli")
-                    .args(["general", "hostname"])
-                    .stdout(Stdio::piped())
-                    .output()
-                    .unwrap();
-
-                let hostname = String::from_utf8(output.stdout).unwrap();
-                println!("your current hostname is {}", hostname)
+                rmtui::crnt_hn();
             }
         }
     }
