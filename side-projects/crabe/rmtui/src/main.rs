@@ -2,7 +2,6 @@ use std::str;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
-use rmtui::get_ntwk_names;
 
 // redirection temporaire : pour l'instant cli ensuite on part sur un tui.
 
@@ -58,7 +57,7 @@ fn main() -> Result<()> {
             if let Some(name) = name {
                 rmtui::de_ntwk(name);
             } else {
-                let name = get_ntwk_names()?;
+                let name = rmtui::get_ntwk_names_active()?;
                 rmtui::de_ntwk(name);
             }
         }
