@@ -54,7 +54,14 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
     //intended only in commands (not replacing scan_ntwks fn)
 
     let mut cmd = Command::new("nmcli");
-    cmd.args(["-t", "-f", "NAME", "connection", "show"]);
+    cmd.args([
+        "-t",
+        "-f",
+        "IN-USE,SSID,BAND,BARS",
+        "device",
+        "wifi",
+        "list",
+    ]);
     if active_only {
         cmd.arg("--active");
     }
