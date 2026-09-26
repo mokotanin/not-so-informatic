@@ -82,15 +82,6 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         .default(0)
         .interact_on(&Term::stderr())?;
 
-    if !active_only {
-        println!(
-            "\nyou selected: {}",
-            style(&names[selection]).green().bold()
-        );
-    } else {
-        println!("\nyou selected: {}", style(&names[selection]).red().bold());
-    }
-
     Ok(names[selection].clone())
 }
 
@@ -141,7 +132,7 @@ pub fn actv_ntwk(name: String) {
 
     match output_result {
         Ok(output) if output.status.success() => {
-            println!("{name} activated");
+            println!("{name} {}", style("activated").green().bold())
         }
 
         Ok(output) => {
@@ -181,7 +172,7 @@ pub fn de_ntwk(name: String) {
 
     match output_result {
         Ok(output) if output.status.success() => {
-            println!("{name} deactivated");
+            println!("{name} {}", style("deactivated").red().bold());
         }
 
         Ok(output) => {
