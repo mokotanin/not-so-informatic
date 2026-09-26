@@ -31,11 +31,11 @@ enum Commands {
     Hostname {
         #[arg(short, long)]
         rename: Option<String>,
-    }, // !TODO Set the radio switches status
+    }, // TODO Set the radio switches status
     Deactivate {
         #[arg(short, long)]
         name: Option<String>,
-    },
+    }, // TODO status
 }
 
 fn main() -> Result<()> {
@@ -66,7 +66,7 @@ fn main() -> Result<()> {
                 println!("editing {name}")
             } else {
                 println!("what network do you want to edit?")
-                // TODO! list all networks from cache (selectable)
+                // TODO list all networks from cache (selectable)
             }
         }
         Commands::Hostname { rename } => {
