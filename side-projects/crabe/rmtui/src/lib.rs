@@ -82,10 +82,14 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         .default(0)
         .interact_on(&Term::stderr())?;
 
-    println!(
-        "\nyou selected: {}",
-        style(&names[selection]).green().bold()
-    );
+    if !active_only {
+        println!(
+            "\nyou selected: {}",
+            style(&names[selection]).green().bold()
+        );
+    } else {
+        println!("\nyou selected: {}", style(&names[selection]).red().bold());
+    }
 
     Ok(names[selection].clone())
 }
