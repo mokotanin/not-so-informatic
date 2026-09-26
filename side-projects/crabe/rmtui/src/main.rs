@@ -2,6 +2,7 @@ use std::str;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
+use rmtui::get_ntwk_names;
 
 // redirection temporaire : pour l'instant cli ensuite on part sur un tui.
 
@@ -32,7 +33,10 @@ enum Commands {
         #[arg(short, long)]
         rename: Option<String>,
     }, // !TODO Set the radio switches status
-       // !TODO deactivate
+    Deactivate {
+        #[arg(short, long)]
+        name: Option<String>,
+    },
 }
 
 fn main() -> Result<()> {
@@ -48,6 +52,14 @@ fn main() -> Result<()> {
             } else {
                 let name = rmtui::get_ntwk_names()?;
                 rmtui::actv_ntwk(name);
+            }
+        }
+        Commands::Deactivate { name } => {
+            if let Some(name) = name {
+                rmtui::de_ntwk(name);
+            } else {
+                let name = get_ntwk_names()?;
+                rmtui::de_ntwk(name);
             }
         }
         Commands::Edit { name } => {

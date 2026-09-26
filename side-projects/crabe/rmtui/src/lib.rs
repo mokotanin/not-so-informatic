@@ -1,3 +1,4 @@
+// use clap::builder::Str;
 use console::{Term, style};
 use dialoguer::{Select, theme::ColorfulTheme};
 use indicatif::{ProgressBar, ProgressStyle};
@@ -39,6 +40,54 @@ pub fn scan_ntwks() {
             eprintln!("failed to execute nmcli: {}", err);
         }
     }
+}
+
+pub fn get_ntwk_names() -> std::io::Result<String> {
+    get_ntwk_names_filtered(false)
+}
+
+pub fn get_ntwk_names_active() -> std::io::Result<String> {
+    get_ntwk_names_filtered(true)
+}
+
+pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
+    //intended only in commands (not replacing scan_ntwks fn)
+
+    let mut cmd = Command::new("nmcli");
+    cmd.args(["-t", "-f", "NAME", "connection", "show"]);
+    if active_only {
+        cmd.arg("--active");
+    }
+
+    let output = cmd.output()?;
+
+    let names: Vec<String> = String::from_utf8(output.stdout)
+        .map_err(std::io::Error::other)?
+        .lines()
+        .map(str::to_string)
+        .filter(|name| !name.is_empty())
+        .collect();
+
+    if names.is_empty() {
+        return Err(std::io::Error::other("no network connections found"));
+    }
+
+    println!(
+        "{}",
+        style("select a network (up/down to select and enter to confirm):").bold()
+    );
+
+    let selection = Select::with_theme(&ColorfulTheme::default())
+        .items(&names)
+        .default(0)
+        .interact_on(&Term::stderr())?;
+
+    println!(
+        "\nyou selected: {}",
+        style(&names[selection]).green().bold()
+    );
+
+    Ok(names[selection].clone())
 }
 
 pub fn crnt_hn() {
@@ -102,38 +151,42 @@ pub fn actv_ntwk(name: String) {
     }
 }
 
-pub fn get_ntwk_names() -> std::io::Result<String> {
-    //intended only in commands (not replacing scan_ntwks fn)
+pub fn de_ntwk(name: String) {
+    let pb = ProgressBar::new_spinner();
 
-    let output = Command::new("nmcli")
-        .args(["-t", "-f", "NAME", "connection", "show"])
-        .output()?;
+    pb.set_style(
+        ProgressStyle::default_spinner()
+            .template("{spinner:.red} {msg}")
+            .expect("valid template"),
+    );
 
-    let names: Vec<String> = String::from_utf8(output.stdout)
-        .map_err(std::io::Error::other)?
-        .lines()
-        .map(str::to_string)
-        .filter(|name| !name.is_empty())
-        .collect();
+    pb.set_message(format!("deactivating {name}"));
+    pb.enable_steady_tick(Duration::from_millis(100));
 
-    if names.is_empty() {
-        return Err(std::io::Error::other("no network connections found"));
+    let command_name = name.clone();
+
+    let handle = thread::spawn(move || {
+        Command::new("nmcli")
+            .args(["connection", "down", &command_name])
+            .output()
+    });
+
+    let output_result = handle.join().expect("the background thread panicked");
+
+    pb.finish_and_clear();
+
+    match output_result {
+        Ok(output) if output.status.success() => {
+            println!("{name} deactivated");
+        }
+
+        Ok(output) => {
+            let stderr = String::from_utf8_lossy(&output.stderr);
+            eprintln!("nmcli failed: {stderr}");
+        }
+
+        Err(err) => {
+            eprintln!("failed to execute nmcli: {err}");
+        }
     }
-
-    println!(
-        "{}",
-        style("select a network (up/down to select and enter to confirm):").bold()
-    );
-
-    let selection = Select::with_theme(&ColorfulTheme::default())
-        .items(&names)
-        .default(0)
-        .interact_on(&Term::stderr())?;
-
-    println!(
-        "\nyou selected: {}",
-        style(&names[selection]).green().bold()
-    );
-
-    Ok(names[selection].clone())
 }
