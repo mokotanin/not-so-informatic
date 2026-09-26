@@ -60,12 +60,17 @@ pub fn r_hn(name: &str) {
     println!("your hostname is now {}", name)
 }
 pub fn actv_ntwk(name: &str) -> std::io::Result<()> {
-    Command::new("nmcli")
+    let output = Command::new("nmcli")
         .args(["connection", "up", name])
-        .stdout(Stdio::piped())
         .output()?;
 
-    println!("{name} activated");
+    if output.status.success() {
+        println!("{name} activated");
+    } else {
+        let error = String::from_utf8_lossy(&output.stderr);
+        eprintln!("failed to activate {name}: {error}");
+    }
+
     Ok(())
 }
 
