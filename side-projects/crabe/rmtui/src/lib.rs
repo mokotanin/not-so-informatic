@@ -1,9 +1,11 @@
+use console::{Term, style};
+use dialoguer::{Select, theme::ColorfulTheme};
 use indicatif::{ProgressBar, ProgressStyle};
 use std::process::{Command, Stdio};
 use std::thread;
 use std::time::Duration;
 
-pub fn scan_nwks() {
+pub fn scan_ntwks() {
     let pb = ProgressBar::new_spinner();
     pb.set_style(
         ProgressStyle::default_spinner()
@@ -16,6 +18,7 @@ pub fn scan_nwks() {
     let handle = thread::spawn(|| {
         Command::new("nmcli")
             .args(["device", "wifi", "list", "--rescan", "yes"])
+            // .args(["-t", "-f", "NAME", "connection", "show"])
             .output()
     });
 
@@ -47,13 +50,55 @@ pub fn crnt_hn() {
     let hostname = String::from_utf8(output.stdout).unwrap();
     println!("your current hostname is {}", hostname)
 }
-
 pub fn r_hn(name: &str) {
     Command::new("sudo")
-        .args(["nmcli","general","hostname", name])
+        .args(["nmcli", "general", "hostname", name])
         .stdout(Stdio::piped())
         .output()
         .unwrap();
 
     println!("your hostname is now {}", name)
+}
+pub fn actv_ntwk(name: &str) -> std::io::Result<()> {
+    Command::new("nmcli")
+        .args(["connection", "up", name])
+        .stdout(Stdio::piped())
+        .output()?;
+
+    println!("{name} activated");
+    Ok(())
+}
+
+pub fn get_ntwk_names() -> std::io::Result<String> {
+    let output = Command::new("nmcli")
+        .args(["-t", "-f", "NAME", "connection", "show"])
+        .output()?;
+
+    let names: Vec<String> = String::from_utf8(output.stdout)
+        .map_err(std::io::Error::other)?
+        .lines()
+        .map(str::to_string)
+        .filter(|name| !name.is_empty())
+        .collect();
+
+    if names.is_empty() {
+        return Err(std::io::Error::other("no network connections found"));
+    }
+
+    println!(
+        "{}",
+        style("select a network (up/down to select and enter to confirm):").bold()
+    );
+
+    let selection = Select::with_theme(&ColorfulTheme::default())
+        .items(&names)
+        .default(0)
+        .interact_on(&Term::stderr())?;
+
+    println!(
+        "\nyou selected: {}",
+        style(&names[selection]).green().bold()
+    );
+
+    Ok(names[selection].clone())
 }

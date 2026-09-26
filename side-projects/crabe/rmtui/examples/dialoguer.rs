@@ -1,5 +1,5 @@
-use dialoguer::{theme::SimpleTheme, Select};
-use console::{style, Term};
+use console::{Term, style};
+use dialoguer::{Select, theme::ColorfulTheme};
 
 fn main() -> std::io::Result<()> {
     // 1. Définition de la liste des choix
@@ -7,9 +7,12 @@ fn main() -> std::io::Result<()> {
 
     // 2. Création d'un thème personnalisé
     // On surcharge le style de l'item sélectionné pour l'afficher en vert
-    let mut theme = SimpleTheme;
+    let theme = ColorfulTheme::default();
 
-    println!("{}", style("Select an item (up/down to select and enter to confirm):").bold());
+    println!(
+        "{}",
+        style("select an item (up/down to select and enter to confirm):").bold()
+    );
 
     // 3. Configuration et affichage du menu
     // Note : Pour changer finement les couleurs de sélection de dialoguer,
