@@ -40,6 +40,7 @@ pub fn scan_ntwks() {
         }
     }
 }
+
 pub fn crnt_hn() {
     let output = Command::new("nmcli")
         .args(["general", "hostname"])
@@ -50,6 +51,7 @@ pub fn crnt_hn() {
     let hostname = String::from_utf8(output.stdout).unwrap();
     println!("your current hostname is {}", hostname)
 }
+
 pub fn r_hn(name: &str) {
     Command::new("sudo")
         .args(["nmcli", "general", "hostname", name])
@@ -59,6 +61,7 @@ pub fn r_hn(name: &str) {
 
     println!("your hostname is now {}", name)
 }
+
 pub fn actv_ntwk(name: String) {
     let pb = ProgressBar::new_spinner();
 

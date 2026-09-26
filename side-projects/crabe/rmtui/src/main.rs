@@ -40,9 +40,7 @@ fn main() -> Result<()> {
 
     match args.command {
         Commands::Scan {} => {
-            if let Err(e) = rmtui::get_ntwk_names() {
-                println!("error fetching network names: {e}");
-            }
+            rmtui::scan_ntwks();
         }
         Commands::Activate { name } => {
             if let Some(name) = name {
