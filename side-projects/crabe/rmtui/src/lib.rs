@@ -75,11 +75,11 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
                 return None;
             }
             let ssid = fields.get(1)?.clone();
-            let band = fields.get(2)?;
-            let bars = fields.get(3)?;
             if ssid.is_empty() {
                 return None;
             }
+            let band = fields.get(2)?;
+            let bars = fields.get(3)?;
 
             let marker = if in_use == "*" {
                 if active_only {
@@ -90,7 +90,20 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
             } else {
                 " ".to_string()
             };
-            let row = format!("{marker} {ssid} [{band}] {bars}");
+
+            let bandcolored = style(band).yellow().to_string();
+
+            let bars_color = if bars == "____" {
+                style(bars).red().to_string()
+            } else if bars == "▂___" {
+                style(bars).red().to_string()
+            } else if bars == "▂▄__" {
+                style(bars).true_color(215, 106, 47).to_string()
+            } else {
+                style(bars).green().to_string()
+            };
+
+            let row = format!("{marker} {ssid} [{bandcolored}] {bars_color}");
             Some((row, ssid))
         })
         .collect();
