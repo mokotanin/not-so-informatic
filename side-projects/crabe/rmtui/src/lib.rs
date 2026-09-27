@@ -62,9 +62,6 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         "wifi",
         "list",
     ]);
-    if active_only {
-        cmd.arg("--active");
-    }
 
     let output = cmd.output()?;
 
@@ -74,6 +71,9 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         .filter_map(|line| {
             let fields = parse_nmcli_fields(line);
             let in_use = fields.first()?;
+            if active_only && in_use != "*" {
+                return None;
+            }
             let ssid = fields.get(1)?.clone();
             let band = fields.get(2)?;
             let bars = fields.get(3)?;
