@@ -187,7 +187,7 @@ pub fn actv_ntwk(name: String) {
 
     let handle = thread::spawn(move || {
         Command::new("nmcli")
-            .args(["connection", "up", &command_name])
+            .args(["--ask","connection", "up", &command_name])
             .output()
     });
 
