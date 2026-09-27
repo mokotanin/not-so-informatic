@@ -73,11 +73,21 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         .lines()
         .filter_map(|line| {
             let fields = parse_nmcli_fields(line);
-            let ssid = fields.get(1)?.clone(); // renvoie seulement le SSID
+            let in_use = fields.first()?;
+            let ssid = fields.get(1)?.clone();
+            let band = fields.get(2)?;
+            let bars = fields.get(3)?;
             if ssid.is_empty() {
                 return None;
             }
-            Some((line.to_string(), ssid))
+
+            let marker = if in_use == "*" {
+                style("*").blue().to_string()
+            } else {
+                " ".to_string()
+            };
+            let row = format!("{marker} {ssid} [{band}] {bars}");
+            Some((row, ssid))
         })
         .collect();
 
