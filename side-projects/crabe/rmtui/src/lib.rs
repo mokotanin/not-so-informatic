@@ -82,7 +82,11 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
             }
 
             let marker = if in_use == "*" {
-                style("*").blue().to_string()
+                if active_only {
+                    style("*").red().to_string()
+                } else {
+                    style("*").blue().to_string()
+                }
             } else {
                 " ".to_string()
             };
