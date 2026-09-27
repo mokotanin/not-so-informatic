@@ -57,7 +57,7 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
     cmd.args([
         "-t",
         "-f",
-        "SSID", // dans la liste, y'a les infos "IN-USE,SSID,BAND,BARS"
+        "IN-USE,SSID,BAND,BARS",
         "device",
         "wifi",
         "list",
@@ -68,14 +68,20 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
 
     let output = cmd.output()?;
 
-    let names: Vec<String> = String::from_utf8(output.stdout)
+    let networks: Vec<(String, String)> = String::from_utf8(output.stdout)
         .map_err(std::io::Error::other)?
         .lines()
-        .map(str::to_string)
-        .filter(|name| !name.is_empty())
+        .filter_map(|line| {
+            let fields = parse_nmcli_fields(line);
+            let ssid = fields.get(1)?.clone(); // renvoie seulement le SSID
+            if ssid.is_empty() {
+                return None;
+            }
+            Some((line.to_string(), ssid))
+        })
         .collect();
 
-    if names.is_empty() {
+    if networks.is_empty() {
         return Err(std::io::Error::other("no network connections found"));
     }
 
@@ -84,12 +90,37 @@ pub fn get_ntwk_names_filtered(active_only: bool) -> std::io::Result<String> {
         style("select a network (up/down to select and enter to confirm):").bold()
     );
 
+    let rows: Vec<String> = networks.iter().map(|(row, _)| row.clone()).collect();
     let selection = Select::with_theme(&ColorfulTheme::default())
-        .items(&names)
+        .items(&rows)
         .default(0)
         .interact_on(&Term::stderr())?;
 
-    Ok(names[selection].clone())
+    Ok(networks[selection].1.clone())
+}
+
+fn parse_nmcli_fields(line: &str) -> Vec<String> {
+    let mut fields = vec![String::new()];
+    let mut escaped = false;
+
+    for character in line.chars() {
+        if escaped {
+            fields.last_mut().unwrap().push(character);
+            escaped = false;
+        } else {
+            match character {
+                '\\' => escaped = true,
+                ':' => fields.push(String::new()),
+                _ => fields.last_mut().unwrap().push(character),
+            }
+        }
+    }
+
+    if escaped {
+        fields.last_mut().unwrap().push('\\');
+    }
+
+    fields
 }
 
 pub fn crnt_hn() {
