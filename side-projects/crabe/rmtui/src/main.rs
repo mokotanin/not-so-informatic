@@ -81,3 +81,30 @@ fn main() -> Result<()> {
 
     Ok(())
 }
+
+#[cfg(test)]
+mod tests {
+    use super::{Cli, Commands};
+    use clap::Parser;
+
+    #[test]
+    fn parses_scan_command() {
+        let cli = Cli::try_parse_from(["rmtui", "scan"]).unwrap();
+        assert!(matches!(cli.command, Commands::Scan));
+    }
+
+    #[test]
+    fn parses_activate_name_with_spaces() {
+        let cli = Cli::try_parse_from(["rmtui", "activate", "--name", "Home Wi-Fi"]).unwrap();
+
+        match cli.command {
+            Commands::Activate { name } => assert_eq!(name.as_deref(), Some("Home Wi-Fi")),
+            _ => panic!("expected activate command"),
+        }
+    }
+
+    #[test]
+    fn requires_a_subcommand() {
+        assert!(Cli::try_parse_from(["rmtui"]).is_err());
+    }
+}

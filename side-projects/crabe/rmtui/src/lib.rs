@@ -150,6 +150,32 @@ fn parse_nmcli_fields(line: &str) -> Vec<String> {
     fields
 }
 
+#[cfg(test)]
+mod tests {
+    use super::parse_nmcli_fields;
+
+    #[test]
+    fn splits_fields_on_unescaped_colons() {
+        assert_eq!(
+            parse_nmcli_fields("*:Home Wi-Fi:5 GHz:▂▄__"),
+            ["*", "Home Wi-Fi", "5 GHz", "▂▄__"]
+        );
+    }
+
+    #[test]
+    fn keeps_escaped_colons_inside_a_field() {
+        assert_eq!(
+            parse_nmcli_fields(r"*:Cafe\:wifi:2.4 GHz:▂___"),
+            ["*", "Cafe:wifi", "2.4 GHz", "▂___"]
+        );
+    }
+
+    #[test]
+    fn preserves_a_trailing_escape_character() {
+        assert_eq!(parse_nmcli_fields("network\\"), ["network\\"]);
+    }
+}
+
 pub fn crnt_hn() {
     let output = Command::new("nmcli")
         .args(["general", "hostname"])
@@ -187,7 +213,7 @@ pub fn actv_ntwk(name: String) {
 
     let handle = thread::spawn(move || {
         Command::new("nmcli")
-            .args(["--ask","connection", "up", &command_name])
+            .args(["--ask", "connection", "up", &command_name])
             .output()
     });
 
