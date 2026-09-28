@@ -63,10 +63,10 @@ fn main() -> Result<()> {
         }
         Commands::Edit { name } => {
             if let Some(name) = name {
-                println!("editing {name}")
+                rmtui::edit(name)?;
             } else {
-                println!("what network do you want to edit?")
-                // TODO list all networks from cache (selectable)
+                let name = rmtui::get_ntwk_names()?;
+                rmtui::edit(name)?;
             }
         }
         Commands::Hostname { rename } => {

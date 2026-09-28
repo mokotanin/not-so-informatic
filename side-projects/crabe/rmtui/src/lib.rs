@@ -276,3 +276,127 @@ pub fn de_ntwk(name: String) {
         }
     }
 }
+
+pub fn edit(name: String) -> std::io::Result<()> {
+    // ask for advanced options i gues
+    let categories = vec![
+        "IP Method",
+        "IP Addresses",
+        "Gateways",
+        "DNS Servers",
+        "Automation",
+        "Naming",
+    ];
+
+    let category = Select::with_theme(&ColorfulTheme::default())
+        .with_prompt(format!("edit {name}"))
+        .items(&categories)
+        .default(0)
+        .interact()?;
+
+    let category = match category {
+        0 => PropertyCategory::IpMethod,
+        1 => PropertyCategory::IpAddress,
+        2 => PropertyCategory::Gateway,
+        3 => PropertyCategory::Dns,
+        4 => PropertyCategory::Automation,
+        5 => PropertyCategory::Naming,
+        _ => unreachable!(),
+    };
+
+    let properties: Vec<&NetworkProperty> = NETWORK_PROPERTIES
+        .iter()
+        .filter(|property| property.category == category)
+        .collect();
+
+    let items: Vec<&str> = properties
+        .iter()
+        .map(|property| property.name)
+        .collect();
+
+    let selection = Select::with_theme(&ColorfulTheme::default())
+        .with_prompt("what do you want to edit?")
+        .items(&items)
+        .default(0)
+        .interact()?;
+
+    let property = properties[selection];
+
+    println!("Selected: {}", property.name);
+
+    Ok(())
+}
+
+#[derive(PartialEq)]
+enum PropertyCategory {
+    IpMethod,
+    IpAddress,
+    Gateway,
+    Dns,
+    Automation,
+    Naming,
+}
+
+struct NetworkProperty {
+    category: PropertyCategory,
+    name: &'static str,
+    //purpose: &'static str,
+}
+
+const NETWORK_PROPERTIES: &[NetworkProperty] = &[
+    NetworkProperty {
+        category: PropertyCategory::IpMethod,
+        name: "ipv4.method",
+        //purpose: "IPv4 addressing method",
+    },
+    NetworkProperty {
+        category: PropertyCategory::IpMethod,
+        name: "ipv6.method",
+        //purpose: "IPv6 addressing method",
+    },
+
+    NetworkProperty {
+        category: PropertyCategory::IpAddress,
+        name: "ipv4.addresses",
+        //purpose: "IPv4 addresses",
+    },
+    NetworkProperty {
+        category: PropertyCategory::IpAddress,
+        name: "ipv6.addresses",
+        //purpose: "IPv6 addresses",
+    },
+
+    NetworkProperty {
+        category: PropertyCategory::Gateway,
+        name: "ipv4.gateway",
+        //purpose: "IPv4 gateway",
+    },
+    NetworkProperty {
+        category: PropertyCategory::Gateway,
+        name: "ipv6.gateway",
+        //purpose: "IPv6 gateway",
+    },
+
+    NetworkProperty {
+        category: PropertyCategory::Dns,
+        name: "ipv4.dns",
+        //purpose: "IPv4 DNS servers",
+    },
+    NetworkProperty {
+        category: PropertyCategory::Dns,
+        name: "ipv6.dns",
+        //purpose: "IPv6 DNS servers",
+    },
+
+    NetworkProperty {
+        category: PropertyCategory::Automation,
+        name: "connection.autoconnect",
+        //purpose: "Automatic activation",
+    },
+
+    NetworkProperty {
+        category: PropertyCategory::Naming,
+        name: "connection.id",
+        //purpose: "Connection profile name",
+    },
+];
