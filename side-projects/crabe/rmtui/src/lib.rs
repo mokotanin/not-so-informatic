@@ -406,10 +406,8 @@ pub fn status() -> std::io::Result<()> {
         .args([
             "-t",
             "-f",
-            "GENERAL.DEVICE,GENERAL.TYPE,GENERAL.STATE,GENERAL.CONNECTION,\
-IP4.ADDRESS,IP4.GATEWAY,IP4.DNS",
+            "DEVICE,TYPE,STATE,CONNECTION",
             "device",
-            "show",
         ])
         .output()?;
 
@@ -420,21 +418,55 @@ IP4.ADDRESS,IP4.GATEWAY,IP4.DNS",
 
     let stdout = String::from_utf8_lossy(&output.stdout);
 
-    println!("{}", style("rmTUI network status").bold());
+    println!();
+    println!("{}", style("rmTUI network status").bold().cyan());
     println!();
 
     for line in stdout.lines() {
-        if line.is_empty() {
+        let fields: Vec<&str> = line.split(':').collect();
+
+        if fields.len() < 4 {
             continue;
         }
 
-        if let Some((property, value)) = line.split_once(':') {
-            println!(
-                "{:<20} {}",
-                style(property).cyan(),
-                style(value).green()
-            );
-        }
+        let device = fields[0];
+        let kind = fields[1];
+        let state = fields[2];
+        let connection = fields[3];
+
+        let state_display = match state {
+            "connected" => style("● CONNECTED".to_string()).green().bold(),
+            "disconnected" => style("● DISCONNECTED".to_string()).red().bold(),
+            "connecting" => style("● CONNECTING".to_string()).yellow().bold(),
+            "unavailable" => style("● UNAVAILABLE".to_string()).red(),
+            _ => style(format!("● {}", state.to_uppercase())).yellow(),
+        };
+
+        println!(
+            "{} {}",
+            style("Device").cyan().bold(),
+            style(device).white()
+        );
+
+        println!(
+            "{} {}",
+            style("Type").cyan().bold(),
+            style(kind).white()
+        );
+
+        println!(
+            "{} {}",
+            style("State").cyan().bold(),
+            state_display
+        );
+
+        println!(
+            "{} {}",
+            style("Connection").cyan().bold(),
+            style(connection).magenta()
+        );
+
+        println!();
     }
 
     Ok(())
