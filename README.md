@@ -24,7 +24,7 @@ En réalité, numérique et sciences informatiques
 
 ## Web explorer
 
-Le dépôt inclut un explorateur de ressources réalisé avwec React 18, Vite, Tailwind CSS v4 et les composants shadcn/ui.
+Le dépôt inclut un explorateur de ressources réalisé avec React 18, Vite, Tailwind CSS v4 et les composants shadcn/ui.
 
 Dans ce repo, les composants shadcn/ui requis sont déjà présents et configurés. Pour lancer l’application en local :
 
