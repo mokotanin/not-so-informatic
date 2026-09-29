@@ -358,7 +358,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rmtui"
+name = "rmcli"
 version = "0.1.0"
 dependencies = [
  "anyhow",

@@ -419,7 +419,7 @@ pub fn status() -> std::io::Result<()> {
     let stdout = String::from_utf8_lossy(&output.stdout);
 
     println!();
-    println!("{}", style("rmTUI network status").bold().cyan());
+    println!("{}", style("rmcli network status").bold().cyan());
     println!();
 
     for line in stdout.lines() {
