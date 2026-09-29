@@ -35,7 +35,8 @@ enum Commands {
     Deactivate {
         #[arg(short, long)]
         name: Option<String>,
-    }, // TODO status
+    },
+    Status {},
 }
 
 fn main() -> Result<()> {
@@ -77,6 +78,9 @@ fn main() -> Result<()> {
                 rmtui::crnt_hn();
             }
         }
+        Commands::Status {} => {
+            rmtui::status()?;
+            }
     }
 
     Ok(())

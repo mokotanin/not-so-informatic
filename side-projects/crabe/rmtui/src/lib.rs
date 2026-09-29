@@ -400,3 +400,42 @@ const NETWORK_PROPERTIES: &[NetworkProperty] = &[
         //purpose: "Connection profile name",
     },
 ];
+
+pub fn status() -> std::io::Result<()> {
+    let output = Command::new("nmcli")
+        .args([
+            "-t",
+            "-f",
+            "GENERAL.DEVICE,GENERAL.TYPE,GENERAL.STATE,GENERAL.CONNECTION,\
+IP4.ADDRESS,IP4.GATEWAY,IP4.DNS",
+            "device",
+            "show",
+        ])
+        .output()?;
+
+    if !output.status.success() {
+        let stderr = String::from_utf8_lossy(&output.stderr);
+        return Err(std::io::Error::other(stderr.to_string()));
+    }
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+
+    println!("{}", style("rmTUI network status").bold());
+    println!();
+
+    for line in stdout.lines() {
+        if line.is_empty() {
+            continue;
+        }
+
+        if let Some((property, value)) = line.split_once(':') {
+            println!(
+                "{:<20} {}",
+                style(property).cyan(),
+                style(value).green()
+            );
+        }
+    }
+
+    Ok(())
+}
