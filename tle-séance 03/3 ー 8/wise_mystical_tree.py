@@ -1,5 +1,4 @@
 # https://i.pinimg.com/736x/97/7d/e9/977de90002e93f8208f4ee9ec9679bf1.jpg
-from tokenize import String
 
 
 class File:

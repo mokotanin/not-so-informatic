@@ -36,7 +36,7 @@ class Coccinelle:
         deux descendants : un mâle et une femelle.
         """
         descendants = []
-        if self.sexe == "femelle" and self.niv_nutrition >= 2:
+        if self.sexe == "femelle" and self.niv_nutrition >= 2 and self.age >= 20:
             descendants.append(Coccinelle("male", 0, 0))
             descendants.append(Coccinelle("femelle", 0, 0))
             self.niv_nutrition = 0
@@ -48,10 +48,10 @@ class Coccinelle:
         Met à jour l'âge de la coccinelle et indique si elle est encore en vie.
         """
         self.age = self.age + 1
-        return self.age < self.esperance_de_vie
+        if self.niv_nutrition == 0 and random.randint(1, 3) == 1:
+            return False
 
-    def __repr__(self):
-        return f"Coccinelle {self.sexe}, âge: {self.age}/{self.esperance_de_vie}, niv_nutrition: {self.niv_nutrition}"
+        return self.age < self.esperance_de_vie
 
 
 def evolution(population, nb_proies):
@@ -100,10 +100,22 @@ C3 = Coccinelle("femelle", 10, 2)
 pop = [C1, C2, C3]
 p_initial = 200
 
+"""
 print(evolution(pop, p_initial))
-
 for jour in range(5):
-    cocci, nbproies = evolution(pop, p_initial)
+    cocci, p_initial = evolution(pop, p_initial)
     print(
-        f"jour: {jour + 1} population coccinelle: {cocci} nombre de proies: {nbproies}"
+        f"jour: {jour + 1} population coccinelle: {cocci} nombre de proies: {p_initial}"
     )
+"""
+
+
+def simulation_simple(population, nb_proies):
+    nb_jour = 30
+    while nb_jour != 0 and len(population) > 0 and nb_proies > 0:
+        population, nb_proies = evolution(population, nb_proies)
+        nb_jour -= 1
+    return len(population), nb_proies, 30 - nb_jour
+
+
+print(simulation_simple(pop, p_initial))
