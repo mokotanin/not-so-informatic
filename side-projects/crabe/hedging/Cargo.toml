@@ -5,4 +5,3 @@ edition = "2024"
 
 [dependencies]
 gpui = "0.2.2"
-gpui-macros = "0.2.2"

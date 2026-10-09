@@ -2396,7 +2396,6 @@ name = "hedging"
 version = "0.1.0"
 dependencies = [
  "gpui",
- "gpui-macros",
 ]
 
 [[package]]
