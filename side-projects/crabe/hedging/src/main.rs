@@ -115,7 +115,7 @@ impl Render for Person {
 }
 
 fn main() {
-    Application::new().run(|cx: &mut App| {
+    Application::with_platform(gpui_platform::current_platform(false)).run(|cx: &mut App| {
         cx.open_window(WindowOptions::default(), |_, cx| {
             cx.new(|_| Person {
                 first_name: "Christian".into(),
