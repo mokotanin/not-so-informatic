@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 gpui = {package = "gpui-unofficial", version = "1.7"}
 gpui_platform = { package = "gpui-platform-gpui-unofficial", version = "1.14", features = ["font-kit"] }
+
+[patch.crates-io]
+pathfinder_simd = { path = "vendor/pathfinder_simd" }
