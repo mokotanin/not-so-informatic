@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-BVHAVftW.js","assets/default-DMI-Tsal.js","assets/space-separated-tokens-BN_YITlm.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-BpX7PA1O.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-CMbDpObp.js","assets/default-DMI-Tsal.js","assets/space-separated-tokens-Bb2BOhrA.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-BaS4RR-g.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
 var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=Object.getOwnPropertyNames,i=Object.getPrototypeOf,a=Object.prototype.hasOwnProperty,o=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports),s=(e,n)=>{let r={};for(var i in e)t(r,i,{get:e[i],enumerable:!0});return n||t(r,Symbol.toStringTag,{value:`Module`}),r},c=(e,i,o,s)=>{if(i&&typeof i==`object`||typeof i==`function`)for(var c=r(i),l=0,u=c.length,d;l<u;l++)d=c[l],!a.call(e,d)&&d!==o&&t(e,d,{get:(e=>i[e]).bind(null,d),enumerable:!(s=n(i,d))||s.enumerable});return e},l=(n,r,o)=>(o=n==null?{}:e(i(n)),c(r||!n||!n.__esModule||!a.call(n,`default`)?t(o,`default`,{value:n,enumerable:!0}):o,n));(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var u=o((e=>{var t=Symbol.for(`react.element`),n=Symbol.for(`react.portal`),r=Symbol.for(`react.fragment`),i=Symbol.for(`react.strict_mode`),a=Symbol.for(`react.profiler`),o=Symbol.for(`react.provider`),s=Symbol.for(`react.context`),c=Symbol.for(`react.forward_ref`),l=Symbol.for(`react.suspense`),u=Symbol.for(`react.memo`),d=Symbol.for(`react.lazy`),f=Symbol.iterator;function p(e){return typeof e!=`object`||!e?null:(e=f&&e[f]||e[`@@iterator`],typeof e==`function`?e:null)}var m={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},h=Object.assign,g={};function _(e,t,n){this.props=e,this.context=t,this.refs=g,this.updater=n||m}_.prototype.isReactComponent={},_.prototype.setState=function(e,t){if(typeof e!=`object`&&typeof e!=`function`&&e!=null)throw Error(`setState(...): takes an object of state variables to update or a function which returns an object of state variables.`);this.updater.enqueueSetState(this,e,t,`setState`)},_.prototype.forceUpdate=function(e){this.updater.enqueueForceUpdate(this,e,`forceUpdate`)};function v(){}v.prototype=_.prototype;function y(e,t,n){this.props=e,this.context=t,this.refs=g,this.updater=n||m}var b=y.prototype=new v;b.constructor=y,h(b,_.prototype),b.isPureReactComponent=!0;var x=Array.isArray,S=Object.prototype.hasOwnProperty,C={current:null},w={key:!0,ref:!0,__self:!0,__source:!0};function T(e,n,r){var i,a={},o=null,s=null;if(n!=null)for(i in n.ref!==void 0&&(s=n.ref),n.key!==void 0&&(o=``+n.key),n)S.call(n,i)&&!w.hasOwnProperty(i)&&(a[i]=n[i]);var c=arguments.length-2;if(c===1)a.children=r;else if(1<c){for(var l=Array(c),u=0;u<c;u++)l[u]=arguments[u+2];a.children=l}if(e&&e.defaultProps)for(i in c=e.defaultProps,c)a[i]===void 0&&(a[i]=c[i]);return{$$typeof:t,type:e,key:o,ref:s,props:a,_owner:C.current}}function E(e,n){return{$$typeof:t,type:e.type,key:n,ref:e.ref,props:e.props,_owner:e._owner}}function D(e){return typeof e==`object`&&!!e&&e.$$typeof===t}function O(e){var t={"=":`=0`,":":`=2`};return`$`+e.replace(/[=:]/g,function(e){return t[e]})}var k=/\/+/g;function A(e,t){return typeof e==`object`&&e&&e.key!=null?O(``+e.key):t.toString(36)}function j(e,r,i,a,o){var s=typeof e;(s===`undefined`||s===`boolean`)&&(e=null);var c=!1;if(e===null)c=!0;else switch(s){case`string`:case`number`:c=!0;break;case`object`:switch(e.$$typeof){case t:case n:c=!0}}if(c)return c=e,o=o(c),e=a===``?`.`+A(c,0):a,x(o)?(i=``,e!=null&&(i=e.replace(k,`$&/`)+`/`),j(o,r,i,``,function(e){return e})):o!=null&&(D(o)&&(o=E(o,i+(!o.key||c&&c.key===o.key?``:(``+o.key).replace(k,`$&/`)+`/`)+e)),r.push(o)),1;if(c=0,a=a===``?`.`:a+`:`,x(e))for(var l=0;l<e.length;l++){s=e[l];var u=a+A(s,l);c+=j(s,r,i,u,o)}else if(u=p(e),typeof u==`function`)for(e=u.call(e),l=0;!(s=e.next()).done;)s=s.value,u=a+A(s,l++),c+=j(s,r,i,u,o);else if(s===`object`)throw r=String(e),Error(`Objects are not valid as a React child (found: `+(r===`[object Object]`?`object with keys {`+Object.keys(e).join(`, `)+`}`:r)+`). If you meant to render a collection of children, use an array instead.`);return c}function M(e,t,n){if(e==null)return e;var r=[],i=0;return j(e,r,``,``,function(e){return t.call(n,e,i++)}),r}function N(e){if(e._status===-1){var t=e._result;t=t(),t.then(function(t){(e._status===0||e._status===-1)&&(e._status=1,e._result=t)},function(t){(e._status===0||e._status===-1)&&(e._status=2,e._result=t)}),e._status===-1&&(e._status=0,e._result=t)}if(e._status===1)return e._result.default;throw e._result}var P={current:null},F={transition:null},I={ReactCurrentDispatcher:P,ReactCurrentBatchConfig:F,ReactCurrentOwner:C};function L(){throw Error(`act(...) is not supported in production builds of React.`)}e.Children={map:M,forEach:function(e,t,n){M(e,function(){t.apply(this,arguments)},n)},count:function(e){var t=0;return M(e,function(){t++}),t},toArray:function(e){return M(e,function(e){return e})||[]},only:function(e){if(!D(e))throw Error(`React.Children.only expected to receive a single React element child.`);return e}},e.Component=_,e.Fragment=r,e.Profiler=a,e.PureComponent=y,e.StrictMode=i,e.Suspense=l,e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED=I,e.act=L,e.cloneElement=function(e,n,r){if(e==null)throw Error(`React.cloneElement(...): The argument must be a React element, but you passed `+e+`.`);var i=h({},e.props),a=e.key,o=e.ref,s=e._owner;if(n!=null){if(n.ref!==void 0&&(o=n.ref,s=C.current),n.key!==void 0&&(a=``+n.key),e.type&&e.type.defaultProps)var c=e.type.defaultProps;for(l in n)S.call(n,l)&&!w.hasOwnProperty(l)&&(i[l]=n[l]===void 0&&c!==void 0?c[l]:n[l])}var l=arguments.length-2;if(l===1)i.children=r;else if(1<l){c=Array(l);for(var u=0;u<l;u++)c[u]=arguments[u+2];i.children=c}return{$$typeof:t,type:e.type,key:a,ref:o,props:i,_owner:s}},e.createContext=function(e){return e={$$typeof:s,_currentValue:e,_currentValue2:e,_threadCount:0,Provider:null,Consumer:null,_defaultValue:null,_globalName:null},e.Provider={$$typeof:o,_context:e},e.Consumer=e},e.createElement=T,e.createFactory=function(e){var t=T.bind(null,e);return t.type=e,t},e.createRef=function(){return{current:null}},e.forwardRef=function(e){return{$$typeof:c,render:e}},e.isValidElement=D,e.lazy=function(e){return{$$typeof:d,_payload:{_status:-1,_result:e},_init:N}},e.memo=function(e,t){return{$$typeof:u,type:e,compare:t===void 0?null:t}},e.startTransition=function(e){var t=F.transition;F.transition={};try{e()}finally{F.transition=t}},e.unstable_act=L,e.useCallback=function(e,t){return P.current.useCallback(e,t)},e.useContext=function(e){return P.current.useContext(e)},e.useDebugValue=function(){},e.useDeferredValue=function(e){return P.current.useDeferredValue(e)},e.useEffect=function(e,t){return P.current.useEffect(e,t)},e.useId=function(){return P.current.useId()},e.useImperativeHandle=function(e,t,n){return P.current.useImperativeHandle(e,t,n)},e.useInsertionEffect=function(e,t){return P.current.useInsertionEffect(e,t)},e.useLayoutEffect=function(e,t){return P.current.useLayoutEffect(e,t)},e.useMemo=function(e,t){return P.current.useMemo(e,t)},e.useReducer=function(e,t,n){return P.current.useReducer(e,t,n)},e.useRef=function(e){return P.current.useRef(e)},e.useState=function(e){return P.current.useState(e)},e.useSyncExternalStore=function(e,t,n){return P.current.useSyncExternalStore(e,t,n)},e.useTransition=function(){return P.current.useTransition()},e.version=`18.3.1`})),d=o(((e,t)=>{t.exports=u()})),f=o((e=>{function t(e,t){var n=e.length;e.push(t);a:for(;0<n;){var r=n-1>>>1,a=e[r];if(0<i(a,t))e[r]=t,e[n]=a,n=r;else break a}}function n(e){return e.length===0?null:e[0]}function r(e){if(e.length===0)return null;var t=e[0],n=e.pop();if(n!==t){e[0]=n;a:for(var r=0,a=e.length,o=a>>>1;r<o;){var s=2*(r+1)-1,c=e[s],l=s+1,u=e[l];if(0>i(c,n))l<a&&0>i(u,c)?(e[r]=u,e[l]=n,r=l):(e[r]=c,e[s]=n,r=s);else if(l<a&&0>i(u,n))e[r]=u,e[l]=n,r=l;else break a}}return t}function i(e,t){var n=e.sortIndex-t.sortIndex;return n===0?e.id-t.id:n}if(typeof performance==`object`&&typeof performance.now==`function`){var a=performance;e.unstable_now=function(){return a.now()}}else{var o=Date,s=o.now();e.unstable_now=function(){return o.now()-s}}var c=[],l=[],u=1,d=null,f=3,p=!1,m=!1,h=!1,g=typeof setTimeout==`function`?setTimeout:null,_=typeof clearTimeout==`function`?clearTimeout:null,v=typeof setImmediate<`u`?setImmediate:null;typeof navigator<`u`&&navigator.scheduling!==void 0&&navigator.scheduling.isInputPending!==void 0&&navigator.scheduling.isInputPending.bind(navigator.scheduling);function y(e){for(var i=n(l);i!==null;){if(i.callback===null)r(l);else if(i.startTime<=e)r(l),i.sortIndex=i.expirationTime,t(c,i);else break;i=n(l)}}function b(e){if(h=!1,y(e),!m){if(n(c)!==null)m=!0,M(x);else{var t=n(l);t!==null&&N(b,t.startTime-e)}}}function x(t,i){m=!1,h&&(h=!1,_(w),w=-1),p=!0;var a=f;try{for(y(i),d=n(c);d!==null&&(!(d.expirationTime>i)||t&&!D());){var o=d.callback;if(typeof o==`function`){d.callback=null,f=d.priorityLevel;var s=o(d.expirationTime<=i);i=e.unstable_now(),typeof s==`function`?d.callback=s:d===n(c)&&r(c),y(i)}else r(c);d=n(c)}if(d!==null)var u=!0;else{var g=n(l);g!==null&&N(b,g.startTime-i),u=!1}return u}finally{d=null,f=a,p=!1}}var S=!1,C=null,w=-1,T=5,E=-1;function D(){return!(e.unstable_now()-E<T)}function O(){if(C!==null){var t=e.unstable_now();E=t;var n=!0;try{n=C(!0,t)}finally{n?k():(S=!1,C=null)}}else S=!1}var k;if(typeof v==`function`)k=function(){v(O)};else if(typeof MessageChannel<`u`){var A=new MessageChannel,j=A.port2;A.port1.onmessage=O,k=function(){j.postMessage(null)}}else k=function(){g(O,0)};function M(e){C=e,S||(S=!0,k())}function N(t,n){w=g(function(){t(e.unstable_now())},n)}e.unstable_IdlePriority=5,e.unstable_ImmediatePriority=1,e.unstable_LowPriority=4,e.unstable_NormalPriority=3,e.unstable_Profiling=null,e.unstable_UserBlockingPriority=2,e.unstable_cancelCallback=function(e){e.callback=null},e.unstable_continueExecution=function(){m||p||(m=!0,M(x))},e.unstable_forceFrameRate=function(e){0>e||125<e?console.error(`forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported`):T=0<e?Math.floor(1e3/e):5},e.unstable_getCurrentPriorityLevel=function(){return f},e.unstable_getFirstCallbackNode=function(){return n(c)},e.unstable_next=function(e){switch(f){case 1:case 2:case 3:var t=3;break;default:t=f}var n=f;f=t;try{return e()}finally{f=n}},e.unstable_pauseExecution=function(){},e.unstable_requestPaint=function(){},e.unstable_runWithPriority=function(e,t){switch(e){case 1:case 2:case 3:case 4:case 5:break;default:e=3}var n=f;f=e;try{return t()}finally{f=n}},e.unstable_scheduleCallback=function(r,i,a){var o=e.unstable_now();switch(typeof a==`object`&&a?(a=a.delay,a=typeof a==`number`&&0<a?o+a:o):a=o,r){case 1:var s=-1;break;case 2:s=250;break;case 5:s=1073741823;break;case 4:s=1e4;break;default:s=5e3}return s=a+s,r={id:u++,callback:i,priorityLevel:r,startTime:a,expirationTime:s,sortIndex:-1},a>o?(r.sortIndex=a,t(l,r),n(c)===null&&r===n(l)&&(h?(_(w),w=-1):h=!0,N(b,a-o))):(r.sortIndex=s,t(c,r),m||p||(m=!0,M(x))),r},e.unstable_shouldYield=D,e.unstable_wrapCallback=function(e){var t=f;return function(){var n=f;f=t;try{return e.apply(this,arguments)}finally{f=n}}}})),p=o(((e,t)=>{t.exports=f()})),m=o((e=>{var t=d(),n=p();function r(e){for(var t=`https://reactjs.org/docs/error-decoder.html?invariant=`+e,n=1;n<arguments.length;n++)t+=`&args[]=`+encodeURIComponent(arguments[n]);return`Minified React error #`+e+`; visit `+t+` for the full message or use the non-minified dev environment for full errors and additional helpful warnings.`}var i=new Set,a={};function o(e,t){s(e,t),s(e+`Capture`,t)}function s(e,t){for(a[e]=t,e=0;e<t.length;e++)i.add(t[e])}var c=typeof window<`u`&&window.document!==void 0&&window.document.createElement!==void 0,l=Object.prototype.hasOwnProperty,u=/^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/,f={},m={};function h(e){return l.call(m,e)?!0:l.call(f,e)?!1:u.test(e)?m[e]=!0:(f[e]=!0,!1)}function g(e,t,n,r){if(n!==null&&n.type===0)return!1;switch(typeof t){case`function`:case`symbol`:return!0;case`boolean`:return r?!1:n===null?(e=e.toLowerCase().slice(0,5),e!==`data-`&&e!==`aria-`):!n.acceptsBooleans;default:return!1}}function _(e,t,n,r){if(t==null||g(e,t,n,r))return!0;if(r)return!1;if(n!==null)switch(n.type){case 3:return!t;case 4:return!1===t;case 5:return isNaN(t);case 6:return isNaN(t)||1>t}return!1}function v(e,t,n,r,i,a,o){this.acceptsBooleans=t===2||t===3||t===4,this.attributeName=r,this.attributeNamespace=i,this.mustUseProperty=n,this.propertyName=e,this.type=t,this.sanitizeURL=a,this.removeEmptyString=o}var y={};`children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style`.split(` `).forEach(function(e){y[e]=new v(e,0,!1,e,null,!1,!1)}),[[`acceptCharset`,`accept-charset`],[`className`,`class`],[`htmlFor`,`for`],[`httpEquiv`,`http-equiv`]].forEach(function(e){var t=e[0];y[t]=new v(t,1,!1,e[1],null,!1,!1)}),[`contentEditable`,`draggable`,`spellCheck`,`value`].forEach(function(e){y[e]=new v(e,2,!1,e.toLowerCase(),null,!1,!1)}),[`autoReverse`,`externalResourcesRequired`,`focusable`,`preserveAlpha`].forEach(function(e){y[e]=new v(e,2,!1,e,null,!1,!1)}),`allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope`.split(` `).forEach(function(e){y[e]=new v(e,3,!1,e.toLowerCase(),null,!1,!1)}),[`checked`,`multiple`,`muted`,`selected`].forEach(function(e){y[e]=new v(e,3,!0,e,null,!1,!1)}),[`capture`,`download`].forEach(function(e){y[e]=new v(e,4,!1,e,null,!1,!1)}),[`cols`,`rows`,`size`,`span`].forEach(function(e){y[e]=new v(e,6,!1,e,null,!1,!1)}),[`rowSpan`,`start`].forEach(function(e){y[e]=new v(e,5,!1,e.toLowerCase(),null,!1,!1)});var b=/[\-:]([a-z])/g;function x(e){return e[1].toUpperCase()}`accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height`.split(` `).forEach(function(e){var t=e.replace(b,x);y[t]=new v(t,1,!1,e,null,!1,!1)}),`xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type`.split(` `).forEach(function(e){var t=e.replace(b,x);y[t]=new v(t,1,!1,e,`http://www.w3.org/1999/xlink`,!1,!1)}),[`xml:base`,`xml:lang`,`xml:space`].forEach(function(e){var t=e.replace(b,x);y[t]=new v(t,1,!1,e,`http://www.w3.org/XML/1998/namespace`,!1,!1)}),[`tabIndex`,`crossOrigin`].forEach(function(e){y[e]=new v(e,1,!1,e.toLowerCase(),null,!1,!1)}),y.xlinkHref=new v(`xlinkHref`,1,!1,`xlink:href`,`http://www.w3.org/1999/xlink`,!0,!1),[`src`,`href`,`action`,`formAction`].forEach(function(e){y[e]=new v(e,1,!1,e.toLowerCase(),null,!0,!0)});function S(e,t,n,r){var i=y.hasOwnProperty(t)?y[t]:null;(i===null?r||!(2<t.length)||t[0]!==`o`&&t[0]!==`O`||t[1]!==`n`&&t[1]!==`N`:i.type!==0)&&(_(t,n,i,r)&&(n=null),r||i===null?h(t)&&(n===null?e.removeAttribute(t):e.setAttribute(t,``+n)):i.mustUseProperty?e[i.propertyName]=n===null?i.type!==3&&``:n:(t=i.attributeName,r=i.attributeNamespace,n===null?e.removeAttribute(t):(i=i.type,n=i===3||i===4&&!0===n?``:``+n,r?e.setAttributeNS(r,t,n):e.setAttribute(t,n))))}var C=t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,w=Symbol.for(`react.element`),T=Symbol.for(`react.portal`),E=Symbol.for(`react.fragment`),D=Symbol.for(`react.strict_mode`),O=Symbol.for(`react.profiler`),k=Symbol.for(`react.provider`),A=Symbol.for(`react.context`),j=Symbol.for(`react.forward_ref`),M=Symbol.for(`react.suspense`),N=Symbol.for(`react.suspense_list`),P=Symbol.for(`react.memo`),F=Symbol.for(`react.lazy`),I=Symbol.for(`react.offscreen`),L=Symbol.iterator;function R(e){return typeof e!=`object`||!e?null:(e=L&&e[L]||e[`@@iterator`],typeof e==`function`?e:null)}var z=Object.assign,ee;function te(e){if(ee===void 0)try{throw Error()}catch(e){var t=e.stack.trim().match(/\n( *(at )?)/);ee=t&&t[1]||``}return`
 `+ee+e}var ne=!1;function re(e,t){if(!e||ne)return``;ne=!0;var n=Error.prepareStackTrace;Error.prepareStackTrace=void 0;try{if(t){if(t=function(){throw Error()},Object.defineProperty(t.prototype,"props",{set:function(){throw Error()}}),typeof Reflect==`object`&&Reflect.construct){try{Reflect.construct(t,[])}catch(e){var r=e}Reflect.construct(e,[],t)}else{try{t.call()}catch(e){r=e}e.call(t.prototype)}}else{try{throw Error()}catch(e){r=e}e()}}catch(t){if(t&&r&&typeof t.stack==`string`){for(var i=t.stack.split(`
 `),a=r.stack.split(`
@@ -128,9 +128,24 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@master
         with:
+          toolchain: nightly-2026-02-14
           targets: \${{ matrix.target.target }}
+
+      - name: Install Linux system dependencies
+        if: matrix.target.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \\
+            pkg-config \\
+            libfontconfig1-dev \\
+            libfreetype-dev \\
+            libxcb1-dev \\
+            libxkbcommon-dev \\
+            libxkbcommon-x11-dev \\
+            libwayland-dev \\
+            libssl-dev
 
       - name: Cache Cargo
         uses: Swatinem/rust-cache@v2
@@ -207,7 +222,7 @@ jobs:
           files: ./artifacts/*
         env:
           GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
-`}]}]},{type:`folder`,name:`assets`,path:`assets`,children:[{type:`file`,name:`compact_46h.png`,path:`assets/compact_46h.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/compact_46h.png (13905 octets)]`},{type:`file`,name:`css.png`,path:`assets/css.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/css.png (10556 octets)]`},{type:`file`,name:`favicon.png`,path:`assets/favicon.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/favicon.png (69981 octets)]`},{type:`file`,name:`html.png`,path:`assets/html.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/html.png (10978 octets)]`},{type:`file`,name:`js.png`,path:`assets/js.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/js.png (7418 octets)]`},{type:`file`,name:`php.png`,path:`assets/php.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/php.png (11664 octets)]`},{type:`file`,name:`pillow.png`,path:`assets/pillow.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/pillow.png (8371 octets)]`},{type:`file`,name:`pyxel.png`,path:`assets/pyxel.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/pyxel.png (12060 octets)]`},{type:`file`,name:`xampp.png`,path:`assets/xampp.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/xampp.png (13501 octets)]`}]},{type:`folder`,name:`projets`,path:`projets`,children:[{type:`folder`,name:`marmotte`,path:`projets/marmotte`,children:[{type:`file`,name:`akinator_p.png`,path:`projets/marmotte/akinator_p.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/akinator_p.png (272388 octets)]`},{type:`file`,name:`chat.png`,path:`projets/marmotte/chat.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/chat.png (179376 octets)]`},{type:`file`,name:`construction.png`,path:`projets/marmotte/construction.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/construction.png (326278 octets)]`},{type:`file`,name:`for_the_fans.mp3`,path:`projets/marmotte/for_the_fans.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/for_the_fans.mp3 (1740161 octets)]`},{type:`file`,name:`foret.jpg`,path:`projets/marmotte/foret.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foret.jpg (3638555 octets)]`},{type:`file`,name:`foret.mp3`,path:`projets/marmotte/foret.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foret.mp3 (29570564 octets)]`},{type:`file`,name:`foretchat.jpg`,path:`projets/marmotte/foretchat.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foretchat.jpg (3637792 octets)]`},{type:`file`,name:`gens_fond.mp3`,path:`projets/marmotte/gens_fond.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/gens_fond.mp3 (1798080 octets)]`},{type:`file`,name:`index.html`,path:`projets/marmotte/index.html`,language:`HTML`,content:`<!doctype html>
+`}]}]},{type:`folder`,name:`assets`,path:`assets`,children:[{type:`file`,name:`favicon.png`,path:`assets/favicon.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: assets/favicon.png (69981 octets)]`}]},{type:`folder`,name:`projets`,path:`projets`,children:[{type:`folder`,name:`marmotte`,path:`projets/marmotte`,children:[{type:`file`,name:`akinator_p.png`,path:`projets/marmotte/akinator_p.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/akinator_p.png (272388 octets)]`},{type:`file`,name:`chat.png`,path:`projets/marmotte/chat.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/chat.png (179376 octets)]`},{type:`file`,name:`construction.png`,path:`projets/marmotte/construction.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/construction.png (326278 octets)]`},{type:`file`,name:`for_the_fans.mp3`,path:`projets/marmotte/for_the_fans.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/for_the_fans.mp3 (1740161 octets)]`},{type:`file`,name:`foret.jpg`,path:`projets/marmotte/foret.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foret.jpg (3638555 octets)]`},{type:`file`,name:`foret.mp3`,path:`projets/marmotte/foret.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foret.mp3 (29570564 octets)]`},{type:`file`,name:`foretchat.jpg`,path:`projets/marmotte/foretchat.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/foretchat.jpg (3637792 octets)]`},{type:`file`,name:`gens_fond.mp3`,path:`projets/marmotte/gens_fond.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/gens_fond.mp3 (1798080 octets)]`},{type:`file`,name:`index.html`,path:`projets/marmotte/index.html`,language:`HTML`,content:`<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -8920,6 +8935,22532 @@ crossterm = "0.29.0"
 ratatui = "0.30.2"
 `},{type:`file`,name:`README.md`,path:`side-projects/crabe/gruyere/README.md`,language:`Markdown`,content:`# gruyere
 the tutorial counter app of [Ratatui tutorials](https://ratatui.rs/tutorials/counter-app/)
+`}]},{type:`folder`,name:`hedging`,path:`side-projects/crabe/hedging`,children:[{type:`folder`,name:`src`,path:`side-projects/crabe/hedging/src`,children:[{type:`file`,name:`main.rs`,path:`side-projects/crabe/hedging/src/main.rs`,language:`Rust`,content:`use gpui::prelude::FluentBuilder;
+use gpui::*;
+
+const BACKGROUND_COLOR: u32 = 0x1e1e2e;
+const FOREGROUND_COLOR: u32 = 0xf5e0dc;
+const BUTTON_BACKGROUND_COLOR: u32 = 0x313244;
+const BUTTON_FOREGROUND_COLOR: u32 = 0xcdd6f4;
+const BUTTON_HOVER_COLOR: u32 = 0x45475a;
+
+#[derive(IntoElement)]
+struct Button {
+    id: ElementId,
+    label: SharedString,
+    on_click: Option<Box<dyn Fn(&ClickEvent, &mut Window, &mut App) + 'static>>,
+}
+
+impl Button {
+    fn new(id: impl Into<ElementId>, label: SharedString) -> Self {
+        Button {
+            id: id.into(),
+            label,
+            on_click: None,
+        }
+    }
+
+    fn on_click(mut self, handler: impl Fn(&ClickEvent, &mut Window, &mut App) + 'static) -> Self {
+        self.on_click = Some(Box::new(handler));
+        self
+    }
+}
+
+impl RenderOnce for Button {
+    fn render(self, _window: &mut Window, _cx: &mut App) -> impl IntoElement {
+        let Button {
+            id,
+            label,
+            on_click,
+        } = self;
+
+        div()
+            .id(id)
+            .flex()
+            .justify_center()
+            .items_center()
+            .text_xl()
+            .px_4()
+            .py_2()
+            .rounded_md()
+            .text_color(rgb(BUTTON_FOREGROUND_COLOR))
+            .bg(rgb(BUTTON_BACKGROUND_COLOR))
+            .hover(|style| style.bg(rgb(BUTTON_HOVER_COLOR)))
+            .when_some(on_click, |this, on_click| this.on_click(on_click))
+            .child(label)
+    }
+}
+
+struct Person {
+    first_name: SharedString,
+    last_name: SharedString,
+    likes: u16,
+}
+
+impl Person {
+    fn render_name(&self) -> impl IntoElement {
+        div()
+            .flex()
+            .flex_col()
+            .bg(rgb(BACKGROUND_COLOR))
+            .justify_center()
+            .items_center() // ← centré
+            .text_2xl()
+            .text_color(rgb(FOREGROUND_COLOR))
+            .child(format!("{} {}", &self.first_name, &self.last_name))
+    }
+
+    fn render_likes(&self) -> impl IntoElement {
+        div()
+            .flex()
+            .justify_center()
+            .items_center()
+            .text_xl()
+            .text_color(rgb(FOREGROUND_COLOR))
+            .child(format!("Likes: {}", self.likes))
+    }
+
+    fn handle_increment(
+        &mut self,
+        _event: &ClickEvent,
+        _window: &mut Window,
+        cx: &mut Context<Self>,
+    ) {
+        self.likes += 1;
+        cx.notify();
+    }
+}
+
+impl Render for Person {
+    fn render(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
+        div()
+            .flex()
+            .flex_col()
+            .bg(rgb(BACKGROUND_COLOR))
+            .size_full()
+            .justify_center()
+            .items_center() // ← AJOUT : centre sur l'axe horizontal
+            .gap_2()
+            .text_xl()
+            .child(self.render_name())
+            .child(self.render_likes())
+            .child(
+                Button::new("like-button", "Like".into())
+                    .on_click(cx.listener(Self::handle_increment)),
+            )
+    }
+}
+
+fn main() {
+    Application::with_platform(gpui_platform::current_platform(false)).run(|cx: &mut App| {
+        cx.open_window(WindowOptions::default(), |_, cx| {
+            cx.new(|_| Person {
+                first_name: "Christian".into(),
+                last_name: "Hypertext Preprocessor".into(),
+                likes: 0,
+            })
+        })
+        .unwrap();
+    });
+}
+`}]},{type:`folder`,name:`vendor`,path:`side-projects/crabe/hedging/vendor`,children:[{type:`folder`,name:`pathfinder_simd`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd`,children:[{type:`folder`,name:`src`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src`,children:[{type:`folder`,name:`arm`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/arm`,children:[{type:`file`,name:`mod.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/arm/mod.rs`,language:`Rust`,content:`// pathfinder/simd/src/arm.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use std::arch::aarch64::{self, float32x2_t, float32x4_t, int32x2_t, int32x4_t};
+use std::arch::aarch64::{uint32x2_t, uint32x4_t};
+use std::f32;
+use std::fmt::{self, Debug, Formatter};
+use std::intrinsics::simd::*;
+use std::mem;
+use std::ops::{Add, BitAnd, BitOr, Div, Index, IndexMut, Mul, Not, Shr, Sub};
+
+mod swizzle_f32x4;
+mod swizzle_i32x4;
+
+#[repr(simd)]
+pub(crate) struct Simd<T, const N: usize>([T; N]);
+
+macro_rules! simd_shuffle2 {
+    ($x:expr, $y:expr, <$(const $imm:ident : $ty:ty),+> $idx:expr $(,)?) => {{
+        struct ConstParam<$(const $imm: $ty),+>;
+        impl<$(const $imm: $ty),+> ConstParam<$($imm),+> {
+            const IDX: Simd<u32, 2> = Simd($idx);
+        }
+
+        simd_shuffle($x, $y, ConstParam::<$($imm),+>::IDX)
+    }};
+    ($x:expr, $y:expr, $idx:expr $(,)?) => {{
+        const IDX: Simd<u32, 2>  = Simd($idx);
+        simd_shuffle($x, $y, IDX)
+    }};
+}
+
+macro_rules! simd_shuffle4 {
+    ($x:expr, $y:expr, <$(const $imm:ident : $ty:ty),+> $idx:expr $(,)?) => {{
+        struct ConstParam<$(const $imm: $ty),+>;
+        impl<$(const $imm: $ty),+> ConstParam<$($imm),+> {
+            const IDX: Simd<u32; 4> = Simd($idx);
+        }
+
+        simd_shuffle($x, $y, ConstParam::<$($imm),+>::IDX)
+    }};
+    ($x:expr, $y:expr, $idx:expr $(,)?) => {{
+        const IDX: Simd<u32, 4> = Simd($idx);
+        simd_shuffle($x, $y, IDX)
+    }};
+}
+
+// Two 32-bit floats
+
+#[derive(Clone, Copy)]
+pub struct F32x2(pub float32x2_t);
+
+impl F32x2 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: f32, b: f32) -> F32x2 {
+        unsafe { F32x2(mem::transmute([a, b])) }
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x2 {
+        F32x2::new(x, x)
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x2 {
+        unsafe { F32x2(vrecpe_v2f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_fminimum_number_nsz(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_fmaximum_number_nsz(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x2, max: F32x2) -> F32x2 {
+        self.max(min).min(max)
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x2 {
+        unsafe { F32x2(fabs_v2f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x2 {
+        unsafe { F32x2(floor_v2f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x2 {
+        unsafe { F32x2(ceil_v2f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x2 {
+        unsafe { F32x2(sqrt_v2f32(self.0)) }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x2) -> U32x2 {
+        unsafe { U32x2(simd_eq(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x2) -> U32x2 {
+        unsafe { U32x2(simd_gt(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x2) -> U32x2 {
+        unsafe { U32x2(simd_lt(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x2) -> U32x2 {
+        unsafe { U32x2(simd_le(self.0, other.0)) }
+    }
+
+    // Conversions
+
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        self.concat_xy_xy(F32x2::default())
+    }
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        unsafe { I32x2(simd_cast(round_v2f32(self.0))) }
+    }
+
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        self.to_i32x2().concat_xy_xy(I32x2::default())
+    }
+
+    // Swizzle
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [1, 0])) }
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x2) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, other.0, [0, 1, 2, 3])) }
+    }
+}
+
+impl Default for F32x2 {
+    #[inline]
+    fn default() -> F32x2 {
+        F32x2::new(0.0, 0.0)
+    }
+}
+
+impl Debug for F32x2 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}>", self[0], self[1])
+    }
+}
+
+impl Index<usize> for F32x2 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        unsafe {
+            assert!(index < 2);
+            let ptr = &self.0 as *const float32x2_t as *const f32;
+            mem::transmute::<*const f32, &f32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl IndexMut<usize> for F32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        unsafe {
+            assert!(index < 2);
+            let ptr = &mut self.0 as *mut float32x2_t as *mut f32;
+            mem::transmute::<*mut f32, &mut f32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl Add<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn add(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_add(self.0, other.0)) }
+    }
+}
+
+impl Div<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn div(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_div(self.0, other.0)) }
+    }
+}
+
+impl Mul<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn mul(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_mul(self.0, other.0)) }
+    }
+}
+
+impl Sub<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn sub(self, other: F32x2) -> F32x2 {
+        unsafe { F32x2(simd_sub(self.0, other.0)) }
+    }
+}
+
+impl PartialEq for F32x2 {
+    #[inline]
+    fn eq(&self, other: &F32x2) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+// Four 32-bit floats
+
+#[derive(Clone, Copy)]
+pub struct F32x4(pub float32x4_t);
+
+impl F32x4 {
+    #[inline]
+    pub fn new(a: f32, b: f32, c: f32, d: f32) -> F32x4 {
+        unsafe { F32x4(mem::transmute([a, b, c, d])) }
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x4 {
+        F32x4::new(x, x, x, x)
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x4 {
+        unsafe { F32x4(vrecpe_v4f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_fminimum_number_nsz(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_fmaximum_number_nsz(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x4, max: F32x4) -> F32x4 {
+        self.max(min).min(max)
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x4 {
+        unsafe { F32x4(fabs_v4f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x4 {
+        unsafe { F32x4(floor_v4f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x4 {
+        unsafe { F32x4(ceil_v4f32(self.0)) }
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x4 {
+        unsafe { F32x4(sqrt_v4f32(self.0)) }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x4) -> U32x4 {
+        unsafe { U32x4(simd_eq(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x4) -> U32x4 {
+        unsafe { U32x4(simd_gt(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x4) -> U32x4 {
+        unsafe { U32x4(simd_le(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x4) -> U32x4 {
+        unsafe { U32x4(simd_lt(self.0, other.0)) }
+    }
+
+    // Swizzle conversions
+
+    #[inline]
+    pub fn xy(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [0, 1])) }
+    }
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [1, 0])) }
+    }
+
+    #[inline]
+    pub fn xw(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [0, 3])) }
+    }
+
+    #[inline]
+    pub fn zy(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [2, 1])) }
+    }
+
+    #[inline]
+    pub fn zw(self) -> F32x2 {
+        unsafe { F32x2(simd_shuffle2!(self.0, self.0, [2, 3])) }
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, other.0, [0, 1, 4, 5])) }
+    }
+
+    #[inline]
+    pub fn concat_xy_zw(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, other.0, [0, 1, 6, 7])) }
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, other.0, [2, 3, 6, 7])) }
+    }
+
+    #[inline]
+    pub fn concat_wz_yx(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, other.0, [3, 2, 5, 4])) }
+    }
+
+    // Conversions
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        unsafe { I32x4(simd_cast(round_v4f32(self.0))) }
+    }
+}
+
+impl Default for F32x4 {
+    #[inline]
+    fn default() -> F32x4 {
+        F32x4::new(0.0, 0.0, 0.0, 0.0)
+    }
+}
+
+impl Index<usize> for F32x4 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        unsafe {
+            assert!(index < 4);
+            let ptr = &self.0 as *const float32x4_t as *const f32;
+            mem::transmute::<*const f32, &f32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl IndexMut<usize> for F32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        unsafe {
+            assert!(index < 4);
+            let ptr = &mut self.0 as *mut float32x4_t as *mut f32;
+            mem::transmute::<*mut f32, &mut f32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl Debug for F32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl PartialEq for F32x4 {
+    #[inline]
+    fn eq(&self, other: &F32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl Add<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn add(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_add(self.0, other.0)) }
+    }
+}
+
+impl Div<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn div(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_div(self.0, other.0)) }
+    }
+}
+
+impl Mul<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn mul(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_mul(self.0, other.0)) }
+    }
+}
+
+impl Sub<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn sub(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(simd_sub(self.0, other.0)) }
+    }
+}
+
+// Two 32-bit signed integers
+
+#[derive(Clone, Copy, Debug)]
+pub struct I32x2(pub int32x2_t);
+
+impl I32x2 {
+    #[inline]
+    pub fn new(x: i32, y: i32) -> I32x2 {
+        unsafe { I32x2(mem::transmute([x, y])) }
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x2 {
+        I32x2::new(x, x)
+    }
+
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> i32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> i32 {
+        self[1]
+    }
+
+    #[inline]
+    pub fn packed_eq(self, other: I32x2) -> U32x2 {
+        unsafe { U32x2(simd_eq(self.0, other.0)) }
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn max(self, other: I32x2) -> I32x2 {
+        self.to_i32x4().max(other.to_i32x4()).xy()
+    }
+
+    #[inline]
+    pub fn min(self, other: I32x2) -> I32x2 {
+        self.to_i32x4().min(other.to_i32x4()).xy()
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x2) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, other.0, [0, 1, 2, 3])) }
+    }
+
+    // Conversions
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x2(self) -> F32x2 {
+        unsafe { F32x2(simd_cast(self.0)) }
+    }
+
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        self.concat_xy_xy(I32x2::default())
+    }
+}
+
+impl Default for I32x2 {
+    #[inline]
+    fn default() -> I32x2 {
+        I32x2::splat(0)
+    }
+}
+
+impl PartialEq for I32x2 {
+    #[inline]
+    fn eq(&self, other: &I32x2) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl Index<usize> for I32x2 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        unsafe {
+            assert!(index < 2);
+            let ptr = &self.0 as *const int32x2_t as *const i32;
+            mem::transmute::<*const i32, &i32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl IndexMut<usize> for I32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        unsafe {
+            assert!(index < 2);
+            let ptr = &mut self.0 as *mut int32x2_t as *mut i32;
+            mem::transmute::<*mut i32, &mut i32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl Add<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn add(self, other: I32x2) -> I32x2 {
+        unsafe { I32x2(simd_add(self.0, other.0)) }
+    }
+}
+
+impl Sub<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn sub(self, other: I32x2) -> I32x2 {
+        unsafe { I32x2(simd_sub(self.0, other.0)) }
+    }
+}
+
+impl Mul<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn mul(self, other: I32x2) -> I32x2 {
+        unsafe { I32x2(simd_mul(self.0, other.0)) }
+    }
+}
+
+// Four 32-bit signed integers
+
+#[derive(Clone, Copy, Debug)]
+pub struct I32x4(pub int32x4_t);
+
+impl I32x4 {
+    #[inline]
+    pub fn new(a: i32, b: i32, c: i32, d: i32) -> I32x4 {
+        unsafe { I32x4(mem::transmute([a, b, c, d])) }
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x4 {
+        I32x4::new(x, x, x, x)
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn max(self, other: I32x4) -> I32x4 {
+        unsafe {
+            I32x4(simd_cast(simd_fmaximum_number_nsz(
+                self.to_f32x4().0,
+                other.to_f32x4().0,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn min(self, other: I32x4) -> I32x4 {
+        unsafe {
+            I32x4(simd_cast(simd_fminimum_number_nsz(
+                self.to_f32x4().0,
+                other.to_f32x4().0,
+            )))
+        }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: I32x4) -> U32x4 {
+        unsafe { U32x4(simd_eq(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: I32x4) -> U32x4 {
+        unsafe { U32x4(simd_le(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: I32x4) -> U32x4 {
+        unsafe { U32x4(simd_lt(self.0, other.0)) }
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, other.0, [0, 1, 4, 5])) }
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, other.0, [2, 3, 6, 7])) }
+    }
+
+    // Swizzle conversions
+
+    #[inline]
+    pub fn xy(self) -> I32x2 {
+        unsafe { I32x2(simd_shuffle2!(self.0, self.0, [0, 1])) }
+    }
+
+    #[inline]
+    pub fn yx(self) -> I32x2 {
+        unsafe { I32x2(simd_shuffle2!(self.0, self.0, [1, 0])) }
+    }
+
+    #[inline]
+    pub fn xw(self) -> I32x2 {
+        unsafe { I32x2(simd_shuffle2!(self.0, self.0, [0, 3])) }
+    }
+
+    #[inline]
+    pub fn zy(self) -> I32x2 {
+        unsafe { I32x2(simd_shuffle2!(self.0, self.0, [2, 1])) }
+    }
+
+    #[inline]
+    pub fn zw(self) -> I32x2 {
+        unsafe { I32x2(simd_shuffle2!(self.0, self.0, [2, 3])) }
+    }
+
+    // Conversions
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        unsafe { F32x4(simd_cast(self.0)) }
+    }
+}
+
+impl Default for I32x4 {
+    #[inline]
+    fn default() -> I32x4 {
+        I32x4::new(0, 0, 0, 0)
+    }
+}
+
+impl Index<usize> for I32x4 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        unsafe {
+            assert!(index < 4);
+            let ptr = &self.0 as *const int32x4_t as *const i32;
+            mem::transmute::<*const i32, &i32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl IndexMut<usize> for I32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        unsafe {
+            assert!(index < 4);
+            let ptr = &mut self.0 as *mut int32x4_t as *mut i32;
+            mem::transmute::<*mut i32, &mut i32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl Add<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn add(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_add(self.0, other.0)) }
+    }
+}
+
+impl Sub<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn sub(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_sub(self.0, other.0)) }
+    }
+}
+
+impl Mul<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn mul(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_mul(self.0, other.0)) }
+    }
+}
+
+impl PartialEq for I32x4 {
+    #[inline]
+    fn eq(&self, other: &I32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl BitAnd<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitand(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_and(self.0, other.0)) }
+    }
+}
+
+impl BitOr<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitor(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_or(self.0, other.0)) }
+    }
+}
+
+impl Shr<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn shr(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(simd_shr(self.0, other.0)) }
+    }
+}
+
+// Two 32-bit unsigned integers
+
+#[derive(Clone, Copy)]
+pub struct U32x2(pub uint32x2_t);
+
+impl U32x2 {
+    #[inline]
+    pub fn new(x: u32, y: u32) -> U32x2 {
+        unsafe { U32x2(mem::transmute([x, y])) }
+    }
+
+    #[inline]
+    pub fn splat(x: u32) -> U32x2 {
+        U32x2::new(x, x)
+    }
+
+    /// Returns true if both booleans in this vector are true.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(&self) -> bool {
+        unsafe { aarch64::vminv_u32(self.0) == !0 }
+    }
+
+    /// Returns true if both booleans in this vector are false.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(&self) -> bool {
+        unsafe { aarch64::vmaxv_u32(self.0) == 0 }
+    }
+
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        unsafe { I32x2(simd_cast(self.0)) }
+    }
+}
+
+impl Index<usize> for U32x2 {
+    type Output = u32;
+    #[inline]
+    fn index(&self, index: usize) -> &u32 {
+        unsafe {
+            assert!(index < 2);
+            let ptr = &self.0 as *const uint32x2_t as *const u32;
+            mem::transmute::<*const u32, &u32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl Not for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn not(self) -> U32x2 {
+        // FIXME(pcwalton): Is there a better way to do this?
+        unsafe { U32x2(simd_xor(self.0, U32x2::splat(!0).0)) }
+    }
+}
+
+impl BitAnd<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitand(self, other: U32x2) -> U32x2 {
+        unsafe { U32x2(simd_and(self.0, other.0)) }
+    }
+}
+
+impl BitOr<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitor(self, other: U32x2) -> U32x2 {
+        unsafe { U32x2(simd_or(self.0, other.0)) }
+    }
+}
+
+// Four 32-bit unsigned integers
+
+#[derive(Clone, Copy)]
+pub struct U32x4(pub uint32x4_t);
+
+impl U32x4 {
+    #[inline]
+    pub fn new(a: u32, b: u32, c: u32, d: u32) -> U32x4 {
+        unsafe { U32x4(mem::transmute([a, b, c, d])) }
+    }
+
+    #[inline]
+    pub fn splat(x: u32) -> U32x4 {
+        U32x4::new(x, x, x, x)
+    }
+
+    /// Returns true if all four booleans in this vector are true.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(&self) -> bool {
+        unsafe { aarch64::vminvq_u32(self.0) == !0 }
+    }
+
+    /// Returns true if all four booleans in this vector are false.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(&self) -> bool {
+        unsafe { aarch64::vmaxvq_u32(self.0) == 0 }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: U32x4) -> U32x4 {
+        unsafe { U32x4(simd_eq(self.0, other.0)) }
+    }
+}
+
+impl Debug for U32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl Index<usize> for U32x4 {
+    type Output = u32;
+    #[inline]
+    fn index(&self, index: usize) -> &u32 {
+        unsafe {
+            assert!(index < 4);
+            let ptr = &self.0 as *const uint32x4_t as *const u32;
+            mem::transmute::<*const u32, &u32>(ptr.offset(index as isize))
+        }
+    }
+}
+
+impl PartialEq for U32x4 {
+    #[inline]
+    fn eq(&self, other: &U32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+extern "C" {
+    #[link_name = "llvm.fabs.v2f32"]
+    fn fabs_v2f32(a: float32x2_t) -> float32x2_t;
+    #[link_name = "llvm.floor.v2f32"]
+    fn floor_v2f32(a: float32x2_t) -> float32x2_t;
+    #[link_name = "llvm.ceil.v2f32"]
+    fn ceil_v2f32(a: float32x2_t) -> float32x2_t;
+    #[link_name = "llvm.round.v2f32"]
+    fn round_v2f32(a: float32x2_t) -> float32x2_t;
+    #[link_name = "llvm.sqrt.v2f32"]
+    fn sqrt_v2f32(a: float32x2_t) -> float32x2_t;
+
+    #[link_name = "llvm.fabs.v4f32"]
+    fn fabs_v4f32(a: float32x4_t) -> float32x4_t;
+    #[link_name = "llvm.floor.v4f32"]
+    fn floor_v4f32(a: float32x4_t) -> float32x4_t;
+    #[link_name = "llvm.ceil.v4f32"]
+    fn ceil_v4f32(a: float32x4_t) -> float32x4_t;
+    #[link_name = "llvm.round.v4f32"]
+    fn round_v4f32(a: float32x4_t) -> float32x4_t;
+    #[link_name = "llvm.sqrt.v4f32"]
+    fn sqrt_v4f32(a: float32x4_t) -> float32x4_t;
+
+    #[link_name = "llvm.aarch64.neon.frecpe.v2f32"]
+    fn vrecpe_v2f32(a: float32x2_t) -> float32x2_t;
+
+    #[link_name = "llvm.aarch64.neon.frecpe.v4f32"]
+    fn vrecpe_v4f32(a: float32x4_t) -> float32x4_t;
+}
+`},{type:`file`,name:`swizzle_f32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/arm/swizzle_f32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/arm/swizzle_f32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::arm::{self, F32x4, Simd};
+
+macro_rules! simd_shuffle4 {
+    ($x:expr, $y:expr, <$(const $imm:ident : $ty:ty),+> $idx:expr $(,)?) => {{
+        struct ConstParam<$(const $imm: $ty),+>;
+        impl<$(const $imm: $ty),+> ConstParam<$($imm),+> {
+            const IDX: Simd<u32, 4> = Simd($idx);
+        }
+
+        arm::simd_shuffle($x, $y, ConstParam::<$($imm),+>::IDX)
+    }};
+    ($x:expr, $y:expr, $idx:expr $(,)?) => {{
+        const IDX: Simd<u32, 4> = Simd($idx);
+        arm::simd_shuffle($x, $y, IDX)
+    }};
+}
+
+impl F32x4 {
+    /// Constructs a new vector from the first, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwx(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwy(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwz(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzw(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwww(self) -> F32x4 {
+        unsafe { F32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 3])) }
+    }
+}
+`},{type:`file`,name:`swizzle_i32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/arm/swizzle_i32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/arm/swizzle_i32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::arm::{self, I32x4, Simd};
+
+macro_rules! simd_shuffle4 {
+    ($x:expr, $y:expr, <$(const $imm:ident : $ty:ty),+> $idx:expr $(,)?) => {{
+        struct ConstParam<$(const $imm: $ty),+>;
+        impl<$(const $imm: $ty),+> ConstParam<$($imm),+> {
+            const IDX: Simd<u32, 4> = Simd($idx);
+        }
+
+        arm::simd_shuffle($x, $y, ConstParam::<$($imm),+>::IDX)
+    }};
+    ($x:expr, $y:expr, $idx:expr $(,)?) => {{
+        const IDX: Simd<u32, 4> = Simd($idx);
+        arm::simd_shuffle($x, $y, IDX)
+    }};
+}
+
+impl I32x4 {
+    /// Constructs a new vector from the first, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwx(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 0])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwy(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 1])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwz(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 2])) }
+    }
+
+    /// Constructs a new vector from the first, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 0, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 1, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzw(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 2, 3])) }
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 0, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 1, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 2, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [0, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [1, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [2, 3, 3, 3])) }
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwww(self) -> I32x4 {
+        unsafe { I32x4(simd_shuffle4!(self.0, self.0, [3, 3, 3, 3])) }
+    }
+}
+`}]},{type:`folder`,name:`scalar`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/scalar`,children:[{type:`file`,name:`mod.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/scalar/mod.rs`,language:`Rust`,content:`// pathfinder/simd/src/scalar.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use std::f32;
+use std::fmt::{self, Debug, Formatter};
+use std::ops::{Add, BitAnd, BitOr, Div, Index, IndexMut, Mul, Shr, Sub, Not};
+
+mod swizzle_f32x4;
+mod swizzle_i32x4;
+
+// Two 32-bit floats
+
+#[derive(Clone, Copy, Debug, Default, PartialEq)]
+pub struct F32x2(pub [f32; 2]);
+
+impl F32x2 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: f32, b: f32) -> F32x2 {
+        F32x2([a, b])
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x2 {
+        F32x2([x, x])
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x2 {
+        F32x2([1.0 / self[0], 1.0 / self[1]])
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x2) -> F32x2 {
+        F32x2([f32::min(self[0], other[0]), f32::min(self[1], other[1])])
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x2) -> F32x2 {
+        F32x2([f32::max(self[0], other[0]), f32::max(self[1], other[1])])
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x2, max: F32x2) -> F32x2 {
+        self.max(min).min(max)
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x2 {
+        F32x2([self[0].abs(), self[1].abs()])
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x2 {
+        F32x2([self[0].floor(), self[1].floor()])
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x2 {
+        F32x2([self[0].ceil(), self[1].ceil()])
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x2 {
+        F32x2([self[0].sqrt(), self[1].sqrt()])
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x2) -> U32x2 {
+        U32x2([
+            if self[0] == other[0] { !0 } else { 0 },
+            if self[1] == other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x2) -> U32x2 {
+        U32x2([
+            if self[0] > other[0] { !0 } else { 0 },
+            if self[1] > other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x2) -> U32x2 {
+        U32x2([
+            if self[0] < other[0] { !0 } else { 0 },
+            if self[1] < other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x2) -> U32x2 {
+        U32x2([
+            if self[0] <= other[0] { !0 } else { 0 },
+            if self[1] <= other[1] { !0 } else { 0 },
+        ])
+    }
+
+    // Conversions
+
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        F32x4([self[0] as f32, self[1] as f32, 0.0, 0.0])
+    }
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        I32x2([self[0].round_ties_even() as i32, self[1].round_ties_even() as i32])
+    }
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        I32x4([self[0].round_ties_even() as i32, self[1].round_ties_even() as i32, 0, 0])
+    }
+
+    // Swizzle
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        F32x2([self[1], self[0]])
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x2) -> F32x4 {
+        F32x4([self[0], self[1], other[0], other[1]])
+    }
+}
+
+impl Index<usize> for F32x2 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        &self.0[index]
+    }
+}
+
+impl IndexMut<usize> for F32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        &mut self.0[index]
+    }
+}
+
+impl Add<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn add(self, other: F32x2) -> F32x2 {
+        F32x2([self[0] + other[0], self[1] + other[1]])
+    }
+}
+
+impl Div<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn div(self, other: F32x2) -> F32x2 {
+        F32x2([self[0] / other[0], self[1] / other[1]])
+    }
+}
+
+impl Mul<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn mul(self, other: F32x2) -> F32x2 {
+        F32x2([self[0] * other[0], self[1] * other[1]])
+    }
+}
+
+impl Sub<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn sub(self, other: F32x2) -> F32x2 {
+        F32x2([self[0] - other[0], self[1] - other[1]])
+    }
+}
+
+// Four 32-bit floats
+
+#[derive(Clone, Copy, Default, PartialEq)]
+pub struct F32x4(pub [f32; 4]);
+
+impl F32x4 {
+    #[inline]
+    pub fn new(a: f32, b: f32, c: f32, d: f32) -> F32x4 {
+        F32x4([a, b, c, d])
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x4 {
+        F32x4([x; 4])
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x4 {
+        F32x4([1.0 / self[0], 1.0 / self[1], 1.0 / self[2], 1.0 / self[3]])
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0].min(other[0]),
+            self[1].min(other[1]),
+            self[2].min(other[2]),
+            self[3].min(other[3]),
+        ])
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0].max(other[0]),
+            self[1].max(other[1]),
+            self[2].max(other[2]),
+            self[3].max(other[3]),
+        ])
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x4, max: F32x4) -> F32x4 {
+        self.max(min).min(max)
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x4 {
+        F32x4([self[0].abs(), self[1].abs(), self[2].abs(), self[3].abs()])
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x4 {
+        F32x4([
+            self[0].floor(),
+            self[1].floor(),
+            self[2].floor(),
+            self[3].floor(),
+        ])
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x4 {
+        F32x4([
+            self[0].ceil(),
+            self[1].ceil(),
+            self[2].ceil(),
+            self[3].ceil(),
+        ])
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x4 {
+        F32x4([
+            self[0].sqrt(),
+            self[1].sqrt(),
+            self[2].sqrt(),
+            self[3].sqrt(),
+        ])
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x4) -> U32x4 {
+        U32x4([
+            if self[0] == other[0] { !0 } else { 0 },
+            if self[1] == other[1] { !0 } else { 0 },
+            if self[2] == other[2] { !0 } else { 0 },
+            if self[3] == other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x4) -> U32x4 {
+        U32x4([
+            if self[0] > other[0] { !0 } else { 0 },
+            if self[1] > other[1] { !0 } else { 0 },
+            if self[2] > other[2] { !0 } else { 0 },
+            if self[3] > other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x4) -> U32x4 {
+        U32x4([
+            if self[0] <= other[0] { !0 } else { 0 },
+            if self[1] <= other[1] { !0 } else { 0 },
+            if self[2] <= other[2] { !0 } else { 0 },
+            if self[3] <= other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x4) -> U32x4 {
+        U32x4([
+            if self[0] < other[0] { !0 } else { 0 },
+            if self[1] < other[1] { !0 } else { 0 },
+            if self[2] < other[2] { !0 } else { 0 },
+            if self[3] < other[3] { !0 } else { 0 },
+        ])
+    }
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        I32x4([
+            self[0].round_ties_even() as i32,
+            self[1].round_ties_even() as i32,
+            self[2].round_ties_even() as i32,
+            self[3].round_ties_even() as i32,
+        ])
+    }
+
+    // Swizzle conversions
+
+    #[inline]
+    pub fn xy(self) -> F32x2 {
+        F32x2([self[0], self[1]])
+    }
+
+    #[inline]
+    pub fn xw(self) -> F32x2 {
+        F32x2([self[0], self[3]])
+    }
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        F32x2([self[1], self[0]])
+    }
+
+    #[inline]
+    pub fn zy(self) -> F32x2 {
+        F32x2([self[2], self[1]])
+    }
+
+    #[inline]
+    pub fn zw(self) -> F32x2 {
+        F32x2([self[2], self[3]])
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x4) -> F32x4 {
+        F32x4([self[0], self[1], other[0], other[1]])
+    }
+
+    #[inline]
+    pub fn concat_xy_zw(self, other: F32x4) -> F32x4 {
+        F32x4([self[0], self[1], other[2], other[3]])
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: F32x4) -> F32x4 {
+        F32x4([self[2], self[3], other[2], other[3]])
+    }
+
+    #[inline]
+    pub fn concat_wz_yx(self, other: F32x4) -> F32x4 {
+        F32x4([self[3], self[2], other[1], other[0]])
+    }
+}
+
+impl Index<usize> for F32x4 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        &self.0[index]
+    }
+}
+
+impl IndexMut<usize> for F32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        &mut self.0[index]
+    }
+}
+
+impl Debug for F32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl Add<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn add(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0] + other[0],
+            self[1] + other[1],
+            self[2] + other[2],
+            self[3] + other[3],
+        ])
+    }
+}
+
+impl Div<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn div(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0] / other[0],
+            self[1] / other[1],
+            self[2] / other[2],
+            self[3] / other[3],
+        ])
+    }
+}
+
+impl Mul<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn mul(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0] * other[0],
+            self[1] * other[1],
+            self[2] * other[2],
+            self[3] * other[3],
+        ])
+    }
+}
+
+impl Sub<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn sub(self, other: F32x4) -> F32x4 {
+        F32x4([
+            self[0] - other[0],
+            self[1] - other[1],
+            self[2] - other[2],
+            self[3] - other[3],
+        ])
+    }
+}
+
+// Two 32-bit signed integers
+
+#[derive(Clone, Copy, Default, Debug, PartialEq)]
+pub struct I32x2([i32; 2]);
+
+impl I32x2 {
+    #[inline]
+    pub fn new(x: i32, y: i32) -> I32x2 {
+        I32x2([x, y])
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x2 {
+        I32x2([x, x])
+    }
+
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> i32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> i32 {
+        self[1]
+    }
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x2) -> I32x4 {
+        I32x4([self[0], self[1], other[0], other[1]])
+    }
+
+    #[inline]
+    pub fn min(self, other: I32x2) -> I32x2 {
+        I32x2([
+            self[0].min(other[0]),
+            self[1].min(other[1]),
+        ])
+    }
+
+    #[inline]
+    pub fn max(self, other: I32x2) -> I32x2 {
+        I32x2([
+            self[0].max(other[0]),
+            self[1].max(other[1]),
+        ])
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: I32x2) -> U32x2 {
+        U32x2([
+            if self[0] == other[0] { !0 } else { 0 },
+            if self[1] == other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: I32x2) -> U32x2 {
+        U32x2([
+            if self[0] > other[0] { !0 } else { 0 },
+            if self[1] > other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: I32x2) -> U32x2 {
+        U32x2([
+            if self[0] <= other[0] { !0 } else { 0 },
+            if self[1] <= other[1] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: I32x2) -> U32x2 {
+        U32x2([
+            if self[0] < other[0] { !0 } else { 0 },
+            if self[1] < other[1] { !0 } else { 0 },
+        ])
+    } 
+
+    // Conversions
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x2(self) -> F32x2 {
+        F32x2([self[0] as f32, self[1] as f32])
+    }
+}
+
+impl Index<usize> for I32x2 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        &self.0[index]
+    }
+}
+
+impl IndexMut<usize> for I32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        &mut self.0[index]
+    }
+}
+
+impl Add<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn add(self, other: I32x2) -> I32x2 {
+        I32x2([self[0] + other[0], self[1] + other[1]])
+    }
+}
+
+impl Sub<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn sub(self, other: I32x2) -> I32x2 {
+        I32x2([self[0] - other[0], self[1] - other[1]])
+    }
+}
+
+impl Mul<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn mul(self, other: I32x2) -> I32x2 {
+        I32x2([self[0] * other[0], self[1] * other[1]])
+    }
+}
+
+// Four 32-bit signed integers
+
+#[derive(Clone, Copy, Default, Debug, PartialEq)]
+pub struct I32x4([i32; 4]);
+
+impl I32x4 {
+    #[inline]
+    pub fn new(a: i32, b: i32, c: i32, d: i32) -> I32x4 {
+        I32x4([a, b, c, d])
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x4 {
+        I32x4([x; 4])
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn min(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0].min(other[0]),
+            self[1].min(other[1]),
+            self[2].min(other[2]),
+            self[3].min(other[3]),
+        ])
+    }
+
+    #[inline]
+    pub fn max(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0].max(other[0]),
+            self[1].max(other[1]),
+            self[2].max(other[2]),
+            self[3].max(other[3]),
+        ])
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: I32x4) -> U32x4 {
+        U32x4([
+            if self[0] == other[0] { !0 } else { 0 },
+            if self[1] == other[1] { !0 } else { 0 },
+            if self[2] == other[2] { !0 } else { 0 },
+            if self[3] == other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: I32x4) -> U32x4 {
+        U32x4([
+            if self[0] > other[0] { !0 } else { 0 },
+            if self[1] > other[1] { !0 } else { 0 },
+            if self[2] > other[2] { !0 } else { 0 },
+            if self[3] > other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: I32x4) -> U32x4 {
+        U32x4([
+            if self[0] <= other[0] { !0 } else { 0 },
+            if self[1] <= other[1] { !0 } else { 0 },
+            if self[2] <= other[2] { !0 } else { 0 },
+            if self[3] <= other[3] { !0 } else { 0 },
+        ])
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: I32x4) -> U32x4 {
+        U32x4([
+            if self[0] < other[0] { !0 } else { 0 },
+            if self[1] < other[1] { !0 } else { 0 },
+            if self[2] < other[2] { !0 } else { 0 },
+            if self[3] < other[3] { !0 } else { 0 },
+        ])
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x4) -> I32x4 {
+        I32x4([self[0], self[1], other[0], other[1]])
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: I32x4) -> I32x4 {
+        I32x4([self[2], self[3], other[2], other[3]])
+    }
+
+    // Swizzle conversions
+
+    #[inline]
+    pub fn xy(self) -> I32x2 {
+        I32x2([self[0], self[1]])
+    }
+
+    #[inline]
+    pub fn xw(self) -> I32x2 {
+        I32x2([self[0], self[3]])
+    }
+
+    #[inline]
+    pub fn zy(self) -> I32x2 {
+        I32x2([self[2], self[1]])
+    }
+
+    #[inline]
+    pub fn zw(self) -> I32x2 {
+        I32x2([self[2], self[3]])
+    }
+
+    // Conversions
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        F32x4([
+            self[0] as f32,
+            self[1] as f32,
+            self[2] as f32,
+            self[3] as f32,
+        ])
+    }
+
+    /// Converts these packed signed integers to unsigned integers.
+    ///
+    /// Overflowing values will wrap around.
+    ///
+    /// FIXME(pcwalton): Should they? This will assert on overflow in debug.
+    #[inline]
+    pub fn to_u32x4(self) -> U32x4 {
+        U32x4([self[0] as u32, self[1] as u32, self[2] as u32, self[3] as u32])
+    }
+}
+
+impl Index<usize> for I32x4 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        &self.0[index]
+    }
+}
+
+impl IndexMut<usize> for I32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        &mut self.0[index]
+    }
+}
+
+impl Add<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn add(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0] + other[0],
+            self[1] + other[1],
+            self[2] + other[2],
+            self[3] + other[3],
+        ])
+    }
+}
+
+impl Sub<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn sub(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0] - other[0],
+            self[1] - other[1],
+            self[2] - other[2],
+            self[3] - other[3],
+        ])
+    }
+}
+
+impl Mul<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn mul(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0] * other[0],
+            self[1] * other[1],
+            self[2] * other[2],
+            self[3] * other[3],
+        ])
+    }
+}
+
+impl BitAnd<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitand(self, other: I32x4) -> I32x4 {
+        I32x4([self[0] & other[0], self[1] & other[1], self[2] & other[2], self[3] & other[3]])
+    }
+}
+
+impl BitOr<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitor(self, other: I32x4) -> I32x4 {
+        I32x4([self[0] | other[0], self[1] | other[1], self[2] | other[2], self[3] | other[3]])
+    }
+}
+
+impl Shr<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn shr(self, other: I32x4) -> I32x4 {
+        I32x4([
+            self[0] >> other[0],
+            self[1] >> other[1],
+            self[2] >> other[2],
+            self[3] >> other[3],
+        ])
+    }
+}
+
+// Two 32-bit unsigned integers
+
+#[derive(Clone, Copy)]
+pub struct U32x2(pub [u32; 2]);
+
+impl U32x2 {
+    #[inline]
+    pub fn new(x: u32, y: u32) -> U32x2 {
+        U32x2([x, y])
+    }
+
+    #[inline]
+    pub fn splat(x: u32) -> U32x2 {
+        U32x2::new(x, x)
+    }
+
+    /// Returns true if both booleans in this vector are true.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(&self) -> bool {
+        self[0] == !0 && self[1] == !0
+    }
+
+    /// Returns true if both booleans in this vector are false.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(&self) -> bool {
+        self[0] == 0 && self[1] == 0
+    }
+
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        I32x2::new(self[0] as i32, self[1] as i32)
+    }
+
+}
+
+impl BitAnd<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitand(self, other: U32x2) -> U32x2 {
+        U32x2([self[0] & other[0], self[1] & other[1]])
+    }
+}
+
+impl BitOr<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitor(self, other: U32x2) -> U32x2 {
+        U32x2([self[0] | other[0], self[1] | other[1]])
+    }
+}
+
+impl Not for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn not(self) -> U32x2 {
+        U32x2([!self[0], !self[1]])
+    }
+}
+
+impl Index<usize> for U32x2 {
+    type Output = u32;
+    #[inline]
+    fn index(&self, index: usize) -> &u32 {
+        &self.0[index]
+    }
+}
+
+// Four 32-bit unsigned integers
+
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
+pub struct U32x4(pub [u32; 4]);
+
+impl U32x4 {
+    pub fn new(a: u32, b: u32, c: u32, d: u32) -> U32x4 {
+        U32x4([a, b, c, d])
+    }
+
+    // Conversions
+
+    /// Converts these packed unsigned integers to signed integers.
+    ///
+    /// Overflowing values will wrap around.
+    ///
+    /// FIXME(pcwalton): Should they? This will assert on overflow in debug.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        I32x4([self[0] as i32, self[1] as i32, self[2] as i32, self[3] as i32])
+    }
+
+    // Basic operations
+
+    /// Returns true if all four booleans in this vector are true.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(&self) -> bool {
+        self[0] == !0 && self[1] == !0 && self[2] == !0 && self[3] == !0
+    }
+
+    /// Returns true if all four booleans in this vector are false.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(&self) -> bool {
+        self[0] == 0 && self[1] == 0 && self[2] == 0 && self[3] == 0
+    }
+}
+
+impl Index<usize> for U32x4 {
+    type Output = u32;
+    #[inline]
+    fn index(&self, index: usize) -> &u32 {
+        &self.0[index]
+    }
+}
+
+impl Shr<u32> for U32x4 {
+    type Output = U32x4;
+    #[inline]
+    fn shr(self, amount: u32) -> U32x4 {
+        U32x4([self[0] >> amount, self[1] >> amount, self[2] >> amount, self[3] >> amount])
+    }
+}
+`},{type:`file`,name:`swizzle_f32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/scalar/swizzle_f32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/scalar/swizzle_f32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::scalar::F32x4;
+
+impl F32x4 {
+    /// Constructs a new vector from the first, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxx(self) -> F32x4 {
+        F32x4([self[0], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxx(self) -> F32x4 {
+        F32x4([self[1], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxx(self) -> F32x4 {
+        F32x4([self[2], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxx(self) -> F32x4 {
+        F32x4([self[3], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxx(self) -> F32x4 {
+        F32x4([self[0], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxx(self) -> F32x4 {
+        F32x4([self[1], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxx(self) -> F32x4 {
+        F32x4([self[2], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxx(self) -> F32x4 {
+        F32x4([self[3], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxx(self) -> F32x4 {
+        F32x4([self[0], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxx(self) -> F32x4 {
+        F32x4([self[1], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxx(self) -> F32x4 {
+        F32x4([self[2], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxx(self) -> F32x4 {
+        F32x4([self[3], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxx(self) -> F32x4 {
+        F32x4([self[0], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxx(self) -> F32x4 {
+        F32x4([self[1], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxx(self) -> F32x4 {
+        F32x4([self[2], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxx(self) -> F32x4 {
+        F32x4([self[3], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyx(self) -> F32x4 {
+        F32x4([self[0], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyx(self) -> F32x4 {
+        F32x4([self[1], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyx(self) -> F32x4 {
+        F32x4([self[2], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyx(self) -> F32x4 {
+        F32x4([self[3], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyx(self) -> F32x4 {
+        F32x4([self[0], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyx(self) -> F32x4 {
+        F32x4([self[1], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyx(self) -> F32x4 {
+        F32x4([self[2], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyx(self) -> F32x4 {
+        F32x4([self[3], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyx(self) -> F32x4 {
+        F32x4([self[0], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyx(self) -> F32x4 {
+        F32x4([self[1], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyx(self) -> F32x4 {
+        F32x4([self[2], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyx(self) -> F32x4 {
+        F32x4([self[3], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyx(self) -> F32x4 {
+        F32x4([self[0], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyx(self) -> F32x4 {
+        F32x4([self[1], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyx(self) -> F32x4 {
+        F32x4([self[2], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyx(self) -> F32x4 {
+        F32x4([self[3], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzx(self) -> F32x4 {
+        F32x4([self[0], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzx(self) -> F32x4 {
+        F32x4([self[1], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzx(self) -> F32x4 {
+        F32x4([self[2], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzx(self) -> F32x4 {
+        F32x4([self[3], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzx(self) -> F32x4 {
+        F32x4([self[0], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzx(self) -> F32x4 {
+        F32x4([self[1], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzx(self) -> F32x4 {
+        F32x4([self[2], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzx(self) -> F32x4 {
+        F32x4([self[3], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzx(self) -> F32x4 {
+        F32x4([self[0], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzx(self) -> F32x4 {
+        F32x4([self[1], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzx(self) -> F32x4 {
+        F32x4([self[2], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzx(self) -> F32x4 {
+        F32x4([self[3], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzx(self) -> F32x4 {
+        F32x4([self[0], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzx(self) -> F32x4 {
+        F32x4([self[1], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzx(self) -> F32x4 {
+        F32x4([self[2], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzx(self) -> F32x4 {
+        F32x4([self[3], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwx(self) -> F32x4 {
+        F32x4([self[0], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwx(self) -> F32x4 {
+        F32x4([self[1], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwx(self) -> F32x4 {
+        F32x4([self[2], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwx(self) -> F32x4 {
+        F32x4([self[3], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywx(self) -> F32x4 {
+        F32x4([self[0], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywx(self) -> F32x4 {
+        F32x4([self[1], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywx(self) -> F32x4 {
+        F32x4([self[2], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywx(self) -> F32x4 {
+        F32x4([self[3], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwx(self) -> F32x4 {
+        F32x4([self[0], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwx(self) -> F32x4 {
+        F32x4([self[1], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwx(self) -> F32x4 {
+        F32x4([self[2], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwx(self) -> F32x4 {
+        F32x4([self[3], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwx(self) -> F32x4 {
+        F32x4([self[0], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwx(self) -> F32x4 {
+        F32x4([self[1], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwx(self) -> F32x4 {
+        F32x4([self[2], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwx(self) -> F32x4 {
+        F32x4([self[3], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxy(self) -> F32x4 {
+        F32x4([self[0], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxy(self) -> F32x4 {
+        F32x4([self[1], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxy(self) -> F32x4 {
+        F32x4([self[2], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxy(self) -> F32x4 {
+        F32x4([self[3], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxy(self) -> F32x4 {
+        F32x4([self[0], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxy(self) -> F32x4 {
+        F32x4([self[1], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxy(self) -> F32x4 {
+        F32x4([self[2], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxy(self) -> F32x4 {
+        F32x4([self[3], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxy(self) -> F32x4 {
+        F32x4([self[0], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxy(self) -> F32x4 {
+        F32x4([self[1], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxy(self) -> F32x4 {
+        F32x4([self[2], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxy(self) -> F32x4 {
+        F32x4([self[3], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxy(self) -> F32x4 {
+        F32x4([self[0], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxy(self) -> F32x4 {
+        F32x4([self[1], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxy(self) -> F32x4 {
+        F32x4([self[2], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxy(self) -> F32x4 {
+        F32x4([self[3], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyy(self) -> F32x4 {
+        F32x4([self[0], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyy(self) -> F32x4 {
+        F32x4([self[1], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyy(self) -> F32x4 {
+        F32x4([self[2], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyy(self) -> F32x4 {
+        F32x4([self[3], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyy(self) -> F32x4 {
+        F32x4([self[0], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyy(self) -> F32x4 {
+        F32x4([self[1], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyy(self) -> F32x4 {
+        F32x4([self[2], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyy(self) -> F32x4 {
+        F32x4([self[3], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyy(self) -> F32x4 {
+        F32x4([self[0], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyy(self) -> F32x4 {
+        F32x4([self[1], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyy(self) -> F32x4 {
+        F32x4([self[2], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyy(self) -> F32x4 {
+        F32x4([self[3], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyy(self) -> F32x4 {
+        F32x4([self[0], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyy(self) -> F32x4 {
+        F32x4([self[1], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyy(self) -> F32x4 {
+        F32x4([self[2], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyy(self) -> F32x4 {
+        F32x4([self[3], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzy(self) -> F32x4 {
+        F32x4([self[0], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzy(self) -> F32x4 {
+        F32x4([self[1], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzy(self) -> F32x4 {
+        F32x4([self[2], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzy(self) -> F32x4 {
+        F32x4([self[3], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzy(self) -> F32x4 {
+        F32x4([self[0], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzy(self) -> F32x4 {
+        F32x4([self[1], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzy(self) -> F32x4 {
+        F32x4([self[2], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzy(self) -> F32x4 {
+        F32x4([self[3], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzy(self) -> F32x4 {
+        F32x4([self[0], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzy(self) -> F32x4 {
+        F32x4([self[1], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzy(self) -> F32x4 {
+        F32x4([self[2], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzy(self) -> F32x4 {
+        F32x4([self[3], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzy(self) -> F32x4 {
+        F32x4([self[0], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzy(self) -> F32x4 {
+        F32x4([self[1], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzy(self) -> F32x4 {
+        F32x4([self[2], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzy(self) -> F32x4 {
+        F32x4([self[3], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwy(self) -> F32x4 {
+        F32x4([self[0], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwy(self) -> F32x4 {
+        F32x4([self[1], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwy(self) -> F32x4 {
+        F32x4([self[2], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwy(self) -> F32x4 {
+        F32x4([self[3], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywy(self) -> F32x4 {
+        F32x4([self[0], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywy(self) -> F32x4 {
+        F32x4([self[1], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywy(self) -> F32x4 {
+        F32x4([self[2], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywy(self) -> F32x4 {
+        F32x4([self[3], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwy(self) -> F32x4 {
+        F32x4([self[0], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwy(self) -> F32x4 {
+        F32x4([self[1], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwy(self) -> F32x4 {
+        F32x4([self[2], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwy(self) -> F32x4 {
+        F32x4([self[3], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwy(self) -> F32x4 {
+        F32x4([self[0], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwy(self) -> F32x4 {
+        F32x4([self[1], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwy(self) -> F32x4 {
+        F32x4([self[2], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwy(self) -> F32x4 {
+        F32x4([self[3], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxz(self) -> F32x4 {
+        F32x4([self[0], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxz(self) -> F32x4 {
+        F32x4([self[1], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxz(self) -> F32x4 {
+        F32x4([self[2], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxz(self) -> F32x4 {
+        F32x4([self[3], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxz(self) -> F32x4 {
+        F32x4([self[0], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxz(self) -> F32x4 {
+        F32x4([self[1], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxz(self) -> F32x4 {
+        F32x4([self[2], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxz(self) -> F32x4 {
+        F32x4([self[3], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxz(self) -> F32x4 {
+        F32x4([self[0], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxz(self) -> F32x4 {
+        F32x4([self[1], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxz(self) -> F32x4 {
+        F32x4([self[2], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxz(self) -> F32x4 {
+        F32x4([self[3], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxz(self) -> F32x4 {
+        F32x4([self[0], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxz(self) -> F32x4 {
+        F32x4([self[1], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxz(self) -> F32x4 {
+        F32x4([self[2], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxz(self) -> F32x4 {
+        F32x4([self[3], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyz(self) -> F32x4 {
+        F32x4([self[0], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyz(self) -> F32x4 {
+        F32x4([self[1], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyz(self) -> F32x4 {
+        F32x4([self[2], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyz(self) -> F32x4 {
+        F32x4([self[3], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyz(self) -> F32x4 {
+        F32x4([self[0], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyz(self) -> F32x4 {
+        F32x4([self[1], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyz(self) -> F32x4 {
+        F32x4([self[2], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyz(self) -> F32x4 {
+        F32x4([self[3], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyz(self) -> F32x4 {
+        F32x4([self[0], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyz(self) -> F32x4 {
+        F32x4([self[1], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyz(self) -> F32x4 {
+        F32x4([self[2], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyz(self) -> F32x4 {
+        F32x4([self[3], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyz(self) -> F32x4 {
+        F32x4([self[0], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyz(self) -> F32x4 {
+        F32x4([self[1], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyz(self) -> F32x4 {
+        F32x4([self[2], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyz(self) -> F32x4 {
+        F32x4([self[3], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzz(self) -> F32x4 {
+        F32x4([self[0], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzz(self) -> F32x4 {
+        F32x4([self[1], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzz(self) -> F32x4 {
+        F32x4([self[2], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzz(self) -> F32x4 {
+        F32x4([self[3], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzz(self) -> F32x4 {
+        F32x4([self[0], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzz(self) -> F32x4 {
+        F32x4([self[1], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzz(self) -> F32x4 {
+        F32x4([self[2], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzz(self) -> F32x4 {
+        F32x4([self[3], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzz(self) -> F32x4 {
+        F32x4([self[0], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzz(self) -> F32x4 {
+        F32x4([self[1], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzz(self) -> F32x4 {
+        F32x4([self[2], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzz(self) -> F32x4 {
+        F32x4([self[3], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzz(self) -> F32x4 {
+        F32x4([self[0], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzz(self) -> F32x4 {
+        F32x4([self[1], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzz(self) -> F32x4 {
+        F32x4([self[2], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzz(self) -> F32x4 {
+        F32x4([self[3], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwz(self) -> F32x4 {
+        F32x4([self[0], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwz(self) -> F32x4 {
+        F32x4([self[1], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwz(self) -> F32x4 {
+        F32x4([self[2], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwz(self) -> F32x4 {
+        F32x4([self[3], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywz(self) -> F32x4 {
+        F32x4([self[0], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywz(self) -> F32x4 {
+        F32x4([self[1], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywz(self) -> F32x4 {
+        F32x4([self[2], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywz(self) -> F32x4 {
+        F32x4([self[3], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwz(self) -> F32x4 {
+        F32x4([self[0], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwz(self) -> F32x4 {
+        F32x4([self[1], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwz(self) -> F32x4 {
+        F32x4([self[2], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwz(self) -> F32x4 {
+        F32x4([self[3], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwz(self) -> F32x4 {
+        F32x4([self[0], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwz(self) -> F32x4 {
+        F32x4([self[1], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwz(self) -> F32x4 {
+        F32x4([self[2], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwz(self) -> F32x4 {
+        F32x4([self[3], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxw(self) -> F32x4 {
+        F32x4([self[0], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxw(self) -> F32x4 {
+        F32x4([self[1], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxw(self) -> F32x4 {
+        F32x4([self[2], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxw(self) -> F32x4 {
+        F32x4([self[3], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxw(self) -> F32x4 {
+        F32x4([self[0], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxw(self) -> F32x4 {
+        F32x4([self[1], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxw(self) -> F32x4 {
+        F32x4([self[2], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxw(self) -> F32x4 {
+        F32x4([self[3], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxw(self) -> F32x4 {
+        F32x4([self[0], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxw(self) -> F32x4 {
+        F32x4([self[1], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxw(self) -> F32x4 {
+        F32x4([self[2], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxw(self) -> F32x4 {
+        F32x4([self[3], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxw(self) -> F32x4 {
+        F32x4([self[0], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxw(self) -> F32x4 {
+        F32x4([self[1], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxw(self) -> F32x4 {
+        F32x4([self[2], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxw(self) -> F32x4 {
+        F32x4([self[3], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyw(self) -> F32x4 {
+        F32x4([self[0], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyw(self) -> F32x4 {
+        F32x4([self[1], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyw(self) -> F32x4 {
+        F32x4([self[2], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyw(self) -> F32x4 {
+        F32x4([self[3], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyw(self) -> F32x4 {
+        F32x4([self[0], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyw(self) -> F32x4 {
+        F32x4([self[1], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyw(self) -> F32x4 {
+        F32x4([self[2], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyw(self) -> F32x4 {
+        F32x4([self[3], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyw(self) -> F32x4 {
+        F32x4([self[0], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyw(self) -> F32x4 {
+        F32x4([self[1], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyw(self) -> F32x4 {
+        F32x4([self[2], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyw(self) -> F32x4 {
+        F32x4([self[3], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyw(self) -> F32x4 {
+        F32x4([self[0], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyw(self) -> F32x4 {
+        F32x4([self[1], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyw(self) -> F32x4 {
+        F32x4([self[2], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyw(self) -> F32x4 {
+        F32x4([self[3], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzw(self) -> F32x4 {
+        F32x4([self[0], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzw(self) -> F32x4 {
+        F32x4([self[1], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzw(self) -> F32x4 {
+        F32x4([self[2], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzw(self) -> F32x4 {
+        F32x4([self[3], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzw(self) -> F32x4 {
+        F32x4([self[0], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzw(self) -> F32x4 {
+        F32x4([self[1], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzw(self) -> F32x4 {
+        F32x4([self[2], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzw(self) -> F32x4 {
+        F32x4([self[3], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzw(self) -> F32x4 {
+        F32x4([self[0], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzw(self) -> F32x4 {
+        F32x4([self[1], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzw(self) -> F32x4 {
+        F32x4([self[2], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzw(self) -> F32x4 {
+        F32x4([self[3], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzw(self) -> F32x4 {
+        F32x4([self[0], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzw(self) -> F32x4 {
+        F32x4([self[1], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzw(self) -> F32x4 {
+        F32x4([self[2], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzw(self) -> F32x4 {
+        F32x4([self[3], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxww(self) -> F32x4 {
+        F32x4([self[0], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxww(self) -> F32x4 {
+        F32x4([self[1], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxww(self) -> F32x4 {
+        F32x4([self[2], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxww(self) -> F32x4 {
+        F32x4([self[3], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyww(self) -> F32x4 {
+        F32x4([self[0], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyww(self) -> F32x4 {
+        F32x4([self[1], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyww(self) -> F32x4 {
+        F32x4([self[2], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyww(self) -> F32x4 {
+        F32x4([self[3], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzww(self) -> F32x4 {
+        F32x4([self[0], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzww(self) -> F32x4 {
+        F32x4([self[1], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzww(self) -> F32x4 {
+        F32x4([self[2], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzww(self) -> F32x4 {
+        F32x4([self[3], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwww(self) -> F32x4 {
+        F32x4([self[0], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywww(self) -> F32x4 {
+        F32x4([self[1], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwww(self) -> F32x4 {
+        F32x4([self[2], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwww(self) -> F32x4 {
+        F32x4([self[3], self[3], self[3], self[3]])
+    }
+}
+`},{type:`file`,name:`swizzle_i32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/scalar/swizzle_i32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/scalar/swizzle_i32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::scalar::I32x4;
+
+impl I32x4 {
+    /// Constructs a new vector from the first, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxx(self) -> I32x4 {
+        I32x4([self[0], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxx(self) -> I32x4 {
+        I32x4([self[1], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxx(self) -> I32x4 {
+        I32x4([self[2], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxx(self) -> I32x4 {
+        I32x4([self[3], self[0], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxx(self) -> I32x4 {
+        I32x4([self[0], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxx(self) -> I32x4 {
+        I32x4([self[1], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxx(self) -> I32x4 {
+        I32x4([self[2], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxx(self) -> I32x4 {
+        I32x4([self[3], self[1], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxx(self) -> I32x4 {
+        I32x4([self[0], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxx(self) -> I32x4 {
+        I32x4([self[1], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxx(self) -> I32x4 {
+        I32x4([self[2], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxx(self) -> I32x4 {
+        I32x4([self[3], self[2], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxx(self) -> I32x4 {
+        I32x4([self[0], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxx(self) -> I32x4 {
+        I32x4([self[1], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxx(self) -> I32x4 {
+        I32x4([self[2], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxx(self) -> I32x4 {
+        I32x4([self[3], self[3], self[0], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyx(self) -> I32x4 {
+        I32x4([self[0], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyx(self) -> I32x4 {
+        I32x4([self[1], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyx(self) -> I32x4 {
+        I32x4([self[2], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyx(self) -> I32x4 {
+        I32x4([self[3], self[0], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyx(self) -> I32x4 {
+        I32x4([self[0], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyx(self) -> I32x4 {
+        I32x4([self[1], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyx(self) -> I32x4 {
+        I32x4([self[2], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyx(self) -> I32x4 {
+        I32x4([self[3], self[1], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyx(self) -> I32x4 {
+        I32x4([self[0], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyx(self) -> I32x4 {
+        I32x4([self[1], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyx(self) -> I32x4 {
+        I32x4([self[2], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyx(self) -> I32x4 {
+        I32x4([self[3], self[2], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyx(self) -> I32x4 {
+        I32x4([self[0], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyx(self) -> I32x4 {
+        I32x4([self[1], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyx(self) -> I32x4 {
+        I32x4([self[2], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyx(self) -> I32x4 {
+        I32x4([self[3], self[3], self[1], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzx(self) -> I32x4 {
+        I32x4([self[0], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzx(self) -> I32x4 {
+        I32x4([self[1], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzx(self) -> I32x4 {
+        I32x4([self[2], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzx(self) -> I32x4 {
+        I32x4([self[3], self[0], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzx(self) -> I32x4 {
+        I32x4([self[0], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzx(self) -> I32x4 {
+        I32x4([self[1], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzx(self) -> I32x4 {
+        I32x4([self[2], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzx(self) -> I32x4 {
+        I32x4([self[3], self[1], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzx(self) -> I32x4 {
+        I32x4([self[0], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzx(self) -> I32x4 {
+        I32x4([self[1], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzx(self) -> I32x4 {
+        I32x4([self[2], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzx(self) -> I32x4 {
+        I32x4([self[3], self[2], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzx(self) -> I32x4 {
+        I32x4([self[0], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzx(self) -> I32x4 {
+        I32x4([self[1], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzx(self) -> I32x4 {
+        I32x4([self[2], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzx(self) -> I32x4 {
+        I32x4([self[3], self[3], self[2], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwx(self) -> I32x4 {
+        I32x4([self[0], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwx(self) -> I32x4 {
+        I32x4([self[1], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwx(self) -> I32x4 {
+        I32x4([self[2], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwx(self) -> I32x4 {
+        I32x4([self[3], self[0], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywx(self) -> I32x4 {
+        I32x4([self[0], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywx(self) -> I32x4 {
+        I32x4([self[1], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywx(self) -> I32x4 {
+        I32x4([self[2], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywx(self) -> I32x4 {
+        I32x4([self[3], self[1], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwx(self) -> I32x4 {
+        I32x4([self[0], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwx(self) -> I32x4 {
+        I32x4([self[1], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwx(self) -> I32x4 {
+        I32x4([self[2], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwx(self) -> I32x4 {
+        I32x4([self[3], self[2], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwx(self) -> I32x4 {
+        I32x4([self[0], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwx(self) -> I32x4 {
+        I32x4([self[1], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwx(self) -> I32x4 {
+        I32x4([self[2], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and first
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwx(self) -> I32x4 {
+        I32x4([self[3], self[3], self[3], self[0]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxy(self) -> I32x4 {
+        I32x4([self[0], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxy(self) -> I32x4 {
+        I32x4([self[1], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxy(self) -> I32x4 {
+        I32x4([self[2], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxy(self) -> I32x4 {
+        I32x4([self[3], self[0], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxy(self) -> I32x4 {
+        I32x4([self[0], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxy(self) -> I32x4 {
+        I32x4([self[1], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxy(self) -> I32x4 {
+        I32x4([self[2], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxy(self) -> I32x4 {
+        I32x4([self[3], self[1], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxy(self) -> I32x4 {
+        I32x4([self[0], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxy(self) -> I32x4 {
+        I32x4([self[1], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxy(self) -> I32x4 {
+        I32x4([self[2], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxy(self) -> I32x4 {
+        I32x4([self[3], self[2], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxy(self) -> I32x4 {
+        I32x4([self[0], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxy(self) -> I32x4 {
+        I32x4([self[1], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxy(self) -> I32x4 {
+        I32x4([self[2], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxy(self) -> I32x4 {
+        I32x4([self[3], self[3], self[0], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyy(self) -> I32x4 {
+        I32x4([self[0], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyy(self) -> I32x4 {
+        I32x4([self[1], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyy(self) -> I32x4 {
+        I32x4([self[2], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyy(self) -> I32x4 {
+        I32x4([self[3], self[0], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyy(self) -> I32x4 {
+        I32x4([self[0], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyy(self) -> I32x4 {
+        I32x4([self[1], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyy(self) -> I32x4 {
+        I32x4([self[2], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyy(self) -> I32x4 {
+        I32x4([self[3], self[1], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyy(self) -> I32x4 {
+        I32x4([self[0], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyy(self) -> I32x4 {
+        I32x4([self[1], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyy(self) -> I32x4 {
+        I32x4([self[2], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyy(self) -> I32x4 {
+        I32x4([self[3], self[2], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyy(self) -> I32x4 {
+        I32x4([self[0], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyy(self) -> I32x4 {
+        I32x4([self[1], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyy(self) -> I32x4 {
+        I32x4([self[2], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyy(self) -> I32x4 {
+        I32x4([self[3], self[3], self[1], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzy(self) -> I32x4 {
+        I32x4([self[0], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzy(self) -> I32x4 {
+        I32x4([self[1], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzy(self) -> I32x4 {
+        I32x4([self[2], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzy(self) -> I32x4 {
+        I32x4([self[3], self[0], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzy(self) -> I32x4 {
+        I32x4([self[0], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzy(self) -> I32x4 {
+        I32x4([self[1], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzy(self) -> I32x4 {
+        I32x4([self[2], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzy(self) -> I32x4 {
+        I32x4([self[3], self[1], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzy(self) -> I32x4 {
+        I32x4([self[0], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzy(self) -> I32x4 {
+        I32x4([self[1], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzy(self) -> I32x4 {
+        I32x4([self[2], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzy(self) -> I32x4 {
+        I32x4([self[3], self[2], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzy(self) -> I32x4 {
+        I32x4([self[0], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzy(self) -> I32x4 {
+        I32x4([self[1], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzy(self) -> I32x4 {
+        I32x4([self[2], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzy(self) -> I32x4 {
+        I32x4([self[3], self[3], self[2], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwy(self) -> I32x4 {
+        I32x4([self[0], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwy(self) -> I32x4 {
+        I32x4([self[1], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwy(self) -> I32x4 {
+        I32x4([self[2], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwy(self) -> I32x4 {
+        I32x4([self[3], self[0], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywy(self) -> I32x4 {
+        I32x4([self[0], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywy(self) -> I32x4 {
+        I32x4([self[1], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywy(self) -> I32x4 {
+        I32x4([self[2], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywy(self) -> I32x4 {
+        I32x4([self[3], self[1], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwy(self) -> I32x4 {
+        I32x4([self[0], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwy(self) -> I32x4 {
+        I32x4([self[1], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwy(self) -> I32x4 {
+        I32x4([self[2], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwy(self) -> I32x4 {
+        I32x4([self[3], self[2], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwy(self) -> I32x4 {
+        I32x4([self[0], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwy(self) -> I32x4 {
+        I32x4([self[1], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwy(self) -> I32x4 {
+        I32x4([self[2], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and second
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwy(self) -> I32x4 {
+        I32x4([self[3], self[3], self[3], self[1]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxz(self) -> I32x4 {
+        I32x4([self[0], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxz(self) -> I32x4 {
+        I32x4([self[1], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxz(self) -> I32x4 {
+        I32x4([self[2], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxz(self) -> I32x4 {
+        I32x4([self[3], self[0], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxz(self) -> I32x4 {
+        I32x4([self[0], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxz(self) -> I32x4 {
+        I32x4([self[1], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxz(self) -> I32x4 {
+        I32x4([self[2], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxz(self) -> I32x4 {
+        I32x4([self[3], self[1], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxz(self) -> I32x4 {
+        I32x4([self[0], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxz(self) -> I32x4 {
+        I32x4([self[1], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxz(self) -> I32x4 {
+        I32x4([self[2], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxz(self) -> I32x4 {
+        I32x4([self[3], self[2], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxz(self) -> I32x4 {
+        I32x4([self[0], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxz(self) -> I32x4 {
+        I32x4([self[1], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxz(self) -> I32x4 {
+        I32x4([self[2], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxz(self) -> I32x4 {
+        I32x4([self[3], self[3], self[0], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyz(self) -> I32x4 {
+        I32x4([self[0], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyz(self) -> I32x4 {
+        I32x4([self[1], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyz(self) -> I32x4 {
+        I32x4([self[2], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyz(self) -> I32x4 {
+        I32x4([self[3], self[0], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyz(self) -> I32x4 {
+        I32x4([self[0], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyz(self) -> I32x4 {
+        I32x4([self[1], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyz(self) -> I32x4 {
+        I32x4([self[2], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyz(self) -> I32x4 {
+        I32x4([self[3], self[1], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyz(self) -> I32x4 {
+        I32x4([self[0], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyz(self) -> I32x4 {
+        I32x4([self[1], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyz(self) -> I32x4 {
+        I32x4([self[2], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyz(self) -> I32x4 {
+        I32x4([self[3], self[2], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyz(self) -> I32x4 {
+        I32x4([self[0], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyz(self) -> I32x4 {
+        I32x4([self[1], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyz(self) -> I32x4 {
+        I32x4([self[2], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyz(self) -> I32x4 {
+        I32x4([self[3], self[3], self[1], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzz(self) -> I32x4 {
+        I32x4([self[0], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzz(self) -> I32x4 {
+        I32x4([self[1], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzz(self) -> I32x4 {
+        I32x4([self[2], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzz(self) -> I32x4 {
+        I32x4([self[3], self[0], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzz(self) -> I32x4 {
+        I32x4([self[0], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzz(self) -> I32x4 {
+        I32x4([self[1], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzz(self) -> I32x4 {
+        I32x4([self[2], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzz(self) -> I32x4 {
+        I32x4([self[3], self[1], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzz(self) -> I32x4 {
+        I32x4([self[0], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzz(self) -> I32x4 {
+        I32x4([self[1], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzz(self) -> I32x4 {
+        I32x4([self[2], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzz(self) -> I32x4 {
+        I32x4([self[3], self[2], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzz(self) -> I32x4 {
+        I32x4([self[0], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzz(self) -> I32x4 {
+        I32x4([self[1], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzz(self) -> I32x4 {
+        I32x4([self[2], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzz(self) -> I32x4 {
+        I32x4([self[3], self[3], self[2], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxwz(self) -> I32x4 {
+        I32x4([self[0], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxwz(self) -> I32x4 {
+        I32x4([self[1], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxwz(self) -> I32x4 {
+        I32x4([self[2], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxwz(self) -> I32x4 {
+        I32x4([self[3], self[0], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xywz(self) -> I32x4 {
+        I32x4([self[0], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yywz(self) -> I32x4 {
+        I32x4([self[1], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zywz(self) -> I32x4 {
+        I32x4([self[2], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wywz(self) -> I32x4 {
+        I32x4([self[3], self[1], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzwz(self) -> I32x4 {
+        I32x4([self[0], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzwz(self) -> I32x4 {
+        I32x4([self[1], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzwz(self) -> I32x4 {
+        I32x4([self[2], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzwz(self) -> I32x4 {
+        I32x4([self[3], self[2], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwwz(self) -> I32x4 {
+        I32x4([self[0], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywwz(self) -> I32x4 {
+        I32x4([self[1], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwwz(self) -> I32x4 {
+        I32x4([self[2], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and third
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwwz(self) -> I32x4 {
+        I32x4([self[3], self[3], self[3], self[2]])
+    }
+
+    /// Constructs a new vector from the first, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxxw(self) -> I32x4 {
+        I32x4([self[0], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxxw(self) -> I32x4 {
+        I32x4([self[1], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxxw(self) -> I32x4 {
+        I32x4([self[2], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxxw(self) -> I32x4 {
+        I32x4([self[3], self[0], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyxw(self) -> I32x4 {
+        I32x4([self[0], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyxw(self) -> I32x4 {
+        I32x4([self[1], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyxw(self) -> I32x4 {
+        I32x4([self[2], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyxw(self) -> I32x4 {
+        I32x4([self[3], self[1], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzxw(self) -> I32x4 {
+        I32x4([self[0], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzxw(self) -> I32x4 {
+        I32x4([self[1], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzxw(self) -> I32x4 {
+        I32x4([self[2], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzxw(self) -> I32x4 {
+        I32x4([self[3], self[2], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwxw(self) -> I32x4 {
+        I32x4([self[0], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywxw(self) -> I32x4 {
+        I32x4([self[1], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwxw(self) -> I32x4 {
+        I32x4([self[2], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, first, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwxw(self) -> I32x4 {
+        I32x4([self[3], self[3], self[0], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxyw(self) -> I32x4 {
+        I32x4([self[0], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxyw(self) -> I32x4 {
+        I32x4([self[1], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxyw(self) -> I32x4 {
+        I32x4([self[2], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxyw(self) -> I32x4 {
+        I32x4([self[3], self[0], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyyw(self) -> I32x4 {
+        I32x4([self[0], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyyw(self) -> I32x4 {
+        I32x4([self[1], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyyw(self) -> I32x4 {
+        I32x4([self[2], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyyw(self) -> I32x4 {
+        I32x4([self[3], self[1], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzyw(self) -> I32x4 {
+        I32x4([self[0], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzyw(self) -> I32x4 {
+        I32x4([self[1], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzyw(self) -> I32x4 {
+        I32x4([self[2], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzyw(self) -> I32x4 {
+        I32x4([self[3], self[2], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwyw(self) -> I32x4 {
+        I32x4([self[0], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywyw(self) -> I32x4 {
+        I32x4([self[1], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwyw(self) -> I32x4 {
+        I32x4([self[2], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, second, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwyw(self) -> I32x4 {
+        I32x4([self[3], self[3], self[1], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxzw(self) -> I32x4 {
+        I32x4([self[0], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxzw(self) -> I32x4 {
+        I32x4([self[1], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxzw(self) -> I32x4 {
+        I32x4([self[2], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxzw(self) -> I32x4 {
+        I32x4([self[3], self[0], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyzw(self) -> I32x4 {
+        I32x4([self[0], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyzw(self) -> I32x4 {
+        I32x4([self[1], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyzw(self) -> I32x4 {
+        I32x4([self[2], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyzw(self) -> I32x4 {
+        I32x4([self[3], self[1], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzzw(self) -> I32x4 {
+        I32x4([self[0], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzzw(self) -> I32x4 {
+        I32x4([self[1], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzzw(self) -> I32x4 {
+        I32x4([self[2], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzzw(self) -> I32x4 {
+        I32x4([self[3], self[2], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwzw(self) -> I32x4 {
+        I32x4([self[0], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywzw(self) -> I32x4 {
+        I32x4([self[1], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwzw(self) -> I32x4 {
+        I32x4([self[2], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, third, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwzw(self) -> I32x4 {
+        I32x4([self[3], self[3], self[2], self[3]])
+    }
+
+    /// Constructs a new vector from the first, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xxww(self) -> I32x4 {
+        I32x4([self[0], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yxww(self) -> I32x4 {
+        I32x4([self[1], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zxww(self) -> I32x4 {
+        I32x4([self[2], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, first, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wxww(self) -> I32x4 {
+        I32x4([self[3], self[0], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xyww(self) -> I32x4 {
+        I32x4([self[0], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yyww(self) -> I32x4 {
+        I32x4([self[1], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zyww(self) -> I32x4 {
+        I32x4([self[2], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, second, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wyww(self) -> I32x4 {
+        I32x4([self[3], self[1], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xzww(self) -> I32x4 {
+        I32x4([self[0], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn yzww(self) -> I32x4 {
+        I32x4([self[1], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zzww(self) -> I32x4 {
+        I32x4([self[2], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, third, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wzww(self) -> I32x4 {
+        I32x4([self[3], self[2], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the first, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn xwww(self) -> I32x4 {
+        I32x4([self[0], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the second, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn ywww(self) -> I32x4 {
+        I32x4([self[1], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the third, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn zwww(self) -> I32x4 {
+        I32x4([self[2], self[3], self[3], self[3]])
+    }
+
+    /// Constructs a new vector from the fourth, fourth, fourth, and fourth
+    /// lanes in this vector, respectively.
+    #[inline]
+    pub fn wwww(self) -> I32x4 {
+        I32x4([self[3], self[3], self[3], self[3]])
+    }
+}
+`}]},{type:`folder`,name:`x86`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/x86`,children:[{type:`file`,name:`mod.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/x86/mod.rs`,language:`Rust`,content:`// pathfinder/simd/src/x86.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use std::cmp::PartialEq;
+use std::fmt::{self, Debug, Formatter};
+use std::mem;
+use std::ops::{Add, BitAnd, BitOr, BitXor, Div, Index, IndexMut, Mul, Not, Shr, Sub};
+
+#[cfg(target_pointer_width = "32")]
+use std::arch::x86::{__m128, __m128i};
+#[cfg(target_pointer_width = "32")]
+use std::arch::x86;
+#[cfg(target_pointer_width = "64")]
+use std::arch::x86_64::{__m128, __m128i};
+#[cfg(target_pointer_width = "64")]
+use std::arch::x86_64 as x86;
+
+mod swizzle_f32x4;
+mod swizzle_i32x4;
+
+// Two 32-bit floats
+
+#[derive(Clone, Copy)]
+pub struct F32x2(pub u64);
+
+impl F32x2 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: f32, b: f32) -> F32x2 {
+        unsafe {
+            let a = mem::transmute::<*const f32, *const u32>(&a);
+            let b = mem::transmute::<*const f32, *const u32>(&b);
+            F32x2((*a as u64) | ((*b as u64) << 32))
+        }
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x2 {
+        F32x2::new(x, x)
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x2 {
+        self.to_f32x4().approx_recip().xy()
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x2) -> F32x2 {
+        self.to_f32x4().min(other.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x2) -> F32x2 {
+        self.to_f32x4().max(other.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x2, max: F32x2) -> F32x2 {
+        self.to_f32x4().clamp(min.to_f32x4(), max.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x2 {
+        self.to_f32x4().abs().xy()
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x2 {
+        self.to_f32x4().floor().xy()
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x2 {
+        self.to_f32x4().ceil().xy()
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x2 {
+        self.to_f32x4().sqrt().xy()
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x2) -> U32x2 {
+        self.to_f32x4().packed_eq(other.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x2) -> U32x2 {
+        self.to_f32x4().packed_gt(other.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x2) -> U32x2 {
+        self.to_f32x4().packed_lt(other.to_f32x4()).xy()
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x2) -> U32x2 {
+        self.to_f32x4().packed_le(other.to_f32x4()).xy()
+    }
+
+    // Conversions
+
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        unsafe {
+            let mut result = F32x4::default();
+            *mem::transmute::<&mut __m128, &mut u64>(&mut result.0) = self.0;
+            result
+        }
+    }
+
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        self.to_i32x4().xy()
+    }
+
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        self.to_f32x4().to_i32x4()
+    }
+
+    // Swizzle
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        self.to_f32x4().yx()
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x2) -> F32x4 {
+        self.to_f32x4().concat_xy_xy(other.to_f32x4())
+    }
+}
+
+impl Default for F32x2 {
+    #[inline]
+    fn default() -> F32x2 {
+        F32x2(0)
+    }
+}
+
+impl Index<usize> for F32x2 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        unsafe { &mem::transmute::<&u64, &[f32; 2]>(&self.0)[index] }
+    }
+}
+
+impl IndexMut<usize> for F32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        unsafe { &mut mem::transmute::<&mut u64, &mut [f32; 2]>(&mut self.0)[index] }
+    }
+}
+
+impl Debug for F32x2 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}>", self[0], self[1])
+    }
+}
+
+impl PartialEq for F32x2 {
+    #[inline]
+    fn eq(&self, other: &F32x2) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl Add<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn add(self, other: F32x2) -> F32x2 {
+        (self.to_f32x4() + other.to_f32x4()).xy()
+    }
+}
+
+impl Div<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn div(self, other: F32x2) -> F32x2 {
+        (self.to_f32x4() / other.to_f32x4()).xy()
+    }
+}
+
+impl Mul<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn mul(self, other: F32x2) -> F32x2 {
+        (self.to_f32x4() * other.to_f32x4()).xy()
+    }
+}
+
+impl Sub<F32x2> for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn sub(self, other: F32x2) -> F32x2 {
+        (self.to_f32x4() - other.to_f32x4()).xy()
+    }
+}
+
+// Four 32-bit floats
+
+#[derive(Clone, Copy)]
+pub struct F32x4(pub __m128);
+
+impl F32x4 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: f32, b: f32, c: f32, d: f32) -> F32x4 {
+        unsafe {
+            let vector = [a, b, c, d];
+            F32x4(x86::_mm_loadu_ps(vector.as_ptr()))
+        }
+    }
+
+    #[inline]
+    pub fn splat(x: f32) -> F32x4 {
+        unsafe { F32x4(x86::_mm_set1_ps(x)) }
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn approx_recip(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_rcp_ps(self.0)) }
+    }
+
+    #[inline]
+    pub fn min(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_min_ps(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn max(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_max_ps(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn clamp(self, min: F32x4, max: F32x4) -> F32x4 {
+        self.max(min).min(max)
+    }
+
+    #[inline]
+    pub fn abs(self) -> F32x4 {
+        unsafe {
+            let tmp = x86::_mm_srli_epi32(I32x4::splat(-1).0, 1);
+            F32x4(x86::_mm_and_ps(x86::_mm_castsi128_ps(tmp), self.0))
+        }
+    }
+
+    #[inline]
+    pub fn floor(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_floor_ps(self.0)) }
+    }
+
+    #[inline]
+    pub fn ceil(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_ceil_ps(self.0)) }
+    }
+
+    #[inline]
+    pub fn sqrt(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_sqrt_ps(self.0)) }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: F32x4) -> U32x4 {
+        unsafe {
+            U32x4(x86::_mm_castps_si128(x86::_mm_cmpeq_ps(
+                self.0, other.0,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: F32x4) -> U32x4 {
+        unsafe {
+            U32x4(x86::_mm_castps_si128(x86::_mm_cmpgt_ps(
+                self.0, other.0,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: F32x4) -> U32x4 {
+        other.packed_gt(self)
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: F32x4) -> U32x4 {
+        !self.packed_gt(other)
+    }
+
+    // Conversions
+
+    /// Converts these packed floats to integers via rounding.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        unsafe { I32x4(x86::_mm_cvtps_epi32(self.0)) }
+    }
+
+    // Extraction
+
+    #[inline]
+    pub fn xy(self) -> F32x2 {
+        unsafe {
+            let swizzled = self.0;
+            F32x2(*mem::transmute::<&__m128, &u64>(&swizzled))
+        }
+    }
+
+    #[inline]
+    pub fn xw(self) -> F32x2 {
+        self.xwyz().xy()
+    }
+
+    #[inline]
+    pub fn yx(self) -> F32x2 {
+        self.yxwz().xy()
+    }
+
+    #[inline]
+    pub fn zy(self) -> F32x2 {
+        self.zyxw().xy()
+    }
+
+    #[inline]
+    pub fn zw(self) -> F32x2 {
+        self.zwxy().xy()
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: F32x4) -> F32x4 {
+        unsafe {
+            let this = x86::_mm_castps_pd(self.0);
+            let other = x86::_mm_castps_pd(other.0);
+            let result = x86::_mm_unpacklo_pd(this, other);
+            F32x4(x86::_mm_castpd_ps(result))
+        }
+    }
+
+    #[inline]
+    pub fn concat_xy_zw(self, other: F32x4) -> F32x4 {
+        unsafe {
+            let this = x86::_mm_castps_pd(self.0);
+            let other = x86::_mm_castps_pd(other.0);
+            let result = x86::_mm_shuffle_pd(this, other, 0b10);
+            F32x4(x86::_mm_castpd_ps(result))
+        }
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: F32x4) -> F32x4 {
+        unsafe {
+            let this = x86::_mm_castps_pd(self.0);
+            let other = x86::_mm_castps_pd(other.0);
+            let result = x86::_mm_unpackhi_pd(this, other);
+            F32x4(x86::_mm_castpd_ps(result))
+        }
+    }
+
+    #[inline]
+    pub fn concat_wz_yx(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, other.0, 0b0001_1011)) }
+    }
+}
+
+impl Default for F32x4 {
+    #[inline]
+    fn default() -> F32x4 {
+        unsafe { F32x4(x86::_mm_setzero_ps()) }
+    }
+}
+
+impl Index<usize> for F32x4 {
+    type Output = f32;
+    #[inline]
+    fn index(&self, index: usize) -> &f32 {
+        unsafe { &mem::transmute::<&__m128, &[f32; 4]>(&self.0)[index] }
+    }
+}
+
+impl IndexMut<usize> for F32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut f32 {
+        unsafe { &mut mem::transmute::<&mut __m128, &mut [f32; 4]>(&mut self.0)[index] }
+    }
+}
+
+impl Debug for F32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl PartialEq for F32x4 {
+    #[inline]
+    fn eq(&self, other: &F32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl Add<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn add(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_add_ps(self.0, other.0)) }
+    }
+}
+
+impl Div<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn div(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_div_ps(self.0, other.0)) }
+    }
+}
+
+impl Mul<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn mul(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_mul_ps(self.0, other.0)) }
+    }
+}
+
+impl Sub<F32x4> for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn sub(self, other: F32x4) -> F32x4 {
+        unsafe { F32x4(x86::_mm_sub_ps(self.0, other.0)) }
+    }
+}
+
+// Two 32-bit signed integers
+
+#[derive(Clone, Copy)]
+pub struct I32x2(pub u64);
+
+impl I32x2 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: i32, b: i32) -> I32x2 {
+        unsafe {
+            let a = mem::transmute::<*const i32, *const u32>(&a);
+            let b = mem::transmute::<*const i32, *const u32>(&b);
+            I32x2((*a as u64) | ((*b as u64) << 32))
+        }
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x2 {
+        I32x2::new(x, x)
+    }
+
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> i32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> i32 {
+        self[1]
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x2) -> I32x4 {
+        self.to_i32x4().concat_xy_xy(other.to_i32x4())
+    }
+
+    // Conversions
+
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        unsafe {
+            let mut result = I32x4::default();
+            *mem::transmute::<&mut __m128i, &mut u64>(&mut result.0) = self.0;
+            result
+        }
+    }
+
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        self.to_i32x4().to_f32x4()
+    }
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x2(self) -> F32x2 {
+        self.to_f32x4().xy()
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn max(self, other: I32x2) -> I32x2 {
+        self.to_i32x4().max(other.to_i32x4()).xy()
+    }
+
+    #[inline]
+    pub fn min(self, other: I32x2) -> I32x2 {
+        self.to_i32x4().min(other.to_i32x4()).xy()
+    }
+
+    // Comparisons
+
+    // TODO(pcwalton): Use the \`U32x2\` type!
+    #[inline]
+    pub fn packed_eq(self, other: I32x2) -> U32x4 {
+        self.to_i32x4().packed_eq(other.to_i32x4())
+    }
+
+    #[inline]
+    pub fn packed_gt(self, other: I32x2) -> U32x4 {
+        self.to_i32x4().packed_gt(other.to_i32x4())
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: I32x2) -> U32x4 {
+        self.to_i32x4().packed_le(other.to_i32x4())
+    }
+}
+
+impl Default for I32x2 {
+    #[inline]
+    fn default() -> I32x2 {
+        I32x2(0)
+    }
+}
+
+impl Index<usize> for I32x2 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        unsafe { &mem::transmute::<&u64, &[i32; 2]>(&self.0)[index] }
+    }
+}
+
+impl IndexMut<usize> for I32x2 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        unsafe { &mut mem::transmute::<&mut u64, &mut [i32; 2]>(&mut self.0)[index] }
+    }
+}
+
+impl Add<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn add(self, other: I32x2) -> I32x2 {
+        (self.to_i32x4() + other.to_i32x4()).xy()
+    }
+}
+
+impl Sub<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn sub(self, other: I32x2) -> I32x2 {
+        (self.to_i32x4() - other.to_i32x4()).xy()
+    }
+}
+
+impl Mul<I32x2> for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn mul(self, other: I32x2) -> I32x2 {
+        (self.to_i32x4() * other.to_i32x4()).xy()
+    }
+}
+
+impl Debug for I32x2 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}>", self[0], self[1])
+    }
+}
+
+impl PartialEq for I32x2 {
+    #[inline]
+    fn eq(&self, other: &I32x2) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+// Four 32-bit signed integers
+
+#[derive(Clone, Copy)]
+pub struct I32x4(pub __m128i);
+
+impl I32x4 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: i32, b: i32, c: i32, d: i32) -> I32x4 {
+        unsafe {
+            let vector = [a, b, c, d];
+            I32x4(x86::_mm_loadu_si128(vector.as_ptr() as *const __m128i))
+        }
+    }
+
+    #[inline]
+    pub fn splat(x: i32) -> I32x4 {
+        unsafe { I32x4(x86::_mm_set1_epi32(x)) }
+    }
+
+    // Extraction
+
+    #[inline]
+    pub fn xy(self) -> I32x2 {
+        unsafe {
+            let swizzled = self.0;
+            I32x2(*mem::transmute::<&__m128i, &u64>(&swizzled))
+        }
+    }
+
+    #[inline]
+    pub fn xw(self) -> I32x2 {
+        self.xwyz().xy()
+    }
+
+    #[inline]
+    pub fn yx(self) -> I32x2 {
+        self.yxwz().xy()
+    }
+
+    #[inline]
+    pub fn zy(self) -> I32x2 {
+        self.zyxw().xy()
+    }
+
+    #[inline]
+    pub fn zw(self) -> I32x2 {
+        self.zwxy().xy()
+    }
+
+    // Concatenations
+
+    #[inline]
+    pub fn concat_xy_xy(self, other: I32x4) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_pd(self.0);
+            let other = x86::_mm_castsi128_pd(other.0);
+            let result = x86::_mm_unpacklo_pd(this, other);
+            I32x4(x86::_mm_castpd_si128(result))
+        }
+    }
+
+    #[inline]
+    pub fn concat_zw_zw(self, other: I32x4) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_pd(self.0);
+            let other = x86::_mm_castsi128_pd(other.0);
+            let result = x86::_mm_unpackhi_pd(this, other);
+            I32x4(x86::_mm_castpd_si128(result))
+        }
+    }
+
+    // Conversions
+
+    /// Converts these packed integers to floats.
+    #[inline]
+    pub fn to_f32x4(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_cvtepi32_ps(self.0)) }
+    }
+
+    /// Converts these packed signed integers to unsigned integers.
+    ///
+    /// Overflowing values will wrap around.
+    #[inline]
+    pub fn to_u32x4(self) -> U32x4 {
+        U32x4(self.0)
+    }
+
+    // Basic operations
+
+    #[inline]
+    pub fn max(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_max_epi32(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn min(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_min_epi32(self.0, other.0)) }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: I32x4) -> U32x4 {
+        unsafe { U32x4(x86::_mm_cmpeq_epi32(self.0, other.0)) }
+    }
+
+    // Comparisons
+
+    #[inline]
+    pub fn packed_gt(self, other: I32x4) -> U32x4 {
+        unsafe { U32x4(x86::_mm_cmpgt_epi32(self.0, other.0)) }
+    }
+
+    #[inline]
+    pub fn packed_lt(self, other: I32x4) -> U32x4 {
+        other.packed_gt(self)
+    }
+
+    #[inline]
+    pub fn packed_le(self, other: I32x4) -> U32x4 {
+        !self.packed_gt(other)
+    }
+}
+
+impl Default for I32x4 {
+    #[inline]
+    fn default() -> I32x4 {
+        unsafe { I32x4(x86::_mm_setzero_si128()) }
+    }
+}
+
+impl Index<usize> for I32x4 {
+    type Output = i32;
+    #[inline]
+    fn index(&self, index: usize) -> &i32 {
+        unsafe { &mem::transmute::<&__m128i, &[i32; 4]>(&self.0)[index] }
+    }
+}
+
+impl IndexMut<usize> for I32x4 {
+    #[inline]
+    fn index_mut(&mut self, index: usize) -> &mut i32 {
+        unsafe { &mut mem::transmute::<&mut __m128i, &mut [i32; 4]>(&mut self.0)[index] }
+    }
+}
+
+impl Add<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn add(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_add_epi32(self.0, other.0)) }
+    }
+}
+
+impl Sub<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn sub(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_sub_epi32(self.0, other.0)) }
+    }
+}
+
+impl Mul<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn mul(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_mullo_epi32(self.0, other.0)) }
+    }
+}
+
+impl BitAnd<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitand(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_and_si128(self.0, other.0)) }
+    }
+}
+
+impl BitOr<I32x4> for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn bitor(self, other: I32x4) -> I32x4 {
+        unsafe { I32x4(x86::_mm_or_si128(self.0, other.0)) }
+    }
+}
+
+impl Debug for I32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl PartialEq for I32x4 {
+    #[inline]
+    fn eq(&self, other: &I32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+// Two 32-bit unsigned integers
+
+#[derive(Clone, Copy)]
+pub struct U32x2(pub u64);
+
+impl U32x2 {
+    #[inline]
+    pub fn new(x: u32, y: u32) -> U32x2 {
+        U32x2(x as u64 | ((y as u64) << 32))
+    }
+
+    #[inline]
+    pub fn splat(x: u32) -> U32x2 {
+        U32x2::new(x, x)
+    }
+
+    /// Returns true if both booleans in this vector are true.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(self) -> bool {
+        self.0 == !0
+    }
+
+    /// Returns true if both booleans in this vector are false.
+    ///
+    /// The result is *undefined* if both values in this vector are not booleans. A boolean is a
+    /// value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(self) -> bool {
+        self.0 == 0
+    }
+
+    #[inline]
+    pub fn to_i32x2(self) -> I32x2 {
+        I32x2(self.0)
+    }
+}
+
+impl Not for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn not(self) -> U32x2 {
+        U32x2(!self.0)
+    }
+}
+
+impl BitAnd<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitand(self, other: U32x2) -> U32x2 {
+        U32x2(self.0 & other.0)
+    }
+}
+
+impl BitOr<U32x2> for U32x2 {
+    type Output = U32x2;
+    #[inline]
+    fn bitor(self, other: U32x2) -> U32x2 {
+        U32x2(self.0 | other.0)
+    }
+}
+
+// Four 32-bit unsigned integers
+
+#[derive(Clone, Copy)]
+pub struct U32x4(pub __m128i);
+
+impl U32x4 {
+    // Constructors
+
+    #[inline]
+    pub fn new(a: u32, b: u32, c: u32, d: u32) -> U32x4 {
+        unsafe {
+            let vector = [a, b, c, d];
+            U32x4(x86::_mm_loadu_si128(vector.as_ptr() as *const __m128i))
+        }
+    }
+
+    #[inline]
+    pub fn splat(x: u32) -> U32x4 {
+        unsafe { U32x4(x86::_mm_set1_epi32(x as i32)) }
+    }
+
+    // Conversions
+
+    /// Converts these packed unsigned integers to signed integers.
+    ///
+    /// Overflowing values will wrap around.
+    #[inline]
+    pub fn to_i32x4(self) -> I32x4 {
+        I32x4(self.0)
+    }
+
+    // Basic operations
+
+    /// Returns true if all four booleans in this vector are true.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_true(self) -> bool {
+        unsafe { x86::_mm_movemask_ps(x86::_mm_castsi128_ps(self.0)) == 0x0f }
+    }
+
+    /// Returns true if all four booleans in this vector are false.
+    ///
+    /// The result is *undefined* if all four values in this vector are not booleans. A boolean is
+    /// a value with all bits set or all bits clear (i.e. !0 or 0).
+    #[inline]
+    pub fn all_false(self) -> bool {
+        unsafe { x86::_mm_movemask_ps(x86::_mm_castsi128_ps(self.0)) == 0x00 }
+    }
+
+    // Extraction
+
+    #[inline]
+    pub fn xy(self) -> U32x2 {
+        unsafe {
+            let swizzled = self.0;
+            U32x2(*mem::transmute::<&__m128i, &u64>(&swizzled))
+        }
+    }
+
+    // Packed comparisons
+
+    #[inline]
+    pub fn packed_eq(self, other: U32x4) -> U32x4 {
+        unsafe { U32x4(x86::_mm_cmpeq_epi32(self.0, other.0)) }
+    }
+}
+
+impl Debug for U32x4 {
+    #[inline]
+    fn fmt(&self, f: &mut Formatter) -> Result<(), fmt::Error> {
+        write!(f, "<{}, {}, {}, {}>", self[0], self[1], self[2], self[3])
+    }
+}
+
+impl Index<usize> for U32x4 {
+    type Output = u32;
+    #[inline]
+    fn index(&self, index: usize) -> &u32 {
+        unsafe { &mem::transmute::<&__m128i, &[u32; 4]>(&self.0)[index] }
+    }
+}
+
+impl PartialEq for U32x4 {
+    #[inline]
+    fn eq(&self, other: &U32x4) -> bool {
+        self.packed_eq(*other).all_true()
+    }
+}
+
+impl Not for U32x4 {
+    type Output = U32x4;
+    #[inline]
+    fn not(self) -> U32x4 {
+        self ^ U32x4::splat(!0)
+    }
+}
+
+impl BitXor<U32x4> for U32x4 {
+    type Output = U32x4;
+    #[inline]
+    fn bitxor(self, other: U32x4) -> U32x4 {
+        unsafe { U32x4(x86::_mm_xor_si128(self.0, other.0)) }
+    }
+}
+
+impl Shr<u32> for U32x4 {
+    type Output = U32x4;
+    #[inline]
+    fn shr(self, amount: u32) -> U32x4 {
+        unsafe { U32x4(x86::_mm_srl_epi32(self.0, U32x4::new(amount, 0, 0, 0).0)) }
+    }
+}
+`},{type:`file`,name:`swizzle_f32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/x86/swizzle_f32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/x86/swizzle_f32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::x86::F32x4;
+
+#[cfg(target_pointer_width = "32")]
+use std::arch::x86;
+#[cfg(target_pointer_width = "64")]
+use std::arch::x86_64 as x86;
+
+impl F32x4 {
+    #[inline]
+    pub fn xxxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 0)) }
+    }
+
+    #[inline]
+    pub fn yxxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 1)) }
+    }
+
+    #[inline]
+    pub fn zxxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 2)) }
+    }
+
+    #[inline]
+    pub fn wxxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 3)) }
+    }
+
+    #[inline]
+    pub fn xyxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 4)) }
+    }
+
+    #[inline]
+    pub fn yyxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 5)) }
+    }
+
+    #[inline]
+    pub fn zyxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 6)) }
+    }
+
+    #[inline]
+    pub fn wyxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 7)) }
+    }
+
+    #[inline]
+    pub fn xzxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 8)) }
+    }
+
+    #[inline]
+    pub fn yzxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 9)) }
+    }
+
+    #[inline]
+    pub fn zzxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 10)) }
+    }
+
+    #[inline]
+    pub fn wzxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 11)) }
+    }
+
+    #[inline]
+    pub fn xwxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 12)) }
+    }
+
+    #[inline]
+    pub fn ywxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 13)) }
+    }
+
+    #[inline]
+    pub fn zwxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 14)) }
+    }
+
+    #[inline]
+    pub fn wwxx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 15)) }
+    }
+
+    #[inline]
+    pub fn xxyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 16)) }
+    }
+
+    #[inline]
+    pub fn yxyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 17)) }
+    }
+
+    #[inline]
+    pub fn zxyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 18)) }
+    }
+
+    #[inline]
+    pub fn wxyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 19)) }
+    }
+
+    #[inline]
+    pub fn xyyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 20)) }
+    }
+
+    #[inline]
+    pub fn yyyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 21)) }
+    }
+
+    #[inline]
+    pub fn zyyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 22)) }
+    }
+
+    #[inline]
+    pub fn wyyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 23)) }
+    }
+
+    #[inline]
+    pub fn xzyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 24)) }
+    }
+
+    #[inline]
+    pub fn yzyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 25)) }
+    }
+
+    #[inline]
+    pub fn zzyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 26)) }
+    }
+
+    #[inline]
+    pub fn wzyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 27)) }
+    }
+
+    #[inline]
+    pub fn xwyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 28)) }
+    }
+
+    #[inline]
+    pub fn ywyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 29)) }
+    }
+
+    #[inline]
+    pub fn zwyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 30)) }
+    }
+
+    #[inline]
+    pub fn wwyx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 31)) }
+    }
+
+    #[inline]
+    pub fn xxzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 32)) }
+    }
+
+    #[inline]
+    pub fn yxzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 33)) }
+    }
+
+    #[inline]
+    pub fn zxzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 34)) }
+    }
+
+    #[inline]
+    pub fn wxzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 35)) }
+    }
+
+    #[inline]
+    pub fn xyzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 36)) }
+    }
+
+    #[inline]
+    pub fn yyzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 37)) }
+    }
+
+    #[inline]
+    pub fn zyzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 38)) }
+    }
+
+    #[inline]
+    pub fn wyzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 39)) }
+    }
+
+    #[inline]
+    pub fn xzzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 40)) }
+    }
+
+    #[inline]
+    pub fn yzzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 41)) }
+    }
+
+    #[inline]
+    pub fn zzzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 42)) }
+    }
+
+    #[inline]
+    pub fn wzzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 43)) }
+    }
+
+    #[inline]
+    pub fn xwzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 44)) }
+    }
+
+    #[inline]
+    pub fn ywzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 45)) }
+    }
+
+    #[inline]
+    pub fn zwzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 46)) }
+    }
+
+    #[inline]
+    pub fn wwzx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 47)) }
+    }
+
+    #[inline]
+    pub fn xxwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 48)) }
+    }
+
+    #[inline]
+    pub fn yxwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 49)) }
+    }
+
+    #[inline]
+    pub fn zxwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 50)) }
+    }
+
+    #[inline]
+    pub fn wxwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 51)) }
+    }
+
+    #[inline]
+    pub fn xywx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 52)) }
+    }
+
+    #[inline]
+    pub fn yywx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 53)) }
+    }
+
+    #[inline]
+    pub fn zywx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 54)) }
+    }
+
+    #[inline]
+    pub fn wywx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 55)) }
+    }
+
+    #[inline]
+    pub fn xzwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 56)) }
+    }
+
+    #[inline]
+    pub fn yzwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 57)) }
+    }
+
+    #[inline]
+    pub fn zzwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 58)) }
+    }
+
+    #[inline]
+    pub fn wzwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 59)) }
+    }
+
+    #[inline]
+    pub fn xwwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 60)) }
+    }
+
+    #[inline]
+    pub fn ywwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 61)) }
+    }
+
+    #[inline]
+    pub fn zwwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 62)) }
+    }
+
+    #[inline]
+    pub fn wwwx(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 63)) }
+    }
+
+    #[inline]
+    pub fn xxxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 64)) }
+    }
+
+    #[inline]
+    pub fn yxxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 65)) }
+    }
+
+    #[inline]
+    pub fn zxxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 66)) }
+    }
+
+    #[inline]
+    pub fn wxxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 67)) }
+    }
+
+    #[inline]
+    pub fn xyxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 68)) }
+    }
+
+    #[inline]
+    pub fn yyxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 69)) }
+    }
+
+    #[inline]
+    pub fn zyxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 70)) }
+    }
+
+    #[inline]
+    pub fn wyxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 71)) }
+    }
+
+    #[inline]
+    pub fn xzxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 72)) }
+    }
+
+    #[inline]
+    pub fn yzxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 73)) }
+    }
+
+    #[inline]
+    pub fn zzxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 74)) }
+    }
+
+    #[inline]
+    pub fn wzxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 75)) }
+    }
+
+    #[inline]
+    pub fn xwxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 76)) }
+    }
+
+    #[inline]
+    pub fn ywxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 77)) }
+    }
+
+    #[inline]
+    pub fn zwxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 78)) }
+    }
+
+    #[inline]
+    pub fn wwxy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 79)) }
+    }
+
+    #[inline]
+    pub fn xxyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 80)) }
+    }
+
+    #[inline]
+    pub fn yxyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 81)) }
+    }
+
+    #[inline]
+    pub fn zxyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 82)) }
+    }
+
+    #[inline]
+    pub fn wxyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 83)) }
+    }
+
+    #[inline]
+    pub fn xyyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 84)) }
+    }
+
+    #[inline]
+    pub fn yyyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 85)) }
+    }
+
+    #[inline]
+    pub fn zyyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 86)) }
+    }
+
+    #[inline]
+    pub fn wyyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 87)) }
+    }
+
+    #[inline]
+    pub fn xzyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 88)) }
+    }
+
+    #[inline]
+    pub fn yzyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 89)) }
+    }
+
+    #[inline]
+    pub fn zzyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 90)) }
+    }
+
+    #[inline]
+    pub fn wzyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 91)) }
+    }
+
+    #[inline]
+    pub fn xwyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 92)) }
+    }
+
+    #[inline]
+    pub fn ywyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 93)) }
+    }
+
+    #[inline]
+    pub fn zwyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 94)) }
+    }
+
+    #[inline]
+    pub fn wwyy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 95)) }
+    }
+
+    #[inline]
+    pub fn xxzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 96)) }
+    }
+
+    #[inline]
+    pub fn yxzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 97)) }
+    }
+
+    #[inline]
+    pub fn zxzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 98)) }
+    }
+
+    #[inline]
+    pub fn wxzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 99)) }
+    }
+
+    #[inline]
+    pub fn xyzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 100)) }
+    }
+
+    #[inline]
+    pub fn yyzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 101)) }
+    }
+
+    #[inline]
+    pub fn zyzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 102)) }
+    }
+
+    #[inline]
+    pub fn wyzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 103)) }
+    }
+
+    #[inline]
+    pub fn xzzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 104)) }
+    }
+
+    #[inline]
+    pub fn yzzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 105)) }
+    }
+
+    #[inline]
+    pub fn zzzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 106)) }
+    }
+
+    #[inline]
+    pub fn wzzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 107)) }
+    }
+
+    #[inline]
+    pub fn xwzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 108)) }
+    }
+
+    #[inline]
+    pub fn ywzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 109)) }
+    }
+
+    #[inline]
+    pub fn zwzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 110)) }
+    }
+
+    #[inline]
+    pub fn wwzy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 111)) }
+    }
+
+    #[inline]
+    pub fn xxwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 112)) }
+    }
+
+    #[inline]
+    pub fn yxwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 113)) }
+    }
+
+    #[inline]
+    pub fn zxwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 114)) }
+    }
+
+    #[inline]
+    pub fn wxwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 115)) }
+    }
+
+    #[inline]
+    pub fn xywy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 116)) }
+    }
+
+    #[inline]
+    pub fn yywy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 117)) }
+    }
+
+    #[inline]
+    pub fn zywy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 118)) }
+    }
+
+    #[inline]
+    pub fn wywy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 119)) }
+    }
+
+    #[inline]
+    pub fn xzwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 120)) }
+    }
+
+    #[inline]
+    pub fn yzwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 121)) }
+    }
+
+    #[inline]
+    pub fn zzwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 122)) }
+    }
+
+    #[inline]
+    pub fn wzwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 123)) }
+    }
+
+    #[inline]
+    pub fn xwwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 124)) }
+    }
+
+    #[inline]
+    pub fn ywwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 125)) }
+    }
+
+    #[inline]
+    pub fn zwwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 126)) }
+    }
+
+    #[inline]
+    pub fn wwwy(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 127)) }
+    }
+
+    #[inline]
+    pub fn xxxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 128)) }
+    }
+
+    #[inline]
+    pub fn yxxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 129)) }
+    }
+
+    #[inline]
+    pub fn zxxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 130)) }
+    }
+
+    #[inline]
+    pub fn wxxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 131)) }
+    }
+
+    #[inline]
+    pub fn xyxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 132)) }
+    }
+
+    #[inline]
+    pub fn yyxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 133)) }
+    }
+
+    #[inline]
+    pub fn zyxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 134)) }
+    }
+
+    #[inline]
+    pub fn wyxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 135)) }
+    }
+
+    #[inline]
+    pub fn xzxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 136)) }
+    }
+
+    #[inline]
+    pub fn yzxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 137)) }
+    }
+
+    #[inline]
+    pub fn zzxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 138)) }
+    }
+
+    #[inline]
+    pub fn wzxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 139)) }
+    }
+
+    #[inline]
+    pub fn xwxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 140)) }
+    }
+
+    #[inline]
+    pub fn ywxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 141)) }
+    }
+
+    #[inline]
+    pub fn zwxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 142)) }
+    }
+
+    #[inline]
+    pub fn wwxz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 143)) }
+    }
+
+    #[inline]
+    pub fn xxyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 144)) }
+    }
+
+    #[inline]
+    pub fn yxyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 145)) }
+    }
+
+    #[inline]
+    pub fn zxyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 146)) }
+    }
+
+    #[inline]
+    pub fn wxyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 147)) }
+    }
+
+    #[inline]
+    pub fn xyyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 148)) }
+    }
+
+    #[inline]
+    pub fn yyyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 149)) }
+    }
+
+    #[inline]
+    pub fn zyyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 150)) }
+    }
+
+    #[inline]
+    pub fn wyyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 151)) }
+    }
+
+    #[inline]
+    pub fn xzyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 152)) }
+    }
+
+    #[inline]
+    pub fn yzyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 153)) }
+    }
+
+    #[inline]
+    pub fn zzyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 154)) }
+    }
+
+    #[inline]
+    pub fn wzyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 155)) }
+    }
+
+    #[inline]
+    pub fn xwyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 156)) }
+    }
+
+    #[inline]
+    pub fn ywyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 157)) }
+    }
+
+    #[inline]
+    pub fn zwyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 158)) }
+    }
+
+    #[inline]
+    pub fn wwyz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 159)) }
+    }
+
+    #[inline]
+    pub fn xxzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 160)) }
+    }
+
+    #[inline]
+    pub fn yxzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 161)) }
+    }
+
+    #[inline]
+    pub fn zxzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 162)) }
+    }
+
+    #[inline]
+    pub fn wxzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 163)) }
+    }
+
+    #[inline]
+    pub fn xyzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 164)) }
+    }
+
+    #[inline]
+    pub fn yyzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 165)) }
+    }
+
+    #[inline]
+    pub fn zyzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 166)) }
+    }
+
+    #[inline]
+    pub fn wyzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 167)) }
+    }
+
+    #[inline]
+    pub fn xzzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 168)) }
+    }
+
+    #[inline]
+    pub fn yzzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 169)) }
+    }
+
+    #[inline]
+    pub fn zzzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 170)) }
+    }
+
+    #[inline]
+    pub fn wzzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 171)) }
+    }
+
+    #[inline]
+    pub fn xwzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 172)) }
+    }
+
+    #[inline]
+    pub fn ywzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 173)) }
+    }
+
+    #[inline]
+    pub fn zwzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 174)) }
+    }
+
+    #[inline]
+    pub fn wwzz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 175)) }
+    }
+
+    #[inline]
+    pub fn xxwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 176)) }
+    }
+
+    #[inline]
+    pub fn yxwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 177)) }
+    }
+
+    #[inline]
+    pub fn zxwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 178)) }
+    }
+
+    #[inline]
+    pub fn wxwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 179)) }
+    }
+
+    #[inline]
+    pub fn xywz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 180)) }
+    }
+
+    #[inline]
+    pub fn yywz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 181)) }
+    }
+
+    #[inline]
+    pub fn zywz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 182)) }
+    }
+
+    #[inline]
+    pub fn wywz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 183)) }
+    }
+
+    #[inline]
+    pub fn xzwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 184)) }
+    }
+
+    #[inline]
+    pub fn yzwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 185)) }
+    }
+
+    #[inline]
+    pub fn zzwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 186)) }
+    }
+
+    #[inline]
+    pub fn wzwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 187)) }
+    }
+
+    #[inline]
+    pub fn xwwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 188)) }
+    }
+
+    #[inline]
+    pub fn ywwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 189)) }
+    }
+
+    #[inline]
+    pub fn zwwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 190)) }
+    }
+
+    #[inline]
+    pub fn wwwz(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 191)) }
+    }
+
+    #[inline]
+    pub fn xxxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 192)) }
+    }
+
+    #[inline]
+    pub fn yxxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 193)) }
+    }
+
+    #[inline]
+    pub fn zxxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 194)) }
+    }
+
+    #[inline]
+    pub fn wxxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 195)) }
+    }
+
+    #[inline]
+    pub fn xyxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 196)) }
+    }
+
+    #[inline]
+    pub fn yyxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 197)) }
+    }
+
+    #[inline]
+    pub fn zyxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 198)) }
+    }
+
+    #[inline]
+    pub fn wyxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 199)) }
+    }
+
+    #[inline]
+    pub fn xzxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 200)) }
+    }
+
+    #[inline]
+    pub fn yzxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 201)) }
+    }
+
+    #[inline]
+    pub fn zzxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 202)) }
+    }
+
+    #[inline]
+    pub fn wzxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 203)) }
+    }
+
+    #[inline]
+    pub fn xwxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 204)) }
+    }
+
+    #[inline]
+    pub fn ywxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 205)) }
+    }
+
+    #[inline]
+    pub fn zwxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 206)) }
+    }
+
+    #[inline]
+    pub fn wwxw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 207)) }
+    }
+
+    #[inline]
+    pub fn xxyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 208)) }
+    }
+
+    #[inline]
+    pub fn yxyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 209)) }
+    }
+
+    #[inline]
+    pub fn zxyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 210)) }
+    }
+
+    #[inline]
+    pub fn wxyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 211)) }
+    }
+
+    #[inline]
+    pub fn xyyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 212)) }
+    }
+
+    #[inline]
+    pub fn yyyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 213)) }
+    }
+
+    #[inline]
+    pub fn zyyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 214)) }
+    }
+
+    #[inline]
+    pub fn wyyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 215)) }
+    }
+
+    #[inline]
+    pub fn xzyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 216)) }
+    }
+
+    #[inline]
+    pub fn yzyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 217)) }
+    }
+
+    #[inline]
+    pub fn zzyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 218)) }
+    }
+
+    #[inline]
+    pub fn wzyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 219)) }
+    }
+
+    #[inline]
+    pub fn xwyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 220)) }
+    }
+
+    #[inline]
+    pub fn ywyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 221)) }
+    }
+
+    #[inline]
+    pub fn zwyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 222)) }
+    }
+
+    #[inline]
+    pub fn wwyw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 223)) }
+    }
+
+    #[inline]
+    pub fn xxzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 224)) }
+    }
+
+    #[inline]
+    pub fn yxzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 225)) }
+    }
+
+    #[inline]
+    pub fn zxzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 226)) }
+    }
+
+    #[inline]
+    pub fn wxzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 227)) }
+    }
+
+    #[inline]
+    pub fn xyzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 228)) }
+    }
+
+    #[inline]
+    pub fn yyzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 229)) }
+    }
+
+    #[inline]
+    pub fn zyzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 230)) }
+    }
+
+    #[inline]
+    pub fn wyzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 231)) }
+    }
+
+    #[inline]
+    pub fn xzzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 232)) }
+    }
+
+    #[inline]
+    pub fn yzzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 233)) }
+    }
+
+    #[inline]
+    pub fn zzzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 234)) }
+    }
+
+    #[inline]
+    pub fn wzzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 235)) }
+    }
+
+    #[inline]
+    pub fn xwzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 236)) }
+    }
+
+    #[inline]
+    pub fn ywzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 237)) }
+    }
+
+    #[inline]
+    pub fn zwzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 238)) }
+    }
+
+    #[inline]
+    pub fn wwzw(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 239)) }
+    }
+
+    #[inline]
+    pub fn xxww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 240)) }
+    }
+
+    #[inline]
+    pub fn yxww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 241)) }
+    }
+
+    #[inline]
+    pub fn zxww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 242)) }
+    }
+
+    #[inline]
+    pub fn wxww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 243)) }
+    }
+
+    #[inline]
+    pub fn xyww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 244)) }
+    }
+
+    #[inline]
+    pub fn yyww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 245)) }
+    }
+
+    #[inline]
+    pub fn zyww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 246)) }
+    }
+
+    #[inline]
+    pub fn wyww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 247)) }
+    }
+
+    #[inline]
+    pub fn xzww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 248)) }
+    }
+
+    #[inline]
+    pub fn yzww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 249)) }
+    }
+
+    #[inline]
+    pub fn zzww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 250)) }
+    }
+
+    #[inline]
+    pub fn wzww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 251)) }
+    }
+
+    #[inline]
+    pub fn xwww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 252)) }
+    }
+
+    #[inline]
+    pub fn ywww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 253)) }
+    }
+
+    #[inline]
+    pub fn zwww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 254)) }
+    }
+
+    #[inline]
+    pub fn wwww(self) -> F32x4 {
+        unsafe { F32x4(x86::_mm_shuffle_ps(self.0, self.0, 255)) }
+    }
+}
+`},{type:`file`,name:`swizzle_i32x4.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/x86/swizzle_i32x4.rs`,language:`Rust`,content:`// pathfinder/simd/src/x86/swizzle_i32x4.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::x86::I32x4;
+
+#[cfg(target_pointer_width = "32")]
+use std::arch::x86;
+#[cfg(target_pointer_width = "64")]
+use std::arch::x86_64 as x86;
+
+impl I32x4 {
+    #[inline]
+    pub fn xxxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 0,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 1,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 2,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 3,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 4,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 5,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 6,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 7,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 8,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 9,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 10,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 11,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 12,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 13,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 14,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwxx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 15,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 16,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 17,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 18,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 19,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 20,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 21,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 22,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 23,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 24,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 25,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 26,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 27,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 28,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 29,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 30,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwyx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 31,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 32,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 33,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 34,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 35,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 36,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 37,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 38,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 39,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 40,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 41,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 42,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 43,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 44,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 45,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 46,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwzx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 47,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 48,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 49,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 50,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 51,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xywx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 52,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yywx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 53,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zywx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 54,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wywx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 55,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 56,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 57,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 58,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 59,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 60,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 61,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 62,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwwx(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 63,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 64,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 65,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 66,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 67,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 68,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 69,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 70,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 71,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 72,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 73,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 74,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 75,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 76,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 77,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 78,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwxy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 79,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 80,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 81,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 82,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 83,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 84,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 85,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 86,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 87,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 88,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 89,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 90,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 91,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 92,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 93,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 94,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwyy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 95,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 96,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 97,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 98,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 99,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 100,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 101,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 102,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 103,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 104,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 105,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 106,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 107,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 108,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 109,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 110,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwzy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 111,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 112,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 113,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 114,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 115,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xywy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 116,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yywy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 117,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zywy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 118,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wywy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 119,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 120,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 121,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 122,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 123,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 124,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 125,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 126,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwwy(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 127,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 128,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 129,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 130,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 131,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 132,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 133,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 134,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 135,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 136,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 137,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 138,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 139,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 140,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 141,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 142,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwxz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 143,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 144,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 145,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 146,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 147,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 148,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 149,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 150,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 151,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 152,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 153,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 154,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 155,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 156,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 157,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 158,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwyz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 159,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 160,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 161,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 162,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 163,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 164,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 165,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 166,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 167,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 168,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 169,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 170,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 171,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 172,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 173,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 174,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwzz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 175,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 176,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 177,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 178,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 179,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xywz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 180,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yywz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 181,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zywz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 182,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wywz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 183,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 184,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 185,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 186,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 187,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 188,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 189,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 190,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwwz(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 191,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 192,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 193,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 194,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 195,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 196,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 197,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 198,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 199,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 200,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 201,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 202,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 203,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 204,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 205,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 206,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwxw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 207,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 208,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 209,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 210,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 211,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 212,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 213,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 214,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 215,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 216,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 217,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 218,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 219,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 220,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 221,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 222,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwyw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 223,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 224,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 225,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 226,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 227,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 228,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 229,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 230,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 231,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 232,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 233,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 234,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 235,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 236,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 237,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 238,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwzw(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 239,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xxww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 240,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yxww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 241,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zxww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 242,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wxww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 243,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xyww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 244,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yyww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 245,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zyww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 246,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wyww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 247,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xzww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 248,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn yzww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 249,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zzww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 250,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wzww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 251,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn xwww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 252,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn ywww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 253,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn zwww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 254,
+            )))
+        }
+    }
+
+    #[inline]
+    pub fn wwww(self) -> I32x4 {
+        unsafe {
+            let this = x86::_mm_castsi128_ps(self.0);
+            I32x4(x86::_mm_castps_si128(x86::_mm_shuffle_ps(
+                this, this, 255,
+            )))
+        }
+    }
+}
+`}]},{type:`file`,name:`extras.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/extras.rs`,language:`Rust`,content:`// pathfinder/simd/src/extras.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::default::{F32x2, F32x4, I32x2, I32x4};
+use std::ops::{AddAssign, MulAssign, Neg, SubAssign};
+
+// Two 32-bit floats
+
+impl F32x2 {
+    // Constructors
+
+    #[inline]
+    pub fn from_slice(slice: &[f32]) -> F32x2 {
+        F32x2::new(slice[0], slice[1])
+    }
+
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> f32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> f32 {
+        self[1]
+    }
+
+    // Mutators
+
+    #[inline]
+    pub fn set_x(&mut self, x: f32) {
+        self[0] = x
+    }
+
+    #[inline]
+    pub fn set_y(&mut self, y: f32) {
+        self[1] = y
+    }
+
+    // Comparisons
+
+    #[inline]
+    pub fn approx_eq(self, other: F32x2, epsilon: f32) -> bool {
+        (self - other).abs().packed_gt(F32x2::splat(epsilon)).all_false()
+    }
+}
+
+impl AddAssign for F32x2 {
+    #[inline]
+    fn add_assign(&mut self, other: F32x2) {
+        *self = *self + other
+    }
+}
+
+impl SubAssign for F32x2 {
+    #[inline]
+    fn sub_assign(&mut self, other: F32x2) {
+        *self = *self - other
+    }
+}
+
+impl MulAssign for F32x2 {
+    #[inline]
+    fn mul_assign(&mut self, other: F32x2) {
+        *self = *self * other
+    }
+}
+
+impl Neg for F32x2 {
+    type Output = F32x2;
+    #[inline]
+    fn neg(self) -> F32x2 {
+        F32x2::default() - self
+    }
+}
+
+// Four 32-bit floats
+
+impl F32x4 {
+    // Constructors
+
+    #[inline]
+    pub fn from_slice(slice: &[f32]) -> F32x4 {
+        F32x4::new(slice[0], slice[1], slice[2], slice[3])
+    }
+
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> f32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> f32 {
+        self[1]
+    }
+
+    #[inline]
+    pub fn z(self) -> f32 {
+        self[2]
+    }
+
+    #[inline]
+    pub fn w(self) -> f32 {
+        self[3]
+    }
+
+    // Mutators
+
+    #[inline]
+    pub fn set_x(&mut self, x: f32) {
+        self[0] = x
+    }
+
+    #[inline]
+    pub fn set_y(&mut self, y: f32) {
+        self[1] = y
+    }
+
+    #[inline]
+    pub fn set_z(&mut self, z: f32) {
+        self[2] = z
+    }
+
+    #[inline]
+    pub fn set_w(&mut self, w: f32) {
+        self[3] = w
+    }
+
+    // Comparisons
+
+    #[inline]
+    pub fn approx_eq(self, other: F32x4, epsilon: f32) -> bool {
+        (self - other).abs().packed_gt(F32x4::splat(epsilon)).all_false()
+    }
+}
+
+impl AddAssign for F32x4 {
+    #[inline]
+    fn add_assign(&mut self, other: F32x4) {
+        *self = *self + other
+    }
+}
+
+impl SubAssign for F32x4 {
+    #[inline]
+    fn sub_assign(&mut self, other: F32x4) {
+        *self = *self - other
+    }
+}
+
+impl MulAssign for F32x4 {
+    #[inline]
+    fn mul_assign(&mut self, other: F32x4) {
+        *self = *self * other
+    }
+}
+
+impl Neg for F32x4 {
+    type Output = F32x4;
+    #[inline]
+    fn neg(self) -> F32x4 {
+        F32x4::default() - self
+    }
+}
+
+// Two 32-bit integers
+
+impl AddAssign for I32x2 {
+    #[inline]
+    fn add_assign(&mut self, other: I32x2) {
+        *self = *self + other
+    }
+}
+
+impl SubAssign for I32x2 {
+    #[inline]
+    fn sub_assign(&mut self, other: I32x2) {
+        *self = *self - other
+    }
+}
+
+impl MulAssign for I32x2 {
+    #[inline]
+    fn mul_assign(&mut self, other: I32x2) {
+        *self = *self * other
+    }
+}
+
+impl Neg for I32x2 {
+    type Output = I32x2;
+    #[inline]
+    fn neg(self) -> I32x2 {
+        I32x2::default() - self
+    }
+}
+
+// Four 32-bit integers
+
+impl I32x4 {
+    // Accessors
+
+    #[inline]
+    pub fn x(self) -> i32 {
+        self[0]
+    }
+
+    #[inline]
+    pub fn y(self) -> i32 {
+        self[1]
+    }
+
+    #[inline]
+    pub fn z(self) -> i32 {
+        self[2]
+    }
+
+    #[inline]
+    pub fn w(self) -> i32 {
+        self[3]
+    }
+}
+
+impl AddAssign for I32x4 {
+    #[inline]
+    fn add_assign(&mut self, other: I32x4) {
+        *self = *self + other
+    }
+}
+
+impl SubAssign for I32x4 {
+    #[inline]
+    fn sub_assign(&mut self, other: I32x4) {
+        *self = *self - other
+    }
+}
+
+impl MulAssign for I32x4 {
+    #[inline]
+    fn mul_assign(&mut self, other: I32x4) {
+        *self = *self * other
+    }
+}
+
+impl Neg for I32x4 {
+    type Output = I32x4;
+    #[inline]
+    fn neg(self) -> I32x4 {
+        I32x4::default() - self
+    }
+}
+`},{type:`file`,name:`lib.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/lib.rs`,language:`Rust`,content:`// pathfinder/simd/src/lib.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+#![cfg_attr(pf_rustc_nightly, allow(internal_features))]
+#![cfg_attr(pf_rustc_nightly, feature(link_llvm_intrinsics, core_intrinsics))]
+#![cfg_attr(pf_rustc_nightly, feature(simd_ffi))]
+#![cfg_attr(pf_rustc_nightly, feature(repr_simd))]
+
+//! A minimal SIMD abstraction, usable outside of Pathfinder.
+
+#[cfg(all(not(feature = "pf-no-simd"), pf_rustc_nightly, target_arch = "aarch64"))]
+pub use crate::arm as default;
+#[cfg(any(
+    feature = "pf-no-simd",
+    not(any(
+        target_arch = "x86",
+        target_arch = "x86_64",
+        all(pf_rustc_nightly, target_arch = "aarch64")
+    ))
+))]
+pub use crate::scalar as default;
+#[cfg(all(
+    not(feature = "pf-no-simd"),
+    any(target_arch = "x86", target_arch = "x86_64")
+))]
+pub use crate::x86 as default;
+
+#[cfg(all(pf_rustc_nightly, target_arch = "aarch64"))]
+pub mod arm;
+mod extras;
+pub mod scalar;
+#[cfg(any(target_arch = "x86", target_arch = "x86_64"))]
+pub mod x86;
+
+#[cfg(test)]
+mod test;
+`},{type:`file`,name:`test.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/src/test.rs`,language:`Rust`,content:`// pathfinder/simd/src/test.rs
+//
+// Copyright © 2019 The Pathfinder Project Developers.
+//
+// Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
+// http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>, at your
+// option. This file may not be copied, modified, or distributed
+// except according to those terms.
+
+use crate::default::{F32x4, I32x4, U32x4};
+use crate::scalar::F32x4 as F32x4S;
+
+// F32x4
+
+#[test]
+fn test_f32x4_constructors() {
+    let a = F32x4::new(1.0, 2.0, 3.0, 4.0);
+    assert_eq!((a[0], a[1], a[2], a[3]), (1.0, 2.0, 3.0, 4.0));
+    let b = F32x4::splat(10.0);
+    assert_eq!(b, F32x4::new(10.0, 10.0, 10.0, 10.0));
+}
+
+#[test]
+fn test_f32x4_accessors_and_mutators() {
+    let a = F32x4::new(5.0, 6.0, 7.0, 8.0);
+    assert_eq!((a.x(), a.y(), a.z(), a.w()), (5.0, 6.0, 7.0, 8.0));
+    let mut b = F32x4::new(10.0, 11.0, 12.0, 13.0);
+    b.set_x(20.0);
+    b.set_y(30.0);
+    b.set_z(40.0);
+    b.set_w(50.0);
+    assert_eq!(b, F32x4::new(20.0, 30.0, 40.0, 50.0));
+}
+
+#[test]
+fn test_f32x4_basic_ops() {
+    let a = F32x4::new(1.0, 3.0, 5.0, 7.0);
+    let b = F32x4::new(2.0, 2.0, 6.0, 6.0);
+    let approx_recip = a.approx_recip();
+
+    // The greatest diff we observe between the correct answer to the reciprocal and the answer that
+    // llvm gives us is 1.0 vs 0.9980469, so we need to have the allowable diff be 0.002 so that it
+    // passes. It's approximate, so it's fine to be a bit off.
+    const ALLOWABLE_RECIP_DIFF: f32 = 0.002;
+    assert!((approx_recip[0] - (1. / 1.)).abs() < ALLOWABLE_RECIP_DIFF);
+    assert!((approx_recip[1] - (1. / 3.)).abs() < ALLOWABLE_RECIP_DIFF);
+    assert!((approx_recip[2] - (1. / 5.)).abs() < ALLOWABLE_RECIP_DIFF);
+    assert!((approx_recip[3] - (1. / 7.)).abs() < ALLOWABLE_RECIP_DIFF);
+
+    assert_eq!(a.min(b), F32x4::new(1.0, 2.0, 5.0, 6.0));
+    assert_eq!(a.max(b), F32x4::new(2.0, 3.0, 6.0, 7.0));
+    let c = F32x4::new(-1.0, 1.3, -20.0, 3.6);
+    assert_eq!(c.clamp(a, b), F32x4::new(1.0, 2.0, 5.0, 6.0));
+    assert_eq!(c.abs(), F32x4::new(1.0, 1.3, 20.0, 3.6));
+    assert_eq!(c.floor(), F32x4::new(-1.0, 1.0, -20.0, 3.0));
+    assert_eq!(c.ceil(), F32x4::new(-1.0, 2.0, -20.0, 4.0));
+    assert_eq!(c.to_i32x4().to_f32x4(), F32x4::new(-1.0, 1.0, -20.0, 4.0));
+    let d = F32x4::new(1.0, 2.0, 3.0, 4.0);
+    assert_eq!(d.sqrt(), F32x4::new(1.0, 1.4142135, 1.7320508, 2.0));
+}
+
+#[test]
+fn test_f32x4_packed_comparisons() {
+    let a = F32x4::new(7.0, 3.0, 6.0, -2.0);
+    let b = F32x4::new(10.0, 3.0, 5.0, -2.0);
+    assert_eq!(a.packed_eq(b), U32x4::new(0, !0, 0, !0));
+    assert_eq!(a.packed_gt(b), U32x4::new(0, 0, !0, 0));
+    assert_eq!(a.packed_le(b), U32x4::new(!0, !0, 0, !0));
+}
+
+#[test]
+fn test_f32x4_swizzles() {
+    let a = F32x4::new(1.0, 2.0, 3.0, 4.0);
+    assert_eq!(a.xxxx(), F32x4::splat(1.0));
+    assert_eq!(a.yyyy(), F32x4::splat(2.0));
+    assert_eq!(a.zzzz(), F32x4::splat(3.0));
+    assert_eq!(a.wwww(), F32x4::splat(4.0));
+
+    assert_eq!(a.yxxx(), F32x4::new(2.0, 1.0, 1.0, 1.0));
+    assert_eq!(a.zxxx(), F32x4::new(3.0, 1.0, 1.0, 1.0));
+    assert_eq!(a.wxxx(), F32x4::new(4.0, 1.0, 1.0, 1.0));
+    assert_eq!(a.xyxx(), F32x4::new(1.0, 2.0, 1.0, 1.0));
+    assert_eq!(a.yyxx(), F32x4::new(2.0, 2.0, 1.0, 1.0));
+    assert_eq!(a.zyxx(), F32x4::new(3.0, 2.0, 1.0, 1.0));
+    assert_eq!(a.wyxx(), F32x4::new(4.0, 2.0, 1.0, 1.0));
+    assert_eq!(a.xzxx(), F32x4::new(1.0, 3.0, 1.0, 1.0));
+    assert_eq!(a.yzxx(), F32x4::new(2.0, 3.0, 1.0, 1.0));
+    assert_eq!(a.zzxx(), F32x4::new(3.0, 3.0, 1.0, 1.0));
+    assert_eq!(a.wzxx(), F32x4::new(4.0, 3.0, 1.0, 1.0));
+    assert_eq!(a.xwxx(), F32x4::new(1.0, 4.0, 1.0, 1.0));
+    assert_eq!(a.ywxx(), F32x4::new(2.0, 4.0, 1.0, 1.0));
+    assert_eq!(a.zwxx(), F32x4::new(3.0, 4.0, 1.0, 1.0));
+    assert_eq!(a.wwxx(), F32x4::new(4.0, 4.0, 1.0, 1.0));
+    assert_eq!(a.xxyx(), F32x4::new(1.0, 1.0, 2.0, 1.0));
+    assert_eq!(a.yxyx(), F32x4::new(2.0, 1.0, 2.0, 1.0));
+    assert_eq!(a.zxyx(), F32x4::new(3.0, 1.0, 2.0, 1.0));
+    assert_eq!(a.wxyx(), F32x4::new(4.0, 1.0, 2.0, 1.0));
+    assert_eq!(a.xyyx(), F32x4::new(1.0, 2.0, 2.0, 1.0));
+    assert_eq!(a.yyyx(), F32x4::new(2.0, 2.0, 2.0, 1.0));
+    assert_eq!(a.zyyx(), F32x4::new(3.0, 2.0, 2.0, 1.0));
+    assert_eq!(a.wyyx(), F32x4::new(4.0, 2.0, 2.0, 1.0));
+    assert_eq!(a.xzyx(), F32x4::new(1.0, 3.0, 2.0, 1.0));
+    assert_eq!(a.yzyx(), F32x4::new(2.0, 3.0, 2.0, 1.0));
+    assert_eq!(a.zzyx(), F32x4::new(3.0, 3.0, 2.0, 1.0));
+    assert_eq!(a.wzyx(), F32x4::new(4.0, 3.0, 2.0, 1.0));
+    assert_eq!(a.xwyx(), F32x4::new(1.0, 4.0, 2.0, 1.0));
+    assert_eq!(a.ywyx(), F32x4::new(2.0, 4.0, 2.0, 1.0));
+    assert_eq!(a.zwyx(), F32x4::new(3.0, 4.0, 2.0, 1.0));
+    assert_eq!(a.wwyx(), F32x4::new(4.0, 4.0, 2.0, 1.0));
+    assert_eq!(a.xxzx(), F32x4::new(1.0, 1.0, 3.0, 1.0));
+    assert_eq!(a.yxzx(), F32x4::new(2.0, 1.0, 3.0, 1.0));
+    assert_eq!(a.zxzx(), F32x4::new(3.0, 1.0, 3.0, 1.0));
+    assert_eq!(a.wxzx(), F32x4::new(4.0, 1.0, 3.0, 1.0));
+    assert_eq!(a.xyzx(), F32x4::new(1.0, 2.0, 3.0, 1.0));
+    assert_eq!(a.yyzx(), F32x4::new(2.0, 2.0, 3.0, 1.0));
+    assert_eq!(a.zyzx(), F32x4::new(3.0, 2.0, 3.0, 1.0));
+    assert_eq!(a.wyzx(), F32x4::new(4.0, 2.0, 3.0, 1.0));
+    assert_eq!(a.xzzx(), F32x4::new(1.0, 3.0, 3.0, 1.0));
+    assert_eq!(a.yzzx(), F32x4::new(2.0, 3.0, 3.0, 1.0));
+    assert_eq!(a.zzzx(), F32x4::new(3.0, 3.0, 3.0, 1.0));
+    assert_eq!(a.wzzx(), F32x4::new(4.0, 3.0, 3.0, 1.0));
+    assert_eq!(a.xwzx(), F32x4::new(1.0, 4.0, 3.0, 1.0));
+    assert_eq!(a.ywzx(), F32x4::new(2.0, 4.0, 3.0, 1.0));
+    assert_eq!(a.zwzx(), F32x4::new(3.0, 4.0, 3.0, 1.0));
+    assert_eq!(a.wwzx(), F32x4::new(4.0, 4.0, 3.0, 1.0));
+    assert_eq!(a.xxwx(), F32x4::new(1.0, 1.0, 4.0, 1.0));
+    assert_eq!(a.yxwx(), F32x4::new(2.0, 1.0, 4.0, 1.0));
+    assert_eq!(a.zxwx(), F32x4::new(3.0, 1.0, 4.0, 1.0));
+    assert_eq!(a.wxwx(), F32x4::new(4.0, 1.0, 4.0, 1.0));
+    assert_eq!(a.xywx(), F32x4::new(1.0, 2.0, 4.0, 1.0));
+    assert_eq!(a.yywx(), F32x4::new(2.0, 2.0, 4.0, 1.0));
+    assert_eq!(a.zywx(), F32x4::new(3.0, 2.0, 4.0, 1.0));
+    assert_eq!(a.wywx(), F32x4::new(4.0, 2.0, 4.0, 1.0));
+    assert_eq!(a.xzwx(), F32x4::new(1.0, 3.0, 4.0, 1.0));
+    assert_eq!(a.yzwx(), F32x4::new(2.0, 3.0, 4.0, 1.0));
+    assert_eq!(a.zzwx(), F32x4::new(3.0, 3.0, 4.0, 1.0));
+    assert_eq!(a.wzwx(), F32x4::new(4.0, 3.0, 4.0, 1.0));
+    assert_eq!(a.xwwx(), F32x4::new(1.0, 4.0, 4.0, 1.0));
+    assert_eq!(a.ywwx(), F32x4::new(2.0, 4.0, 4.0, 1.0));
+    assert_eq!(a.zwwx(), F32x4::new(3.0, 4.0, 4.0, 1.0));
+    assert_eq!(a.wwwx(), F32x4::new(4.0, 4.0, 4.0, 1.0));
+
+    assert_eq!(a.xxxy(), F32x4::new(1.0, 1.0, 1.0, 2.0));
+    assert_eq!(a.yxxy(), F32x4::new(2.0, 1.0, 1.0, 2.0));
+    assert_eq!(a.zxxy(), F32x4::new(3.0, 1.0, 1.0, 2.0));
+    assert_eq!(a.wxxy(), F32x4::new(4.0, 1.0, 1.0, 2.0));
+    assert_eq!(a.xyxy(), F32x4::new(1.0, 2.0, 1.0, 2.0));
+    assert_eq!(a.yyxy(), F32x4::new(2.0, 2.0, 1.0, 2.0));
+    assert_eq!(a.zyxy(), F32x4::new(3.0, 2.0, 1.0, 2.0));
+    assert_eq!(a.wyxy(), F32x4::new(4.0, 2.0, 1.0, 2.0));
+    assert_eq!(a.xzxy(), F32x4::new(1.0, 3.0, 1.0, 2.0));
+    assert_eq!(a.yzxy(), F32x4::new(2.0, 3.0, 1.0, 2.0));
+    assert_eq!(a.zzxy(), F32x4::new(3.0, 3.0, 1.0, 2.0));
+    assert_eq!(a.wzxy(), F32x4::new(4.0, 3.0, 1.0, 2.0));
+    assert_eq!(a.xwxy(), F32x4::new(1.0, 4.0, 1.0, 2.0));
+    assert_eq!(a.ywxy(), F32x4::new(2.0, 4.0, 1.0, 2.0));
+    assert_eq!(a.zwxy(), F32x4::new(3.0, 4.0, 1.0, 2.0));
+    assert_eq!(a.wwxy(), F32x4::new(4.0, 4.0, 1.0, 2.0));
+    assert_eq!(a.xxyy(), F32x4::new(1.0, 1.0, 2.0, 2.0));
+    assert_eq!(a.yxyy(), F32x4::new(2.0, 1.0, 2.0, 2.0));
+    assert_eq!(a.zxyy(), F32x4::new(3.0, 1.0, 2.0, 2.0));
+    assert_eq!(a.wxyy(), F32x4::new(4.0, 1.0, 2.0, 2.0));
+    assert_eq!(a.xyyy(), F32x4::new(1.0, 2.0, 2.0, 2.0));
+    assert_eq!(a.zyyy(), F32x4::new(3.0, 2.0, 2.0, 2.0));
+    assert_eq!(a.wyyy(), F32x4::new(4.0, 2.0, 2.0, 2.0));
+    assert_eq!(a.xzyy(), F32x4::new(1.0, 3.0, 2.0, 2.0));
+    assert_eq!(a.yzyy(), F32x4::new(2.0, 3.0, 2.0, 2.0));
+    assert_eq!(a.zzyy(), F32x4::new(3.0, 3.0, 2.0, 2.0));
+    assert_eq!(a.wzyy(), F32x4::new(4.0, 3.0, 2.0, 2.0));
+    assert_eq!(a.xwyy(), F32x4::new(1.0, 4.0, 2.0, 2.0));
+    assert_eq!(a.ywyy(), F32x4::new(2.0, 4.0, 2.0, 2.0));
+    assert_eq!(a.zwyy(), F32x4::new(3.0, 4.0, 2.0, 2.0));
+    assert_eq!(a.wwyy(), F32x4::new(4.0, 4.0, 2.0, 2.0));
+    assert_eq!(a.xxzy(), F32x4::new(1.0, 1.0, 3.0, 2.0));
+    assert_eq!(a.yxzy(), F32x4::new(2.0, 1.0, 3.0, 2.0));
+    assert_eq!(a.zxzy(), F32x4::new(3.0, 1.0, 3.0, 2.0));
+    assert_eq!(a.wxzy(), F32x4::new(4.0, 1.0, 3.0, 2.0));
+    assert_eq!(a.xyzy(), F32x4::new(1.0, 2.0, 3.0, 2.0));
+    assert_eq!(a.yyzy(), F32x4::new(2.0, 2.0, 3.0, 2.0));
+    assert_eq!(a.zyzy(), F32x4::new(3.0, 2.0, 3.0, 2.0));
+    assert_eq!(a.wyzy(), F32x4::new(4.0, 2.0, 3.0, 2.0));
+    assert_eq!(a.xzzy(), F32x4::new(1.0, 3.0, 3.0, 2.0));
+    assert_eq!(a.yzzy(), F32x4::new(2.0, 3.0, 3.0, 2.0));
+    assert_eq!(a.zzzy(), F32x4::new(3.0, 3.0, 3.0, 2.0));
+    assert_eq!(a.wzzy(), F32x4::new(4.0, 3.0, 3.0, 2.0));
+    assert_eq!(a.xwzy(), F32x4::new(1.0, 4.0, 3.0, 2.0));
+    assert_eq!(a.ywzy(), F32x4::new(2.0, 4.0, 3.0, 2.0));
+    assert_eq!(a.zwzy(), F32x4::new(3.0, 4.0, 3.0, 2.0));
+    assert_eq!(a.wwzy(), F32x4::new(4.0, 4.0, 3.0, 2.0));
+    assert_eq!(a.xxwy(), F32x4::new(1.0, 1.0, 4.0, 2.0));
+    assert_eq!(a.yxwy(), F32x4::new(2.0, 1.0, 4.0, 2.0));
+    assert_eq!(a.zxwy(), F32x4::new(3.0, 1.0, 4.0, 2.0));
+    assert_eq!(a.wxwy(), F32x4::new(4.0, 1.0, 4.0, 2.0));
+    assert_eq!(a.xywy(), F32x4::new(1.0, 2.0, 4.0, 2.0));
+    assert_eq!(a.yywy(), F32x4::new(2.0, 2.0, 4.0, 2.0));
+    assert_eq!(a.zywy(), F32x4::new(3.0, 2.0, 4.0, 2.0));
+    assert_eq!(a.wywy(), F32x4::new(4.0, 2.0, 4.0, 2.0));
+    assert_eq!(a.xzwy(), F32x4::new(1.0, 3.0, 4.0, 2.0));
+    assert_eq!(a.yzwy(), F32x4::new(2.0, 3.0, 4.0, 2.0));
+    assert_eq!(a.zzwy(), F32x4::new(3.0, 3.0, 4.0, 2.0));
+    assert_eq!(a.wzwy(), F32x4::new(4.0, 3.0, 4.0, 2.0));
+    assert_eq!(a.xwwy(), F32x4::new(1.0, 4.0, 4.0, 2.0));
+    assert_eq!(a.ywwy(), F32x4::new(2.0, 4.0, 4.0, 2.0));
+    assert_eq!(a.zwwy(), F32x4::new(3.0, 4.0, 4.0, 2.0));
+    assert_eq!(a.wwwy(), F32x4::new(4.0, 4.0, 4.0, 2.0));
+
+    assert_eq!(a.xxxw(), F32x4::new(1.0, 1.0, 1.0, 4.0));
+    assert_eq!(a.yxxw(), F32x4::new(2.0, 1.0, 1.0, 4.0));
+    assert_eq!(a.zxxw(), F32x4::new(3.0, 1.0, 1.0, 4.0));
+    assert_eq!(a.wxxw(), F32x4::new(4.0, 1.0, 1.0, 4.0));
+    assert_eq!(a.xyxw(), F32x4::new(1.0, 2.0, 1.0, 4.0));
+    assert_eq!(a.yyxw(), F32x4::new(2.0, 2.0, 1.0, 4.0));
+    assert_eq!(a.zyxw(), F32x4::new(3.0, 2.0, 1.0, 4.0));
+    assert_eq!(a.wyxw(), F32x4::new(4.0, 2.0, 1.0, 4.0));
+    assert_eq!(a.xzxw(), F32x4::new(1.0, 3.0, 1.0, 4.0));
+    assert_eq!(a.yzxw(), F32x4::new(2.0, 3.0, 1.0, 4.0));
+    assert_eq!(a.zzxw(), F32x4::new(3.0, 3.0, 1.0, 4.0));
+    assert_eq!(a.wzxw(), F32x4::new(4.0, 3.0, 1.0, 4.0));
+    assert_eq!(a.xwxw(), F32x4::new(1.0, 4.0, 1.0, 4.0));
+    assert_eq!(a.ywxw(), F32x4::new(2.0, 4.0, 1.0, 4.0));
+    assert_eq!(a.zwxw(), F32x4::new(3.0, 4.0, 1.0, 4.0));
+    assert_eq!(a.wwxw(), F32x4::new(4.0, 4.0, 1.0, 4.0));
+    assert_eq!(a.xxyw(), F32x4::new(1.0, 1.0, 2.0, 4.0));
+    assert_eq!(a.yxyw(), F32x4::new(2.0, 1.0, 2.0, 4.0));
+    assert_eq!(a.zxyw(), F32x4::new(3.0, 1.0, 2.0, 4.0));
+    assert_eq!(a.wxyw(), F32x4::new(4.0, 1.0, 2.0, 4.0));
+    assert_eq!(a.xyyw(), F32x4::new(1.0, 2.0, 2.0, 4.0));
+    assert_eq!(a.yyyw(), F32x4::new(2.0, 2.0, 2.0, 4.0));
+    assert_eq!(a.zyyw(), F32x4::new(3.0, 2.0, 2.0, 4.0));
+    assert_eq!(a.wyyw(), F32x4::new(4.0, 2.0, 2.0, 4.0));
+    assert_eq!(a.xzyw(), F32x4::new(1.0, 3.0, 2.0, 4.0));
+    assert_eq!(a.yzyw(), F32x4::new(2.0, 3.0, 2.0, 4.0));
+    assert_eq!(a.zzyw(), F32x4::new(3.0, 3.0, 2.0, 4.0));
+    assert_eq!(a.wzyw(), F32x4::new(4.0, 3.0, 2.0, 4.0));
+    assert_eq!(a.xwyw(), F32x4::new(1.0, 4.0, 2.0, 4.0));
+    assert_eq!(a.ywyw(), F32x4::new(2.0, 4.0, 2.0, 4.0));
+    assert_eq!(a.zwyw(), F32x4::new(3.0, 4.0, 2.0, 4.0));
+    assert_eq!(a.wwyw(), F32x4::new(4.0, 4.0, 2.0, 4.0));
+    assert_eq!(a.xxzw(), F32x4::new(1.0, 1.0, 3.0, 4.0));
+    assert_eq!(a.yxzw(), F32x4::new(2.0, 1.0, 3.0, 4.0));
+    assert_eq!(a.zxzw(), F32x4::new(3.0, 1.0, 3.0, 4.0));
+    assert_eq!(a.wxzw(), F32x4::new(4.0, 1.0, 3.0, 4.0));
+    assert_eq!(a.xyzw(), F32x4::new(1.0, 2.0, 3.0, 4.0));
+    assert_eq!(a.yyzw(), F32x4::new(2.0, 2.0, 3.0, 4.0));
+    assert_eq!(a.zyzw(), F32x4::new(3.0, 2.0, 3.0, 4.0));
+    assert_eq!(a.wyzw(), F32x4::new(4.0, 2.0, 3.0, 4.0));
+    assert_eq!(a.xzzw(), F32x4::new(1.0, 3.0, 3.0, 4.0));
+    assert_eq!(a.yzzw(), F32x4::new(2.0, 3.0, 3.0, 4.0));
+    assert_eq!(a.zzzw(), F32x4::new(3.0, 3.0, 3.0, 4.0));
+    assert_eq!(a.wzzw(), F32x4::new(4.0, 3.0, 3.0, 4.0));
+    assert_eq!(a.xwzw(), F32x4::new(1.0, 4.0, 3.0, 4.0));
+    assert_eq!(a.ywzw(), F32x4::new(2.0, 4.0, 3.0, 4.0));
+    assert_eq!(a.zwzw(), F32x4::new(3.0, 4.0, 3.0, 4.0));
+    assert_eq!(a.wwzw(), F32x4::new(4.0, 4.0, 3.0, 4.0));
+    assert_eq!(a.xxww(), F32x4::new(1.0, 1.0, 4.0, 4.0));
+    assert_eq!(a.yxww(), F32x4::new(2.0, 1.0, 4.0, 4.0));
+    assert_eq!(a.zxww(), F32x4::new(3.0, 1.0, 4.0, 4.0));
+    assert_eq!(a.wxww(), F32x4::new(4.0, 1.0, 4.0, 4.0));
+    assert_eq!(a.xyww(), F32x4::new(1.0, 2.0, 4.0, 4.0));
+    assert_eq!(a.yyww(), F32x4::new(2.0, 2.0, 4.0, 4.0));
+    assert_eq!(a.zyww(), F32x4::new(3.0, 2.0, 4.0, 4.0));
+    assert_eq!(a.wzww(), F32x4::new(4.0, 3.0, 4.0, 4.0));
+    assert_eq!(a.xzww(), F32x4::new(1.0, 3.0, 4.0, 4.0));
+    assert_eq!(a.yzww(), F32x4::new(2.0, 3.0, 4.0, 4.0));
+    assert_eq!(a.zzww(), F32x4::new(3.0, 3.0, 4.0, 4.0));
+    assert_eq!(a.wzww(), F32x4::new(4.0, 3.0, 4.0, 4.0));
+    assert_eq!(a.xwww(), F32x4::new(1.0, 4.0, 4.0, 4.0));
+    assert_eq!(a.ywww(), F32x4::new(2.0, 4.0, 4.0, 4.0));
+    assert_eq!(a.zwww(), F32x4::new(3.0, 4.0, 4.0, 4.0));
+
+    assert_eq!(a.xxxz(), F32x4::new(1.0, 1.0, 1.0, 3.0));
+    assert_eq!(a.yxxz(), F32x4::new(2.0, 1.0, 1.0, 3.0));
+    assert_eq!(a.zxxz(), F32x4::new(3.0, 1.0, 1.0, 3.0));
+    assert_eq!(a.wxxz(), F32x4::new(4.0, 1.0, 1.0, 3.0));
+    assert_eq!(a.xyxz(), F32x4::new(1.0, 2.0, 1.0, 3.0));
+    assert_eq!(a.yyxz(), F32x4::new(2.0, 2.0, 1.0, 3.0));
+    assert_eq!(a.zyxz(), F32x4::new(3.0, 2.0, 1.0, 3.0));
+    assert_eq!(a.wyxz(), F32x4::new(4.0, 2.0, 1.0, 3.0));
+    assert_eq!(a.xzxz(), F32x4::new(1.0, 3.0, 1.0, 3.0));
+    assert_eq!(a.yzxz(), F32x4::new(2.0, 3.0, 1.0, 3.0));
+    assert_eq!(a.zzxz(), F32x4::new(3.0, 3.0, 1.0, 3.0));
+    assert_eq!(a.wzxz(), F32x4::new(4.0, 3.0, 1.0, 3.0));
+    assert_eq!(a.xwxz(), F32x4::new(1.0, 4.0, 1.0, 3.0));
+    assert_eq!(a.ywxz(), F32x4::new(2.0, 4.0, 1.0, 3.0));
+    assert_eq!(a.zwxz(), F32x4::new(3.0, 4.0, 1.0, 3.0));
+    assert_eq!(a.wwxz(), F32x4::new(4.0, 4.0, 1.0, 3.0));
+    assert_eq!(a.xxyz(), F32x4::new(1.0, 1.0, 2.0, 3.0));
+    assert_eq!(a.yxyz(), F32x4::new(2.0, 1.0, 2.0, 3.0));
+    assert_eq!(a.zxyz(), F32x4::new(3.0, 1.0, 2.0, 3.0));
+    assert_eq!(a.wxyz(), F32x4::new(4.0, 1.0, 2.0, 3.0));
+    assert_eq!(a.xyyz(), F32x4::new(1.0, 2.0, 2.0, 3.0));
+    assert_eq!(a.yyyz(), F32x4::new(2.0, 2.0, 2.0, 3.0));
+    assert_eq!(a.zyyz(), F32x4::new(3.0, 2.0, 2.0, 3.0));
+    assert_eq!(a.wyyz(), F32x4::new(4.0, 2.0, 2.0, 3.0));
+    assert_eq!(a.xzyz(), F32x4::new(1.0, 3.0, 2.0, 3.0));
+    assert_eq!(a.yzyz(), F32x4::new(2.0, 3.0, 2.0, 3.0));
+    assert_eq!(a.zzyz(), F32x4::new(3.0, 3.0, 2.0, 3.0));
+    assert_eq!(a.wzyz(), F32x4::new(4.0, 3.0, 2.0, 3.0));
+    assert_eq!(a.xwyz(), F32x4::new(1.0, 4.0, 2.0, 3.0));
+    assert_eq!(a.ywyz(), F32x4::new(2.0, 4.0, 2.0, 3.0));
+    assert_eq!(a.zwyz(), F32x4::new(3.0, 4.0, 2.0, 3.0));
+    assert_eq!(a.wwyz(), F32x4::new(4.0, 4.0, 2.0, 3.0));
+    assert_eq!(a.xxzz(), F32x4::new(1.0, 1.0, 3.0, 3.0));
+    assert_eq!(a.yxzz(), F32x4::new(2.0, 1.0, 3.0, 3.0));
+    assert_eq!(a.zxzz(), F32x4::new(3.0, 1.0, 3.0, 3.0));
+    assert_eq!(a.wxzz(), F32x4::new(4.0, 1.0, 3.0, 3.0));
+    assert_eq!(a.xyzz(), F32x4::new(1.0, 2.0, 3.0, 3.0));
+    assert_eq!(a.yyzz(), F32x4::new(2.0, 2.0, 3.0, 3.0));
+    assert_eq!(a.zyzz(), F32x4::new(3.0, 2.0, 3.0, 3.0));
+    assert_eq!(a.wyzz(), F32x4::new(4.0, 2.0, 3.0, 3.0));
+    assert_eq!(a.xzzz(), F32x4::new(1.0, 3.0, 3.0, 3.0));
+    assert_eq!(a.yzzz(), F32x4::new(2.0, 3.0, 3.0, 3.0));
+    assert_eq!(a.wzzz(), F32x4::new(4.0, 3.0, 3.0, 3.0));
+    assert_eq!(a.xwzz(), F32x4::new(1.0, 4.0, 3.0, 3.0));
+    assert_eq!(a.ywzz(), F32x4::new(2.0, 4.0, 3.0, 3.0));
+    assert_eq!(a.zwzz(), F32x4::new(3.0, 4.0, 3.0, 3.0));
+    assert_eq!(a.wwzz(), F32x4::new(4.0, 4.0, 3.0, 3.0));
+    assert_eq!(a.xxwz(), F32x4::new(1.0, 1.0, 4.0, 3.0));
+    assert_eq!(a.yxwz(), F32x4::new(2.0, 1.0, 4.0, 3.0));
+    assert_eq!(a.zxwz(), F32x4::new(3.0, 1.0, 4.0, 3.0));
+    assert_eq!(a.wxwz(), F32x4::new(4.0, 1.0, 4.0, 3.0));
+    assert_eq!(a.xywz(), F32x4::new(1.0, 2.0, 4.0, 3.0));
+    assert_eq!(a.yywz(), F32x4::new(2.0, 2.0, 4.0, 3.0));
+    assert_eq!(a.zywz(), F32x4::new(3.0, 2.0, 4.0, 3.0));
+    assert_eq!(a.wywz(), F32x4::new(4.0, 2.0, 4.0, 3.0));
+    assert_eq!(a.xzwz(), F32x4::new(1.0, 3.0, 4.0, 3.0));
+    assert_eq!(a.yzwz(), F32x4::new(2.0, 3.0, 4.0, 3.0));
+    assert_eq!(a.zzwz(), F32x4::new(3.0, 3.0, 4.0, 3.0));
+    assert_eq!(a.wzwz(), F32x4::new(4.0, 3.0, 4.0, 3.0));
+    assert_eq!(a.xwwz(), F32x4::new(1.0, 4.0, 4.0, 3.0));
+    assert_eq!(a.ywwz(), F32x4::new(2.0, 4.0, 4.0, 3.0));
+    assert_eq!(a.zwwz(), F32x4::new(3.0, 4.0, 4.0, 3.0));
+    assert_eq!(a.wwwz(), F32x4::new(4.0, 4.0, 4.0, 3.0));
+}
+
+#[test]
+fn test_f32x4_concatenations() {
+    let a = F32x4::new(4.0, 2.0, 6.0, -1.0);
+    let b = F32x4::new(10.0, -3.0, 15.0, 41.0);
+    assert_eq!(a.concat_xy_xy(b), F32x4::new(4.0, 2.0, 10.0, -3.0));
+    assert_eq!(a.concat_xy_zw(b), F32x4::new(4.0, 2.0, 15.0, 41.0));
+    assert_eq!(a.concat_zw_zw(b), F32x4::new(6.0, -1.0, 15.0, 41.0));
+    assert_eq!(a.concat_wz_yx(b), F32x4::new(-1.0, 6.0, -3.0, 10.0));
+}
+
+#[test]
+fn test_f32x4_arithmetic_overloads() {
+    let a = F32x4::new(4.0, -1.0, 6.0, -32.0);
+    let b = F32x4::new(0.5, 0.5, 10.0, 3.0);
+    let a_plus_b = F32x4::new(4.5, -0.5, 16.0, -29.0);
+    let a_minus_b = F32x4::new(3.5, -1.5, -4.0, -35.0);
+    let a_times_b = F32x4::new(2.0, -0.5, 60.0, -96.0);
+    assert_eq!(a + b, a_plus_b);
+    assert_eq!(a - b, a_minus_b);
+    assert_eq!(a * b, a_times_b);
+    let mut c = a;
+    c += b;
+    assert_eq!(c, a_plus_b);
+    c = a;
+    c -= b;
+    assert_eq!(c, a_minus_b);
+    c = a;
+    c *= b;
+    assert_eq!(c, a_times_b);
+    assert_eq!(-a, F32x4::new(-4.0, 1.0, -6.0, 32.0));
+}
+
+#[test]
+fn test_f32x4_index_overloads() {
+    let mut a = F32x4::new(4.0, 1.0, -32.5, 75.0);
+    assert_eq!(a[2], -32.5);
+    a[3] = 300.0;
+    assert_eq!(a[3], 300.0);
+    a[0] *= 0.5;
+    assert_eq!(a[0], 2.0);
+}
+
+#[test]
+fn test_f32x4_conversions() {
+    let a = F32x4::new(48.0, -4.0, 200.0, 7.0);
+    assert_eq!(a.to_i32x4(), I32x4::new(48, -4, 200, 7));
+}
+
+#[test]
+fn test_f32x4_debug() {
+    let a = F32x4::new(48.0, -4.0, 200.0, 7.0);
+    assert_eq!("<48, -4, 200, 7>", format!("{:?}", a));
+}
+
+// I32x4
+
+#[test]
+fn test_i32x4_constructors() {
+    let a = I32x4::new(3, 58, 10, 4);
+    assert_eq!((a[0], a[1], a[2], a[3]), (3, 58, 10, 4));
+    let b = I32x4::splat(39);
+    assert_eq!(b, I32x4::new(39, 39, 39, 39));
+}
+
+#[test]
+fn test_i32x4_basic_ops() {
+    let a = I32x4::new(6, 29, -40, 2);
+    let b = I32x4::new(10, -5, 10, 46);
+    assert_eq!(a.min(b), I32x4::new(6, -5, -40, 2));
+}
+
+#[test]
+fn test_i32x4_packed_comparisons() {
+    let a = I32x4::new(59, 1, 5, 63);
+    let b = I32x4::new(-59, 1, 5, 104);
+    assert_eq!(a.packed_eq(b), U32x4::new(0, !0, !0, 0));
+}
+
+#[test]
+fn test_i32x4_swizzles() {
+    let a = I32x4::new(1, 2, 3, 4);
+    assert_eq!(a.xxxx(), I32x4::splat(1));
+    assert_eq!(a.yyyy(), I32x4::splat(2));
+    assert_eq!(a.zzzz(), I32x4::splat(3));
+    assert_eq!(a.wwww(), I32x4::splat(4));
+
+    assert_eq!(a.yxxx(), I32x4::new(2, 1, 1, 1));
+    assert_eq!(a.zxxx(), I32x4::new(3, 1, 1, 1));
+    assert_eq!(a.wxxx(), I32x4::new(4, 1, 1, 1));
+    assert_eq!(a.xyxx(), I32x4::new(1, 2, 1, 1));
+    assert_eq!(a.yyxx(), I32x4::new(2, 2, 1, 1));
+    assert_eq!(a.zyxx(), I32x4::new(3, 2, 1, 1));
+    assert_eq!(a.wyxx(), I32x4::new(4, 2, 1, 1));
+    assert_eq!(a.xzxx(), I32x4::new(1, 3, 1, 1));
+    assert_eq!(a.yzxx(), I32x4::new(2, 3, 1, 1));
+    assert_eq!(a.zzxx(), I32x4::new(3, 3, 1, 1));
+    assert_eq!(a.wzxx(), I32x4::new(4, 3, 1, 1));
+    assert_eq!(a.xwxx(), I32x4::new(1, 4, 1, 1));
+    assert_eq!(a.ywxx(), I32x4::new(2, 4, 1, 1));
+    assert_eq!(a.zwxx(), I32x4::new(3, 4, 1, 1));
+    assert_eq!(a.wwxx(), I32x4::new(4, 4, 1, 1));
+    assert_eq!(a.xxyx(), I32x4::new(1, 1, 2, 1));
+    assert_eq!(a.yxyx(), I32x4::new(2, 1, 2, 1));
+    assert_eq!(a.zxyx(), I32x4::new(3, 1, 2, 1));
+    assert_eq!(a.wxyx(), I32x4::new(4, 1, 2, 1));
+    assert_eq!(a.xyyx(), I32x4::new(1, 2, 2, 1));
+    assert_eq!(a.yyyx(), I32x4::new(2, 2, 2, 1));
+    assert_eq!(a.zyyx(), I32x4::new(3, 2, 2, 1));
+    assert_eq!(a.wyyx(), I32x4::new(4, 2, 2, 1));
+    assert_eq!(a.xzyx(), I32x4::new(1, 3, 2, 1));
+    assert_eq!(a.yzyx(), I32x4::new(2, 3, 2, 1));
+    assert_eq!(a.zzyx(), I32x4::new(3, 3, 2, 1));
+    assert_eq!(a.wzyx(), I32x4::new(4, 3, 2, 1));
+    assert_eq!(a.xwyx(), I32x4::new(1, 4, 2, 1));
+    assert_eq!(a.ywyx(), I32x4::new(2, 4, 2, 1));
+    assert_eq!(a.zwyx(), I32x4::new(3, 4, 2, 1));
+    assert_eq!(a.wwyx(), I32x4::new(4, 4, 2, 1));
+    assert_eq!(a.xxzx(), I32x4::new(1, 1, 3, 1));
+    assert_eq!(a.yxzx(), I32x4::new(2, 1, 3, 1));
+    assert_eq!(a.zxzx(), I32x4::new(3, 1, 3, 1));
+    assert_eq!(a.wxzx(), I32x4::new(4, 1, 3, 1));
+    assert_eq!(a.xyzx(), I32x4::new(1, 2, 3, 1));
+    assert_eq!(a.yyzx(), I32x4::new(2, 2, 3, 1));
+    assert_eq!(a.zyzx(), I32x4::new(3, 2, 3, 1));
+    assert_eq!(a.wyzx(), I32x4::new(4, 2, 3, 1));
+    assert_eq!(a.xzzx(), I32x4::new(1, 3, 3, 1));
+    assert_eq!(a.yzzx(), I32x4::new(2, 3, 3, 1));
+    assert_eq!(a.zzzx(), I32x4::new(3, 3, 3, 1));
+    assert_eq!(a.wzzx(), I32x4::new(4, 3, 3, 1));
+    assert_eq!(a.xwzx(), I32x4::new(1, 4, 3, 1));
+    assert_eq!(a.ywzx(), I32x4::new(2, 4, 3, 1));
+    assert_eq!(a.zwzx(), I32x4::new(3, 4, 3, 1));
+    assert_eq!(a.wwzx(), I32x4::new(4, 4, 3, 1));
+    assert_eq!(a.xxwx(), I32x4::new(1, 1, 4, 1));
+    assert_eq!(a.yxwx(), I32x4::new(2, 1, 4, 1));
+    assert_eq!(a.zxwx(), I32x4::new(3, 1, 4, 1));
+    assert_eq!(a.wxwx(), I32x4::new(4, 1, 4, 1));
+    assert_eq!(a.xywx(), I32x4::new(1, 2, 4, 1));
+    assert_eq!(a.yywx(), I32x4::new(2, 2, 4, 1));
+    assert_eq!(a.zywx(), I32x4::new(3, 2, 4, 1));
+    assert_eq!(a.wywx(), I32x4::new(4, 2, 4, 1));
+    assert_eq!(a.xzwx(), I32x4::new(1, 3, 4, 1));
+    assert_eq!(a.yzwx(), I32x4::new(2, 3, 4, 1));
+    assert_eq!(a.zzwx(), I32x4::new(3, 3, 4, 1));
+    assert_eq!(a.wzwx(), I32x4::new(4, 3, 4, 1));
+    assert_eq!(a.xwwx(), I32x4::new(1, 4, 4, 1));
+    assert_eq!(a.ywwx(), I32x4::new(2, 4, 4, 1));
+    assert_eq!(a.zwwx(), I32x4::new(3, 4, 4, 1));
+    assert_eq!(a.wwwx(), I32x4::new(4, 4, 4, 1));
+
+    assert_eq!(a.xxxy(), I32x4::new(1, 1, 1, 2));
+    assert_eq!(a.yxxy(), I32x4::new(2, 1, 1, 2));
+    assert_eq!(a.zxxy(), I32x4::new(3, 1, 1, 2));
+    assert_eq!(a.wxxy(), I32x4::new(4, 1, 1, 2));
+    assert_eq!(a.xyxy(), I32x4::new(1, 2, 1, 2));
+    assert_eq!(a.yyxy(), I32x4::new(2, 2, 1, 2));
+    assert_eq!(a.zyxy(), I32x4::new(3, 2, 1, 2));
+    assert_eq!(a.wyxy(), I32x4::new(4, 2, 1, 2));
+    assert_eq!(a.xzxy(), I32x4::new(1, 3, 1, 2));
+    assert_eq!(a.yzxy(), I32x4::new(2, 3, 1, 2));
+    assert_eq!(a.zzxy(), I32x4::new(3, 3, 1, 2));
+    assert_eq!(a.wzxy(), I32x4::new(4, 3, 1, 2));
+    assert_eq!(a.xwxy(), I32x4::new(1, 4, 1, 2));
+    assert_eq!(a.ywxy(), I32x4::new(2, 4, 1, 2));
+    assert_eq!(a.zwxy(), I32x4::new(3, 4, 1, 2));
+    assert_eq!(a.wwxy(), I32x4::new(4, 4, 1, 2));
+    assert_eq!(a.xxyy(), I32x4::new(1, 1, 2, 2));
+    assert_eq!(a.yxyy(), I32x4::new(2, 1, 2, 2));
+    assert_eq!(a.zxyy(), I32x4::new(3, 1, 2, 2));
+    assert_eq!(a.wxyy(), I32x4::new(4, 1, 2, 2));
+    assert_eq!(a.xyyy(), I32x4::new(1, 2, 2, 2));
+    assert_eq!(a.zyyy(), I32x4::new(3, 2, 2, 2));
+    assert_eq!(a.wyyy(), I32x4::new(4, 2, 2, 2));
+    assert_eq!(a.xzyy(), I32x4::new(1, 3, 2, 2));
+    assert_eq!(a.yzyy(), I32x4::new(2, 3, 2, 2));
+    assert_eq!(a.zzyy(), I32x4::new(3, 3, 2, 2));
+    assert_eq!(a.wzyy(), I32x4::new(4, 3, 2, 2));
+    assert_eq!(a.xwyy(), I32x4::new(1, 4, 2, 2));
+    assert_eq!(a.ywyy(), I32x4::new(2, 4, 2, 2));
+    assert_eq!(a.zwyy(), I32x4::new(3, 4, 2, 2));
+    assert_eq!(a.wwyy(), I32x4::new(4, 4, 2, 2));
+    assert_eq!(a.xxzy(), I32x4::new(1, 1, 3, 2));
+    assert_eq!(a.yxzy(), I32x4::new(2, 1, 3, 2));
+    assert_eq!(a.zxzy(), I32x4::new(3, 1, 3, 2));
+    assert_eq!(a.wxzy(), I32x4::new(4, 1, 3, 2));
+    assert_eq!(a.xyzy(), I32x4::new(1, 2, 3, 2));
+    assert_eq!(a.yyzy(), I32x4::new(2, 2, 3, 2));
+    assert_eq!(a.zyzy(), I32x4::new(3, 2, 3, 2));
+    assert_eq!(a.wyzy(), I32x4::new(4, 2, 3, 2));
+    assert_eq!(a.xzzy(), I32x4::new(1, 3, 3, 2));
+    assert_eq!(a.yzzy(), I32x4::new(2, 3, 3, 2));
+    assert_eq!(a.zzzy(), I32x4::new(3, 3, 3, 2));
+    assert_eq!(a.wzzy(), I32x4::new(4, 3, 3, 2));
+    assert_eq!(a.xwzy(), I32x4::new(1, 4, 3, 2));
+    assert_eq!(a.ywzy(), I32x4::new(2, 4, 3, 2));
+    assert_eq!(a.zwzy(), I32x4::new(3, 4, 3, 2));
+    assert_eq!(a.wwzy(), I32x4::new(4, 4, 3, 2));
+    assert_eq!(a.xxwy(), I32x4::new(1, 1, 4, 2));
+    assert_eq!(a.yxwy(), I32x4::new(2, 1, 4, 2));
+    assert_eq!(a.zxwy(), I32x4::new(3, 1, 4, 2));
+    assert_eq!(a.wxwy(), I32x4::new(4, 1, 4, 2));
+    assert_eq!(a.xywy(), I32x4::new(1, 2, 4, 2));
+    assert_eq!(a.yywy(), I32x4::new(2, 2, 4, 2));
+    assert_eq!(a.zywy(), I32x4::new(3, 2, 4, 2));
+    assert_eq!(a.wywy(), I32x4::new(4, 2, 4, 2));
+    assert_eq!(a.xzwy(), I32x4::new(1, 3, 4, 2));
+    assert_eq!(a.yzwy(), I32x4::new(2, 3, 4, 2));
+    assert_eq!(a.zzwy(), I32x4::new(3, 3, 4, 2));
+    assert_eq!(a.wzwy(), I32x4::new(4, 3, 4, 2));
+    assert_eq!(a.xwwy(), I32x4::new(1, 4, 4, 2));
+    assert_eq!(a.ywwy(), I32x4::new(2, 4, 4, 2));
+    assert_eq!(a.zwwy(), I32x4::new(3, 4, 4, 2));
+    assert_eq!(a.wwwy(), I32x4::new(4, 4, 4, 2));
+
+    assert_eq!(a.xxxz(), I32x4::new(1, 1, 1, 3));
+    assert_eq!(a.yxxz(), I32x4::new(2, 1, 1, 3));
+    assert_eq!(a.zxxz(), I32x4::new(3, 1, 1, 3));
+    assert_eq!(a.wxxz(), I32x4::new(4, 1, 1, 3));
+    assert_eq!(a.xyxz(), I32x4::new(1, 2, 1, 3));
+    assert_eq!(a.yyxz(), I32x4::new(2, 2, 1, 3));
+    assert_eq!(a.zyxz(), I32x4::new(3, 2, 1, 3));
+    assert_eq!(a.wyxz(), I32x4::new(4, 2, 1, 3));
+    assert_eq!(a.xzxz(), I32x4::new(1, 3, 1, 3));
+    assert_eq!(a.yzxz(), I32x4::new(2, 3, 1, 3));
+    assert_eq!(a.zzxz(), I32x4::new(3, 3, 1, 3));
+    assert_eq!(a.wzxz(), I32x4::new(4, 3, 1, 3));
+    assert_eq!(a.xwxz(), I32x4::new(1, 4, 1, 3));
+    assert_eq!(a.ywxz(), I32x4::new(2, 4, 1, 3));
+    assert_eq!(a.zwxz(), I32x4::new(3, 4, 1, 3));
+    assert_eq!(a.wwxz(), I32x4::new(4, 4, 1, 3));
+    assert_eq!(a.xxyz(), I32x4::new(1, 1, 2, 3));
+    assert_eq!(a.yxyz(), I32x4::new(2, 1, 2, 3));
+    assert_eq!(a.zxyz(), I32x4::new(3, 1, 2, 3));
+    assert_eq!(a.wxyz(), I32x4::new(4, 1, 2, 3));
+    assert_eq!(a.xyyz(), I32x4::new(1, 2, 2, 3));
+    assert_eq!(a.yyyz(), I32x4::new(2, 2, 2, 3));
+    assert_eq!(a.zyyz(), I32x4::new(3, 2, 2, 3));
+    assert_eq!(a.wyyz(), I32x4::new(4, 2, 2, 3));
+    assert_eq!(a.xzyz(), I32x4::new(1, 3, 2, 3));
+    assert_eq!(a.yzyz(), I32x4::new(2, 3, 2, 3));
+    assert_eq!(a.zzyz(), I32x4::new(3, 3, 2, 3));
+    assert_eq!(a.wzyz(), I32x4::new(4, 3, 2, 3));
+    assert_eq!(a.xwyz(), I32x4::new(1, 4, 2, 3));
+    assert_eq!(a.ywyz(), I32x4::new(2, 4, 2, 3));
+    assert_eq!(a.zwyz(), I32x4::new(3, 4, 2, 3));
+    assert_eq!(a.wwyz(), I32x4::new(4, 4, 2, 3));
+    assert_eq!(a.xxzz(), I32x4::new(1, 1, 3, 3));
+    assert_eq!(a.yxzz(), I32x4::new(2, 1, 3, 3));
+    assert_eq!(a.zxzz(), I32x4::new(3, 1, 3, 3));
+    assert_eq!(a.wxzz(), I32x4::new(4, 1, 3, 3));
+    assert_eq!(a.xyzz(), I32x4::new(1, 2, 3, 3));
+    assert_eq!(a.yyzz(), I32x4::new(2, 2, 3, 3));
+    assert_eq!(a.zyzz(), I32x4::new(3, 2, 3, 3));
+    assert_eq!(a.wyzz(), I32x4::new(4, 2, 3, 3));
+    assert_eq!(a.xzzz(), I32x4::new(1, 3, 3, 3));
+    assert_eq!(a.yzzz(), I32x4::new(2, 3, 3, 3));
+    assert_eq!(a.wzzz(), I32x4::new(4, 3, 3, 3));
+    assert_eq!(a.xwzz(), I32x4::new(1, 4, 3, 3));
+    assert_eq!(a.ywzz(), I32x4::new(2, 4, 3, 3));
+    assert_eq!(a.zwzz(), I32x4::new(3, 4, 3, 3));
+    assert_eq!(a.wwzz(), I32x4::new(4, 4, 3, 3));
+    assert_eq!(a.xxwz(), I32x4::new(1, 1, 4, 3));
+    assert_eq!(a.yxwz(), I32x4::new(2, 1, 4, 3));
+    assert_eq!(a.zxwz(), I32x4::new(3, 1, 4, 3));
+    assert_eq!(a.wxwz(), I32x4::new(4, 1, 4, 3));
+    assert_eq!(a.xywz(), I32x4::new(1, 2, 4, 3));
+    assert_eq!(a.yywz(), I32x4::new(2, 2, 4, 3));
+    assert_eq!(a.zywz(), I32x4::new(3, 2, 4, 3));
+    assert_eq!(a.wywz(), I32x4::new(4, 2, 4, 3));
+    assert_eq!(a.xzwz(), I32x4::new(1, 3, 4, 3));
+    assert_eq!(a.yzwz(), I32x4::new(2, 3, 4, 3));
+    assert_eq!(a.zzwz(), I32x4::new(3, 3, 4, 3));
+    assert_eq!(a.wzwz(), I32x4::new(4, 3, 4, 3));
+    assert_eq!(a.xwwz(), I32x4::new(1, 4, 4, 3));
+    assert_eq!(a.ywwz(), I32x4::new(2, 4, 4, 3));
+    assert_eq!(a.zwwz(), I32x4::new(3, 4, 4, 3));
+    assert_eq!(a.wwwz(), I32x4::new(4, 4, 4, 3));
+
+    assert_eq!(a.xxxw(), I32x4::new(1, 1, 1, 4));
+    assert_eq!(a.yxxw(), I32x4::new(2, 1, 1, 4));
+    assert_eq!(a.zxxw(), I32x4::new(3, 1, 1, 4));
+    assert_eq!(a.wxxw(), I32x4::new(4, 1, 1, 4));
+    assert_eq!(a.xyxw(), I32x4::new(1, 2, 1, 4));
+    assert_eq!(a.yyxw(), I32x4::new(2, 2, 1, 4));
+    assert_eq!(a.zyxw(), I32x4::new(3, 2, 1, 4));
+    assert_eq!(a.wyxw(), I32x4::new(4, 2, 1, 4));
+    assert_eq!(a.xzxw(), I32x4::new(1, 3, 1, 4));
+    assert_eq!(a.yzxw(), I32x4::new(2, 3, 1, 4));
+    assert_eq!(a.zzxw(), I32x4::new(3, 3, 1, 4));
+    assert_eq!(a.wzxw(), I32x4::new(4, 3, 1, 4));
+    assert_eq!(a.xwxw(), I32x4::new(1, 4, 1, 4));
+    assert_eq!(a.ywxw(), I32x4::new(2, 4, 1, 4));
+    assert_eq!(a.zwxw(), I32x4::new(3, 4, 1, 4));
+    assert_eq!(a.wwxw(), I32x4::new(4, 4, 1, 4));
+    assert_eq!(a.xxyw(), I32x4::new(1, 1, 2, 4));
+    assert_eq!(a.yxyw(), I32x4::new(2, 1, 2, 4));
+    assert_eq!(a.zxyw(), I32x4::new(3, 1, 2, 4));
+    assert_eq!(a.wxyw(), I32x4::new(4, 1, 2, 4));
+    assert_eq!(a.xyyw(), I32x4::new(1, 2, 2, 4));
+    assert_eq!(a.yyyw(), I32x4::new(2, 2, 2, 4));
+    assert_eq!(a.zyyw(), I32x4::new(3, 2, 2, 4));
+    assert_eq!(a.wyyw(), I32x4::new(4, 2, 2, 4));
+    assert_eq!(a.xzyw(), I32x4::new(1, 3, 2, 4));
+    assert_eq!(a.yzyw(), I32x4::new(2, 3, 2, 4));
+    assert_eq!(a.zzyw(), I32x4::new(3, 3, 2, 4));
+    assert_eq!(a.wzyw(), I32x4::new(4, 3, 2, 4));
+    assert_eq!(a.xwyw(), I32x4::new(1, 4, 2, 4));
+    assert_eq!(a.ywyw(), I32x4::new(2, 4, 2, 4));
+    assert_eq!(a.zwyw(), I32x4::new(3, 4, 2, 4));
+    assert_eq!(a.wwyw(), I32x4::new(4, 4, 2, 4));
+    assert_eq!(a.xxzw(), I32x4::new(1, 1, 3, 4));
+    assert_eq!(a.yxzw(), I32x4::new(2, 1, 3, 4));
+    assert_eq!(a.zxzw(), I32x4::new(3, 1, 3, 4));
+    assert_eq!(a.wxzw(), I32x4::new(4, 1, 3, 4));
+    assert_eq!(a.xyzw(), I32x4::new(1, 2, 3, 4));
+    assert_eq!(a.yyzw(), I32x4::new(2, 2, 3, 4));
+    assert_eq!(a.zyzw(), I32x4::new(3, 2, 3, 4));
+    assert_eq!(a.wyzw(), I32x4::new(4, 2, 3, 4));
+    assert_eq!(a.xzzw(), I32x4::new(1, 3, 3, 4));
+    assert_eq!(a.yzzw(), I32x4::new(2, 3, 3, 4));
+    assert_eq!(a.zzzw(), I32x4::new(3, 3, 3, 4));
+    assert_eq!(a.wzzw(), I32x4::new(4, 3, 3, 4));
+    assert_eq!(a.xwzw(), I32x4::new(1, 4, 3, 4));
+    assert_eq!(a.ywzw(), I32x4::new(2, 4, 3, 4));
+    assert_eq!(a.zwzw(), I32x4::new(3, 4, 3, 4));
+    assert_eq!(a.wwzw(), I32x4::new(4, 4, 3, 4));
+    assert_eq!(a.xxww(), I32x4::new(1, 1, 4, 4));
+    assert_eq!(a.yxww(), I32x4::new(2, 1, 4, 4));
+    assert_eq!(a.zxww(), I32x4::new(3, 1, 4, 4));
+    assert_eq!(a.wxww(), I32x4::new(4, 1, 4, 4));
+    assert_eq!(a.xyww(), I32x4::new(1, 2, 4, 4));
+    assert_eq!(a.yyww(), I32x4::new(2, 2, 4, 4));
+    assert_eq!(a.zyww(), I32x4::new(3, 2, 4, 4));
+    assert_eq!(a.wzww(), I32x4::new(4, 3, 4, 4));
+    assert_eq!(a.xzww(), I32x4::new(1, 3, 4, 4));
+    assert_eq!(a.yzww(), I32x4::new(2, 3, 4, 4));
+    assert_eq!(a.zzww(), I32x4::new(3, 3, 4, 4));
+    assert_eq!(a.wzww(), I32x4::new(4, 3, 4, 4));
+    assert_eq!(a.xwww(), I32x4::new(1, 4, 4, 4));
+    assert_eq!(a.ywww(), I32x4::new(2, 4, 4, 4));
+    assert_eq!(a.zwww(), I32x4::new(3, 4, 4, 4));
+}
+
+// Scalar F32x4
+
+#[test]
+fn test_f32x4s_constructors() {
+    let a = F32x4S::new(1.0, 2.0, 3.0, 4.0);
+    assert_eq!((a[0], a[1], a[2], a[3]), (1.0, 2.0, 3.0, 4.0));
+    let b = F32x4S::splat(10.0);
+    assert_eq!(b, F32x4S::new(10.0, 10.0, 10.0, 10.0));
+}
+
+#[test]
+fn test_f32x4s_basic_ops() {
+    let a = F32x4S::new(1.0, 3.0, 5.0, 7.0);
+    let b = F32x4S::new(2.0, 2.0, 6.0, 6.0);
+    assert_eq!(a.min(b), F32x4S::new(1.0, 2.0, 5.0, 6.0));
+    assert_eq!(a.max(b), F32x4S::new(2.0, 3.0, 6.0, 7.0));
+    let c = F32x4S::new(-1.0, 1.3, -20.0, 3.6);
+    assert_eq!(c.abs(), F32x4S::new(1.0, 1.3, 20.0, 3.6));
+    assert_eq!(c.floor(), F32x4S::new(-1.0, 1.0, -20.0, 3.0));
+    assert_eq!(c.ceil(), F32x4S::new(-1.0, 2.0, -20.0, 4.0));
+    assert_eq!(c.to_i32x4().to_f32x4(), F32x4S::new(-1.0, 1.0, -20.0, 4.0));
+}
+`}]},{type:`file`,name:`.cargo_vcs_info.json`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/.cargo_vcs_info.json`,language:`JSON`,content:`{
+  "git": {
+    "sha1": "6c3c0466f451c5bd2007087728cd168798cd64e8"
+  },
+  "path_in_vcs": "simd"
+}`},{type:`file`,name:`.cargo-checksum.json`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/.cargo-checksum.json`,language:`JSON`,content:`{"files":{".cargo_vcs_info.json":"469961ff70bc7fc4f3b724386f38cd0719936e18aae4a44b6c7c469ba30228fc","Cargo.lock":"2c7850d7a7e6cc1999e0fe494da2cd1d0a94309ed8507d9350ef803a371b9de6","Cargo.toml":"8c786fc7a21f92ef487513268e52c99a4d889550670a2ec0e1277619e7127bfd","Cargo.toml.orig":"f21955090fa9ba7c8f7f9ffe01bc234f2804ffebba12d41f36e0bf74809bc002","build.rs":"b515ee342a21c17c65615c6001a90bf1d131e4a46046ae1b0ed92e33d258bb58","src/arm/mod.rs":"cb8566a07af8d8a95f6124bbbd1d94f69b3f084103e6452de3cef364909da849","src/arm/swizzle_f32x4.rs":"da7882326e637d636b6a2719285aee6e83fa16b326dbbc0a227564d54c2e2e96","src/arm/swizzle_i32x4.rs":"b51fa2f04b97e3d81c40322e69883c757bdee0d3ef97bce25eb1ac8b181341d7","src/extras.rs":"013cf183ca79dec2b5ac5f993843a8c123a10fdfdf3d9fa8024ef47ee60e57af","src/lib.rs":"7bc08757defaab4b17d7ceabb702cc0b8dfcd30c6ad364dec6e88a8e2c0ae646","src/scalar/mod.rs":"e636abae729aa7c5f8d7c4be0f0ec0aae02fea4b8a679e0934cfc3b3f70c8109","src/scalar/swizzle_f32x4.rs":"0b243334740f3004ca870c2eb57b69bec32fa90a23c35f96b119529eb8e11557","src/scalar/swizzle_i32x4.rs":"1612776f2bc21fbbb5b0770a90b9b248abae28ad6e3a5585abad5b8bbfa499bd","src/test.rs":"62e1159ff2977b0e3ddcc302b1c210105a6f1c087a089fd1fffeaef1814e50f6","src/x86/mod.rs":"9cdab898e39521790403b85e49c7d92ea8fac1f597cbdd0219bb377421e4f2bd","src/x86/swizzle_f32x4.rs":"59868ea641f48fbf09de20bf145dd101e50254bc7890c860a42ecadb61d0c1e1","src/x86/swizzle_i32x4.rs":"000ff6f0fb425f439b2d5ee0afd128b97873b4bb207b3bf6b30ec5e4466111ea"},"package":"4500030c302e4af1d423f36f3b958d1aecb6c04184356ed5a833bf6b60435777"}`},{type:`file`,name:`build.rs`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/build.rs`,language:`Rust`,content:`extern crate rustc_version;
+use rustc_version::Channel;
+
+fn main() {
+    // Assert we haven't travelled back in time
+    assert!(rustc_version::version().unwrap().major >= 1);
+
+    // PATCHED: ne jamais définir \`pf_rustc_nightly\`.
+    // Cela force l'utilisation du fallback scalaire au lieu du module \`arm\`
+    // qui utilise des intrinsèques SIMD instables supprimées dans les
+    // toolchains nightly récentes.
+    // Le résultat reste correct, seule la performance change (négligeable ici).
+    let _ = Channel::Nightly;
+}
+`},{type:`file`,name:`Cargo.lock`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/Cargo.lock`,language:`Text`,content:`# This file is automatically @generated by Cargo.
+# It is not intended for manual editing.
+version = 4
+
+[[package]]
+name = "pathfinder_simd"
+version = "0.5.6"
+dependencies = [
+ "rustc_version",
+]
+
+[[package]]
+name = "rustc_version"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366"
+dependencies = [
+ "semver",
+]
+
+[[package]]
+name = "semver"
+version = "1.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b97ed7a9823b74f99c7742f5336af7be5ecd3eeafcb1507d1fa93347b1d589b0"
+`},{type:`file`,name:`Cargo.toml`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/Cargo.toml`,language:`TOML`,content:`# THIS FILE IS AUTOMATICALLY GENERATED BY CARGO
+#
+# When uploading crates to the registry Cargo will automatically
+# "normalize" Cargo.toml files for maximal compatibility
+# with all versions of Cargo and also rewrite \`path\` dependencies
+# to registry (e.g., crates.io) dependencies.
+#
+# If you are reading this file be aware that the original Cargo.toml
+# will likely look very different (and much more reasonable).
+# See Cargo.toml.orig for the original contents.
+
+[package]
+edition = "2018"
+name = "pathfinder_simd"
+version = "0.5.6"
+authors = ["Patrick Walton <pcwalton@mimiga.net>"]
+build = "build.rs"
+autolib = false
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+description = "A simple SIMD library"
+homepage = "https://github.com/servo/pathfinder"
+readme = false
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/servo/pathfinder"
+
+[features]
+pf-no-simd = []
+
+[lib]
+name = "pathfinder_simd"
+path = "src/lib.rs"
+
+[dependencies]
+
+[build-dependencies.rustc_version]
+version = "0.4"
+`},{type:`file`,name:`Cargo.toml.orig`,path:`side-projects/crabe/hedging/vendor/pathfinder_simd/Cargo.toml.orig`,language:`Text`,content:`[package]
+name = "pathfinder_simd"
+version = "0.5.6"
+edition = "2018"
+authors = ["Patrick Walton <pcwalton@mimiga.net>"]
+build = "build.rs"
+description = "A simple SIMD library"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/servo/pathfinder"
+homepage = "https://github.com/servo/pathfinder"
+
+[features]
+pf-no-simd = []
+
+[dependencies]
+
+[build-dependencies]
+rustc_version = "0.4"
+`}]}]},{type:`file`,name:`Cargo.lock`,path:`side-projects/crabe/hedging/Cargo.lock`,language:`Text`,content:`# This file is automatically @generated by Cargo.
+# It is not intended for manual editing.
+version = 4
+
+[[package]]
+name = "accesskit"
+version = "0.24.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3b7f7f85a7e5f68090000ed7622545829afd484d210358702ae4cb97dd0c320"
+dependencies = [
+ "enumn",
+ "uuid",
+]
+
+[[package]]
+name = "accesskit_atspi_common"
+version = "0.19.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "023da0e5097f46df7092d5280b02efb9bbf8d93298daeced42652463e357d636"
+dependencies = [
+ "accesskit",
+ "accesskit_consumer",
+ "atspi-common",
+ "phf",
+ "serde",
+ "zvariant",
+]
+
+[[package]]
+name = "accesskit_consumer"
+version = "0.38.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d10a236f96f87d70732e44520046785431ef01d5bcd6b041317bfadd2f88245"
+dependencies = [
+ "accesskit",
+ "hashbrown 0.16.1",
+]
+
+[[package]]
+name = "accesskit_macos"
+version = "0.26.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ce02dc63b43f0c9296af9ac946312a2dc8814427d7a64d2d600971dac55b6076"
+dependencies = [
+ "accesskit",
+ "accesskit_consumer",
+ "hashbrown 0.16.1",
+ "objc2 0.5.3",
+ "objc2-app-kit 0.2.2",
+ "objc2-foundation 0.2.2",
+]
+
+[[package]]
+name = "accesskit_unix"
+version = "0.22.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "03e156ed3802e35eefe894ef2671bc6c889303d8a7e110b5e1b48f504b91362f"
+dependencies = [
+ "accesskit",
+ "accesskit_atspi_common",
+ "async-channel",
+ "async-executor",
+ "async-task",
+ "atspi",
+ "futures-lite",
+ "futures-util",
+ "serde",
+ "zbus",
+]
+
+[[package]]
+name = "accesskit_windows"
+version = "0.34.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "106c2b961215864d1c2e703ee63269c25c4e80a577ffb2c1017b9c17dcdf83a1"
+dependencies = [
+ "accesskit",
+ "accesskit_consumer",
+ "hashbrown 0.16.1",
+ "static_assertions",
+ "windows 0.62.2",
+ "windows-core 0.62.2",
+]
+
+[[package]]
+name = "addr2line"
+version = "0.25.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1b5d307320b3181d6d7954e663bd7c774a838b8220fe0593c86d9fb09f498b4b"
+dependencies = [
+ "gimli",
+]
+
+[[package]]
+name = "adler2"
+version = "2.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "320119579fcad9c21884f5c4861d16174d0e06250625266f50fe6898340abefa"
+
+[[package]]
+name = "aes"
+version = "0.8.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b169f7a6d4742236a0a00c541b845991d0ac43e546831af1249753ab4c3aa3a0"
+dependencies = [
+ "cfg-if",
+ "cipher",
+ "cpufeatures",
+ "zeroize",
+]
+
+[[package]]
+name = "ahash"
+version = "0.8.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75"
+dependencies = [
+ "cfg-if",
+ "const-random",
+ "once_cell",
+ "version_check",
+ "zerocopy",
+]
+
+[[package]]
+name = "aho-corasick"
+version = "1.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c982642fa9e8606056828ee9a8505737230110bb1099153c79efe865c59d12ba"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "aligned"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee4508988c62edf04abd8d92897fca0c2995d907ce1dfeaf369dac3716a40685"
+dependencies = [
+ "as-slice",
+]
+
+[[package]]
+name = "aligned-vec"
+version = "0.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc890384c8602f339876ded803c97ad529f3842aba97f6392b3dba0dd171769b"
+dependencies = [
+ "equator",
+]
+
+[[package]]
+name = "allocator-api2"
+version = "0.2.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
+
+[[package]]
+name = "android_system_properties"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ae221649c9976a6f6c56ae1facf410f3ddb33cc661c4b7b61020a912d4237fbc"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "anyhow"
+version = "1.0.104"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
+
+[[package]]
+name = "arbitrary"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3bc62ac97cc33321f50863d514c3bc38a453947a8f9e781137e47c7401020aed"
+
+[[package]]
+name = "arg_enum_proc_macro"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ae92a5119aa49cdbcf6b9f893fe4e1d98b04ccbf82ee0584ad948a44a734dea"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "arrayref"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "76a2e8124351fda1ef8aaaa3bbd7ebbcb486bbcd4225aca0aa0d84bb2db8fecb"
+
+[[package]]
+name = "arrayvec"
+version = "0.7.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3fb67a6e08acf24fdeccbac2cb6ac4305825bd1f117462e0e6f2f193345ad56"
+
+[[package]]
+name = "as-raw-xcb-connection"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "175571dd1d178ced59193a6fc02dde1b972eb0bc56c892cde9beeceac5bf0f6b"
+
+[[package]]
+name = "as-slice"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "516b6b4f0e40d50dcda9365d53964ec74560ad4284da2e7fc97122cd83174516"
+dependencies = [
+ "stable_deref_trait",
+]
+
+[[package]]
+name = "ash"
+version = "0.38.0+1.3.281"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0bb44936d800fea8f016d7f2311c6a4f97aebd5dc86f09906139ec848cf3a46f"
+dependencies = [
+ "libloading",
+]
+
+[[package]]
+name = "ashpd"
+version = "0.13.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb8421aaa9644a5faf26735f258b669b15f063313ef8f8e2bdb28912a1a6f111"
+dependencies = [
+ "enumflags2",
+ "futures-channel",
+ "futures-util",
+ "getrandom 0.4.3",
+ "serde",
+ "serde_repr",
+ "wayland-backend",
+ "wayland-client",
+ "wayland-protocols",
+ "zbus",
+]
+
+[[package]]
+name = "async-broadcast"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "435a87a52755b8f27fcf321ac4f04b2802e337c8c4872923137471ec39c37532"
+dependencies = [
+ "event-listener",
+ "event-listener-strategy",
+ "futures-core",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "async-channel"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "924ed96dd52d1b75e9c1a3e6275715fd320f5f9439fb5a4a11fa51f4221158d2"
+dependencies = [
+ "concurrent-queue",
+ "event-listener-strategy",
+ "futures-core",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "async-compression"
+version = "0.4.50"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee19bd99b43e3691acbad4e840420a4881cea6c0b66a208125a824f8fd53f5a1"
+dependencies = [
+ "compression-codecs",
+ "compression-core",
+ "futures-io",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "async-executor"
+version = "1.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c96bf972d85afc50bf5ab8fe2d54d1586b4e0b46c97c50a0c9e71e2f7bcd812a"
+dependencies = [
+ "async-task",
+ "concurrent-queue",
+ "fastrand",
+ "futures-lite",
+ "pin-project-lite",
+ "slab",
+]
+
+[[package]]
+name = "async-fs"
+version = "2.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8034a681df4aed8b8edbd7fbe472401ecf009251c8b40556b304567052e294c5"
+dependencies = [
+ "async-lock",
+ "blocking",
+ "futures-lite",
+]
+
+[[package]]
+name = "async-io"
+version = "2.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "456b8a8feb6f42d237746d4b3e9a178494627745c3c56c6ea55d92ba50d026fc"
+dependencies = [
+ "autocfg",
+ "cfg-if",
+ "concurrent-queue",
+ "futures-io",
+ "futures-lite",
+ "parking",
+ "polling",
+ "rustix",
+ "slab",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "async-lock"
+version = "3.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "290f7f2596bd5b78a9fec8088ccd89180d7f9f55b94b0576823bbbdc72ee8311"
+dependencies = [
+ "event-listener",
+ "event-listener-strategy",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "async-net"
+version = "2.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b948000fad4873c1c9339d60f2623323a0cfd3816e5181033c6a5cb68b2accf7"
+dependencies = [
+ "async-io",
+ "blocking",
+ "futures-lite",
+]
+
+[[package]]
+name = "async-process"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc50921ec0055cdd8a16de48773bfeec5c972598674347252c0399676be7da75"
+dependencies = [
+ "async-channel",
+ "async-io",
+ "async-lock",
+ "async-signal",
+ "async-task",
+ "blocking",
+ "cfg-if",
+ "event-listener",
+ "futures-lite",
+ "rustix",
+]
+
+[[package]]
+name = "async-recursion"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4f8abc12baad266b1c8cec146854c195b5864b4221d4b2ca7296a7ae82d9e451"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "async-signal"
+version = "0.2.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "52b5aaafa020cf5053a01f2a60e8ff5dccf550f0f77ec54a4e47285ac2bab485"
+dependencies = [
+ "async-io",
+ "async-lock",
+ "atomic-waker",
+ "cfg-if",
+ "futures-core",
+ "futures-io",
+ "rustix",
+ "signal-hook-registry",
+ "slab",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "async-task"
+version = "4.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8b75356056920673b02621b35afd0f7dda9306d03c79a30f5c56c44cf256e3de"
+
+[[package]]
+name = "async-trait"
+version = "0.1.92"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "82f6aeea286b8eb4dd3431a1be1b59d290ace00f5bfd8e2a159bc2a05e2c1667"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "atomic"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c59bdb34bc650a32731b31bd8f0829cc15d24a708ee31559e0bb34f2bc320cba"
+
+[[package]]
+name = "atomic-waker"
+version = "1.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
+
+[[package]]
+name = "atspi"
+version = "0.29.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c77886257be21c9cd89a4ae7e64860c6f0eefca799bb79127913052bd0eefb3d"
+dependencies = [
+ "atspi-common",
+ "atspi-proxies",
+]
+
+[[package]]
+name = "atspi-common"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20c5617155740c98003016429ad13fe43ce7a77b007479350a9f8bf95a29f63d"
+dependencies = [
+ "enumflags2",
+ "serde",
+ "static_assertions",
+ "zbus",
+ "zbus-lockstep",
+ "zbus-lockstep-macros",
+ "zbus_names",
+ "zvariant",
+]
+
+[[package]]
+name = "atspi-proxies"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2230e48787ed3eb4088996eab66a32ca20c0b67bbd4fd6cdfe79f04f1f04c9fc"
+dependencies = [
+ "atspi-common",
+ "serde",
+ "zbus",
+]
+
+[[package]]
+name = "autocfg"
+version = "1.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53"
+
+[[package]]
+name = "av-scenechange"
+version = "0.14.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0f321d77c20e19b92c39e7471cf986812cbb46659d2af674adc4331ef3f18394"
+dependencies = [
+ "aligned",
+ "anyhow",
+ "arg_enum_proc_macro",
+ "arrayvec",
+ "log",
+ "num-rational",
+ "num-traits",
+ "pastey",
+ "rayon",
+ "thiserror 2.0.21",
+ "v_frame",
+ "y4m",
+]
+
+[[package]]
+name = "av1-grain"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8cfddb07216410377231960af4fcab838eaa12e013417781b78bd95ee22077f8"
+dependencies = [
+ "anyhow",
+ "arrayvec",
+ "log",
+ "nom 8.0.0",
+ "num-rational",
+ "v_frame",
+]
+
+[[package]]
+name = "avif-serialize"
+version = "0.8.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e7178fe5f7d460b13895ebb9dcb28a3a6216d2df2574a0806cb51b555d297f38"
+dependencies = [
+ "arrayvec",
+]
+
+[[package]]
+name = "backtrace"
+version = "0.3.76"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bb531853791a215d7c62a30daf0dde835f381ab5de4589cfe7c649d2cbe92bd6"
+dependencies = [
+ "addr2line",
+ "cfg-if",
+ "libc",
+ "miniz_oxide 0.8.9",
+ "object",
+ "rustc-demangle",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "base64"
+version = "0.22.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
+
+[[package]]
+name = "bindgen"
+version = "0.72.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "993776b509cfb49c750f11b8f07a46fa23e0a1386ffc01fb1e7d343efc387895"
+dependencies = [
+ "bitflags 2.13.2",
+ "cexpr",
+ "clang-sys",
+ "itertools 0.13.0",
+ "log",
+ "prettyplease",
+ "proc-macro2",
+ "quote",
+ "regex",
+ "rustc-hash 2.1.3",
+ "shlex 1.3.0",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "bit-set"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "34ddef2995421ab6a5c779542c81ee77c115206f4ad9d5a8e05f4ff49716a3dd"
+dependencies = [
+ "bit-vec",
+]
+
+[[package]]
+name = "bit-vec"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b71798fca2c1fe1086445a7258a4bc81e6e49dcd24c8d0dd9a1e57395b603f51"
+
+[[package]]
+name = "bit_field"
+version = "0.10.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e4b40c7323adcfc0a41c4b88143ed58346ff65a288fc144329c5c45e05d70c6"
+
+[[package]]
+name = "bitflags"
+version = "1.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
+
+[[package]]
+name = "bitflags"
+version = "2.13.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ded4057c258ba199e2d26386d3af3780957ecaee6c4ef4041c6b4b8b97c0b06"
+
+[[package]]
+name = "bitstream-io"
+version = "4.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7eff00be299a18769011411c9def0d827e8f2d7bf0c3dbf53633147a8867fd1f"
+dependencies = [
+ "no_std_io2",
+]
+
+[[package]]
+name = "block"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
+
+[[package]]
+name = "block-buffer"
+version = "0.10.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
+dependencies = [
+ "generic-array",
+]
+
+[[package]]
+name = "block-padding"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a8894febbff9f758034a5b8e12d87918f56dfc64a8e1fe757d65e29041538d93"
+dependencies = [
+ "generic-array",
+]
+
+[[package]]
+name = "block2"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c132eebf10f5cad5289222520a4a058514204aed6d791f1cf4fe8088b82d15f"
+dependencies = [
+ "objc2 0.5.3",
+]
+
+[[package]]
+name = "block2"
+version = "0.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdeb9d870516001442e364c5220d3574d2da8dc765554b4a617230d33fa58ef5"
+dependencies = [
+ "objc2 0.6.5",
+]
+
+[[package]]
+name = "blocking"
+version = "1.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a70e4329df6cb94385eed412ec92375c3cdd8a6e502493d1229b6414e4036dfa"
+dependencies = [
+ "async-channel",
+ "async-task",
+ "futures-io",
+ "futures-lite",
+ "piper",
+]
+
+[[package]]
+name = "borsh"
+version = "1.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "553c5d846a6ba5150c65e3b1b8ec073bcf1abc20f9b7220de384a4443ea4e20a"
+dependencies = [
+ "bytes",
+ "cfg_aliases",
+]
+
+[[package]]
+name = "built"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c0e531d93d39c34eef561e929e8a7f86d77a5af08aac4f6d6e39976c51858e9"
+
+[[package]]
+name = "bumpalo"
+version = "3.20.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "72f5acc6cb2ba439de613abc23857ec3d78374d8ed5ac84e9d11336e87da8649"
+
+[[package]]
+name = "bytemuck"
+version = "1.25.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95832e849adfb21180ccb6826a99da14e5d266ae5c2e668e1602cf234f153797"
+dependencies = [
+ "bytemuck_derive",
+]
+
+[[package]]
+name = "bytemuck_derive"
+version = "1.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a1f896587b6f2c069c73d2f0913e2d590c3990285cd2f0b6aa02b786b4c679c"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "byteorder"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
+
+[[package]]
+name = "byteorder-lite"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f1fe948ff07f4bd06c30984e69f5b4899c516a3ef74f34df92a2df2ab535495"
+
+[[package]]
+name = "bytes"
+version = "1.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc652a48c352aef3ea3aed32080501cf3ef6ed5da78602a020c991775b0aff04"
+
+[[package]]
+name = "bzip2"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f3a53fac24f34a81bc9954b5d6cfce0c21e18ec6959f44f56e8e90e4bb7c346c"
+dependencies = [
+ "libbz2-rs-sys",
+]
+
+[[package]]
+name = "calloop"
+version = "0.14.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43b32313e937c8721c9d17ee9bf60699a6402b4b7c2cb6ac1bee0ffcaa4b4e5e"
+dependencies = [
+ "bitflags 2.13.2",
+ "polling",
+ "rustix",
+ "tracing",
+]
+
+[[package]]
+name = "calloop-wayland-source"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "138efcf0940a02ebf0cc8d1eff41a1682a46b431630f4c52450d6265876021fa"
+dependencies = [
+ "calloop",
+ "rustix",
+ "wayland-backend",
+ "wayland-client",
+]
+
+[[package]]
+name = "cbc"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "26b52a9543ae338f279b96b0b9fed9c8093744685043739079ce85cd58f289a6"
+dependencies = [
+ "cipher",
+]
+
+[[package]]
+name = "cbindgen"
+version = "0.28.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eadd868a2ce9ca38de7eeafdcec9c7065ef89b42b32f0839278d55f35c54d1ff"
+dependencies = [
+ "heck 0.4.1",
+ "indexmap",
+ "log",
+ "proc-macro2",
+ "quote",
+ "serde",
+ "serde_json",
+ "syn 2.0.119",
+ "tempfile",
+ "toml 0.8.23",
+]
+
+[[package]]
+name = "cc"
+version = "1.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f74872d07caf508b30a21f6836e7d7016a2eaf7d9ff4f48deaa58cd8a0407630"
+dependencies = [
+ "find-msvc-tools",
+ "jobserver",
+ "libc",
+ "shlex 2.0.1",
+]
+
+[[package]]
+name = "cexpr"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6fac387a98bb7c37292057cffc56d62ecb629900026402633ae9160df93a8766"
+dependencies = [
+ "nom 7.1.3",
+]
+
+[[package]]
+name = "cfg-if"
+version = "1.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600"
+
+[[package]]
+name = "cfg_aliases"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f079e83a288787bcd14a6aea84cee5c87a67c5a3e660c30f557a3d24761b3527"
+
+[[package]]
+name = "cgl"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ced0551234e87afee12411d535648dd89d2e7f34c78b753395567aff3d447ff"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "chrono"
+version = "0.4.45"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1aa79e62e7697b8e29b513a68abacf485adcd1fe8284a4316c5ae868e6633327"
+dependencies = [
+ "iana-time-zone",
+ "js-sys",
+ "num-traits",
+ "serde",
+ "wasm-bindgen",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "cipher"
+version = "0.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "773f3b9af64447d2ce9850330c473515014aa235e6a783b02db81ff39e4a3dad"
+dependencies = [
+ "crypto-common",
+ "inout",
+ "zeroize",
+]
+
+[[package]]
+name = "clang-sys"
+version = "1.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "157a8ba7b480713b56f4c09fd13fc3e0a22a5dfab8097ba61cbc5feef950788a"
+dependencies = [
+ "glob",
+ "libc",
+ "libloading",
+]
+
+[[package]]
+name = "cocoa"
+version = "0.25.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6140449f97a6e97f9511815c5632d84c8aacf8ac271ad77c559218161a1373c"
+dependencies = [
+ "bitflags 1.3.2",
+ "block",
+ "cocoa-foundation 0.1.2",
+ "core-foundation 0.9.4",
+ "core-graphics 0.23.2",
+ "foreign-types",
+ "libc",
+ "objc",
+]
+
+[[package]]
+name = "cocoa"
+version = "0.26.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f79398230a6e2c08f5c9760610eb6924b52aa9e7950a619602baba59dcbbdbb2"
+dependencies = [
+ "bitflags 2.13.2",
+ "block",
+ "cocoa-foundation 0.2.1",
+ "core-foundation 0.10.1",
+ "core-graphics 0.24.0",
+ "foreign-types",
+ "libc",
+ "objc",
+]
+
+[[package]]
+name = "cocoa-foundation"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8c6234cbb2e4c785b456c0644748b1ac416dd045799740356f8363dfe00c93f7"
+dependencies = [
+ "bitflags 1.3.2",
+ "block",
+ "core-foundation 0.9.4",
+ "core-graphics-types 0.1.3",
+ "libc",
+ "objc",
+]
+
+[[package]]
+name = "cocoa-foundation"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "81411967c50ee9a1fc11365f8c585f863a22a9697c89239c452292c40ba79b0d"
+dependencies = [
+ "bitflags 2.13.2",
+ "block",
+ "core-foundation 0.10.1",
+ "core-graphics-types 0.2.0",
+ "objc",
+]
+
+[[package]]
+name = "codespan-reporting"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af491d569909a7e4dee0ad7db7f5341fef5c614d5b8ec8cf765732aba3cff681"
+dependencies = [
+ "serde",
+ "termcolor",
+ "unicode-width",
+]
+
+[[package]]
+name = "collections-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2a7664443e4e4b91f28b500d779b12883edf32a80f61a963bda2ce32c2be3e66"
+dependencies = [
+ "gpui-util-gpui-unofficial",
+ "indexmap",
+ "rustc-hash 2.1.3",
+]
+
+[[package]]
+name = "color_quant"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b"
+
+[[package]]
+name = "compression-codecs"
+version = "0.4.45"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "98fc98460ba0ad5317075d3632b8dfc45d0be8c4a49347c2a38272019717614a"
+dependencies = [
+ "bzip2",
+ "compression-core",
+ "flate2",
+ "memchr",
+]
+
+[[package]]
+name = "compression-core"
+version = "0.4.33"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e8ccc4ea9f6acc32d102c0f6d471d11d913ad15f20c04de743374861fa1d414"
+
+[[package]]
+name = "concurrent-queue"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4ca0197aee26d1ae37445ee532fefce43251d24cc7c166799f4d46817f1d3973"
+dependencies = [
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "console_error_panic_hook"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc"
+dependencies = [
+ "cfg-if",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "const-random"
+version = "0.1.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "87e00182fe74b066627d63b85fd550ac2998d4b0bd86bfed477a0ae4c7c71359"
+dependencies = [
+ "const-random-macro",
+]
+
+[[package]]
+name = "const-random-macro"
+version = "0.1.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f9d839f2a20b0aee515dc581a6172f2321f96cab76c1a38a4c584a194955390e"
+dependencies = [
+ "getrandom 0.2.17",
+ "once_cell",
+ "tiny-keccak",
+]
+
+[[package]]
+name = "convert_case"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "633458d4ef8c78b72454de2d54fd6ab2e60f9e02be22f3c6104cdc8a4e0fceb9"
+dependencies = [
+ "unicode-segmentation",
+]
+
+[[package]]
+name = "core-foundation"
+version = "0.9.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91e195e091a93c46f7102ec7818a2aa394e1e1771c3ab4825963fa03e45afb8f"
+dependencies = [
+ "core-foundation-sys",
+ "libc",
+]
+
+[[package]]
+name = "core-foundation"
+version = "0.10.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b2a6cd9ae233e7f62ba4e9353e81a88df7fc8a5987b8d445b4d90c879bd156f6"
+dependencies = [
+ "core-foundation-sys",
+ "libc",
+]
+
+[[package]]
+name = "core-foundation-sys"
+version = "0.8.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
+
+[[package]]
+name = "core-graphics"
+version = "0.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c07782be35f9e1140080c6b96f0d44b739e2278479f64e02fdab4e32dfd8b081"
+dependencies = [
+ "bitflags 1.3.2",
+ "core-foundation 0.9.4",
+ "core-graphics-types 0.1.3",
+ "foreign-types",
+ "libc",
+]
+
+[[package]]
+name = "core-graphics"
+version = "0.24.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fa95a34622365fa5bbf40b20b75dba8dfa8c94c734aea8ac9a5ca38af14316f1"
+dependencies = [
+ "bitflags 2.13.2",
+ "core-foundation 0.10.1",
+ "core-graphics-types 0.2.0",
+ "foreign-types",
+ "libc",
+]
+
+[[package]]
+name = "core-graphics-helmer-fork"
+version = "0.24.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32eb7c354ae9f6d437a6039099ce7ecd049337a8109b23d73e48e8ffba8e9cd5"
+dependencies = [
+ "bitflags 2.13.2",
+ "core-foundation 0.9.4",
+ "core-graphics-types 0.1.3",
+ "foreign-types",
+ "libc",
+]
+
+[[package]]
+name = "core-graphics-types"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "45390e6114f68f718cc7a830514a96f903cccd70d02a8f6d9f643ac4ba45afaf"
+dependencies = [
+ "bitflags 1.3.2",
+ "core-foundation 0.9.4",
+ "libc",
+]
+
+[[package]]
+name = "core-graphics-types"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3d44a101f213f6c4cdc1853d4b78aef6db6bdfa3468798cc1d9912f4735013eb"
+dependencies = [
+ "bitflags 2.13.2",
+ "core-foundation 0.10.1",
+ "libc",
+]
+
+[[package]]
+name = "core-graphics2"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4416167a69126e617f8d0a214af0e3c1dbdeffcb100ddf72dcd1a1ac9893c146"
+dependencies = [
+ "bitflags 2.13.2",
+ "block",
+ "cfg-if",
+ "core-foundation 0.10.1",
+ "libc",
+]
+
+[[package]]
+name = "core-text"
+version = "21.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a593227b66cbd4007b2a050dfdd9e1d1318311409c8d600dc82ba1b15ca9c130"
+dependencies = [
+ "core-foundation 0.10.1",
+ "core-graphics 0.24.0",
+ "foreign-types",
+ "libc",
+]
+
+[[package]]
+name = "core-video"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "139679cc63eb9504bdbe37e37874b0247136177655f0008588781e90863afa62"
+dependencies = [
+ "block",
+ "core-foundation 0.10.1",
+ "core-graphics2",
+ "io-surface",
+ "libc",
+ "metal",
+]
+
+[[package]]
+name = "core_detect"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7f8f80099a98041a3d1622845c271458a2d73e688351bf3cb999266764b81d48"
+
+[[package]]
+name = "core_maths"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77745e017f5edba1a9c1d854f6f3a52dac8a12dd5af5d2f54aecf61e43d80d30"
+dependencies = [
+ "libm",
+]
+
+[[package]]
+name = "cosmic-text"
+version = "0.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "be17b688510d934ce13f48a2beba700e11583e281e0fda99c22bb256a14eda73"
+dependencies = [
+ "bitflags 2.13.2",
+ "fontdb",
+ "harfrust",
+ "linebender_resource_handle",
+ "log",
+ "rangemap",
+ "rustc-hash 2.1.3",
+ "self_cell",
+ "skrifa 0.40.0",
+ "smol_str",
+ "swash",
+ "sys-locale",
+ "unicode-bidi",
+ "unicode-linebreak",
+ "unicode-script",
+ "unicode-segmentation",
+]
+
+[[package]]
+name = "cpufeatures"
+version = "0.2.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "59ed5838eebb26a2bb2e58f6d5b5316989ae9d08bab10e0e6d103e656d1b0280"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "crc32fast"
+version = "1.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "01a7799fd6b852db0e61728dde9a204c423b44d689dbd432522543614b490e78"
+dependencies = [
+ "cfg-if",
+]
+
+[[package]]
+name = "crossbeam-deque"
+version = "0.8.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "622f3fc73690be383c7214310406f28a90e6edeadc3cea882f9d71e495b9711a"
+dependencies = [
+ "crossbeam-epoch",
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "crossbeam-epoch"
+version = "0.9.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc74980687109a3b14c72fd458107bf0baa1da1a1a805e178d15501ba9b86d9d"
+dependencies = [
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "crossbeam-queue"
+version = "0.3.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "03e8bd762f7479489c70ed6c768ddca99d7296857de437a68dcb2a94365b3fae"
+dependencies = [
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "crossbeam-utils"
+version = "0.8.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a31eee39dddec8330830986fcd7625edb5a24ec90ea038215273bbc3adb08ac6"
+
+[[package]]
+name = "crunchy"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "460fbee9c2c2f33933d720630a6a0bac33ba7053db5344fac858d4b8952d77d5"
+
+[[package]]
+name = "crypto-common"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "78c8292055d1c1df0cce5d180393dc8cce0abec0a7102adb6c7b1eef6016d60a"
+dependencies = [
+ "generic-array",
+ "typenum",
+]
+
+[[package]]
+name = "ctor"
+version = "1.0.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "914a755b7c2d4af2bdcff7ce1739e2db9a1b81a9b07123d8015786ae03c0980d"
+dependencies = [
+ "link-section",
+ "linktime-proc-macro",
+]
+
+[[package]]
+name = "data-url"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "be1e0bca6c3637f992fc1cc7cbc52a78c1ef6db076dbf1059c4323d6a2048376"
+
+[[package]]
+name = "deranged"
+version = "0.5.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7cd812cc2bc1d69d4764bd80df88b4317eaef9e773c75226407d9bc0876b211c"
+
+[[package]]
+name = "derive-refineable-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "caa6793408e5558ee316f4a7c97aa6dbb0b2e76559b7d89af4bf94036ddcdacb"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "derive_more"
+version = "2.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d751e9e49156b02b44f9c1815bcb94b984cdcc4396ecc32521c739452808b134"
+dependencies = [
+ "derive_more-impl",
+]
+
+[[package]]
+name = "derive_more-impl"
+version = "2.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "799a97264921d8623a957f6c3b9011f3b5492f557bbb7a5a19b7fa6d06ba8dcb"
+dependencies = [
+ "convert_case",
+ "proc-macro2",
+ "quote",
+ "rustc_version",
+ "syn 2.0.119",
+ "unicode-xid",
+]
+
+[[package]]
+name = "digest"
+version = "0.10.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292"
+dependencies = [
+ "block-buffer",
+ "crypto-common",
+ "subtle",
+]
+
+[[package]]
+name = "dirs"
+version = "5.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "44c45a9d03d6676652bcb5e724c7e988de1acad23a711b5217ab9cbecbec2225"
+dependencies = [
+ "dirs-sys",
+]
+
+[[package]]
+name = "dirs-sys"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "520f05a5cbd335fae5a99ff7a6ab8627577660ee5cfd6a94a6a929b52ff0321c"
+dependencies = [
+ "libc",
+ "option-ext",
+ "redox_users",
+ "windows-sys 0.48.0",
+]
+
+[[package]]
+name = "dispatch"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b"
+
+[[package]]
+name = "dispatch2"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e0e367e4e7da84520dedcac1901e4da967309406d1e51017ae1abfb97adbd38"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "libc",
+ "objc2 0.6.5",
+]
+
+[[package]]
+name = "displaydoc"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6232dd377dcc64799954cbd3a9bb882e9cdc1308ccd87b1c098f1fb2eaf82a8"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "dlib"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ab8ecd87370524b461f8557c119c405552c396ed91fc0a8eec68679eab26f94a"
+dependencies = [
+ "libloading",
+]
+
+[[package]]
+name = "document-features"
+version = "0.2.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d4b8a88685455ed29a21542a33abd9cb6510b6b129abadabdcef0f4c55bc8f61"
+dependencies = [
+ "litrs",
+]
+
+[[package]]
+name = "downcast-rs"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "75b325c5dbd37f80359721ad39aca5a29fb04c89279657cffdda8736d0c0b9d2"
+
+[[package]]
+name = "dunce"
+version = "1.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92773504d58c093f6de2459af4af33faa518c13451eb8f2b5698ed3d36e7c813"
+
+[[package]]
+name = "dwrote"
+version = "0.11.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9e1b35532432acc8b19ceed096e35dfa088d3ea037fe4f3c085f1f97f33b4d02"
+dependencies = [
+ "lazy_static",
+ "libc",
+ "winapi",
+ "wio",
+]
+
+[[package]]
+name = "dyn-clone"
+version = "1.0.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d0881ea181b1df73ff77ffaaf9c7544ecc11e82fba9b5f27b262a3c73a332555"
+
+[[package]]
+name = "either"
+version = "1.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0e9c71c2167ca323c882b99918929403426e2373ea17242ff5653e0d5e1058be"
+
+[[package]]
+name = "embed-resource"
+version = "3.0.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6168487b5e7eb2673e6efe1200b1848016e436a6ca0b8031bf04bd9d493a249f"
+dependencies = [
+ "cc",
+ "memchr",
+ "rustc_version",
+ "toml 1.1.8+spec-1.1.0",
+ "vswhom",
+ "winreg",
+]
+
+[[package]]
+name = "encoding_rs"
+version = "0.8.42"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e985e0451871ad22fb8d2b6b076e2028a502a0d3950998c2c5c0a4f9b5d9679"
+dependencies = [
+ "cfg-if",
+ "core_detect",
+ "multiversion_no_op",
+ "rustversion",
+ "scopeguard",
+ "simdutf8",
+]
+
+[[package]]
+name = "endi"
+version = "1.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "66b7e2430c6dff6a955451e2cfc438f09cea1965a9d6f87f7e3b90decc014099"
+
+[[package]]
+name = "enumflags2"
+version = "0.7.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1027f7680c853e056ebcec683615fb6fbbc07dbaa13b4d5d9442b146ded4ecef"
+dependencies = [
+ "enumflags2_derive",
+ "serde",
+]
+
+[[package]]
+name = "enumflags2_derive"
+version = "0.7.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "67c78a4d8fdf9953a5c9d458f9efe940fd97a0cab0941c075a813ac594733827"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "enumn"
+version = "0.1.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2f9ed6b3789237c8a0c1c505af1c7eb2c560df6186f01b098c3a1064ea532f38"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "equator"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4711b213838dfee0117e3be6ac926007d7f433d7bbe33595975d4190cb07e6fc"
+dependencies = [
+ "equator-macro",
+]
+
+[[package]]
+name = "equator-macro"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "44f23cf4b44bfce11a86ace86f8a73ffdec849c9fd00a386a53d278bd9e81fb3"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "equivalent"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
+
+[[package]]
+name = "erased-serde"
+version = "0.4.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d2add8a07dd6a8d93ff627029c51de145e12686fbc36ecb298ac22e74cf02dec"
+dependencies = [
+ "serde",
+ "serde_core",
+ "typeid",
+]
+
+[[package]]
+name = "errno"
+version = "0.3.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
+dependencies = [
+ "libc",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "etagere"
+version = "0.2.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc89bf99e5dc15954a60f707c1e09d7540e5cd9af85fa75caa0b510bc08c5342"
+dependencies = [
+ "euclid",
+ "svg_fmt",
+]
+
+[[package]]
+name = "euclid"
+version = "0.22.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f1a05365e3b1c6d1650318537c7460c6923f1abdd272ad6842baa2b509957a06"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "event-listener"
+version = "5.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a23add41df1562121a9393cb065eab5146a1242410f23a644851e90cfd669d2"
+dependencies = [
+ "parking",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "event-listener-strategy"
+version = "0.5.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8be9f3dfaaffdae2972880079a491a1a8bb7cbed0b8dd7a347f668b4150a3b93"
+dependencies = [
+ "event-listener",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "exr"
+version = "1.74.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "711fe42c9964295e01ee3fba3f9fe0e1d24b98886950d68efe81b1c76e21adf3"
+dependencies = [
+ "bit_field",
+ "half",
+ "lebe",
+ "miniz_oxide 0.8.9",
+ "num-complex",
+ "pulp",
+ "rayon-core",
+ "smallvec",
+ "zune-inflate",
+]
+
+[[package]]
+name = "fastrand"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223"
+dependencies = [
+ "getrandom 0.4.3",
+]
+
+[[package]]
+name = "fax"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "caf1079563223d5d59d83c85886a56e586cfd5c1a26292e971a0fa266531ac5a"
+
+[[package]]
+name = "fdeflate"
+version = "0.3.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e6853b52649d4ac5c0bd02320cddc5ba956bdb407c4b75a2c6b75bf51500f8c"
+dependencies = [
+ "simd-adler32",
+]
+
+[[package]]
+name = "filedescriptor"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e40758ed24c9b2eeb76c35fb0aebc66c626084edd827e07e1552279814c6682d"
+dependencies = [
+ "libc",
+ "thiserror 1.0.69",
+ "winapi",
+]
+
+[[package]]
+name = "find-msvc-tools"
+version = "0.1.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484"
+
+[[package]]
+name = "fixedbitset"
+version = "0.5.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1d674e81391d1e1ab681a28d99df07927c6d4aa5b027d7da16ba32d1d21ecd99"
+
+[[package]]
+name = "flate2"
+version = "1.1.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e634e2e0ebac1ee034020da1ca582e17ffe4e0f5e985823721e168928136dcb"
+dependencies = [
+ "crc32fast",
+ "miniz_oxide 0.9.1",
+ "zlib-rs",
+]
+
+[[package]]
+name = "float-cmp"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "98de4bbd547a563b716d8dfa9aad1cb19bfab00f4fa09a6a4ed21dbcf44ce9c4"
+
+[[package]]
+name = "float-ord"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8ce81f49ae8a0482e4c55ea62ebbd7e5a686af544c00b9d090bba3ff9be97b3d"
+
+[[package]]
+name = "float_next_after"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8bf7cc16383c4b8d58b9905a8509f02926ce3058053c056376248d958c9df1e8"
+
+[[package]]
+name = "flume"
+version = "0.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5e139bc46ca777eb5efaf62df0ab8cc5fd400866427e56c68b22e414e53bd3be"
+dependencies = [
+ "fastrand",
+ "futures-core",
+ "futures-sink",
+ "spin 0.9.9",
+]
+
+[[package]]
+name = "foldhash"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d9c4f5dac5e15c24eb999c26181a6ca40b39fe946cbe4c263c7209467bc83af2"
+
+[[package]]
+name = "foldhash"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77ce24cb58228fbb8aa041425bb1050850ac19177686ea6e0f41a70416f56fdb"
+
+[[package]]
+name = "font-types"
+version = "0.11.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b38ad915f6dadd993ced50848a8291a543bd41ca62bc10740d5e64e2ab4cfd7"
+dependencies = [
+ "bytemuck",
+]
+
+[[package]]
+name = "font-types"
+version = "0.12.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c92d9081c7ab3bd83ef1eecdfad090f3d966e3ce74106779664114cfe1a6274"
+dependencies = [
+ "bytemuck",
+]
+
+[[package]]
+name = "fontconfig-parser"
+version = "0.5.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbc773e24e02d4ddd8395fd30dc147524273a83e54e0f312d986ea30de5f5646"
+dependencies = [
+ "roxmltree 0.20.0",
+]
+
+[[package]]
+name = "fontdb"
+version = "0.23.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "457e789b3d1202543297a350643cf459f836cade38934e7a4cf6a39e7cde2905"
+dependencies = [
+ "fontconfig-parser",
+ "log",
+ "memmap2",
+ "slotmap",
+ "tinyvec",
+ "ttf-parser",
+]
+
+[[package]]
+name = "foreign-types"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d737d9aa519fb7b749cbc3b962edcf310a8dd1f4b67c91c4f83975dbdd17d965"
+dependencies = [
+ "foreign-types-macros",
+ "foreign-types-shared",
+]
+
+[[package]]
+name = "foreign-types-macros"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ea5190182e6915eb873ddbc16e23b711b6eb1f9c00a0d0a3a91b5f6228475225"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "foreign-types-shared"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aa9a19cbb55df58761df49b23516a86d432839add4af60fc256da840f66ed35b"
+
+[[package]]
+name = "form_urlencoded"
+version = "1.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cb4cb245038516f5f85277875cdaa4f7d2c9a0fa0468de06ed190163b1581fcf"
+dependencies = [
+ "percent-encoding",
+]
+
+[[package]]
+name = "freetype-sys"
+version = "0.20.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0e7edc5b9669349acfda99533e9e0bcf26a51862ab43b08ee7745c55d28eb134"
+dependencies = [
+ "cc",
+ "libc",
+ "pkg-config",
+]
+
+[[package]]
+name = "futures"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a31d2a3fbaaeb2af2368bbdd904aa8e812d3c04a1ee10d3171f52d556e5d0a3"
+dependencies = [
+ "futures-channel",
+ "futures-core",
+ "futures-executor",
+ "futures-io",
+ "futures-sink",
+ "futures-task",
+ "futures-util",
+]
+
+[[package]]
+name = "futures-channel"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1f9e3d69d39e4862ffed03ed071a76f9a13ba1d9109d355b0f0aa6b15e393c4"
+dependencies = [
+ "futures-core",
+ "futures-sink",
+]
+
+[[package]]
+name = "futures-concurrency"
+version = "7.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "175cd8cca9e1d45b87f18ffa75088f2099e3c4fe5e2f83e42de112560bea8ea6"
+dependencies = [
+ "fixedbitset",
+ "futures-core",
+ "futures-lite",
+ "pin-project",
+ "smallvec",
+]
+
+[[package]]
+name = "futures-core"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92d699e522242e69e3003b94ecc1f960f3a5e015aa7c5d7486e65ad01dd94f5e"
+
+[[package]]
+name = "futures-executor"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "031b47cf1a3c6cc8bc2fc76cd437f521619387907d469316e7c0bc278f1f5432"
+dependencies = [
+ "futures-core",
+ "futures-task",
+ "futures-util",
+]
+
+[[package]]
+name = "futures-io"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "53c0fa8157de1303bfffdaa1cc2a673bfffb60102f76b0ef4441659124373fed"
+
+[[package]]
+name = "futures-lite"
+version = "2.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f78e10609fe0e0b3f4157ffab1876319b5b0db102a2c60dc4626306dc46b44ad"
+dependencies = [
+ "fastrand",
+ "futures-core",
+ "futures-io",
+ "parking",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "futures-macro"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9fb9654ba8355388abeb8dcb4fc62f511300867002afc858860463bdd9fe0c44"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "futures-sink"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1944426bf7d03f1d14f708785e4b33efd750b36d48a157b836b3efc15ede8e1d"
+
+[[package]]
+name = "futures-task"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cd417de3d1d015fc3bfd2b1ea46dfc7bab72ef86f1cc7cc9c78e728b34a6d1fd"
+
+[[package]]
+name = "futures-util"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0d50a92467f8ba5dd6e3ee5d4bd04d73ab2e4e1c44474a0674821dfce14b79bc"
+dependencies = [
+ "futures-channel",
+ "futures-core",
+ "futures-io",
+ "futures-macro",
+ "futures-sink",
+ "futures-task",
+ "memchr",
+ "pin-project-lite",
+ "slab",
+]
+
+[[package]]
+name = "generic-array"
+version = "0.14.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a"
+dependencies = [
+ "typenum",
+ "version_check",
+]
+
+[[package]]
+name = "gethostname"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1bd49230192a3797a9a4d6abe9b3eed6f7fa4c8a8a4947977c6f80025f92cbd8"
+dependencies = [
+ "rustix",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "getrandom"
+version = "0.2.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ff2abc00be7fca6ebc474524697ae276ad847ad0a6b3faa4bcb027e9a4614ad0"
+dependencies = [
+ "cfg-if",
+ "libc",
+ "wasi",
+]
+
+[[package]]
+name = "getrandom"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "899def5c37c4fd7b2664648c28120ecec138e4d395b459e5ca34f9cce2dd77fd"
+dependencies = [
+ "cfg-if",
+ "js-sys",
+ "libc",
+ "r-efi 5.3.0",
+ "wasip2",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "getrandom"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "300e883d756b2e4ec94e02791f39b04b522276138852cfc41d9fb7e904106099"
+dependencies = [
+ "cfg-if",
+ "js-sys",
+ "libc",
+ "r-efi 6.0.0",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "gif"
+version = "0.14.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee8cfcc411d9adbbaba82fb72661cc1bcca13e8bba98b364e62b2dba8f960159"
+dependencies = [
+ "color_quant",
+ "weezl",
+]
+
+[[package]]
+name = "gimli"
+version = "0.32.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e629b9b98ef3dd8afe6ca2bd0f89306cec16d43d907889945bc5d6687f2f13c7"
+
+[[package]]
+name = "gl_generator"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1a95dfc23a2b4a9a2f5ab41d194f8bfda3cabec42af4e39f08c339eb2a0c124d"
+dependencies = [
+ "khronos_api",
+ "log",
+ "xml-rs",
+]
+
+[[package]]
+name = "glob"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4eba85ea1d0a966a983acd07deee566e67395d2d96b6fb39e62b5a833f1eb0b"
+
+[[package]]
+name = "glow"
+version = "0.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "29038e1c483364cc6bb3cf78feee1816002e127c331a1eec55a4d202b9e1adb5"
+dependencies = [
+ "js-sys",
+ "slotmap",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "glutin_wgl_sys"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c4ee00b289aba7a9e5306d57c2d05499b2e5dc427f84ac708bd2c090212cf3e"
+dependencies = [
+ "gl_generator",
+]
+
+[[package]]
+name = "gpu-allocator"
+version = "0.28.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "51255ea7cfaadb6c5f1528d43e92a82acb2b96c43365989a28b2d44ee38f8795"
+dependencies = [
+ "ash",
+ "hashbrown 0.16.1",
+ "log",
+ "presser",
+ "thiserror 2.0.21",
+ "windows 0.62.2",
+]
+
+[[package]]
+name = "gpu-descriptor"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b89c83349105e3732062a895becfc71a8f921bb71ecbbdd8ff99263e3b53a0ca"
+dependencies = [
+ "bitflags 2.13.2",
+ "gpu-descriptor-types",
+ "hashbrown 0.15.5",
+]
+
+[[package]]
+name = "gpu-descriptor-types"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fdf242682df893b86f33a73828fb09ca4b2d3bb6cc95249707fc684d27484b91"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "gpui-apple-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6e69b78bb4367ebd75fccc057bad5f69bd0951311c4cae29ec14bcfd00fd6ce"
+dependencies = [
+ "anyhow",
+ "block2 0.6.2",
+ "cbindgen",
+ "cocoa 0.26.0",
+ "core-foundation 0.10.1",
+ "core-video",
+ "derive_more",
+ "etagere",
+ "foreign-types",
+ "gpui-unofficial",
+ "image",
+ "log",
+ "metal",
+ "objc",
+ "objc2 0.6.5",
+ "parking_lot",
+]
+
+[[package]]
+name = "gpui-linux-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0c749252bc703280dbdbfa5d5d36d8d5f1f410019d14e9f831fe2f6fedc76b2e"
+dependencies = [
+ "accesskit",
+ "accesskit_unix",
+ "anyhow",
+ "as-raw-xcb-connection",
+ "ashpd",
+ "bitflags 2.13.2",
+ "bytemuck",
+ "calloop",
+ "calloop-wayland-source",
+ "collections-gpui-unofficial",
+ "filedescriptor",
+ "futures",
+ "gpui-unofficial",
+ "gpui-util-gpui-unofficial",
+ "gpui-wgpu-gpui-unofficial",
+ "http-client-gpui-unofficial",
+ "libc",
+ "log",
+ "notify-rust",
+ "oo7",
+ "open",
+ "parking_lot",
+ "raw-window-handle",
+ "smallvec",
+ "smol",
+ "strum",
+ "url",
+ "uuid",
+ "wayland-backend",
+ "wayland-client",
+ "wayland-cursor",
+ "wayland-protocols",
+ "wayland-protocols-plasma",
+ "wayland-protocols-wlr",
+ "x11rb",
+ "xkbcommon",
+ "zed-scap",
+ "zed-xim",
+]
+
+[[package]]
+name = "gpui-macos-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c56cbca37e99329acb7d03dfdaa15dc8c5af4dfb1b547b502821ffd59a89ff8"
+dependencies = [
+ "accesskit",
+ "accesskit_macos",
+ "anyhow",
+ "async-task",
+ "block2 0.6.2",
+ "cocoa 0.26.0",
+ "collections-gpui-unofficial",
+ "core-foundation 0.10.1",
+ "core-foundation-sys",
+ "core-graphics 0.24.0",
+ "core-text",
+ "ctor",
+ "dispatch2",
+ "foreign-types",
+ "futures",
+ "gpui-apple-gpui-unofficial",
+ "gpui-unofficial",
+ "gpui-util-gpui-unofficial",
+ "image",
+ "itertools 0.14.0",
+ "libc",
+ "log",
+ "mach2",
+ "objc",
+ "objc2 0.6.5",
+ "objc2-app-kit 0.3.2",
+ "objc2-core-graphics",
+ "objc2-core-media",
+ "objc2-foundation 0.3.2",
+ "objc2-screen-capture-kit",
+ "objc2-user-notifications",
+ "parking_lot",
+ "pathfinder_geometry",
+ "raw-window-handle",
+ "semver",
+ "smallvec",
+ "strum",
+ "uuid",
+ "zed-font-kit",
+]
+
+[[package]]
+name = "gpui-macros-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "90e2d319cffc9babae40310150a402e0dfc5b75f4a6af516d18a3bbb4458dc26"
+dependencies = [
+ "heck 0.5.0",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "gpui-platform-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "400d1788e0de85186718e04639075c66ff20d99bd53213850feeffd821b19ac7"
+dependencies = [
+ "anyhow",
+ "console_error_panic_hook",
+ "gpui-linux-gpui-unofficial",
+ "gpui-macos-gpui-unofficial",
+ "gpui-unofficial",
+ "gpui-web-gpui-unofficial",
+ "gpui-windows-gpui-unofficial",
+]
+
+[[package]]
+name = "gpui-shared-string-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f373a7f4e4ceb3d6cce9303b7fd9d2d446b53ecb0975c8fb2c5f015a52a73cf"
+dependencies = [
+ "schemars",
+ "serde",
+ "smol_str",
+]
+
+[[package]]
+name = "gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "30cae1d425a74501d233774ff3510dc20dc020479005d392c624248d52d6de68"
+dependencies = [
+ "accesskit",
+ "anyhow",
+ "async-channel",
+ "async-task",
+ "bindgen",
+ "bitflags 2.13.2",
+ "chrono",
+ "collections-gpui-unofficial",
+ "core-video",
+ "ctor",
+ "derive_more",
+ "embed-resource",
+ "etagere",
+ "futures",
+ "futures-concurrency",
+ "getrandom 0.3.4",
+ "gpui-macros-gpui-unofficial",
+ "gpui-shared-string-gpui-unofficial",
+ "gpui-util-gpui-unofficial",
+ "heapless",
+ "http-client-gpui-unofficial",
+ "image",
+ "inventory",
+ "itertools 0.14.0",
+ "libc",
+ "log",
+ "lyon",
+ "num_cpus",
+ "objc2-core-foundation",
+ "objc2-core-video",
+ "parking",
+ "parking_lot",
+ "pin-project",
+ "pollster 0.4.0",
+ "postage",
+ "profiling",
+ "rand 0.9.5",
+ "raw-window-handle",
+ "refineable-gpui-unofficial",
+ "regex",
+ "resvg",
+ "scheduler-gpui-unofficial",
+ "schemars",
+ "seahash",
+ "serde",
+ "serde_json",
+ "slotmap",
+ "smallvec",
+ "spin 0.10.1",
+ "strum",
+ "sum-tree-gpui-unofficial",
+ "taffy",
+ "thiserror 2.0.21",
+ "ttf-parser",
+ "url",
+ "usvg",
+ "util-macros-gpui-unofficial",
+ "uuid",
+ "waker-fn",
+ "web-time",
+ "windows 0.62.2",
+ "zed-font-kit",
+ "zed-scap",
+]
+
+[[package]]
+name = "gpui-util-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4d7d4f349a6ccc2dc7714e306431ec0b6f152f15fc2cb7e9b577e2e5c7f8157f"
+dependencies = [
+ "anyhow",
+ "log",
+ "which",
+]
+
+[[package]]
+name = "gpui-web-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca5ca7f24330a9a96b886d660f19d54c9b00b5df2767ae649c4ccbc76e2eb820"
+dependencies = [
+ "anyhow",
+ "console_error_panic_hook",
+ "futures",
+ "gpui-unofficial",
+ "gpui-wgpu-gpui-unofficial",
+ "http-client-gpui-unofficial",
+ "js-sys",
+ "log",
+ "parking_lot",
+ "raw-window-handle",
+ "scheduler-gpui-unofficial",
+ "smallvec",
+ "unicode-properties",
+ "unicode-script",
+ "unicode-segmentation",
+ "uuid",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm_thread",
+ "web-sys",
+ "web-time",
+]
+
+[[package]]
+name = "gpui-wgpu-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb69fda3ed08763a0ae289e7a7b0b99c3e68808a6a552419ddeae951f502d5d6"
+dependencies = [
+ "anyhow",
+ "bytemuck",
+ "collections-gpui-unofficial",
+ "cosmic-text",
+ "etagere",
+ "gpui-unofficial",
+ "gpui-util-gpui-unofficial",
+ "itertools 0.14.0",
+ "log",
+ "parking_lot",
+ "profiling",
+ "raw-window-handle",
+ "smallvec",
+ "swash",
+ "unicode-bidi",
+ "unicode-segmentation",
+ "web-sys",
+ "wgpu",
+ "zed-font-kit",
+]
+
+[[package]]
+name = "gpui-windows-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6a7fcce9da9510e4aae344eaf938b3db5023a6f51f7eee4d63409bfd5e10df8"
+dependencies = [
+ "accesskit",
+ "accesskit_windows",
+ "anyhow",
+ "collections-gpui-unofficial",
+ "dunce",
+ "etagere",
+ "futures",
+ "gpui-unofficial",
+ "gpui-util-gpui-unofficial",
+ "image",
+ "itertools 0.14.0",
+ "log",
+ "parking_lot",
+ "rand 0.9.5",
+ "raw-window-handle",
+ "smallvec",
+ "uuid",
+ "windows 0.62.2",
+ "windows-core 0.62.2",
+ "windows-numerics 0.3.1",
+ "windows-registry",
+]
+
+[[package]]
+name = "half"
+version = "2.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6ea2d84b969582b4b1864a92dc5d27cd2b77b622a8d79306834f1be5ba20d84b"
+dependencies = [
+ "cfg-if",
+ "crunchy",
+ "num-traits",
+ "zerocopy",
+]
+
+[[package]]
+name = "harfrust"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9da2e5ae821f6e96664977bf974d6d6a2d6682f9ccee23e62ec1d134246845f9"
+dependencies = [
+ "bitflags 2.13.2",
+ "bytemuck",
+ "core_maths",
+ "read-fonts 0.37.0",
+ "smallvec",
+]
+
+[[package]]
+name = "hash32"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "47d60b12902ba28e2730cd37e95b8c9223af2808df9e902d4df49588d1470606"
+dependencies = [
+ "byteorder",
+]
+
+[[package]]
+name = "hashbrown"
+version = "0.14.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e5274423e17b7c9fc20b6e7e208532f9b19825d82dfd615708b70edd83df41f1"
+
+[[package]]
+name = "hashbrown"
+version = "0.15.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9229cfe53dfd69f0609a49f65461bd93001ea1ef889cd5529dd176593f5338a1"
+dependencies = [
+ "foldhash 0.1.5",
+]
+
+[[package]]
+name = "hashbrown"
+version = "0.16.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "841d1cc9bed7f9236f321df977030373f4a4163ae1a7dbfe1a51a2c1a51d9100"
+dependencies = [
+ "allocator-api2",
+ "equivalent",
+ "foldhash 0.2.0",
+]
+
+[[package]]
+name = "hashbrown"
+version = "0.17.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
+
+[[package]]
+name = "heapless"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "25ba4bd83f9415b58b4ed8dc5714c76e626a105be4646c02630ad730ad3b5aa4"
+dependencies = [
+ "hash32",
+ "stable_deref_trait",
+]
+
+[[package]]
+name = "heck"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
+
+[[package]]
+name = "heck"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
+
+[[package]]
+name = "hedging"
+version = "0.1.0"
+dependencies = [
+ "gpui-platform-gpui-unofficial",
+ "gpui-unofficial",
+]
+
+[[package]]
+name = "hermit-abi"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e17592d60ebacc7d5e169f4663c5f84f9161cc90328abcfe8456f41e4dfcb284"
+
+[[package]]
+name = "hex"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
+
+[[package]]
+name = "hexf-parse"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df"
+
+[[package]]
+name = "hkdf"
+version = "0.12.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7b5f8eb2ad728638ea2c7d47a21db23b7b58a72ed6a38256b8a1849f15fbbdf7"
+dependencies = [
+ "hmac",
+]
+
+[[package]]
+name = "hmac"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c49c37c09c17a53d937dfbb742eb3a961d65a994e6bcdcf37e7399d0cc8ab5e"
+dependencies = [
+ "digest",
+]
+
+[[package]]
+name = "http"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "918d3568bebf352712bc2ef3d46a8bcf1a75b373be6539de198e9105cbbf9ce0"
+dependencies = [
+ "bytes",
+ "itoa",
+]
+
+[[package]]
+name = "http-body"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca2a8f2913ee65f60facd6a5905613afaa448497a0230cc41ce022d93290bc2c"
+dependencies = [
+ "bytes",
+ "http",
+]
+
+[[package]]
+name = "http-client-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "da36ebcf08ddb51e4c1def7a90f5d6a25bbc73ed119580080254b500bf67dfe7"
+dependencies = [
+ "anyhow",
+ "async-compression",
+ "bytes",
+ "derive_more",
+ "futures",
+ "http",
+ "http-body",
+ "log",
+ "parking_lot",
+ "serde",
+ "serde_json",
+ "serde_urlencoded",
+ "url",
+]
+
+[[package]]
+name = "iana-time-zone"
+version = "0.1.65"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e31bc9ad994ba00e440a8aa5c9ef0ec67d5cb5e5cb0cc7f8b744a35b389cc470"
+dependencies = [
+ "android_system_properties",
+ "core-foundation-sys",
+ "iana-time-zone-haiku",
+ "js-sys",
+ "log",
+ "wasm-bindgen",
+ "windows-core 0.62.2",
+]
+
+[[package]]
+name = "iana-time-zone-haiku"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f31827a206f56af32e590ba56d5d2d085f558508192593743f16b2306495269f"
+dependencies = [
+ "cc",
+]
+
+[[package]]
+name = "icu_collections"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fa68d21081c4a05d5a901a1c62add574c77048b6a1c67be3b50ce0b60d4ca513"
+dependencies = [
+ "displaydoc",
+ "potential_utf",
+ "utf8_iter",
+ "yoke",
+ "zerofrom",
+ "zerovec",
+]
+
+[[package]]
+name = "icu_locale_core"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d56e28588da92eee5c3201a6eff33fabdd49b62269c8938d4ff050ce4d900deb"
+dependencies = [
+ "displaydoc",
+ "litemap",
+ "tinystr",
+ "writeable",
+ "zerovec",
+]
+
+[[package]]
+name = "icu_normalizer"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "12f9cf5f235641ed274641dd81c3f28d870e276763d0797aeeab72317b1c646f"
+dependencies = [
+ "icu_collections",
+ "icu_normalizer_data",
+ "icu_properties",
+ "icu_provider",
+ "smallvec",
+ "zerovec",
+]
+
+[[package]]
+name = "icu_normalizer_data"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1563da1ed3e0b3bf3d74c9b85917ac9c56464d2f57242270c09c9e752f8021a0"
+
+[[package]]
+name = "icu_properties"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7e7ca276ad3145661a65914e6daf131ca5120cd3dcee8f8f3214b8875184a148"
+dependencies = [
+ "displaydoc",
+ "icu_collections",
+ "icu_locale_core",
+ "icu_properties_data",
+ "icu_provider",
+ "zerotrie",
+ "zerovec",
+]
+
+[[package]]
+name = "icu_properties_data"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e590f038c1464a96894fd6d10127e90a8be4509f56ff7ecef851b15cee0b7caa"
+
+[[package]]
+name = "icu_provider"
+version = "2.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d27bbb9d3abbefac45d55f647c9de1d44aafcd1186eb91879afef17c396c3e73"
+dependencies = [
+ "displaydoc",
+ "icu_locale_core",
+ "writeable",
+ "yoke",
+ "zerofrom",
+ "zerotrie",
+ "zerovec",
+]
+
+[[package]]
+name = "idna"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de"
+dependencies = [
+ "idna_adapter",
+ "smallvec",
+ "utf8_iter",
+]
+
+[[package]]
+name = "idna_adapter"
+version = "1.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cb68373c0d6620ef8105e855e7745e18b0d00d3bdb07fb532e434244cdb9a714"
+dependencies = [
+ "icu_normalizer",
+ "icu_properties",
+]
+
+[[package]]
+name = "image"
+version = "0.25.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85ab80394333c02fe689eaf900ab500fbd0c2213da414687ebf995a65d5a6104"
+dependencies = [
+ "bytemuck",
+ "byteorder-lite",
+ "color_quant",
+ "exr",
+ "gif",
+ "image-webp",
+ "moxcms",
+ "num-traits",
+ "png 0.18.1",
+ "qoi",
+ "ravif",
+ "rayon",
+ "tiff",
+ "zune-core",
+ "zune-jpeg",
+]
+
+[[package]]
+name = "image-webp"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "525e9ff3e1a4be2fbea1fdf0e98686a6d98b4d8f937e1bf7402245af1909e8c3"
+dependencies = [
+ "byteorder-lite",
+ "quick-error",
+]
+
+[[package]]
+name = "imagesize"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09e54e57b4c48b40f7aec75635392b12b3421fa26fe8b4332e63138ed278459c"
+
+[[package]]
+name = "imgref"
+version = "1.12.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e44b0a4eaa4c82f441d50a963f2d5f05a787240aeee097597033e72accfd22f"
+
+[[package]]
+name = "indexmap"
+version = "2.14.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc4e190f5d26ca7051642629da2c52fc03bde85a03197c99408dcd291734c855"
+dependencies = [
+ "equivalent",
+ "hashbrown 0.17.1",
+ "serde",
+ "serde_core",
+]
+
+[[package]]
+name = "inout"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "879f10e63c20629ecabbb64a8010319738c66a5cd0c29b02d63d272b03751d01"
+dependencies = [
+ "block-padding",
+ "generic-array",
+]
+
+[[package]]
+name = "interpolate_name"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c34819042dc3d3971c46c2190835914dfbe0c3c13f61449b2997f4e9722dfa60"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "inventory"
+version = "0.3.25"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6928282826c822ad91bf1c9a1cb90a30ba1c26770749929b4656cd6be829cd7c"
+dependencies = [
+ "rustversion",
+]
+
+[[package]]
+name = "io-surface"
+version = "0.16.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "554b8c5d64ec09a3a520fe58e4d48a73e00ff32899cdcbe32a4877afd4968b8e"
+dependencies = [
+ "cgl",
+ "core-foundation 0.10.1",
+ "core-foundation-sys",
+ "leaky-cow",
+]
+
+[[package]]
+name = "is-docker"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "928bae27f42bc99b60d9ac7334e3a21d10ad8f1835a4e12ec3ec0464765ed1b3"
+dependencies = [
+ "once_cell",
+]
+
+[[package]]
+name = "is-wsl"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "173609498df190136aa7dea1a91db051746d339e18476eed5ca40521f02d7aa5"
+dependencies = [
+ "is-docker",
+ "once_cell",
+]
+
+[[package]]
+name = "itertools"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "413ee7dfc52ee1a4949ceeb7dbc8a33f2d6c088194d9f922fb8318faf1f01186"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itertools"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b192c782037fadd9cfa75548310488aabdbf3d2da73885b31bd0abd03351285"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itoa"
+version = "1.0.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
+
+[[package]]
+name = "jni-sys"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "41a652e1f9b6e0275df1f15b32661cf0d4b78d4d87ddec5e0c3c20f097433258"
+dependencies = [
+ "jni-sys 0.4.1",
+]
+
+[[package]]
+name = "jni-sys"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6377a88cb3910bee9b0fa88d4f42e1d2da8e79915598f65fb0c7ee14c878af2"
+dependencies = [
+ "jni-sys-macros",
+]
+
+[[package]]
+name = "jni-sys-macros"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38c0b942f458fe50cdac086d2f946512305e5631e720728f2a61aabcd47a6264"
+dependencies = [
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "jobserver"
+version = "0.1.35"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1c00acbd29eabad4a2392fa0e921c874934dbbf4194312ad20f04a0ed67a3cb3"
+dependencies = [
+ "getrandom 0.4.3",
+ "libc",
+]
+
+[[package]]
+name = "js-sys"
+version = "0.3.106"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7883d941dae510fb2d978fc3fe018c71c9e2892fd38854de3e8b92c2e5ad9cc5"
+dependencies = [
+ "cfg-if",
+ "futures-util",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "khronos-egl"
+version = "6.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6aae1df220ece3c0ada96b8153459b67eebe9ae9212258bb0134ae60416fdf76"
+dependencies = [
+ "libc",
+ "libloading",
+ "pkg-config",
+]
+
+[[package]]
+name = "khronos_api"
+version = "3.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc"
+
+[[package]]
+name = "kurbo"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4b60dfc32f652b926df6192e55525b16d186c69d47876c3ead4da5cc9f8450e2"
+dependencies = [
+ "arrayvec",
+ "euclid",
+ "polycool",
+ "smallvec",
+]
+
+[[package]]
+name = "lazy_static"
+version = "1.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20870f649af7073d53e38067b2a84312175d56ea15217e1b15bc83506ec50afb"
+
+[[package]]
+name = "leak"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd100e01f1154f2908dfa7d02219aeab25d0b9c7fa955164192e3245255a0c73"
+
+[[package]]
+name = "leaky-cow"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "40a8225d44241fd324a8af2806ba635fc7c8a7e9a7de4d5cf3ef54e71f5926fc"
+dependencies = [
+ "leak",
+]
+
+[[package]]
+name = "lebe"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a79a3332a6609480d7d0c9eab957bca6b455b91bb84e66d19f5ff66294b85b8"
+
+[[package]]
+name = "libbz2-rs-sys"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "34b357333733e8260735ba5894eb928c02ecc69c78715f01a8019e7fa7f2db4c"
+
+[[package]]
+name = "libc"
+version = "0.2.190"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ce5d3ddc6d3fa000eb1536d85e147bfe31aacaba692ed6a876f95cb7c855be78"
+
+[[package]]
+name = "libfuzzer-sys"
+version = "0.4.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a9fd2f41a1cba099f79a0b6b6c35656cf7c03351a7bae8ff0f28f25270f929d2"
+dependencies = [
+ "arbitrary",
+ "cc",
+]
+
+[[package]]
+name = "libloading"
+version = "0.8.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d7c4b02199fee7c5d21a5ae7d8cfa79a6ef5bb2fc834d6e9058e89c825efdc55"
+dependencies = [
+ "cfg-if",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "libm"
+version = "0.2.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6d2cec3eae94f9f509c767b45932f1ada8350c4bdb85af2fcab4a3c14807981"
+
+[[package]]
+name = "libredox"
+version = "0.1.25"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "61ff90caf6077a803a240f62fdbe88645a890bbca49ef8174c3cb0404362171d"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "linebender_resource_handle"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d4a5ff6bcca6c4867b1c4fd4ef63e4db7436ef363e0ad7531d1558856bae64f4"
+
+[[package]]
+name = "link-section"
+version = "0.19.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "39c29a617ce3df32c08497bdc1ab6e2376e0b17948ac166a2fbe5977c5954cd9"
+
+[[package]]
+name = "linktime-proc-macro"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7e57c38c1e860fd37c604281cdfb1dd2216977fd76a50f85ba2f388ef3219616"
+
+[[package]]
+name = "linux-raw-sys"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53"
+
+[[package]]
+name = "litemap"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "47d9d19d1d6efa0109d2f65ff4c85cddd50bd572e5a00127ab10987290bcefae"
+
+[[package]]
+name = "litrs"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "11d3d7f243d5c5a8b9bb5d6dd2b1602c0cb0b9db1621bafc7ed66e35ff9fe092"
+
+[[package]]
+name = "lock_api"
+version = "0.4.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "224399e74b87b5f3557511d98dff8b14089b3dadafcab6bb93eab67d3aace965"
+dependencies = [
+ "scopeguard",
+]
+
+[[package]]
+name = "log"
+version = "0.4.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
+dependencies = [
+ "serde_core",
+ "value-bag",
+]
+
+[[package]]
+name = "loop9"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0fae87c125b03c1d2c0150c90365d7d6bcc53fb73a9acaef207d2d065860f062"
+dependencies = [
+ "imgref",
+]
+
+[[package]]
+name = "lyon"
+version = "1.0.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd0578bdecb7d6d88987b8b2b1e3a4e2f81df9d0ece1078623324a567904e7b7"
+dependencies = [
+ "lyon_algorithms",
+ "lyon_tessellation",
+]
+
+[[package]]
+name = "lyon_algorithms"
+version = "1.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdfa8785f95e57914ddb35e3b59994aeba6f5e79e9cfd03da1c269f010f36009"
+dependencies = [
+ "lyon_path",
+ "num-traits",
+]
+
+[[package]]
+name = "lyon_geom"
+version = "1.0.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4336502e29e32af93cf2dad2214ed6003c17ceb5bd499df77b1de663b9042b92"
+dependencies = [
+ "arrayvec",
+ "euclid",
+ "num-traits",
+]
+
+[[package]]
+name = "lyon_path"
+version = "1.0.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c463f9c428b7fc5ec885dcd39ce4aa61e29111d0e33483f6f98c74e89d8621e"
+dependencies = [
+ "lyon_geom",
+ "num-traits",
+]
+
+[[package]]
+name = "lyon_tessellation"
+version = "1.0.22"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43b8dcf906637ecef61b3c0740c7a4e7f27caeb31257cfac0cc579ce15be6005"
+dependencies = [
+ "float_next_after",
+ "lyon_path",
+ "num-traits",
+]
+
+[[package]]
+name = "mac-notification-sys"
+version = "0.6.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd604973958ddcc11b561193c0fb96ba146506ef2f231ef2e7c35fd2cbc9beca"
+dependencies = [
+ "cc",
+ "log",
+ "objc2 0.6.5",
+ "objc2-foundation 0.3.2",
+ "time",
+ "uuid",
+]
+
+[[package]]
+name = "mach2"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a1b95cd5421ec55b445b5ae102f5ea0e768de1f82bd3001e11f426c269c3aea"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "malloc_buf"
+version = "0.0.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "maybe-rayon"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8ea1f30cedd69f0a2954655f7188c6a834246d2bcf1e315e2ac40c4b24dc9519"
+dependencies = [
+ "cfg-if",
+ "rayon",
+]
+
+[[package]]
+name = "md-5"
+version = "0.10.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d89e7ee0cfbedfc4da3340218492196241d89eefb6dab27de5df917a6d2e78cf"
+dependencies = [
+ "cfg-if",
+ "digest",
+]
+
+[[package]]
+name = "memchr"
+version = "2.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
+
+[[package]]
+name = "memmap2"
+version = "0.9.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d1219ed1b7f229ee7104d281dd01d6802fe28bb6e95d292942c4daacdeb798c0"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "memoffset"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a"
+dependencies = [
+ "autocfg",
+]
+
+[[package]]
+name = "metal"
+version = "0.33.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c7047791b5bc903b8cd963014b355f71dc9864a9a0b727057676c1dcae5cbc15"
+dependencies = [
+ "bitflags 2.13.2",
+ "block",
+ "core-graphics-types 0.2.0",
+ "foreign-types",
+ "log",
+ "objc",
+ "paste",
+]
+
+[[package]]
+name = "minimal-lexical"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a"
+
+[[package]]
+name = "miniz_oxide"
+version = "0.8.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fa76a2c86f704bdb222d66965fb3d63269ce38518b83cb0575fca855ebb6316"
+dependencies = [
+ "adler2",
+ "simd-adler32",
+]
+
+[[package]]
+name = "miniz_oxide"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b63fbc4a50860e98e7b2aa7804ded1db5cbc3aff9193adaff57a6931bf7c4b4c"
+dependencies = [
+ "adler2",
+ "simd-adler32",
+]
+
+[[package]]
+name = "moxcms"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bb85c154ba489f01b25c0d36ae69a87e4a1c73a72631fc6c0eb6dde34a73e44b"
+dependencies = [
+ "num-traits",
+ "pxfm",
+]
+
+[[package]]
+name = "multiversion_no_op"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "743fb55ba31b18fb1ecef6bdc9aa2743314978ac084044301a7eee33fb99a20d"
+
+[[package]]
+name = "naga"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b2bf919621e7975acb27d881bae2fb993e0d45c8e0446e85e6272971e00dc8df"
+dependencies = [
+ "arrayvec",
+ "bit-set",
+ "bitflags 2.13.2",
+ "cfg-if",
+ "cfg_aliases",
+ "codespan-reporting",
+ "half",
+ "hashbrown 0.16.1",
+ "hexf-parse",
+ "indexmap",
+ "libm",
+ "log",
+ "num-traits",
+ "once_cell",
+ "rustc-hash 1.1.0",
+ "spirv",
+ "thiserror 2.0.21",
+ "unicode-ident",
+]
+
+[[package]]
+name = "ndk-sys"
+version = "0.6.0+11769913"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee6cda3051665f1fb8d9e08fc35c96d5a244fb1be711a03b71118828afc9a873"
+dependencies = [
+ "jni-sys 0.3.1",
+]
+
+[[package]]
+name = "new_debug_unreachable"
+version = "1.0.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "650eef8c711430f1a879fdd01d4745a7deea475becfb90269c06775983bbf086"
+
+[[package]]
+name = "no_std_io2"
+version = "0.9.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "418abd1b6d34fbf6cae440dc874771b0525a604428704c76e48b29a5e67b8003"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "nom"
+version = "7.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d273983c5a657a70a3e8f2a01329822f3b8c8172b73826411a55751e404a0a4a"
+dependencies = [
+ "memchr",
+ "minimal-lexical",
+]
+
+[[package]]
+name = "nom"
+version = "8.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "df9761775871bdef83bee530e60050f7e54b1105350d6884eb0fb4f46c2f9405"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "noop_proc_macro"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0676bb32a98c1a483ce53e500a81ad9c3d5b3f7c920c28c24e9cb0980d0b5bc8"
+
+[[package]]
+name = "notify-rust"
+version = "4.18.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4587364a9a0074333429b3df75a30a205340c56a536ca3eb6ca0e59b87bbf8af"
+dependencies = [
+ "futures-lite",
+ "log",
+ "mac-notification-sys",
+ "serde",
+ "tauri-winrt-notification",
+ "zbus",
+]
+
+[[package]]
+name = "ntapi"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c3b335231dfd352ffb0f8017f3b6027a4917f7df785ea2143d8af2adc66980ae"
+dependencies = [
+ "winapi",
+]
+
+[[package]]
+name = "nu-ansi-term"
+version = "0.50.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
+dependencies = [
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "num"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "35bd024e8b2ff75562e5f34e7f4905839deb4b22955ef5e73d2fea1b9813cb23"
+dependencies = [
+ "num-bigint",
+ "num-complex",
+ "num-integer",
+ "num-iter",
+ "num-rational",
+ "num-traits",
+]
+
+[[package]]
+name = "num-bigint"
+version = "0.4.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c89e69e7e0f03bea5ef08013795c25018e101932225a656383bd384495ecc367"
+dependencies = [
+ "num-integer",
+ "num-traits",
+]
+
+[[package]]
+name = "num-bigint-dig"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7f9a86e097b0d187ad0e65667c2f58b9254671e86e7dbb78036b16692eae099"
+dependencies = [
+ "libm",
+ "num-integer",
+ "num-iter",
+ "num-traits",
+ "once_cell",
+ "rand 0.9.5",
+ "serde",
+ "smallvec",
+ "zeroize",
+]
+
+[[package]]
+name = "num-complex"
+version = "0.4.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "73f88a1307638156682bada9d7604135552957b7818057dcef22705b4d509495"
+dependencies = [
+ "bytemuck",
+ "num-traits",
+]
+
+[[package]]
+name = "num-conv"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "521739c6d2bac4aa25192232afe6841231376b2b26d4d9fae5ecf8ca5772e441"
+
+[[package]]
+name = "num-derive"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed3955f1a9c7c0c15e092f9c887db08b1fc683305fdf6eb6684f22555355e202"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "num-integer"
+version = "0.1.47"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ce2d95d4b3734dc35aa2f45e1aa22cd416814592a4f9d9205e11affd5b8e10b"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "num-iter"
+version = "0.1.46"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c92800bd69a1eac91786bcfe9da64a897eb72911b8dc3095decbd07429e8048b"
+dependencies = [
+ "num-integer",
+ "num-traits",
+]
+
+[[package]]
+name = "num-rational"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f83d14da390562dca69fc84082e73e548e1ad308d24accdedd2720017cb37824"
+dependencies = [
+ "num-bigint",
+ "num-integer",
+ "num-traits",
+]
+
+[[package]]
+name = "num-traits"
+version = "0.2.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
+dependencies = [
+ "autocfg",
+ "libm",
+]
+
+[[package]]
+name = "num_cpus"
+version = "1.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91df4bbde75afed763b708b7eee1e8e7651e02d97f6d5dd763e89367e957b23b"
+dependencies = [
+ "hermit-abi",
+ "libc",
+]
+
+[[package]]
+name = "objc"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "915b1b472bc21c53464d6c8461c9d3af805ba1ef837e1cac254428f4a77177b1"
+dependencies = [
+ "malloc_buf",
+ "objc_exception",
+]
+
+[[package]]
+name = "objc-foundation"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1add1b659e36c9607c7aab864a76c7a4c2760cd0cd2e120f3fb8b952c7e22bf9"
+dependencies = [
+ "block",
+ "objc",
+ "objc_id",
+]
+
+[[package]]
+name = "objc-sys"
+version = "0.3.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdb91bdd390c7ce1a8607f35f3ca7151b65afc0ff5ff3b34fa350f7d7c7e4310"
+
+[[package]]
+name = "objc2"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "19d5490aaf8f1d7cf7688dfa9b0ce07900e168852c45cd2c03f534dfd27cfd0b"
+dependencies = [
+ "objc-sys",
+ "objc2-encode",
+]
+
+[[package]]
+name = "objc2"
+version = "0.6.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08849bbd4767dfae9457696856ae1c84fe4e0281bbe4a7abff2d0e06fb7981f8"
+dependencies = [
+ "objc2-encode",
+]
+
+[[package]]
+name = "objc2-app-kit"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4e89ad9e3d7d297152b17d39ed92cd50ca8063a89a9fa569046d41568891eff"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.5.1",
+ "libc",
+ "objc2 0.5.3",
+ "objc2-core-data",
+ "objc2-core-image",
+ "objc2-foundation 0.2.2",
+ "objc2-quartz-core 0.2.2",
+]
+
+[[package]]
+name = "objc2-app-kit"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d49e936b501e5c5bf01fda3a9452ff86dc3ea98ad5f283e1455153142d97518c"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-foundation 0.3.2",
+]
+
+[[package]]
+name = "objc2-core-audio"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e1eebcea8b0dbff5f7c8504f3107c68fc061a3eb44932051c8cf8a68d969c3b2"
+dependencies = [
+ "dispatch2",
+ "objc2 0.6.5",
+ "objc2-core-audio-types",
+ "objc2-core-foundation",
+]
+
+[[package]]
+name = "objc2-core-audio-types"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a89f2ec274a0cf4a32642b2991e8b351a404d290da87bb6a9a9d8632490bd1c"
+dependencies = [
+ "bitflags 2.13.2",
+ "objc2 0.6.5",
+]
+
+[[package]]
+name = "objc2-core-data"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "617fbf49e071c178c0b24c080767db52958f716d9eabdf0890523aeae54773ef"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.5.1",
+ "objc2 0.5.3",
+ "objc2-foundation 0.2.2",
+]
+
+[[package]]
+name = "objc2-core-foundation"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2a180dd8642fa45cdb7dd721cd4c11b1cadd4929ce112ebd8b9f5803cc79d536"
+dependencies = [
+ "bitflags 2.13.2",
+ "dispatch2",
+ "objc2 0.6.5",
+]
+
+[[package]]
+name = "objc2-core-graphics"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e022c9d066895efa1345f8e33e584b9f958da2fd4cd116792e15e07e4720a807"
+dependencies = [
+ "bitflags 2.13.2",
+ "dispatch2",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-io-surface",
+]
+
+[[package]]
+name = "objc2-core-image"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "55260963a527c99f1819c4f8e3b47fe04f9650694ef348ffd2227e8196d34c80"
+dependencies = [
+ "block2 0.5.1",
+ "objc2 0.5.3",
+ "objc2-foundation 0.2.2",
+ "objc2-metal 0.2.2",
+]
+
+[[package]]
+name = "objc2-core-location"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca347214e24bc973fc025fd0d36ebb179ff30536ed1f80252706db19ee452009"
+dependencies = [
+ "objc2 0.6.5",
+ "objc2-foundation 0.3.2",
+]
+
+[[package]]
+name = "objc2-core-media"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "05ec576860167a15dd9fce7fbee7512beb4e31f532159d3482d1f9c6caedf31d"
+dependencies = [
+ "bitflags 2.13.2",
+ "dispatch2",
+ "objc2 0.6.5",
+ "objc2-core-audio",
+ "objc2-core-audio-types",
+ "objc2-core-foundation",
+ "objc2-core-video",
+]
+
+[[package]]
+name = "objc2-core-video"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d425caf1df73233f29fd8a5c3e5edbc30d2d4307870f802d18f00d83dc5141a6"
+dependencies = [
+ "bitflags 2.13.2",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-core-graphics",
+ "objc2-io-surface",
+]
+
+[[package]]
+name = "objc2-encode"
+version = "4.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ef25abbcd74fb2609453eb695bd2f860d389e457f67dc17cafc8b8cbc89d0c33"
+
+[[package]]
+name = "objc2-foundation"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ee638a5da3799329310ad4cfa62fbf045d5f56e3ef5ba4149e7452dcf89d5a8"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.5.1",
+ "libc",
+ "objc2 0.5.3",
+]
+
+[[package]]
+name = "objc2-foundation"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3e0adef53c21f888deb4fa59fc59f7eb17404926ee8a6f59f5df0fd7f9f3272"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "libc",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+]
+
+[[package]]
+name = "objc2-io-surface"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "180788110936d59bab6bd83b6060ffdfffb3b922ba1396b312ae795e1de9d81d"
+dependencies = [
+ "bitflags 2.13.2",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+]
+
+[[package]]
+name = "objc2-metal"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dd0cba1276f6023976a406a14ffa85e1fdd19df6b0f737b063b95f6c8c7aadd6"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.5.1",
+ "objc2 0.5.3",
+ "objc2-foundation 0.2.2",
+]
+
+[[package]]
+name = "objc2-metal"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a0125f776a10d00af4152d74616409f0d4a2053a6f57fa5b7d6aa2854ac04794"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "objc2 0.6.5",
+ "objc2-foundation 0.3.2",
+]
+
+[[package]]
+name = "objc2-quartz-core"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e42bee7bff906b14b167da2bac5efe6b6a07e6f7c0a21a7308d40c960242dc7a"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.5.1",
+ "objc2 0.5.3",
+ "objc2-foundation 0.2.2",
+ "objc2-metal 0.2.2",
+]
+
+[[package]]
+name = "objc2-quartz-core"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "96c1358452b371bf9f104e21ec536d37a650eb10f7ee379fff67d2e08d537f1f"
+dependencies = [
+ "bitflags 2.13.2",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-foundation 0.3.2",
+ "objc2-metal 0.3.2",
+]
+
+[[package]]
+name = "objc2-screen-capture-kit"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74b7c5390f477482f001bc354d6571a70db7e4f8d5288e860c45521fbce11394"
+dependencies = [
+ "block2 0.6.2",
+ "dispatch2",
+ "objc2 0.6.5",
+ "objc2-core-graphics",
+ "objc2-core-media",
+ "objc2-foundation 0.3.2",
+]
+
+[[package]]
+name = "objc2-user-notifications"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9df9128cbbfef73cda168416ccf7f837b62737d748333bfe9ab71c245d76613e"
+dependencies = [
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "objc2 0.6.5",
+ "objc2-core-location",
+ "objc2-foundation 0.3.2",
+]
+
+[[package]]
+name = "objc_exception"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ad970fb455818ad6cba4c122ad012fae53ae8b4795f86378bce65e4f6bab2ca4"
+dependencies = [
+ "cc",
+]
+
+[[package]]
+name = "objc_id"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c92d4ddb4bd7b50d730c215ff871754d0da6b2178849f8a2a2ab69712d0c073b"
+dependencies = [
+ "objc",
+]
+
+[[package]]
+name = "object"
+version = "0.37.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ff76201f031d8863c38aa7f905eca4f53abbfa15f609db4277d44cd8938f33fe"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "once_cell"
+version = "1.21.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
+
+[[package]]
+name = "oo7"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "78f2bfed90f1618b4b48dcad9307f25e14ae894e2949642c87c351601d62cebd"
+dependencies = [
+ "aes",
+ "ashpd",
+ "async-fs",
+ "async-io",
+ "async-lock",
+ "blocking",
+ "cbc",
+ "cipher",
+ "digest",
+ "endi",
+ "futures-lite",
+ "futures-util",
+ "getrandom 0.4.3",
+ "hkdf",
+ "hmac",
+ "md-5",
+ "num",
+ "num-bigint-dig",
+ "pbkdf2",
+ "serde",
+ "serde_bytes",
+ "sha2",
+ "subtle",
+ "zbus",
+ "zbus_macros",
+ "zeroize",
+ "zvariant",
+]
+
+[[package]]
+name = "open"
+version = "5.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aa576c76302b7b808eecc68061e67336c47833ef9d22caa74dda10fa9675eebc"
+dependencies = [
+ "is-wsl",
+ "libc",
+]
+
+[[package]]
+name = "option-ext"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
+
+[[package]]
+name = "ordered-float"
+version = "5.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8c7c9e0d9b23589f26070720bac724174bfec1083e82f7854cdd0267518343c0"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "ordered-stream"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9aa2b01e1d916879f73a53d01d1d6cee68adbb31d6d9177a8cfce093cced1d50"
+dependencies = [
+ "futures-core",
+ "pin-project-lite",
+]
+
+[[package]]
+name = "parking"
+version = "2.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f38d5652c16fde515bb1ecef450ab0f6a219d619a7274976324d5e377f7dceba"
+
+[[package]]
+name = "parking_lot"
+version = "0.12.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "93857453250e3077bd71ff98b6a65ea6621a19bb0f559a85248955ac12c45a1a"
+dependencies = [
+ "lock_api",
+ "parking_lot_core",
+]
+
+[[package]]
+name = "parking_lot_core"
+version = "0.9.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2621685985a2ebf1c516881c026032ac7deafcda1a2c9b7850dc81e3dfcb64c1"
+dependencies = [
+ "cfg-if",
+ "libc",
+ "redox_syscall",
+ "smallvec",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "paste"
+version = "1.0.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
+
+[[package]]
+name = "pastey"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "35fb2e5f958ec131621fdd531e9fc186ed768cbe395337403ae56c17a74c68ec"
+
+[[package]]
+name = "pathfinder_geometry"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b7b7e7b4ea703700ce73ebf128e1450eb69c3a8329199ffbfb9b2a0418e5ad3"
+dependencies = [
+ "log",
+ "pathfinder_simd",
+]
+
+[[package]]
+name = "pathfinder_simd"
+version = "0.5.6"
+dependencies = [
+ "rustc_version",
+]
+
+[[package]]
+name = "pbkdf2"
+version = "0.12.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f8ed6a7761f76e3b9f92dfb0a60a6a6477c61024b775147ff0973a02653abaf2"
+dependencies = [
+ "digest",
+ "hmac",
+]
+
+[[package]]
+name = "percent-encoding"
+version = "2.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220"
+
+[[package]]
+name = "perf-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd431e83e1d8c4e643e4ba2597c27dc6662df7991d5476bd255087b056ea4552"
+dependencies = [
+ "collections-gpui-unofficial",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "phf"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c1562dc717473dbaa4c1f85a36410e03c047b2e7df7f45ee938fbef64ae7fadf"
+dependencies = [
+ "phf_macros",
+ "phf_shared",
+ "serde",
+]
+
+[[package]]
+name = "phf_generator"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "135ace3a761e564ec88c03a77317a7c6b80bb7f7135ef2544dbe054243b89737"
+dependencies = [
+ "fastrand",
+ "phf_shared",
+]
+
+[[package]]
+name = "phf_macros"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "812f032b54b1e759ccd5f8b6677695d5268c588701effba24601f6932f8269ef"
+dependencies = [
+ "phf_generator",
+ "phf_shared",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "phf_shared"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e57fef6bc5981e38c2ce2d63bfa546861309f875b8a75f092d1d54ae2d64f266"
+dependencies = [
+ "siphasher",
+]
+
+[[package]]
+name = "pico-args"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5be167a7af36ee22fe3115051bc51f6e6c7054c9348e28deb4f49bd6f705a315"
+
+[[package]]
+name = "pin-project"
+version = "1.1.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2466b2336ed02bcdca6b294417127b90ec92038d1d5c4fbeac971a922e0e0924"
+dependencies = [
+ "pin-project-internal",
+]
+
+[[package]]
+name = "pin-project-internal"
+version = "1.1.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c96395f0a926bc13b1c17622aaddda1ecb55d49c8f1bf9777e4d877800a43f8b"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "pin-project-lite"
+version = "0.2.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a89322df9ebe1c1578d689c92318e070967d1042b512afbe49518723f4e6d5cd"
+
+[[package]]
+name = "piper"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c835479a4443ded371d6c535cbfd8d31ad92c5d23ae9770a61bc155e4992a3c1"
+dependencies = [
+ "atomic-waker",
+ "fastrand",
+ "futures-io",
+]
+
+[[package]]
+name = "pkg-config"
+version = "0.3.34"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6b464fbc74e149a392436b17d523f769e057cb6877f6a5c4618bc6f11800548"
+
+[[package]]
+name = "png"
+version = "0.17.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "82151a2fc869e011c153adc57cf2789ccb8d9906ce52c0b39a6b5697749d7526"
+dependencies = [
+ "bitflags 1.3.2",
+ "crc32fast",
+ "fdeflate",
+ "flate2",
+ "miniz_oxide 0.8.9",
+]
+
+[[package]]
+name = "png"
+version = "0.18.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "60769b8b31b2a9f263dae2776c37b1b28ae246943cf719eb6946a1db05128a61"
+dependencies = [
+ "bitflags 2.13.2",
+ "crc32fast",
+ "fdeflate",
+ "flate2",
+ "miniz_oxide 0.8.9",
+]
+
+[[package]]
+name = "polling"
+version = "3.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d0e4f59085d47d8241c88ead0f274e8a0cb551f3625263c05eb8dd897c34218"
+dependencies = [
+ "cfg-if",
+ "concurrent-queue",
+ "hermit-abi",
+ "pin-project-lite",
+ "rustix",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "pollster"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5da3b0203fd7ee5720aa0b5e790b591aa5d3f41c3ed2c34a3a393382198af2f7"
+
+[[package]]
+name = "pollster"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2f3a9f18d041e6d0e102a0a46750538147e5e8992d3b4873aaafee2520b00ce3"
+
+[[package]]
+name = "polycool"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "50596ddc09eb5ad5f75cacd40209568e66df71baf86e1499a0e99c4cff12a5a6"
+dependencies = [
+ "arrayvec",
+]
+
+[[package]]
+name = "portable-atomic"
+version = "1.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "05c8b63e8d9609db387f0324918f81d68fe27748f084ef092fb35954d0539a85"
+
+[[package]]
+name = "portable-atomic-util"
+version = "0.2.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "10ab3eb7f3becc3a1cbc4f2c6f20267996cfc1a6467a873763411b136a122715"
+dependencies = [
+ "portable-atomic",
+]
+
+[[package]]
+name = "postage"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af3fb618632874fb76937c2361a7f22afd393c982a2165595407edc75b06d3c1"
+dependencies = [
+ "atomic",
+ "crossbeam-queue",
+ "futures",
+ "log",
+ "parking_lot",
+ "pin-project",
+ "pollster 0.2.5",
+ "static_assertions",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "potential_utf"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d83eb9bc6d8e5cf568e7a1101d60ee05e81ed50ea106026f3d18deeb046d7661"
+dependencies = [
+ "zerovec",
+]
+
+[[package]]
+name = "powerfmt"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4a6394b9e965e73d0a289ee54f589087e2c676aedf60885baf52c76b771e4958"
+
+[[package]]
+name = "ppv-lite86"
+version = "0.2.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85eae3c4ed2f50dcfe72643da4befc30deadb458a9b590d720cde2f2b1e97da9"
+dependencies = [
+ "zerocopy",
+]
+
+[[package]]
+name = "presser"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e8cf8e6a8aa66ce33f63993ffc4ea4271eb5b0530a9002db8455ea6050c77bfa"
+
+[[package]]
+name = "prettyplease"
+version = "0.2.37"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "479ca8adacdd7ce8f1fb39ce9ecccbfe93a3f1344b3d0d97f20bc0196208f62b"
+dependencies = [
+ "proc-macro2",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "proc-macro-crate"
+version = "3.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e67ba7e9b2b56446f1d419b1d807906278ffa1a658a8a5d8a39dcb1f5a78614f"
+dependencies = [
+ "toml_edit 0.25.17+spec-1.1.0",
+]
+
+[[package]]
+name = "proc-macro2"
+version = "1.0.107"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
+dependencies = [
+ "unicode-ident",
+]
+
+[[package]]
+name = "profiling"
+version = "1.0.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3d595e54a326bc53c1c197b32d295e14b169e3cfeaa8dc82b529f947fba6bcf5"
+dependencies = [
+ "profiling-procmacros",
+]
+
+[[package]]
+name = "profiling-procmacros"
+version = "1.0.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4488a4a36b9a4ba6b9334a32a39971f77c1436ec82c38707bce707699cc3bbcb"
+dependencies = [
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "pulp"
+version = "0.22.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "046aa45b989642ec2e4717c8e72d677b13edd831a4d3b6cf37d9a3e54912496a"
+dependencies = [
+ "bytemuck",
+ "cfg-if",
+ "libm",
+ "num-complex",
+ "paste",
+ "pulp-wasm-simd-flag",
+ "raw-cpuid",
+ "reborrow",
+ "version_check",
+]
+
+[[package]]
+name = "pulp-wasm-simd-flag"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1d8f70e07b9c3962945a74e59ca1c511bba65b6419468acc217c457d93f3c740"
+
+[[package]]
+name = "pxfm"
+version = "0.1.30"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d55d956fa96f5ec02be2e13af0e20391a5aa83d6a074e3ad368959d0fab299ea"
+
+[[package]]
+name = "qoi"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7f6d64c71eb498fe9eae14ce4ec935c555749aef511cca85b5568910d6e48001"
+dependencies = [
+ "bytemuck",
+]
+
+[[package]]
+name = "quick-error"
+version = "2.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a993555f31e5a609f617c12db6250dedcac1b0a85076912c436e6fc9b2c8e6a3"
+
+[[package]]
+name = "quick-xml"
+version = "0.41.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e660451e55124f798a69a5af3f49ccfbefbd41910eefd25caf2393e1f3473ec1"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "quote"
+version = "1.0.47"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001"
+dependencies = [
+ "proc-macro2",
+]
+
+[[package]]
+name = "r-efi"
+version = "5.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f"
+
+[[package]]
+name = "r-efi"
+version = "6.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
+
+[[package]]
+name = "rand"
+version = "0.8.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e058c7de0b26af77780c769414d6257830bb240f3c38477dbc2c16e5f54d6d4c"
+dependencies = [
+ "libc",
+ "rand_chacha 0.3.1",
+ "rand_core 0.6.4",
+]
+
+[[package]]
+name = "rand"
+version = "0.9.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b9ef1d0d795eb7d84685bca4f72f3649f064e6641543d3a8c415898726a57b41"
+dependencies = [
+ "rand_chacha 0.9.0",
+ "rand_core 0.9.5",
+]
+
+[[package]]
+name = "rand_chacha"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88"
+dependencies = [
+ "ppv-lite86",
+ "rand_core 0.6.4",
+]
+
+[[package]]
+name = "rand_chacha"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb"
+dependencies = [
+ "ppv-lite86",
+ "rand_core 0.9.5",
+]
+
+[[package]]
+name = "rand_core"
+version = "0.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
+dependencies = [
+ "getrandom 0.2.17",
+]
+
+[[package]]
+name = "rand_core"
+version = "0.9.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "76afc826de14238e6e8c374ddcc1fa19e374fd8dd986b0d2af0d02377261d83c"
+dependencies = [
+ "getrandom 0.3.4",
+]
+
+[[package]]
+name = "range-alloc"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca45419789ae5a7899559e9512e58ca889e41f04f1f2445e9f4b290ceccd1d08"
+
+[[package]]
+name = "rangemap"
+version = "1.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a611d15b50743feb4c76b7d03edcb0e64f399c26961e4efe6975bc398be6aa3d"
+
+[[package]]
+name = "rav1e"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43b6dd56e85d9483277cde964fd1bdb0428de4fec5ebba7540995639a21cb32b"
+dependencies = [
+ "aligned-vec",
+ "arbitrary",
+ "arg_enum_proc_macro",
+ "arrayvec",
+ "av-scenechange",
+ "av1-grain",
+ "bitstream-io",
+ "built",
+ "cfg-if",
+ "interpolate_name",
+ "itertools 0.14.0",
+ "libc",
+ "libfuzzer-sys",
+ "log",
+ "maybe-rayon",
+ "new_debug_unreachable",
+ "noop_proc_macro",
+ "num-derive",
+ "num-traits",
+ "paste",
+ "profiling",
+ "rand 0.9.5",
+ "rand_chacha 0.9.0",
+ "simd_helpers",
+ "thiserror 2.0.21",
+ "v_frame",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "ravif"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e52310197d971b0f5be7fe6b57530dcd27beb35c1b013f29d66c1ad73fbbcc45"
+dependencies = [
+ "avif-serialize",
+ "imgref",
+ "loop9",
+ "quick-error",
+ "rav1e",
+ "rayon",
+ "rgb",
+]
+
+[[package]]
+name = "raw-cpuid"
+version = "11.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "498cd0dc59d73224351ee52a95fee0f1a617a2eae0e7d9d720cc622c73a54186"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "raw-window-handle"
+version = "0.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20675572f6f24e9e76ef639bc5552774ed45f1c30e2951e1e99c59888861c539"
+
+[[package]]
+name = "raw-window-metal"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "40d213455a5f1dc59214213c7330e074ddf8114c9a42411eb890c767357ce135"
+dependencies = [
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-foundation 0.3.2",
+ "objc2-quartz-core 0.3.2",
+]
+
+[[package]]
+name = "rayon"
+version = "1.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb39b166781f92d482534ef4b4b1b2568f42613b53e5b6c160e24cfbfa30926d"
+dependencies = [
+ "either",
+ "rayon-core",
+]
+
+[[package]]
+name = "rayon-core"
+version = "1.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22e18b0f0062d30d4230b2e85ff77fdfe4326feb054b9783a3460d8435c8ab91"
+dependencies = [
+ "crossbeam-deque",
+ "crossbeam-utils",
+]
+
+[[package]]
+name = "read-fonts"
+version = "0.37.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7b634fabf032fab15307ffd272149b622260f55974d9fad689292a5d33df02e5"
+dependencies = [
+ "bytemuck",
+ "core_maths",
+ "font-types 0.11.3",
+]
+
+[[package]]
+name = "read-fonts"
+version = "0.41.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "046a7d674daf459825b32f5062056d6882db0d2f5a479fbd76ccfc870ac18709"
+dependencies = [
+ "bytemuck",
+ "font-types 0.12.6",
+ "once_cell",
+]
+
+[[package]]
+name = "reborrow"
+version = "0.5.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "03251193000f4bd3b042892be858ee50e8b3719f2b08e5833ac4353724632430"
+
+[[package]]
+name = "redox_syscall"
+version = "0.5.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "redox_users"
+version = "0.4.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba009ff324d1fc1b900bd1fdb31564febe58a8ccc8a6fdbb93b543d33b13ca43"
+dependencies = [
+ "getrandom 0.2.17",
+ "libredox",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "ref-cast"
+version = "1.0.27"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7e440fb4e4b4147295338efb76001ab9e4efc0e5839df2c47fc5ac2381d365c3"
+dependencies = [
+ "ref-cast-impl",
+]
+
+[[package]]
+name = "ref-cast-impl"
+version = "1.0.27"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92ecd8964f8453721699a1ed72037b0db49ce2f5a5138486ee89bed6f67cdf3a"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "refineable-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1c8cebb23363014b3845efa4c892a43d063b0e2bc5f0a4aacdc392318b1d8caf"
+dependencies = [
+ "derive-refineable-gpui-unofficial",
+]
+
+[[package]]
+name = "regex"
+version = "1.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f020237b6c8eed93db2e2cb53c00c60a8e1bc73da7d073199a1180401450218d"
+dependencies = [
+ "aho-corasick",
+ "memchr",
+ "regex-automata",
+ "regex-syntax",
+]
+
+[[package]]
+name = "regex-automata"
+version = "0.4.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ad8553b9b26413251cbf30e620595c7a41b3887f03da04579c0e6b0d6a06b4b2"
+dependencies = [
+ "aho-corasick",
+ "memchr",
+ "regex-syntax",
+]
+
+[[package]]
+name = "regex-syntax"
+version = "0.8.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4"
+
+[[package]]
+name = "renderdoc-sys"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "19b30a45b0cd0bcca8037f3d0dc3421eaf95327a17cad11964fb8179b4fc4832"
+
+[[package]]
+name = "resvg"
+version = "0.46.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b563218631706d614e23059436526d005b50ab5f2d506b55a17eb65c5eb83419"
+dependencies = [
+ "gif",
+ "image-webp",
+ "log",
+ "pico-args",
+ "rgb",
+ "svgtypes",
+ "tiny-skia",
+ "usvg",
+ "zune-jpeg",
+]
+
+[[package]]
+name = "rgb"
+version = "0.8.53"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "47b34b781b31e5d73e9fbc8689c70551fd1ade9a19e3e28cfec8580a79290cc4"
+dependencies = [
+ "bytemuck",
+]
+
+[[package]]
+name = "roxmltree"
+version = "0.20.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c20b6793b5c2fa6553b250154b78d6d0db37e72700ae35fad9387a46f487c97"
+
+[[package]]
+name = "roxmltree"
+version = "0.21.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f1964b10c76125c36f8afe190065a4bf9a87bf324842c05701330bba9f1cacbb"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "rustc-demangle"
+version = "0.1.28"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b74b56ffa8bb2830709a538c2cbcae9aa062db0d2a42563bfb09bdaae44020eb"
+
+[[package]]
+name = "rustc-hash"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
+
+[[package]]
+name = "rustc-hash"
+version = "2.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6b1e7f9a428571be2dc5bc0505c13fb6bf936822b894ec87abf8a08a4e51742d"
+
+[[package]]
+name = "rustc_version"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cfcb3a22ef46e85b45de6ee7e79d063319ebb6594faafcf1c225ea92ab6e9b92"
+dependencies = [
+ "semver",
+]
+
+[[package]]
+name = "rustix"
+version = "1.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "891efababe418670775f199f0d233d84843c227a0949a883ce15b37c78d6629d"
+dependencies = [
+ "bitflags 2.13.2",
+ "errno",
+ "libc",
+ "linux-raw-sys",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "rustversion"
+version = "1.0.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf54715a573b99ac80df0bc206da022bcd442c974952c7b9720069370852e21f"
+
+[[package]]
+name = "rustybuzz"
+version = "0.20.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd3c7c96f8a08ee34eff8857b11b49b07d71d1c3f4e88f8a88d4c9e9f90b1702"
+dependencies = [
+ "bitflags 2.13.2",
+ "bytemuck",
+ "core_maths",
+ "log",
+ "smallvec",
+ "ttf-parser",
+ "unicode-bidi-mirroring",
+ "unicode-ccc",
+ "unicode-properties",
+ "unicode-script",
+]
+
+[[package]]
+name = "ryu"
+version = "1.0.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f"
+
+[[package]]
+name = "same-file"
+version = "1.0.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502"
+dependencies = [
+ "winapi-util",
+]
+
+[[package]]
+name = "scheduler-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "417d5b0a1d87057b31dc99053b1d8bc22d628d623c9aea47e6f3b9bdcc17f744"
+dependencies = [
+ "async-task",
+ "backtrace",
+ "chrono",
+ "flume",
+ "futures",
+ "parking_lot",
+ "rand 0.9.5",
+ "wasm_thread",
+ "web-time",
+]
+
+[[package]]
+name = "schemars"
+version = "1.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "687274d293b6cdc6e73e0fee520bf2049650090d7164f87672d212a3c530cf4a"
+dependencies = [
+ "dyn-clone",
+ "indexmap",
+ "ref-cast",
+ "schemars_derive",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "schemars_derive"
+version = "1.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d98c67716b46af2f0b8cf752abc930f6f9aecfbf671ecfb531db8a31dbe4e2ba"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "serde_derive_internals",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "scoped-tls"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294"
+
+[[package]]
+name = "scopeguard"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
+
+[[package]]
+name = "screencapturekit"
+version = "0.2.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1a5eeeb57ac94960cfe5ff4c402be6585ae4c8d29a2cf41b276048c2e849d64e"
+dependencies = [
+ "screencapturekit-sys",
+]
+
+[[package]]
+name = "screencapturekit-sys"
+version = "0.2.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22411b57f7d49e7fe08025198813ee6fd65e1ee5eff4ebc7880c12c82bde4c60"
+dependencies = [
+ "block",
+ "dispatch",
+ "objc",
+ "objc-foundation",
+ "objc_id",
+ "once_cell",
+]
+
+[[package]]
+name = "seahash"
+version = "4.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1c107b6f4780854c8b126e228ea8869f4d7b71260f962fefb57b996b8959ba6b"
+
+[[package]]
+name = "self_cell"
+version = "1.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2ab42ca02749e120097e328d91d415325bdf43b1c72c4c8badf37375fe40a813"
+
+[[package]]
+name = "semver"
+version = "1.0.28"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8a7852d02fc848982e0c167ef163aaff9cd91dc640ba85e263cb1ce46fae51cd"
+dependencies = [
+ "serde",
+ "serde_core",
+]
+
+[[package]]
+name = "serde"
+version = "1.0.229"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba"
+dependencies = [
+ "serde_core",
+ "serde_derive",
+]
+
+[[package]]
+name = "serde_bytes"
+version = "0.11.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a5d440709e79d88e51ac01c4b72fc6cb7314017bb7da9eeff678aa94c10e3ea8"
+dependencies = [
+ "serde",
+ "serde_core",
+]
+
+[[package]]
+name = "serde_core"
+version = "1.0.229"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48"
+dependencies = [
+ "serde_derive",
+]
+
+[[package]]
+name = "serde_derive"
+version = "1.0.229"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "serde_derive_internals"
+version = "0.30.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f852137cce035d6a4df67ccce505ff6b3e9fd3a10e3e52b24dc71e650bb1a9bd"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "serde_fmt"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e497af288b3b95d067a23a4f749f2861121ffcb2f6d8379310dcda040c345ed"
+dependencies = [
+ "serde_core",
+]
+
+[[package]]
+name = "serde_json"
+version = "1.0.151"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14"
+dependencies = [
+ "indexmap",
+ "itoa",
+ "memchr",
+ "serde",
+ "serde_core",
+ "zmij",
+]
+
+[[package]]
+name = "serde_repr"
+version = "0.1.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8d3b1629de253c70a0508c3899572da79ca359fdab27c7920ff00406df418906"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "serde_spanned"
+version = "0.6.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bf41e0cfaf7226dca15e8197172c295a782857fcb97fad1808a166870dee75a3"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "serde_spanned"
+version = "1.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4e7523beb55eece201a2356bee0bbca0d1ab466c14c07703b2e0ee6d42cb0c2c"
+dependencies = [
+ "serde_core",
+]
+
+[[package]]
+name = "serde_urlencoded"
+version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3491c14715ca2294c4d6a88f15e84739788c1d030eed8c110436aafdaa2f3fd"
+dependencies = [
+ "form_urlencoded",
+ "itoa",
+ "ryu",
+ "serde",
+]
+
+[[package]]
+name = "sha1_smol"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbfa15b3dddfee50a0fff136974b3e1bde555604ba463834a7eb7deb6417705d"
+
+[[package]]
+name = "sha2"
+version = "0.10.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283"
+dependencies = [
+ "cfg-if",
+ "cpufeatures",
+ "digest",
+]
+
+[[package]]
+name = "sharded-slab"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f40ca3c46823713e0d4209592e8d6e826aa57e928f09752619fc696c499637f6"
+dependencies = [
+ "lazy_static",
+]
+
+[[package]]
+name = "shlex"
+version = "1.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
+
+[[package]]
+name = "shlex"
+version = "2.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba"
+
+[[package]]
+name = "signal-hook-registry"
+version = "1.4.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c4db69cba1110affc0e9f7bcd48bbf87b3f4fc7c61fc9155afd4c469eb3d6c1b"
+dependencies = [
+ "errno",
+ "libc",
+]
+
+[[package]]
+name = "simd-adler32"
+version = "0.3.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3a219298ac11a56ea9a6d2120044824d6f01aeb034955e7af7bc16858527deea"
+
+[[package]]
+name = "simd_helpers"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95890f873bec569a0362c235787f3aca6e1e887302ba4840839bcc6459c42da6"
+dependencies = [
+ "quote",
+]
+
+[[package]]
+name = "simdutf8"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3a9fe34e3e7a50316060351f37187a3f546bce95496156754b601a5fa71b76e"
+
+[[package]]
+name = "simplecss"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a9c6883ca9c3c7c90e888de77b7a5c849c779d25d74a1269b0218b14e8b136c"
+dependencies = [
+ "log",
+]
+
+[[package]]
+name = "siphasher"
+version = "1.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "33f4fe9184a62d842c9ef383018f3306d8ba224fd9d836f56d7288308847c256"
+
+[[package]]
+name = "skrifa"
+version = "0.40.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7fbdfe3d2475fbd7ddd1f3e5cf8288a30eb3e5f95832829570cd88115a7434ac"
+dependencies = [
+ "bytemuck",
+ "read-fonts 0.37.0",
+]
+
+[[package]]
+name = "skrifa"
+version = "0.44.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "819ab7d62b1d3e72d9d9dea5650bac30424f9111364bb94928dbf5ecad1baa68"
+dependencies = [
+ "bytemuck",
+ "read-fonts 0.41.0",
+]
+
+[[package]]
+name = "slab"
+version = "0.4.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0c790de23124f9ab44544d7ac05d60440adc586479ce501c1d6d7da3cd8c9cf5"
+
+[[package]]
+name = "slotmap"
+version = "1.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bdd58c3c93c3d278ca835519292445cb4b0d4dc59ccfdf7ceadaab3f8aeb4038"
+dependencies = [
+ "version_check",
+]
+
+[[package]]
+name = "smallvec"
+version = "1.16.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f9395f0f0eee849a9b707b2f06bb92a6a422090e2123bb2ef8e87a0e61892a8e"
+
+[[package]]
+name = "smol"
+version = "2.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a33bd3e260892199c3ccfc487c88b2da2265080acb316cd920da72fdfd7c599f"
+dependencies = [
+ "async-channel",
+ "async-executor",
+ "async-fs",
+ "async-io",
+ "async-lock",
+ "async-net",
+ "async-process",
+ "blocking",
+ "futures-lite",
+]
+
+[[package]]
+name = "smol_str"
+version = "0.3.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4aaa7368fcf4852a4c2dd92df0cace6a71f2091ca0a23391ce7f3a31833f1523"
+dependencies = [
+ "borsh",
+ "serde_core",
+]
+
+[[package]]
+name = "spin"
+version = "0.9.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3763264f6b73151db08c50ff20d7d8a0b8796e021cdea7ceedad07b80155fa0e"
+dependencies = [
+ "lock_api",
+]
+
+[[package]]
+name = "spin"
+version = "0.10.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "023a211cb3138dbc438680b32560ad89f699977624c9f8dbb95a47d5b4c07dd3"
+dependencies = [
+ "lock_api",
+]
+
+[[package]]
+name = "spirv"
+version = "0.4.0+sdk-1.4.341.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d9571ea910ebd84c86af4b3ed27f9dbdc6ad06f17c5f96146b2b671e2976744f"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "stable_deref_trait"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6ce2be8dc25455e1f91df71bfa12ad37d7af1092ae736f3a6cd0e37bc7810596"
+
+[[package]]
+name = "static_assertions"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
+
+[[package]]
+name = "strict-num"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6637bab7722d379c8b41ba849228d680cc12d0a45ba1fa2b48f2a30577a06731"
+dependencies = [
+ "float-cmp",
+]
+
+[[package]]
+name = "strum"
+version = "0.28.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9628de9b8791db39ceda2b119bbe13134770b56c138ec1d3af810d045c04f9bd"
+dependencies = [
+ "strum_macros",
+]
+
+[[package]]
+name = "strum_macros"
+version = "0.28.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ab85eea0270ee17587ed4156089e10b9e6880ee688791d45a905f5b1ca36f664"
+dependencies = [
+ "heck 0.5.0",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "subtle"
+version = "2.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
+
+[[package]]
+name = "sum-tree-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a1f1cc1ad612eb9f91f692c8368cd2cd9dba3e90142d0863f09802ac4b093153"
+dependencies = [
+ "heapless",
+ "log",
+ "rayon",
+ "tracing",
+ "ztracing-gpui-unofficial",
+]
+
+[[package]]
+name = "sval"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b81b254da21fe1fcc4e3a74fe39b46e25e3a863078f8b71c954d47f84889dbc6"
+
+[[package]]
+name = "sval_buffer"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "50be352d2822ffafb59e3e2ddac9d5ee60f2eeadbb7b5a2a951b9f3651e87a6f"
+dependencies = [
+ "sval",
+ "sval_ref",
+ "zerocopy",
+]
+
+[[package]]
+name = "sval_dynamic"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b048ca293b998d9a45659159f94a64063791e74cdc670164943dbb434405573d"
+dependencies = [
+ "sval",
+]
+
+[[package]]
+name = "sval_fmt"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6b5888e40f80568733217f27b7317b845f463400ced36c424b1a804730e53b2"
+dependencies = [
+ "itoa",
+ "ryu",
+ "sval",
+]
+
+[[package]]
+name = "sval_json"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e17664d6bb6b74947afaab9d7c991caa9bf5638d4dee16fcbef637f440796049"
+dependencies = [
+ "itoa",
+ "ryu",
+ "sval",
+]
+
+[[package]]
+name = "sval_nested"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "07c059969ca5ca163ea7fef6c9661758973d17691aba92abdcf5c428f4ec122c"
+dependencies = [
+ "sval",
+ "sval_buffer",
+ "sval_ref",
+]
+
+[[package]]
+name = "sval_ref"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "42d6b29ff568c85c87561807f51d2adfff4b6016c6363133f7cd1652a12548f3"
+dependencies = [
+ "sval",
+]
+
+[[package]]
+name = "sval_serde"
+version = "2.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f33ec9edc42b12764d5c90ca0a1d84189c6bde81ed27507f1e661c6e4e05853"
+dependencies = [
+ "serde_core",
+ "sval",
+ "sval_nested",
+]
+
+[[package]]
+name = "svg_fmt"
+version = "0.4.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0193cc4331cfd2f3d2011ef287590868599a2f33c3e69bc22c1a3d3acf9e02fb"
+
+[[package]]
+name = "svgtypes"
+version = "0.16.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "695b5790b3131dafa99b3bbfd25a216edb3d216dad9ca208d4657bfb8f2abc3d"
+dependencies = [
+ "kurbo",
+ "siphasher",
+]
+
+[[package]]
+name = "swash"
+version = "0.2.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c2499c2d826531388872b2268718aed907a39bd785ab0dcfe57fab26283f92e"
+dependencies = [
+ "skrifa 0.44.0",
+ "yazi",
+ "zeno",
+]
+
+[[package]]
+name = "syn"
+version = "2.0.119"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "unicode-ident",
+]
+
+[[package]]
+name = "syn"
+version = "3.0.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8593e8e72159ed2257d083c7a454a85cbf854f37a0966d8d483aff8c8a3ebcee"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "unicode-ident",
+]
+
+[[package]]
+name = "synstructure"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "901704edd0dfe137f1987838ee4f259e4e063c31371bdb423f7ae38ec6f77f02"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "sys-locale"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8eab9a99a024a169fe8a903cf9d4a3b3601109bcc13bd9e3c6fff259138626c4"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "sysinfo"
+version = "0.31.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "355dbe4f8799b304b05e1b0f05fc59b2a18d36645cf169607da45bde2f69a1be"
+dependencies = [
+ "core-foundation-sys",
+ "libc",
+ "memchr",
+ "ntapi",
+ "rayon",
+ "windows 0.57.0",
+]
+
+[[package]]
+name = "taffy"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c034e05f6ee85a12daa63863c2245797715075c70649947aa0da54f3f2ab1d0f"
+dependencies = [
+ "arrayvec",
+ "serde",
+ "slotmap",
+ "smallvec",
+]
+
+[[package]]
+name = "tao-core-video-sys"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "271450eb289cb4d8d0720c6ce70c72c8c858c93dd61fc625881616752e6b98f6"
+dependencies = [
+ "cfg-if",
+ "core-foundation-sys",
+ "libc",
+ "objc",
+]
+
+[[package]]
+name = "tauri-winrt-notification"
+version = "0.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f37a6c354fd28fc9e322ed9bd47e3959576dad28c9d58ea1cf888cce1c7ccb36"
+dependencies = [
+ "thiserror 2.0.21",
+ "windows 0.62.2",
+ "windows-version",
+]
+
+[[package]]
+name = "tempfile"
+version = "3.27.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
+dependencies = [
+ "fastrand",
+ "getrandom 0.4.3",
+ "once_cell",
+ "rustix",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "termcolor"
+version = "1.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
+dependencies = [
+ "winapi-util",
+]
+
+[[package]]
+name = "thiserror"
+version = "1.0.69"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6aaf5339b578ea85b50e080feb250a3e8ae8cfcdff9a461c9ec2904bc923f52"
+dependencies = [
+ "thiserror-impl 1.0.69",
+]
+
+[[package]]
+name = "thiserror"
+version = "2.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09e52cb86a36cede5cb101bf8908837b3e4c6e5e59fe7fd85c23fb56200d189e"
+dependencies = [
+ "thiserror-impl 2.0.21",
+]
+
+[[package]]
+name = "thiserror-impl"
+version = "1.0.69"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4fee6c4efc90059e10f81e6d42c60a18f76588c3d74cb83a0b242a2b6c7504c1"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "thiserror-impl"
+version = "2.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fe5197923287db20a58125f0bc85c062f7f2c892de97b18c356f9efb14b28524"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "thread_local"
+version = "1.1.10"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1ad99c4c6d32803332c548b1af0540b357b3f5fc0be8f6c6bfe8b2e6ae784070"
+dependencies = [
+ "cfg-if",
+]
+
+[[package]]
+name = "tiff"
+version = "0.11.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b63feaf3343d35b6ca4d50483f94843803b0f51634937cc2ec519fc32232bc52"
+dependencies = [
+ "fax",
+ "flate2",
+ "half",
+ "quick-error",
+ "weezl",
+ "zune-jpeg",
+]
+
+[[package]]
+name = "time"
+version = "0.3.55"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cdb87b95ec50ddfa440816d227a17b2ccbdda963a316a727fda0fc4334f7d134"
+dependencies = [
+ "deranged",
+ "num-conv",
+ "powerfmt",
+ "serde_core",
+ "time-core",
+]
+
+[[package]]
+name = "time-core"
+version = "0.1.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9e1c906769ad99c88eaa54e728060edef082f8e358ff32030cb7c7d315e81109"
+
+[[package]]
+name = "tiny-keccak"
+version = "2.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c9d3793400a45f954c52e73d068316d76b6f4e36977e3fcebb13a2721e80237"
+dependencies = [
+ "crunchy",
+]
+
+[[package]]
+name = "tiny-skia"
+version = "0.11.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "83d13394d44dae3207b52a326c0c85a8bf87f1541f23b0d143811088497b09ab"
+dependencies = [
+ "arrayref",
+ "arrayvec",
+ "bytemuck",
+ "cfg-if",
+ "log",
+ "png 0.17.16",
+ "tiny-skia-path",
+]
+
+[[package]]
+name = "tiny-skia-path"
+version = "0.11.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9c9e7fc0c2e86a30b117d0462aa261b72b7a99b7ebd7deb3a14ceda95c5bdc93"
+dependencies = [
+ "arrayref",
+ "bytemuck",
+ "strict-num",
+]
+
+[[package]]
+name = "tinystr"
+version = "0.8.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1e27c91459209c2986af3dcf603a5a74a4368754ce37414f59acc971167f643"
+dependencies = [
+ "displaydoc",
+ "zerovec",
+]
+
+[[package]]
+name = "tinyvec"
+version = "1.13.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fd3ca314f692efd6c868f8408f53fe444634a845f96c028b97d35f6a1f79f0ee"
+
+[[package]]
+name = "tokio"
+version = "1.53.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e95f91fcc7a621e8b030f6aa23c71fe9838ae2fb4d8118b75602a328f5144044"
+dependencies = [
+ "pin-project-lite",
+]
+
+[[package]]
+name = "toml"
+version = "0.8.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc1beb996b9d83529a9e75c17a1686767d148d70663143c7854d8b4a09ced362"
+dependencies = [
+ "serde",
+ "serde_spanned 0.6.9",
+ "toml_datetime 0.6.11",
+ "toml_edit 0.22.27",
+]
+
+[[package]]
+name = "toml"
+version = "1.1.8+spec-1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20489e00e4d8741d6be680764cc12e270655e375a20d1011e844a9c3379e678d"
+dependencies = [
+ "indexmap",
+ "serde_core",
+ "serde_spanned 1.1.2",
+ "toml_datetime 1.1.2+spec-1.1.0",
+ "toml_parser",
+ "toml_writer",
+ "winnow 1.0.4",
+]
+
+[[package]]
+name = "toml_datetime"
+version = "0.6.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22cddaf88f4fbc13c51aebbf5f8eceb5c7c5a9da2ac40a13519eb5b0a0e8f11c"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "toml_datetime"
+version = "1.1.2+spec-1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b86d767906c6c42421dcba507eb9d203e779497710a47782a224bb871653053"
+dependencies = [
+ "serde_core",
+]
+
+[[package]]
+name = "toml_edit"
+version = "0.22.27"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "41fe8c660ae4257887cf66394862d21dbca4a6ddd26f04a3560410406a2f819a"
+dependencies = [
+ "indexmap",
+ "serde",
+ "serde_spanned 0.6.9",
+ "toml_datetime 0.6.11",
+ "toml_write",
+ "winnow 0.7.15",
+]
+
+[[package]]
+name = "toml_edit"
+version = "0.25.17+spec-1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3641d5bbb5349a79e1020a242d251efbc546ad8048d133958323ce9c40a9c9c"
+dependencies = [
+ "indexmap",
+ "toml_datetime 1.1.2+spec-1.1.0",
+ "toml_parser",
+ "winnow 1.0.4",
+]
+
+[[package]]
+name = "toml_parser"
+version = "1.1.5+spec-1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "baa693a8032d7e1cada7d0041e96126df243179ff061456783ac7f12bda4744c"
+dependencies = [
+ "winnow 1.0.4",
+]
+
+[[package]]
+name = "toml_write"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d99f8c9a7727884afe522e9bd5edbfc91a3312b36a77b5fb8926e4c31a41801"
+
+[[package]]
+name = "toml_writer"
+version = "1.1.3+spec-1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "06bdbd8cfc056b8d2e2e85f29b56a3bdbecb527cef81eb39e3e7b98af4652770"
+
+[[package]]
+name = "tracing"
+version = "0.1.44"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "63e71662fa4b2a2c3a26f570f037eb95bb1f85397f3cd8076caed2f026a6d100"
+dependencies = [
+ "log",
+ "pin-project-lite",
+ "tracing-attributes",
+ "tracing-core",
+]
+
+[[package]]
+name = "tracing-attributes"
+version = "0.1.31"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7490cfa5ec963746568740651ac6781f701c9c5ea257c58e057f3ba8cf69e8da"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "tracing-core"
+version = "0.1.36"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "db97caf9d906fbde555dd62fa95ddba9eecfd14cb388e4f491a66d74cd5fb79a"
+dependencies = [
+ "once_cell",
+ "valuable",
+]
+
+[[package]]
+name = "tracing-log"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee855f1f400bd0e5c02d150ae5de3840039a3f54b025156404e34c23c03f47c3"
+dependencies = [
+ "log",
+ "once_cell",
+ "tracing-core",
+]
+
+[[package]]
+name = "tracing-subscriber"
+version = "0.3.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cb7f578e5945fb242538965c2d0b04418d38ec25c79d160cd279bf0731c8d319"
+dependencies = [
+ "nu-ansi-term",
+ "sharded-slab",
+ "smallvec",
+ "thread_local",
+ "tracing-core",
+ "tracing-log",
+]
+
+[[package]]
+name = "ttf-parser"
+version = "0.25.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d2df906b07856748fa3f6e0ad0cbaa047052d4a7dd609e231c4f72cee8c36f31"
+dependencies = [
+ "core_maths",
+]
+
+[[package]]
+name = "typeid"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc7d623258602320d5c55d1bc22793b57daff0ec7efc270ea7d55ce1d5f5471c"
+
+[[package]]
+name = "typenum"
+version = "1.20.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20"
+
+[[package]]
+name = "uds_windows"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f2f6fb2847f6742cd76af783a2a2c49e9375d0a111c7bef6f71cd9e738c72d6e"
+dependencies = [
+ "memoffset",
+ "tempfile",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "unicode-bidi"
+version = "0.3.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c1cb5db39152898a79168971543b1cb5020dff7fe43c8dc468b0885f5e29df5"
+
+[[package]]
+name = "unicode-bidi-mirroring"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5dfa6e8c60bb66d49db113e0125ee8711b7647b5579dc7f5f19c42357ed039fe"
+
+[[package]]
+name = "unicode-ccc"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ce61d488bcdc9bc8b5d1772c404828b17fc481c0a582b5581e95fb233aef503e"
+
+[[package]]
+name = "unicode-ident"
+version = "1.0.26"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d245f478577f809a851594d02313b640fb437e0bb33866753cff937863096954"
+
+[[package]]
+name = "unicode-linebreak"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3b09c83c3c29d37506a3e260c08c03743a6bb66a9cd432c6934ab501a190571f"
+
+[[package]]
+name = "unicode-properties"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e70f2a8b45122e719eb623c01822704c4e0907e7e426a05927e1a1cfff5b75d0"
+
+[[package]]
+name = "unicode-script"
+version = "0.5.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "383ad40bb927465ec0ce7720e033cb4ca06912855fc35db31b5755d0de75b1ee"
+
+[[package]]
+name = "unicode-segmentation"
+version = "1.13.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6f5d3c3b1bf09027a88a6bc961fc00497d651009560b5463668dc81b0fa87a8"
+
+[[package]]
+name = "unicode-vo"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1d386ff53b415b7fe27b50bb44679e2cc4660272694b7b6f3326d8480823a94"
+
+[[package]]
+name = "unicode-width"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b4ac048d71ede7ee76d585517add45da530660ef4390e49b098733c6e897f254"
+
+[[package]]
+name = "unicode-xid"
+version = "0.2.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ebc1c04c71510c7f702b52b7c350734c9ff1295c464a03335b00bb84fc54f853"
+
+[[package]]
+name = "url"
+version = "2.5.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ff67a8a4397373c3ef660812acab3268222035010ab8680ec4215f38ba3d0eed"
+dependencies = [
+ "form_urlencoded",
+ "idna",
+ "percent-encoding",
+ "serde",
+]
+
+[[package]]
+name = "usvg"
+version = "0.46.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e419dff010bb12512b0ae9e3d2f318dfbdf0167fde7eb05465134d4e8756076f"
+dependencies = [
+ "base64",
+ "data-url",
+ "flate2",
+ "fontdb",
+ "imagesize",
+ "kurbo",
+ "log",
+ "pico-args",
+ "roxmltree 0.21.1",
+ "rustybuzz",
+ "simplecss",
+ "siphasher",
+ "strict-num",
+ "svgtypes",
+ "tiny-skia-path",
+ "unicode-bidi",
+ "unicode-script",
+ "unicode-vo",
+ "xmlwriter",
+]
+
+[[package]]
+name = "utf8_iter"
+version = "1.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be"
+
+[[package]]
+name = "util-macros-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af60a3313d69a8b82f142bb02661cfd7e2456a7e7654a753ea9df755401f9707"
+dependencies = [
+ "perf-gpui-unofficial",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "uuid"
+version = "1.27.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "97277d36b9c3ace13e58fa6e753f8b0bbbf302a18dd193240d70f9e29681059a"
+dependencies = [
+ "getrandom 0.4.3",
+ "js-sys",
+ "serde_core",
+ "sha1_smol",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "v_frame"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "666b7727c8875d6ab5db9533418d7c764233ac9c0cff1d469aec8fa127597be2"
+dependencies = [
+ "aligned-vec",
+ "num-traits",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "valuable"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba73ea9cf16a25df0c8caa16c51acb937d5712a8429db78a3ee29d5dcacd3a65"
+
+[[package]]
+name = "value-bag"
+version = "1.14.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2799ffb329a792ecfd902b71306c8a815a6ef1c0470fa9953a6aa4d4cecbe511"
+dependencies = [
+ "value-bag-serde1",
+ "value-bag-sval2",
+]
+
+[[package]]
+name = "value-bag-serde1"
+version = "1.14.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0941feceafbe7a8f59ea1096d45b97002884a41306315ad797b3684b63a81d8c"
+dependencies = [
+ "erased-serde",
+ "serde_core",
+ "serde_fmt",
+]
+
+[[package]]
+name = "value-bag-sval2"
+version = "1.14.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "839752af8179287d27eb2b94164641b1ede9e60ab7424163388dc21ebd0508cd"
+dependencies = [
+ "sval",
+ "sval_buffer",
+ "sval_dynamic",
+ "sval_fmt",
+ "sval_json",
+ "sval_ref",
+ "sval_serde",
+]
+
+[[package]]
+name = "version_check"
+version = "0.9.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+
+[[package]]
+name = "vswhom"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "be979b7f07507105799e854203b470ff7c78a1639e330a58f183b5fea574608b"
+dependencies = [
+ "libc",
+ "vswhom-sys",
+]
+
+[[package]]
+name = "vswhom-sys"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb067e4cbd1ff067d1df46c9194b5de0e98efd2810bbc95c5d5e5f25a3231150"
+dependencies = [
+ "cc",
+ "libc",
+]
+
+[[package]]
+name = "waker-fn"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "317211a0dc0ceedd78fb2ca9a44aed3d7b9b26f81870d485c07122b4350673b7"
+
+[[package]]
+name = "walkdir"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "29790946404f91d9c5d06f9874efddea1dc06c5efe94541a7d6863108e3a5e4b"
+dependencies = [
+ "same-file",
+ "winapi-util",
+]
+
+[[package]]
+name = "wasi"
+version = "0.11.1+wasi-snapshot-preview1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ccf3ec651a847eb01de73ccad15eb7d99f80485de043efb2f370cd654f4ea44b"
+
+[[package]]
+name = "wasip2"
+version = "1.0.4+wasi-0.2.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b67efb37e106e55ce722a510d6b5f9c17f083e5fc79afc2badeb12cc313d9487"
+dependencies = [
+ "wit-bindgen",
+]
+
+[[package]]
+name = "wasm-bindgen"
+version = "0.2.129"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9bb54f33acc68fd454578d9820b0bde1a1a3d17aa17bb7b6595806d02886d409"
+dependencies = [
+ "cfg-if",
+ "once_cell",
+ "rustversion",
+ "wasm-bindgen-macro",
+ "wasm-bindgen-shared",
+]
+
+[[package]]
+name = "wasm-bindgen-futures"
+version = "0.4.79"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3cbab34de2d982e9b48e18d216d04c4a6f641066ff19ffb699980f591ee3610e"
+dependencies = [
+ "js-sys",
+ "tokio",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "wasm-bindgen-macro"
+version = "0.2.129"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e29d0c35b16e224a7eeb5cd2d25e3e1968fbd65604117b44d3b789d00ee8535"
+dependencies = [
+ "quote",
+ "wasm-bindgen-macro-support",
+]
+
+[[package]]
+name = "wasm-bindgen-macro-support"
+version = "0.2.129"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f501a8bc3719dba86ef8ae4728879c08001bea749eb1333ac5b91e040e2a6b7"
+dependencies = [
+ "bumpalo",
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+ "wasm-bindgen-shared",
+]
+
+[[package]]
+name = "wasm-bindgen-shared"
+version = "0.2.129"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "23f0c9c52aa7cd7d77769a4cfe2a9adb1b331f489a41d912ce14513d5ab995c6"
+dependencies = [
+ "unicode-ident",
+]
+
+[[package]]
+name = "wasm_thread"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b7516db7f32decdadb1c3b8deb1b7d78b9df7606c5cc2f6241737c2ab3a0258e"
+dependencies = [
+ "futures",
+ "js-sys",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
+name = "wayland-backend"
+version = "0.3.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38a91b4eaddff87b1cd1074985e3713da4af2c49742d1b356b2c01670a67a078"
+dependencies = [
+ "cc",
+ "downcast-rs",
+ "log",
+ "rustix",
+ "scoped-tls",
+ "smallvec",
+ "wayland-sys",
+]
+
+[[package]]
+name = "wayland-client"
+version = "0.31.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3c36a0f861ad76d0901f2800b46321410d9f73f2ea88aac0650d86c32688073"
+dependencies = [
+ "bitflags 2.13.2",
+ "rustix",
+ "wayland-backend",
+ "wayland-scanner",
+]
+
+[[package]]
+name = "wayland-cursor"
+version = "0.31.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4a52d18780be9b1314328a3de5f930b73d2200112e3849ca6cb11822793fb34d"
+dependencies = [
+ "rustix",
+ "wayland-client",
+ "xcursor",
+]
+
+[[package]]
+name = "wayland-protocols"
+version = "0.32.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "23d0c813de3daa2ed6520af85a3bd49b0e722a3078506899aa9686fea58dc4b6"
+dependencies = [
+ "bitflags 2.13.2",
+ "wayland-backend",
+ "wayland-client",
+ "wayland-scanner",
+]
+
+[[package]]
+name = "wayland-protocols-plasma"
+version = "0.3.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b6d8cf1eb2c1c31ed1f5643c88a6e53538129d4af80030c8cabd1f9fa884d91"
+dependencies = [
+ "bitflags 2.13.2",
+ "wayland-backend",
+ "wayland-client",
+ "wayland-protocols",
+ "wayland-scanner",
+]
+
+[[package]]
+name = "wayland-protocols-wlr"
+version = "0.3.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eb04e52f7836d7c7976c78ca0250d61e33873c34156a2a1fc9474828ec268234"
+dependencies = [
+ "bitflags 2.13.2",
+ "wayland-backend",
+ "wayland-client",
+ "wayland-protocols",
+ "wayland-scanner",
+]
+
+[[package]]
+name = "wayland-scanner"
+version = "0.31.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "338e30461b3a2b67d70eb30a6d89f8e0c93a833e07d2ae89085cd070c4a00ac0"
+dependencies = [
+ "proc-macro2",
+ "quick-xml",
+ "quote",
+]
+
+[[package]]
+name = "wayland-sys"
+version = "0.31.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d8eab23fefc9e41f8e841df4a9c707e8a8c4ed26e944ef69297184de2785e3be"
+dependencies = [
+ "dlib",
+ "log",
+ "once_cell",
+ "pkg-config",
+]
+
+[[package]]
+name = "web-sys"
+version = "0.3.106"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "88261b9deccee56594c11a3460c462c41f58d148598fe70ad77070126a68aba4"
+dependencies = [
+ "js-sys",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "web-time"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a6580f308b1fad9207618087a65c04e7a10bc77e02c8e84e9b00dd4b12fa0bb"
+dependencies = [
+ "js-sys",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "weezl"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a28ac98ddc8b9274cb41bb4d9d4d5c425b6020c50c46f25559911905610b4a88"
+
+[[package]]
+name = "wgpu"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "76e8840e1ba2881d4cbb18d2147627a56af426ff064c0401eb0c8410c6325d07"
+dependencies = [
+ "arrayvec",
+ "bitflags 2.13.2",
+ "bytemuck",
+ "cfg-if",
+ "cfg_aliases",
+ "document-features",
+ "hashbrown 0.16.1",
+ "js-sys",
+ "log",
+ "naga",
+ "parking_lot",
+ "portable-atomic",
+ "profiling",
+ "raw-window-handle",
+ "smallvec",
+ "static_assertions",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "wgpu-core",
+ "wgpu-hal",
+ "wgpu-types",
+]
+
+[[package]]
+name = "wgpu-core"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2f519832254e56965a9940c4af57dcb75f702b6f6fa4a0b172f685395843a4d7"
+dependencies = [
+ "arrayvec",
+ "bit-set",
+ "bit-vec",
+ "bitflags 2.13.2",
+ "bytemuck",
+ "cfg_aliases",
+ "document-features",
+ "hashbrown 0.16.1",
+ "indexmap",
+ "log",
+ "naga",
+ "once_cell",
+ "parking_lot",
+ "portable-atomic",
+ "profiling",
+ "raw-window-handle",
+ "rustc-hash 1.1.0",
+ "smallvec",
+ "thiserror 2.0.21",
+ "wgpu-core-deps-apple",
+ "wgpu-core-deps-emscripten",
+ "wgpu-core-deps-wasm",
+ "wgpu-core-deps-windows-linux-android",
+ "wgpu-hal",
+ "wgpu-naga-bridge",
+ "wgpu-types",
+]
+
+[[package]]
+name = "wgpu-core-deps-apple"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f5e39e26c4c0e07589e67d18546cf79ff45383659fc72fca4dd293358a0347f3"
+dependencies = [
+ "wgpu-hal",
+]
+
+[[package]]
+name = "wgpu-core-deps-emscripten"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "01e09be551dc939498bdd5f6b2c66e55ab275dad25825267a08605a80fc9f0af"
+dependencies = [
+ "wgpu-hal",
+]
+
+[[package]]
+name = "wgpu-core-deps-wasm"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af1fb1798be2a912497d4c224f72d39bb0cb34af50e8bcc29865bc339c943059"
+dependencies = [
+ "wgpu-hal",
+]
+
+[[package]]
+name = "wgpu-core-deps-windows-linux-android"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4e592c1bbef6ad047647ae6e666ebd8cee7a32bb4544d9700ec96cbf73230257"
+dependencies = [
+ "wgpu-hal",
+]
+
+[[package]]
+name = "wgpu-hal"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "97ace1c17727311c22a46e4e3faf56ea6de81af99dcc839bdfb54857b94d448d"
+dependencies = [
+ "android_system_properties",
+ "arrayvec",
+ "ash",
+ "bit-set",
+ "bitflags 2.13.2",
+ "block2 0.6.2",
+ "bytemuck",
+ "cfg-if",
+ "cfg_aliases",
+ "glow",
+ "glutin_wgl_sys",
+ "gpu-allocator",
+ "gpu-descriptor",
+ "hashbrown 0.16.1",
+ "js-sys",
+ "khronos-egl",
+ "libc",
+ "libloading",
+ "log",
+ "naga",
+ "ndk-sys",
+ "objc2 0.6.5",
+ "objc2-core-foundation",
+ "objc2-foundation 0.3.2",
+ "objc2-metal 0.3.2",
+ "objc2-quartz-core 0.3.2",
+ "once_cell",
+ "ordered-float",
+ "parking_lot",
+ "portable-atomic",
+ "portable-atomic-util",
+ "profiling",
+ "range-alloc",
+ "raw-window-handle",
+ "raw-window-metal",
+ "renderdoc-sys",
+ "smallvec",
+ "thiserror 2.0.21",
+ "wasm-bindgen",
+ "wayland-sys",
+ "web-sys",
+ "wgpu-naga-bridge",
+ "wgpu-types",
+ "windows 0.62.2",
+ "windows-core 0.62.2",
+ "windows-result 0.4.1",
+]
+
+[[package]]
+name = "wgpu-naga-bridge"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95226013f547544b223281cd16a4fb549aa9dcb562adbda0faae4c73ffbbc161"
+dependencies = [
+ "naga",
+ "wgpu-types",
+]
+
+[[package]]
+name = "wgpu-types"
+version = "29.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "84bf84cd9ca8ca45e2b223a3868f1adf9bfc0c66aeac212e76ee7e40fdadf8f5"
+dependencies = [
+ "bitflags 2.13.2",
+ "bytemuck",
+ "js-sys",
+ "log",
+ "raw-window-handle",
+ "web-sys",
+]
+
+[[package]]
+name = "which"
+version = "8.0.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bae2f2b2b816647a1cab1acc91f5bd20812d53cb344382635ec2181940c8034f"
+dependencies = [
+ "libc",
+]
+
+[[package]]
+name = "winapi"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419"
+dependencies = [
+ "winapi-i686-pc-windows-gnu",
+ "winapi-x86_64-pc-windows-gnu",
+]
+
+[[package]]
+name = "winapi-i686-pc-windows-gnu"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
+
+[[package]]
+name = "winapi-util"
+version = "0.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
+dependencies = [
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "winapi-x86_64-pc-windows-gnu"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
+
+[[package]]
+name = "windows"
+version = "0.57.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "12342cb4d8e3b046f3d80effd474a7a02447231330ef77d71daa6fbc40681143"
+dependencies = [
+ "windows-core 0.57.0",
+ "windows-targets 0.52.6",
+]
+
+[[package]]
+name = "windows"
+version = "0.61.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9babd3a767a4c1aef6900409f85f5d53ce2544ccdfaa86dad48c91782c6d6893"
+dependencies = [
+ "windows-collections 0.2.0",
+ "windows-core 0.61.2",
+ "windows-future 0.2.1",
+ "windows-link 0.1.3",
+ "windows-numerics 0.2.0",
+]
+
+[[package]]
+name = "windows"
+version = "0.62.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "527fadee13e0c05939a6a05d5bd6eec6cd2e3dbd648b9f8e447c6518133d8580"
+dependencies = [
+ "windows-collections 0.3.2",
+ "windows-core 0.62.2",
+ "windows-future 0.3.2",
+ "windows-numerics 0.3.1",
+]
+
+[[package]]
+name = "windows-capture"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3a4df73e95feddb9ec1a7e9c2ca6323b8c97d5eeeff78d28f1eccdf19c882b24"
+dependencies = [
+ "parking_lot",
+ "rayon",
+ "thiserror 2.0.21",
+ "windows 0.61.3",
+ "windows-future 0.2.1",
+]
+
+[[package]]
+name = "windows-collections"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3beeceb5e5cfd9eb1d76b381630e82c4241ccd0d27f1a39ed41b2760b255c5e8"
+dependencies = [
+ "windows-core 0.61.2",
+]
+
+[[package]]
+name = "windows-collections"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "23b2d95af1a8a14a3c7367e1ed4fc9c20e0a26e79551b1454d72583c97cc6610"
+dependencies = [
+ "windows-core 0.62.2",
+]
+
+[[package]]
+name = "windows-core"
+version = "0.57.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d2ed2439a290666cd67ecce2b0ffaad89c2a56b976b736e6ece670297897832d"
+dependencies = [
+ "windows-implement 0.57.0",
+ "windows-interface 0.57.0",
+ "windows-result 0.1.2",
+ "windows-targets 0.52.6",
+]
+
+[[package]]
+name = "windows-core"
+version = "0.61.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c0fdd3ddb90610c7638aa2b3a3ab2904fb9e5cdbecc643ddb3647212781c4ae3"
+dependencies = [
+ "windows-implement 0.60.2",
+ "windows-interface 0.59.3",
+ "windows-link 0.1.3",
+ "windows-result 0.3.4",
+ "windows-strings 0.4.2",
+]
+
+[[package]]
+name = "windows-core"
+version = "0.62.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b8e83a14d34d0623b51dce9581199302a221863196a1dde71a7663a4c2be9deb"
+dependencies = [
+ "windows-implement 0.60.2",
+ "windows-interface 0.59.3",
+ "windows-link 0.2.1",
+ "windows-result 0.4.1",
+ "windows-strings 0.5.1",
+]
+
+[[package]]
+name = "windows-future"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc6a41e98427b19fe4b73c550f060b59fa592d7d686537eebf9385621bfbad8e"
+dependencies = [
+ "windows-core 0.61.2",
+ "windows-link 0.1.3",
+ "windows-threading 0.1.0",
+]
+
+[[package]]
+name = "windows-future"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e1d6f90251fe18a279739e78025bd6ddc52a7e22f921070ccdc67dde84c605cb"
+dependencies = [
+ "windows-core 0.62.2",
+ "windows-link 0.2.1",
+ "windows-threading 0.2.1",
+]
+
+[[package]]
+name = "windows-implement"
+version = "0.57.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9107ddc059d5b6fbfbffdfa7a7fe3e22a226def0b2608f72e9d552763d3e1ad7"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "windows-implement"
+version = "0.60.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "053e2e040ab57b9dc951b72c264860db7eb3b0200ba345b4e4c3b14f67855ddf"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "windows-interface"
+version = "0.57.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "29bee4b38ea3cde66011baa44dba677c432a78593e202392d1e9070cf2a7fca7"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "windows-interface"
+version = "0.59.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3f316c4a2570ba26bbec722032c4099d8c8bc095efccdc15688708623367e358"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "windows-link"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5e6ad25900d524eaabdbbb96d20b4311e1e7ae1699af4fb28c17ae66c80d798a"
+
+[[package]]
+name = "windows-link"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5"
+
+[[package]]
+name = "windows-numerics"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9150af68066c4c5c07ddc0ce30421554771e528bde427614c61038bc2c92c2b1"
+dependencies = [
+ "windows-core 0.61.2",
+ "windows-link 0.1.3",
+]
+
+[[package]]
+name = "windows-numerics"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e2e40844ac143cdb44aead537bbf727de9b044e107a0f1220392177d15b0f26"
+dependencies = [
+ "windows-core 0.62.2",
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows-registry"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "02752bf7fbdcce7f2a27a742f798510f3e5ad88dbe84871e5168e2120c3d5720"
+dependencies = [
+ "windows-link 0.2.1",
+ "windows-result 0.4.1",
+ "windows-strings 0.5.1",
+]
+
+[[package]]
+name = "windows-result"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5e383302e8ec8515204254685643de10811af0ed97ea37210dc26fb0032647f8"
+dependencies = [
+ "windows-targets 0.52.6",
+]
+
+[[package]]
+name = "windows-result"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "56f42bd332cc6c8eac5af113fc0c1fd6a8fd2aa08a0119358686e5160d0586c6"
+dependencies = [
+ "windows-link 0.1.3",
+]
+
+[[package]]
+name = "windows-result"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7781fa89eaf60850ac3d2da7af8e5242a5ea78d1a11c49bf2910bb5a73853eb5"
+dependencies = [
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows-strings"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "56e6c93f3a0c3b36176cb1327a4958a0353d5d166c2a35cb268ace15e91d3b57"
+dependencies = [
+ "windows-link 0.1.3",
+]
+
+[[package]]
+name = "windows-strings"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7837d08f69c77cf6b07689544538e017c1bfcf57e34b4c0ff58e6c2cd3b37091"
+dependencies = [
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows-sys"
+version = "0.48.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9"
+dependencies = [
+ "windows-targets 0.48.5",
+]
+
+[[package]]
+name = "windows-sys"
+version = "0.61.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc"
+dependencies = [
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows-targets"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a2fa6e2155d7247be68c096456083145c183cbbbc2764150dda45a87197940c"
+dependencies = [
+ "windows_aarch64_gnullvm 0.48.5",
+ "windows_aarch64_msvc 0.48.5",
+ "windows_i686_gnu 0.48.5",
+ "windows_i686_msvc 0.48.5",
+ "windows_x86_64_gnu 0.48.5",
+ "windows_x86_64_gnullvm 0.48.5",
+ "windows_x86_64_msvc 0.48.5",
+]
+
+[[package]]
+name = "windows-targets"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973"
+dependencies = [
+ "windows_aarch64_gnullvm 0.52.6",
+ "windows_aarch64_msvc 0.52.6",
+ "windows_i686_gnu 0.52.6",
+ "windows_i686_gnullvm",
+ "windows_i686_msvc 0.52.6",
+ "windows_x86_64_gnu 0.52.6",
+ "windows_x86_64_gnullvm 0.52.6",
+ "windows_x86_64_msvc 0.52.6",
+]
+
+[[package]]
+name = "windows-threading"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b66463ad2e0ea3bbf808b7f1d371311c80e115c0b71d60efc142cafbcfb057a6"
+dependencies = [
+ "windows-link 0.1.3",
+]
+
+[[package]]
+name = "windows-threading"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3949bd5b99cafdf1c7ca86b43ca564028dfe27d66958f2470940f73d86d75b37"
+dependencies = [
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows-version"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4060a1da109b9d0326b7262c8e12c84df67cc0dbc9e33cf49e01ccc2eb63631"
+dependencies = [
+ "windows-link 0.2.1",
+]
+
+[[package]]
+name = "windows_aarch64_gnullvm"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2b38e32f0abccf9987a4e3079dfb67dcd799fb61361e53e2882c3cbaf0d905d8"
+
+[[package]]
+name = "windows_aarch64_gnullvm"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32a4622180e7a0ec044bb555404c800bc9fd9ec262ec147edd5989ccd0c02cd3"
+
+[[package]]
+name = "windows_aarch64_msvc"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc35310971f3b2dbbf3f0690a219f40e2d9afcf64f9ab7cc1be722937c26b4bc"
+
+[[package]]
+name = "windows_aarch64_msvc"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09ec2a7bb152e2252b53fa7803150007879548bc709c039df7627cabbd05d469"
+
+[[package]]
+name = "windows_i686_gnu"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a75915e7def60c94dcef72200b9a8e58e5091744960da64ec734a6c6e9b3743e"
+
+[[package]]
+name = "windows_i686_gnu"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e9b5ad5ab802e97eb8e295ac6720e509ee4c243f69d781394014ebfe8bbfa0b"
+
+[[package]]
+name = "windows_i686_gnullvm"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0eee52d38c090b3caa76c563b86c3a4bd71ef1a819287c19d586d7334ae8ed66"
+
+[[package]]
+name = "windows_i686_msvc"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f55c233f70c4b27f66c523580f78f1004e8b5a8b659e05a4eb49d4166cca406"
+
+[[package]]
+name = "windows_i686_msvc"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "240948bc05c5e7c6dabba28bf89d89ffce3e303022809e73deaefe4f6ec56c66"
+
+[[package]]
+name = "windows_x86_64_gnu"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "53d40abd2583d23e4718fddf1ebec84dbff8381c07cae67ff7768bbf19c6718e"
+
+[[package]]
+name = "windows_x86_64_gnu"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "147a5c80aabfbf0c7d901cb5895d1de30ef2907eb21fbbab29ca94c5b08b1a78"
+
+[[package]]
+name = "windows_x86_64_gnullvm"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b7b52767868a23d5bab768e390dc5f5c55825b6d30b86c844ff2dc7414044cc"
+
+[[package]]
+name = "windows_x86_64_gnullvm"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "24d5b23dc417412679681396f2b49f3de8c1473deb516bd34410872eff51ed0d"
+
+[[package]]
+name = "windows_x86_64_msvc"
+version = "0.48.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ed94fce61571a4006852b7389a063ab983c02eb1bb37b47f8272ce92d06d9538"
+
+[[package]]
+name = "windows_x86_64_msvc"
+version = "0.52.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
+
+[[package]]
+name = "winnow"
+version = "0.7.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "df79d97927682d2fd8adb29682d1140b343be4ac0f08fd68b7765d9c059d3945"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "winnow"
+version = "1.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "23b97319f7b8343df12cc98938e5c3eb436064524c8d2b4e30a1d3a36eecdf81"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "winreg"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7d6f32a0ff4a9f6f01231eb2059cc85479330739333e0e58cadf03b6af2cca10"
+dependencies = [
+ "cfg-if",
+ "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "wio"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d129932f4644ac2396cb456385cbf9e63b5b30c6e8dc4820bdca4eb082037a5"
+dependencies = [
+ "winapi",
+]
+
+[[package]]
+name = "wit-bindgen"
+version = "0.57.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1ebf944e87a7c253233ad6766e082e3cd714b5d03812acc24c318f549614536e"
+
+[[package]]
+name = "writeable"
+version = "0.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ad82d2a33cdc9674dc7465672f271e096168fcdbe0f799d9e6db8c5892679dc"
+
+[[package]]
+name = "x11"
+version = "2.21.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "502da5464ccd04011667b11c435cb992822c2c0dbde1770c988480d312a0db2e"
+dependencies = [
+ "libc",
+ "pkg-config",
+]
+
+[[package]]
+name = "x11rb"
+version = "0.13.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9993aa5be5a26815fe2c3eacfc1fde061fc1a1f094bf1ad2a18bf9c495dd7414"
+dependencies = [
+ "as-raw-xcb-connection",
+ "gethostname",
+ "libc",
+ "rustix",
+ "x11rb-protocol",
+ "xcursor",
+]
+
+[[package]]
+name = "x11rb-protocol"
+version = "0.13.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ea6fc2961e4ef194dcbfe56bb845534d0dc8098940c7e5c012a258bfec6701bd"
+
+[[package]]
+name = "xcb"
+version = "1.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a6c2ad15e0e922856ee89afe862b8992334bbe7953adad56cd1199358cb30566"
+dependencies = [
+ "bitflags 2.13.2",
+ "libc",
+ "quick-xml",
+ "x11",
+]
+
+[[package]]
+name = "xcursor"
+version = "0.3.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "163b33ed8786455e2fa5d72f554057ce3f3182425434f756cd39c99839d88e23"
+
+[[package]]
+name = "xim-ctext"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2ac61a7062c40f3c37b6e82eeeef835d5cc7824b632a72784a89b3963c33284c"
+dependencies = [
+ "encoding_rs",
+]
+
+[[package]]
+name = "xim-parser"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5dcee45f89572d5a65180af3a84e7ddb24f5ea690a6d3aa9de231281544dd7b7"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "xkbcommon"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8d66ca9352cbd4eecbbc40871d8a11b4ac8107cfc528a6e14d7c19c69d0e1ac9"
+dependencies = [
+ "as-raw-xcb-connection",
+ "libc",
+ "memmap2",
+ "xkeysym",
+]
+
+[[package]]
+name = "xkeysym"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b9cc00251562a284751c9973bace760d86c0276c471b4be569fe6b068ee97a56"
+
+[[package]]
+name = "xml-rs"
+version = "0.8.29"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e450f9b2ed1dff33c94c12589a87338689467b9c4f5d8a5710bd09a847d2c8a7"
+
+[[package]]
+name = "xmlwriter"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec7a2a501ed189703dba8b08142f057e887dfc4b2cc4db2d343ac6376ba3e0b9"
+
+[[package]]
+name = "y4m"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a5a4b21e1a62b67a2970e6831bc091d7b87e119e7f9791aef9702e3bef04448"
+
+[[package]]
+name = "yazi"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e01738255b5a16e78bbb83e7fbba0a1e7dd506905cfc53f4622d89015a03fbb5"
+
+[[package]]
+name = "yeslogic-fontconfig-sys"
+version = "6.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1d8b8abf912b9a29ff112e1671c97c33636903d13a69712037190e6805af4f76"
+dependencies = [
+ "dlib",
+ "once_cell",
+ "pkg-config",
+]
+
+[[package]]
+name = "yoke"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "709fe23a0424b6a435d82152b1bd3fdfb0833487d5fa90d05d42762a9891fef5"
+dependencies = [
+ "stable_deref_trait",
+ "yoke-derive",
+ "zerofrom",
+]
+
+[[package]]
+name = "yoke-derive"
+version = "0.8.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ec8ebde2db3681e8c9980cc27822030e68752690ddfa9473e739aeb4dbde6d71"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+ "synstructure",
+]
+
+[[package]]
+name = "zbus"
+version = "5.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5db4be7c075cb421e4b7ee645541604239bd243ba7c357511f4ff3a74b555907"
+dependencies = [
+ "async-broadcast",
+ "async-executor",
+ "async-io",
+ "async-lock",
+ "async-process",
+ "async-recursion",
+ "async-task",
+ "async-trait",
+ "blocking",
+ "enumflags2",
+ "event-listener",
+ "futures-core",
+ "futures-lite",
+ "hex",
+ "libc",
+ "ordered-stream",
+ "rustix",
+ "serde",
+ "serde_repr",
+ "tracing",
+ "uds_windows",
+ "uuid",
+ "windows-sys 0.61.2",
+ "winnow 1.0.4",
+ "zbus_macros",
+ "zbus_names",
+ "zvariant",
+]
+
+[[package]]
+name = "zbus-lockstep"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6998de05217a084b7578728a9443d04ea4cd80f2a0839b8d78770b76ccd45863"
+dependencies = [
+ "zbus_xml",
+ "zvariant",
+]
+
+[[package]]
+name = "zbus-lockstep-macros"
+version = "0.5.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "10da05367f3a7b7553c8cdf8fa91aee6b64afebe32b51c95177957efc47ca3a0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+ "zbus-lockstep",
+ "zbus_xml",
+ "zvariant",
+]
+
+[[package]]
+name = "zbus_macros"
+version = "5.19.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2990635d09ade6df1868f72f8cac69a876a90981e8bd3c40b1be413f8dc88f40"
+dependencies = [
+ "proc-macro-crate",
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+ "zbus_names",
+ "zvariant",
+ "zvariant_utils",
+]
+
+[[package]]
+name = "zbus_names"
+version = "4.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d8bf88b4a3ff53e883001e0e0115b297a9d53c31b9c1edd2bfdd853e3428624e"
+dependencies = [
+ "serde",
+ "winnow 1.0.4",
+ "zvariant",
+]
+
+[[package]]
+name = "zbus_xml"
+version = "5.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d1586c021a01ca0a9216dcd874e546382e156a5cbab5fab6cb5f10087e22682a"
+dependencies = [
+ "serde",
+ "winnow 1.0.4",
+ "zbus_names",
+ "zvariant",
+]
+
+[[package]]
+name = "zcheapstr"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d1afec51604565183aeb5c54c20aeab286120d4e4460f7f76e3e8bb8c0d99473"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "zed-font-kit"
+version = "0.14.1-zed"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a3898e450f36f852edda72e3f985c34426042c4951790b23b107f93394f9bff5"
+dependencies = [
+ "bitflags 2.13.2",
+ "byteorder",
+ "core-foundation 0.10.1",
+ "core-graphics 0.24.0",
+ "core-text",
+ "dirs",
+ "dwrote",
+ "float-ord",
+ "freetype-sys",
+ "lazy_static",
+ "libc",
+ "log",
+ "pathfinder_geometry",
+ "pathfinder_simd",
+ "walkdir",
+ "winapi",
+ "yeslogic-fontconfig-sys",
+]
+
+[[package]]
+name = "zed-scap"
+version = "0.0.8-zed"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6b338d705ae33a43ca00287c11129303a7a0aa57b101b72a1c08c863f698ac8"
+dependencies = [
+ "anyhow",
+ "cocoa 0.25.0",
+ "core-graphics-helmer-fork",
+ "log",
+ "objc",
+ "rand 0.8.8",
+ "screencapturekit",
+ "screencapturekit-sys",
+ "sysinfo",
+ "tao-core-video-sys",
+ "windows 0.61.3",
+ "windows-capture",
+ "x11",
+ "xcb",
+]
+
+[[package]]
+name = "zed-xim"
+version = "0.4.0-zed"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0c0b46ed118eba34d9ba53d94ddc0b665e0e06a2cf874cfa2dd5dec278148642"
+dependencies = [
+ "ahash",
+ "hashbrown 0.14.5",
+ "log",
+ "x11rb",
+ "xim-ctext",
+ "xim-parser",
+]
+
+[[package]]
+name = "zeno"
+version = "0.3.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6df3dc4292935e51816d896edcd52aa30bc297907c26167fec31e2b0c6a32524"
+
+[[package]]
+name = "zerocopy"
+version = "0.8.62"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "86502bf56ac7c77571a32e2647bb2a15894565e981fb2a48d7bde2d91c965a9d"
+dependencies = [
+ "zerocopy-derive",
+]
+
+[[package]]
+name = "zerocopy-derive"
+version = "0.8.62"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5457206954b06561e2608c7e19cf58b1926586d999c246eebe4502f7e2039d1a"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "zerofrom"
+version = "0.1.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0ec05a11813ea801ff6d75110ad09cd0824ddba17dfe17128ea0d5f68e6c5272"
+dependencies = [
+ "zerofrom-derive",
+]
+
+[[package]]
+name = "zerofrom-derive"
+version = "0.1.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f75b4683f6c7f45248d4d64056a24298c6281e0993356d7d1b4a1a962ef10d4a"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+ "synstructure",
+]
+
+[[package]]
+name = "zeroize"
+version = "1.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e13084392c5e4bc371903e2935a5eaeed24905a7511356b883835e18a78f6879"
+dependencies = [
+ "zeroize_derive",
+]
+
+[[package]]
+name = "zeroize_derive"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3c50655cbb0fe3fc43170059e702f1ce5e19b84cec58dc87b037a09935c2f328"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
+]
+
+[[package]]
+name = "zerotrie"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4ea269c3bd32f0a32c321907a2ae912ba6f4649bb0fc764a15627e99a7095a3f"
+dependencies = [
+ "displaydoc",
+ "yoke",
+ "zerofrom",
+]
+
+[[package]]
+name = "zerovec"
+version = "0.11.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bb0464e17806c1d976d5cba29399c7f08e516e279e2ba493f63123b5fca67dd8"
+dependencies = [
+ "yoke",
+ "zerofrom",
+ "zerovec-derive",
+]
+
+[[package]]
+name = "zerovec-derive"
+version = "0.11.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "34df6fc39dbd26ddc9c10e6a2984476e13acce22e64e4487636ef494369225da"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+]
+
+[[package]]
+name = "zlib-rs"
+version = "0.6.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b268e58e7c693d7c271f93ffc4ba3b380412554231c85bf61ca7af91042a4112"
+
+[[package]]
+name = "zlog-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b525ad57b32e2c03714a93dbb803c9ed70f22c571894b23862c1b824402b78f"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "collections-gpui-unofficial",
+ "log",
+]
+
+[[package]]
+name = "zmij"
+version = "1.0.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "29666d0abbfad1e3dc4dcf6144730dd3a3ab225bbbdac83319345b1b44ccfc1b"
+
+[[package]]
+name = "ztracing-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3d6a6658e7fd7d698b2ba33afc7c5e431bd5e85a90acef1baf7dbc31aa20a73a"
+dependencies = [
+ "tracing",
+ "tracing-subscriber",
+ "zlog-gpui-unofficial",
+ "ztracing-macro-gpui-unofficial",
+]
+
+[[package]]
+name = "ztracing-macro-gpui-unofficial"
+version = "1.23.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "543092cbf6836c0c8d36f3321e35b3a87718dd21c99ca4ff11ae3e82f15e8f1a"
+
+[[package]]
+name = "zune-core"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d56377fd46368984a170bc5aac5567e52ca5da874caa60bea39fcbca78fb658b"
+
+[[package]]
+name = "zune-inflate"
+version = "0.2.54"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "73ab332fe2f6680068f3582b16a24f90ad7096d5d39b974d1c0aff0125116f02"
+dependencies = [
+ "simd-adler32",
+]
+
+[[package]]
+name = "zune-jpeg"
+version = "0.5.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "27bc9d5b815bc103f142aa054f561d9187d191692ec7c2d1e2b4737f8dbd7296"
+dependencies = [
+ "zune-core",
+]
+
+[[package]]
+name = "zvariant"
+version = "5.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c1d34c27cc6cdd1f458427519dd6b8612f7b7e3f7b9a0b2355d041dda9869147"
+dependencies = [
+ "endi",
+ "enumflags2",
+ "serde",
+ "serde_bytes",
+ "winnow 1.0.4",
+ "zcheapstr",
+ "zvariant_derive",
+ "zvariant_utils",
+]
+
+[[package]]
+name = "zvariant_derive"
+version = "5.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "864155e69b4352db0c7f374917bf45d1e0c8d17659c8b3dbf9795f3673f8c497"
+dependencies = [
+ "proc-macro-crate",
+ "proc-macro2",
+ "quote",
+ "syn 3.0.6",
+ "zvariant_utils",
+]
+
+[[package]]
+name = "zvariant_utils"
+version = "4.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bad0294361a320b694a328460dc73add56c306150f5cb6bfafc44446120008a3"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "serde",
+ "syn 3.0.6",
+ "winnow 1.0.4",
+]
+`},{type:`file`,name:`Cargo.toml`,path:`side-projects/crabe/hedging/Cargo.toml`,language:`TOML`,content:`[package]
+name = "hedging"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gpui = {package = "gpui-unofficial", version = "1.7"}
+gpui_platform = { package = "gpui-platform-gpui-unofficial", version = "1.14", features = ["font-kit"] }
+
+[patch.crates-io]
+pathfinder_simd = { path = "vendor/pathfinder_simd" }
+`},{type:`file`,name:`README.md`,path:`side-projects/crabe/hedging/README.md`,language:`Markdown`,content:`# hedging
+
+application created following [hedge-ops's tutorial](https://github.com/hedge-ops/gpui-tutoria).
+`},{type:`file`,name:`rust-toolchain.toml`,path:`side-projects/crabe/hedging/rust-toolchain.toml`,language:`TOML`,content:`[toolchain]
+channel = "nightly-2026-02-14"
+components = ["rustfmt", "clippy"]
 `}]},{type:`folder`,name:`rmcli`,path:`side-projects/crabe/rmcli`,children:[{type:`folder`,name:`examples`,path:`side-projects/crabe/rmcli/examples`,children:[{type:`file`,name:`animate.rs`,path:`side-projects/crabe/rmcli/examples/animate.rs`,language:`Rust`,content:`// spinner loading example
 use indicatif::{ProgressBar, ProgressStyle};
 use std::{thread, time::Duration};
@@ -15438,7 +37979,244 @@ print(compteur)
 \`\`\`python
 dépendances=[None]
 \`\`\`
-`}]},{type:`folder`,name:`tle-séance 02`,path:`tle-séance 02`,children:[{type:`file`,name:`bonsai.py`,path:`tle-séance 02/bonsai.py`,language:`Python`,content:`import queue
+`}]},{type:`folder`,name:`tle-séance 02`,path:`tle-séance 02`,children:[{type:`folder`,name:`ds`,path:`tle-séance 02/ds`,children:[{type:`file`,name:`arbre.py`,path:`tle-séance 02/ds/arbre.py`,language:`Python`,content:`import matplotlib
+
+matplotlib.use("TkAgg")
+
+import matplotlib.pyplot as plt
+
+plt.rcParams["figure.figsize"] = (20, 6)
+
+
+def vide():
+    return None
+
+
+def racine(t):
+    return t[0]
+
+
+def fg(t):
+    return t[1]
+
+
+def fd(t):
+    return t[2]
+
+
+def fils(t):
+    return (fg(t), fd(t))
+
+
+def est_vide(t):
+    return t == None
+
+
+def arbre(x, u, v):
+    return (x, u, v)
+
+
+Exemple4 = (
+    "x",
+    ("-", (3, None, None), (2, None, None)),
+    ("+", (7, None, None), ("/", (10, None, None), (2, None, None))),
+)
+
+
+def hauteur(t):
+    if est_vide(t):
+        return 1  # départ d'une racine = 1
+    else:
+        u, v = fg(t), fd(t)
+        return 1 + max(hauteur(u), hauteur(v))
+
+
+def dessiner(t, labels=True):
+    d = 512
+    pad = 20
+    dy = (d - 2 * pad) / (hauteur(t))
+    dessiner_aux(t, (pad, d - pad, pad, d - pad), dy, labels)
+    # plt.axis([0, d, 0, d])
+    plt.axis("off")
+    plt.show()
+
+
+def dessiner_aux(t, rect, dy, labels):
+    if est_vide(t):
+        return
+    x1, x2, y1, y2 = rect
+    xm = (x1 + x2) // 2
+    x, t1, t2 = t
+
+    dessiner_aux(t1, (x1, xm, y1, y2 - dy), dy, labels)
+    dessiner_aux(t2, (xm, x2, y1, y2 - dy), dy, labels)
+    if labels:
+        plt.text(
+            xm - 5,
+            y2 + 5,
+            str(x),
+            fontsize=10,
+            horizontalalignment="center",
+            va="bottom",
+        )
+
+    if not est_vide(t1):
+        a, b = ((xm, (x1 + xm) // 2), (y2, y2 - dy))
+        plt.plot(a, b, "k", marker="o", markerfacecolor="r")
+
+    if not est_vide(t2):
+        c, d = ((xm, (x2 + xm) // 2), (y2, y2 - dy))
+        plt.plot(c, d, "k", marker="o", markerfacecolor="r")
+
+
+# dessiner(Exemple4)
+
+
+def operation(s):
+    x = racine(s)
+    u = fg(s)
+    v = fd(s)
+    if x == "+":
+        return operation(u) + operation(v)
+    elif x == "-":
+        return operation(u) - operation(v)
+    elif x == "*":
+        return operation(u) * operation(v)
+    elif x == "/":
+        return operation(u) / operation(v)
+    else:
+        return racine(s)
+
+
+print(operation(Exemple4))
+dessiner(Exemple4)
+`},{type:`file`,name:`infixe.py`,path:`tle-séance 02/ds/infixe.py`,language:`Python`,content:`import matplotlib.pyplot as plt
+
+L = [1, 11, 12, 2, 60, 9]
+
+
+def est_vide(t):
+    return t == None
+
+
+def racine(t):
+    return t[0]
+
+
+def fg(t):
+    return t[1]
+
+
+def fd(t):
+    return t[2]
+
+
+def tri(t):
+    n = len(t)
+    for i in range(1, n):
+        aux = t[i]
+        j = i - 1
+
+        while j >= 0 and aux < t[j]:
+            t[j + 1] = t[j]
+            j = j - 1
+
+        t[j + 1] = aux
+
+
+def parcours_infixe(t):
+    if est_vide(t):
+        return []
+    else:
+        x, u, v = racine(t), fg(t), fd(t)
+        return parcours_infixe(u) + [x] + parcours_infixe(v)
+
+
+def hauteur(t):
+    if est_vide(t):
+        return 1  # départ d'une racine = 1
+    else:
+        u, v = fg(t), fd(t)
+        return 1 + max(hauteur(u), hauteur(v))
+
+
+def dessiner(t, labels=True):
+    d = 512
+    pad = 20
+    dy = (d - 2 * pad) / (hauteur(t))
+    dessiner_aux(t, (pad, d - pad, pad, d - pad), dy, labels)
+    # plt.axis([0, d, 0, d])
+    plt.axis("off")
+    plt.show()
+
+
+def dessiner_aux(t, rect, dy, labels):
+    if est_vide(t):
+        return
+    x1, x2, y1, y2 = rect
+    xm = (x1 + x2) // 2
+    x, t1, t2 = t
+
+    dessiner_aux(t1, (x1, xm, y1, y2 - dy), dy, labels)
+    dessiner_aux(t2, (xm, x2, y1, y2 - dy), dy, labels)
+    if labels:
+        plt.text(
+            xm - 5,
+            y2 + 5,
+            str(x),
+            fontsize=10,
+            horizontalalignment="center",
+            va="bottom",
+        )
+
+    if not est_vide(t1):
+        a, b = ((xm, (x1 + xm) // 2), (y2, y2 - dy))
+        plt.plot(a, b, "k", marker="o", markerfacecolor="r")
+
+    if not est_vide(t2):
+        c, d = ((xm, (x2 + xm) // 2), (y2, y2 - dy))
+        plt.plot(c, d, "k", marker="o", markerfacecolor="r")
+
+
+def inserer(x, t):
+    if est_vide(t):
+        return (x, None, None)
+    y, u, v = racine(t), fg(t), fd(t)
+    if x < y:
+        return (y, inserer(x, u), v)
+    elif x > y:
+        return (y, u, inserer(x, v))
+    else:
+        return t
+
+
+def construire_arbre(L):
+    t = None
+    for x in L:
+        t = inserer(x, t)
+    return t
+
+
+L = [1, 11, 12, 2, 60, 9]
+arbre = construire_arbre(L)
+
+print(f"liste trié: {parcours_infixe(arbre)}")
+dessiner(arbre)
+`},{type:`file`,name:`NSI_Ter_S2_DS_partie2.docx`,path:`tle-séance 02/ds/NSI_Ter_S2_DS_partie2.docx`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: tle-séance 02/ds/NSI_Ter_S2_DS_partie2.docx (936871 octets)]`},{type:`file`,name:`tri.py`,path:`tle-séance 02/ds/tri.py`,language:`Python`,content:`L = [1, 11, 12, 2, 60, 9]
+
+n = len(L)
+for i in range(1, n):
+    aux = L[i]
+    j = i - 1
+
+    while j >= 0 and aux < L[j]:
+        L[j + 1] = L[j]
+        j = j - 1
+
+    L[j + 1] = aux
+
+print(L)
+`}]},{type:`file`,name:`bonsai.py`,path:`tle-séance 02/bonsai.py`,language:`Python`,content:`import queue
 import random
 
 import matplotlib
@@ -15655,7 +38433,7 @@ def supprimer(x, t):
 
 
 dessiner(exemple)
-`},{type:`file`,name:`README.md`,path:`tle-séance 02/README.md`,language:`Markdown`,content:`# tle séance 2
+`},{type:`file`,name:`NSI_Ter_S2.pdf`,path:`tle-séance 02/NSI_Ter_S2.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: tle-séance 02/NSI_Ter_S2.pdf (1190483 octets)]`},{type:`file`,name:`README.md`,path:`tle-séance 02/README.md`,language:`Markdown`,content:`# tle séance 2
 
 1. [bonsai.py](./bonsai.py) programme simple qui fait un arbre selon la variable \`exemple\`
 2. [winrar.py](./winrar.py) honnêtement, jsp
@@ -15791,7 +38569,190 @@ heappush(L, (4, ["F", "0"]))
 print(L)
 for x in range(len(L)):
     print(heappop(L))
-`}]},{type:`folder`,name:`tle-séance 03`,path:`tle-séance 03`,children:[{type:`folder`,name:`3 ー 8`,path:`tle-séance 03/3 ー 8`,children:[{type:`file`,name:`alphabetique.py`,path:`tle-séance 03/3 ー 8/alphabetique.py`,language:`Python`,content:`import string
+`}]},{type:`folder`,name:`tle-séance 03`,path:`tle-séance 03`,children:[{type:`folder`,name:`3 ー 8`,path:`tle-séance 03/3 ー 8`,children:[{type:`folder`,name:`sujet`,path:`tle-séance 03/3 ー 8/sujet`,children:[{type:`file`,name:`coccinnelles.py`,path:`tle-séance 03/3 ー 8/sujet/coccinnelles.py`,language:`Python`,content:`import random
+
+
+class Coccinelle:
+    def __init__(self, sexe, age, niv_nutrition):
+        self.age = age
+        self.esperance_de_vie = random.randint(200, 350)
+        self.sexe = sexe
+        self.niv_nutrition = niv_nutrition
+
+    def chasser(self, nb_proies, nb_coccinelles):
+        if nb_coccinelles == 0:
+            return nb_proies
+
+        proies_par_cocci = nb_proies / nb_coccinelles
+
+        if proies_par_cocci > 20:
+            consomme = random.randint(12, 20)
+        elif proies_par_cocci > 10:
+            consomme = random.randint(8, 15)
+        else:
+            consomme = random.randint(3, 8)
+
+        consomme = min(consomme, nb_proies)
+
+        if consomme >= 10:
+            self.niv_nutrition += 1
+        else:
+            self.niv_nutrition = max(0, self.niv_nutrition - 1)
+
+        return nb_proies - consomme
+
+    def reproduction(self):
+        """
+        Une femelle avec un niveau de nutrition >= 2 engendre exactement
+        deux descendants : un mâle et une femelle.
+        """
+        descendants = []
+        if self.sexe == "femelle" and self.niv_nutrition >= 2 and self.age >= 20:
+            descendants.append(Coccinelle("male", 0, 0))
+            descendants.append(Coccinelle("femelle", 0, 0))
+            self.niv_nutrition = 0
+
+        return descendants
+
+    def a_survecu(self):
+        """
+        Met à jour l'âge de la coccinelle et indique si elle est encore en vie.
+        """
+        self.age = self.age + 1
+        if self.niv_nutrition == 0 and random.randint(1, 3) == 1:
+            return False
+
+        return self.age < self.esperance_de_vie
+
+
+def evolution(population, nb_proies):
+    """
+    Simule une journée dans l'écosystème :
+    - chasse des coccinelles
+    - reproduction
+    - vieillissement et mortalité
+    - croissance des pucerons
+
+    population est une liste d'instances de la classe Coccinelle
+    nb_proies est un entier indiquant le nombre de proies
+
+    Cette fonction renvoie un couple (population_suivante, nouveau_nb_proies) indiquant
+    la nouvelle population à la fin de la journée et le nombre de proies.
+    """
+    population_suivante = []
+    nouveau_nes = []
+    nb_coccinelles = len(population)
+
+    for coccinelle in population:
+        nb_proies = coccinelle.chasser(nb_proies, nb_coccinelles)
+
+        if coccinelle.a_survecu():
+            population_suivante.append(coccinelle)
+
+        nouveau_nes += coccinelle.reproduction()
+
+    # Croissance naturelle des pucerons (augmentation de 20% par jour)
+    nb_proies = int(nb_proies * 1.2)
+
+    # Ajout des nouveau-nés en fin de journée
+    population_suivante += nouveau_nes
+
+    return population_suivante, nb_proies
+
+
+#############################################################################
+# Écrire ci-dessous le code pour les questions de l'énoncé                  #
+#############################################################################
+
+C1 = Coccinelle("male", 10, 2)
+C2 = Coccinelle("femelle", 10, 2)
+C3 = Coccinelle("femelle", 10, 2)
+
+pop = [C1, C2, C3]
+p_initial = 200
+
+"""
+print(evolution(pop, p_initial))
+for jour in range(5):
+    cocci, p_initial = evolution(pop, p_initial)
+    print(
+        f"jour: {jour + 1} population coccinelle: {cocci} nombre de proies: {p_initial}"
+    )
+"""
+
+
+def simulation_simple(population, nb_proies):
+    nb_jour = 30
+    while nb_jour != 0 and len(population) > 0 and nb_proies > 0:
+        population, nb_proies = evolution(population, nb_proies)
+        nb_jour -= 1
+    return len(population), nb_proies, 30 - nb_jour
+
+
+print(simulation_simple(pop, p_initial))
+`},{type:`file`,name:`sujet.pdf`,path:`tle-séance 03/3 ー 8/sujet/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: tle-séance 03/3 ー 8/sujet/sujet.pdf (25591 octets)]`}]},{type:`file`,name:`akha.py`,path:`tle-séance 03/3 ー 8/akha.py`,language:`Python`,content:`class Pile:
+    def __init__(self):
+        self.__pile = []
+
+    def empiler(self, x):
+        self.__pile.append(x)
+
+    def depiler(self):
+        return self.__pile.pop()
+
+    def est_vide(self):
+        return len(self.__pile) == 0
+
+    def get_pile(self):
+        return self.__pile
+
+
+class File:
+    def __init__(self):
+        self.__file = []
+
+    def enfiler(self, x):
+        return self.__file.append(x)
+
+    def est_vide(self):
+        return len(self.__file) == 0
+
+    def defiler(self):
+        return self.__file.pop(0)  # pop le premier chiffre de la file
+
+    def get_file(self):
+        return self.__file
+
+
+mapile = Pile()
+mapile.empiler(3)
+mapile.empiler(7)
+mapile.empiler(6)
+mapile.empiler(8)
+
+mapile.depiler()
+mapile.depiler()
+mapile.empiler(5)
+
+print("------------------------ PILE -----------------------------")
+print(mapile.est_vide())
+print(mapile.get_pile())
+
+mafile = File()
+mafile.enfiler(3)
+mafile.enfiler(6)
+mafile.enfiler(7)
+mafile.enfiler(8)
+
+mafile.defiler()
+mafile.defiler()
+mafile.enfiler(5)
+
+mafile.get_file()
+print("------------------------ FILE -----------------------------")
+print(mafile.est_vide())
+print(mafile.get_file())
+`},{type:`file`,name:`alphabetique.py`,path:`tle-séance 03/3 ー 8/alphabetique.py`,language:`Python`,content:`import string
 
 
 class Alphabet_majuscules:  # classe mere
@@ -15843,7 +38804,7 @@ print(minuscules.lettres)
 
 toutou = Alphabet_majuscules()
 print(toutou.lettres)
-`},{type:`file`,name:`il_lui_drop_des_bandages_ohh.py`,path:`tle-séance 03/3 ー 8/il_lui_drop_des_bandages_ohh.py`,language:`Python`,content:`import math
+`},{type:`file`,name:`larvfleuse.py`,path:`tle-séance 03/3 ー 8/larvfleuse.py`,language:`Python`,content:`import math
 
 
 class Point:
@@ -15990,6 +38951,62 @@ for i in range(len(mon_paquet)):
 print(
     "*********************************MELANGE DES CARTES****************************************"
 )
+`},{type:`file`,name:`wise_mystical_tree.py`,path:`tle-séance 03/3 ー 8/wise_mystical_tree.py`,language:`Python`,content:`# https://i.pinimg.com/736x/97/7d/e9/977de90002e93f8208f4ee9ec9679bf1.jpg
+
+
+class File:
+    def __init__(self):
+        self.__file = []
+
+    def enfiler(self, x):
+        return self.__file.append(x)
+
+    def est_vide(self):
+        return len(self.__file) == 0
+
+    def defiler(self):
+        return self.__file.pop(0)  # pop le premier chiffre de la file
+
+    def get_file(self):
+        return self.__file
+
+
+class Noeuds:
+    def __init__(self, cle):
+        self.cle = cle
+
+
+class Arbre:
+    def __init__(self, cle):
+        self.racine = Noeuds(cle)
+        self.sag = None
+        self.sad = None
+
+    def taille(self, a):
+        if a is None:
+            return 0
+        else:
+            return 1 + self.taille(a.sag) + self.taille(a.sad)
+
+    def hauteur(self, a):
+        if self.sag == None and self.sad == None:
+            return 1
+        else:
+            return max(self.taille(a.sag), self.taille(a.sad)) - 1
+
+
+a = Arbre("A")
+a.sag = Arbre("B")
+a.sag.sag = Arbre("C")
+a.sag.sad = Arbre("D")
+a.sag.sad.sag = Arbre("E")
+a.sag.sad.sad = Arbre("F")
+a.sad = Arbre("G")
+a.sad.sad = Arbre("H")
+a.sad.sad.sag = Arbre("I")
+
+print(a.taille(a))
+print(a.hauteur(a))
 `}]},{type:`folder`,name:`def`,path:`tle-séance 03/def`,children:[{type:`file`,name:`cafe_moka.py`,path:`tle-séance 03/def/cafe_moka.py`,language:`Python`,content:`# WHO'S YOUR BIAS, I'M YOUR BIAS
 # WHO'S YOUR BIAS, I'M YOUR BIAS
 # WHO'S YOUR BIAS, I'M YOUR BIAS
@@ -16087,10 +39104,383 @@ print(cousin(X,Y))
 print("Petit fils")
 print(petit_fils(X,Y))
 """
-`}]},{type:`file`,name:`README.md`,path:`tle-séance 03/README.md`,language:`Markdown`,content:`# tle séance 3
+`}]},{type:`file`,name:`NSI_Ter_S3.pdf`,path:`tle-séance 03/NSI_Ter_S3.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: tle-séance 03/NSI_Ter_S3.pdf (1183222 octets)]`},{type:`file`,name:`README.md`,path:`tle-séance 03/README.md`,language:`Markdown`,content:`# tle séance 3
 
 On m'a parlé de famille avec des pères, fils, petit-fils, cousins... heuresement que j'ai rien suivi !
-`}]},{type:`file`,name:`.gitattributes`,path:`.gitattributes`,language:`Text`,content:`*.mov filter=lfs diff=lfs merge=lfs -text
+`}]},{type:`folder`,name:`tle-séance 04`,path:`tle-séance 04`,children:[{type:`folder`,name:`who is bro`,path:`tle-séance 04/who is bro`,children:[{type:`file`,name:`soboku.py`,path:`tle-séance 04/who is bro/soboku.py`,language:`Python`,content:`# 素朴 (soboku): naïveté naturelle (souvent perçue positivement)
+import time
+
+
+def recherche_naive(
+    motif, texte
+):  # placer le motif sous le texte et le décalé d'un cran jusqu'à que le motif match
+    tab_occurence = []
+    nb_test = 0
+    for i in range(len(texte) - len(motif) + 1):
+        if texte[i : i + len(motif)] == motif:
+            # print(f"occurence à la position: {i}")
+            tab_occurence.append(i)
+        nb_test += 1
+    return tab_occurence, "test", nb_test
+
+
+with open("Texte_comparaison.txt", "r", encoding="utf-8") as fichier:
+    texte = fichier.read()
+# print(texte)
+a = time.perf_counter()
+motif = "en vain cherchent leurs mots"
+# print(recherche_naive("e", texte))
+print(recherche_naive(motif, texte))
+b = time.perf_counter()
+print(f"temps d'éxecution: {b - a}")
+
+motif1 = "CTGCGA"
+motif2 = "ACTGCGA"
+
+
+def table(motif):
+    table = {}
+    j = 0
+    for i in range(len(motif) - 1):
+        table[motif[i]] = len(motif) - 1 - i
+        j += 1
+    return table
+
+
+# print(table(motif1))
+# print(table(motif2))
+
+
+def broyer_moore_horspool(motif, texte, table):  #
+    nb_test = 0
+    N = len(texte)
+    n = len(motif)
+    positions = []
+
+    i = n - 1
+    while i < N:
+        lettre = texte[i]
+
+        if texte[i - n + 1 : i + 1] == motif:
+            positions.append(i - n + 1)
+            i += n
+        elif lettre in table.keys():
+            i += table[lettre]
+        else:
+            i += n
+        nb_test += 1
+    return positions
+
+
+print(broyer_moore_horspool(motif, texte, table(motif1)))
+`},{type:`file`,name:`Texte_comparaison.txt`,path:`tle-séance 04/who is bro/Texte_comparaison.txt`,language:`Text`,content:`Le roi de la pampa retourne sa chemise
+pour la mettre Ã  sÃ©cher aux cornes des taureaux
+le cornÃ©dbÃ®f en boÃ®te empeste la remise
+et fermentent de mÃªme et les cuirs et les peaux
+
+Je me souviens encor de cette heure exeuquise
+les gauchos dans la plaine agitaient leurs drapeaux
+nous avions aussi froids que nus sur la banquise
+lorsque pour nous distraire y plantions nos trÃ©teaux
+
+Du pÃ´le Ã  Rosario fait une belle trotte
+aventures on eut qui s'y pique s'y frotte
+lorsqu'on boit du matÃ© l'on devient argentin
+
+L'AmÃ©rique du Sud sÃ©duit les Ã©quivoques
+exaltent l'espagnol les oreilles baroques
+si la cloche se tait et son terlintintin
+
+On vous fait devenir une orde marchandise
+on prÃ©pare la route aux pensers sÃ©pulcraux
+de la mort on vous greffe une orde bÃ¢tardise
+la mite a grignotÃ© tissu os et rideaux
+
+Le brave a beau crier ah crÃ© nom saperlotte
+le lÃ¢che peut arguer de sa mine pÃ¢lotte
+les croque-morts sont lÃ  pour se mettre au turbin
+
+Cela considÃ©rant Ã´ lecteur tu suffoques
+comptant tes abattis lecteur tu te disloques
+toute chose pourtant doit avoir une fin
+
+Le cheval ParthÃ©non s'Ã©nerve sur sa frise
+depuis que lord Elgin nÃ©gligea ses naseaux
+le Turc de ce temps-lÃ  pataugeait dans sa crise
+il chantait tout de mÃªme oui mais il chantait faux
+
+Le cheval ParthÃ©non frissonnait sous la bise
+du client londonien oÃ¹ s'Ã©battent les beaux
+il grelottait le pauvre aux bords de la Tamise
+quand les grÃªlons fin mars mitraillent les bateaux
+
+La GrÃ¨ce de Platon Ã  coup sÃ»r n'est point sotte
+on comptait les esprits acÃ©rÃ©s Ã  la hotte
+lorsque Socrate mort passait pour un lutin
+
+
+Le vieux marin breton de tabac prit sa prise
+pour du fin fond du nez exciter les arceaux
+sur l'antique bahut il choisit sa cerise
+il n'avait droit qu'Ã  une et le jour des Rameaux
+
+Souvenez-vous amis de ces Ã®les de Frise
+oÃ¹ venaient par milliers s'Ã©chouer les harenceaux
+nous regrettions un peu ce tas de marchandise
+lorsqu'on voyait au loin flamber les arbrisseaux
+
+On sÃ¨che le poisson dorade ou molve lotte
+on sale le requin on fume Ã  l'Ã©chalotte
+lorsqu'on revient au port en essuyant un grain
+
+Enfin on vend de tout homards et salicoques
+on s'excuse il n'y a ni baleines ni phoques
+le mammifÃ¨re est roi nous sommes son cousin
+
+
+On Ã©tait bien surpris par cette plaine grise
+quand se carbonisait la fureur des chÃ¢teaux
+un audacieux baron empoche toute accise
+lorsque vient le pompier avec ses grandes eaux
+
+Du Gange au Malabar le lord anglais zozotte
+comme Ã  Chandernagor le manant sent la crotte
+le colonel s'Ã©ponge un blason dans la main
+
+Ne fallait pas si loin agiter ses breloques
+les Indes ont assez sans Ã§a de pendeloques
+l'Ã©cu de vair ou d'or ne dure qu'un matin
+
+Du jeune avantageux la nymphe Ã©tait Ã©prise
+snob un peu sur les bords des bords fondamentaux
+une toge il portait qui n'Ã©tait pas de mise
+des narcisses on cueille ou bien on est des veaux
+
+Quand on prend des photos de cette tour de Pise
+d'oÃ¹ GalilÃ©e jadis jeta ses petits pots
+d'une Ã©trusque inscription la pierre Ã©tait incise
+les Grecs et les Romains en vain cherchent leurs mots
+
+L'esprit souffle et resouffle au-dessus de la botte
+le touriste Ã  Florence ignoble charibotte
+l'autocar Ã©crabouille un peu d'esprit latin
+
+Lorsqu'un jour exaltÃ© l'aÃ¨de prosaÃ¯se
+pour dÃ©plaire au profane aussi bien qu'aux idiots
+la dÃ©couverte alors voilÃ  qui traumatise
+il donne Ã  la tribu des cris aux sens nouveaux
+
+L'un et l'autre a raison non la foule insoumise
+le vulgaire s'entÃªte Ã  vouloir des vers beaux
+l'un et l'autre ont raison non la foule imprÃ©cise
+Ã  tous n'est pas donnÃ© d'aimer les chocs verbaux
+
+Le poÃ¨te inspirÃ© n'est point un polyglotte
+une langue suffit pour emplir sa cagnotte
+mÃªme s'il prend son sel au celte c'est son bien
+
+Barde que tu me plais toujours tu soliloques
+tu me stupÃ©fies plus que tous les ventriloque
+le mÃ©tromane Ã  force incarne le devin
+
+Il se penche il voulait attraper sa valise
+que convoitait c'est sÃ»r une horde d'escrocs
+il se penche et alors Ã  sa grande surprise
+il ne trouve aussi sec qu'un sac de vieux fayots
+
+Il dÃ©plore il dÃ©plore une telle mainmise
+qui se plaÃ®t Ã  flouer de pauvres provinciaux
+aller Ã  la grande ville est bien une entreprise
+elle effraie le Berry comme les Morvandiaux
+
+Devant la boue urbaine on retrousse sa cotte
+on gifle le marmot qui plonge sa menotte
+lorsqu'il voit la gadoue il cherche le purin
+
+On regrette Ã  la fin les agrestes bicoques
+on mettait sans faÃ§on ses plus infectes loques
+mais on n'aurait pas vu le mÃ©tropolitain
+
+Quand l'un avecque l'autre aussitÃ´t sympathise
+se faire il pourrait bien que ce soit des jumeaux
+la critique lucide aperÃ§oit ce qu'il vise
+on espÃ¨re toujours Ãªtre de vrais normaux
+
+Et pourtant c'Ã©tait lui le frÃ¨re de feintise
+qui clochard devenant jetait ses oripeaux
+un frÃ¨re mÃªme bas est la part indÃ©cise
+que les parents fÃ©conds offrent aux purs berceaux
+
+Le gÃ©nÃ©alogiste observe leur bouillotte
+gratter le parchemin deviendra sa marotte
+il voudra retrouver le germe adultÃ©rin
+
+FrÃ¨re je te comprends si parfois tu dÃ©bloques
+frÃ¨re je t'absoudrai si tu m'emberlucoques
+la gÃ©mellitÃ© vraie accuse son destin
+
+Le marbre pour l'acide est une friandise
+d'aucuns par dessus tout prisent les escargots
+la critique lucide aperÃ§oit ce qu'il vise
+qui sait si le requin boulotte les turbots ?
+
+Du voisin le Papou suÃ§ote l'apophyse
+que n'a pas dÃ©vorÃ© la horde des mulots ?
+le gourmet en salade avale sa cytise
+l'enfant pur aux yeux bleus aime les berlingots
+
+Le loup est amateur de coq et de cocotte
+le chat fait un festin de tÃªtes de linotte
+le chemin vicinal se nourrit de crottin
+
+On a bu du pinard Ã  toutes les Ã©poques
+grignoter des bretzels distrait bien des colloques
+mais rien ne vaut grillÃ© le morceau de boudin
+
+Lorsque tout est fini lorsque l'on agonise
+lorsque le marbrier astique nos tombeaux
+sur la place un forain de feu se gargarise
+et tout vient signifier la fin des haricots
+
+On vous fait devenir une orde marchandise
+on prÃ©pare la route aux pensers sÃ©pulcraux
+de la mort on vous greffe une orde bÃ¢tardise
+la mite a grignotÃ© tissu os et rideaux
+
+Le brave a beau crier ah crÃ© nom saperlotte
+le lÃ¢che peut arguer de sa mine pÃ¢lotte
+les croque-morts sont lÃ  pour se mettre au turbin
+
+Cela considÃ©rant Ã´ lecteur tu suffoques
+comptant tes abattis lecteur tu te disloques
+toute chose pourtant doit avoir une fin
+
+Le cheval ParthÃ©non s'Ã©nerve sur sa frise
+pour du fin fond du nez exciter les arceaux
+le chauffeur indigÃ¨ne attendait dans la brise
+des narcisses on cueille ou bien on est des veaux
+
+Il dÃ©plore il dÃ©plore une telle mainmise
+qui clochard devenant jetait ses oripeaux
+l'un et l'autre ont raison non la foule imprÃ©cise
+l'enfant pur aux yeux bleus aime les berlingots
+
+Le brave a beau crier ah crÃ© nom saperlotte
+on comptait les esprits acÃ©rÃ©s Ã  la hotte
+lorsqu'on revient au port en essuyant un grain
+
+Ne fallait pas si loin agiter ses breloques
+les banquiers d'Avignon chantent-ils les baÃ¯oques ?
+mais on n'aurait pas vu le mÃ©tropolitain
+
+Lorsque tout est fini lorsque l'on agonise
+d'aucuns par dessus tout prisent les escargots
+la dÃ©couverte alors voilÃ  qui traumatise
+des narcisses on cueille ou bien on est des veaux
+
+Il dÃ©plore il dÃ©plore une telle mainmise
+qui clochard devenant jetait ses oripeaux
+un audacieux baron empoche toute accise
+lorsqu'on voyait au loin flamber les arbrisseaux
+
+La GrÃ¨ce de Platon Ã  coup sÃ»r n'est point sotte
+aventures on eut qui s'y pique s'y frotte
+le colonel s'Ã©ponge un blason dans la main
+
+Enfin on vend de tout homards et salicoques
+on transporte et le marbre et dÃ©bris et dÃ©froques
+le Beaune et le Chianti sont-ils le mÃªme vin ?
+
+Le cheval ParthÃ©non s'Ã©nerve sur sa frise
+pour consommer un thÃ© puis des petits gÃ¢teaux
+une toge il portait qui n'Ã©tait pas de mise
+on espÃ¨re toujours Ãªtre de vrais normaux
+
+L'un et l'autre a raison non la foule insoumise
+on prÃ©pare la route aux pensers sÃ©pulcraux
+le gourmet en salade avale sa cytise
+elle effraie le Berry comme les Morvandiaux
+
+On sÃ¨che le poisson dorade ou molve lotte
+aventures on eut qui s'y pique s'y frotte
+lorsque Socrate mort passait pour un lutin
+
+Ne fallait pas si loin agiter ses breloques
+frÃ¨re je t'absoudrai si tu m'emberlucoques
+le mÃ©tromane Ã  force incarne le devin
+
+Lorsque tout est fini lorsque l'on agonise
+lorsque le marbrier astique nos tombeaux
+la critique lucide aperÃ§oit ce qu'il vise
+qui sait si le requin boulotte les turbots ?
+
+L'un et l'autre a raison non la foule insoumise
+le vulgaire s'entÃªte Ã  vouloir des vers beaux
+d'une Ã©trusque inscription la pierre Ã©tait incise
+les Grecs et les Romains en vain cherchent leurs mots
+
+Devant la boue urbaine on retrousse sa cotte
+on gifle le marmot qui plonge sa menotte
+il voudra retrouver le germe adultÃ©rin
+
+FrÃ¨re je te comprends si parfois tu dÃ©bloques
+les Indes ont assez sans Ã§a de pendeloques
+l'Ã©cu de vair ou d'or ne dure qu'un matin
+
+Le cheval ParthÃ©non s'Ã©nerve sur sa frise
+depuis que lord Elgin nÃ©gligea ses naseaux
+sur l'antique bahut il choisit sa cerise
+il n'avait droit qu'Ã  une et le jour des Rameaux
+
+On Ã©tait bien surpris par cette plaine grise
+quand se carbonisait la fureur des chÃ¢teaux
+un frÃ¨re mÃªme bas est la part indÃ©cise
+que les parents fÃ©conds offrent aux purs berceaux
+
+Devant la boue urbaine on retrousse sa cotte
+on gifle le marmot qui plonge sa menotte
+l'autocar Ã©crabouille un peu d'esprit latin
+
+Les rapports transalpins sont-ils biunivoques ?
+tu me stupÃ©fies plus que tous les ventriloque
+le mÃ©tromane Ã  force incarne le devin
+
+Il se penche il voulait attraper sa valise
+que convoitait c'est sÃ»r une horde d'escrocs
+la critique lucide aperÃ§oit ce qu'il vise
+on espÃ¨re toujours Ãªtre de vrais normaux
+
+Quand on prend des photos de cette tour de Pise
+d'oÃ¹ GalilÃ©e jadis jeta ses petits pots
+le gourmet en salade avale sa cytise
+l'enfant pur aux yeux bleus aime les berlingots
+
+On sÃ¨che le poisson dorade ou molve lotte
+on sale le requin on fume Ã  l'Ã©chalotte
+lorsqu'on boit du matÃ© l'on devient argentin
+
+L'AmÃ©rique du Sud sÃ©duit les Ã©quivoques
+on transporte et le marbre et dÃ©bris et dÃ©froques
+si l'Europe le veut l'Europe ou son destin
+
+Le cheval ParthÃ©non s'Ã©nerve sur sa frise
+pour du fin fond du nez exciter les arceaux
+le chauffeur indigÃ¨ne attendait dans la brise
+et fermentent de mÃªme et les cuirs et les peaux
+
+On Ã©tait bien surpris par cette plaine grise
+oÃ¹ venaient par milliers s'Ã©chouer les harenceaux
+il grelottait le pauvre aux bords de la Tamise
+les Grecs et les Romains en vain cherchent leurs mots
+
+Devant la boue urbaine on retrousse sa cotte
+gratter le parchemin deviendra sa marotte
+les croque-morts sont lÃ  pour se mettre au turbin
+
+On a bu du pinard Ã  toutes les Ã©poques
+tu me stupÃ©fies plus que tous les ventriloque
+le mammifÃ¨re est roi nous sommes son cousin
+`}]},{type:`file`,name:`NSI_Ter_S4.pdf`,path:`tle-séance 04/NSI_Ter_S4.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: tle-séance 04/NSI_Ter_S4.pdf (608506 octets)]`}]},{type:`file`,name:`.gitattributes`,path:`.gitattributes`,language:`Text`,content:`*.mov filter=lfs diff=lfs merge=lfs -text
 `},{type:`file`,name:`.gitignore`,path:`.gitignore`,language:`Text`,content:`edupython13/
 .venv/
 nsi.code-workspace/
@@ -16102,7 +39492,7 @@ venv/
 side-projects/crabe/*/target/
 
 
-# react
+# --- react ---
 
 # Logs
 logs
@@ -24837,7 +48227,7 @@ SOFTWARE.
   "typeCheckingMode": "basic",
   "reportMissingParameterType": "none",
   "venvPath": ".",
-  "venv": "venv"
+  "venv": ".venv"
 }
 `},{type:`file`,name:`README.md`,path:`README.md`,language:`Markdown`,content:`<p align="center">
     <img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/refs/heads/master/PHP/Original_by_Tkimz_Php_Programming_Book.png" width="650"><br>
@@ -25278,7 +48668,7 @@ export default defineConfig(({ mode }) => ({
 https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(n=!0);let a={code:r,language:i};z(`before:highlight`,a);let o=a.result?a.result:v(a.language,a.code,n);return o.code=a.code,z(`after:highlight`,o),o}function v(e,n,i,a){let c=Object.create(null);function u(e,t){return e.keywords[t]}function d(){if(!A.keywords){M.addText(P);return}let e=0;A.keywordPatternRe.lastIndex=0;let t=A.keywordPatternRe.exec(P),n=``;for(;t;){n+=P.substring(e,t.index);let r=D.case_insensitive?t[0].toLowerCase():t[0],i=u(A,r);if(i){let[e,a]=i;if(M.addText(n),n=``,c[r]=(c[r]||0)+1,c[r]<=Ae&&(F+=a),e.startsWith(`_`))n+=t[0];else{let n=D.classNameAliases[e]||e;m(t[0],n)}}else n+=t[0];e=A.keywordPatternRe.lastIndex,t=A.keywordPatternRe.exec(P)}n+=P.substring(e),M.addText(n)}function f(){if(P===``)return;let e=null;if(typeof A.subLanguage==`string`){if(!t[A.subLanguage]){M.addText(P);return}e=v(A.subLanguage,P,!0,j[A.subLanguage]),j[A.subLanguage]=e._top}else e=S(P,A.subLanguage.length?A.subLanguage:null);A.relevance>0&&(F+=e.relevance),M.__addSublanguage(e._emitter,e.language)}function p(){A.subLanguage==null?d():f(),P=``}function m(e,t){e!==``&&(M.startScope(t),M.addText(e),M.endScope())}function h(e,t){let n=1,r=t.length-1;for(;n<=r;){if(!e._emit[n]){n++;continue}let r=D.classNameAliases[e[n]]||e[n],i=t[n];r?m(i,r):(P=i,d(),P=``),n++}}function g(e,t){return e.scope&&typeof e.scope==`string`&&M.openNode(D.classNameAliases[e.scope]||e.scope),e.beginScope&&(e.beginScope._wrap?(m(P,D.classNameAliases[e.beginScope._wrap]||e.beginScope._wrap),P=``):e.beginScope._multi&&(h(e.beginScope,t),P=``)),A=Object.create(e,{parent:{value:A}}),A}function _(e,t,n){let i=x(e.endRe,n);if(i){if(e[`on:end`]){let n=new r(e);e[`on:end`](t,n),n.isMatchIgnored&&(i=!1)}if(i){for(;e.endsParent&&e.parent;)e=e.parent;return e}}if(e.endsWithParent)return _(e.parent,t,n)}function y(e){return A.matcher.regexIndex===0?(P+=e[0],1):(R=!0,0)}function b(e){let t=e[0],n=e.rule,i=new r(n),a=[n.__beforeBegin,n[`on:begin`]];for(let n of a)if(n&&(n(e,i),i.isMatchIgnored))return y(t);return n.skip?P+=t:(n.excludeBegin&&(P+=t),p(),!n.returnBegin&&!n.excludeBegin&&(P=t)),g(n,e),n.returnBegin?0:t.length}function C(e){let t=e[0],r=n.substring(e.index),i=_(A,e,r);if(!i)return ke;let a=A;A.endScope&&A.endScope._wrap?(p(),m(t,A.endScope._wrap)):A.endScope&&A.endScope._multi?(p(),h(A.endScope,e)):a.skip?P+=t:(a.returnEnd||a.excludeEnd||(P+=t),p(),a.excludeEnd&&(P=t));do A.scope&&M.closeNode(),!A.skip&&!A.subLanguage&&(F+=A.relevance),A=A.parent;while(A!==i.parent);return i.starts&&g(i.starts,e),a.returnEnd?0:t.length}function w(){let e=[];for(let t=A;t!==D;t=t.parent)t.scope&&e.unshift(t.scope);e.forEach(e=>M.openNode(e))}let T={};function E(t,r){let a=r&&r[0];if(P+=t,a==null)return p(),0;if(T.type===`begin`&&r.type===`end`&&T.index===r.index&&a===``){if(P+=n.slice(r.index,r.index+1),!o){let t=Error(`0 width match regex (${e})`);throw t.languageName=e,t.badRule=T.rule,t}return 1}if(T=r,r.type===`begin`)return b(r);if(r.type===`illegal`&&!i){let e=Error(`Illegal lexeme "`+a+`" for mode "`+(A.scope||`<unnamed>`)+`"`);throw e.mode=A,e}if(r.type===`end`){let e=C(r);if(e!==ke)return e}if(r.type===`illegal`&&a===``)return r.index===n.length||(P+=`
 `),1;if(L>1e5&&L>r.index*3)throw Error(`potential infinite loop, way more iterations than matches`);return P+=a,a.length}let D=N(e);if(!D)throw pe(s.replace(`{}`,e)),Error(`Unknown language: "`+e+`"`);let O=Se(D),k=``,A=a||O,j={},M=new l.__emitter(l);w();let P=``,F=0,I=0,L=0,R=!1;try{if(D.__emitTokens)D.__emitTokens(n,M);else{for(A.matcher.considerAll();;){L++,R?R=!1:A.matcher.considerAll(),A.matcher.lastIndex=I;let e=A.matcher.exec(n);if(!e)break;let t=E(n.substring(I,e.index),e);I=e.index+t}E(n.substring(I))}return M.finalize(),k=M.toHTML(),{language:e,value:k,relevance:F,illegal:!1,_emitter:M,_top:A}}catch(t){if(t.message&&t.message.includes(`Illegal`))return{language:e,value:De(n),illegal:!0,relevance:0,_illegalBy:{message:t.message,index:I,context:n.slice(I-100,I+100),mode:t.mode,resultSoFar:k},_emitter:M};if(o)return{language:e,value:De(n),illegal:!1,relevance:0,errorRaised:t,_emitter:M,_top:A};throw t}}function b(e){let t={value:De(e),illegal:!1,relevance:0,_top:c,_emitter:new l.__emitter(l)};return t._emitter.addText(e),t}function S(e,n){n=n||l.languages||Object.keys(t);let r=b(e),i=n.filter(N).filter(F).map(t=>v(t,e,!1));i.unshift(r);let[a,o]=i.sort((e,t)=>{if(e.relevance!==t.relevance)return t.relevance-e.relevance;if(e.language&&t.language){if(N(e.language).supersetOf===t.language)return 1;if(N(t.language).supersetOf===e.language)return-1}return 0}),s=a;return s.secondBest=o,s}function C(e,t,n){let r=t&&i[t]||n;e.classList.add(`hljs`),e.classList.add(`language-${r}`)}function w(e){let t=null,n=d(e);if(u(n))return;if(z(`before:highlightElement`,{el:e,language:n}),e.dataset.highlighted){console.log("Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",e);return}if(e.children.length>0&&(l.ignoreUnescapedHTML||(console.warn(`One of your code blocks includes unescaped HTML. This is a potentially serious security risk.`),console.warn(`https://github.com/highlightjs/highlight.js/wiki/security`),console.warn(`The element with unescaped HTML:`),console.warn(e)),l.throwUnescapedHTML))throw new Ee(`One of your code blocks includes unescaped HTML.`,e.innerHTML);t=e;let r=t.textContent,i=n?p(r,{language:n,ignoreIllegals:!0}):S(r);e.innerHTML=i.value,e.dataset.highlighted=`yes`,C(e,n,i.language),e.result={language:i.language,re:i.relevance,relevance:i.relevance},i.secondBest&&(e.secondBest={language:i.secondBest.language,relevance:i.secondBest.relevance}),z(`after:highlightElement`,{el:e,result:i,text:r})}function T(e){l=Oe(l,e)}let E=()=>{k(),he(`10.6.0`,`initHighlighting() deprecated.  Use highlightAll() now.`)};function D(){k(),he(`10.6.0`,`initHighlightingOnLoad() deprecated.  Use highlightAll() now.`)}let O=!1;function k(){function e(){k()}if(document.readyState===`loading`){O||window.addEventListener(`DOMContentLoaded`,e,!1),O=!0;return}document.querySelectorAll(l.cssSelector).forEach(w)}function A(n,r){let i=null;try{i=r(e)}catch(e){if(pe(`Language definition for '{}' could not be registered.`.replace(`{}`,n)),o)pe(e);else throw e;i=c}i.name||(i.name=n),t[n]=i,i.rawDefinition=r.bind(null,e),i.aliases&&P(i.aliases,{languageName:n})}function j(e){delete t[e];for(let t of Object.keys(i))i[t]===e&&delete i[t]}function M(){return Object.keys(t)}function N(e){return e=(e||``).toLowerCase(),t[e]||t[i[e]]}function P(e,{languageName:t}){typeof e==`string`&&(e=[e]),e.forEach(e=>{i[e.toLowerCase()]=t})}function F(e){let t=N(e);return t&&!t.disableAutodetect}function I(e){e[`before:highlightBlock`]&&!e[`before:highlightElement`]&&(e[`before:highlightElement`]=t=>{e[`before:highlightBlock`](Object.assign({block:t.el},t))}),e[`after:highlightBlock`]&&!e[`after:highlightElement`]&&(e[`after:highlightElement`]=t=>{e[`after:highlightBlock`](Object.assign({block:t.el},t))})}function L(e){I(e),a.push(e)}function R(e){let t=a.indexOf(e);t!==-1&&a.splice(t,1)}function z(e,t){let n=e;a.forEach(function(e){e[n]&&e[n](t)})}function te(e){return he(`10.7.0`,`highlightBlock will be removed entirely in v12.0`),he(`10.7.0`,`Please use highlightElement now.`),w(e)}Object.assign(e,{highlight:p,highlightAuto:S,highlightAll:k,highlightElement:w,highlightBlock:te,configure:T,initHighlighting:E,initHighlightingOnLoad:D,registerLanguage:A,unregisterLanguage:j,listLanguages:M,getLanguage:N,registerAliases:P,autoDetection:F,inherit:Oe,addPlugin:L,removePlugin:R}),e.debugMode=function(){o=!1},e.safeMode=function(){o=!0},e.versionString=Te,e.regex={concat:_,lookahead:m,either:y,optional:g,anyNumberOfTimes:h};for(let e in ee)typeof ee[e]==`object`&&n(ee[e]);return Object.assign(e,ee),e},Me=je({});Me.newInstance=()=>je({}),t.exports=Me,Me.HighlightJS=Me,Me.default=Me})),ac=o(((e,t)=>{function n(e){let t=e.regex,n=t.concat(/[\p{L}_]/u,t.optional(/[\p{L}0-9_.-]*:/u),/[\p{L}0-9_.-]*/u),r=/[\p{L}0-9._:-]+/u,i={className:`symbol`,begin:/&[a-z]+;|&#[0-9]+;|&#x[a-f0-9]+;/},a={begin:/\s/,contains:[{className:`keyword`,begin:/#?[a-z_][a-z1-9_-]+/,illegal:/\n/}]},o=e.inherit(a,{begin:/\(/,end:/\)/}),s=e.inherit(e.APOS_STRING_MODE,{className:`string`}),c=e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),l={endsWithParent:!0,illegal:/</,relevance:0,contains:[{className:`attr`,begin:r,relevance:0},{begin:/=\s*/,relevance:0,contains:[{className:`string`,endsParent:!0,variants:[{begin:/"/,end:/"/,contains:[i]},{begin:/'/,end:/'/,contains:[i]},{begin:/[^\s"'=<>`]+/}]}]}]};return{name:`HTML, XML`,aliases:[`html`,`xhtml`,`rss`,`atom`,`xjb`,`xsd`,`xsl`,`plist`,`wsf`,`svg`],case_insensitive:!0,unicodeRegex:!0,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,relevance:10,contains:[a,c,s,o,{begin:/\[/,end:/\]/,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,contains:[a,o,c,s]}]}]},e.COMMENT(/<!--/,/-->/,{relevance:10}),{begin:/<!\[CDATA\[/,end:/\]\]>/,relevance:10},i,{className:`meta`,end:/\?>/,variants:[{begin:/<\?xml/,relevance:10,contains:[c]},{begin:/<\?[a-z][a-z0-9]+/}]},{className:`tag`,begin:/<style(?=\s|>)/,end:/>/,keywords:{name:`style`},contains:[l],starts:{end:/<\/style>/,returnEnd:!0,subLanguage:`css`}},{className:`tag`,begin:/<script(?=\s|>)/,end:/>/,keywords:{name:`script`},contains:[l],starts:{end:/<\/script>/,returnEnd:!0,subLanguage:`javascript`}},{className:`tag`,begin:/<>|<\/>/},{className:`tag`,begin:t.concat(/</,t.lookahead(t.concat(n,t.either(/\/>/,/>/,/\s/)))),end:/\/?>/,contains:[{className:`name`,begin:n,relevance:0,starts:l}]},{className:`tag`,begin:t.concat(/<\//,t.lookahead(t.concat(n,/>/))),contains:[{className:`name`,begin:n,relevance:0},{begin:/>/,relevance:0,endsParent:!0}]}]}}t.exports=n})),oc=o(((e,t)=>{function n(e){let t=e.regex,n={},r={begin:/\$\{/,end:/\}/,contains:[`self`,{begin:/:-/,contains:[n]}]};Object.assign(n,{className:`variable`,variants:[{begin:t.concat(/\$[\w\d#@][\w\d_]*/,`(?![\\w\\d])(?![$])`)},r]});let i={className:`subst`,begin:/\$\(/,end:/\)/,contains:[e.BACKSLASH_ESCAPE]},a=e.inherit(e.COMMENT(),{match:[/(^|\s)/,/#.*$/],scope:{2:`comment`}}),o={begin:/<<-?\s*(?=\w+)/,starts:{contains:[e.END_SAME_AS_BEGIN({begin:/(\w+)/,end:/(\w+)/,className:`string`})]}},s={className:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,n,i]};i.contains.push(s);let c={match:/\\"/},l={className:`string`,begin:/'/,end:/'/},u={match:/\\'/},d={begin:/\$?\(\(/,end:/\)\)/,contains:[{begin:/\d+#[0-9a-f]+/,className:`number`},e.NUMBER_MODE,n]},f=e.SHEBANG({binary:`(${[`fish`,`bash`,`zsh`,`sh`,`csh`,`ksh`,`tcsh`,`dash`,`scsh`].join(`|`)})`,relevance:10}),p={className:`function`,begin:/\w[\w\d_]*\s*\(\s*\)\s*\{/,returnBegin:!0,contains:[e.inherit(e.TITLE_MODE,{begin:/\w[\w\d_]*/})],relevance:0},m=[`if`,`then`,`else`,`elif`,`fi`,`time`,`for`,`while`,`until`,`in`,`do`,`done`,`case`,`esac`,`coproc`,`function`,`select`],h=[`true`,`false`],g={match:/(\/[a-z._-]+)+/},_=[`break`,`cd`,`continue`,`eval`,`exec`,`exit`,`export`,`getopts`,`hash`,`pwd`,`readonly`,`return`,`shift`,`test`,`times`,`trap`,`umask`,`unset`],v=[`alias`,`bind`,`builtin`,`caller`,`command`,`declare`,`echo`,`enable`,`help`,`let`,`local`,`logout`,`mapfile`,`printf`,`read`,`readarray`,`source`,`sudo`,`type`,`typeset`,`ulimit`,`unalias`],y=`autoload.bg.bindkey.bye.cap.chdir.clone.comparguments.compcall.compctl.compdescribe.compfiles.compgroups.compquote.comptags.comptry.compvalues.dirs.disable.disown.echotc.echoti.emulate.fc.fg.float.functions.getcap.getln.history.integer.jobs.kill.limit.log.noglob.popd.print.pushd.pushln.rehash.sched.setcap.setopt.stat.suspend.ttyctl.unfunction.unhash.unlimit.unsetopt.vared.wait.whence.where.which.zcompile.zformat.zftp.zle.zmodload.zparseopts.zprof.zpty.zregexparse.zsocket.zstyle.ztcp`.split(`.`),b=`chcon.chgrp.chown.chmod.cp.dd.df.dir.dircolors.ln.ls.mkdir.mkfifo.mknod.mktemp.mv.realpath.rm.rmdir.shred.sync.touch.truncate.vdir.b2sum.base32.base64.cat.cksum.comm.csplit.cut.expand.fmt.fold.head.join.md5sum.nl.numfmt.od.paste.ptx.pr.sha1sum.sha224sum.sha256sum.sha384sum.sha512sum.shuf.sort.split.sum.tac.tail.tr.tsort.unexpand.uniq.wc.arch.basename.chroot.date.dirname.du.echo.env.expr.factor.groups.hostid.id.link.logname.nice.nohup.nproc.pathchk.pinky.printenv.printf.pwd.readlink.runcon.seq.sleep.stat.stdbuf.stty.tee.test.timeout.tty.uname.unlink.uptime.users.who.whoami.yes`.split(`.`);return{name:`Bash`,aliases:[`sh`,`zsh`],keywords:{$pattern:/\b[a-z][a-z0-9._-]+\b/,keyword:m,literal:h,built_in:[..._,...v,`set`,`shopt`,...y,...b]},contains:[f,e.SHEBANG(),p,d,a,o,g,s,c,l,u,n]}}t.exports=n})),sc=o(((e,t)=>{function n(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,variants:[{begin:`\\b[a-z\\d_]*_t\\b`},{match:t.concat(/\batomic_/,t.either(`bool`,`char`,`schar`,`uchar`,`short`,`ushort`,`int`,`uint`,`long`,`ulong`,`llong`,`ullong`,`char16_t`,`char32_t`,`wchar_t`,`int_least8_t`,`uint_least8_t`,`int_least16_t`,`uint_least16_t`,`int_least32_t`,`uint_least32_t`,`int_least64_t`,`uint_least64_t`,`int_fast8_t`,`uint_fast8_t`,`int_fast16_t`,`uint_fast16_t`,`int_fast32_t`,`uint_fast32_t`,`int_fast64_t`,`uint_fast64_t`,`intptr_t`,`uintptr_t`,`size_t`,`ptrdiff_t`,`intmax_t`,`uintmax_t`),/\b/)}]},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{match:/\b(0b[01']+)/},{match:/(-?)\b([\d']+(\.[\d']*)?|\.[\d']+)((ll|LL|l|L)(u|U)?|(u|U)(ll|LL|l|L)?|f|F|b|B)/},{match:/(-?)\b(0[xX][a-fA-F0-9]+(?:'[a-fA-F0-9]+)*(?:\.[a-fA-F0-9]*(?:'[a-fA-F0-9]*)*)?(?:[pP][-+]?[0-9]+)?(l|L)?(u|U)?)/},{match:/(-?)\b\d+(?:'\d+)*(?:\.\d*(?:'\d*)*)?(?:[eE][-+]?\d+)?/}],relevance:0},c={scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},l={className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef elifdef elifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]},u=[c,l],d={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},f=t.optional(r)+e.IDENT_RE+`\\s*\\(`,p={keyword:`asm.auto.break.case.continue.default.do.else.enum.extern.for.fortran.goto.if.inline.register.restrict.return.sizeof.typeof.typeof_unqual.struct.switch.typedef.union.volatile.while._Alignas._Alignof._Atomic._Generic._Noreturn._Static_assert._Thread_local.alignas.alignof.noreturn.static_assert.thread_local._Pragma`.split(`.`),type:`float.double.signed.unsigned.int.short.long.char.void._Bool._BitInt._Complex._Imaginary._Decimal32._Decimal64._Decimal96._Decimal128._Decimal64x._Decimal128x._Float16._Float32._Float64._Float128._Float32x._Float64x._Float128x.const.static.constexpr.complex.bool.imaginary`.split(`.`),literal:`true false NULL`,built_in:`std string wstring cin cout cerr clog stdin stdout stderr stringstream istringstream ostringstream auto_ptr deque list queue stack vector map set pair bitset multiset multimap unordered_set unordered_map unordered_multiset unordered_multimap priority_queue make_pair array shared_ptr abort terminate abs acos asin atan2 atan calloc ceil cosh cos exit exp fabs floor fmod fprintf fputs free frexp fscanf future isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit tolower toupper labs ldexp log10 log malloc realloc memchr memcmp memcpy memset modf pow printf putchar puts scanf sinh sin snprintf sprintf sqrt sscanf strcat strchr strcmp strcpy strcspn strlen strncat strncmp strncpy strpbrk strrchr strspn strstr tanh tan vfprintf vprintf vsprintf endl initializer_list unique_ptr`},m=[...u,a,n,e.C_BLOCK_COMMENT_MODE,s,o],h={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:p,contains:m.concat([{begin:/\(/,end:/\)/,keywords:p,contains:m.concat([`self`]),relevance:0}]),relevance:0},g={begin:`(`+i+`[\\*&\\s]+){1,12}`+f,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:p,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:p,relevance:0},{begin:f,returnBegin:!0,contains:[e.inherit(d,{className:`title.function`})],relevance:0},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...u]};return{name:`C`,aliases:[`h`],keywords:p,disableAutodetect:!0,illegal:`</`,contains:[].concat(h,g,m,[...u,{begin:e.IDENT_RE+`::`,keywords:p},{className:`class`,beginKeywords:`enum class struct union`,end:/[{;:<>=]/,contains:[{beginKeywords:`final class struct`},e.TITLE_MODE]}]),exports:{preprocessor:l,strings:o,keywords:p}}}t.exports=n})),cc=o(((e,t)=>{function n(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(?!struct)(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,begin:`\\b[a-z\\d_]*_t\\b`},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{begin:`[+-]?(?:(?:\\b[0-9](?:'?[0-9])*\\.(?:[0-9](?:'?[0-9])*)?|\\.[0-9](?:'?[0-9])*)(?:[Ee][+-]?[0-9](?:'?[0-9])*)?|\\b[0-9](?:'?[0-9])*[Ee][+-]?[0-9](?:'?[0-9])*|\\b0[Xx](?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*(?:\\.(?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)?)?|\\.[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)[Pp][+-]?[0-9](?:'?[0-9])*)(?:[Ff](?:16|32|64|128)?|(BF|bf)16|[Ll]|)`},{begin:`[+-]?\\b(?:0[Bb][01](?:'?[01])*|0[Xx][0-9A-Fa-f](?:'?[0-9A-Fa-f])*|0(?:'?[0-7])*|[1-9](?:'?[0-9])*)(?:[Uu](?:LL?|ll?)|[Uu][Zz]?|(?:LL?|ll?)[Uu]?|[Zz][Uu]|)`}],relevance:0},c=[{scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},{className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]}],l={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},u=t.optional(r)+e.IDENT_RE+`\\s*\\(`,d=`alignas.alignof.and.and_eq.asm.atomic_cancel.atomic_commit.atomic_noexcept.auto.bitand.bitor.break.case.catch.class.co_await.co_return.co_yield.compl.concept.const_cast|10.consteval.constexpr.constinit.continue.decltype.default.delete.do.dynamic_cast|10.else.enum.explicit.export.extern.false.final.for.friend.goto.if.import.inline.module.mutable.namespace.new.noexcept.not.not_eq.nullptr.operator.or.or_eq.override.private.protected.public.reflexpr.register.reinterpret_cast|10.requires.return.sizeof.static_assert.static_cast|10.struct.switch.synchronized.template.this.thread_local.throw.transaction_safe.transaction_safe_dynamic.true.try.typedef.typeid.typename.union.using.virtual.volatile.while.xor.xor_eq`.split(`.`),f=[`bool`,`char`,`char16_t`,`char32_t`,`char8_t`,`double`,`float`,`int`,`long`,`short`,`void`,`wchar_t`,`unsigned`,`signed`,`const`,`static`],p=`any.auto_ptr.barrier.binary_semaphore.bitset.complex.condition_variable.condition_variable_any.counting_semaphore.deque.false_type.flat_map.flat_set.future.imaginary.initializer_list.istringstream.jthread.latch.lock_guard.multimap.multiset.mutex.optional.ostringstream.packaged_task.pair.promise.priority_queue.queue.recursive_mutex.recursive_timed_mutex.scoped_lock.set.shared_future.shared_lock.shared_mutex.shared_timed_mutex.shared_ptr.stack.string_view.stringstream.timed_mutex.thread.true_type.tuple.unique_lock.unique_ptr.unordered_map.unordered_multimap.unordered_multiset.unordered_set.variant.vector.weak_ptr.wstring.wstring_view`.split(`.`),m=`abort.abs.acos.apply.as_const.asin.atan.atan2.calloc.ceil.cerr.cin.clog.cos.cosh.cout.declval.endl.exchange.exit.exp.fabs.floor.fmod.forward.fprintf.fputs.free.frexp.fscanf.future.invoke.isalnum.isalpha.iscntrl.isdigit.isgraph.islower.isprint.ispunct.isspace.isupper.isxdigit.labs.launder.ldexp.log.log10.make_pair.make_shared.make_shared_for_overwrite.make_tuple.make_unique.malloc.memchr.memcmp.memcpy.memset.modf.move.pow.printf.putchar.puts.realloc.scanf.sin.sinh.snprintf.sprintf.sqrt.sscanf.std.stderr.stdin.stdout.strcat.strchr.strcmp.strcpy.strcspn.strlen.strncat.strncmp.strncpy.strpbrk.strrchr.strspn.strstr.swap.tan.tanh.terminate.to_underlying.tolower.toupper.vfprintf.visit.vprintf.vsprintf`.split(`.`),h={type:f,keyword:d,literal:[`NULL`,`false`,`nullopt`,`nullptr`,`true`],built_in:[`_Pragma`],_type_hints:p},g={className:`function.dispatch`,relevance:0,keywords:{_hint:m},begin:t.concat(/\b/,`(?!${d.join(`|`)})`,e.IDENT_RE,t.lookahead(/(<[^<>]+>|)\s*\(/))},_=[g,...c,a,n,e.C_BLOCK_COMMENT_MODE,s,o],v={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:h,contains:_.concat([{begin:/\(/,end:/\)/,keywords:h,contains:_.concat([`self`]),relevance:0}]),relevance:0},y={className:`function`,begin:`(`+i+`[\\*&\\s]+){1,12}`+u,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:h,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:h,relevance:0},{begin:u,returnBegin:!0,contains:[l],relevance:0},{begin:/::/,relevance:0},{begin:/:/,endsWithParent:!0,contains:[o,s]},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...c]};return{name:`C++`,aliases:[`cc`,`c++`,`h++`,`hpp`,`hh`,`hxx`,`cxx`],keywords:h,illegal:`</`,classNameAliases:{"function.dispatch":`built_in`},contains:[].concat(v,y,g,_,[...c,{begin:`\\b(deque|list|queue|priority_queue|pair|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array|tuple|optional|variant|function|flat_map|flat_set)\\s*<(?!<)`,end:`>`,keywords:h,contains:[`self`,a]},{begin:e.IDENT_RE+`::`,keywords:h},{match:[/\b(?:enum(?:\s+(?:class|struct))?|class|struct|union)/,/\s+/,/\w+/],className:{1:`keyword`,3:`title.class`}}])}}t.exports=n})),lc=o(((e,t)=>{function n(e){let t=[`bool`,`byte`,`char`,`decimal`,`delegate`,`double`,`dynamic`,`enum`,`float`,`int`,`long`,`nint`,`nuint`,`object`,`sbyte`,`short`,`string`,`ulong`,`uint`,`ushort`],n=[`public`,`private`,`protected`,`static`,`internal`,`protected`,`abstract`,`async`,`extern`,`override`,`unsafe`,`virtual`,`new`,`sealed`,`partial`],r={keyword:`abstract.as.base.break.case.catch.class.const.continue.do.else.event.explicit.extern.finally.fixed.for.foreach.goto.if.implicit.in.interface.internal.is.lock.namespace.new.operator.out.override.params.private.protected.public.readonly.record.ref.return.scoped.sealed.sizeof.stackalloc.static.struct.switch.this.throw.try.typeof.unchecked.unsafe.using.virtual.void.volatile.while`.split(`.`).concat(`add.alias.and.ascending.args.async.await.by.descending.dynamic.equals.file.from.get.global.group.init.into.join.let.nameof.not.notnull.on.or.orderby.partial.record.remove.required.scoped.select.set.unmanaged.value|0.var.when.where.with.yield`.split(`.`)),built_in:t,literal:[`default`,`false`,`null`,`true`]},i=e.inherit(e.TITLE_MODE,{begin:`[a-zA-Z](\\.?\\w)*`}),a=`([uU][lL]?|[lL][uU]?)?`,o={className:`number`,variants:[{begin:`\\b0[bB]_*[01](_*[01])*`+a},{begin:`(-?)\\b0[xX]_*[a-fA-F0-9](_*[a-fA-F0-9])*`+a},{begin:`(-?)(\\b\\d(_*\\d)*(\\.(\\d(_*\\d)*)?)?|\\.\\d(_*\\d)*)([eE][-+]?\\d(_*\\d)*)?([fFdDmM]|[uU][lL]?|[lL][uU]?)?`}],relevance:0},s={className:`string`,begin:/"""("*)(?!")(.|\n)*?"""\1/,relevance:1},c={className:`string`,begin:`@"`,end:`"`,contains:[{begin:`""`}]},l=e.inherit(c,{illegal:/\n/}),u={className:`subst`,begin:/\{/,end:/\}/,keywords:r},d=e.inherit(u,{illegal:/\n/}),f={className:`string`,begin:/\$"/,end:`"`,illegal:/\n/,contains:[{begin:/\{\{/},{begin:/\}\}/},e.BACKSLASH_ESCAPE,d]},p={className:`string`,begin:/\$@"/,end:`"`,contains:[{begin:/\{\{/},{begin:/\}\}/},{begin:`""`},u]},m=e.inherit(p,{illegal:/\n/,contains:[{begin:/\{\{/},{begin:/\}\}/},{begin:`""`},d]});u.contains=[p,f,c,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,o,e.C_BLOCK_COMMENT_MODE],d.contains=[m,f,l,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,o,e.inherit(e.C_BLOCK_COMMENT_MODE,{illegal:/\n/})];let h={variants:[s,p,f,c,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},g={begin:`<`,end:`>`,contains:[{beginKeywords:`in out`},i]},_=e.IDENT_RE+`(<`+e.IDENT_RE+`(\\s*,\\s*`+e.IDENT_RE+`)*>)?(\\[\\])?`,v={begin:`@`+e.IDENT_RE,relevance:0};return{name:`C#`,aliases:[`cs`,`c#`],keywords:r,illegal:/::/,contains:[e.COMMENT(`///`,`$`,{returnBegin:!0,contains:[{className:`doctag`,variants:[{begin:`///`,relevance:0},{begin:`<!--|-->`},{begin:`</?`,end:`>`}]}]}),e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`meta`,begin:`#`,end:`$`,keywords:{keyword:`if else elif endif define undef warning error line region endregion pragma checksum`}},h,o,{beginKeywords:`class interface`,relevance:0,end:/[{;=]/,illegal:/[^\s:,]/,contains:[{beginKeywords:`where class`},i,g,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{beginKeywords:`namespace`,relevance:0,end:/[{;=]/,illegal:/[^\s:]/,contains:[i,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{beginKeywords:`record`,relevance:0,end:/[{;=]/,illegal:/[^\s:]/,contains:[i,g,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{className:`meta`,begin:`^\\s*\\[(?=[\\w])`,excludeBegin:!0,end:`\\]`,excludeEnd:!0,contains:[{className:`string`,begin:/"/,end:/"/}]},{beginKeywords:`new return throw await else`,relevance:0},{className:`function`,begin:`(`+_+`\\s+)+`+e.IDENT_RE+`\\s*(<[^=]+>\\s*)?\\(`,returnBegin:!0,end:/\s*[{;=]/,excludeEnd:!0,keywords:r,contains:[{beginKeywords:n.join(` `),relevance:0},{begin:e.IDENT_RE+`\\s*(<[^=]+>\\s*)?\\(`,returnBegin:!0,contains:[e.TITLE_MODE,g],relevance:0},{match:/\(\)/},{className:`params`,begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:r,relevance:0,contains:[h,o,e.C_BLOCK_COMMENT_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},v]}}t.exports=n})),uc=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function u(e){let t=e.regex,r=n(e),i={begin:/-(webkit|moz|ms|o)-(?=[a-z])/},u=/@-?\w[\w]*(-\w+)*/,d=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE];return{name:`CSS`,case_insensitive:!0,illegal:/[=|'\$]/,keywords:{keyframePosition:`from to`},classNameAliases:{keyframePosition:`selector-tag`},contains:[r.BLOCK_COMMENT,i,r.CSS_NUMBER_MODE,{className:`selector-id`,begin:/#[A-Za-z0-9_-]+/,relevance:0},{className:`selector-class`,begin:`\\.[a-zA-Z-][a-zA-Z0-9_-]*`,relevance:0},r.ATTRIBUTE_SELECTOR_MODE,{className:`selector-pseudo`,variants:[{begin:`:(`+s.join(`|`)+`)`},{begin:`:(:)?(`+c.join(`|`)+`)`}]},r.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`},{begin:/:/,end:/[;}{]/,contains:[r.BLOCK_COMMENT,r.HEXCOLOR,r.IMPORTANT,r.CSS_NUMBER_MODE,r.UNICODE_RANGE,...d,{begin:/(url|data-uri)\(/,end:/\)/,relevance:0,keywords:{built_in:`url data-uri`},contains:[...d,{className:`string`,begin:/[^)]/,endsWithParent:!0,excludeEnd:!0}]},r.FUNCTION_DISPATCH]},{begin:t.lookahead(/@/),end:`[{;]`,relevance:0,illegal:/:/,contains:[{className:`keyword`,begin:u},{begin:/\s/,endsWithParent:!0,excludeEnd:!0,relevance:0,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},contains:[{begin:/[a-z-]+(?=:)/,className:`attribute`},...d,r.CSS_NUMBER_MODE]}]},{className:`selector-tag`,begin:`\\b(`+a.join(`|`)+`)\\b`}]}}t.exports=u})),dc=o(((e,t)=>{function n(e){let t=e.regex,n={begin:/<\/?[A-Za-z_]/,end:`>`,subLanguage:`xml`,relevance:0},r={match:/^ {0,3}([-*_])[ \t]*(?:\1[ \t]*){2,}$/},i={className:`code`,variants:[{begin:"(`{3,})[^`](.|\\n)*?\\1`*[ ]*"},{begin:`(~{3,})[^~](.|\\n)*?\\1~*[ ]*`},{begin:"```",end:"```+[ ]*$"},{begin:`~~~`,end:`~~~+[ ]*$`},{begin:"`.+?`"},{begin:`(?=^( {4}|\\t))`,contains:[{begin:`^( {4}|\\t)`,end:`(\\n)$`}],relevance:0}]},a={className:`bullet`,begin:`^[ 	]*([*+-]|(\\d+\\.))(?=\\s+)`,end:`\\s+`,excludeEnd:!0},o={begin:/^\[[^\n]+\]:/,returnBegin:!0,contains:[{className:`symbol`,begin:/\[/,end:/\]/,excludeBegin:!0,excludeEnd:!0},{className:`link`,begin:/:\s*/,end:/$/,excludeBegin:!0}]},s={variants:[{begin:/\[.+?\]\[.*?\]/,relevance:0},{begin:/\[.+?\]\(((data|javascript|mailto):|(?:http|ftp)s?:\/\/).*?\)/,relevance:2},{begin:t.concat(/\[.+?\]\(/,/[A-Za-z][A-Za-z0-9+.-]*/,/:\/\/.*?\)/),relevance:2},{begin:/\[.+?\]\([./?&#].*?\)/,relevance:1},{begin:/\[.*?\]\(.*?\)/,relevance:0}],returnBegin:!0,contains:[{match:/\[(?=\])/},{className:`string`,relevance:0,begin:`\\[`,end:`\\]`,excludeBegin:!0,returnEnd:!0},{className:`link`,relevance:0,begin:`\\]\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0},{className:`symbol`,relevance:0,begin:`\\]\\[`,end:`\\]`,excludeBegin:!0,excludeEnd:!0}]},c={className:`strong`,contains:[],variants:[{begin:/_{2}(?!\s)/,end:/_{2}/},{begin:/\*{2}(?!\s)/,end:/\*{2}/}]},l={className:`emphasis`,contains:[],variants:[{begin:/\*(?![*\s])/,end:/\*/},{begin:/_(?![_\s])/,end:/_/,relevance:0}]},u=e.inherit(c,{contains:[]}),d=e.inherit(l,{contains:[]});c.contains.push(d),l.contains.push(u);let f=[n,s];return[c,l,u,d].forEach(e=>{e.contains=e.contains.concat(f)}),f=f.concat(c,l),{name:`Markdown`,aliases:[`md`,`mkdown`,`mkd`],contains:[{className:`section`,variants:[{begin:`^#{1,6}`,end:`$`,contains:f},{begin:`(?=^.+?\\n[=-]{2,}$)`,contains:[{begin:`^[=-]*$`},{begin:`^`,end:`\\n`,contains:f}]}]},n,a,r,c,l,{className:`quote`,begin:`^>\\s+`,contains:f,end:`$`},i,s,o,{scope:`literal`,match:/&([a-zA-Z0-9]+|#[0-9]{1,7}|#[Xx][0-9a-fA-F]{1,6});/}]}}t.exports=n})),Q=o(((e,t)=>{function n(e){let t=e.regex;return{name:`Diff`,aliases:[`patch`],contains:[{className:`meta`,relevance:10,match:t.either(/^@@ +-\d+,\d+ +\+\d+,\d+ +@@/,/^@@ +-\d+ +\+\d+,\d+ +@@/,/^@@ +-\d+,\d+ +\+\d+ +@@/,/^@@ +-\d+ +\+\d+ +@@/,/^\*\*\* +\d+,\d+ +\*\*\*\*$/,/^--- +\d+,\d+ +----$/)},{className:`comment`,variants:[{begin:t.either(/Index: /,/^index/,/={3,}/,/^-{3}/,/^\*{3} /,/^\+{3}/,/^diff --git/),end:/$/},{match:/^\*{15}$/}]},{className:`addition`,begin:/^\+/,end:/$/},{className:`deletion`,begin:/^-/,end:/$/},{className:`addition`,begin:/^!/,end:/$/}]}}t.exports=n})),fc=o(((e,t)=>{function n(e){let t=e.regex,n="([a-zA-Z_]\\w*[!?=]?|[-+~]@|<<|>>|=~|===?|<=>|[<>]=?|\\*\\*|[-/+%^&*~`|]|\\[\\]=?)",r=t.either(/\b([A-Z]+[a-z0-9]+)+/,/\b([A-Z]+[a-z0-9]+)+[A-Z]+/),i=t.concat(r,/(::\w+)*/),a={"variable.constant":[`__FILE__`,`__LINE__`,`__ENCODING__`],"variable.language":[`self`,`super`],keyword:`alias.and.begin.BEGIN.break.case.class.defined.do.else.elsif.end.END.ensure.for.if.in.module.next.not.or.redo.require.rescue.retry.return.then.undef.unless.until.when.while.yield.include.extend.prepend.public.private.protected.raise.throw`.split(`.`),built_in:[`proc`,`lambda`,`attr_accessor`,`attr_reader`,`attr_writer`,`define_method`,`private_constant`,`module_function`],literal:[`true`,`false`,`nil`]},o={className:`doctag`,begin:`@[A-Za-z]+`},s={begin:`#<`,end:`>`},c=[e.COMMENT(`#`,`$`,{contains:[o]}),e.COMMENT(`^=begin`,`^=end`,{contains:[o],relevance:10}),e.COMMENT(`^__END__`,e.MATCH_NOTHING_RE)],l={className:`subst`,begin:/#\{/,end:/\}/,keywords:a},u={className:`string`,contains:[e.BACKSLASH_ESCAPE,l],variants:[{begin:/'/,end:/'/},{begin:/"/,end:/"/},{begin:/`/,end:/`/},{begin:/%[qQwWx]?\(/,end:/\)/},{begin:/%[qQwWx]?\[/,end:/\]/},{begin:/%[qQwWx]?\{/,end:/\}/},{begin:/%[qQwWx]?</,end:/>/},{begin:/%[qQwWx]?\//,end:/\//},{begin:/%[qQwWx]?%/,end:/%/},{begin:/%[qQwWx]?-/,end:/-/},{begin:/%[qQwWx]?\|/,end:/\|/},{begin:/\B\?(\\\d{1,3})/},{begin:/\B\?(\\x[A-Fa-f0-9]{1,2})/},{begin:/\B\?(\\u\{?[A-Fa-f0-9]{1,6}\}?)/},{begin:/\B\?(\\M-\\C-|\\M-\\c|\\c\\M-|\\M-|\\C-\\M-)[\x20-\x7e]/},{begin:/\B\?\\(c|C-)[\x20-\x7e]/},{begin:/\B\?\\?\S/},{begin:t.concat(/<<[-~]?'?/,t.lookahead(/(\w+)(?=\W)[^\n]*\n(?:[^\n]*\n)*?\s*\1\b/)),contains:[e.END_SAME_AS_BEGIN({begin:/(\w+)/,end:/(\w+)/,contains:[e.BACKSLASH_ESCAPE,l]})]}]},d=`[0-9](_?[0-9])*`,f={className:`number`,relevance:0,variants:[{begin:`\\b([1-9](_?[0-9])*|0)(\\.(${d}))?([eE][+-]?(${d})|r)?i?\\b`},{begin:`\\b0[dD][0-9](_?[0-9])*r?i?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*r?i?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*r?i?\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*r?i?\\b`},{begin:`\\b0(_?[0-7])+r?i?\\b`}]},p={variants:[{match:/\(\)/},{className:`params`,begin:/\(/,end:/(?=\))/,excludeBegin:!0,endsParent:!0,keywords:a}]},m=[u,{variants:[{match:[/class\s+/,i,/\s+<\s+/,i]},{match:[/\b(class|module)\s+/,i]}],scope:{2:`title.class`,4:`title.class.inherited`},keywords:a},{match:[/(include|extend)\s+/,i],scope:{2:`title.class`},keywords:a},{relevance:0,match:[i,/\.new[. (]/],scope:{1:`title.class`}},{relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`},{relevance:0,match:r,scope:`title.class`},{match:[/def/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[p]},{begin:`::`},{className:`symbol`,begin:e.UNDERSCORE_IDENT_RE+`(!|\\?)?:`,relevance:0},{className:`symbol`,begin:`:(?!\\s)`,contains:[u,{begin:n}],relevance:0},f,{className:`variable`,begin:`(\\$\\W)|((\\$|@@?)(\\w+))(?=[^@$?])(?![A-Za-z])(?![@$?'])`},{className:`params`,begin:/\|(?!=)/,end:/\|/,excludeBegin:!0,excludeEnd:!0,relevance:0,keywords:a},{begin:`(`+e.RE_STARTERS_RE+`|unless)\\s*`,keywords:`unless`,contains:[{className:`regexp`,contains:[e.BACKSLASH_ESCAPE,l],illegal:/\n/,variants:[{begin:`/`,end:`/[a-z]*`},{begin:/%r\{/,end:/\}[a-z]*/},{begin:`%r\\(`,end:`\\)[a-z]*`},{begin:`%r!`,end:`![a-z]*`},{begin:`%r\\[`,end:`\\][a-z]*`}]}].concat(s,c),relevance:0}].concat(s,c);l.contains=m,p.contains=m;let h=[{begin:/^\s*=>/,starts:{end:`$`,contains:m}},{className:`meta.prompt`,begin:`^([>?]>|[\\w#]+\\(\\w+\\):\\d+:\\d+[>*]|(\\w+-)?\\d+\\.\\d+\\.\\d+(p\\d+)?[^\\d][^>]+>)(?=[ ])`,starts:{end:`$`,keywords:a,contains:m}}];return c.unshift(s),{name:`Ruby`,aliases:[`rb`,`gemspec`,`podspec`,`thor`,`irb`],keywords:a,illegal:/\/\*/,contains:[e.SHEBANG({binary:`ruby`})].concat(h,c,m)}}t.exports=n})),pc=o(((e,t)=>{function n(e){let t={keyword:[`break`,`case`,`chan`,`const`,`continue`,`default`,`defer`,`else`,`fallthrough`,`for`,`func`,`go`,`goto`,`if`,`import`,`interface`,`map`,`package`,`range`,`return`,`select`,`struct`,`switch`,`type`,`var`],type:[`bool`,`byte`,`complex64`,`complex128`,`error`,`float32`,`float64`,`int8`,`int16`,`int32`,`int64`,`string`,`uint8`,`uint16`,`uint32`,`uint64`,`int`,`uint`,`uintptr`,`rune`],literal:[`true`,`false`,`iota`,`nil`],built_in:[`append`,`cap`,`close`,`complex`,`copy`,`imag`,`len`,`make`,`new`,`panic`,`print`,`println`,`real`,`recover`,`delete`]};return{name:`Go`,aliases:[`golang`],keywords:t,illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`string`,variants:[e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,{begin:"`",end:"`"}]},{className:`number`,variants:[{match:/-?\b0[xX]\.[a-fA-F0-9](_?[a-fA-F0-9])*[pP][+-]?\d(_?\d)*i?/,relevance:0},{match:/-?\b0[xX](_?[a-fA-F0-9])+((\.([a-fA-F0-9](_?[a-fA-F0-9])*)?)?[pP][+-]?\d(_?\d)*)?i?/,relevance:0},{match:/-?\b0[oO](_?[0-7])*i?/,relevance:0},{match:/-?\b0[bB](_?[01])*i?/,relevance:0},{match:/-?\.\d(_?\d)*([eE][+-]?\d(_?\d)*)?i?/,relevance:0},{match:/-?\b\d(_?\d)*(\.(\d(_?\d)*)?)?([eE][+-]?\d(_?\d)*)?i?/,relevance:0}]},{begin:/:=/},{className:`function`,beginKeywords:`func`,end:`\\s*(\\{|$)`,excludeEnd:!0,contains:[e.TITLE_MODE,{className:`params`,begin:/\(/,end:/\)/,endsParent:!0,keywords:t,illegal:/["']/}]}]}}t.exports=n})),mc=o(((e,t)=>{function n(e){let t=e.regex;return{name:`GraphQL`,aliases:[`gql`],case_insensitive:!0,disableAutodetect:!1,keywords:{keyword:[`query`,`mutation`,`subscription`,`type`,`input`,`schema`,`directive`,`interface`,`union`,`scalar`,`fragment`,`enum`,`on`],literal:[`true`,`false`,`null`]},contains:[e.HASH_COMMENT_MODE,e.QUOTE_STRING_MODE,e.NUMBER_MODE,{scope:`punctuation`,match:/[.]{3}/,relevance:0},{scope:`punctuation`,begin:/[\!\(\)\:\=\[\]\{\|\}]{1}/,relevance:0},{scope:`variable`,begin:/\$/,end:/\W/,excludeEnd:!0,relevance:0},{scope:`meta`,match:/@\w+/,excludeEnd:!0},{scope:`symbol`,begin:t.concat(/[_A-Za-z][_0-9A-Za-z]*/,t.lookahead(/\s*:/)),relevance:0}],illegal:[/[;<']/,/BEGIN/]}}t.exports=n})),hc=o(((e,t)=>{function n(e){let t=e.regex,n={className:`number`,relevance:0,variants:[{begin:/([+-]+)?[\d]+_[\d_]+/},{begin:e.NUMBER_RE}]},r=e.COMMENT();r.variants=[{begin:/;/,end:/$/},{begin:/#/,end:/$/}];let i={className:`variable`,variants:[{begin:/\$[\w\d"][\w\d_]*/},{begin:/\$\{(.*?)\}/}]},a={className:`literal`,begin:/\bon|off|true|false|yes|no\b/},o={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:`'''`,end:`'''`,relevance:10},{begin:`"""`,end:`"""`,relevance:10},{begin:`"`,end:`"`},{begin:`'`,end:`'`}]},s={begin:/\[/,end:/\]/,contains:[r,a,i,o,n,`self`],relevance:0},c=t.either(/[A-Za-z0-9_-]+/,/"(\\"|[^"])*"/,/'[^']*'/);return{name:`TOML, also INI`,aliases:[`toml`],case_insensitive:!0,illegal:/\S/,contains:[r,{className:`section`,begin:/\[+/,end:/\]+/},{begin:t.concat(c,`(\\s*\\.\\s*`,c,`)*`,t.lookahead(/\s*=\s*[^#\s]/)),className:`attr`,starts:{end:/$/,contains:[r,s,a,i,o,n]}}]}}t.exports=n})),gc=o(((e,t)=>{var n=`[0-9](_*[0-9])*`,r=`\\.(${n})`,i=`[0-9a-fA-F](_*[0-9a-fA-F])*`,a={className:`number`,variants:[{begin:`(\\b(${n})((${r})|\\.)?|(${r}))[eE][+-]?(${n})[fFdD]?\\b`},{begin:`\\b(${n})((${r})[fFdD]?\\b|\\.([fFdD]\\b)?)`},{begin:`(${r})[fFdD]?\\b`},{begin:`\\b(${n})[fFdD]\\b`},{begin:`\\b0[xX]((${i})\\.?|(${i})?\\.(${i}))[pP][+-]?(${n})[fFdD]?\\b`},{begin:`\\b(0|[1-9](_*[0-9])*)[lL]?\\b`},{begin:`\\b0[xX](${i})[lL]?\\b`},{begin:`\\b0(_*[0-7])*[lL]?\\b`},{begin:`\\b0[bB][01](_*[01])*[lL]?\\b`}],relevance:0};function o(e,t,n){return n===-1?``:e.replace(t,r=>o(e,t,n-1))}function s(e){let t=e.regex,n=`[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*`,r=`(?:(?:\\s*\\[\\s*])+)?`,i=`(?:\\?(?:\\s+(?:extends|super)\\s+[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)?|[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)`,s=o(`(?:\\s*<\\s*`+i+`(?:\\s*,\\s*`+i+`)*\\s*>)?`,/<@@@>/g,2),c={keyword:`synchronized.abstract.private.var.static.if.const .for.while.strictfp.finally.protected.import.native.final.void.enum.else.break.transient.catch.instanceof.volatile.case.assert.package.default.public.try.switch.continue.throws.protected.public.private.module.requires.exports.do.sealed.yield.permits.goto.when`.split(`.`),literal:[`false`,`true`,`null`],type:[`char`,`boolean`,`long`,`float`,`int`,`byte`,`short`,`double`],built_in:[`super`,`this`]},l={className:`meta`,begin:`@`+n,contains:[{begin:/\(/,end:/\)/,contains:[`self`]}]},u={className:`params`,begin:/\(/,end:/\)/,keywords:c,relevance:0,contains:[e.C_BLOCK_COMMENT_MODE],endsParent:!0};return{name:`Java`,aliases:[`jsp`],keywords:c,illegal:/<\/|#/,contains:[e.COMMENT(`/\\*\\*`,`\\*/`,{relevance:0,contains:[{begin:/\w+@/,relevance:0},{className:`doctag`,begin:`@[A-Za-z]+`}]}),{begin:/import java\.[a-z]+\./,keywords:`import`,relevance:2},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{begin:/"""/,end:/"""/,className:`string`,contains:[e.BACKSLASH_ESCAPE]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,{match:[/\b(?:class|interface|enum|extends|implements|new)/,/\s+/,n],className:{1:`keyword`,3:`title.class`}},{match:/non-sealed/,scope:`keyword`},{beginKeywords:`new throw return else yield assert`,relevance:0},{begin:[n,t.concat(s,r,/\s+/),n,r,/\s*/,/=(?!=)/],className:{1:`type`,3:`variable`,6:`operator`}},{begin:[/record/,/\s+/,n],className:{1:`keyword`,3:`title.class`},contains:[u,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{begin:[n,t.concat(s,r,/\s+/),n,/\s*(?=\()/],className:{1:`type`,3:`title.function`},keywords:c,contains:[{className:`params`,begin:/\(/,end:/\)/,keywords:c,relevance:0,contains:[l,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,a,e.C_BLOCK_COMMENT_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},a,l]}}t.exports=s})),_c=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,ee={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},ee,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}t.exports=u})),vc=o(((e,t)=>{var n={scope:`number`,match:`([-+]?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)|NaN|[-+]?Infinity`,relevance:0};function r(e){let t={className:`attr`,begin:/(("(\\.|[^\\"\r\n])*")|('(\\.|[^\\'\r\n])*'))(?=\s*:)/,relevance:1.01},r={match:/[{}[\],:]/,className:`punctuation`,relevance:0},i=[`true`,`false`,`null`],a={scope:`literal`,beginKeywords:i.join(` `)};return{name:`JSON`,aliases:[`jsonc`,`json5`],keywords:{literal:i},contains:[t,r,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,a,n,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE],illegal:`\\S`}}t.exports=r})),yc=o(((e,t)=>{var n=`[0-9](_*[0-9])*`,r=`\\.(${n})`,i=`[0-9a-fA-F](_*[0-9a-fA-F])*`,a={className:`number`,variants:[{begin:`(\\b(${n})((${r})|\\.)?|(${r}))[eE][+-]?(${n})[fFdD]?\\b`},{begin:`\\b(${n})((${r})[fFdD]?\\b|\\.([fFdD]\\b)?)`},{begin:`(${r})[fFdD]?\\b`},{begin:`\\b(${n})[fFdD]\\b`},{begin:`\\b0[xX]((${i})\\.?|(${i})?\\.(${i}))[pP][+-]?(${n})[fFdD]?\\b`},{begin:`\\b(0|[1-9](_*[0-9])*)[lL]?\\b`},{begin:`\\b0[xX](${i})[lL]?\\b`},{begin:`\\b0(_*[0-7])*[lL]?\\b`},{begin:`\\b0[bB][01](_*[01])*[lL]?\\b`}],relevance:0};function o(e){let t={keyword:`abstract as val var vararg get set class object open private protected public noinline crossinline dynamic final enum if else do while for when throw try catch finally import package is in fun override companion reified inline lateinit init interface annotation data sealed internal infix operator out by constructor super tailrec where const inner suspend typealias external expect actual`,built_in:`Byte Short Char Int Long Boolean Float Double Void Unit Nothing`,literal:`true false null`},n={className:`keyword`,begin:/\b(break|continue|return|this)\b/,starts:{contains:[{className:`symbol`,begin:/@\w+/}]}},r={className:`symbol`,begin:e.UNDERSCORE_IDENT_RE+`@`},i={className:`subst`,begin:/\$\{/,end:/\}/,contains:[e.C_NUMBER_MODE]},o={className:`variable`,begin:`\\$`+e.UNDERSCORE_IDENT_RE},s={className:`string`,variants:[{begin:`"""`,end:`"""(?=[^"])`,contains:[o,i]},{begin:`'`,end:`'`,illegal:/\n/,contains:[e.BACKSLASH_ESCAPE]},{begin:`"`,end:`"`,illegal:/\n/,contains:[e.BACKSLASH_ESCAPE,o,i]}]};i.contains.push(s);let c={className:`meta`,begin:`@(?:file|property|field|get|set|receiver|param|setparam|delegate)\\s*:(?:\\s*`+e.UNDERSCORE_IDENT_RE+`)?`},l={className:`meta`,begin:`@`+e.UNDERSCORE_IDENT_RE,contains:[{begin:/\(/,end:/\)/,contains:[e.inherit(s,{className:`string`}),`self`]}]},u=a,d=e.COMMENT(`/\\*`,`\\*/`,{contains:[e.C_BLOCK_COMMENT_MODE]}),f={variants:[{className:`type`,begin:e.UNDERSCORE_IDENT_RE},{begin:/\(/,end:/\)/,contains:[]}]},p=f;return p.variants[1].contains=[f],f.variants[1].contains=[p],{name:`Kotlin`,aliases:[`kt`,`kts`,`ktm`,`ktx`],keywords:t,contains:[e.COMMENT(`/\\*\\*`,`\\*/`,{relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`}]}),e.C_LINE_COMMENT_MODE,d,n,r,c,l,{className:`function`,beginKeywords:`fun`,end:`[(]|$`,returnBegin:!0,excludeEnd:!0,keywords:t,relevance:5,contains:[{begin:e.UNDERSCORE_IDENT_RE+`\\s*\\(`,returnBegin:!0,relevance:0,contains:[e.UNDERSCORE_TITLE_MODE]},{className:`type`,begin:/</,end:/>/,keywords:`reified`,relevance:0},{className:`params`,begin:/\(/,end:/\)/,endsParent:!0,keywords:t,relevance:0,contains:[{begin:/:/,end:/[=,\/]/,endsWithParent:!0,contains:[f,e.C_LINE_COMMENT_MODE,d],relevance:0},e.C_LINE_COMMENT_MODE,d,c,l,s,e.C_NUMBER_MODE]},d]},{begin:[/class|interface|trait/,/\s+/,e.UNDERSCORE_IDENT_RE],beginScope:{3:`title.class`},keywords:`class interface trait`,end:/[:\{(]|$/,excludeEnd:!0,illegal:`extends implements`,contains:[{beginKeywords:`public protected internal private constructor`},e.UNDERSCORE_TITLE_MODE,{className:`type`,begin:/</,end:/>/,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:/[,:]\s*/,end:/[<\(,){\s]|$/,excludeBegin:!0,returnEnd:!0},c,l]},s,{className:`meta`,begin:`^#!/usr/bin/env`,end:`$`,illegal:`
 `},u]}}t.exports=o})),bc=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse(),u=s.concat(c).sort().reverse();function d(e){let t=n(e),r=u,i=`([\\w-]+|@\\{[\\w-]+\\})`,d=[],f=[],p=function(e){return{className:`string`,begin:`~?`+e+`.*?`+e}},m=function(e,t,n){return{className:e,begin:t,relevance:n}},h={$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},g={begin:`\\(`,end:`\\)`,contains:f,keywords:h,relevance:0};f.push(e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,p(`'`),p(`"`),t.CSS_NUMBER_MODE,{begin:`(url|data-uri)\\(`,starts:{className:`string`,end:`[\\)\\n]`,excludeEnd:!0}},t.UNICODE_RANGE,t.HEXCOLOR,g,m(`variable`,`@@?[\\w-]+`,10),m(`variable`,`@\\{[\\w-]+\\}`),m(`built_in`,"~?`[^`]*?`"),{className:`attribute`,begin:`[\\w-]+\\s*:`,end:`:`,returnBegin:!0,excludeEnd:!0},t.IMPORTANT,{beginKeywords:`and not`},t.FUNCTION_DISPATCH);let _=f.concat({begin:/\{/,end:/\}/,contains:d}),v={beginKeywords:`when`,endsWithParent:!0,contains:[{beginKeywords:`and not`}].concat(f)},y={begin:i+`\\s*:`,returnBegin:!0,end:/[;}]/,relevance:0,contains:[{begin:/-(webkit|moz|ms|o)-/},t.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`,end:/(?=:)/,starts:{endsWithParent:!0,illegal:`[<=$]`,relevance:0,contains:f}}]},b={className:`keyword`,begin:`@(import|media|charset|font-face|(-[a-z]+-)?keyframes|supports|document|namespace|page|viewport|host)\\b`,starts:{end:`[;{}]`,keywords:h,returnEnd:!0,contains:f,relevance:0}},x={className:`variable`,variants:[{begin:`@[\\w-]+\\s*:`,relevance:15},{begin:`@[\\w-]+`}],starts:{end:`[;}]`,returnEnd:!0,contains:_}},S={variants:[{begin:`[\\.#:&\\[>]`,end:`[;{}]`},{begin:i,end:/\{/}],returnBegin:!0,returnEnd:!0,illegal:`[<='$"]`,relevance:0,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,v,m(`keyword`,`all\\b`),m(`variable`,`@\\{[\\w-]+\\}`),{begin:`\\b(`+a.join(`|`)+`)\\b`,className:`selector-tag`},t.CSS_NUMBER_MODE,m(`selector-tag`,i,0),m(`selector-id`,`#`+i),m(`selector-class`,`\\.`+i,0),m(`selector-tag`,`&`,0),t.ATTRIBUTE_SELECTOR_MODE,{className:`selector-pseudo`,begin:`:(`+s.join(`|`)+`)`},{className:`selector-pseudo`,begin:`:(:)?(`+c.join(`|`)+`)`},{begin:/\(/,end:/\)/,relevance:0,contains:_},{begin:`!important`},t.FUNCTION_DISPATCH]},C={begin:`[\\w-]+:(:)?(${r.join(`|`)})`,returnBegin:!0,contains:[S]};return d.push(e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,b,x,C,y,S,v,t.FUNCTION_DISPATCH),{name:`Less`,case_insensitive:!0,illegal:`[=>'/<($"]`,contains:d}}t.exports=d})),xc=o(((e,t)=>{function n(e){let t=`\\[=*\\[`,n=`\\]=*\\]`,r={begin:t,end:n,contains:[`self`]},i=[e.COMMENT(`--(?!\\[=*\\[)`,`$`),e.COMMENT(`--\\[=*\\[`,n,{contains:[r],relevance:10})];return{name:`Lua`,aliases:[`pluto`],keywords:{$pattern:e.UNDERSCORE_IDENT_RE,literal:`true false nil`,keyword:`and break do else elseif end for goto if in local global not or repeat return then until while`,built_in:`_G _ENV _VERSION __index __newindex __mode __call __metatable __tostring __len __gc __add __sub __mul __div __mod __pow __concat __unm __eq __lt __le assert collectgarbage dofile error getfenv getmetatable ipairs load loadfile loadstring module next pairs pcall print rawequal rawget rawset require select setfenv setmetatable tonumber tostring type unpack xpcall arg self coroutine resume yield status wrap create running debug getupvalue debug sethook getmetatable gethook setmetatable setlocal traceback setfenv getinfo setupvalue getlocal getregistry getfenv io lines write close flush open output type read stderr stdin input stdout popen tmpfile math log max acos huge ldexp pi cos tanh pow deg tan cosh sinh random randomseed frexp ceil floor rad abs sqrt modf asin min mod fmod log10 atan2 exp sin atan os exit setlocale date getenv difftime remove time clock tmpname rename execute package preload loadlib loaded loaders cpath config path seeall string sub upper len gfind rep find match char dump gmatch reverse byte format gsub lower table setn insert getn foreachi maxn foreach concat sort remove`},contains:i.concat([{className:`function`,beginKeywords:`function`,end:`\\)`,contains:[e.inherit(e.TITLE_MODE,{begin:`([_a-zA-Z]\\w*\\.)*([_a-zA-Z]\\w*:)?[_a-zA-Z]\\w*`}),{className:`params`,begin:`\\(`,endsWithParent:!0,contains:i}].concat(i)},e.C_NUMBER_MODE,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,{className:`string`,begin:t,end:n,contains:[r],relevance:5}])}}t.exports=n})),Sc=o(((e,t)=>{function n(e){let t={className:`variable`,variants:[{begin:`\\$\\(`+e.UNDERSCORE_IDENT_RE+`\\)`,contains:[e.BACKSLASH_ESCAPE]},{begin:/\$[@%<?\^\+\*]/}]},n={className:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,t]},r={className:`variable`,begin:/\$\([\w-]+\s/,end:/\)/,keywords:{built_in:`subst patsubst strip findstring filter filter-out sort word wordlist firstword lastword dir notdir suffix basename addsuffix addprefix join wildcard realpath abspath error warning shell origin flavor foreach if or and call eval file value`},contains:[t,n]},i={begin:`^`+e.UNDERSCORE_IDENT_RE+`\\s*(?=[:+?]?=)`},a={className:`meta`,begin:/^\.PHONY:/,end:/$/,keywords:{$pattern:/[\.\w]+/,keyword:`.PHONY`}},o={className:`section`,begin:/^[^\s]+:/,end:/$/,contains:[t]};return{name:`Makefile`,aliases:[`mk`,`mak`,`make`],keywords:{$pattern:/[\w-]+/,keyword:`define endef undefine ifdef ifndef ifeq ifneq else endif include -include sinclude override export unexport private vpath`},contains:[e.HASH_COMMENT_MODE,t,n,r,i,a,o]}}t.exports=n})),Cc=o(((e,t)=>{function n(e){let t=e.regex,n=`abs.accept.alarm.and.atan2.bind.binmode.bless.break.caller.chdir.chmod.chomp.chop.chown.chr.chroot.class.close.closedir.connect.continue.cos.crypt.dbmclose.dbmopen.defined.delete.die.do.dump.each.else.elsif.endgrent.endhostent.endnetent.endprotoent.endpwent.endservent.eof.eval.exec.exists.exit.exp.fcntl.field.fileno.flock.for.foreach.fork.format.formline.getc.getgrent.getgrgid.getgrnam.gethostbyaddr.gethostbyname.gethostent.getlogin.getnetbyaddr.getnetbyname.getnetent.getpeername.getpgrp.getpriority.getprotobyname.getprotobynumber.getprotoent.getpwent.getpwnam.getpwuid.getservbyname.getservbyport.getservent.getsockname.getsockopt.given.glob.gmtime.goto.grep.gt.hex.if.index.int.ioctl.join.keys.kill.last.lc.lcfirst.length.link.listen.local.localtime.log.lstat.lt.ma.map.method.mkdir.msgctl.msgget.msgrcv.msgsnd.my.ne.next.no.not.oct.open.opendir.or.ord.our.pack.package.pipe.pop.pos.print.printf.prototype.push.q|0.qq.quotemeta.qw.qx.rand.read.readdir.readline.readlink.readpipe.recv.redo.ref.rename.require.reset.return.reverse.rewinddir.rindex.rmdir.say.scalar.seek.seekdir.select.semctl.semget.semop.send.setgrent.sethostent.setnetent.setpgrp.setpriority.setprotoent.setpwent.setservent.setsockopt.shift.shmctl.shmget.shmread.shmwrite.shutdown.sin.sleep.socket.socketpair.sort.splice.split.sprintf.sqrt.srand.stat.state.study.sub.substr.symlink.syscall.sysopen.sysread.sysseek.system.syswrite.tell.telldir.tie.tied.time.times.tr.truncate.uc.ucfirst.umask.undef.unless.unlink.unpack.unshift.untie.until.use.utime.values.vec.wait.waitpid.wantarray.warn.when.while.write.x|0.xor.y|0`.split(`.`),r=/[dualxmsipngr]{0,12}/,i={$pattern:/[\w.]+/,keyword:n.join(` `)},a={className:`subst`,begin:`[$@]\\{`,end:`\\}`,keywords:i},o={begin:/->\{/,end:/\}/},s={scope:`attr`,match:/\s+:\s*\w+(\s*\(.*?\))?/},c={scope:`variable`,variants:[{begin:/\$\d/},{begin:t.concat(/[$%@](?!")(\^\w\b|#\w+(::\w+)*|\{\w+\}|\w+(::\w*)*)/,`(?![A-Za-z])(?![@$%])`)},{begin:/[$%@](?!")[^\s\w{=]|\$=/,relevance:0}],contains:[s]},l={className:`number`,variants:[{match:/0?\.[0-9][0-9_]+\b/},{match:/\bv?(0|[1-9][0-9_]*(\.[0-9_]+)?|[1-9][0-9_]*)\b/},{match:/\b0[0-7][0-7_]*\b/},{match:/\b0x[0-9a-fA-F][0-9a-fA-F_]*\b/},{match:/\b0b[0-1][0-1_]*\b/}],relevance:0},u=[e.BACKSLASH_ESCAPE,a,c],d=[/!/,/\//,/\|/,/\?/,/'/,/"/,/#/],f=(e,n,i=`\\1`)=>{let a=i===`\\1`?i:t.concat(i,n);return t.concat(t.concat(`(?:`,e,`)`),n,/(?:\\.|[^\\\/])*?/,a,/(?:\\.|[^\\\/])*?/,i,r)},p=(e,n,i)=>t.concat(t.concat(`(?:`,e,`)`),n,/(?:\\.|[^\\\/])*?/,i,r),m=[c,e.HASH_COMMENT_MODE,e.COMMENT(/^=\w/,/=cut/,{endsWithParent:!0}),o,{className:`string`,contains:u,variants:[{begin:`q[qwxr]?\\s*\\(`,end:`\\)`,relevance:5},{begin:`q[qwxr]?\\s*\\[`,end:`\\]`,relevance:5},{begin:`q[qwxr]?\\s*\\{`,end:`\\}`,relevance:5},{begin:`q[qwxr]?\\s*\\|`,end:`\\|`,relevance:5},{begin:`q[qwxr]?\\s*<`,end:`>`,relevance:5},{begin:`qw\\s+q`,end:`q`,relevance:5},{begin:`'`,end:`'`,contains:[e.BACKSLASH_ESCAPE]},{begin:`"`,end:`"`},{begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE]},{begin:/\{\w+\}/,relevance:0},{begin:`-?\\w+\\s*=>`,relevance:0}]},l,{begin:`(\\/\\/|`+e.RE_STARTERS_RE+`|\\b(split|return|print|reverse|grep)\\b)\\s*`,keywords:`split return print reverse grep`,relevance:0,contains:[e.HASH_COMMENT_MODE,{className:`regexp`,variants:[{begin:f(`s|tr|y`,t.either(...d,{capture:!0}))},{begin:f(`s|tr|y`,`\\(`,`\\)`)},{begin:f(`s|tr|y`,`\\[`,`\\]`)},{begin:f(`s|tr|y`,`\\{`,`\\}`)}],relevance:2},{className:`regexp`,variants:[{begin:/(m|qr)\/\//,relevance:0},{begin:p(`(?:m|qr)?`,/\//,/\//)},{begin:p(`m|qr`,t.either(...d,{capture:!0}),/\1/)},{begin:p(`m|qr`,/\(/,/\)/)},{begin:p(`m|qr`,/\[/,/\]/)},{begin:p(`m|qr`,/\{/,/\}/)}]}]},{className:`function`,beginKeywords:`sub method`,end:`(\\s*\\(.*?\\))?[;{]`,excludeEnd:!0,relevance:5,contains:[e.TITLE_MODE,s]},{className:`class`,beginKeywords:`class`,end:`[;{]`,excludeEnd:!0,relevance:5,contains:[e.TITLE_MODE,s,l]},{begin:`-\\w\\b`,relevance:0},{begin:`^__DATA__$`,end:`^__END__$`,subLanguage:`mojolicious`,contains:[{begin:`^@@.*`,end:`$`,className:`comment`}]}];return a.contains=m,o.contains=m,{name:`Perl`,aliases:[`pl`,`pm`],keywords:i,contains:m}}t.exports=n})),wc=o(((e,t)=>{function n(e){let t={className:`built_in`,begin:`\\b(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)\\w+`},n=/[a-zA-Z@][a-zA-Z0-9_]*/,r={"variable.language":[`this`,`super`],$pattern:n,keyword:`while.export.sizeof.typedef.const.struct.for.union.volatile.static.mutable.if.do.return.goto.enum.else.break.extern.asm.case.default.register.explicit.typename.switch.continue.inline.readonly.assign.readwrite.self.@synchronized.id.typeof.nonatomic.IBOutlet.IBAction.strong.weak.copy.in.out.inout.bycopy.byref.oneway.__strong.__weak.__block.__autoreleasing.@private.@protected.@public.@try.@property.@end.@throw.@catch.@finally.@autoreleasepool.@synthesize.@dynamic.@selector.@optional.@required.@encode.@package.@import.@defs.@compatibility_alias.__bridge.__bridge_transfer.__bridge_retained.__bridge_retain.__covariant.__contravariant.__kindof._Nonnull._Nullable._Null_unspecified.__FUNCTION__.__PRETTY_FUNCTION__.__attribute__.getter.setter.retain.unsafe_unretained.nonnull.nullable.null_unspecified.null_resettable.class.instancetype.NS_DESIGNATED_INITIALIZER.NS_UNAVAILABLE.NS_REQUIRES_SUPER.NS_RETURNS_INNER_POINTER.NS_INLINE.NS_AVAILABLE.NS_DEPRECATED.NS_ENUM.NS_OPTIONS.NS_SWIFT_UNAVAILABLE.NS_ASSUME_NONNULL_BEGIN.NS_ASSUME_NONNULL_END.NS_REFINED_FOR_SWIFT.NS_SWIFT_NAME.NS_SWIFT_NOTHROW.NS_DURING.NS_HANDLER.NS_ENDHANDLER.NS_VALUERETURN.NS_VOIDRETURN`.split(`.`),literal:[`false`,`true`,`FALSE`,`TRUE`,`nil`,`YES`,`NO`,`NULL`],built_in:[`dispatch_once_t`,`dispatch_queue_t`,`dispatch_sync`,`dispatch_async`,`dispatch_once`],type:[`int`,`float`,`char`,`unsigned`,`signed`,`short`,`long`,`double`,`wchar_t`,`unichar`,`void`,`bool`,`BOOL`,`id|0`,`_Bool`]},i={$pattern:n,keyword:[`@interface`,`@class`,`@protocol`,`@implementation`]};return{name:`Objective-C`,aliases:[`mm`,`objc`,`obj-c`,`obj-c++`,`objective-c++`],keywords:r,illegal:`</`,contains:[t,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,e.C_NUMBER_MODE,e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,{className:`string`,variants:[{begin:`@"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]}]},{className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma ifdef ifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),{className:`string`,begin:/<.*?>/,end:/$/,illegal:`\\n`},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{className:`class`,begin:`(`+i.keyword.join(`|`)+`)\\b`,end:/(\{|$)/,excludeEnd:!0,keywords:i,contains:[e.UNDERSCORE_TITLE_MODE]},{begin:`\\.`+e.UNDERSCORE_IDENT_RE,relevance:0}]}}t.exports=n})),Tc=o(((e,t)=>{function n(e){let t=e.regex,n=/(?![A-Za-z0-9])(?![$])/,r=t.concat(/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/,n),i=t.concat(/(\\?[A-Z][a-z0-9_\x7f-\xff]+|\\?[A-Z]+(?=[A-Z][a-z0-9_\x7f-\xff])){1,}/,n),a=t.concat(/[A-Z]+/,n),o={scope:`variable`,match:`\\$+`+r},s={scope:`meta`,variants:[{begin:/<\?php/,relevance:10},{begin:/<\?=/},{begin:/<\?/,relevance:.1},{begin:/\?>/}]},c={scope:`subst`,variants:[{begin:/\$\w+/},{begin:/\{\$/,end:/\}/}]},l=e.inherit(e.APOS_STRING_MODE,{illegal:null}),u=e.inherit(e.QUOTE_STRING_MODE,{illegal:null,contains:e.QUOTE_STRING_MODE.contains.concat(c)}),d={begin:/<<<[ \t]*(?:(\w+)|"(\w+)")\n/,end:/[ \t]*(\w+)\b/,contains:e.QUOTE_STRING_MODE.contains.concat(c),"on:begin":(e,t)=>{t.data._beginMatch=e[1]||e[2]},"on:end":(e,t)=>{t.data._beginMatch!==e[1]&&t.ignoreMatch()}},f=e.END_SAME_AS_BEGIN({begin:/<<<[ \t]*'(\w+)'\n/,end:/[ \t]*(\w+)\b/}),p=`[ 	
-]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}t.exports=n})),Ec=o(((e,t)=>{function n(e){return{name:`PHP template`,subLanguage:`xml`,contains:[{begin:/<\?(php|=)?/,end:/\?>/,subLanguage:`php`,contains:[{begin:`/\\*`,end:`\\*/`,skip:!0},{begin:`b"`,end:`"`,skip:!0},{begin:`b'`,end:`'`,skip:!0},e.inherit(e.APOS_STRING_MODE,{illegal:null,className:null,contains:null,skip:!0}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null,className:null,contains:null,skip:!0})]}]}}t.exports=n})),Dc=o(((e,t)=>{function n(e){return{name:`Plain text`,aliases:[`text`,`txt`],disableAutodetect:!0}}t.exports=n})),Oc=o(((e,t)=>{function n(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}t.exports=n})),kc=o(((e,t)=>{function n(e){return{aliases:[`pycon`],contains:[{className:`meta.prompt`,starts:{end:/ |$/,starts:{end:`$`,subLanguage:`python`}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}t.exports=n})),Ac=o(((e,t)=>{function n(e){let t=e.regex,n=/(?:(?:[a-zA-Z]|\.[._a-zA-Z])[._a-zA-Z0-9]*)|\.(?!\d)/,r=t.either(/0[xX][0-9a-fA-F]+\.[0-9a-fA-F]*[pP][+-]?\d+i?/,/0[xX][0-9a-fA-F]+(?:[pP][+-]?\d+)?[Li]?/,/(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?[Li]?/),i=/[=!<>:]=|\|\||&&|:::?|<-|<<-|->>|->|\|>|[-+*\/?!$&|:<=>@^~]|\*\*/,a=t.either(/[()]/,/[{}]/,/\[\[/,/[[\]]/,/\\/,/,/);return{name:`R`,keywords:{$pattern:n,keyword:`function if in break next repeat else for while`,literal:`NULL NA TRUE FALSE Inf NaN NA_integer_|10 NA_real_|10 NA_character_|10 NA_complex_|10`,built_in:`LETTERS letters month.abb month.name pi T F abs acos acosh all any anyNA Arg as.call as.character as.complex as.double as.environment as.integer as.logical as.null.default as.numeric as.raw asin asinh atan atanh attr attributes baseenv browser c call ceiling class Conj cos cosh cospi cummax cummin cumprod cumsum digamma dim dimnames emptyenv exp expression floor forceAndCall gamma gc.time globalenv Im interactive invisible is.array is.atomic is.call is.character is.complex is.double is.environment is.expression is.finite is.function is.infinite is.integer is.language is.list is.logical is.matrix is.na is.name is.nan is.null is.numeric is.object is.pairlist is.raw is.recursive is.single is.symbol lazyLoadDBfetch length lgamma list log max min missing Mod names nargs nzchar oldClass on.exit pos.to.env proc.time prod quote range Re rep retracemem return round seq_along seq_len seq.int sign signif sin sinh sinpi sqrt standardGeneric substitute sum switch tan tanh tanpi tracemem trigamma trunc unclass untracemem UseMethod xtfrm`},contains:[e.COMMENT(/#'/,/$/,{contains:[{scope:`doctag`,match:/@examples/,starts:{end:t.lookahead(t.either(/\n^#'\s*(?=@[a-zA-Z]+)/,/\n^(?!#')/)),endsParent:!0}},{scope:`doctag`,begin:`@param`,end:/$/,contains:[{scope:`variable`,variants:[{match:n},{match:/`(?:\\.|[^`\\])+`/}],endsParent:!0}]},{scope:`doctag`,match:/@[a-zA-Z]+/},{scope:`keyword`,match:/\\[a-zA-Z]+/}]}),e.HASH_COMMENT_MODE,{scope:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\(/,end:/\)(-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\{/,end:/\}(-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\[/,end:/\](-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\(/,end:/\)(-*)'/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\{/,end:/\}(-*)'/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\[/,end:/\](-*)'/}),{begin:`"`,end:`"`,relevance:0},{begin:`'`,end:`'`,relevance:0}]},{relevance:0,variants:[{scope:{1:`operator`,2:`number`},match:[i,r]},{scope:{1:`operator`,2:`number`},match:[/%[^%]*%/,r]},{scope:{1:`punctuation`,2:`number`},match:[a,r]},{scope:{2:`number`},match:[/[^a-zA-Z0-9._]|^/,r]}]},{scope:{3:`operator`},match:[n,/\s+/,/<-/,/\s+/]},{scope:`operator`,relevance:0,variants:[{match:i},{match:/%[^%]*%/}]},{scope:`punctuation`,relevance:0,match:a},{begin:"`",end:"`",contains:[{begin:/\\./}]}]}}t.exports=n})),jc=o(((e,t)=>{function n(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}t.exports=n})),Mc=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function u(e){let t=n(e),r=c,i=s,u=`@[a-z-]+`,d={className:`variable`,begin:`(\\$[a-zA-Z-][a-zA-Z0-9_-]*)\\b`,relevance:0};return{name:`SCSS`,case_insensitive:!0,illegal:`[=/|']`,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,t.CSS_NUMBER_MODE,{className:`selector-id`,begin:`#[A-Za-z0-9_-]+`,relevance:0},{className:`selector-class`,begin:`\\.[A-Za-z0-9_-]+`,relevance:0},t.ATTRIBUTE_SELECTOR_MODE,{className:`selector-tag`,begin:`\\b(`+a.join(`|`)+`)\\b`,relevance:0},{className:`selector-pseudo`,begin:`:(`+i.join(`|`)+`)`},{className:`selector-pseudo`,begin:`:(:)?(`+r.join(`|`)+`)`},d,{begin:/\(/,end:/\)/,contains:[t.CSS_NUMBER_MODE]},t.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`},{begin:`\\b(whitespace|wait|w-resize|visible|vertical-text|vertical-ideographic|uppercase|upper-roman|upper-alpha|underline|transparent|top|thin|thick|text|text-top|text-bottom|tb-rl|table-header-group|table-footer-group|sw-resize|super|strict|static|square|solid|small-caps|separate|se-resize|scroll|s-resize|rtl|row-resize|ridge|right|repeat|repeat-y|repeat-x|relative|progress|pointer|overline|outside|outset|oblique|nowrap|not-allowed|normal|none|nw-resize|no-repeat|no-drop|newspaper|ne-resize|n-resize|move|middle|medium|ltr|lr-tb|lowercase|lower-roman|lower-alpha|loose|list-item|line|line-through|line-edge|lighter|left|keep-all|justify|italic|inter-word|inter-ideograph|inside|inset|inline|inline-block|inherit|inactive|ideograph-space|ideograph-parenthesis|ideograph-numeric|ideograph-alpha|horizontal|hidden|help|hand|groove|fixed|ellipsis|e-resize|double|dotted|distribute|distribute-space|distribute-letter|distribute-all-lines|disc|disabled|default|decimal|dashed|crosshair|collapse|col-resize|circle|char|center|capitalize|break-word|break-all|bottom|both|bolder|bold|block|bidi-override|below|baseline|auto|always|all-scroll|absolute|table|table-cell)\\b`},{begin:/:/,end:/[;}{]/,relevance:0,contains:[t.BLOCK_COMMENT,d,t.HEXCOLOR,t.CSS_NUMBER_MODE,t.UNICODE_RANGE,e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,t.IMPORTANT,t.FUNCTION_DISPATCH]},{begin:`@(page|font-face)`,keywords:{$pattern:u,keyword:`@page @font-face`}},{begin:`@`,end:`[{;]`,returnBegin:!0,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},contains:[{begin:u,className:`keyword`},{begin:/[a-z-]+(?=:)/,className:`attribute`},d,e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,t.HEXCOLOR,t.CSS_NUMBER_MODE]},t.FUNCTION_DISPATCH]}}t.exports=u})),Nc=o(((e,t)=>{function n(e){return{name:`Shell Session`,aliases:[`console`,`shellsession`],contains:[{className:`meta.prompt`,begin:/^\s{0,3}[./~\w\d[\]()@-]*[>%$#][ ]?/,starts:{end:/[^\\](?=\s*$)/,subLanguage:`bash`}}]}}t.exports=n})),Pc=o(((e,t)=>{function n(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}t.exports=n})),Fc=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}new RegExp(o(/\[(?:[^\\\]]|\\.)*\]/,/\(\?<(?![=!])[^>]+>/,/\(\?'[^']+'/,/\(\??/,/\\([1-9][0-9]*)/,/\\./));var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),ee={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},te=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],ne={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:te},re=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...te,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},ie={scope:`regexp`,variants:[re(`###`),re(`##`),re(`#`),ne]},B={match:i(/`/,x,/`/)},ae=[B,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],oe=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,ee]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],se={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ce={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...oe,A,se]};se.contains.push(ce);let le={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,ie,...O,...k,...j,P,ee,...ae,...oe,se]},ue={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,se]},de={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,ee,...oe,se,le],endsParent:!0,illegal:/["']/},fe={match:[/(func|macro)/,/\s+/,o(B.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[ue,de,t],illegal:[/\[/,/%/]},pe={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[ue,de,t],illegal:/\[|%/},me={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},he={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[se],keywords:[...p,...f],end:/}/},ge={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},_e={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},ve={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[ue,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of ee.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,ee,...ae];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,fe,pe,ge,_e,ve,me,he,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},ie,...O,...k,...j,P,ee,...ae,...oe,se,le]}}t.exports=T})),Ic=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Lc=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,ee={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},ee,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),Rc=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),zc=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Bc=l(o(((e,t)=>{var n=ic();n.registerLanguage(`xml`,ac()),n.registerLanguage(`bash`,oc()),n.registerLanguage(`c`,sc()),n.registerLanguage(`cpp`,cc()),n.registerLanguage(`csharp`,lc()),n.registerLanguage(`css`,uc()),n.registerLanguage(`markdown`,dc()),n.registerLanguage(`diff`,Q()),n.registerLanguage(`ruby`,fc()),n.registerLanguage(`go`,pc()),n.registerLanguage(`graphql`,mc()),n.registerLanguage(`ini`,hc()),n.registerLanguage(`java`,gc()),n.registerLanguage(`javascript`,_c()),n.registerLanguage(`json`,vc()),n.registerLanguage(`kotlin`,yc()),n.registerLanguage(`less`,bc()),n.registerLanguage(`lua`,xc()),n.registerLanguage(`makefile`,Sc()),n.registerLanguage(`perl`,Cc()),n.registerLanguage(`objectivec`,wc()),n.registerLanguage(`php`,Tc()),n.registerLanguage(`php-template`,Ec()),n.registerLanguage(`plaintext`,Dc()),n.registerLanguage(`python`,Oc()),n.registerLanguage(`python-repl`,kc()),n.registerLanguage(`r`,Ac()),n.registerLanguage(`rust`,jc()),n.registerLanguage(`scss`,Mc()),n.registerLanguage(`shell`,Nc()),n.registerLanguage(`sql`,Pc()),n.registerLanguage(`swift`,Fc()),n.registerLanguage(`yaml`,Ic()),n.registerLanguage(`typescript`,Lc()),n.registerLanguage(`vbnet`,Rc()),n.registerLanguage(`wasm`,zc()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,$=`modulepreload`,Vc=function(e){return`/not-so-informatic/`+e},Hc={},Uc=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=Vc(t,n),t=s(t),t in Hc)return;Hc[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:$,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}).filter(e=>e!==void 0))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},Wc=(0,_.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:a}]=await Promise.all([Uc(()=>import(`./react-markdown-BVHAVftW.js`),__vite__mapDeps([0,1,2,3,4,5])),Uc(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([6,1,4,5])),Uc(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([7,5])),Uc(()=>import(`./rehype-raw-BpX7PA1O.js`),__vite__mapDeps([8,1,2,3,5])),Uc(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([9,3]))]),o={...a,attributes:{...a.attributes,div:[...a.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...a.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...a.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function s({children:a}){return(0,H.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,o]],children:a})}return{default:s}}),Gc={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function Kc(e,t){let n=Gc[t];if(!n||!Bc.getLanguage(n))return null;let r;return e.split(`
+]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}t.exports=n})),Ec=o(((e,t)=>{function n(e){return{name:`PHP template`,subLanguage:`xml`,contains:[{begin:/<\?(php|=)?/,end:/\?>/,subLanguage:`php`,contains:[{begin:`/\\*`,end:`\\*/`,skip:!0},{begin:`b"`,end:`"`,skip:!0},{begin:`b'`,end:`'`,skip:!0},e.inherit(e.APOS_STRING_MODE,{illegal:null,className:null,contains:null,skip:!0}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null,className:null,contains:null,skip:!0})]}]}}t.exports=n})),Dc=o(((e,t)=>{function n(e){return{name:`Plain text`,aliases:[`text`,`txt`],disableAutodetect:!0}}t.exports=n})),Oc=o(((e,t)=>{function n(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}t.exports=n})),kc=o(((e,t)=>{function n(e){return{aliases:[`pycon`],contains:[{className:`meta.prompt`,starts:{end:/ |$/,starts:{end:`$`,subLanguage:`python`}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}t.exports=n})),Ac=o(((e,t)=>{function n(e){let t=e.regex,n=/(?:(?:[a-zA-Z]|\.[._a-zA-Z])[._a-zA-Z0-9]*)|\.(?!\d)/,r=t.either(/0[xX][0-9a-fA-F]+\.[0-9a-fA-F]*[pP][+-]?\d+i?/,/0[xX][0-9a-fA-F]+(?:[pP][+-]?\d+)?[Li]?/,/(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?[Li]?/),i=/[=!<>:]=|\|\||&&|:::?|<-|<<-|->>|->|\|>|[-+*\/?!$&|:<=>@^~]|\*\*/,a=t.either(/[()]/,/[{}]/,/\[\[/,/[[\]]/,/\\/,/,/);return{name:`R`,keywords:{$pattern:n,keyword:`function if in break next repeat else for while`,literal:`NULL NA TRUE FALSE Inf NaN NA_integer_|10 NA_real_|10 NA_character_|10 NA_complex_|10`,built_in:`LETTERS letters month.abb month.name pi T F abs acos acosh all any anyNA Arg as.call as.character as.complex as.double as.environment as.integer as.logical as.null.default as.numeric as.raw asin asinh atan atanh attr attributes baseenv browser c call ceiling class Conj cos cosh cospi cummax cummin cumprod cumsum digamma dim dimnames emptyenv exp expression floor forceAndCall gamma gc.time globalenv Im interactive invisible is.array is.atomic is.call is.character is.complex is.double is.environment is.expression is.finite is.function is.infinite is.integer is.language is.list is.logical is.matrix is.na is.name is.nan is.null is.numeric is.object is.pairlist is.raw is.recursive is.single is.symbol lazyLoadDBfetch length lgamma list log max min missing Mod names nargs nzchar oldClass on.exit pos.to.env proc.time prod quote range Re rep retracemem return round seq_along seq_len seq.int sign signif sin sinh sinpi sqrt standardGeneric substitute sum switch tan tanh tanpi tracemem trigamma trunc unclass untracemem UseMethod xtfrm`},contains:[e.COMMENT(/#'/,/$/,{contains:[{scope:`doctag`,match:/@examples/,starts:{end:t.lookahead(t.either(/\n^#'\s*(?=@[a-zA-Z]+)/,/\n^(?!#')/)),endsParent:!0}},{scope:`doctag`,begin:`@param`,end:/$/,contains:[{scope:`variable`,variants:[{match:n},{match:/`(?:\\.|[^`\\])+`/}],endsParent:!0}]},{scope:`doctag`,match:/@[a-zA-Z]+/},{scope:`keyword`,match:/\\[a-zA-Z]+/}]}),e.HASH_COMMENT_MODE,{scope:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\(/,end:/\)(-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\{/,end:/\}(-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]"(-*)\[/,end:/\](-*)"/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\(/,end:/\)(-*)'/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\{/,end:/\}(-*)'/}),e.END_SAME_AS_BEGIN({begin:/[rR]'(-*)\[/,end:/\](-*)'/}),{begin:`"`,end:`"`,relevance:0},{begin:`'`,end:`'`,relevance:0}]},{relevance:0,variants:[{scope:{1:`operator`,2:`number`},match:[i,r]},{scope:{1:`operator`,2:`number`},match:[/%[^%]*%/,r]},{scope:{1:`punctuation`,2:`number`},match:[a,r]},{scope:{2:`number`},match:[/[^a-zA-Z0-9._]|^/,r]}]},{scope:{3:`operator`},match:[n,/\s+/,/<-/,/\s+/]},{scope:`operator`,relevance:0,variants:[{match:i},{match:/%[^%]*%/}]},{scope:`punctuation`,relevance:0,match:a},{begin:"`",end:"`",contains:[{begin:/\\./}]}]}}t.exports=n})),jc=o(((e,t)=>{function n(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}t.exports=n})),Mc=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function u(e){let t=n(e),r=c,i=s,u=`@[a-z-]+`,d={className:`variable`,begin:`(\\$[a-zA-Z-][a-zA-Z0-9_-]*)\\b`,relevance:0};return{name:`SCSS`,case_insensitive:!0,illegal:`[=/|']`,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,t.CSS_NUMBER_MODE,{className:`selector-id`,begin:`#[A-Za-z0-9_-]+`,relevance:0},{className:`selector-class`,begin:`\\.[A-Za-z0-9_-]+`,relevance:0},t.ATTRIBUTE_SELECTOR_MODE,{className:`selector-tag`,begin:`\\b(`+a.join(`|`)+`)\\b`,relevance:0},{className:`selector-pseudo`,begin:`:(`+i.join(`|`)+`)`},{className:`selector-pseudo`,begin:`:(:)?(`+r.join(`|`)+`)`},d,{begin:/\(/,end:/\)/,contains:[t.CSS_NUMBER_MODE]},t.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`},{begin:`\\b(whitespace|wait|w-resize|visible|vertical-text|vertical-ideographic|uppercase|upper-roman|upper-alpha|underline|transparent|top|thin|thick|text|text-top|text-bottom|tb-rl|table-header-group|table-footer-group|sw-resize|super|strict|static|square|solid|small-caps|separate|se-resize|scroll|s-resize|rtl|row-resize|ridge|right|repeat|repeat-y|repeat-x|relative|progress|pointer|overline|outside|outset|oblique|nowrap|not-allowed|normal|none|nw-resize|no-repeat|no-drop|newspaper|ne-resize|n-resize|move|middle|medium|ltr|lr-tb|lowercase|lower-roman|lower-alpha|loose|list-item|line|line-through|line-edge|lighter|left|keep-all|justify|italic|inter-word|inter-ideograph|inside|inset|inline|inline-block|inherit|inactive|ideograph-space|ideograph-parenthesis|ideograph-numeric|ideograph-alpha|horizontal|hidden|help|hand|groove|fixed|ellipsis|e-resize|double|dotted|distribute|distribute-space|distribute-letter|distribute-all-lines|disc|disabled|default|decimal|dashed|crosshair|collapse|col-resize|circle|char|center|capitalize|break-word|break-all|bottom|both|bolder|bold|block|bidi-override|below|baseline|auto|always|all-scroll|absolute|table|table-cell)\\b`},{begin:/:/,end:/[;}{]/,relevance:0,contains:[t.BLOCK_COMMENT,d,t.HEXCOLOR,t.CSS_NUMBER_MODE,t.UNICODE_RANGE,e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,t.IMPORTANT,t.FUNCTION_DISPATCH]},{begin:`@(page|font-face)`,keywords:{$pattern:u,keyword:`@page @font-face`}},{begin:`@`,end:`[{;]`,returnBegin:!0,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},contains:[{begin:u,className:`keyword`},{begin:/[a-z-]+(?=:)/,className:`attribute`},d,e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,t.HEXCOLOR,t.CSS_NUMBER_MODE]},t.FUNCTION_DISPATCH]}}t.exports=u})),Nc=o(((e,t)=>{function n(e){return{name:`Shell Session`,aliases:[`console`,`shellsession`],contains:[{className:`meta.prompt`,begin:/^\s{0,3}[./~\w\d[\]()@-]*[>%$#][ ]?/,starts:{end:/[^\\](?=\s*$)/,subLanguage:`bash`}}]}}t.exports=n})),Pc=o(((e,t)=>{function n(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}t.exports=n})),Fc=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}new RegExp(o(/\[(?:[^\\\]]|\\.)*\]/,/\(\?<(?![=!])[^>]+>/,/\(\?'[^']+'/,/\(\??/,/\\([1-9][0-9]*)/,/\\./));var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),ee={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},te=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],ne={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:te},re=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...te,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},ie={scope:`regexp`,variants:[re(`###`),re(`##`),re(`#`),ne]},B={match:i(/`/,x,/`/)},ae=[B,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],oe=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,ee]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],se={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ce={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...oe,A,se]};se.contains.push(ce);let le={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,ie,...O,...k,...j,P,ee,...ae,...oe,se]},ue={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,se]},de={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,ee,...oe,se,le],endsParent:!0,illegal:/["']/},fe={match:[/(func|macro)/,/\s+/,o(B.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[ue,de,t],illegal:[/\[/,/%/]},pe={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[ue,de,t],illegal:/\[|%/},me={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},he={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[se],keywords:[...p,...f],end:/}/},ge={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},_e={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},ve={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[ue,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of ee.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,ee,...ae];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,fe,pe,ge,_e,ve,me,he,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},ie,...O,...k,...j,P,ee,...ae,...oe,se,le]}}t.exports=T})),Ic=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Lc=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,ee={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},ee,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),Rc=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),zc=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Bc=l(o(((e,t)=>{var n=ic();n.registerLanguage(`xml`,ac()),n.registerLanguage(`bash`,oc()),n.registerLanguage(`c`,sc()),n.registerLanguage(`cpp`,cc()),n.registerLanguage(`csharp`,lc()),n.registerLanguage(`css`,uc()),n.registerLanguage(`markdown`,dc()),n.registerLanguage(`diff`,Q()),n.registerLanguage(`ruby`,fc()),n.registerLanguage(`go`,pc()),n.registerLanguage(`graphql`,mc()),n.registerLanguage(`ini`,hc()),n.registerLanguage(`java`,gc()),n.registerLanguage(`javascript`,_c()),n.registerLanguage(`json`,vc()),n.registerLanguage(`kotlin`,yc()),n.registerLanguage(`less`,bc()),n.registerLanguage(`lua`,xc()),n.registerLanguage(`makefile`,Sc()),n.registerLanguage(`perl`,Cc()),n.registerLanguage(`objectivec`,wc()),n.registerLanguage(`php`,Tc()),n.registerLanguage(`php-template`,Ec()),n.registerLanguage(`plaintext`,Dc()),n.registerLanguage(`python`,Oc()),n.registerLanguage(`python-repl`,kc()),n.registerLanguage(`r`,Ac()),n.registerLanguage(`rust`,jc()),n.registerLanguage(`scss`,Mc()),n.registerLanguage(`shell`,Nc()),n.registerLanguage(`sql`,Pc()),n.registerLanguage(`swift`,Fc()),n.registerLanguage(`yaml`,Ic()),n.registerLanguage(`typescript`,Lc()),n.registerLanguage(`vbnet`,Rc()),n.registerLanguage(`wasm`,zc()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,$=`modulepreload`,Vc=function(e){return`/not-so-informatic/`+e},Hc={},Uc=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=Vc(t,n),t=s(t),t in Hc)return;Hc[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:$,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}).filter(e=>e!==void 0))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},Wc=(0,_.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:a}]=await Promise.all([Uc(()=>import(`./react-markdown-CMbDpObp.js`),__vite__mapDeps([0,1,2,3,4,5])),Uc(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([6,1,4,5])),Uc(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([7,5])),Uc(()=>import(`./rehype-raw-BaS4RR-g.js`),__vite__mapDeps([8,1,2,3,5])),Uc(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([9,3]))]),o={...a,attributes:{...a.attributes,div:[...a.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...a.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...a.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function s({children:a}){return(0,H.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,o]],children:a})}return{default:s}}),Gc={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function Kc(e,t){let n=Gc[t];if(!n||!Bc.getLanguage(n))return null;let r;return e.split(`
 `).map(e=>{let t=Bc.highlight(e,{language:n,ignoreIllegals:!0,continuation:r});return r=t.top,t.value||` `})}function qc(e){let t=e.split(`.`).pop()?.toLowerCase();return[`md`,`txt`,`pdf`].includes(t)?Ut:[`py`,`js`,`jsx`,`html`,`css`,`sql`,`json`].includes(t)?Vt:Gt}function Jc(e,t){return e.name.toLocaleLowerCase(`fr`).includes(t)?!0:e.type===`folder`&&e.children.some(e=>Jc(e,t))}function Yc({name:e,term:t}){if(!t)return e;let n=e.toLocaleLowerCase(`fr`).indexOf(t);return n<0?e:(0,H.jsxs)(H.Fragment,{children:[e.slice(0,n),(0,H.jsx)(`mark`,{className:`rounded-sm bg-foreground/15 text-foreground`,children:e.slice(n,n+t.length)}),e.slice(n+t.length)]})}function Xc({nodes:e,depth:t=0,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c}){return(n?e.filter(e=>Jc(e,n)):e).map(e=>{let l=e.type===`folder`,u=r.has(e.path)||!!(n&&l&&e.children.some(e=>Jc(e,n))),d=l?i===e.path:a===e.path,f=l?u?qt:Yt:qc(e.name);return(0,H.jsx)(`div`,{children:l?(0,H.jsxs)(Br,{open:u,onOpenChange:()=>c(e.path),children:[(0,H.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,H.jsx)(Vr,{"aria-label":`${u?`Replier`:`Déplier`} ${e.name}`,className:`flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground/70 transition-colors hover:bg-foreground/5 hover:text-foreground`,children:u?(0,H.jsx)(Mt,{className:`size-3.5`}):(0,H.jsx)(Pt,{className:`size-3.5`})}),(0,H.jsxs)(Nr,{type:`button`,variant:`ghost`,onClick:()=>o(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,H.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,H.jsx)(`span`,{className:`truncate`,children:(0,H.jsx)(Yc,{name:e.name,term:n})})]})]}),(0,H.jsx)(Hr,{children:(0,H.jsx)(Xc,{nodes:e.children,depth:t+1,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c})})]}):(0,H.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,H.jsx)(`span`,{className:`w-6 shrink-0`}),(0,H.jsxs)(Nr,{type:`button`,variant:`ghost`,onClick:()=>s(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,H.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,H.jsx)(`span`,{className:`truncate`,children:(0,H.jsx)(Yc,{name:e.name,term:n})})]})]})},e.path)})}function Zc({query:e,expanded:t,currentFolderPath:n,selectedPath:r,onFolderSelect:i,onFileSelect:a,onToggle:o,onRootSelect:s,onClose:c}){let[l,u]=(0,_.useState)(!1),[d,f]=(0,_.useState)(!1),p=(0,_.useMemo)(()=>rc(nc),[]).filter(e=>e.type===`file`).length;return(0,_.useEffect)(()=>{if(!l&&!d)return;let e=e=>{e.key===`Escape`&&(u(!1),f(!1))};return window.addEventListener(`keydown`,e),()=>window.removeEventListener(`keydown`,e)},[l,d]),(0,H.jsxs)(`div`,{className:`flex h-full min-h-0 flex-col bg-background text-foreground`,children:[(0,H.jsxs)(`div`,{className:`flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4`,children:[(0,H.jsxs)(`div`,{className:`flex min-w-0 items-center gap-2.5`,children:[(0,H.jsx)(`button`,{type:`button`,onClick:()=>u(!0),"aria-label":`Agrandir le logo NSI`,className:`flex size-7 shrink-0 items-center justify-center rounded-md border border-border bg-secondary transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring`,children:(0,H.jsx)(`img`,{src:sn,alt:``,className:`size-6 object-contain`})}),(0,H.jsx)(Nr,{type:`button`,variant:`ghost`,onClick:s,className:`h-auto justify-start p-0 text-left hover:bg-transparent`,children:(0,H.jsxs)(`span`,{className:`text-xs font-medium tracking-wide`,children:[`NSI `,(0,H.jsx)(`span`,{className:`text-muted-foreground`,children:`/ explorer`})]})})]}),c&&(0,H.jsx)(Nr,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:c,"aria-label":`Fermer la navigation`,className:`text-muted-foreground`,children:(0,H.jsx)(on,{})})]}),l&&(0,v.createPortal)((0,H.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Logo NSI en grand`,onClick:()=>u(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/75 p-6 backdrop-blur-sm`,children:(0,H.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`relative rounded-2xl border border-border bg-background p-5 shadow-2xl`,children:[(0,H.jsx)(Nr,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>u(!1),"aria-label":`Fermer`,autoFocus:!0,className:`absolute right-2 top-2 z-10`,children:(0,H.jsx)(on,{})}),(0,H.jsx)(`img`,{src:sn,alt:`Logo NSI`,className:`max-h-[75vh] max-w-[min(80vw,40rem)] object-contain`})]})}),document.body),(0,H.jsxs)(`div`,{className:`flex items-center justify-between px-4 pb-2 pt-5`,children:[(0,H.jsx)(`span`,{className:`text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground`,children:`Explorateur`}),(0,H.jsx)(`span`,{className:`font-mono text-[10px] text-muted-foreground/70`,children:p})]}),(0,H.jsxs)(Nr,{type:`button`,variant:`ghost`,onClick:s,className:`mx-2 mb-2 h-8 w-auto justify-start gap-2 rounded-md px-2.5 text-xs ${n===``&&!r?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,children:[(0,H.jsx)(Zt,{className:`size-3.5`}),` Accueil`]}),(0,H.jsx)(Ua,{className:`min-h-0 flex-1 px-2 pb-4`,viewportClassName:`h-full`,children:e&&!nc.some(t=>Jc(t,e))?(0,H.jsx)(`p`,{className:`px-3 py-5 text-xs text-muted-foreground`,children:`Aucun fichier ou dossier trouvé.`}):(0,H.jsx)(Xc,{nodes:nc,query:e,expanded:t,currentFolderPath:n,selectedPath:r,onFolderSelect:i,onFileSelect:a,onToggle:o})}),(0,H.jsxs)(`div`,{className:`flex items-center justify-between gap-2 border-t border-border px-4 py-3`,children:[(0,H.jsx)(`p`,{className:`truncate font-mono text-[10px] text-muted-foreground`,children:`Les prémices de la programmation`}),(0,H.jsx)(Nr,{type:`button`,variant:`ghost`,size:`icon-xs`,onClick:()=>f(!0),"aria-label":`Informations sur le site`,title:`Informations sur le site`,className:`shrink-0 text-muted-foreground hover:text-foreground`,children:(0,H.jsx)($t,{className:`size-3.5`})})]}),d&&(0,v.createPortal)((0,H.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Informations sur le site`,onClick:()=>f(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/65 p-4 backdrop-blur-sm`,children:(0,H.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`flex max-h-[min(80vh,42rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-2xl`,children:[(0,H.jsxs)(`div`,{className:`flex shrink-0 items-center justify-between border-b border-border px-5 py-3`,children:[(0,H.jsx)(`h2`,{className:`text-sm font-medium`,children:`À propos du site`}),(0,H.jsx)(Nr,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>f(!1),"aria-label":`Fermer les informations`,autoFocus:!0,className:`text-muted-foreground`,children:(0,H.jsx)(on,{})})]}),(0,H.jsx)(Ua,{className:`min-h-0 flex-1`,viewportClassName:`h-full`,children:(0,H.jsx)(`article`,{className:`markdown-preview px-6 py-5`,children:(0,H.jsx)(_.Suspense,{fallback:(0,H.jsx)(`p`,{className:`text-sm text-muted-foreground`,children:`Chargement des informations…`}),children:(0,H.jsx)(Wc,{children:`# À propos de Not So Informatic
 
 **Not So Informatic** est un mélange de plusieurs projets informatiques.  
