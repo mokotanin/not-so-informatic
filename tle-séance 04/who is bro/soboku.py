@@ -2,7 +2,9 @@
 import time
 
 
-def recherche_naive(motif, texte):
+def recherche_naive(
+    motif, texte
+):  # placer le motif sous le texte et le décalé d'un cran jusqu'à que le motif match
     tab_occurence = []
     nb_test = 0
     for i in range(len(texte) - len(motif) + 1):
@@ -32,18 +34,33 @@ def table(motif):
     j = 0
     for i in range(len(motif) - 1):
         table[motif[i]] = len(motif) - 1 - i
-
+        j += 1
     return table
 
 
-print(table(motif1))
-print(table(motif2))
+# print(table(motif1))
+# print(table(motif2))
 
 
-def broyer_moore_horspool(motif, texte, table):
+def broyer_moore_horspool(motif, texte, table):  #
     nb_test = 0
     N = len(texte)
     n = len(motif)
     positions = []
 
-    i = n - 1  # つずく
+    i = n - 1
+    while i < N:
+        lettre = texte[i]
+
+        if texte[i - n + 1 : i + 1] == motif:
+            positions.append(i - n + 1)
+            i += n
+        elif lettre in table.keys():
+            i += table[lettre]
+        else:
+            i += n
+        nb_test += 1
+    return positions
+
+
+print(broyer_moore_horspool(motif, texte, table(motif1)))
