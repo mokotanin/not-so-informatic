@@ -182,9 +182,27 @@ function sortTree(nodes) {
 }
 
 async function buildTree() {
+  const nodeFsModule = "node:fs/promises";
+  const { mkdir, readFile, writeFile } = await import(
+    /* @vite-ignore */ nodeFsModule
+  );
   const commit = await fetchJson(
     `https://api.github.com/repos/${repository}/commits/${branch}`,
   );
+  const cacheDirectory = new URL(
+    import.meta.url.replace(
+      /\/src\/data\/ghfillTree\.js$/,
+      "/.cache/ghfill-tree/",
+    ),
+  );
+  const cacheFile = new URL(`${commit.sha}.json`, cacheDirectory);
+
+  try {
+    return JSON.parse(await readFile(cacheFile, "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
   const tree = await fetchJson(
     `https://api.github.com/repos/${repository}/git/trees/${commit.sha}?recursive=1`,
   );
@@ -197,7 +215,10 @@ async function buildTree() {
   const root = [];
 
   files.forEach((entry, index) => addFile(root, entry.path, contents[index]));
-  return sortTree(root);
+  const sortedTree = sortTree(root);
+  await mkdir(cacheDirectory, { recursive: true });
+  await writeFile(cacheFile, JSON.stringify(sortedTree));
+  return sortedTree;
 }
 
 function generatedModule(tree) {
@@ -224,7 +245,7 @@ export function ghfillTreePlugin() {
     name: "ghfill-tree",
     enforce: "pre",
     async buildStart() {
-      this.warn(`Chargement de ${repository}@${branch} pour ghfillTree.js...`);
+      this.info(`Chargement de ${repository}@${branch} pour ghfillTree.js...`);
       try {
         generatedCode = generatedModule(await buildTree());
       } catch (error) {

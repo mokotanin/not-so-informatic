@@ -308,6 +308,7 @@ function FileTree({
 }
 
 function SidebarContents({
+  allEntries,
   query,
   expanded,
   currentFolderPath,
@@ -320,7 +321,6 @@ function SidebarContents({
 }) {
   const [isLogoOpen, setIsLogoOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
-  const allEntries = useMemo(() => flattenTree(fileTree), []);
   const fileCount = allEntries.filter((entry) => entry.type === "file").length;
 
   useEffect(() => {
@@ -637,6 +637,7 @@ function ExplorerPage() {
   function renderSidebar(onClose) {
     return (
       <SidebarContents
+        allEntries={allEntries}
         query={normalizedQuery}
         expanded={expanded}
         currentFolderPath={currentFolderPath}
@@ -902,7 +903,7 @@ function ExplorerPage() {
                 </p>
                 <p className="mt-5 font-mono text-[10px] text-muted-foreground/60">
                   {
-                    flattenTree(fileTree).filter(
+                    allEntries.filter(
                       (entry) => entry.type === "file",
                     ).length
                   }{" "}
