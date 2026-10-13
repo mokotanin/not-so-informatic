@@ -13,4 +13,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(import.meta.dirname, "./src"),
     },
   },
+  build: {
+    // The generated repository snapshot is intentionally bundled for offline browsing.
+    chunkSizeWarningLimit: 1800,
+  },
 }));
