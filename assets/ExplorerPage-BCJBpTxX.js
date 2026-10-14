@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-CWB54eCS.js","assets/index-B4O3VsrP.js","assets/index-DvX3jdk1.css","assets/default-DMI-Tsal.js","assets/space-separated-tokens-B-2ni9Y6.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-LXaw9nwg.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
-import{a as e,i as t,n,r,s as i,t as a}from"./index-B4O3VsrP.js";var o=e=>e?.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase();function s(e,t,n=[]){if(t==null)throw Error(`[lucide]: iconNode is required when icon name is used`);return{name:o(e),size:24,node:t,...n.length>0?{aliases:n}:{}}}var c=e=>{let t=``,n=!1;for(let r of e){if(r===`-`||r===`_`||r<=` `){n=t.length>0;continue}t.length===0?t+=r.toLowerCase():t+=n?r.toUpperCase():r,n=!1}return t},l=e=>{let t=c(e);return t.charAt(0).toUpperCase()+t.slice(1)},u=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),d={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,"stroke-width":2,"stroke-linecap":`round`,"stroke-linejoin":`round`};function f(e){return e!=null}function p(e,t={}){let n=t.attributeNames??{},r=e=>n[e]??e,i=e.size??e.width??d.width,a=e.size??e.height??d.height,o=e.aliases?.filter(e=>typeof e==`string`&&e.trim()!==``).map(e=>`lucide-${e}`)??[],s=[...e.name?[`lucide-${e.name}`]:[],...o],c=t.className?.split(` `).filter(Boolean)??[],l=t.includeDefaultClasses===!1?u(...c):u(`lucide`,...s,...c),p=t.absoluteStrokeWidth?Number(t.strokeWidth??d[`stroke-width`])*Number(e.size??e.width??d.width)/Number(t.size??t.width??d.width):t.strokeWidth??d[`stroke-width`];return[`svg`,{...Object.entries(d).reduce((e,[t,n])=>(e[r(t)]=n,e),{}),...`color`in t&&t.color&&{[r(`stroke`)]:t.color},...`size`in t&&f(t.size)&&{[r(`width`)]:t.size,[r(`height`)]:t.size},...`width`in t&&f(t.width)&&{[r(`width`)]:t.width},...`height`in t&&f(t.height)&&{[r(`height`)]:t.height},[r(`stroke-width`)]:p,...l&&{[r(`class`)]:l},[r(`viewBox`)]:`0 0 ${i} ${a}`,...t.hasA11yProp===!1?{[r(`aria-hidden`)]:`true`}:{},...`attributes`in t&&t.attributes},e.node.map(e=>{let[n,i,a]=e,o=t.nonScalingStroke?{[r(`vector-effect`)]:`non-scaling-stroke`,...i}:i;return a?[n,o,a]:[n,o]})]}function m(e,t={}){return p(e,{...t,attributeNames:{...t.attributeNames,class:`className`,"stroke-width":`strokeWidth`,"stroke-linecap":`strokeLinecap`,"stroke-linejoin":`strokeLinejoin`,"vector-effect":`vectorEffect`}})}var h=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},g=i(t(),1),_=(0,g.createContext)({}),v=()=>(0,g.useContext)(_),y=(0,g.forwardRef)(({color:e,size:t,width:n,height:r,strokeWidth:i,absoluteStrokeWidth:a,nonScalingStroke:o,className:s=``,children:c,iconNode:l=[],icon:d={node:l,aliases:[],size:24},...f},p)=>{let{size:_=24,strokeWidth:y=2,absoluteStrokeWidth:b=!1,nonScalingStroke:x=!1,color:S=`currentColor`,className:C=``}=v()??{},w=!!c||h(f),[T,E,D=[]]=m(d,{color:e??S,width:n??t??_,height:r??t??_,strokeWidth:i??y,absoluteStrokeWidth:a??b,nonScalingStroke:o??x,className:u(C,s),hasA11yProp:w,attributes:f});return(0,g.createElement)(T,{ref:p,...E},[...D.map(([e,t])=>(0,g.createElement)(e,t)),...Array.isArray(c)?c:[c]])});function b(e,t=[],n=[]){let r=typeof e==`string`?s(e,t,n):e,i=(0,g.forwardRef)(({className:e,...t},n)=>(0,g.createElement)(y,{ref:n,icon:r,className:e,...t}));return r.name&&(i.displayName=l(r.name)),i}var x={name:`arrow-right`,size:24,node:[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`m12 5 7 7-7 7`,key:`xquz4c`}]]};x.node;var S=b(x),C={name:`braces`,size:24,node:[[`path`,{d:`M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1`,key:`ezmyqa`}],[`path`,{d:`M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1`,key:`e1hn23`}]],aliases:[`curly-braces`]};C.node;var w=b(C),T={name:`chevron-down`,size:24,node:[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]};T.node;var E=b(T),D={name:`chevron-right`,size:24,node:[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]};D.node;var O=b(D),k={name:`code-xml`,size:24,node:[[`path`,{d:`m18 16 4-4-4-4`,key:`1inbqp`}],[`path`,{d:`m6 8-4 4 4 4`,key:`15zrgr`}],[`path`,{d:`m14.5 4-5 16`,key:`e7oirm`}]],aliases:[`code-2`]};k.node;var A=b(k),j={name:`corner-down-left`,size:24,node:[[`path`,{d:`M20 4v7a4 4 0 0 1-4 4H4`,key:`6o5b7l`}],[`path`,{d:`m9 10-5 5 5 5`,key:`1kshq7`}]]};j.node;var M=b(j),N={name:`eye`,size:24,node:[[`path`,{d:`M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0`,key:`1nclc0`}],[`circle`,{cx:`12`,cy:`12`,r:`3`,key:`1v7zrd`}]]};N.node;var P=b(N),F={name:`file-code-corner`,size:24,node:[[`path`,{d:`M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35`,key:`1wthlu`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`m5 16-3 3 3 3`,key:`331omg`}],[`path`,{d:`m9 22 3-3-3-3`,key:`lsp7cz`}]],aliases:[`file-code-2`]};F.node;var I=b(F),L={name:`file-text`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`M10 9H8`,key:`b1mrlr`}],[`path`,{d:`M16 13H8`,key:`t4e002`}],[`path`,{d:`M16 17H8`,key:`z1uh3a`}]]};L.node;var R=b(L),z={name:`file`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}]]};z.node;var B=b(z),ee={name:`folder-open`,size:24,node:[[`path`,{d:`m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2`,key:`usdka0`}]]};ee.node;var te=b(ee),ne={name:`folder`,size:24,node:[[`path`,{d:`M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z`,key:`1kt360`}]]};ne.node;var re=b(ne),V={name:`house`,size:24,node:[[`path`,{d:`M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8`,key:`5wwlr5`}],[`path`,{d:`M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z`,key:`r6nss1`}]],aliases:[`home`]};V.node;var ie=b(V),ae={name:`info`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 16v-4`,key:`1dtifu`}],[`path`,{d:`M12 8h.01`,key:`e9boi3`}]]};ae.node;var oe=b(ae),se={name:`menu`,size:24,node:[[`path`,{d:`M4 5h16`,key:`1tepv9`}],[`path`,{d:`M4 12h16`,key:`1lakjw`}],[`path`,{d:`M4 19h16`,key:`1djgab`}]]};se.node;var ce=b(se),le={name:`search`,size:24,node:[[`path`,{d:`m21 21-4.34-4.34`,key:`14j7rj`}],[`circle`,{cx:`11`,cy:`11`,r:`8`,key:`4ej97u`}]]};le.node;var ue=b(le),de={name:`x`,size:24,node:[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]};de.node;var fe=b(de),pe=i(r(),1),me=`/not-so-informatic/assets/favicon-46SYL3JR.png`;function he(e){return e?typeof e==`string`?e:Array.isArray(e)?e.map(he).filter(Boolean).join(` `):typeof e==`object`?Object.entries(e).filter(([,e])=>!!e).map(([e])=>e).join(` `):``:``}function H(...e){return e.map(he).filter(Boolean).join(` `)}var U=n();function ge({checked:e,onCheckedChange:t,label:n,className:r,disabled:i=!1}){return(0,U.jsx)(`button`,{type:`button`,role:`switch`,"aria-checked":e,"aria-label":n,disabled:i,onClick:()=>t(!e),className:H(`group inline-flex shrink-0 items-center rounded-full border border-transparent p-0.5 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50`,e?`bg-foreground`:`bg-secondary`,r),children:(0,U.jsx)(`span`,{"aria-hidden":`true`,className:H(`size-[18px] rounded-full bg-background shadow-sm transition-transform duration-200`,e&&`translate-x-[18px]`)})})}function _e(){return typeof window<`u`}function W(e){return be(e)?(e.nodeName||``).toLowerCase():`#document`}function ve(e){var t;return(e==null||(t=e.ownerDocument)==null?void 0:t.defaultView)||window}function ye(e){return((be(e)?e.ownerDocument:e.document)||window.document)?.documentElement}function be(e){return _e()?e instanceof Node||e instanceof ve(e).Node:!1}function xe(e){return _e()?e instanceof Element||e instanceof ve(e).Element:!1}function G(e){return _e()?e instanceof HTMLElement||e instanceof ve(e).HTMLElement:!1}function Se(e){return!_e()||typeof ShadowRoot>`u`?!1:e instanceof ShadowRoot||e instanceof ve(e).ShadowRoot}function Ce(e){let{overflow:t,overflowX:n,overflowY:r,display:i}=Te(e);return/auto|scroll|overlay|hidden|clip/.test(t+r+n)&&i!==`inline`&&i!==`contents`}function we(e){return/^(html|body|#document)$/.test(W(e))}function Te(e){return ve(e).getComputedStyle(e)}function Ee(e){if(W(e)===`html`)return e;let t=e.assignedSlot||e.parentNode||Se(e)&&e.host||ye(e);return Se(t)?t.host:t}var De={...g},Oe={};function ke(e,t){let n=g.useRef(Oe);return n.current===Oe&&(n.current=e(t)),n}var Ae=De.useInsertionEffect,je=Ae&&Ae!==De.useLayoutEffect?Ae:e=>e();function K(e){let t=ke(Me).current;return t.next=e,je(t.effect),t.trampoline}function Me(){let e={next:void 0,callback:Ne,trampoline:(...t)=>e.callback?.(...t),effect:()=>{e.callback=e.next}};return e}function Ne(){}var q=typeof document<`u`?g.useLayoutEffect:()=>{};function Pe(e,t){if(e&&!t)return e;if(!e&&t)return t;if(e||t)return{...e,...t}}var Fe={};function Ie(e,t,n,r,i){if(!n&&!r&&!i&&!e)return Re(t);let a=Re(e);return t&&(a=ze(a,t)),n&&(a=ze(a,n)),r&&(a=ze(a,r)),i&&(a=ze(a,i)),a}function Le(e){if(e.length===0)return Fe;if(e.length===1)return Re(e[0]);let t=Re(e[0]);for(let n=1;n<e.length;n+=1)t=ze(t,e[n]);return t}function Re(e){return Ue(e)?{...We(e,Fe)}:Be(e)}function ze(e,t){return Ue(t)?We(t,e):Ve(e,t)}function Be(e){let t={...e};for(let e in t){let n=t[e];He(e,n)&&(t[e]=Ke(n))}return t}function Ve(e,t){if(!t)return e;for(let n in t){let r=t[n];switch(n){case`style`:e[n]=Pe(e.style,r);break;case`className`:e[n]=Je(e.className,r);break;default:e[n]=He(n,r)?Ge(e[n],r):r}}return e}function He(e,t){let n=e.charCodeAt(0),r=e.charCodeAt(1),i=e.charCodeAt(2);return n===111&&r===110&&i>=65&&i<=90&&(typeof t==`function`||t===void 0)}function Ue(e){return typeof e==`function`}function We(e,t){return Ue(e)?e(t):e??Fe}function Ge(e,t){return t?e?(...n)=>{let r=n[0];if(Ye(r)){let i=r;qe(i);let a=t(...n);return i.baseUIHandlerPrevented||e?.(...n),a}let i=t(...n);return e?.(...n),i}:Ke(t):e}function Ke(e){return e&&((...t)=>{let n=t[0];return Ye(n)&&qe(n),e(...t)})}function qe(e){return e.preventBaseUIHandler=()=>{e.baseUIHandlerPrevented=!0},e}function Je(e,t){return t?e?t+` `+e:t:e}function Ye(e){return typeof e==`object`&&!!e&&`nativeEvent`in e}function Xe(e,t){return function(n,...r){let i=new URL(e);return i.searchParams.set(`code`,n.toString()),r.forEach(e=>i.searchParams.append(`args[]`,e)),`${t} error #${n}; visit ${i} for the full message.`}}var Ze=Xe(`https://base-ui.com/production-error`,`Base UI`),Qe=g.createContext(void 0);function $e(e=!1){let t=g.useContext(Qe);if(t===void 0&&!e)throw Error(Ze(16));return t}function et(e){let{focusableWhenDisabled:t,disabled:n,composite:r=!1,tabIndex:i=0,isNativeButton:a}=e,o=r&&t!==!1,s=r&&t===!1;return{props:g.useMemo(()=>{let e={onKeyDown(e){n&&t&&e.key!==`Tab`&&e.preventDefault()}};return r||(e.tabIndex=i,!a&&n&&(e.tabIndex=t?i:-1)),(a&&(t||o)||!a&&n)&&(e[`aria-disabled`]=n),a&&(!t||s)&&(e.disabled=n),e},[r,n,t,o,s,a,i])}}function J(e){return e?.ownerDocument||document}function tt(e,t,{detail:n=0}={}){e.dispatchEvent(new(ve(e)).PointerEvent(`click`,{bubbles:!0,cancelable:!0,composed:!0,detail:n,shiftKey:t.shiftKey,ctrlKey:t.ctrlKey,altKey:t.altKey,metaKey:t.metaKey}))}function nt(e={}){let{disabled:t=!1,focusableWhenDisabled:n,tabIndex:r=0,native:i=!0,composite:a}=e,o=g.useRef(null),s=$e(!0),c=a??s!==void 0,{props:l}=et({focusableWhenDisabled:n,disabled:t,composite:c,tabIndex:r,isNativeButton:i}),u=g.useCallback(()=>{let e=o.current;rt(e)&&c&&t&&l.disabled===void 0&&e.disabled&&(e.disabled=!1)},[t,l.disabled,c]);return q(u,[u]),{getButtonProps:g.useCallback((e={})=>{let{onClick:n,onMouseDown:r,onKeyUp:a,onKeyDown:o,onPointerDown:s,...u}=e;return Ie({onClick(e){if(t){e.preventDefault();return}n?.(e)},onMouseDown(e){t||r?.(e)},onKeyDown(e){if(t||(qe(e),o?.(e),e.baseUIHandlerPrevented))return;let n=e.target===e.currentTarget,r=e.currentTarget,a=rt(r),s=!i&&it(r),l=n&&(i?a:!s),u=e.key===`Enter`,d=e.key===` `,f=r.getAttribute(`role`),p=f?.startsWith(`menuitem`)||f===`option`||f===`gridcell`;if(n&&c&&d){if(e.defaultPrevented&&p)return;e.preventDefault(),(!i||a)&&(e.preventBaseUIHandler(),tt(r,e));return}if(!l||i||!d&&!u){n&&s&&d&&e.preventDefault();return}e.defaultPrevented||(e.preventDefault(),u&&(e.preventBaseUIHandler(),tt(r,e)))},onKeyUp(e){if(!t){if(qe(e),a?.(e),e.target===e.currentTarget&&i&&c&&rt(e.currentTarget)&&e.key===` `){e.preventDefault();return}e.baseUIHandlerPrevented||e.target===e.currentTarget&&!i&&!c&&!e.defaultPrevented&&e.key===` `&&(e.preventBaseUIHandler(),tt(e.currentTarget,e))}},onPointerDown(e){if(t){e.preventDefault();return}s?.(e)}},i?{type:`button`}:{role:`button`},l,u)},[t,l,c,i]),buttonRef:K(e=>{o.current=e,u()})}}function rt(e){return G(e)&&e.tagName===`BUTTON`}function it(e){return G(e)&&e.tagName===`A`&&!!e.href}function at(e,t,n,r){let i=ke(st).current;return ct(i,e,t,n,r)&&ut(i,[e,t,n,r]),i.callback}function ot(e){let t=ke(st).current;return lt(t,e)&&ut(t,e),t.callback}function st(){return{callback:null,cleanup:null,refs:[]}}function ct(e,t,n,r,i){return e.refs[0]!==t||e.refs[1]!==n||e.refs[2]!==r||e.refs[3]!==i}function lt(e,t){return e.refs.length!==t.length||e.refs.some((e,n)=>e!==t[n])}function ut(e,t){if(e.refs=t,t.every(e=>e==null)){e.callback=null;return}e.callback=n=>{if(e.cleanup&&=(e.cleanup(),null),n!=null){let r=Array(t.length).fill(null);for(let e=0;e<t.length;e+=1){let i=t[e];if(i!=null)switch(typeof i){case`function`:{let t=i(n);typeof t==`function`&&(r[e]=t);break}case`object`:i.current=n}}e.cleanup=()=>{for(let e=0;e<t.length;e+=1){let n=t[e];if(n!=null)switch(typeof n){case`function`:{let t=r[e];typeof t==`function`?t():n(null);break}case`object`:n.current=null}}}}}}var dt=18;function ft(e){return dt>=e}function pt(e){if(!g.isValidElement(e))return null;let t=e,n=t.props;return(ft(19)?n?.ref:t.ref)??null}function Y(){}var mt=Object.freeze([]),X=Object.freeze({});function ht(e,t){let n={};for(let r in e){let i=e[r];if(t?.hasOwnProperty(r)){let e=t[r](i);e!=null&&Object.assign(n,e);continue}i===!0?n[`data-${r.toLowerCase()}`]=``:i&&(n[`data-${r.toLowerCase()}`]=i.toString())}return n}function gt(e,t){return typeof e==`function`?e(t):e}function _t(e,t){return typeof e==`function`?e(t):e}function vt(e,t,n={}){let r=t.render;n.enabled!==!1&&(r=St(r));let i=yt(t,n,r);if(n.enabled===!1)return null;let a=n.state??X;return Ct(e,r,i,a)}function yt(e,t,n){let{className:r,style:i}=e,{state:a=X,ref:o,props:s,stateAttributesMapping:c,enabled:l=!0}=t,u=l?gt(r,a):void 0,d=l?_t(i,a):void 0,f=l?ht(a,c):X,p=l&&s?bt(s):void 0,m=l?Pe(f,p)??{}:X;return typeof document<`u`&&(l?m.ref=Array.isArray(o)?ot([m.ref,pt(n),...o]):at(m.ref,pt(n),o):at(null,null)),l?(u!==void 0&&(m.className=Je(m.className,u)),d!==void 0&&(m.style=Pe(m.style,d)),m):X}function bt(e){return Array.isArray(e)?Le(e):Ie(void 0,e)}var xt=Symbol.for(`react.lazy`);function St(e){if(e?.$$typeof!==xt)return e;let t=g.Children.toArray(e)[0];return g.isValidElement(t)?t:e}function Ct(e,t,n,r){if(t){if(typeof t==`function`)return t(n,r);let e=Ie(n,t.props);return e.ref=n.ref,g.cloneElement(t,e)}if(e&&typeof e==`string`)return wt(e,n);throw Error(Ze(8))}function wt(e,t){return e===`button`?(0,g.createElement)(`button`,{type:`button`,...t,key:t.key}):e===`img`?(0,g.createElement)(`img`,{alt:``,...t,key:t.key}):g.createElement(e,t)}var Tt=g.forwardRef(function(e,t){let{render:n,className:r,disabled:i=!1,focusableWhenDisabled:a=!1,nativeButton:o=!0,style:s,...c}=e,{getButtonProps:l,buttonRef:u}=nt({disabled:i,focusableWhenDisabled:a,native:o});return vt(`button`,e,{state:{disabled:i},ref:[t,u],props:[c,l]})});function Et(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=Et(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Dt(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=Et(e))&&(r&&(r+=` `),r+=t);return r}var Ot=e=>typeof e==`boolean`?`${e}`:e===0?`0`:e,kt=Dt,At=((e,t)=>n=>{if(t?.variants==null)return kt(e,n?.class,n?.className);let{variants:r,defaultVariants:i}=t,a=Object.keys(r).map(e=>{let t=n?.[e],a=i?.[e];if(t===null)return null;let o=Ot(t)||Ot(a);return r[e][o]}),o=n&&Object.entries(n).reduce((e,t)=>{let[n,r]=t;return r===void 0||(e[n]=r),e},{});return kt(e,a,t?.compoundVariants?.reduce((e,t)=>{let{class:n,className:r,...a}=t;return Object.entries(a).every(e=>{let[t,n]=e;return Array.isArray(n)?n.includes({...i,...o}[t]):{...i,...o}[t]===n})?[...e,n,r]:e},[]),n?.class,n?.className)})(`group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4`,{variants:{variant:{default:`bg-primary text-primary-foreground hover:bg-primary/80`,outline:`border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50`,secondary:`bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)] aria-expanded:bg-secondary aria-expanded:text-secondary-foreground`,ghost:`hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50`,destructive:`bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40`,link:`text-primary underline-offset-4 hover:underline`},size:{default:`h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,xs:`h-6 gap-1 rounded-[min(var(--radius-md),10px)] px-2 text-xs in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3`,sm:`h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5`,lg:`h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,icon:`size-8`,"icon-xs":`size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3`,"icon-sm":`size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg`,"icon-lg":`size-9`}},defaultVariants:{variant:`default`,size:`default`}});function jt({className:e,variant:t=`default`,size:n=`default`,...r}){return(0,U.jsx)(Tt,{"data-slot":`button`,className:H(At({variant:t,size:n,className:e})),...r})}function Mt({className:e,...t}){return(0,U.jsx)(`nav`,{"aria-label":`breadcrumb`,"data-slot":`breadcrumb`,className:H(e),...t})}function Nt({className:e,...t}){return(0,U.jsx)(`ol`,{"data-slot":`breadcrumb-list`,className:H(`flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground`,e),...t})}function Pt({className:e,...t}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-item`,className:H(`inline-flex items-center gap-1`,e),...t})}function Ft({className:e,...t}){return(0,U.jsx)(`span`,{"data-slot":`breadcrumb-page`,role:`link`,"aria-disabled":`true`,"aria-current":`page`,className:H(`font-normal text-foreground`,e),...t})}function It({children:e,className:t,...n}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-separator`,role:`presentation`,"aria-hidden":`true`,className:H(`[&>svg]:size-3.5`,t),...n,children:e??(0,U.jsx)(O,{})})}var Lt=(0,g.createContext)(null);function Rt({open:e,defaultOpen:t=!1,onOpenChange:n,className:r,children:i,...a}){let[o,s]=(0,g.useState)(t),c=e??o;function l(t){e===void 0&&s(t),n?.(t)}return(0,U.jsx)(Lt.Provider,{value:{open:c,setOpen:l},children:(0,U.jsx)(`div`,{"data-slot":`collapsible`,"data-state":c?`open`:`closed`,className:H(r),...a,children:i})})}function zt({className:e,children:t,onClick:n,...r}){let i=(0,g.useContext)(Lt);if(!i)throw Error(`CollapsibleTrigger must be used inside Collapsible`);return(0,U.jsx)(`button`,{type:`button`,"data-slot":`collapsible-trigger`,"aria-expanded":i.open,className:H(e),onClick:e=>{n?.(e),e.defaultPrevented||i.setOpen(!i.open)},...r,children:t})}function Bt({className:e,children:t,...n}){let r=(0,g.useContext)(Lt);if(!r)throw Error(`CollapsibleContent must be used inside Collapsible`);return r.open?(0,U.jsx)(`div`,{"data-slot":`collapsible-content`,className:H(e),...n,children:t}):null}var Vt=`data-valid`,Ht=`data-invalid`,Ut={badInput:!1,customError:!1,patternMismatch:!1,rangeOverflow:!1,rangeUnderflow:!1,stepMismatch:!1,tooLong:!1,tooShort:!1,typeMismatch:!1,valid:null,valueMissing:!1},Wt={disabled:!1,valid:null,touched:!1,dirty:!1,filled:!1,focused:!1},Gt={valid(e){return e===null?null:e?{[Vt]:``}:{[Ht]:``}}},Kt={invalid:void 0,name:void 0,validityData:{state:Ut,errors:[],error:``,value:``,initialValue:null},setValidityData:Y,disabled:void 0,setTouched:Y,setDirty:Y,setFilled:Y,setFocused:Y,validationMode:`onSubmit`,shouldValidateOnChange:()=>!1,state:Wt,registerFieldControl:Y,validation:{getValidationProps:(e,t=X)=>t,inputRef:{current:null},registeredInputs:new Map,registerInput:Y,getInputControl:()=>null,commit:async()=>{},change:Y}},qt=g.createContext(Kt);function Jt(e=!0){let t=g.useContext(qt);if(t.setValidityData===Y&&!e)throw Error(Ze(28));return t}var Yt=g.createContext({elementRef:{current:null},formRef:{current:{fields:new Map}},errors:{},clearErrors:Y,validationMode:`onSubmit`,submitCountRef:{current:0}});function Xt(){return g.useContext(Yt)}var Zt=0;function Qt(e,t=`mui`){let[n,r]=g.useState(e),i=e||n;return g.useEffect(()=>{n??(Zt+=1,r(`${t}-${Zt}`))},[n,t]),i}var $t=De.useId;function en(e,t){if($t!==void 0){let n=$t();return e??(t?`${t}-${n}`:n)}return Qt(e,t)}function tn(e){return en(e,`base-ui`)}var nn=g.createContext({controlId:void 0,registerControlId:Y,resetControlId:Y,labelId:void 0,setLabelId:Y,messageIds:[],setMessageIds:Y,getDescriptionProps:e=>e});function rn(){return g.useContext(nn)}function an(e={}){let{id:t,enabled:n=!0}=e,{controlId:r,registerControlId:i,resetControlId:a}=rn(),o=tn(),s=ke(()=>Symbol()),c=g.useRef(!1),l=g.useRef(!1),u=K(()=>{c.current&&i!==Y&&(c.current=!1,i(s.current,void 0))});return q(()=>{if(!n||i===Y){u();return}let e;if(t!==void 0)l.current=!0,e=t;else if(l.current)e=o;else{a();return}if(e===void 0){u();return}c.current=!0,i(s.current,e)},[t,n,i,a,o,s,u]),q(()=>u,[u]),(n?r:void 0)??t??o}function on(){return typeof navigator>`u`?{userAgent:``,platform:``,maxTouchPoints:0}:{userAgent:navigator.userAgent,platform:navigator.platform??``,maxTouchPoints:navigator.maxTouchPoints??0}}var{userAgent:sn,platform:cn,maxTouchPoints:ln}=on(),un=sn.toLowerCase(),dn=cn.toLowerCase(),fn=/^i(os$|p)/.test(dn)||dn===`macintel`&&ln>1,pn=`android`,mn=dn===pn||un.includes(pn),hn=!fn&&dn.startsWith(`mac`);dn.startsWith(`win`),!mn&&/^(linux|chrome os)/.test(dn);var gn=hn||fn,_n=typeof CSS<`u`&&!!CSS.supports?.(`-webkit-backdrop-filter:none`);!_n&&un.includes(`firefox`),!_n&&un.includes(`chrom`);var vn=gn,yn=/jsdom|happydom/.test(un);function bn(e){let t=e.activeElement;for(;t?.shadowRoot?.activeElement!=null;)t=t.shadowRoot.activeElement;return t}function Z(e,t){if(!e||!t)return!1;let n=t.getRootNode?.();if(e.contains(t))return!0;if(n&&Se(n)){let n=t;for(;n;){if(e===n)return!0;n=n.parentNode||n.host}}return!1}function xn(e){return`composedPath`in e?e.composedPath()[0]??e.target:e.target}var Sn=`data-base-ui-focusable`,Cn=`data-starting-style`,wn=`data-ending-style`,Tn={[Cn]:``},En={[wn]:``},Dn={transitionStatus(e){return e===`starting`?Tn:e===`ending`?En:null}},On=`data-open`,kn=`data-closed`,An=`data-anchor-hidden`,jn={[On]:``},Mn={[kn]:``},Nn={[An]:``},Pn={open(e){return e?jn:Mn},anchorHidden(e){return e?Nn:null}},Fn={...Pn,...Dn};function In(e,t){if(t==null)return!1;if(`composedPath`in e)return e.composedPath().includes(t);let n=e;return n.target!=null&&t.contains(n.target)}function Ln(e){return e.matches(`html,body`)}function Rn(e){return G(e)&&e.matches(`input:not([type='hidden']):not([disabled]),[contenteditable]:not([contenteditable='false']),textarea:not([disabled])`)}function zn(e){return e?e.getAttribute(`role`)===`combobox`&&Rn(e):!1}function Bn(e){return e?e.hasAttribute(`data-base-ui-focusable`)?e:e.querySelector(`[data-base-ui-focusable]`)||e:null}function Vn(e,t,n=!0){return e.filter(e=>e.parentId===t).flatMap(t=>[...!n||t.context?.open?[t]:[],...Vn(e,t.id,n)])}function Hn(e,t){let n=[],r=e.find(e=>e.id===t)?.parentId;for(;r;){let t=e.find(e=>e.id===r);r=t?.parentId,t&&(n=n.concat(t))}return n}function Un(e){e.preventDefault(),e.stopPropagation()}function Wn(e){return`nativeEvent`in e}function Gn(e){return e.pointerType===``&&e.isTrusted?!0:mn&&e.pointerType?e.type===`click`&&e.buttons===1:e.detail===0&&!e.pointerType}function Kn(e){return yn?!1:!mn&&e.width===0&&e.height===0||mn&&e.width===1&&e.height===1&&e.pressure===0&&e.detail===0&&e.pointerType===`mouse`||e.width<1&&e.height<1&&e.pressure===0&&e.detail===0&&e.pointerType===`touch`}function qn(e){let t=e.type;return t===`click`||t===`mousedown`||t===`keydown`||t===`keyup`}function Jn(e){return e.visibility===`hidden`||e.visibility===`collapse`}function Yn(e,t=e?Te(e):null){return!e||!e.isConnected||!t||Jn(t)?!1:typeof e.checkVisibility==`function`?e.checkVisibility():t.display!==`none`&&t.display!==`contents`}var Xn=`a[href],button,input,select,textarea,summary,details,iframe,object,embed,[tabindex],[contenteditable]:not([contenteditable="false"]),audio[controls],video[controls]`;function Zn(e){let t=e.assignedSlot;if(t)return t;if(e.parentElement)return e.parentElement;let n=e.getRootNode();return Se(n)?n.host:null}function Qn(e){for(let t of Array.from(e.children))if(W(t)===`summary`)return t;return null}function $n(e,t){let n=Qn(t);return!!n&&(e===n||Z(n,e))}function er(e){let t=e?W(e):``;return e!=null&&e.matches(Xn)&&(t!==`summary`||e.parentElement!=null&&W(e.parentElement)===`details`&&Qn(e.parentElement)===e)&&(t!==`details`||Qn(e)==null)&&(t!==`input`||e.type!==`hidden`)}function tr(e){if(!er(e)||!e.isConnected||e.matches(`:disabled`))return!1;for(let t=e;t;t=Zn(t)){let n=t!==e,r=W(t)===`slot`;if(t.hasAttribute(`inert`)||n&&W(t)===`details`&&!t.open&&!$n(e,t)||t.hasAttribute(`hidden`)||!r&&!nr(t,n))return!1}return!0}function nr(e,t){let n=Te(e);return t?n.display!==`none`:Yn(e,n)}function rr(e){let t=e.tabIndex;if(t<0){let t=W(e);if(t===`details`||t===`audio`||t===`video`||G(e)&&e.isContentEditable)return 0}return t}function ir(e){if(W(e)!==`input`)return null;let t=e;return t.type===`radio`&&t.name!==``?t:null}function ar(e,t){let n=ir(e);if(!n)return!0;let r=t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form&&t.checked});return r?r===n:t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form})===n}function or(e){if(G(e)&&W(e)===`slot`){let t=e.assignedElements({flatten:!0});if(t.length>0)return t}return G(e)&&e.shadowRoot?Array.from(e.shadowRoot.children):Array.from(e.children)}function sr(e,t){or(e).forEach(e=>{er(e)&&t.push(e),sr(e,t)})}function cr(e,t,n){or(e).forEach(e=>{G(e)&&e.matches(t)&&n.push(e),cr(e,t,n)})}function lr(e){return tr(e)&&rr(e)>=0}function ur(e){let t=[];return sr(e,t),t.filter(tr)}function dr(e){let t=ur(e);return t.filter(e=>rr(e)>=0&&ar(e,t))}function fr(e,t){let n=dr(e),r=n.length;if(r===0)return;let i=bn(J(e)),a=n.indexOf(i);return n[a===-1?t===1?0:r-1:a+t]}function pr(e){return fr(J(e).body,1)||e}function mr(e){return fr(J(e).body,-1)||e}function hr(e,t){let n=t||e.currentTarget,r=e.relatedTarget;return!r||!Z(n,r)}function gr(e){dr(e).forEach(e=>{e.dataset.tabindex=e.getAttribute(`tabindex`)||``,e.setAttribute(`tabindex`,`-1`)})}function _r(e){let t=[];cr(e,`[data-tabindex]`,t),t.forEach(e=>{let t=e.dataset.tabindex;delete e.dataset.tabindex,t?e.setAttribute(`tabindex`,t):e.removeAttribute(`tabindex`)})}function vr(e){g.useEffect(e,mt)}var yr=0,br=class e{static create(){return new e}currentId=yr;start(e,t){this.clear(),this.currentId=setTimeout(()=>{this.currentId=yr,t()},e)}isStarted(){return this.currentId!==yr}clear=()=>{this.currentId!==yr&&(clearTimeout(this.currentId),this.currentId=yr)};disposeEffect=()=>this.clear};function xr(){let e=ke(br.create).current;return vr(e.disposeEffect),e}var Sr=null;globalThis.requestAnimationFrame;var Cr=new class{callbacks=[];callbacksCount=0;nextId=1;startId=1;isScheduled=!1;tick=e=>{this.isScheduled=!1;let t=this.callbacks,n=this.callbacksCount;if(this.callbacks=[],this.callbacksCount=0,this.startId=this.nextId,n>0)for(let n=0;n<t.length;n+=1)t[n]?.(e)};request(e){let t=this.nextId;return this.nextId+=1,this.callbacks.push(e),this.callbacksCount+=1,this.isScheduled||=(requestAnimationFrame(this.tick),!0),t}cancel(e){let t=e-this.startId;t<0||t>=this.callbacks.length||this.callbacks[t]!==null&&(this.callbacks[t]=null,--this.callbacksCount)}},wr=class e{static create(){return new e}static request(e){return Cr.request(e)}static cancel(e){return Cr.cancel(e)}currentId=Sr;request(e){this.cancel(),this.currentId=Cr.request(()=>{this.currentId=Sr,e()})}cancel=()=>{this.currentId!==Sr&&(Cr.cancel(this.currentId),this.currentId=Sr)};disposeEffect=()=>this.cancel};function Tr(){let e=ke(wr.create).current;return vr(e.disposeEffect),e}function Er(e){return e==null?e:`current`in e?e.current:e}var Dr=null;function Or(e){if(!Dr){let e=[];Dr=e,queueMicrotask(()=>{Dr=null,pe.flushSync(()=>{for(let t of e)t()})})}Dr.push(e)}function kr(e,t=!1,n=!1){let r=Tr();return K((i,a=null)=>{r.cancel();let o=Er(e);if(o==null)return;let s=o,c=()=>{if(!n){pe.flushSync(i);return}Or(()=>{a?.aborted||i()})};if(typeof s.getAnimations!=`function`||globalThis.BASE_UI_ANIMATIONS_DISABLED){i();return}function l(){Promise.all(s.getAnimations().map(e=>e.finished)).then(()=>{a?.aborted||c()},()=>{if(!a?.aborted){if(s.getAnimations().some(e=>e.pending||e.playState!==`finished`)){l();return}c()}})}if(t){let e=Cn;if(!s.hasAttribute(e)){r.request(l);return}let t=new MutationObserver(()=>{s.hasAttribute(e)||(t.disconnect(),l())});t.observe(s,{attributes:!0,attributeFilter:[e]}),a?.addEventListener(`abort`,()=>t.disconnect(),{once:!0});return}r.request(l)})}function Ar(e){let{enabled:t=!0,open:n,ref:r,batch:i=!1,onComplete:a}=e,o=K(a),s=kr(r,n,i);g.useEffect(()=>{if(!t)return;let e=new AbortController;return s(o,e.signal),()=>{e.abort()}},[t,n,o,s])}function jr(e,t=!1,n=!1,r=!1){let[i,a]=g.useState(e&&t?`idle`:void 0),[o,s]=g.useState(e&&!r);return e&&!o&&(s(!0),a(`starting`)),!e&&o&&i!==`ending`&&!n&&a(`ending`),!e&&!o&&i===`ending`&&a(void 0),q(()=>{if(!e&&o&&i!==`ending`&&n){let e=wr.request(()=>{a(`ending`)});return()=>{wr.cancel(e)}}},[e,o,i,n]),q(()=>{if(!e||t)return;let n=wr.request(()=>{a(void 0)});return()=>{wr.cancel(n)}},[t,e]),q(()=>{if(!e||!t)return;e&&o&&i!==`idle`&&a(`starting`);let n=wr.request(()=>{a(`idle`)});return()=>{wr.cancel(n)}},[t,e,o,i]),{mounted:o,setMounted:s,transitionStatus:i}}function Mr({controlled:e,default:t,name:n,state:r=`value`}){let{current:i}=g.useRef(e!==void 0),[a,o]=g.useState(t);return[i&&e!==void 0?e:a,g.useCallback(e=>{i||o(e)},[])]}function Nr(e,t,n,r,i=!0,a){let{registerFieldControl:o}=Jt(),s=ke(()=>Symbol());q(()=>{let c=s.current;if(!i){o(c,void 0);return}o(c,{controlRef:e,getValue:r,id:t,name:a,value:n})},[e,i,r,t,a,o,s,n]),q(()=>{let e=s.current;return()=>{o(e,void 0)}},[o,s])}function Pr(e,t){let n=g.useRef(e),r=K(t);q(()=>{n.current!==e&&r(n.current),n.current=e},[e,r])}var Fr=`none`,Ir=`trigger-press`,Lr=`outside-press`,Rr=`close-press`,zr=`focus-out`,Br=`escape-key`,Vr=`imperative-action`;function Hr(e,t,n,r){let i=!1,a=!1,o=r??X;return{reason:e,event:t??new Event(`base-ui`),cancel(){i=!0},allowPropagation(){a=!0},get isCanceled(){return i},get isPropagationAllowed(){return a},trigger:n,...o}}var Ur=g.forwardRef(function(e,t){let{render:n,className:r,id:i,name:a,value:o,disabled:s=!1,onValueChange:c,defaultValue:l,autoFocus:u=!1,style:d,...f}=e,{state:p,name:m,disabled:h,setTouched:_,setDirty:v,validityData:y,setFocused:b,setFilled:x,validationMode:S,validation:C}=Jt(),{clearErrors:w,elementRef:T,submitCountRef:E}=Xt(),D=h||s,O=m??a,k={...p,disabled:D},{labelId:A}=rn(),j=an({id:i}),[M]=Mr({controlled:o,default:l,name:`FieldControl`,state:`value`}),N=o!==void 0,P=N?M:void 0,F=P==null?void 0:String(P),I=K(()=>C.inputRef.current?.value);Nr(C.inputRef,j,F,I,!D,a),q(()=>{let e=F??C.inputRef.current?.value;e!==void 0&&x(e!==``)},[F,C.inputRef,x]),Pr(F,()=>{F!==void 0&&(w(O),v(F!==(y.initialValue??``)),C.change(F))});let L=g.useRef(null),R=xr();return q(()=>{u&&L.current===bn(J(L.current))&&b(!0)},[u,b]),vt(`input`,e,{ref:[t,L],state:k,props:[{id:j,disabled:D,name:O,ref:C.inputRef,"aria-labelledby":A,autoFocus:u,...N?{value:P}:{defaultValue:l},onChange(e){let t=e.currentTarget.value,n=Hr(Fr,e.nativeEvent);c?.(t,n),!N&&(v(t!==(y.initialValue??``)),x(t!==``),!e.nativeEvent.defaultPrevented&&!n.isCanceled&&(w(O),C.change(t)))},onFocus(){b(!0)},onBlur(e){if(_(!0),b(!1),S===`onBlur`){let t=e.currentTarget.value;C.commit(t),N&&queueMicrotask(()=>{let e=C.inputRef.current?.value;e!==void 0&&e!==t&&e!==(y.initialValue??``)&&C.commit(e)})}},onKeyDown(e){if(e.currentTarget.tagName===`INPUT`&&e.key===`Enter`){_(!0);let t=e.currentTarget.value,n=e.currentTarget.form;if(n&&n===T.current&&!e.defaultPrevented){let t=e.currentTarget,n=E.current;R.start(0,()=>{E.current===n&&C.commit(t.value)})}else C.commit(t)}}},f,e=>C.getValidationProps(D,e)],stateAttributesMapping:Gt})}),Wr=g.forwardRef(function(e,t){return(0,U.jsx)(Ur,{ref:t,...e})}),Gr=(0,g.forwardRef)(function({className:e,type:t,...n},r){return(0,U.jsx)(Wr,{ref:r,type:t,"data-slot":`input`,className:H(`h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40`,e),...n})});function Kr({className:e,viewportClassName:t,children:n,...r}){return(0,U.jsx)(`div`,{"data-slot":`scroll-area`,className:H(`relative overflow-hidden`,e),...r,children:(0,U.jsx)(`div`,{"data-slot":`scroll-area-viewport`,className:H(`h-full w-full overflow-auto`,t),children:n})})}var qr=g.createContext(void 0);function Jr(e){let t=g.useContext(qr);if(!e&&t===void 0)throw Error(Ze(27));return t}var Yr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,forceRender:a=!1,...o}=e,s=Jr(),c=s.useState(`open`),l=s.useState(`nested`),u=s.useState(`mounted`);return vt(`div`,e,{state:{open:c,transitionStatus:s.useState(`transitionStatus`)},ref:[s.context.backdropRef,t],stateAttributesMapping:Fn,props:[{role:`presentation`,hidden:!u,style:{userSelect:`none`,WebkitUserSelect:`none`}},o],enabled:a||!l})}),Xr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,disabled:a=!1,nativeButton:o=!0,...s}=e,c=Jr(),l=c.useState(`open`),{getButtonProps:u,buttonRef:d}=nt({disabled:a,native:o}),f={disabled:a};function p(e){l&&c.setOpen(!1,Hr(Rr,e.nativeEvent))}return vt(`button`,e,{state:f,ref:[t,d],props:[{onClick:p},s,u]})});function Q(e,t,n,r){return e.addEventListener(t,n,r),()=>{e.removeEventListener(t,n,r)}}function Zr(...e){return()=>{for(let t=0;t<e.length;t+=1){let n=e[t];n&&n()}}}function Qr(e){let t=ke($r,e).current;return t.next=e,q(t.effect),t}function $r(e){let t={current:e,next:e,effect:()=>{t.current=t.next}};return t}var ei={clipPath:`inset(50%)`,overflow:`hidden`,whiteSpace:`nowrap`,border:0,padding:0,width:1,height:1,margin:-1},ti={...ei,position:`fixed`,top:0,left:0};({...ei});var ni=g.forwardRef(function(e,t){let[n,r]=g.useState();q(()=>{vn&&_n&&r(`button`)},[]);let i={tabIndex:0,role:n};return(0,U.jsx)(`span`,{...e,ref:t,style:ti,"aria-hidden":!n||void 0,...i,"data-base-ui-focus-guard":``})});function ri(e){return`data-base-ui-${e}`}var ii=0;function ai(e,t={}){let{preventScroll:n=!1,sync:r=!1,shouldFocus:i}=t;cancelAnimationFrame(ii);function a(){(!i||i())&&e?.focus({preventScroll:n})}if(r)return a(),Y;let o=requestAnimationFrame(a);return ii=o,()=>{ii===o&&(cancelAnimationFrame(o),ii=0)}}var oi={inert:new WeakMap,"aria-hidden":new WeakMap},si=`data-base-ui-inert`,ci={inert:new WeakSet,"aria-hidden":new WeakSet},li=new WeakMap,ui=0;function di(e){return ci[e]}function fi(e){return e?Se(e)?e.host:fi(e.parentNode):null}var pi=(e,t)=>t.map(t=>{if(e.contains(t))return t;let n=fi(t);return e.contains(n)?n:null}).filter(e=>e!=null),mi=e=>{let t=new Set;return e.forEach(e=>{let n=e;for(;n&&!t.has(n);)t.add(n),n=n.parentNode}),t},hi=(e,t,n)=>{let r=[],i=e=>{e&&!n.has(e)&&Array.from(e.children).forEach(e=>{W(e)!==`script`&&(t.has(e)?i(e):r.push(e))})};return i(e),r};function gi(e,t,n,r,{mark:i=!0}){let a=null;r?a=`inert`:n&&(a=`aria-hidden`);let o=null,s=null,c=pi(t,e),l=i?hi(t,mi(c),new Set(c)):[],u=[],d=[];if(a){let e=oi[a],n=di(a);s=n,o=e;let r=pi(t,Array.from(t.querySelectorAll(`[aria-live]`))),i=c.concat(r);hi(t,mi(i),new Set(i)).forEach(t=>{let r=t.getAttribute(a),i=r!==null&&r!==`false`,o=(e.get(t)||0)+1;e.set(t,o),u.push(t),o===1&&i&&n.add(t),i||t.setAttribute(a,a===`inert`?``:`true`)})}return i&&l.forEach(e=>{let t=(li.get(e)||0)+1;li.set(e,t),d.push(e),t===1&&e.setAttribute(si,``)}),ui+=1,()=>{o&&u.forEach(e=>{let t=(o.get(e)||0)-1;o.set(e,t),t||(!s?.has(e)&&a&&e.removeAttribute(a),s?.delete(e))}),i&&d.forEach(e=>{let t=(li.get(e)||0)-1;li.set(e,t),t||e.removeAttribute(si)}),--ui,ui||(oi.inert=new WeakMap,oi[`aria-hidden`]=new WeakMap,ci.inert=new WeakSet,ci[`aria-hidden`]=new WeakSet,li=new WeakMap)}}function _i(e,t={}){let{ariaHidden:n=!1,inert:r=!1,mark:i=!0}=t,a=J(e[0]).body;return gi(e,a,n,r,{mark:i})}var vi={clipPath:`inset(50%)`,position:`fixed`,top:0,left:0},yi=g.createContext(null),bi=()=>g.useContext(yi),xi=ri(`portal`);function Si(e={}){let{ref:t,container:n,componentProps:r=X,elementProps:i}=e,a=en(),o=bi()?.portalNode,[s,c]=g.useState(null),[l,u]=g.useState(null),d=K(e=>{e!==null&&u(e)}),f=g.useRef(null);q(()=>{if(n===null){f.current&&(f.current=null,u(null),c(null));return}let e=(n&&(be(n)?n:n.current))??o??document.body;if(e==null){f.current&&(f.current=null,u(null),c(null));return}f.current!==e&&(f.current=e,u(null),c(e))},[n,o]);let p=vt(`div`,r,{ref:[t,d],props:[{id:a,[xi]:``},i]}),m=s&&p?pe.createPortal(p,s):null;return{node:l,nodeId:g.isValidElement(p)?p.props.id:void 0,subtree:m}}var Ci=g.forwardRef(function(e,t){let{render:n,className:r,style:i,children:a,container:o,portalOwnerRole:s,...c}=e,{node:l,nodeId:u,subtree:d}=Si({container:o,ref:t,componentProps:e,elementProps:c}),f=g.useRef(null),p=g.useRef(null),m=g.useRef(null),h=g.useRef(null),[_,v]=g.useState(null),y=g.useRef(!1),b=_?.modal,x=_?.open,S=!!_&&!_.modal&&_.open&&!!l;g.useEffect(()=>{if(!l||b)return;function e(e){l&&e.relatedTarget&&hr(e)&&(e.type===`focusin`?y.current&&=(_r(l),!1):(gr(l),y.current=!0))}return Zr(Q(l,`focusin`,e,!0),Q(l,`focusout`,e,!0))},[l,b]),q(()=>{l&&x===!0&&y.current&&(_r(l),y.current=!1)},[x,l]);let C=g.useMemo(()=>({beforeOutsideRef:f,afterOutsideRef:p,beforeInsideRef:m,afterInsideRef:h,portalNode:l,setFocusManagerState:v}),[l]);return(0,U.jsxs)(g.Fragment,{children:[d,(0,U.jsxs)(yi.Provider,{value:C,children:[S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:f,onFocus:e=>{hr(e,l)?m.current?.focus():mr(_?_.domReference:null)?.focus()}}),S&&l&&(0,U.jsx)(`span`,{role:s,"aria-owns":u,style:vi}),l&&pe.createPortal(a,l),S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:p,onFocus:e=>{hr(e,l)?h.current?.focus():(pr(_?_.domReference:null)?.focus(),_?.closeOnFocusOut&&_?.onOpenChange(!1,Hr(`focus-out`,e.nativeEvent)))}})]})]})});function wi(){let e=new Map;return{emit(t,n){e.get(t)?.forEach(e=>e(n))},on(t,n){e.has(t)||e.set(t,new Set),e.get(t).add(n)},off(t,n){e.get(t)?.delete(n)}}}var Ti=g.createContext(null),Ei=g.createContext(null),Di=()=>g.useContext(Ti)?.id||null,Oi=e=>{let t=g.useContext(Ei);return e??t};function ki(e,t){let n=ve(xn(e));return e instanceof n.KeyboardEvent?`keyboard`:e instanceof n.FocusEvent?t||`keyboard`:`pointerType`in e?e.pointerType||`keyboard`:`touches`in e?`touch`:e instanceof n.MouseEvent?t||(e.detail===0?`keyboard`:`mouse`):``}var Ai=20,ji=[];function Mi(){ji=ji.filter(e=>e.deref()?.isConnected)}function Ni(e){Mi(),e&&W(e)!==`body`&&(ji.push(new WeakRef(e)),ji.length>Ai&&(ji=ji.slice(-20)))}function Pi(){return Mi(),ji[ji.length-1]?.deref()}function Fi(e){return e?lr(e)?e:dr(e)[0]||e:null}function Ii(e){if(e.hasAttribute(`tabindex`)&&!e.hasAttribute(`data-tabindex`)||!e.getAttribute(`role`)?.includes(`dialog`))return;let t=ur(e).filter(e=>{let t=e.getAttribute(`data-tabindex`)||``;return lr(e)||e.hasAttribute(`data-tabindex`)&&!t.startsWith(`-`)}),n=e.getAttribute(`tabindex`);t.length===0?n!==`0`&&(e.setAttribute(`tabindex`,`0`),e.setAttribute(`data-tabindex`,`0`)):(n!==`-1`||e.hasAttribute(`data-tabindex`)&&e.getAttribute(`data-tabindex`)!==`-1`)&&(e.setAttribute(`tabindex`,`-1`),e.setAttribute(`data-tabindex`,`-1`))}function Li(e){let{context:t,children:n,disabled:r=!1,initialFocus:i=!0,returnFocus:a=!0,restoreFocus:o=!1,modal:s=!0,closeOnFocusOut:c=!0,openInteractionType:l=``,nextFocusableElement:u,previousFocusableElement:d,beforeContentFocusGuardRef:f,externalTree:p,getInsideElements:m}=e,h=`rootStore`in t?t.rootStore:t,_=h.useState(`open`),v=h.useState(`domReferenceElement`),y=h.useState(`floatingElement`),{events:b,dataRef:x}=h.context,S=K(()=>x.current.floatingContext?.nodeId),C=i===!1,w=zn(v)&&C,T=Qr(i),E=Qr(a),D=Qr(l),O=Qr(_),k=Oi(p),A=bi(),j=g.useRef(!1),M=g.useRef(!1),N=g.useRef(!1),P=g.useRef(null),F=g.useRef(``),I=g.useRef(``),L=g.useRef(null),R=g.useRef(null),z=at(L,f,A?.beforeInsideRef),B=at(R,A?.afterInsideRef),ee=xr(),te=xr(),ne=Tr(),re=A!=null,V=Bn(y),ie=K((e=V)=>e?dr(e):[]),ae=K(()=>m?.().filter(e=>e!=null)??[]);g.useEffect(()=>{if(r||!s)return;function e(e){e.key===`Tab`&&Z(V,bn(J(V)))&&ie().length===0&&!w&&Un(e)}return Q(J(V),`keydown`,e)},[r,V,s,w,ie]),g.useEffect(()=>{if(r||!_)return;let e=J(V);function t(){N.current=!1}function n(e){let t=xn(e),n=ae(),r=Z(y,t)||Z(v,t)||Z(A?.portalNode,t)||n.some(e=>e===t||Z(e,t));N.current=!r,I.current=e.pointerType||`keyboard`,t?.closest(`[data-base-ui-click-trigger]`)&&(M.current=!0,te.start(0,()=>{M.current=!1}))}function i(){I.current=`keyboard`}return Zr(Q(e,`pointerdown`,n,!0),Q(e,`pointerup`,t,!0),Q(e,`pointercancel`,t,!0),Q(e,`keydown`,i,!0),t)},[r,y,v,V,_,A,te,ae]),g.useEffect(()=>{if(r||!c)return;let e=J(V);function t(){M.current=!0,te.start(0,()=>{M.current=!1})}function n(e){let t=xn(e);lr(t)&&(P.current=t)}function i(t){let n=t.relatedTarget,r=t.currentTarget,i=xn(t);s&&n==null&&i!=null&&Z(y,i)&&Ni(i),queueMicrotask(()=>{let a=S(),c=h.context.triggerElements,l=ae(),f=n?.hasAttribute(ri(`focus-guard`))&&[L.current,R.current,A?.beforeInsideRef.current,A?.afterInsideRef.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,Er(d),Er(u)].includes(n),p=!(Z(v,n)||Z(y,n)||Z(n,y)||Z(A?.portalNode,n)||l.some(e=>e===n||Z(e,n))||c.hasMatchingElement(e=>Z(e,n))||f||k&&(Vn(k.nodesRef.current,a).find(e=>Z(e.context?.elements.floating,n)||Z(e.context?.elements.domReference,n))||Hn(k.nodesRef.current,a).find(e=>[e.context?.elements.floating,Bn(e.context?.elements.floating)].includes(n)||e.context?.elements.domReference===n)));if(r===v&&V&&Ii(V),o&&r!==v&&!Yn(i)&&bn(e)===e.body){if(G(V)&&(V.focus(),o===`popup`)){ne.request(()=>{V.focus()});return}let e=ie(),t=P.current,n=(t&&e.includes(t)?t:null)||e[e.length-1]||V;G(n)&&n.focus()}if(x.current.insideReactTree){x.current.insideReactTree=!1;return}(w||!s)&&n&&p&&!M.current&&(w||n!==Pi())&&(j.current=!0,h.setOpen(!1,Hr(zr,t)))})}function a(){N.current||(x.current.insideReactTree=!0,ee.start(0,()=>{x.current.insideReactTree=!1}))}let l=G(v)?v:null;if(y||l)return Zr(l&&Q(l,`focusout`,i),l&&Q(l,`pointerdown`,t),y&&Q(y,`focusin`,n),y&&Q(y,`focusout`,i),y&&A&&Q(y,`focusout`,a,!0))},[r,v,y,V,s,k,A,h,c,o,ie,w,S,x,ee,te,ne,u,d,ae]),g.useEffect(()=>{if(r||!y||!_)return;let e=Array.from(A?.portalNode?.querySelectorAll(`[${ri(`portal`)}]`)||[]),t=(k?Hn(k.nodesRef.current,S()):[]).find(e=>zn(e.context?.elements.domReference||null))?.context?.elements.domReference,n=_i([y,...e,L.current,R.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,...ae(),t,Er(d),Er(u),w?v:null].filter(e=>e!=null),{ariaHidden:s||w,mark:!1}),i=_i([y,...e].filter(e=>e!=null));return()=>{i(),n()}},[_,r,v,y,s,A,w,k,S,u,d,ae]),q(()=>{if(!_||r||!G(V))return;F.current=``,I.current=``;let e=J(V),t=bn(e);queueMicrotask(()=>{let n=T.current,r=typeof n==`function`?n(D.current||``):n;if(r===void 0||r===!1||Z(V,t))return;let i=null,a=()=>(i??=ie(V),i[0]||V),o;o=r===!0||r===null?a():Er(r),o||=a();let s=Z(V,bn(e));ai(o,{preventScroll:o===V,shouldFocus(){if(!O.current)return!1;if(s)return!0;let t=bn(e);return!(t!==o&&Z(V,t))}})})},[r,_,V,ie,T,D,O]),q(()=>{if(r||!V)return;let e=J(V),t=bn(e),n=D.current==null;Ni(t);function i(e){if(e.open||(F.current=ki(e.nativeEvent,I.current)),e.reason===`trigger-hover`&&e.nativeEvent.type===`mouseleave`&&(j.current=!0),e.reason===`outside-press`){if(e.nested)j.current=!1;else if(Gn(e.nativeEvent)||Kn(e.nativeEvent))j.current=!1;else{let e=!1;J(V).createElement(`div`).focus({get preventScroll(){return e=!0,!1}}),e?j.current=!1:j.current=!0}}}b.on(`openchange`,i);function a(e){let r=E.current,i=typeof r==`function`?r(e):r;if(i===void 0||i===!1)return null;i===null&&(i=!0);let a=v?.isConnected?v:null,o=t?.isConnected&&W(t)!==`body`?t:null,s=n?o||a:a||o;return s||=Pi()||null,typeof i==`boolean`?s:Er(i)||s||null}return()=>{b.off(`openchange`,i);let t=bn(e),n=ae(),r=Z(y,t)||n.some(e=>e===t||Z(e,t))||k&&Vn(k.nodesRef.current,S(),!1).some(e=>Z(e.context?.elements.floating,t)),o=E.current,s=F.current,c=a(s);queueMicrotask(()=>{let n=Fi(c),i=typeof o!=`boolean`;if(o&&!j.current&&G(n)&&(i||n===t||t===e.body||r)){let e={preventScroll:!0};s===`keyboard`&&(e.focusVisible=!0),n.focus(e)}j.current=!1})}},[r,y,V,E,D,b,k,v,S,ae]),q(()=>{if(!_n||_||!y)return;let e=bn(J(y));G(e)&&Rn(e)&&Z(y,e)&&e.blur()},[_,y]),q(()=>{if(!r&&A)return A.setFocusManagerState({modal:s,closeOnFocusOut:c,open:_,onOpenChange:h.setOpen,domReference:v}),()=>{A.setFocusManagerState(null)}},[r,A,s,_,h,c,v]),q(()=>{if(!r&&V)return Ii(V),()=>{queueMicrotask(Mi)}},[r,V]);let oe=!r&&(!s||!w)&&(re||s);return(0,U.jsxs)(g.Fragment,{children:[oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:z,onFocus:e=>{if(s){let e=ie();ai(e[e.length-1])}else A?.portalNode&&(j.current=!1,hr(e,A.portalNode)?pr(v)?.focus():Er(d??A.beforeOutsideRef)?.focus())}}),n,oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:B,onFocus:e=>{s?ai(ie()[0]):A?.portalNode&&(c&&(j.current=!0),hr(e,A.portalNode)?mr(v)?.focus():Er(u??A.afterOutsideRef)?.focus())}})]})}function Ri(){return!1}function zi(e){return{escapeKey:typeof e==`boolean`?e:e?.escapeKey??!1,outsidePress:typeof e==`boolean`?e:e?.outsidePress??!0}}function Bi(e,t={}){let{enabled:n=!0,escapeKey:r=!0,outsidePress:i=!0,outsidePressEvent:a=`sloppy`,referencePress:o=Ri,bubbles:s,externalTree:c}=t,l=`rootStore`in e?e.rootStore:e,u=l.useState(`open`),d=l.useState(`floatingElement`),{dataRef:f,events:p}=l.context,m=Oi(c),h=K(typeof i==`function`?i:()=>!1),_=typeof i==`function`?h:i,v=_!==!1,y=K(()=>a),{escapeKey:b,outsidePress:x}=zi(s),S=g.useRef(!1),C=g.useRef(!1),w=g.useRef(!1),T=g.useRef(!1),E=g.useRef(!1),D=g.useRef(``),O=g.useRef(null),k=xr(),A=xr(),j=K(()=>{A.clear(),f.current.insideReactTree=!1}),M=K(e=>{let t=f.current.floatingContext?.nodeId;return(m?Vn(m.nodesRef.current,t):[]).some(t=>t.context?.open&&!t.context.dataRef.current[e])}),N=K(e=>In(e,l.select(`floatingElement`))||In(e,l.select(`domReferenceElement`))),P=K(e=>{o()&&l.setOpen(!1,Hr(Ir,e.nativeEvent))}),F=K(e=>{if(!u||!n||!r||e.key!==`Escape`||E.current||!b&&M(`__escapeKeyBubbles`))return;let t=Hr(Br,Wn(e)?e.nativeEvent:e);l.setOpen(!1,t),t.isCanceled||e.preventDefault(),!b&&!t.isPropagationAllowed&&e.stopPropagation()}),I=K(()=>{f.current.insideReactTree=!0,A.start(0,j)}),L=K(e=>{if(!u||!n||e.button!==0)return;let t=xn(e.nativeEvent);Z(l.select(`floatingElement`),t)&&(S.current||(S.current=!0,C.current=!1))}),R=K(e=>{u&&n&&(e.defaultPrevented||e.nativeEvent.defaultPrevented)&&S.current&&(C.current=!0)});g.useEffect(()=>{function e(e){e.open||(T.current=!1)}return p.on(`openchange`,e),()=>{p.off(`openchange`,e)}},[p]),g.useEffect(()=>{if(!u||!n)return u||(T.current=!1),j;f.current.__escapeKeyBubbles=b,f.current.__outsidePressBubbles=x;let e=new br,t=new br,i=J(d);function a(){e.clear(),E.current=!0}function o(){e.start(_n?5:0,()=>{E.current=!1})}function s(){w.current=!0,t.start(0,()=>{w.current=!1})}function c(){S.current=!1,C.current=!1}function p(){let e=D.current,t=e===`pen`||!e?`mouse`:e,n=y(),r=typeof n==`function`?n():n;return typeof r==`string`?r:r[t]}function h(e){let t=p();return t===`intentional`&&e.type!==`click`||t===`sloppy`&&e.type===`click`}function g(e){let t=f.current.floatingContext?.nodeId,n=m&&Vn(m.nodesRef.current,t).some(t=>In(e,t.context?.elements.floating));return N(e)||n}function A(e){if(h(e)){e.type!==`click`&&!N(e)&&(t.clear(),w.current=!1),j();return}if(f.current.insideReactTree){j();return}let n=xn(e),r=`[${ri(`inert`)}]`,i=xe(n)?n.getRootNode():null,a=Array.from((Se(i)?i:J(l.select(`floatingElement`))).querySelectorAll(r)),o=l.context.triggerElements;if(n&&(o.hasElement(n)||o.hasMatchingElement(e=>Z(e,n))))return;let s=xe(n)?n:null;for(;s&&!we(s);){let e=Ee(s);if(we(e)||!xe(e))break;s=e}if(!(a.length&&xe(n)&&!Ln(n)&&!Z(n,l.select(`floatingElement`))&&a.every(e=>!Z(s,e)))){if(G(n)&&!(`touches`in e)){let t=we(n),r=Te(n),i=/auto|scroll/,a=t||i.test(r.overflowX),o=t||i.test(r.overflowY),s=a&&n.clientWidth>0&&n.scrollWidth>n.clientWidth,c=o&&n.clientHeight>0&&n.scrollHeight>n.clientHeight,l=r.direction===`rtl`,u=c&&(l?e.offsetX<=n.offsetWidth-n.clientWidth:e.offsetX>n.clientWidth),d=s&&e.offsetY>n.clientHeight;if(u||d)return}if(!g(e)){if(p()===`intentional`){if(e.detail!==0&&!Gn(e)&&!T.current)return;if(w.current){t.clear(),w.current=!1;return}}(typeof _!=`function`||_(e))&&(M(`__outsidePressBubbles`)||(l.setOpen(!1,Hr(Lr,e)),j()))}}}function P(e){p()===`sloppy`&&e.pointerType!==`touch`&&l.select(`open`)&&n&&!N(e)&&A(e)}function I(e){if(p()!==`sloppy`||!l.select(`open`)||!n||N(e))return;let t=e.touches[0];t&&(O.current={startTime:Date.now(),startX:t.clientX,startY:t.clientY,dismissOnTouchEnd:!1,dismissOnMouseDown:!0},k.start(1e3,()=>{O.current&&(O.current.dismissOnTouchEnd=!1,O.current.dismissOnMouseDown=!1)}))}function L(e,t){let n=xn(e);if(!n)return;let r=Q(n,e.type,()=>{t(e),r()})}function R(e){D.current=`touch`,L(e,I)}function z(e){k.clear(),e.type===`pointerdown`&&(e.button===0&&(T.current=!0),D.current=e.pointerType),(e.type!==`mousedown`||!O.current||O.current.dismissOnMouseDown)&&L(e,e=>{e.type===`pointerdown`?P(e):A(e)})}function B(e){if(e.type===`pointercancel`&&(T.current=!1),!S.current)return;let n=C.current;if(c(),p()===`intentional`){if(e.type===`pointercancel`){n&&s();return}if(!g(e)){if(n){s();return}(typeof _!=`function`||_(e))&&(t.clear(),w.current=!0,j())}}}function ee(e){if(p()!==`sloppy`||!O.current||N(e))return;let t=e.touches[0];if(!t)return;let n=Math.abs(t.clientX-O.current.startX),r=Math.abs(t.clientY-O.current.startY),i=Math.sqrt(n*n+r*r);i>5&&(O.current.dismissOnTouchEnd=!0),i>10&&(A(e),k.clear(),O.current=null)}function te(e){L(e,ee)}function ne(e){p()===`sloppy`&&O.current&&!N(e)&&(O.current.dismissOnTouchEnd&&A(e),k.clear(),O.current=null)}function re(e){L(e,ne)}let V=Zr(r&&Zr(Q(i,`keydown`,F),Q(i,`compositionstart`,a),Q(i,`compositionend`,o)),v&&Zr(Q(i,`click`,z,!0),Q(i,`pointerdown`,z,!0),Q(i,`pointerup`,B,!0),Q(i,`pointercancel`,B,!0),Q(i,`mousedown`,z,!0),Q(i,`mouseup`,B,!0),Q(i,`touchstart`,R,{capture:!0,passive:!0}),Q(i,`touchmove`,te,{capture:!0,passive:!0}),Q(i,`touchend`,re,{capture:!0,passive:!0})));return()=>{V(),e.clear(),t.clear(),c(),w.current=!1,j()}},[f,d,r,v,_,u,n,b,x,F,j,y,M,N,m,l,k]);let z=g.useMemo(()=>({onKeyDown:F,onPointerDown:P,onClick:P}),[F,P]),B=g.useMemo(()=>({onKeyDown:F,onPointerDown:R,onMouseDown:R,onClickCapture:I,onMouseDownCapture(e){I(),L(e)},onPointerDownCapture(e){I(),L(e)},onMouseUpCapture:I,onTouchEndCapture:I,onTouchMoveCapture:I}),[F,I,L,R]);return g.useMemo(()=>n?{reference:z,floating:B,trigger:z}:{},[n,z,B])}var Vi=e((e=>{var n=t();function r(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var i=typeof Object.is==`function`?Object.is:r,a=n.useState,o=n.useEffect,s=n.useLayoutEffect,c=n.useDebugValue;function l(e,t){var n=t(),r=a({inst:{value:n,getSnapshot:t}}),i=r[0].inst,l=r[1];return s(function(){i.value=n,i.getSnapshot=t,u(i)&&l({inst:i})},[e,n,t]),o(function(){return u(i)&&l({inst:i}),e(function(){u(i)&&l({inst:i})})},[e]),c(n),n}function u(e){var t=e.getSnapshot;e=e.value;try{var n=t();return!i(e,n)}catch{return!0}}function d(e,t){return t()}var f=typeof window>`u`||window.document===void 0||window.document.createElement===void 0?d:l;e.useSyncExternalStore=n.useSyncExternalStore===void 0?f:n.useSyncExternalStore})),Hi=e(((e,t)=>{t.exports=Vi()})),Ui=e((e=>{var n=t(),r=Hi();function i(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var a=typeof Object.is==`function`?Object.is:i,o=r.useSyncExternalStore,s=n.useRef,c=n.useEffect,l=n.useMemo,u=n.useDebugValue;e.useSyncExternalStoreWithSelector=function(e,t,n,r,i){var d=s(null);if(d.current===null){var f={hasValue:!1,value:null};d.current=f}else f=d.current;d=l(function(){function e(e){if(!o){if(o=!0,s=e,e=r(e),i!==void 0&&f.hasValue){var t=f.value;if(i(t,e))return c=t}return c=e}if(t=c,a(s,e))return t;var n=r(e);return i!==void 0&&i(t,n)?(s=e,t):(s=e,c=n)}var o=!1,s,c,l=n===void 0?null:n;return[function(){return e(t())},l===null?void 0:function(){return e(l())}]},[t,n,r,i]);var p=o(e,d[0],d[1]);return c(function(){f.hasValue=!0,f.value=p},[p]),u(p),p}})),Wi=e(((e,t)=>{t.exports=Ui()})),Gi=[],Ki=void 0;function qi(){return Ki}function Ji(e){Gi.push(e)}function Yi(e){let t=(t,n)=>{let r=ke(Xi).current,i;try{Ki=r;for(let e of Gi)e.before(r);i=e(t,n);for(let e of Gi)e.after(r);r.didInitialize=!0}finally{Ki=void 0}return i};return t.displayName=e.displayName||e.name,t}function Xi(){return{didInitialize:!1}}var Zi=Hi(),Qi=Wi(),$i=ft(19)?na:ra;function ea(e,t,n,r,i){return $i(e,t,n,r,i)}function ta(e,t,n,r,i){let a=g.useCallback(()=>t(e.getSnapshot(),n,r,i),[e,t,n,r,i]);return(0,Zi.useSyncExternalStore)(e.subscribe,a,a)}Ji({before(e){e.syncIndex=0,e.didInitialize||(e.syncTick=1,e.syncHooks=[],e.didChangeStore=!0,e.getSnapshot=()=>{let t=!1;for(let n=0;n<e.syncHooks.length;n+=1){let r=e.syncHooks[n],i=r.selector(r.store.state,r.a1,r.a2,r.a3);Object.is(r.value,i)||(t=!0,r.value=i)}return t&&(e.syncTick+=1),e.syncTick})},after(e){e.syncHooks.length>0&&(e.didChangeStore&&(e.didChangeStore=!1,e.subscribe=t=>{let n=new Set;for(let t of e.syncHooks)n.add(t.store);let r=[];for(let e of n)r.push(e.subscribe(t));return()=>{for(let e of r)e()}}),(0,Zi.useSyncExternalStore)(e.subscribe,e.getSnapshot,e.getSnapshot))}});function na(e,t,n,r,i){let a=qi();if(!a)return ta(e,t,n,r,i);let o=a.syncIndex;a.syncIndex+=1;let s;return a.didInitialize?(s=a.syncHooks[o],(s.store!==e||s.selector!==t||!Object.is(s.a1,n)||!Object.is(s.a2,r)||!Object.is(s.a3,i))&&(s.store!==e&&(a.didChangeStore=!0),s.store=e,s.selector=t,s.a1=n,s.a2=r,s.a3=i,s.value=t(e.getSnapshot(),n,r,i))):(s={store:e,selector:t,a1:n,a2:r,a3:i,value:t(e.getSnapshot(),n,r,i)},a.syncHooks.push(s)),s.value}function ra(e,t,n,r,i){return(0,Qi.useSyncExternalStoreWithSelector)(e.subscribe,e.getSnapshot,e.getSnapshot,e=>t(e,n,r,i))}var ia=class{static create(e){return new this(e)}constructor(e){this.state=e,this.listeners=new Set,this.updateTick=0}subscribe=e=>(this.listeners.add(e),()=>{this.listeners.delete(e)});getSnapshot=()=>this.state;setState(e){if(this.state===e)return;this.state=e,this.updateTick+=1;let t=this.updateTick;for(let n of this.listeners){if(t!==this.updateTick)return;n(e)}}update(e){for(let t in e)if(!Object.is(this.state[t],e[t])){this.setState({...this.state,...e});return}}set(e,t){Object.is(this.state[e],t)||this.setState({...this.state,[e]:t})}notifyAll(){let e={...this.state};this.setState(e)}use(e,t,n,r){return ea(this,e,t,n,r)}},aa=class extends ia{constructor(e,t={},n){super(e),this.context=t,this.selectors=n}useSyncedValue(e,t){g.useDebugValue(e);let n=this;q(()=>{n.state[e]!==t&&n.set(e,t)},[n,e,t])}useSyncedValueWithCleanup(e,t){let n=this;q(()=>(n.state[e]!==t&&n.set(e,t),()=>{n.set(e,void 0)}),[n,e,t])}useSyncedValues(e){let t=this;q(()=>{t.update(e)},[t,...Object.values(e)])}useControlledProp(e,t){g.useDebugValue(e);let n=this,r=t!==void 0;q(()=>{r&&!Object.is(n.state[e],t)&&n.setState({...n.state,[e]:t})},[n,e,t,r])}select(e,t,n,r){let i=this.selectors[e];return i(this.state,t,n,r)}useState(e,t,n,r){return g.useDebugValue(e),ea(this,this.selectors[e],t,n,r)}useContextCallback(e,t){g.useDebugValue(e);let n=K(t??Y);this.context[e]=n}useStateSetter(e){let t=g.useRef(void 0);return t.current===void 0&&(t.current=t=>{this.set(e,t)}),t.current}observe(e,t){let n;n=typeof e==`function`?e:this.selectors[e];let r=n(this.state);return t(r,r,this),this.subscribe(e=>{let i=n(e);if(!Object.is(r,i)){let e=r;r=i,t(i,e,this)}})}},oa={open:e=>e.open,transitionStatus:e=>e.transitionStatus,domReferenceElement:e=>e.domReferenceElement,referenceElement:e=>e.positionReference??e.referenceElement,floatingElement:e=>e.floatingElement,floatingId:e=>e.floatingId},sa=class extends aa{constructor(e){let{syncOnly:t,nested:n,onOpenChange:r,triggerElements:i,...a}=e;super({...a,positionReference:a.referenceElement,domReferenceElement:a.referenceElement},{onOpenChange:r,dataRef:{current:{}},events:wi(),nested:n,triggerElements:i},oa),this.syncOnly=t}syncOpenEvent=(e,t)=>{(!e||!this.state.open||t!=null&&qn(t))&&(this.context.dataRef.current.openEvent=e?t:void 0)};dispatchOpenChange=(e,t)=>{this.syncOpenEvent(e,t.event);let n={open:e,reason:t.reason,nativeEvent:t.event,nested:this.context.nested,triggerElement:t.trigger};this.context.events.emit(`openchange`,n)};setOpen=(e,t)=>{if(this.syncOnly){this.context.onOpenChange?.(e,t);return}this.dispatchOpenChange(e,t),this.context.onOpenChange?.(e,t)}};function ca(e){let{popupStore:t,treatPopupAsFloatingElement:n=!1,floatingRootContext:r,floatingId:i,nested:a,onOpenChange:o}=e,s=t.useState(`open`),c=t.useState(`activeTriggerElement`),l=t.useState(n?`popupElement`:`positionerElement`),u=t.context.triggerElements,d=o,f=g.useRef(null);r===void 0&&f.current===null&&(f.current=new sa({open:s,transitionStatus:void 0,referenceElement:c,floatingElement:l,triggerElements:u,onOpenChange:d,floatingId:i,syncOnly:!0,nested:a}));let p=r??f.current;return t.useSyncedValue(`floatingId`,i),q(()=>{let e={open:s,floatingId:i,referenceElement:c,floatingElement:l};xe(c)&&(e.domReferenceElement=c),p.state.positionReference===p.state.referenceElement&&(e.positionReference=c),p.update(e)},[s,i,c,l,p]),p.context.onOpenChange=d,p.context.nested=a,p}var la={tabIndex:-1,[Sn]:``};function ua(e){return t=>t!==`touch`||e.current}function da(e,t=!1){let n=en(),r=Di()!=null,i=ke(()=>e(n,r)).current;return ca({popupStore:i,treatPopupAsFloatingElement:t,floatingRootContext:i.state.floatingRootContext,floatingId:n,nested:r,onOpenChange:i.setOpen}),i}function fa({handle:e,store:t}){return q(()=>e.attachStore(t),[e,t]),null}function pa(e,t,n,r=!1){let i=e.preventUnmountingOnClose;t?i=!1:r&&(i=!0);let a=n?.id??null,o=e.activeTriggerId,s=e.activeTriggerElement;return(a||t)&&(o=a,s=n??null),{open:t,preventUnmountingOnClose:i,activeTriggerId:o,activeTriggerElement:s}}function ma(e,t={}){let{closeOnActiveTriggerUnmount:n=!1}=t,r=g.useRef(null),i=e.useState(`open`);q(()=>{if(!i){r.current=null,e.state.triggerCount!==0&&e.set(`triggerCount`,0);return}let t=e.context.triggerElements.size,a={};e.state.triggerCount!==t&&(a.triggerCount=t);let o=e.select(`activeTriggerId`),s=null;if(o){let t=e.context.triggerElements.getById(o);if(t)r.current=o,t!==e.state.activeTriggerElement&&(a.activeTriggerElement=t);else{for(let[t,n]of e.context.triggerElements.entries())if(n===e.state.activeTriggerElement){a.activeTriggerId=t,a.activeTriggerElement=n,r.current=t;break}a.activeTriggerId===void 0&&(r.current===o?s=o:r.current=null)}}else r.current=null;if(!s&&!o&&t===1){let t=e.context.triggerElements.entries().next();if(!t.done){let[e,n]=t.value;a.activeTriggerId=e,a.activeTriggerElement=n,r.current=e}}(a.triggerCount!==void 0||a.activeTriggerId!==void 0||a.activeTriggerElement!==void 0)&&e.update(a),s&&n&&queueMicrotask(()=>{if(e.select(`open`)&&e.select(`activeTriggerId`)===s&&!e.context.triggerElements.getById(s)){let t=Hr(Fr);e.setOpen(!1,t),t.isCanceled||e.update({activeTriggerId:null,activeTriggerElement:null})}})},[i,e,e.useState(`triggerCount`),e.useState(`activeTriggerId`),e.useState(`activeTriggerElement`),n])}function ha(e,t,n,r){let{mounted:i,setMounted:a,transitionStatus:o}=jr(e,!1,!1,r),s=t.useState(`preventUnmountingOnClose`),c=!e&&s;t.useSyncedValues({mounted:i,transitionStatus:o,preventUnmountingOnClose:c});let l=K(()=>{a(!1),t.update({activeTriggerId:null,activeTriggerElement:null,mounted:!1,preventUnmountingOnClose:!1}),n?.(),t.context.onOpenChangeComplete?.(!1)});return Ar({enabled:i&&!e&&!c,open:e,ref:t.context.popupRef,onComplete(){e||l()}}),{forceUnmount:l,transitionStatus:o}}function ga(e,t){e.useSyncedValues(t),q(()=>()=>{e.update({activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X})},[e])}function _a(e,t){q(()=>{!t&&e.state.openMethod!==null&&e.set(`openMethod`,null)},[t,e]),q(()=>()=>{e.state.openMethod!==null&&e.set(`openMethod`,null)},[e])}var va=class{constructor(){this.idMap=new Map}add(e,t){this.idMap.set(e,t)}delete(e){this.idMap.delete(e)}hasElement(e){for(let t of this.idMap.values())if(t===e)return!0;return!1}hasMatchingElement(e){for(let t of this.idMap.values())if(e(t))return!0;return!1}getById(e){return this.idMap.get(e)}entries(){return this.idMap.entries()}elements(){return this.idMap.values()}get size(){return this.idMap.size}};function ya(e,t,n=!1){return{open:!1,openProp:void 0,mounted:!1,transitionStatus:void 0,floatingRootContext:new sa({open:!1,transitionStatus:void 0,floatingElement:null,referenceElement:null,triggerElements:e,floatingId:t,syncOnly:!0,nested:n,onOpenChange:void 0}),floatingId:t,triggerCount:0,preventUnmountingOnClose:!1,payload:void 0,activeTriggerId:null,activeTriggerElement:null,triggerIdProp:void 0,popupElement:null,positionerElement:null,activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X}}var ba=e=>e.triggerIdProp??e.activeTriggerId,xa=e=>e.openProp??e.open,Sa=e=>(e.popupElement?.id??e.floatingId)||void 0;function Ca(e,t){return t!==void 0&&xa(e)&&ba(e)===t}function wa(e,t){return Ca(e,t)?!0:t!==void 0&&xa(e)&&ba(e)==null&&e.triggerCount===1}var Ta={open:xa,mounted:e=>e.mounted,transitionStatus:e=>e.transitionStatus,floatingRootContext:e=>e.floatingRootContext,triggerCount:e=>e.triggerCount,preventUnmountingOnClose:e=>e.preventUnmountingOnClose,payload:e=>e.payload,activeTriggerId:ba,activeTriggerElement:e=>e.mounted?e.activeTriggerElement:null,popupId:Sa,isTriggerActive:(e,t)=>t!==void 0&&ba(e)===t,isOpenedByTrigger:(e,t)=>Ca(e,t),isMountedByTrigger:(e,t)=>t!==void 0&&ba(e)===t&&e.mounted,triggerProps:(e,t)=>t?e.activeTriggerProps:e.inactiveTriggerProps,triggerPopupId:(e,t)=>wa(e,t)?Sa(e):void 0,popupProps:e=>e.popupProps,popupElement:e=>e.popupElement,positionerElement:e=>e.positionerElement},Ea=g.createContext(void 0);function Da(){let e=g.useContext(Ea);if(e===void 0)throw Error(Ze(26));return e}var Oa=new Set([`ArrowUp`,`ArrowDown`,`ArrowLeft`,`ArrowRight`,`Home`,`End`]),ka=`--nested-dialogs`,Aa=`data-nested-dialog-open`,ja={...Pn,...Dn,nestedDialogOpen(e){return e?{[Aa]:``}:null}},Ma=g.forwardRef(function(e,t){let{render:n,className:r,style:i,finalFocus:a,initialFocus:o,...s}=e,c=Jr(),l=c.useState(`descriptionElementId`),u=c.useState(`disablePointerDismissal`),d=c.useState(`floatingRootContext`),f=c.useState(`popupProps`),p=c.useState(`modal`),m=c.useState(`mounted`),h=c.useState(`nested`),g=c.useState(`nestedOpenDialogCount`),_=c.useState(`open`),v=c.useState(`openMethod`),y=c.useState(`titleElementId`),b=c.useState(`transitionStatus`),x=c.useState(`role`),S=d.useState(`floatingId`);Da(),Ar({open:_,ref:c.context.popupRef,onComplete(){_&&c.context.onOpenChangeComplete?.(!0)}});let C=o===void 0?ua(c.context.popupRef):o,w=g>0,T=c.useStateSetter(`popupElement`),E=vt(`div`,e,{state:{open:_,nested:h,transitionStatus:b,nestedDialogOpen:w},props:[f,{id:S,"aria-labelledby":y,"aria-describedby":l,role:x,...la,hidden:!m,onKeyDown(e){Oa.has(e.key)&&e.stopPropagation()},style:{[ka]:g}},s],ref:[t,c.context.popupRef,T],stateAttributesMapping:ja});return(0,U.jsx)(Li,{context:d,openInteractionType:v,disabled:!m,closeOnFocusOut:!u,initialFocus:C,returnFocus:a,modal:p!==!1,restoreFocus:`popup`,children:E})});function Na(e){return ft(19)?e:e?`true`:void 0}var Pa=g.forwardRef(function(e,t){let{cutout:n,...r}=e,i;if(n){let e=n.getBoundingClientRect();i=`polygon(0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,${e.left}px ${e.top}px,${e.left}px ${e.bottom}px,${e.right}px ${e.bottom}px,${e.right}px ${e.top}px,${e.left}px ${e.top}px)`}return(0,U.jsx)(`div`,{ref:t,role:`presentation`,"data-base-ui-inert":``,...r,style:{position:`fixed`,inset:0,userSelect:`none`,WebkitUserSelect:`none`,clipPath:i}})}),Fa=g.forwardRef(function(e,t){let{keepMounted:n=!1,...r}=e,i=Jr(),a=i.useState(`mounted`),o=i.useState(`modal`),s=i.useState(`open`);return a||n?(0,U.jsx)(Ea.Provider,{value:n,children:(0,U.jsxs)(Ci,{ref:t,...r,children:[a&&o===!0&&(0,U.jsx)(Pa,{ref:i.context.internalBackdropRef,inert:Na(!s)}),e.children]})}):null}),Ia={},La={},Ra=``;function za(e,t){return Ce(e)?e:t}function Ba(e,t,n){return/hidden|clip/.test(e.getComputedStyle(za(t,n)).overflowY)}function Va(e){if(typeof document>`u`)return!1;let t=J(e);return ve(t).innerWidth-t.documentElement.clientWidth>0}function Ha(e){if(!(typeof CSS<`u`&&CSS.supports&&CSS.supports(`scrollbar-gutter`,`stable`))||typeof document>`u`)return!1;let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a=i.style.overflowY,o=n.style.scrollbarGutter;n.style.scrollbarGutter=`stable`,i.style.overflowY=`scroll`;let s=i.offsetWidth;i.style.overflowY=`hidden`;let c=i.offsetWidth;return i.style.overflowY=a,n.style.scrollbarGutter=o,s===c}function Ua(e){let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a={overflowY:i.style.overflowY,overflowX:i.style.overflowX};return Object.assign(i.style,{overflowY:`hidden`,overflowX:`hidden`}),()=>{Object.assign(i.style,a)}}function Wa(e){let t=J(e),n=t.documentElement,r=t.body,i=ve(n),a=0,o=0,s=!1,c=wr.create();if(_n&&(i.visualViewport?.scale??1)!==1)return()=>{};function l(){let t=i.getComputedStyle(n),c=i.getComputedStyle(r),l=(t.scrollbarGutter||``).includes(`both-edges`)?`stable both-edges`:`stable`;a=n.scrollTop,o=n.scrollLeft,Ia={scrollbarGutter:n.style.scrollbarGutter,overflowY:n.style.overflowY,overflowX:n.style.overflowX},Ra=n.style.scrollBehavior,La={position:r.style.position,height:r.style.height,width:r.style.width,boxSizing:r.style.boxSizing,overflowY:r.style.overflowY,overflowX:r.style.overflowX,scrollBehavior:r.style.scrollBehavior};let u=n.scrollHeight>n.clientHeight,d=n.scrollWidth>n.clientWidth,f=t.overflowY===`scroll`||c.overflowY===`scroll`,p=t.overflowX===`scroll`||c.overflowX===`scroll`,m=Math.max(0,i.innerWidth-r.clientWidth),h=Math.max(0,i.innerHeight-r.clientHeight),g=parseFloat(c.marginTop)+parseFloat(c.marginBottom),_=parseFloat(c.marginLeft)+parseFloat(c.marginRight),v=za(n,r);if(s=Ha(e),s){n.style.scrollbarGutter=l,v.style.overflowY=`hidden`,v.style.overflowX=`hidden`;return}Object.assign(n.style,{scrollbarGutter:l,overflowY:`hidden`,overflowX:`hidden`}),(u||f)&&(n.style.overflowY=`scroll`),(d||p)&&(n.style.overflowX=`scroll`),Object.assign(r.style,{position:`relative`,height:g||h?`calc(100dvh - ${g+h}px)`:`100dvh`,width:_||m?`calc(100vw - ${_+m}px)`:`100vw`,boxSizing:`border-box`,overflowY:`hidden`,overflowX:`hidden`,scrollBehavior:`unset`}),r.scrollTop=a,r.scrollLeft=o,n.setAttribute(`data-base-ui-scroll-locked`,``),n.style.scrollBehavior=`unset`}function u(){Object.assign(n.style,Ia),Object.assign(r.style,La),s||(n.scrollTop=a,n.scrollLeft=o,n.removeAttribute(`data-base-ui-scroll-locked`),n.style.scrollBehavior=Ra)}function d(){u(),c.request(l)}l();let f=Q(i,`resize`,d);return()=>{c.cancel(),u(),typeof i.removeEventListener==`function`&&f()}}var Ga=new class{lockCount=0;restore=null;timeoutLock=br.create();timeoutUnlock=br.create();acquire(e){return this.lockCount+=1,this.lockCount===1&&this.restore===null&&this.timeoutLock.start(0,()=>this.lock(e)),this.release}release=()=>{--this.lockCount,this.lockCount===0&&this.restore&&this.timeoutUnlock.start(0,this.unlock)};unlock=()=>{this.lockCount===0&&this.restore&&(this.restore?.(),this.restore=null)};lock(e){if(this.lockCount===0||this.restore!==null)return;let t=J(e),n=t.documentElement,r=t.body,i=ve(n);if(Ba(i,n,r)){let t=new i.MutationObserver(()=>{Ba(i,n,r)||(t.disconnect(),this.restore=null,this.lock(e))}),a={attributes:!0};t.observe(n,a),t.observe(r,a),this.restore=()=>t.disconnect();return}let a=fn||!Va(e);this.restore=a?Ua(e):Wa(e)}};function Ka(e=!0,t=null){q(()=>{if(e)return Ga.acquire(t)},[e,t])}function qa({store:e,parentContext:t,isDrawer:n}){let r=e.useState(`open`),i=e.useState(`disablePointerDismissal`),a=e.useState(`modal`),o=e.useState(`popupElement`),s=e.useState(`floatingRootContext`),[c,l]=g.useState(0),[u,d]=g.useState(0),f=c===0,p=Bi(s,{outsidePressEvent(){return e.context.internalBackdropRef.current||e.context.backdropRef.current?`intentional`:{mouse:a===`trap-focus`?`sloppy`:`intentional`,touch:`sloppy`}},outsidePress(t){if(!e.context.outsidePressEnabledRef.current||`button`in t&&t.button!==0)return!1;if(`touches`in t){if(t.type===`touchend`){if(t.changedTouches.length!==1||t.touches.length!==0)return!1}else if(t.touches.length!==1)return!1}let n=xn(t);if(f&&!i){if(a){let t=e.context.internalBackdropRef.current,r=e.context.backdropRef.current;return t||r?t===n||r===n||Z(n,o)&&!n?.hasAttribute(`data-base-ui-portal`):!0}return!0}return!1},escapeKey:f});return Ka(r&&a===!0,o),e.useContextCallback(`onNestedDialogOpen`,(e,t)=>{l(e),d(t)}),q(()=>(t?.onNestedDialogOpen&&(r?t.onNestedDialogOpen(c+1,u+ +!!n):t.onNestedDialogOpen(0,0)),()=>{t?.onNestedDialogOpen&&r&&t.onNestedDialogOpen(0,0)}),[n,r,c,u,t]),ga(e,{activeTriggerProps:p.reference,inactiveTriggerProps:p.trigger,popupProps:p.floating,nestedOpenDialogCount:c,nestedOpenDrawerCount:u}),null}var Ja={...Ta,modal:e=>e.modal,nested:e=>e.nested,nestedOpenDialogCount:e=>e.nestedOpenDialogCount,nestedOpenDrawerCount:e=>e.nestedOpenDrawerCount,disablePointerDismissal:e=>e.disablePointerDismissal,openMethod:e=>e.openMethod,descriptionElementId:e=>e.descriptionElementId,titleElementId:e=>e.titleElementId,viewportElement:e=>e.viewportElement,role:e=>e.role},Ya=class extends aa{constructor(e,t,n){let r=new va,i=Xa(e,r,t,n);super(i,Za(r),Ja)}setOpen=(e,t)=>{t.preventUnmountOnClose=()=>{this.set(`preventUnmountingOnClose`,!0)},!e&&t.trigger==null&&this.state.activeTriggerId!=null&&(t.trigger=this.state.activeTriggerElement??void 0),this.context.onOpenChange?.(e,t),!t.isCanceled&&(this.state.floatingRootContext.dispatchOpenChange(e,t),this.update(pa(this.state,e,t.trigger)))}};function Xa(e,t,n,r=!1){return{...ya(t,n,r),modal:!0,disablePointerDismissal:!1,viewportElement:null,descriptionElementId:void 0,titleElementId:void 0,openMethod:null,nested:!1,nestedOpenDialogCount:0,nestedOpenDrawerCount:0,role:`dialog`,...e}}function Za(e){return{popupRef:g.createRef(),backdropRef:g.createRef(),internalBackdropRef:g.createRef(),outsidePressEnabledRef:{current:!0},triggerElements:e,onOpenChange:void 0,onOpenChangeComplete:void 0}}function Qa(e,t){let{children:n,open:r,defaultOpen:i=!1,onOpenChange:a,onOpenChangeComplete:o,disablePointerDismissal:s=!1,modal:c=!0,actionsRef:l,handle:u,triggerId:d,defaultTriggerId:f=null}=t,p=e===`drawer`,m=e===`alert-dialog`,h=m?!0:c,_=m||s,v=m?`alertdialog`:`dialog`,y=Jr(!0),b={modal:h,disablePointerDismissal:_,nested:y!=null,role:v},x=da((e,t)=>new Ya({open:i,openProp:r,activeTriggerId:f,triggerIdProp:d,...b},e,t),!0);x.useControlledProp(`openProp`,r),x.useControlledProp(`triggerIdProp`,d),x.useSyncedValues(b),x.useContextCallback(`onOpenChange`,a),x.useContextCallback(`onOpenChangeComplete`,o);let S=x.useState(`open`),C=x.useState(`mounted`),w=x.useState(`payload`);_a(x,S),ma(x);let{forceUnmount:T}=ha(S,x);g.useImperativeHandle(l,()=>({unmount:T,close:()=>x.setOpen(!1,Hr(Vr))}),[T,x]);let E=S||C;return(0,U.jsxs)(qr.Provider,{value:x,children:[u&&(0,U.jsx)(fa,{handle:u,store:x}),E&&(0,U.jsx)(qa,{store:x,parentContext:y?.context,isDrawer:p}),typeof n==`function`?n({payload:w}):n]})}var $a=Yi(function(e){return Qa(`dialog`,e)}),eo=g.forwardRef(function(e,t){let{render:n,className:r,style:i,id:a,...o}=e,s=Jr(),c=tn(a);return s.useSyncedValueWithCleanup(`titleElementId`,c),vt(`h2`,e,{ref:t,props:[{id:c},o]})});function to({...e}){return(0,U.jsx)($a,{"data-slot":`sheet`,...e})}function no({...e}){return(0,U.jsx)(Fa,{"data-slot":`sheet-portal`,...e})}function ro({className:e,...t}){return(0,U.jsx)(Yr,{"data-slot":`sheet-overlay`,className:H(`fixed inset-0 z-50 bg-black/10 transition-opacity duration-150 data-ending-style:opacity-0 data-starting-style:opacity-0 supports-backdrop-filter:backdrop-blur-xs`,e),...t})}function io({className:e,children:t,side:n=`right`,showCloseButton:r=!0,...i}){return(0,U.jsxs)(no,{children:[(0,U.jsx)(ro,{}),(0,U.jsxs)(Ma,{"data-slot":`sheet-content`,"data-side":n,className:H(`fixed z-50 flex flex-col gap-4 bg-popover bg-clip-padding text-sm text-popover-foreground shadow-lg transition duration-200 ease-in-out data-ending-style:opacity-0 data-starting-style:opacity-0 data-[side=bottom]:inset-x-0 data-[side=bottom]:bottom-0 data-[side=bottom]:h-auto data-[side=bottom]:border-t data-[side=bottom]:data-ending-style:translate-y-[2.5rem] data-[side=bottom]:data-starting-style:translate-y-[2.5rem] data-[side=left]:inset-y-0 data-[side=left]:left-0 data-[side=left]:h-full data-[side=left]:w-3/4 data-[side=left]:border-r data-[side=left]:data-ending-style:translate-x-[-2.5rem] data-[side=left]:data-starting-style:translate-x-[-2.5rem] data-[side=right]:inset-y-0 data-[side=right]:right-0 data-[side=right]:h-full data-[side=right]:w-3/4 data-[side=right]:border-l data-[side=right]:data-ending-style:translate-x-[2.5rem] data-[side=right]:data-starting-style:translate-x-[2.5rem] data-[side=top]:inset-x-0 data-[side=top]:top-0 data-[side=top]:h-auto data-[side=top]:border-b data-[side=top]:data-ending-style:translate-y-[-2.5rem] data-[side=top]:data-starting-style:translate-y-[-2.5rem] data-[side=left]:sm:max-w-sm data-[side=right]:sm:max-w-sm`,e),...i,children:[t,r&&(0,U.jsxs)(Xr,{"data-slot":`sheet-close`,render:(0,U.jsx)(jt,{variant:`ghost`,className:`absolute top-3 right-3`,size:`icon-sm`}),children:[(0,U.jsx)(fe,{}),(0,U.jsx)(`span`,{className:`sr-only`,children:`Close`})]})]})]})}function ao({className:e,...t}){return(0,U.jsx)(eo,{"data-slot":`sheet-title`,className:H(`font-heading text-base font-medium text-foreground`,e),...t})}var oo=[{type:`folder`,name:`.github`,path:`.github`,children:[{type:`folder`,name:`workflows`,path:`.github/workflows`,children:[{type:`file`,name:`rust.yml`,path:`.github/workflows/rust.yml`,language:`YAML`,content:`name: Deploy Rust Apps
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-CDYNIP4f.js","assets/index-BhQC2Qky.js","assets/index-DvX3jdk1.css","assets/default-DMI-Tsal.js","assets/space-separated-tokens-ewWZthPN.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-BiKMfUhN.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
+import{a as e,i as t,n,r,s as i,t as a}from"./index-BhQC2Qky.js";var o=e=>e?.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase();function s(e,t,n=[]){if(t==null)throw Error(`[lucide]: iconNode is required when icon name is used`);return{name:o(e),size:24,node:t,...n.length>0?{aliases:n}:{}}}var c=e=>{let t=``,n=!1;for(let r of e){if(r===`-`||r===`_`||r<=` `){n=t.length>0;continue}t.length===0?t+=r.toLowerCase():t+=n?r.toUpperCase():r,n=!1}return t},l=e=>{let t=c(e);return t.charAt(0).toUpperCase()+t.slice(1)},u=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),d={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,"stroke-width":2,"stroke-linecap":`round`,"stroke-linejoin":`round`};function f(e){return e!=null}function p(e,t={}){let n=t.attributeNames??{},r=e=>n[e]??e,i=e.size??e.width??d.width,a=e.size??e.height??d.height,o=e.aliases?.filter(e=>typeof e==`string`&&e.trim()!==``).map(e=>`lucide-${e}`)??[],s=[...e.name?[`lucide-${e.name}`]:[],...o],c=t.className?.split(` `).filter(Boolean)??[],l=t.includeDefaultClasses===!1?u(...c):u(`lucide`,...s,...c),p=t.absoluteStrokeWidth?Number(t.strokeWidth??d[`stroke-width`])*Number(e.size??e.width??d.width)/Number(t.size??t.width??d.width):t.strokeWidth??d[`stroke-width`];return[`svg`,{...Object.entries(d).reduce((e,[t,n])=>(e[r(t)]=n,e),{}),...`color`in t&&t.color&&{[r(`stroke`)]:t.color},...`size`in t&&f(t.size)&&{[r(`width`)]:t.size,[r(`height`)]:t.size},...`width`in t&&f(t.width)&&{[r(`width`)]:t.width},...`height`in t&&f(t.height)&&{[r(`height`)]:t.height},[r(`stroke-width`)]:p,...l&&{[r(`class`)]:l},[r(`viewBox`)]:`0 0 ${i} ${a}`,...t.hasA11yProp===!1?{[r(`aria-hidden`)]:`true`}:{},...`attributes`in t&&t.attributes},e.node.map(e=>{let[n,i,a]=e,o=t.nonScalingStroke?{[r(`vector-effect`)]:`non-scaling-stroke`,...i}:i;return a?[n,o,a]:[n,o]})]}function m(e,t={}){return p(e,{...t,attributeNames:{...t.attributeNames,class:`className`,"stroke-width":`strokeWidth`,"stroke-linecap":`strokeLinecap`,"stroke-linejoin":`strokeLinejoin`,"vector-effect":`vectorEffect`}})}var h=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},g=i(t(),1),_=(0,g.createContext)({}),v=()=>(0,g.useContext)(_),y=(0,g.forwardRef)(({color:e,size:t,width:n,height:r,strokeWidth:i,absoluteStrokeWidth:a,nonScalingStroke:o,className:s=``,children:c,iconNode:l=[],icon:d={node:l,aliases:[],size:24},...f},p)=>{let{size:_=24,strokeWidth:y=2,absoluteStrokeWidth:b=!1,nonScalingStroke:x=!1,color:S=`currentColor`,className:C=``}=v()??{},w=!!c||h(f),[T,E,D=[]]=m(d,{color:e??S,width:n??t??_,height:r??t??_,strokeWidth:i??y,absoluteStrokeWidth:a??b,nonScalingStroke:o??x,className:u(C,s),hasA11yProp:w,attributes:f});return(0,g.createElement)(T,{ref:p,...E},[...D.map(([e,t])=>(0,g.createElement)(e,t)),...Array.isArray(c)?c:[c]])});function b(e,t=[],n=[]){let r=typeof e==`string`?s(e,t,n):e,i=(0,g.forwardRef)(({className:e,...t},n)=>(0,g.createElement)(y,{ref:n,icon:r,className:e,...t}));return r.name&&(i.displayName=l(r.name)),i}var x={name:`arrow-right`,size:24,node:[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`m12 5 7 7-7 7`,key:`xquz4c`}]]};x.node;var S=b(x),C={name:`braces`,size:24,node:[[`path`,{d:`M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1`,key:`ezmyqa`}],[`path`,{d:`M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1`,key:`e1hn23`}]],aliases:[`curly-braces`]};C.node;var w=b(C),T={name:`chevron-down`,size:24,node:[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]};T.node;var E=b(T),D={name:`chevron-right`,size:24,node:[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]};D.node;var O=b(D),k={name:`code-xml`,size:24,node:[[`path`,{d:`m18 16 4-4-4-4`,key:`1inbqp`}],[`path`,{d:`m6 8-4 4 4 4`,key:`15zrgr`}],[`path`,{d:`m14.5 4-5 16`,key:`e7oirm`}]],aliases:[`code-2`]};k.node;var A=b(k),j={name:`corner-down-left`,size:24,node:[[`path`,{d:`M20 4v7a4 4 0 0 1-4 4H4`,key:`6o5b7l`}],[`path`,{d:`m9 10-5 5 5 5`,key:`1kshq7`}]]};j.node;var M=b(j),N={name:`eye`,size:24,node:[[`path`,{d:`M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0`,key:`1nclc0`}],[`circle`,{cx:`12`,cy:`12`,r:`3`,key:`1v7zrd`}]]};N.node;var P=b(N),F={name:`file-code-corner`,size:24,node:[[`path`,{d:`M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35`,key:`1wthlu`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`m5 16-3 3 3 3`,key:`331omg`}],[`path`,{d:`m9 22 3-3-3-3`,key:`lsp7cz`}]],aliases:[`file-code-2`]};F.node;var I=b(F),L={name:`file-text`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`M10 9H8`,key:`b1mrlr`}],[`path`,{d:`M16 13H8`,key:`t4e002`}],[`path`,{d:`M16 17H8`,key:`z1uh3a`}]]};L.node;var R=b(L),z={name:`file`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}]]};z.node;var B=b(z),ee={name:`folder-open`,size:24,node:[[`path`,{d:`m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2`,key:`usdka0`}]]};ee.node;var te=b(ee),ne={name:`folder`,size:24,node:[[`path`,{d:`M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z`,key:`1kt360`}]]};ne.node;var re=b(ne),V={name:`house`,size:24,node:[[`path`,{d:`M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8`,key:`5wwlr5`}],[`path`,{d:`M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z`,key:`r6nss1`}]],aliases:[`home`]};V.node;var ie=b(V),ae={name:`info`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 16v-4`,key:`1dtifu`}],[`path`,{d:`M12 8h.01`,key:`e9boi3`}]]};ae.node;var oe=b(ae),se={name:`menu`,size:24,node:[[`path`,{d:`M4 5h16`,key:`1tepv9`}],[`path`,{d:`M4 12h16`,key:`1lakjw`}],[`path`,{d:`M4 19h16`,key:`1djgab`}]]};se.node;var ce=b(se),le={name:`search`,size:24,node:[[`path`,{d:`m21 21-4.34-4.34`,key:`14j7rj`}],[`circle`,{cx:`11`,cy:`11`,r:`8`,key:`4ej97u`}]]};le.node;var ue=b(le),de={name:`x`,size:24,node:[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]};de.node;var fe=b(de),pe=i(r(),1),me=`/not-so-informatic/assets/favicon-46SYL3JR.png`;function he(e){return e?typeof e==`string`?e:Array.isArray(e)?e.map(he).filter(Boolean).join(` `):typeof e==`object`?Object.entries(e).filter(([,e])=>!!e).map(([e])=>e).join(` `):``:``}function H(...e){return e.map(he).filter(Boolean).join(` `)}var U=n();function ge({checked:e,onCheckedChange:t,label:n,className:r,disabled:i=!1}){return(0,U.jsx)(`button`,{type:`button`,role:`switch`,"aria-checked":e,"aria-label":n,disabled:i,onClick:()=>t(!e),className:H(`group inline-flex shrink-0 items-center rounded-full border border-transparent p-0.5 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50`,e?`bg-foreground`:`bg-secondary`,r),children:(0,U.jsx)(`span`,{"aria-hidden":`true`,className:H(`size-[18px] rounded-full bg-background shadow-sm transition-transform duration-200`,e&&`translate-x-[18px]`)})})}function _e(){return typeof window<`u`}function W(e){return be(e)?(e.nodeName||``).toLowerCase():`#document`}function ve(e){var t;return(e==null||(t=e.ownerDocument)==null?void 0:t.defaultView)||window}function ye(e){return((be(e)?e.ownerDocument:e.document)||window.document)?.documentElement}function be(e){return _e()?e instanceof Node||e instanceof ve(e).Node:!1}function xe(e){return _e()?e instanceof Element||e instanceof ve(e).Element:!1}function G(e){return _e()?e instanceof HTMLElement||e instanceof ve(e).HTMLElement:!1}function Se(e){return!_e()||typeof ShadowRoot>`u`?!1:e instanceof ShadowRoot||e instanceof ve(e).ShadowRoot}function Ce(e){let{overflow:t,overflowX:n,overflowY:r,display:i}=Te(e);return/auto|scroll|overlay|hidden|clip/.test(t+r+n)&&i!==`inline`&&i!==`contents`}function we(e){return/^(html|body|#document)$/.test(W(e))}function Te(e){return ve(e).getComputedStyle(e)}function Ee(e){if(W(e)===`html`)return e;let t=e.assignedSlot||e.parentNode||Se(e)&&e.host||ye(e);return Se(t)?t.host:t}var De={...g},Oe={};function ke(e,t){let n=g.useRef(Oe);return n.current===Oe&&(n.current=e(t)),n}var Ae=De.useInsertionEffect,je=Ae&&Ae!==De.useLayoutEffect?Ae:e=>e();function K(e){let t=ke(Me).current;return t.next=e,je(t.effect),t.trampoline}function Me(){let e={next:void 0,callback:Ne,trampoline:(...t)=>e.callback?.(...t),effect:()=>{e.callback=e.next}};return e}function Ne(){}var q=typeof document<`u`?g.useLayoutEffect:()=>{};function Pe(e,t){if(e&&!t)return e;if(!e&&t)return t;if(e||t)return{...e,...t}}var Fe={};function Ie(e,t,n,r,i){if(!n&&!r&&!i&&!e)return Re(t);let a=Re(e);return t&&(a=ze(a,t)),n&&(a=ze(a,n)),r&&(a=ze(a,r)),i&&(a=ze(a,i)),a}function Le(e){if(e.length===0)return Fe;if(e.length===1)return Re(e[0]);let t=Re(e[0]);for(let n=1;n<e.length;n+=1)t=ze(t,e[n]);return t}function Re(e){return Ue(e)?{...We(e,Fe)}:Be(e)}function ze(e,t){return Ue(t)?We(t,e):Ve(e,t)}function Be(e){let t={...e};for(let e in t){let n=t[e];He(e,n)&&(t[e]=Ke(n))}return t}function Ve(e,t){if(!t)return e;for(let n in t){let r=t[n];switch(n){case`style`:e[n]=Pe(e.style,r);break;case`className`:e[n]=Je(e.className,r);break;default:e[n]=He(n,r)?Ge(e[n],r):r}}return e}function He(e,t){let n=e.charCodeAt(0),r=e.charCodeAt(1),i=e.charCodeAt(2);return n===111&&r===110&&i>=65&&i<=90&&(typeof t==`function`||t===void 0)}function Ue(e){return typeof e==`function`}function We(e,t){return Ue(e)?e(t):e??Fe}function Ge(e,t){return t?e?(...n)=>{let r=n[0];if(Ye(r)){let i=r;qe(i);let a=t(...n);return i.baseUIHandlerPrevented||e?.(...n),a}let i=t(...n);return e?.(...n),i}:Ke(t):e}function Ke(e){return e&&((...t)=>{let n=t[0];return Ye(n)&&qe(n),e(...t)})}function qe(e){return e.preventBaseUIHandler=()=>{e.baseUIHandlerPrevented=!0},e}function Je(e,t){return t?e?t+` `+e:t:e}function Ye(e){return typeof e==`object`&&!!e&&`nativeEvent`in e}function Xe(e,t){return function(n,...r){let i=new URL(e);return i.searchParams.set(`code`,n.toString()),r.forEach(e=>i.searchParams.append(`args[]`,e)),`${t} error #${n}; visit ${i} for the full message.`}}var Ze=Xe(`https://base-ui.com/production-error`,`Base UI`),Qe=g.createContext(void 0);function $e(e=!1){let t=g.useContext(Qe);if(t===void 0&&!e)throw Error(Ze(16));return t}function et(e){let{focusableWhenDisabled:t,disabled:n,composite:r=!1,tabIndex:i=0,isNativeButton:a}=e,o=r&&t!==!1,s=r&&t===!1;return{props:g.useMemo(()=>{let e={onKeyDown(e){n&&t&&e.key!==`Tab`&&e.preventDefault()}};return r||(e.tabIndex=i,!a&&n&&(e.tabIndex=t?i:-1)),(a&&(t||o)||!a&&n)&&(e[`aria-disabled`]=n),a&&(!t||s)&&(e.disabled=n),e},[r,n,t,o,s,a,i])}}function J(e){return e?.ownerDocument||document}function tt(e,t,{detail:n=0}={}){e.dispatchEvent(new(ve(e)).PointerEvent(`click`,{bubbles:!0,cancelable:!0,composed:!0,detail:n,shiftKey:t.shiftKey,ctrlKey:t.ctrlKey,altKey:t.altKey,metaKey:t.metaKey}))}function nt(e={}){let{disabled:t=!1,focusableWhenDisabled:n,tabIndex:r=0,native:i=!0,composite:a}=e,o=g.useRef(null),s=$e(!0),c=a??s!==void 0,{props:l}=et({focusableWhenDisabled:n,disabled:t,composite:c,tabIndex:r,isNativeButton:i}),u=g.useCallback(()=>{let e=o.current;rt(e)&&c&&t&&l.disabled===void 0&&e.disabled&&(e.disabled=!1)},[t,l.disabled,c]);return q(u,[u]),{getButtonProps:g.useCallback((e={})=>{let{onClick:n,onMouseDown:r,onKeyUp:a,onKeyDown:o,onPointerDown:s,...u}=e;return Ie({onClick(e){if(t){e.preventDefault();return}n?.(e)},onMouseDown(e){t||r?.(e)},onKeyDown(e){if(t||(qe(e),o?.(e),e.baseUIHandlerPrevented))return;let n=e.target===e.currentTarget,r=e.currentTarget,a=rt(r),s=!i&&it(r),l=n&&(i?a:!s),u=e.key===`Enter`,d=e.key===` `,f=r.getAttribute(`role`),p=f?.startsWith(`menuitem`)||f===`option`||f===`gridcell`;if(n&&c&&d){if(e.defaultPrevented&&p)return;e.preventDefault(),(!i||a)&&(e.preventBaseUIHandler(),tt(r,e));return}if(!l||i||!d&&!u){n&&s&&d&&e.preventDefault();return}e.defaultPrevented||(e.preventDefault(),u&&(e.preventBaseUIHandler(),tt(r,e)))},onKeyUp(e){if(!t){if(qe(e),a?.(e),e.target===e.currentTarget&&i&&c&&rt(e.currentTarget)&&e.key===` `){e.preventDefault();return}e.baseUIHandlerPrevented||e.target===e.currentTarget&&!i&&!c&&!e.defaultPrevented&&e.key===` `&&(e.preventBaseUIHandler(),tt(e.currentTarget,e))}},onPointerDown(e){if(t){e.preventDefault();return}s?.(e)}},i?{type:`button`}:{role:`button`},l,u)},[t,l,c,i]),buttonRef:K(e=>{o.current=e,u()})}}function rt(e){return G(e)&&e.tagName===`BUTTON`}function it(e){return G(e)&&e.tagName===`A`&&!!e.href}function at(e,t,n,r){let i=ke(st).current;return ct(i,e,t,n,r)&&ut(i,[e,t,n,r]),i.callback}function ot(e){let t=ke(st).current;return lt(t,e)&&ut(t,e),t.callback}function st(){return{callback:null,cleanup:null,refs:[]}}function ct(e,t,n,r,i){return e.refs[0]!==t||e.refs[1]!==n||e.refs[2]!==r||e.refs[3]!==i}function lt(e,t){return e.refs.length!==t.length||e.refs.some((e,n)=>e!==t[n])}function ut(e,t){if(e.refs=t,t.every(e=>e==null)){e.callback=null;return}e.callback=n=>{if(e.cleanup&&=(e.cleanup(),null),n!=null){let r=Array(t.length).fill(null);for(let e=0;e<t.length;e+=1){let i=t[e];if(i!=null)switch(typeof i){case`function`:{let t=i(n);typeof t==`function`&&(r[e]=t);break}case`object`:i.current=n}}e.cleanup=()=>{for(let e=0;e<t.length;e+=1){let n=t[e];if(n!=null)switch(typeof n){case`function`:{let t=r[e];typeof t==`function`?t():n(null);break}case`object`:n.current=null}}}}}}var dt=18;function ft(e){return dt>=e}function pt(e){if(!g.isValidElement(e))return null;let t=e,n=t.props;return(ft(19)?n?.ref:t.ref)??null}function Y(){}var mt=Object.freeze([]),X=Object.freeze({});function ht(e,t){let n={};for(let r in e){let i=e[r];if(t?.hasOwnProperty(r)){let e=t[r](i);e!=null&&Object.assign(n,e);continue}i===!0?n[`data-${r.toLowerCase()}`]=``:i&&(n[`data-${r.toLowerCase()}`]=i.toString())}return n}function gt(e,t){return typeof e==`function`?e(t):e}function _t(e,t){return typeof e==`function`?e(t):e}function vt(e,t,n={}){let r=t.render;n.enabled!==!1&&(r=St(r));let i=yt(t,n,r);if(n.enabled===!1)return null;let a=n.state??X;return Ct(e,r,i,a)}function yt(e,t,n){let{className:r,style:i}=e,{state:a=X,ref:o,props:s,stateAttributesMapping:c,enabled:l=!0}=t,u=l?gt(r,a):void 0,d=l?_t(i,a):void 0,f=l?ht(a,c):X,p=l&&s?bt(s):void 0,m=l?Pe(f,p)??{}:X;return typeof document<`u`&&(l?m.ref=Array.isArray(o)?ot([m.ref,pt(n),...o]):at(m.ref,pt(n),o):at(null,null)),l?(u!==void 0&&(m.className=Je(m.className,u)),d!==void 0&&(m.style=Pe(m.style,d)),m):X}function bt(e){return Array.isArray(e)?Le(e):Ie(void 0,e)}var xt=Symbol.for(`react.lazy`);function St(e){if(e?.$$typeof!==xt)return e;let t=g.Children.toArray(e)[0];return g.isValidElement(t)?t:e}function Ct(e,t,n,r){if(t){if(typeof t==`function`)return t(n,r);let e=Ie(n,t.props);return e.ref=n.ref,g.cloneElement(t,e)}if(e&&typeof e==`string`)return wt(e,n);throw Error(Ze(8))}function wt(e,t){return e===`button`?(0,g.createElement)(`button`,{type:`button`,...t,key:t.key}):e===`img`?(0,g.createElement)(`img`,{alt:``,...t,key:t.key}):g.createElement(e,t)}var Tt=g.forwardRef(function(e,t){let{render:n,className:r,disabled:i=!1,focusableWhenDisabled:a=!1,nativeButton:o=!0,style:s,...c}=e,{getButtonProps:l,buttonRef:u}=nt({disabled:i,focusableWhenDisabled:a,native:o});return vt(`button`,e,{state:{disabled:i},ref:[t,u],props:[c,l]})});function Et(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=Et(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Dt(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=Et(e))&&(r&&(r+=` `),r+=t);return r}var Ot=e=>typeof e==`boolean`?`${e}`:e===0?`0`:e,kt=Dt,At=((e,t)=>n=>{if(t?.variants==null)return kt(e,n?.class,n?.className);let{variants:r,defaultVariants:i}=t,a=Object.keys(r).map(e=>{let t=n?.[e],a=i?.[e];if(t===null)return null;let o=Ot(t)||Ot(a);return r[e][o]}),o=n&&Object.entries(n).reduce((e,t)=>{let[n,r]=t;return r===void 0||(e[n]=r),e},{});return kt(e,a,t?.compoundVariants?.reduce((e,t)=>{let{class:n,className:r,...a}=t;return Object.entries(a).every(e=>{let[t,n]=e;return Array.isArray(n)?n.includes({...i,...o}[t]):{...i,...o}[t]===n})?[...e,n,r]:e},[]),n?.class,n?.className)})(`group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4`,{variants:{variant:{default:`bg-primary text-primary-foreground hover:bg-primary/80`,outline:`border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50`,secondary:`bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)] aria-expanded:bg-secondary aria-expanded:text-secondary-foreground`,ghost:`hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50`,destructive:`bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40`,link:`text-primary underline-offset-4 hover:underline`},size:{default:`h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,xs:`h-6 gap-1 rounded-[min(var(--radius-md),10px)] px-2 text-xs in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3`,sm:`h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5`,lg:`h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,icon:`size-8`,"icon-xs":`size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3`,"icon-sm":`size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg`,"icon-lg":`size-9`}},defaultVariants:{variant:`default`,size:`default`}});function jt({className:e,variant:t=`default`,size:n=`default`,...r}){return(0,U.jsx)(Tt,{"data-slot":`button`,className:H(At({variant:t,size:n,className:e})),...r})}function Mt({className:e,...t}){return(0,U.jsx)(`nav`,{"aria-label":`breadcrumb`,"data-slot":`breadcrumb`,className:H(e),...t})}function Nt({className:e,...t}){return(0,U.jsx)(`ol`,{"data-slot":`breadcrumb-list`,className:H(`flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground`,e),...t})}function Pt({className:e,...t}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-item`,className:H(`inline-flex items-center gap-1`,e),...t})}function Ft({className:e,...t}){return(0,U.jsx)(`span`,{"data-slot":`breadcrumb-page`,role:`link`,"aria-disabled":`true`,"aria-current":`page`,className:H(`font-normal text-foreground`,e),...t})}function It({children:e,className:t,...n}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-separator`,role:`presentation`,"aria-hidden":`true`,className:H(`[&>svg]:size-3.5`,t),...n,children:e??(0,U.jsx)(O,{})})}var Lt=(0,g.createContext)(null);function Rt({open:e,defaultOpen:t=!1,onOpenChange:n,className:r,children:i,...a}){let[o,s]=(0,g.useState)(t),c=e??o;function l(t){e===void 0&&s(t),n?.(t)}return(0,U.jsx)(Lt.Provider,{value:{open:c,setOpen:l},children:(0,U.jsx)(`div`,{"data-slot":`collapsible`,"data-state":c?`open`:`closed`,className:H(r),...a,children:i})})}function zt({className:e,children:t,onClick:n,...r}){let i=(0,g.useContext)(Lt);if(!i)throw Error(`CollapsibleTrigger must be used inside Collapsible`);return(0,U.jsx)(`button`,{type:`button`,"data-slot":`collapsible-trigger`,"aria-expanded":i.open,className:H(e),onClick:e=>{n?.(e),e.defaultPrevented||i.setOpen(!i.open)},...r,children:t})}function Bt({className:e,children:t,...n}){let r=(0,g.useContext)(Lt);if(!r)throw Error(`CollapsibleContent must be used inside Collapsible`);return r.open?(0,U.jsx)(`div`,{"data-slot":`collapsible-content`,className:H(e),...n,children:t}):null}var Vt=`data-valid`,Ht=`data-invalid`,Ut={badInput:!1,customError:!1,patternMismatch:!1,rangeOverflow:!1,rangeUnderflow:!1,stepMismatch:!1,tooLong:!1,tooShort:!1,typeMismatch:!1,valid:null,valueMissing:!1},Wt={disabled:!1,valid:null,touched:!1,dirty:!1,filled:!1,focused:!1},Gt={valid(e){return e===null?null:e?{[Vt]:``}:{[Ht]:``}}},Kt={invalid:void 0,name:void 0,validityData:{state:Ut,errors:[],error:``,value:``,initialValue:null},setValidityData:Y,disabled:void 0,setTouched:Y,setDirty:Y,setFilled:Y,setFocused:Y,validationMode:`onSubmit`,shouldValidateOnChange:()=>!1,state:Wt,registerFieldControl:Y,validation:{getValidationProps:(e,t=X)=>t,inputRef:{current:null},registeredInputs:new Map,registerInput:Y,getInputControl:()=>null,commit:async()=>{},change:Y}},qt=g.createContext(Kt);function Jt(e=!0){let t=g.useContext(qt);if(t.setValidityData===Y&&!e)throw Error(Ze(28));return t}var Yt=g.createContext({elementRef:{current:null},formRef:{current:{fields:new Map}},errors:{},clearErrors:Y,validationMode:`onSubmit`,submitCountRef:{current:0}});function Xt(){return g.useContext(Yt)}var Zt=0;function Qt(e,t=`mui`){let[n,r]=g.useState(e),i=e||n;return g.useEffect(()=>{n??(Zt+=1,r(`${t}-${Zt}`))},[n,t]),i}var $t=De.useId;function en(e,t){if($t!==void 0){let n=$t();return e??(t?`${t}-${n}`:n)}return Qt(e,t)}function tn(e){return en(e,`base-ui`)}var nn=g.createContext({controlId:void 0,registerControlId:Y,resetControlId:Y,labelId:void 0,setLabelId:Y,messageIds:[],setMessageIds:Y,getDescriptionProps:e=>e});function rn(){return g.useContext(nn)}function an(e={}){let{id:t,enabled:n=!0}=e,{controlId:r,registerControlId:i,resetControlId:a}=rn(),o=tn(),s=ke(()=>Symbol()),c=g.useRef(!1),l=g.useRef(!1),u=K(()=>{c.current&&i!==Y&&(c.current=!1,i(s.current,void 0))});return q(()=>{if(!n||i===Y){u();return}let e;if(t!==void 0)l.current=!0,e=t;else if(l.current)e=o;else{a();return}if(e===void 0){u();return}c.current=!0,i(s.current,e)},[t,n,i,a,o,s,u]),q(()=>u,[u]),(n?r:void 0)??t??o}function on(){return typeof navigator>`u`?{userAgent:``,platform:``,maxTouchPoints:0}:{userAgent:navigator.userAgent,platform:navigator.platform??``,maxTouchPoints:navigator.maxTouchPoints??0}}var{userAgent:sn,platform:cn,maxTouchPoints:ln}=on(),un=sn.toLowerCase(),dn=cn.toLowerCase(),fn=/^i(os$|p)/.test(dn)||dn===`macintel`&&ln>1,pn=`android`,mn=dn===pn||un.includes(pn),hn=!fn&&dn.startsWith(`mac`);dn.startsWith(`win`),!mn&&/^(linux|chrome os)/.test(dn);var gn=hn||fn,_n=typeof CSS<`u`&&!!CSS.supports?.(`-webkit-backdrop-filter:none`);!_n&&un.includes(`firefox`),!_n&&un.includes(`chrom`);var vn=gn,yn=/jsdom|happydom/.test(un);function bn(e){let t=e.activeElement;for(;t?.shadowRoot?.activeElement!=null;)t=t.shadowRoot.activeElement;return t}function Z(e,t){if(!e||!t)return!1;let n=t.getRootNode?.();if(e.contains(t))return!0;if(n&&Se(n)){let n=t;for(;n;){if(e===n)return!0;n=n.parentNode||n.host}}return!1}function xn(e){return`composedPath`in e?e.composedPath()[0]??e.target:e.target}var Sn=`data-base-ui-focusable`,Cn=`data-starting-style`,wn=`data-ending-style`,Tn={[Cn]:``},En={[wn]:``},Dn={transitionStatus(e){return e===`starting`?Tn:e===`ending`?En:null}},On=`data-open`,kn=`data-closed`,An=`data-anchor-hidden`,jn={[On]:``},Mn={[kn]:``},Nn={[An]:``},Pn={open(e){return e?jn:Mn},anchorHidden(e){return e?Nn:null}},Fn={...Pn,...Dn};function In(e,t){if(t==null)return!1;if(`composedPath`in e)return e.composedPath().includes(t);let n=e;return n.target!=null&&t.contains(n.target)}function Ln(e){return e.matches(`html,body`)}function Rn(e){return G(e)&&e.matches(`input:not([type='hidden']):not([disabled]),[contenteditable]:not([contenteditable='false']),textarea:not([disabled])`)}function zn(e){return e?e.getAttribute(`role`)===`combobox`&&Rn(e):!1}function Bn(e){return e?e.hasAttribute(`data-base-ui-focusable`)?e:e.querySelector(`[data-base-ui-focusable]`)||e:null}function Vn(e,t,n=!0){return e.filter(e=>e.parentId===t).flatMap(t=>[...!n||t.context?.open?[t]:[],...Vn(e,t.id,n)])}function Hn(e,t){let n=[],r=e.find(e=>e.id===t)?.parentId;for(;r;){let t=e.find(e=>e.id===r);r=t?.parentId,t&&(n=n.concat(t))}return n}function Un(e){e.preventDefault(),e.stopPropagation()}function Wn(e){return`nativeEvent`in e}function Gn(e){return e.pointerType===``&&e.isTrusted?!0:mn&&e.pointerType?e.type===`click`&&e.buttons===1:e.detail===0&&!e.pointerType}function Kn(e){return yn?!1:!mn&&e.width===0&&e.height===0||mn&&e.width===1&&e.height===1&&e.pressure===0&&e.detail===0&&e.pointerType===`mouse`||e.width<1&&e.height<1&&e.pressure===0&&e.detail===0&&e.pointerType===`touch`}function qn(e){let t=e.type;return t===`click`||t===`mousedown`||t===`keydown`||t===`keyup`}function Jn(e){return e.visibility===`hidden`||e.visibility===`collapse`}function Yn(e,t=e?Te(e):null){return!e||!e.isConnected||!t||Jn(t)?!1:typeof e.checkVisibility==`function`?e.checkVisibility():t.display!==`none`&&t.display!==`contents`}var Xn=`a[href],button,input,select,textarea,summary,details,iframe,object,embed,[tabindex],[contenteditable]:not([contenteditable="false"]),audio[controls],video[controls]`;function Zn(e){let t=e.assignedSlot;if(t)return t;if(e.parentElement)return e.parentElement;let n=e.getRootNode();return Se(n)?n.host:null}function Qn(e){for(let t of Array.from(e.children))if(W(t)===`summary`)return t;return null}function $n(e,t){let n=Qn(t);return!!n&&(e===n||Z(n,e))}function er(e){let t=e?W(e):``;return e!=null&&e.matches(Xn)&&(t!==`summary`||e.parentElement!=null&&W(e.parentElement)===`details`&&Qn(e.parentElement)===e)&&(t!==`details`||Qn(e)==null)&&(t!==`input`||e.type!==`hidden`)}function tr(e){if(!er(e)||!e.isConnected||e.matches(`:disabled`))return!1;for(let t=e;t;t=Zn(t)){let n=t!==e,r=W(t)===`slot`;if(t.hasAttribute(`inert`)||n&&W(t)===`details`&&!t.open&&!$n(e,t)||t.hasAttribute(`hidden`)||!r&&!nr(t,n))return!1}return!0}function nr(e,t){let n=Te(e);return t?n.display!==`none`:Yn(e,n)}function rr(e){let t=e.tabIndex;if(t<0){let t=W(e);if(t===`details`||t===`audio`||t===`video`||G(e)&&e.isContentEditable)return 0}return t}function ir(e){if(W(e)!==`input`)return null;let t=e;return t.type===`radio`&&t.name!==``?t:null}function ar(e,t){let n=ir(e);if(!n)return!0;let r=t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form&&t.checked});return r?r===n:t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form})===n}function or(e){if(G(e)&&W(e)===`slot`){let t=e.assignedElements({flatten:!0});if(t.length>0)return t}return G(e)&&e.shadowRoot?Array.from(e.shadowRoot.children):Array.from(e.children)}function sr(e,t){or(e).forEach(e=>{er(e)&&t.push(e),sr(e,t)})}function cr(e,t,n){or(e).forEach(e=>{G(e)&&e.matches(t)&&n.push(e),cr(e,t,n)})}function lr(e){return tr(e)&&rr(e)>=0}function ur(e){let t=[];return sr(e,t),t.filter(tr)}function dr(e){let t=ur(e);return t.filter(e=>rr(e)>=0&&ar(e,t))}function fr(e,t){let n=dr(e),r=n.length;if(r===0)return;let i=bn(J(e)),a=n.indexOf(i);return n[a===-1?t===1?0:r-1:a+t]}function pr(e){return fr(J(e).body,1)||e}function mr(e){return fr(J(e).body,-1)||e}function hr(e,t){let n=t||e.currentTarget,r=e.relatedTarget;return!r||!Z(n,r)}function gr(e){dr(e).forEach(e=>{e.dataset.tabindex=e.getAttribute(`tabindex`)||``,e.setAttribute(`tabindex`,`-1`)})}function _r(e){let t=[];cr(e,`[data-tabindex]`,t),t.forEach(e=>{let t=e.dataset.tabindex;delete e.dataset.tabindex,t?e.setAttribute(`tabindex`,t):e.removeAttribute(`tabindex`)})}function vr(e){g.useEffect(e,mt)}var yr=0,br=class e{static create(){return new e}currentId=yr;start(e,t){this.clear(),this.currentId=setTimeout(()=>{this.currentId=yr,t()},e)}isStarted(){return this.currentId!==yr}clear=()=>{this.currentId!==yr&&(clearTimeout(this.currentId),this.currentId=yr)};disposeEffect=()=>this.clear};function xr(){let e=ke(br.create).current;return vr(e.disposeEffect),e}var Sr=null;globalThis.requestAnimationFrame;var Cr=new class{callbacks=[];callbacksCount=0;nextId=1;startId=1;isScheduled=!1;tick=e=>{this.isScheduled=!1;let t=this.callbacks,n=this.callbacksCount;if(this.callbacks=[],this.callbacksCount=0,this.startId=this.nextId,n>0)for(let n=0;n<t.length;n+=1)t[n]?.(e)};request(e){let t=this.nextId;return this.nextId+=1,this.callbacks.push(e),this.callbacksCount+=1,this.isScheduled||=(requestAnimationFrame(this.tick),!0),t}cancel(e){let t=e-this.startId;t<0||t>=this.callbacks.length||this.callbacks[t]!==null&&(this.callbacks[t]=null,--this.callbacksCount)}},wr=class e{static create(){return new e}static request(e){return Cr.request(e)}static cancel(e){return Cr.cancel(e)}currentId=Sr;request(e){this.cancel(),this.currentId=Cr.request(()=>{this.currentId=Sr,e()})}cancel=()=>{this.currentId!==Sr&&(Cr.cancel(this.currentId),this.currentId=Sr)};disposeEffect=()=>this.cancel};function Tr(){let e=ke(wr.create).current;return vr(e.disposeEffect),e}function Er(e){return e==null?e:`current`in e?e.current:e}var Dr=null;function Or(e){if(!Dr){let e=[];Dr=e,queueMicrotask(()=>{Dr=null,pe.flushSync(()=>{for(let t of e)t()})})}Dr.push(e)}function kr(e,t=!1,n=!1){let r=Tr();return K((i,a=null)=>{r.cancel();let o=Er(e);if(o==null)return;let s=o,c=()=>{if(!n){pe.flushSync(i);return}Or(()=>{a?.aborted||i()})};if(typeof s.getAnimations!=`function`||globalThis.BASE_UI_ANIMATIONS_DISABLED){i();return}function l(){Promise.all(s.getAnimations().map(e=>e.finished)).then(()=>{a?.aborted||c()},()=>{if(!a?.aborted){if(s.getAnimations().some(e=>e.pending||e.playState!==`finished`)){l();return}c()}})}if(t){let e=Cn;if(!s.hasAttribute(e)){r.request(l);return}let t=new MutationObserver(()=>{s.hasAttribute(e)||(t.disconnect(),l())});t.observe(s,{attributes:!0,attributeFilter:[e]}),a?.addEventListener(`abort`,()=>t.disconnect(),{once:!0});return}r.request(l)})}function Ar(e){let{enabled:t=!0,open:n,ref:r,batch:i=!1,onComplete:a}=e,o=K(a),s=kr(r,n,i);g.useEffect(()=>{if(!t)return;let e=new AbortController;return s(o,e.signal),()=>{e.abort()}},[t,n,o,s])}function jr(e,t=!1,n=!1,r=!1){let[i,a]=g.useState(e&&t?`idle`:void 0),[o,s]=g.useState(e&&!r);return e&&!o&&(s(!0),a(`starting`)),!e&&o&&i!==`ending`&&!n&&a(`ending`),!e&&!o&&i===`ending`&&a(void 0),q(()=>{if(!e&&o&&i!==`ending`&&n){let e=wr.request(()=>{a(`ending`)});return()=>{wr.cancel(e)}}},[e,o,i,n]),q(()=>{if(!e||t)return;let n=wr.request(()=>{a(void 0)});return()=>{wr.cancel(n)}},[t,e]),q(()=>{if(!e||!t)return;e&&o&&i!==`idle`&&a(`starting`);let n=wr.request(()=>{a(`idle`)});return()=>{wr.cancel(n)}},[t,e,o,i]),{mounted:o,setMounted:s,transitionStatus:i}}function Mr({controlled:e,default:t,name:n,state:r=`value`}){let{current:i}=g.useRef(e!==void 0),[a,o]=g.useState(t);return[i&&e!==void 0?e:a,g.useCallback(e=>{i||o(e)},[])]}function Nr(e,t,n,r,i=!0,a){let{registerFieldControl:o}=Jt(),s=ke(()=>Symbol());q(()=>{let c=s.current;if(!i){o(c,void 0);return}o(c,{controlRef:e,getValue:r,id:t,name:a,value:n})},[e,i,r,t,a,o,s,n]),q(()=>{let e=s.current;return()=>{o(e,void 0)}},[o,s])}function Pr(e,t){let n=g.useRef(e),r=K(t);q(()=>{n.current!==e&&r(n.current),n.current=e},[e,r])}var Fr=`none`,Ir=`trigger-press`,Lr=`outside-press`,Rr=`close-press`,zr=`focus-out`,Br=`escape-key`,Vr=`imperative-action`;function Hr(e,t,n,r){let i=!1,a=!1,o=r??X;return{reason:e,event:t??new Event(`base-ui`),cancel(){i=!0},allowPropagation(){a=!0},get isCanceled(){return i},get isPropagationAllowed(){return a},trigger:n,...o}}var Ur=g.forwardRef(function(e,t){let{render:n,className:r,id:i,name:a,value:o,disabled:s=!1,onValueChange:c,defaultValue:l,autoFocus:u=!1,style:d,...f}=e,{state:p,name:m,disabled:h,setTouched:_,setDirty:v,validityData:y,setFocused:b,setFilled:x,validationMode:S,validation:C}=Jt(),{clearErrors:w,elementRef:T,submitCountRef:E}=Xt(),D=h||s,O=m??a,k={...p,disabled:D},{labelId:A}=rn(),j=an({id:i}),[M]=Mr({controlled:o,default:l,name:`FieldControl`,state:`value`}),N=o!==void 0,P=N?M:void 0,F=P==null?void 0:String(P),I=K(()=>C.inputRef.current?.value);Nr(C.inputRef,j,F,I,!D,a),q(()=>{let e=F??C.inputRef.current?.value;e!==void 0&&x(e!==``)},[F,C.inputRef,x]),Pr(F,()=>{F!==void 0&&(w(O),v(F!==(y.initialValue??``)),C.change(F))});let L=g.useRef(null),R=xr();return q(()=>{u&&L.current===bn(J(L.current))&&b(!0)},[u,b]),vt(`input`,e,{ref:[t,L],state:k,props:[{id:j,disabled:D,name:O,ref:C.inputRef,"aria-labelledby":A,autoFocus:u,...N?{value:P}:{defaultValue:l},onChange(e){let t=e.currentTarget.value,n=Hr(Fr,e.nativeEvent);c?.(t,n),!N&&(v(t!==(y.initialValue??``)),x(t!==``),!e.nativeEvent.defaultPrevented&&!n.isCanceled&&(w(O),C.change(t)))},onFocus(){b(!0)},onBlur(e){if(_(!0),b(!1),S===`onBlur`){let t=e.currentTarget.value;C.commit(t),N&&queueMicrotask(()=>{let e=C.inputRef.current?.value;e!==void 0&&e!==t&&e!==(y.initialValue??``)&&C.commit(e)})}},onKeyDown(e){if(e.currentTarget.tagName===`INPUT`&&e.key===`Enter`){_(!0);let t=e.currentTarget.value,n=e.currentTarget.form;if(n&&n===T.current&&!e.defaultPrevented){let t=e.currentTarget,n=E.current;R.start(0,()=>{E.current===n&&C.commit(t.value)})}else C.commit(t)}}},f,e=>C.getValidationProps(D,e)],stateAttributesMapping:Gt})}),Wr=g.forwardRef(function(e,t){return(0,U.jsx)(Ur,{ref:t,...e})}),Gr=(0,g.forwardRef)(function({className:e,type:t,...n},r){return(0,U.jsx)(Wr,{ref:r,type:t,"data-slot":`input`,className:H(`h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40`,e),...n})});function Kr({className:e,viewportClassName:t,children:n,...r}){return(0,U.jsx)(`div`,{"data-slot":`scroll-area`,className:H(`relative overflow-hidden`,e),...r,children:(0,U.jsx)(`div`,{"data-slot":`scroll-area-viewport`,className:H(`h-full w-full overflow-auto`,t),children:n})})}var qr=g.createContext(void 0);function Jr(e){let t=g.useContext(qr);if(!e&&t===void 0)throw Error(Ze(27));return t}var Yr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,forceRender:a=!1,...o}=e,s=Jr(),c=s.useState(`open`),l=s.useState(`nested`),u=s.useState(`mounted`);return vt(`div`,e,{state:{open:c,transitionStatus:s.useState(`transitionStatus`)},ref:[s.context.backdropRef,t],stateAttributesMapping:Fn,props:[{role:`presentation`,hidden:!u,style:{userSelect:`none`,WebkitUserSelect:`none`}},o],enabled:a||!l})}),Xr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,disabled:a=!1,nativeButton:o=!0,...s}=e,c=Jr(),l=c.useState(`open`),{getButtonProps:u,buttonRef:d}=nt({disabled:a,native:o}),f={disabled:a};function p(e){l&&c.setOpen(!1,Hr(Rr,e.nativeEvent))}return vt(`button`,e,{state:f,ref:[t,d],props:[{onClick:p},s,u]})});function Q(e,t,n,r){return e.addEventListener(t,n,r),()=>{e.removeEventListener(t,n,r)}}function Zr(...e){return()=>{for(let t=0;t<e.length;t+=1){let n=e[t];n&&n()}}}function Qr(e){let t=ke($r,e).current;return t.next=e,q(t.effect),t}function $r(e){let t={current:e,next:e,effect:()=>{t.current=t.next}};return t}var ei={clipPath:`inset(50%)`,overflow:`hidden`,whiteSpace:`nowrap`,border:0,padding:0,width:1,height:1,margin:-1},ti={...ei,position:`fixed`,top:0,left:0};({...ei});var ni=g.forwardRef(function(e,t){let[n,r]=g.useState();q(()=>{vn&&_n&&r(`button`)},[]);let i={tabIndex:0,role:n};return(0,U.jsx)(`span`,{...e,ref:t,style:ti,"aria-hidden":!n||void 0,...i,"data-base-ui-focus-guard":``})});function ri(e){return`data-base-ui-${e}`}var ii=0;function ai(e,t={}){let{preventScroll:n=!1,sync:r=!1,shouldFocus:i}=t;cancelAnimationFrame(ii);function a(){(!i||i())&&e?.focus({preventScroll:n})}if(r)return a(),Y;let o=requestAnimationFrame(a);return ii=o,()=>{ii===o&&(cancelAnimationFrame(o),ii=0)}}var oi={inert:new WeakMap,"aria-hidden":new WeakMap},si=`data-base-ui-inert`,ci={inert:new WeakSet,"aria-hidden":new WeakSet},li=new WeakMap,ui=0;function di(e){return ci[e]}function fi(e){return e?Se(e)?e.host:fi(e.parentNode):null}var pi=(e,t)=>t.map(t=>{if(e.contains(t))return t;let n=fi(t);return e.contains(n)?n:null}).filter(e=>e!=null),mi=e=>{let t=new Set;return e.forEach(e=>{let n=e;for(;n&&!t.has(n);)t.add(n),n=n.parentNode}),t},hi=(e,t,n)=>{let r=[],i=e=>{e&&!n.has(e)&&Array.from(e.children).forEach(e=>{W(e)!==`script`&&(t.has(e)?i(e):r.push(e))})};return i(e),r};function gi(e,t,n,r,{mark:i=!0}){let a=null;r?a=`inert`:n&&(a=`aria-hidden`);let o=null,s=null,c=pi(t,e),l=i?hi(t,mi(c),new Set(c)):[],u=[],d=[];if(a){let e=oi[a],n=di(a);s=n,o=e;let r=pi(t,Array.from(t.querySelectorAll(`[aria-live]`))),i=c.concat(r);hi(t,mi(i),new Set(i)).forEach(t=>{let r=t.getAttribute(a),i=r!==null&&r!==`false`,o=(e.get(t)||0)+1;e.set(t,o),u.push(t),o===1&&i&&n.add(t),i||t.setAttribute(a,a===`inert`?``:`true`)})}return i&&l.forEach(e=>{let t=(li.get(e)||0)+1;li.set(e,t),d.push(e),t===1&&e.setAttribute(si,``)}),ui+=1,()=>{o&&u.forEach(e=>{let t=(o.get(e)||0)-1;o.set(e,t),t||(!s?.has(e)&&a&&e.removeAttribute(a),s?.delete(e))}),i&&d.forEach(e=>{let t=(li.get(e)||0)-1;li.set(e,t),t||e.removeAttribute(si)}),--ui,ui||(oi.inert=new WeakMap,oi[`aria-hidden`]=new WeakMap,ci.inert=new WeakSet,ci[`aria-hidden`]=new WeakSet,li=new WeakMap)}}function _i(e,t={}){let{ariaHidden:n=!1,inert:r=!1,mark:i=!0}=t,a=J(e[0]).body;return gi(e,a,n,r,{mark:i})}var vi={clipPath:`inset(50%)`,position:`fixed`,top:0,left:0},yi=g.createContext(null),bi=()=>g.useContext(yi),xi=ri(`portal`);function Si(e={}){let{ref:t,container:n,componentProps:r=X,elementProps:i}=e,a=en(),o=bi()?.portalNode,[s,c]=g.useState(null),[l,u]=g.useState(null),d=K(e=>{e!==null&&u(e)}),f=g.useRef(null);q(()=>{if(n===null){f.current&&(f.current=null,u(null),c(null));return}let e=(n&&(be(n)?n:n.current))??o??document.body;if(e==null){f.current&&(f.current=null,u(null),c(null));return}f.current!==e&&(f.current=e,u(null),c(e))},[n,o]);let p=vt(`div`,r,{ref:[t,d],props:[{id:a,[xi]:``},i]}),m=s&&p?pe.createPortal(p,s):null;return{node:l,nodeId:g.isValidElement(p)?p.props.id:void 0,subtree:m}}var Ci=g.forwardRef(function(e,t){let{render:n,className:r,style:i,children:a,container:o,portalOwnerRole:s,...c}=e,{node:l,nodeId:u,subtree:d}=Si({container:o,ref:t,componentProps:e,elementProps:c}),f=g.useRef(null),p=g.useRef(null),m=g.useRef(null),h=g.useRef(null),[_,v]=g.useState(null),y=g.useRef(!1),b=_?.modal,x=_?.open,S=!!_&&!_.modal&&_.open&&!!l;g.useEffect(()=>{if(!l||b)return;function e(e){l&&e.relatedTarget&&hr(e)&&(e.type===`focusin`?y.current&&=(_r(l),!1):(gr(l),y.current=!0))}return Zr(Q(l,`focusin`,e,!0),Q(l,`focusout`,e,!0))},[l,b]),q(()=>{l&&x===!0&&y.current&&(_r(l),y.current=!1)},[x,l]);let C=g.useMemo(()=>({beforeOutsideRef:f,afterOutsideRef:p,beforeInsideRef:m,afterInsideRef:h,portalNode:l,setFocusManagerState:v}),[l]);return(0,U.jsxs)(g.Fragment,{children:[d,(0,U.jsxs)(yi.Provider,{value:C,children:[S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:f,onFocus:e=>{hr(e,l)?m.current?.focus():mr(_?_.domReference:null)?.focus()}}),S&&l&&(0,U.jsx)(`span`,{role:s,"aria-owns":u,style:vi}),l&&pe.createPortal(a,l),S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:p,onFocus:e=>{hr(e,l)?h.current?.focus():(pr(_?_.domReference:null)?.focus(),_?.closeOnFocusOut&&_?.onOpenChange(!1,Hr(`focus-out`,e.nativeEvent)))}})]})]})});function wi(){let e=new Map;return{emit(t,n){e.get(t)?.forEach(e=>e(n))},on(t,n){e.has(t)||e.set(t,new Set),e.get(t).add(n)},off(t,n){e.get(t)?.delete(n)}}}var Ti=g.createContext(null),Ei=g.createContext(null),Di=()=>g.useContext(Ti)?.id||null,Oi=e=>{let t=g.useContext(Ei);return e??t};function ki(e,t){let n=ve(xn(e));return e instanceof n.KeyboardEvent?`keyboard`:e instanceof n.FocusEvent?t||`keyboard`:`pointerType`in e?e.pointerType||`keyboard`:`touches`in e?`touch`:e instanceof n.MouseEvent?t||(e.detail===0?`keyboard`:`mouse`):``}var Ai=20,ji=[];function Mi(){ji=ji.filter(e=>e.deref()?.isConnected)}function Ni(e){Mi(),e&&W(e)!==`body`&&(ji.push(new WeakRef(e)),ji.length>Ai&&(ji=ji.slice(-20)))}function Pi(){return Mi(),ji[ji.length-1]?.deref()}function Fi(e){return e?lr(e)?e:dr(e)[0]||e:null}function Ii(e){if(e.hasAttribute(`tabindex`)&&!e.hasAttribute(`data-tabindex`)||!e.getAttribute(`role`)?.includes(`dialog`))return;let t=ur(e).filter(e=>{let t=e.getAttribute(`data-tabindex`)||``;return lr(e)||e.hasAttribute(`data-tabindex`)&&!t.startsWith(`-`)}),n=e.getAttribute(`tabindex`);t.length===0?n!==`0`&&(e.setAttribute(`tabindex`,`0`),e.setAttribute(`data-tabindex`,`0`)):(n!==`-1`||e.hasAttribute(`data-tabindex`)&&e.getAttribute(`data-tabindex`)!==`-1`)&&(e.setAttribute(`tabindex`,`-1`),e.setAttribute(`data-tabindex`,`-1`))}function Li(e){let{context:t,children:n,disabled:r=!1,initialFocus:i=!0,returnFocus:a=!0,restoreFocus:o=!1,modal:s=!0,closeOnFocusOut:c=!0,openInteractionType:l=``,nextFocusableElement:u,previousFocusableElement:d,beforeContentFocusGuardRef:f,externalTree:p,getInsideElements:m}=e,h=`rootStore`in t?t.rootStore:t,_=h.useState(`open`),v=h.useState(`domReferenceElement`),y=h.useState(`floatingElement`),{events:b,dataRef:x}=h.context,S=K(()=>x.current.floatingContext?.nodeId),C=i===!1,w=zn(v)&&C,T=Qr(i),E=Qr(a),D=Qr(l),O=Qr(_),k=Oi(p),A=bi(),j=g.useRef(!1),M=g.useRef(!1),N=g.useRef(!1),P=g.useRef(null),F=g.useRef(``),I=g.useRef(``),L=g.useRef(null),R=g.useRef(null),z=at(L,f,A?.beforeInsideRef),B=at(R,A?.afterInsideRef),ee=xr(),te=xr(),ne=Tr(),re=A!=null,V=Bn(y),ie=K((e=V)=>e?dr(e):[]),ae=K(()=>m?.().filter(e=>e!=null)??[]);g.useEffect(()=>{if(r||!s)return;function e(e){e.key===`Tab`&&Z(V,bn(J(V)))&&ie().length===0&&!w&&Un(e)}return Q(J(V),`keydown`,e)},[r,V,s,w,ie]),g.useEffect(()=>{if(r||!_)return;let e=J(V);function t(){N.current=!1}function n(e){let t=xn(e),n=ae(),r=Z(y,t)||Z(v,t)||Z(A?.portalNode,t)||n.some(e=>e===t||Z(e,t));N.current=!r,I.current=e.pointerType||`keyboard`,t?.closest(`[data-base-ui-click-trigger]`)&&(M.current=!0,te.start(0,()=>{M.current=!1}))}function i(){I.current=`keyboard`}return Zr(Q(e,`pointerdown`,n,!0),Q(e,`pointerup`,t,!0),Q(e,`pointercancel`,t,!0),Q(e,`keydown`,i,!0),t)},[r,y,v,V,_,A,te,ae]),g.useEffect(()=>{if(r||!c)return;let e=J(V);function t(){M.current=!0,te.start(0,()=>{M.current=!1})}function n(e){let t=xn(e);lr(t)&&(P.current=t)}function i(t){let n=t.relatedTarget,r=t.currentTarget,i=xn(t);s&&n==null&&i!=null&&Z(y,i)&&Ni(i),queueMicrotask(()=>{let a=S(),c=h.context.triggerElements,l=ae(),f=n?.hasAttribute(ri(`focus-guard`))&&[L.current,R.current,A?.beforeInsideRef.current,A?.afterInsideRef.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,Er(d),Er(u)].includes(n),p=!(Z(v,n)||Z(y,n)||Z(n,y)||Z(A?.portalNode,n)||l.some(e=>e===n||Z(e,n))||c.hasMatchingElement(e=>Z(e,n))||f||k&&(Vn(k.nodesRef.current,a).find(e=>Z(e.context?.elements.floating,n)||Z(e.context?.elements.domReference,n))||Hn(k.nodesRef.current,a).find(e=>[e.context?.elements.floating,Bn(e.context?.elements.floating)].includes(n)||e.context?.elements.domReference===n)));if(r===v&&V&&Ii(V),o&&r!==v&&!Yn(i)&&bn(e)===e.body){if(G(V)&&(V.focus(),o===`popup`)){ne.request(()=>{V.focus()});return}let e=ie(),t=P.current,n=(t&&e.includes(t)?t:null)||e[e.length-1]||V;G(n)&&n.focus()}if(x.current.insideReactTree){x.current.insideReactTree=!1;return}(w||!s)&&n&&p&&!M.current&&(w||n!==Pi())&&(j.current=!0,h.setOpen(!1,Hr(zr,t)))})}function a(){N.current||(x.current.insideReactTree=!0,ee.start(0,()=>{x.current.insideReactTree=!1}))}let l=G(v)?v:null;if(y||l)return Zr(l&&Q(l,`focusout`,i),l&&Q(l,`pointerdown`,t),y&&Q(y,`focusin`,n),y&&Q(y,`focusout`,i),y&&A&&Q(y,`focusout`,a,!0))},[r,v,y,V,s,k,A,h,c,o,ie,w,S,x,ee,te,ne,u,d,ae]),g.useEffect(()=>{if(r||!y||!_)return;let e=Array.from(A?.portalNode?.querySelectorAll(`[${ri(`portal`)}]`)||[]),t=(k?Hn(k.nodesRef.current,S()):[]).find(e=>zn(e.context?.elements.domReference||null))?.context?.elements.domReference,n=_i([y,...e,L.current,R.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,...ae(),t,Er(d),Er(u),w?v:null].filter(e=>e!=null),{ariaHidden:s||w,mark:!1}),i=_i([y,...e].filter(e=>e!=null));return()=>{i(),n()}},[_,r,v,y,s,A,w,k,S,u,d,ae]),q(()=>{if(!_||r||!G(V))return;F.current=``,I.current=``;let e=J(V),t=bn(e);queueMicrotask(()=>{let n=T.current,r=typeof n==`function`?n(D.current||``):n;if(r===void 0||r===!1||Z(V,t))return;let i=null,a=()=>(i??=ie(V),i[0]||V),o;o=r===!0||r===null?a():Er(r),o||=a();let s=Z(V,bn(e));ai(o,{preventScroll:o===V,shouldFocus(){if(!O.current)return!1;if(s)return!0;let t=bn(e);return!(t!==o&&Z(V,t))}})})},[r,_,V,ie,T,D,O]),q(()=>{if(r||!V)return;let e=J(V),t=bn(e),n=D.current==null;Ni(t);function i(e){if(e.open||(F.current=ki(e.nativeEvent,I.current)),e.reason===`trigger-hover`&&e.nativeEvent.type===`mouseleave`&&(j.current=!0),e.reason===`outside-press`){if(e.nested)j.current=!1;else if(Gn(e.nativeEvent)||Kn(e.nativeEvent))j.current=!1;else{let e=!1;J(V).createElement(`div`).focus({get preventScroll(){return e=!0,!1}}),e?j.current=!1:j.current=!0}}}b.on(`openchange`,i);function a(e){let r=E.current,i=typeof r==`function`?r(e):r;if(i===void 0||i===!1)return null;i===null&&(i=!0);let a=v?.isConnected?v:null,o=t?.isConnected&&W(t)!==`body`?t:null,s=n?o||a:a||o;return s||=Pi()||null,typeof i==`boolean`?s:Er(i)||s||null}return()=>{b.off(`openchange`,i);let t=bn(e),n=ae(),r=Z(y,t)||n.some(e=>e===t||Z(e,t))||k&&Vn(k.nodesRef.current,S(),!1).some(e=>Z(e.context?.elements.floating,t)),o=E.current,s=F.current,c=a(s);queueMicrotask(()=>{let n=Fi(c),i=typeof o!=`boolean`;if(o&&!j.current&&G(n)&&(i||n===t||t===e.body||r)){let e={preventScroll:!0};s===`keyboard`&&(e.focusVisible=!0),n.focus(e)}j.current=!1})}},[r,y,V,E,D,b,k,v,S,ae]),q(()=>{if(!_n||_||!y)return;let e=bn(J(y));G(e)&&Rn(e)&&Z(y,e)&&e.blur()},[_,y]),q(()=>{if(!r&&A)return A.setFocusManagerState({modal:s,closeOnFocusOut:c,open:_,onOpenChange:h.setOpen,domReference:v}),()=>{A.setFocusManagerState(null)}},[r,A,s,_,h,c,v]),q(()=>{if(!r&&V)return Ii(V),()=>{queueMicrotask(Mi)}},[r,V]);let oe=!r&&(!s||!w)&&(re||s);return(0,U.jsxs)(g.Fragment,{children:[oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:z,onFocus:e=>{if(s){let e=ie();ai(e[e.length-1])}else A?.portalNode&&(j.current=!1,hr(e,A.portalNode)?pr(v)?.focus():Er(d??A.beforeOutsideRef)?.focus())}}),n,oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:B,onFocus:e=>{s?ai(ie()[0]):A?.portalNode&&(c&&(j.current=!0),hr(e,A.portalNode)?mr(v)?.focus():Er(u??A.afterOutsideRef)?.focus())}})]})}function Ri(){return!1}function zi(e){return{escapeKey:typeof e==`boolean`?e:e?.escapeKey??!1,outsidePress:typeof e==`boolean`?e:e?.outsidePress??!0}}function Bi(e,t={}){let{enabled:n=!0,escapeKey:r=!0,outsidePress:i=!0,outsidePressEvent:a=`sloppy`,referencePress:o=Ri,bubbles:s,externalTree:c}=t,l=`rootStore`in e?e.rootStore:e,u=l.useState(`open`),d=l.useState(`floatingElement`),{dataRef:f,events:p}=l.context,m=Oi(c),h=K(typeof i==`function`?i:()=>!1),_=typeof i==`function`?h:i,v=_!==!1,y=K(()=>a),{escapeKey:b,outsidePress:x}=zi(s),S=g.useRef(!1),C=g.useRef(!1),w=g.useRef(!1),T=g.useRef(!1),E=g.useRef(!1),D=g.useRef(``),O=g.useRef(null),k=xr(),A=xr(),j=K(()=>{A.clear(),f.current.insideReactTree=!1}),M=K(e=>{let t=f.current.floatingContext?.nodeId;return(m?Vn(m.nodesRef.current,t):[]).some(t=>t.context?.open&&!t.context.dataRef.current[e])}),N=K(e=>In(e,l.select(`floatingElement`))||In(e,l.select(`domReferenceElement`))),P=K(e=>{o()&&l.setOpen(!1,Hr(Ir,e.nativeEvent))}),F=K(e=>{if(!u||!n||!r||e.key!==`Escape`||E.current||!b&&M(`__escapeKeyBubbles`))return;let t=Hr(Br,Wn(e)?e.nativeEvent:e);l.setOpen(!1,t),t.isCanceled||e.preventDefault(),!b&&!t.isPropagationAllowed&&e.stopPropagation()}),I=K(()=>{f.current.insideReactTree=!0,A.start(0,j)}),L=K(e=>{if(!u||!n||e.button!==0)return;let t=xn(e.nativeEvent);Z(l.select(`floatingElement`),t)&&(S.current||(S.current=!0,C.current=!1))}),R=K(e=>{u&&n&&(e.defaultPrevented||e.nativeEvent.defaultPrevented)&&S.current&&(C.current=!0)});g.useEffect(()=>{function e(e){e.open||(T.current=!1)}return p.on(`openchange`,e),()=>{p.off(`openchange`,e)}},[p]),g.useEffect(()=>{if(!u||!n)return u||(T.current=!1),j;f.current.__escapeKeyBubbles=b,f.current.__outsidePressBubbles=x;let e=new br,t=new br,i=J(d);function a(){e.clear(),E.current=!0}function o(){e.start(_n?5:0,()=>{E.current=!1})}function s(){w.current=!0,t.start(0,()=>{w.current=!1})}function c(){S.current=!1,C.current=!1}function p(){let e=D.current,t=e===`pen`||!e?`mouse`:e,n=y(),r=typeof n==`function`?n():n;return typeof r==`string`?r:r[t]}function h(e){let t=p();return t===`intentional`&&e.type!==`click`||t===`sloppy`&&e.type===`click`}function g(e){let t=f.current.floatingContext?.nodeId,n=m&&Vn(m.nodesRef.current,t).some(t=>In(e,t.context?.elements.floating));return N(e)||n}function A(e){if(h(e)){e.type!==`click`&&!N(e)&&(t.clear(),w.current=!1),j();return}if(f.current.insideReactTree){j();return}let n=xn(e),r=`[${ri(`inert`)}]`,i=xe(n)?n.getRootNode():null,a=Array.from((Se(i)?i:J(l.select(`floatingElement`))).querySelectorAll(r)),o=l.context.triggerElements;if(n&&(o.hasElement(n)||o.hasMatchingElement(e=>Z(e,n))))return;let s=xe(n)?n:null;for(;s&&!we(s);){let e=Ee(s);if(we(e)||!xe(e))break;s=e}if(!(a.length&&xe(n)&&!Ln(n)&&!Z(n,l.select(`floatingElement`))&&a.every(e=>!Z(s,e)))){if(G(n)&&!(`touches`in e)){let t=we(n),r=Te(n),i=/auto|scroll/,a=t||i.test(r.overflowX),o=t||i.test(r.overflowY),s=a&&n.clientWidth>0&&n.scrollWidth>n.clientWidth,c=o&&n.clientHeight>0&&n.scrollHeight>n.clientHeight,l=r.direction===`rtl`,u=c&&(l?e.offsetX<=n.offsetWidth-n.clientWidth:e.offsetX>n.clientWidth),d=s&&e.offsetY>n.clientHeight;if(u||d)return}if(!g(e)){if(p()===`intentional`){if(e.detail!==0&&!Gn(e)&&!T.current)return;if(w.current){t.clear(),w.current=!1;return}}(typeof _!=`function`||_(e))&&(M(`__outsidePressBubbles`)||(l.setOpen(!1,Hr(Lr,e)),j()))}}}function P(e){p()===`sloppy`&&e.pointerType!==`touch`&&l.select(`open`)&&n&&!N(e)&&A(e)}function I(e){if(p()!==`sloppy`||!l.select(`open`)||!n||N(e))return;let t=e.touches[0];t&&(O.current={startTime:Date.now(),startX:t.clientX,startY:t.clientY,dismissOnTouchEnd:!1,dismissOnMouseDown:!0},k.start(1e3,()=>{O.current&&(O.current.dismissOnTouchEnd=!1,O.current.dismissOnMouseDown=!1)}))}function L(e,t){let n=xn(e);if(!n)return;let r=Q(n,e.type,()=>{t(e),r()})}function R(e){D.current=`touch`,L(e,I)}function z(e){k.clear(),e.type===`pointerdown`&&(e.button===0&&(T.current=!0),D.current=e.pointerType),(e.type!==`mousedown`||!O.current||O.current.dismissOnMouseDown)&&L(e,e=>{e.type===`pointerdown`?P(e):A(e)})}function B(e){if(e.type===`pointercancel`&&(T.current=!1),!S.current)return;let n=C.current;if(c(),p()===`intentional`){if(e.type===`pointercancel`){n&&s();return}if(!g(e)){if(n){s();return}(typeof _!=`function`||_(e))&&(t.clear(),w.current=!0,j())}}}function ee(e){if(p()!==`sloppy`||!O.current||N(e))return;let t=e.touches[0];if(!t)return;let n=Math.abs(t.clientX-O.current.startX),r=Math.abs(t.clientY-O.current.startY),i=Math.sqrt(n*n+r*r);i>5&&(O.current.dismissOnTouchEnd=!0),i>10&&(A(e),k.clear(),O.current=null)}function te(e){L(e,ee)}function ne(e){p()===`sloppy`&&O.current&&!N(e)&&(O.current.dismissOnTouchEnd&&A(e),k.clear(),O.current=null)}function re(e){L(e,ne)}let V=Zr(r&&Zr(Q(i,`keydown`,F),Q(i,`compositionstart`,a),Q(i,`compositionend`,o)),v&&Zr(Q(i,`click`,z,!0),Q(i,`pointerdown`,z,!0),Q(i,`pointerup`,B,!0),Q(i,`pointercancel`,B,!0),Q(i,`mousedown`,z,!0),Q(i,`mouseup`,B,!0),Q(i,`touchstart`,R,{capture:!0,passive:!0}),Q(i,`touchmove`,te,{capture:!0,passive:!0}),Q(i,`touchend`,re,{capture:!0,passive:!0})));return()=>{V(),e.clear(),t.clear(),c(),w.current=!1,j()}},[f,d,r,v,_,u,n,b,x,F,j,y,M,N,m,l,k]);let z=g.useMemo(()=>({onKeyDown:F,onPointerDown:P,onClick:P}),[F,P]),B=g.useMemo(()=>({onKeyDown:F,onPointerDown:R,onMouseDown:R,onClickCapture:I,onMouseDownCapture(e){I(),L(e)},onPointerDownCapture(e){I(),L(e)},onMouseUpCapture:I,onTouchEndCapture:I,onTouchMoveCapture:I}),[F,I,L,R]);return g.useMemo(()=>n?{reference:z,floating:B,trigger:z}:{},[n,z,B])}var Vi=e((e=>{var n=t();function r(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var i=typeof Object.is==`function`?Object.is:r,a=n.useState,o=n.useEffect,s=n.useLayoutEffect,c=n.useDebugValue;function l(e,t){var n=t(),r=a({inst:{value:n,getSnapshot:t}}),i=r[0].inst,l=r[1];return s(function(){i.value=n,i.getSnapshot=t,u(i)&&l({inst:i})},[e,n,t]),o(function(){return u(i)&&l({inst:i}),e(function(){u(i)&&l({inst:i})})},[e]),c(n),n}function u(e){var t=e.getSnapshot;e=e.value;try{var n=t();return!i(e,n)}catch{return!0}}function d(e,t){return t()}var f=typeof window>`u`||window.document===void 0||window.document.createElement===void 0?d:l;e.useSyncExternalStore=n.useSyncExternalStore===void 0?f:n.useSyncExternalStore})),Hi=e(((e,t)=>{t.exports=Vi()})),Ui=e((e=>{var n=t(),r=Hi();function i(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var a=typeof Object.is==`function`?Object.is:i,o=r.useSyncExternalStore,s=n.useRef,c=n.useEffect,l=n.useMemo,u=n.useDebugValue;e.useSyncExternalStoreWithSelector=function(e,t,n,r,i){var d=s(null);if(d.current===null){var f={hasValue:!1,value:null};d.current=f}else f=d.current;d=l(function(){function e(e){if(!o){if(o=!0,s=e,e=r(e),i!==void 0&&f.hasValue){var t=f.value;if(i(t,e))return c=t}return c=e}if(t=c,a(s,e))return t;var n=r(e);return i!==void 0&&i(t,n)?(s=e,t):(s=e,c=n)}var o=!1,s,c,l=n===void 0?null:n;return[function(){return e(t())},l===null?void 0:function(){return e(l())}]},[t,n,r,i]);var p=o(e,d[0],d[1]);return c(function(){f.hasValue=!0,f.value=p},[p]),u(p),p}})),Wi=e(((e,t)=>{t.exports=Ui()})),Gi=[],Ki=void 0;function qi(){return Ki}function Ji(e){Gi.push(e)}function Yi(e){let t=(t,n)=>{let r=ke(Xi).current,i;try{Ki=r;for(let e of Gi)e.before(r);i=e(t,n);for(let e of Gi)e.after(r);r.didInitialize=!0}finally{Ki=void 0}return i};return t.displayName=e.displayName||e.name,t}function Xi(){return{didInitialize:!1}}var Zi=Hi(),Qi=Wi(),$i=ft(19)?na:ra;function ea(e,t,n,r,i){return $i(e,t,n,r,i)}function ta(e,t,n,r,i){let a=g.useCallback(()=>t(e.getSnapshot(),n,r,i),[e,t,n,r,i]);return(0,Zi.useSyncExternalStore)(e.subscribe,a,a)}Ji({before(e){e.syncIndex=0,e.didInitialize||(e.syncTick=1,e.syncHooks=[],e.didChangeStore=!0,e.getSnapshot=()=>{let t=!1;for(let n=0;n<e.syncHooks.length;n+=1){let r=e.syncHooks[n],i=r.selector(r.store.state,r.a1,r.a2,r.a3);Object.is(r.value,i)||(t=!0,r.value=i)}return t&&(e.syncTick+=1),e.syncTick})},after(e){e.syncHooks.length>0&&(e.didChangeStore&&(e.didChangeStore=!1,e.subscribe=t=>{let n=new Set;for(let t of e.syncHooks)n.add(t.store);let r=[];for(let e of n)r.push(e.subscribe(t));return()=>{for(let e of r)e()}}),(0,Zi.useSyncExternalStore)(e.subscribe,e.getSnapshot,e.getSnapshot))}});function na(e,t,n,r,i){let a=qi();if(!a)return ta(e,t,n,r,i);let o=a.syncIndex;a.syncIndex+=1;let s;return a.didInitialize?(s=a.syncHooks[o],(s.store!==e||s.selector!==t||!Object.is(s.a1,n)||!Object.is(s.a2,r)||!Object.is(s.a3,i))&&(s.store!==e&&(a.didChangeStore=!0),s.store=e,s.selector=t,s.a1=n,s.a2=r,s.a3=i,s.value=t(e.getSnapshot(),n,r,i))):(s={store:e,selector:t,a1:n,a2:r,a3:i,value:t(e.getSnapshot(),n,r,i)},a.syncHooks.push(s)),s.value}function ra(e,t,n,r,i){return(0,Qi.useSyncExternalStoreWithSelector)(e.subscribe,e.getSnapshot,e.getSnapshot,e=>t(e,n,r,i))}var ia=class{static create(e){return new this(e)}constructor(e){this.state=e,this.listeners=new Set,this.updateTick=0}subscribe=e=>(this.listeners.add(e),()=>{this.listeners.delete(e)});getSnapshot=()=>this.state;setState(e){if(this.state===e)return;this.state=e,this.updateTick+=1;let t=this.updateTick;for(let n of this.listeners){if(t!==this.updateTick)return;n(e)}}update(e){for(let t in e)if(!Object.is(this.state[t],e[t])){this.setState({...this.state,...e});return}}set(e,t){Object.is(this.state[e],t)||this.setState({...this.state,[e]:t})}notifyAll(){let e={...this.state};this.setState(e)}use(e,t,n,r){return ea(this,e,t,n,r)}},aa=class extends ia{constructor(e,t={},n){super(e),this.context=t,this.selectors=n}useSyncedValue(e,t){g.useDebugValue(e);let n=this;q(()=>{n.state[e]!==t&&n.set(e,t)},[n,e,t])}useSyncedValueWithCleanup(e,t){let n=this;q(()=>(n.state[e]!==t&&n.set(e,t),()=>{n.set(e,void 0)}),[n,e,t])}useSyncedValues(e){let t=this;q(()=>{t.update(e)},[t,...Object.values(e)])}useControlledProp(e,t){g.useDebugValue(e);let n=this,r=t!==void 0;q(()=>{r&&!Object.is(n.state[e],t)&&n.setState({...n.state,[e]:t})},[n,e,t,r])}select(e,t,n,r){let i=this.selectors[e];return i(this.state,t,n,r)}useState(e,t,n,r){return g.useDebugValue(e),ea(this,this.selectors[e],t,n,r)}useContextCallback(e,t){g.useDebugValue(e);let n=K(t??Y);this.context[e]=n}useStateSetter(e){let t=g.useRef(void 0);return t.current===void 0&&(t.current=t=>{this.set(e,t)}),t.current}observe(e,t){let n;n=typeof e==`function`?e:this.selectors[e];let r=n(this.state);return t(r,r,this),this.subscribe(e=>{let i=n(e);if(!Object.is(r,i)){let e=r;r=i,t(i,e,this)}})}},oa={open:e=>e.open,transitionStatus:e=>e.transitionStatus,domReferenceElement:e=>e.domReferenceElement,referenceElement:e=>e.positionReference??e.referenceElement,floatingElement:e=>e.floatingElement,floatingId:e=>e.floatingId},sa=class extends aa{constructor(e){let{syncOnly:t,nested:n,onOpenChange:r,triggerElements:i,...a}=e;super({...a,positionReference:a.referenceElement,domReferenceElement:a.referenceElement},{onOpenChange:r,dataRef:{current:{}},events:wi(),nested:n,triggerElements:i},oa),this.syncOnly=t}syncOpenEvent=(e,t)=>{(!e||!this.state.open||t!=null&&qn(t))&&(this.context.dataRef.current.openEvent=e?t:void 0)};dispatchOpenChange=(e,t)=>{this.syncOpenEvent(e,t.event);let n={open:e,reason:t.reason,nativeEvent:t.event,nested:this.context.nested,triggerElement:t.trigger};this.context.events.emit(`openchange`,n)};setOpen=(e,t)=>{if(this.syncOnly){this.context.onOpenChange?.(e,t);return}this.dispatchOpenChange(e,t),this.context.onOpenChange?.(e,t)}};function ca(e){let{popupStore:t,treatPopupAsFloatingElement:n=!1,floatingRootContext:r,floatingId:i,nested:a,onOpenChange:o}=e,s=t.useState(`open`),c=t.useState(`activeTriggerElement`),l=t.useState(n?`popupElement`:`positionerElement`),u=t.context.triggerElements,d=o,f=g.useRef(null);r===void 0&&f.current===null&&(f.current=new sa({open:s,transitionStatus:void 0,referenceElement:c,floatingElement:l,triggerElements:u,onOpenChange:d,floatingId:i,syncOnly:!0,nested:a}));let p=r??f.current;return t.useSyncedValue(`floatingId`,i),q(()=>{let e={open:s,floatingId:i,referenceElement:c,floatingElement:l};xe(c)&&(e.domReferenceElement=c),p.state.positionReference===p.state.referenceElement&&(e.positionReference=c),p.update(e)},[s,i,c,l,p]),p.context.onOpenChange=d,p.context.nested=a,p}var la={tabIndex:-1,[Sn]:``};function ua(e){return t=>t!==`touch`||e.current}function da(e,t=!1){let n=en(),r=Di()!=null,i=ke(()=>e(n,r)).current;return ca({popupStore:i,treatPopupAsFloatingElement:t,floatingRootContext:i.state.floatingRootContext,floatingId:n,nested:r,onOpenChange:i.setOpen}),i}function fa({handle:e,store:t}){return q(()=>e.attachStore(t),[e,t]),null}function pa(e,t,n,r=!1){let i=e.preventUnmountingOnClose;t?i=!1:r&&(i=!0);let a=n?.id??null,o=e.activeTriggerId,s=e.activeTriggerElement;return(a||t)&&(o=a,s=n??null),{open:t,preventUnmountingOnClose:i,activeTriggerId:o,activeTriggerElement:s}}function ma(e,t={}){let{closeOnActiveTriggerUnmount:n=!1}=t,r=g.useRef(null),i=e.useState(`open`);q(()=>{if(!i){r.current=null,e.state.triggerCount!==0&&e.set(`triggerCount`,0);return}let t=e.context.triggerElements.size,a={};e.state.triggerCount!==t&&(a.triggerCount=t);let o=e.select(`activeTriggerId`),s=null;if(o){let t=e.context.triggerElements.getById(o);if(t)r.current=o,t!==e.state.activeTriggerElement&&(a.activeTriggerElement=t);else{for(let[t,n]of e.context.triggerElements.entries())if(n===e.state.activeTriggerElement){a.activeTriggerId=t,a.activeTriggerElement=n,r.current=t;break}a.activeTriggerId===void 0&&(r.current===o?s=o:r.current=null)}}else r.current=null;if(!s&&!o&&t===1){let t=e.context.triggerElements.entries().next();if(!t.done){let[e,n]=t.value;a.activeTriggerId=e,a.activeTriggerElement=n,r.current=e}}(a.triggerCount!==void 0||a.activeTriggerId!==void 0||a.activeTriggerElement!==void 0)&&e.update(a),s&&n&&queueMicrotask(()=>{if(e.select(`open`)&&e.select(`activeTriggerId`)===s&&!e.context.triggerElements.getById(s)){let t=Hr(Fr);e.setOpen(!1,t),t.isCanceled||e.update({activeTriggerId:null,activeTriggerElement:null})}})},[i,e,e.useState(`triggerCount`),e.useState(`activeTriggerId`),e.useState(`activeTriggerElement`),n])}function ha(e,t,n,r){let{mounted:i,setMounted:a,transitionStatus:o}=jr(e,!1,!1,r),s=t.useState(`preventUnmountingOnClose`),c=!e&&s;t.useSyncedValues({mounted:i,transitionStatus:o,preventUnmountingOnClose:c});let l=K(()=>{a(!1),t.update({activeTriggerId:null,activeTriggerElement:null,mounted:!1,preventUnmountingOnClose:!1}),n?.(),t.context.onOpenChangeComplete?.(!1)});return Ar({enabled:i&&!e&&!c,open:e,ref:t.context.popupRef,onComplete(){e||l()}}),{forceUnmount:l,transitionStatus:o}}function ga(e,t){e.useSyncedValues(t),q(()=>()=>{e.update({activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X})},[e])}function _a(e,t){q(()=>{!t&&e.state.openMethod!==null&&e.set(`openMethod`,null)},[t,e]),q(()=>()=>{e.state.openMethod!==null&&e.set(`openMethod`,null)},[e])}var va=class{constructor(){this.idMap=new Map}add(e,t){this.idMap.set(e,t)}delete(e){this.idMap.delete(e)}hasElement(e){for(let t of this.idMap.values())if(t===e)return!0;return!1}hasMatchingElement(e){for(let t of this.idMap.values())if(e(t))return!0;return!1}getById(e){return this.idMap.get(e)}entries(){return this.idMap.entries()}elements(){return this.idMap.values()}get size(){return this.idMap.size}};function ya(e,t,n=!1){return{open:!1,openProp:void 0,mounted:!1,transitionStatus:void 0,floatingRootContext:new sa({open:!1,transitionStatus:void 0,floatingElement:null,referenceElement:null,triggerElements:e,floatingId:t,syncOnly:!0,nested:n,onOpenChange:void 0}),floatingId:t,triggerCount:0,preventUnmountingOnClose:!1,payload:void 0,activeTriggerId:null,activeTriggerElement:null,triggerIdProp:void 0,popupElement:null,positionerElement:null,activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X}}var ba=e=>e.triggerIdProp??e.activeTriggerId,xa=e=>e.openProp??e.open,Sa=e=>(e.popupElement?.id??e.floatingId)||void 0;function Ca(e,t){return t!==void 0&&xa(e)&&ba(e)===t}function wa(e,t){return Ca(e,t)?!0:t!==void 0&&xa(e)&&ba(e)==null&&e.triggerCount===1}var Ta={open:xa,mounted:e=>e.mounted,transitionStatus:e=>e.transitionStatus,floatingRootContext:e=>e.floatingRootContext,triggerCount:e=>e.triggerCount,preventUnmountingOnClose:e=>e.preventUnmountingOnClose,payload:e=>e.payload,activeTriggerId:ba,activeTriggerElement:e=>e.mounted?e.activeTriggerElement:null,popupId:Sa,isTriggerActive:(e,t)=>t!==void 0&&ba(e)===t,isOpenedByTrigger:(e,t)=>Ca(e,t),isMountedByTrigger:(e,t)=>t!==void 0&&ba(e)===t&&e.mounted,triggerProps:(e,t)=>t?e.activeTriggerProps:e.inactiveTriggerProps,triggerPopupId:(e,t)=>wa(e,t)?Sa(e):void 0,popupProps:e=>e.popupProps,popupElement:e=>e.popupElement,positionerElement:e=>e.positionerElement},Ea=g.createContext(void 0);function Da(){let e=g.useContext(Ea);if(e===void 0)throw Error(Ze(26));return e}var Oa=new Set([`ArrowUp`,`ArrowDown`,`ArrowLeft`,`ArrowRight`,`Home`,`End`]),ka=`--nested-dialogs`,Aa=`data-nested-dialog-open`,ja={...Pn,...Dn,nestedDialogOpen(e){return e?{[Aa]:``}:null}},Ma=g.forwardRef(function(e,t){let{render:n,className:r,style:i,finalFocus:a,initialFocus:o,...s}=e,c=Jr(),l=c.useState(`descriptionElementId`),u=c.useState(`disablePointerDismissal`),d=c.useState(`floatingRootContext`),f=c.useState(`popupProps`),p=c.useState(`modal`),m=c.useState(`mounted`),h=c.useState(`nested`),g=c.useState(`nestedOpenDialogCount`),_=c.useState(`open`),v=c.useState(`openMethod`),y=c.useState(`titleElementId`),b=c.useState(`transitionStatus`),x=c.useState(`role`),S=d.useState(`floatingId`);Da(),Ar({open:_,ref:c.context.popupRef,onComplete(){_&&c.context.onOpenChangeComplete?.(!0)}});let C=o===void 0?ua(c.context.popupRef):o,w=g>0,T=c.useStateSetter(`popupElement`),E=vt(`div`,e,{state:{open:_,nested:h,transitionStatus:b,nestedDialogOpen:w},props:[f,{id:S,"aria-labelledby":y,"aria-describedby":l,role:x,...la,hidden:!m,onKeyDown(e){Oa.has(e.key)&&e.stopPropagation()},style:{[ka]:g}},s],ref:[t,c.context.popupRef,T],stateAttributesMapping:ja});return(0,U.jsx)(Li,{context:d,openInteractionType:v,disabled:!m,closeOnFocusOut:!u,initialFocus:C,returnFocus:a,modal:p!==!1,restoreFocus:`popup`,children:E})});function Na(e){return ft(19)?e:e?`true`:void 0}var Pa=g.forwardRef(function(e,t){let{cutout:n,...r}=e,i;if(n){let e=n.getBoundingClientRect();i=`polygon(0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,${e.left}px ${e.top}px,${e.left}px ${e.bottom}px,${e.right}px ${e.bottom}px,${e.right}px ${e.top}px,${e.left}px ${e.top}px)`}return(0,U.jsx)(`div`,{ref:t,role:`presentation`,"data-base-ui-inert":``,...r,style:{position:`fixed`,inset:0,userSelect:`none`,WebkitUserSelect:`none`,clipPath:i}})}),Fa=g.forwardRef(function(e,t){let{keepMounted:n=!1,...r}=e,i=Jr(),a=i.useState(`mounted`),o=i.useState(`modal`),s=i.useState(`open`);return a||n?(0,U.jsx)(Ea.Provider,{value:n,children:(0,U.jsxs)(Ci,{ref:t,...r,children:[a&&o===!0&&(0,U.jsx)(Pa,{ref:i.context.internalBackdropRef,inert:Na(!s)}),e.children]})}):null}),Ia={},La={},Ra=``;function za(e,t){return Ce(e)?e:t}function Ba(e,t,n){return/hidden|clip/.test(e.getComputedStyle(za(t,n)).overflowY)}function Va(e){if(typeof document>`u`)return!1;let t=J(e);return ve(t).innerWidth-t.documentElement.clientWidth>0}function Ha(e){if(!(typeof CSS<`u`&&CSS.supports&&CSS.supports(`scrollbar-gutter`,`stable`))||typeof document>`u`)return!1;let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a=i.style.overflowY,o=n.style.scrollbarGutter;n.style.scrollbarGutter=`stable`,i.style.overflowY=`scroll`;let s=i.offsetWidth;i.style.overflowY=`hidden`;let c=i.offsetWidth;return i.style.overflowY=a,n.style.scrollbarGutter=o,s===c}function Ua(e){let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a={overflowY:i.style.overflowY,overflowX:i.style.overflowX};return Object.assign(i.style,{overflowY:`hidden`,overflowX:`hidden`}),()=>{Object.assign(i.style,a)}}function Wa(e){let t=J(e),n=t.documentElement,r=t.body,i=ve(n),a=0,o=0,s=!1,c=wr.create();if(_n&&(i.visualViewport?.scale??1)!==1)return()=>{};function l(){let t=i.getComputedStyle(n),c=i.getComputedStyle(r),l=(t.scrollbarGutter||``).includes(`both-edges`)?`stable both-edges`:`stable`;a=n.scrollTop,o=n.scrollLeft,Ia={scrollbarGutter:n.style.scrollbarGutter,overflowY:n.style.overflowY,overflowX:n.style.overflowX},Ra=n.style.scrollBehavior,La={position:r.style.position,height:r.style.height,width:r.style.width,boxSizing:r.style.boxSizing,overflowY:r.style.overflowY,overflowX:r.style.overflowX,scrollBehavior:r.style.scrollBehavior};let u=n.scrollHeight>n.clientHeight,d=n.scrollWidth>n.clientWidth,f=t.overflowY===`scroll`||c.overflowY===`scroll`,p=t.overflowX===`scroll`||c.overflowX===`scroll`,m=Math.max(0,i.innerWidth-r.clientWidth),h=Math.max(0,i.innerHeight-r.clientHeight),g=parseFloat(c.marginTop)+parseFloat(c.marginBottom),_=parseFloat(c.marginLeft)+parseFloat(c.marginRight),v=za(n,r);if(s=Ha(e),s){n.style.scrollbarGutter=l,v.style.overflowY=`hidden`,v.style.overflowX=`hidden`;return}Object.assign(n.style,{scrollbarGutter:l,overflowY:`hidden`,overflowX:`hidden`}),(u||f)&&(n.style.overflowY=`scroll`),(d||p)&&(n.style.overflowX=`scroll`),Object.assign(r.style,{position:`relative`,height:g||h?`calc(100dvh - ${g+h}px)`:`100dvh`,width:_||m?`calc(100vw - ${_+m}px)`:`100vw`,boxSizing:`border-box`,overflowY:`hidden`,overflowX:`hidden`,scrollBehavior:`unset`}),r.scrollTop=a,r.scrollLeft=o,n.setAttribute(`data-base-ui-scroll-locked`,``),n.style.scrollBehavior=`unset`}function u(){Object.assign(n.style,Ia),Object.assign(r.style,La),s||(n.scrollTop=a,n.scrollLeft=o,n.removeAttribute(`data-base-ui-scroll-locked`),n.style.scrollBehavior=Ra)}function d(){u(),c.request(l)}l();let f=Q(i,`resize`,d);return()=>{c.cancel(),u(),typeof i.removeEventListener==`function`&&f()}}var Ga=new class{lockCount=0;restore=null;timeoutLock=br.create();timeoutUnlock=br.create();acquire(e){return this.lockCount+=1,this.lockCount===1&&this.restore===null&&this.timeoutLock.start(0,()=>this.lock(e)),this.release}release=()=>{--this.lockCount,this.lockCount===0&&this.restore&&this.timeoutUnlock.start(0,this.unlock)};unlock=()=>{this.lockCount===0&&this.restore&&(this.restore?.(),this.restore=null)};lock(e){if(this.lockCount===0||this.restore!==null)return;let t=J(e),n=t.documentElement,r=t.body,i=ve(n);if(Ba(i,n,r)){let t=new i.MutationObserver(()=>{Ba(i,n,r)||(t.disconnect(),this.restore=null,this.lock(e))}),a={attributes:!0};t.observe(n,a),t.observe(r,a),this.restore=()=>t.disconnect();return}let a=fn||!Va(e);this.restore=a?Ua(e):Wa(e)}};function Ka(e=!0,t=null){q(()=>{if(e)return Ga.acquire(t)},[e,t])}function qa({store:e,parentContext:t,isDrawer:n}){let r=e.useState(`open`),i=e.useState(`disablePointerDismissal`),a=e.useState(`modal`),o=e.useState(`popupElement`),s=e.useState(`floatingRootContext`),[c,l]=g.useState(0),[u,d]=g.useState(0),f=c===0,p=Bi(s,{outsidePressEvent(){return e.context.internalBackdropRef.current||e.context.backdropRef.current?`intentional`:{mouse:a===`trap-focus`?`sloppy`:`intentional`,touch:`sloppy`}},outsidePress(t){if(!e.context.outsidePressEnabledRef.current||`button`in t&&t.button!==0)return!1;if(`touches`in t){if(t.type===`touchend`){if(t.changedTouches.length!==1||t.touches.length!==0)return!1}else if(t.touches.length!==1)return!1}let n=xn(t);if(f&&!i){if(a){let t=e.context.internalBackdropRef.current,r=e.context.backdropRef.current;return t||r?t===n||r===n||Z(n,o)&&!n?.hasAttribute(`data-base-ui-portal`):!0}return!0}return!1},escapeKey:f});return Ka(r&&a===!0,o),e.useContextCallback(`onNestedDialogOpen`,(e,t)=>{l(e),d(t)}),q(()=>(t?.onNestedDialogOpen&&(r?t.onNestedDialogOpen(c+1,u+ +!!n):t.onNestedDialogOpen(0,0)),()=>{t?.onNestedDialogOpen&&r&&t.onNestedDialogOpen(0,0)}),[n,r,c,u,t]),ga(e,{activeTriggerProps:p.reference,inactiveTriggerProps:p.trigger,popupProps:p.floating,nestedOpenDialogCount:c,nestedOpenDrawerCount:u}),null}var Ja={...Ta,modal:e=>e.modal,nested:e=>e.nested,nestedOpenDialogCount:e=>e.nestedOpenDialogCount,nestedOpenDrawerCount:e=>e.nestedOpenDrawerCount,disablePointerDismissal:e=>e.disablePointerDismissal,openMethod:e=>e.openMethod,descriptionElementId:e=>e.descriptionElementId,titleElementId:e=>e.titleElementId,viewportElement:e=>e.viewportElement,role:e=>e.role},Ya=class extends aa{constructor(e,t,n){let r=new va,i=Xa(e,r,t,n);super(i,Za(r),Ja)}setOpen=(e,t)=>{t.preventUnmountOnClose=()=>{this.set(`preventUnmountingOnClose`,!0)},!e&&t.trigger==null&&this.state.activeTriggerId!=null&&(t.trigger=this.state.activeTriggerElement??void 0),this.context.onOpenChange?.(e,t),!t.isCanceled&&(this.state.floatingRootContext.dispatchOpenChange(e,t),this.update(pa(this.state,e,t.trigger)))}};function Xa(e,t,n,r=!1){return{...ya(t,n,r),modal:!0,disablePointerDismissal:!1,viewportElement:null,descriptionElementId:void 0,titleElementId:void 0,openMethod:null,nested:!1,nestedOpenDialogCount:0,nestedOpenDrawerCount:0,role:`dialog`,...e}}function Za(e){return{popupRef:g.createRef(),backdropRef:g.createRef(),internalBackdropRef:g.createRef(),outsidePressEnabledRef:{current:!0},triggerElements:e,onOpenChange:void 0,onOpenChangeComplete:void 0}}function Qa(e,t){let{children:n,open:r,defaultOpen:i=!1,onOpenChange:a,onOpenChangeComplete:o,disablePointerDismissal:s=!1,modal:c=!0,actionsRef:l,handle:u,triggerId:d,defaultTriggerId:f=null}=t,p=e===`drawer`,m=e===`alert-dialog`,h=m?!0:c,_=m||s,v=m?`alertdialog`:`dialog`,y=Jr(!0),b={modal:h,disablePointerDismissal:_,nested:y!=null,role:v},x=da((e,t)=>new Ya({open:i,openProp:r,activeTriggerId:f,triggerIdProp:d,...b},e,t),!0);x.useControlledProp(`openProp`,r),x.useControlledProp(`triggerIdProp`,d),x.useSyncedValues(b),x.useContextCallback(`onOpenChange`,a),x.useContextCallback(`onOpenChangeComplete`,o);let S=x.useState(`open`),C=x.useState(`mounted`),w=x.useState(`payload`);_a(x,S),ma(x);let{forceUnmount:T}=ha(S,x);g.useImperativeHandle(l,()=>({unmount:T,close:()=>x.setOpen(!1,Hr(Vr))}),[T,x]);let E=S||C;return(0,U.jsxs)(qr.Provider,{value:x,children:[u&&(0,U.jsx)(fa,{handle:u,store:x}),E&&(0,U.jsx)(qa,{store:x,parentContext:y?.context,isDrawer:p}),typeof n==`function`?n({payload:w}):n]})}var $a=Yi(function(e){return Qa(`dialog`,e)}),eo=g.forwardRef(function(e,t){let{render:n,className:r,style:i,id:a,...o}=e,s=Jr(),c=tn(a);return s.useSyncedValueWithCleanup(`titleElementId`,c),vt(`h2`,e,{ref:t,props:[{id:c},o]})});function to({...e}){return(0,U.jsx)($a,{"data-slot":`sheet`,...e})}function no({...e}){return(0,U.jsx)(Fa,{"data-slot":`sheet-portal`,...e})}function ro({className:e,...t}){return(0,U.jsx)(Yr,{"data-slot":`sheet-overlay`,className:H(`fixed inset-0 z-50 bg-black/10 transition-opacity duration-150 data-ending-style:opacity-0 data-starting-style:opacity-0 supports-backdrop-filter:backdrop-blur-xs`,e),...t})}function io({className:e,children:t,side:n=`right`,showCloseButton:r=!0,...i}){return(0,U.jsxs)(no,{children:[(0,U.jsx)(ro,{}),(0,U.jsxs)(Ma,{"data-slot":`sheet-content`,"data-side":n,className:H(`fixed z-50 flex flex-col gap-4 bg-popover bg-clip-padding text-sm text-popover-foreground shadow-lg transition duration-200 ease-in-out data-ending-style:opacity-0 data-starting-style:opacity-0 data-[side=bottom]:inset-x-0 data-[side=bottom]:bottom-0 data-[side=bottom]:h-auto data-[side=bottom]:border-t data-[side=bottom]:data-ending-style:translate-y-[2.5rem] data-[side=bottom]:data-starting-style:translate-y-[2.5rem] data-[side=left]:inset-y-0 data-[side=left]:left-0 data-[side=left]:h-full data-[side=left]:w-3/4 data-[side=left]:border-r data-[side=left]:data-ending-style:translate-x-[-2.5rem] data-[side=left]:data-starting-style:translate-x-[-2.5rem] data-[side=right]:inset-y-0 data-[side=right]:right-0 data-[side=right]:h-full data-[side=right]:w-3/4 data-[side=right]:border-l data-[side=right]:data-ending-style:translate-x-[2.5rem] data-[side=right]:data-starting-style:translate-x-[2.5rem] data-[side=top]:inset-x-0 data-[side=top]:top-0 data-[side=top]:h-auto data-[side=top]:border-b data-[side=top]:data-ending-style:translate-y-[-2.5rem] data-[side=top]:data-starting-style:translate-y-[-2.5rem] data-[side=left]:sm:max-w-sm data-[side=right]:sm:max-w-sm`,e),...i,children:[t,r&&(0,U.jsxs)(Xr,{"data-slot":`sheet-close`,render:(0,U.jsx)(jt,{variant:`ghost`,className:`absolute top-3 right-3`,size:`icon-sm`}),children:[(0,U.jsx)(fe,{}),(0,U.jsx)(`span`,{className:`sr-only`,children:`Close`})]})]})]})}function ao({className:e,...t}){return(0,U.jsx)(eo,{"data-slot":`sheet-title`,className:H(`font-heading text-base font-medium text-foreground`,e),...t})}var oo=[{type:`folder`,name:`.github`,path:`.github`,children:[{type:`folder`,name:`workflows`,path:`.github/workflows`,children:[{type:`file`,name:`rust.yml`,path:`.github/workflows/rust.yml`,language:`YAML`,content:`name: Deploy Rust Apps
 
 on:
   workflow_dispatch:
@@ -1456,47 +1456,52 @@ function lancerVideo(src) {
 
 // Initialiser le jeu au chargement
 window.onload = afficherScenario;
-`},{type:`file`,name:`téléporte.mp3`,path:`projets/marmotte/téléporte.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/téléporte.mp3 (100608 octets)]`},{type:`file`,name:`zelda.mp3`,path:`projets/marmotte/zelda.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/zelda.mp3 (50363 octets)]`},{type:`file`,name:`zosiaux.mp3`,path:`projets/marmotte/zosiaux.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/zosiaux.mp3 (7035840 octets)]`},{type:`file`,name:`きえない_きずあと.mp3`,path:`projets/marmotte/きえない_きずあと.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/きえない_きずあと.mp3 (1207475 octets)]`},{type:`file`,name:`どこかへつづくもり〜森の世界〜.mp3`,path:`projets/marmotte/どこかへつづくもり〜森の世界〜.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/どこかへつづくもり〜森の世界〜.mp3 (2120218 octets)]`}]},{type:`folder`,name:`morpion`,path:`projets/morpion`,children:[{type:`file`,name:`croix_200x200.png`,path:`projets/morpion/croix_200x200.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/croix_200x200.png (3175 octets)]`},{type:`file`,name:`gabrielle tristan zoe.zip`,path:`projets/morpion/gabrielle tristan zoe.zip`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/gabrielle tristan zoe.zip (2921 octets)]`},{type:`file`,name:`gabs imagée.py`,path:`projets/morpion/gabs imagée.py`,language:`Python`,content:`from tkinter import*
+`},{type:`file`,name:`téléporte.mp3`,path:`projets/marmotte/téléporte.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/téléporte.mp3 (100608 octets)]`},{type:`file`,name:`zelda.mp3`,path:`projets/marmotte/zelda.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/zelda.mp3 (50363 octets)]`},{type:`file`,name:`zosiaux.mp3`,path:`projets/marmotte/zosiaux.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/zosiaux.mp3 (7035840 octets)]`},{type:`file`,name:`きえない_きずあと.mp3`,path:`projets/marmotte/きえない_きずあと.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/きえない_きずあと.mp3 (1207475 octets)]`},{type:`file`,name:`どこかへつづくもり〜森の世界〜.mp3`,path:`projets/marmotte/どこかへつづくもり〜森の世界〜.mp3`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/marmotte/どこかへつづくもり〜森の世界〜.mp3 (2120218 octets)]`}]},{type:`folder`,name:`morpion`,path:`projets/morpion`,children:[{type:`file`,name:`croix_200x200.png`,path:`projets/morpion/croix_200x200.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/croix_200x200.png (3175 octets)]`},{type:`file`,name:`gabrielle tristan zoe.zip`,path:`projets/morpion/gabrielle tristan zoe.zip`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/gabrielle tristan zoe.zip (2921 octets)]`},{type:`file`,name:`gabs imagée.py`,path:`projets/morpion/gabs imagée.py`,language:`Python`,content:`from tkinter import *
 from tkinter import messagebox
-import os # obligatoire pour trouver l'image :)
+import os  # obligatoire pour trouver l'image :)
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__)) # répertoire du programme
-ROND_PATH = os.path.join(BASE_DIR, "rond_200x200.png") # image rond
-CROIX_PATH = os.path.join(BASE_DIR, "croix_200x200.png") # image croix
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # répertoire du programme
+ROND_PATH = os.path.join(BASE_DIR, "rond_200x200.png")  # image rond
+CROIX_PATH = os.path.join(BASE_DIR, "croix_200x200.png")  # image croix
 
-morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]#variable morpion et joueur
+morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]  # variable morpion et joueur
 joueur = 1
 
-def Effacer():#fonction effaçant la grille
+
+def Effacer():  # fonction effaçant la grille
     canvas.delete("all")
+
 
 def Grille(morpion):
     Effacer()
-    for d in range(3):#affiche à tour de rôle, rond, croix
+    for d in range(3):  # affiche à tour de rôle, rond, croix
         for j in range(3):
             x = j * 200
             y = d * 200
-            if morpion[d][j] == 1: #rond
-                canvas.create_image(x+100, y+100, image=img_rond, anchor="center")
-            elif morpion[d][j] == 2: #croix
-                canvas.create_image(x+100, y+100, image=img_croix, anchor="center")
-    for i in range(1, 3):#dessine la grille
-        canvas.create_line(0, i*200, 600, i*200, width=3)
-        canvas.create_line(i*200, 0, i*200, 600, width=3)
+            if morpion[d][j] == 1:  # rond
+                canvas.create_image(x + 100, y + 100, image=img_rond, anchor="center")
+            elif morpion[d][j] == 2:  # croix
+                canvas.create_image(x + 100, y + 100, image=img_croix, anchor="center")
+    for i in range(1, 3):  # dessine la grille
+        canvas.create_line(0, i * 200, 600, i * 200, width=3)
+        canvas.create_line(i * 200, 0, i * 200, 600, width=3)
+
 
 def pointeur(event):
     global joueur
     ligne = event.y // 200
     colonne = event.x // 200
-    print("Case choisie :", ligne, colonne)#affiche dans la console les cases choisies
-    if morpion[ligne][colonne] == 0:#si la case sélectionnée est vide(=0), alors
+    print(
+        "Case choisie :", ligne, colonne
+    )  # affiche dans la console les cases choisies
+    if morpion[ligne][colonne] == 0:  # si la case sélectionnée est vide(=0), alors
         morpion[ligne][colonne] = joueur
-        if joueur == 1:#passage joueur 1 à 2
+        if joueur == 1:  # passage joueur 1 à 2
             joueur = 2
         else:
             joueur = 1
-        Grille(morpion)#exécute fonction grille
-        g = gagnant(morpion)#affiche les différents issues par messagebox
+        Grille(morpion)  # exécute fonction grille
+        g = gagnant(morpion)  # affiche les différents issues par messagebox
         if g == 1:
             messagebox.showinfo("Fin de partie", "Le rond a gagné !")
         elif g == 2:
@@ -1507,98 +1512,118 @@ def pointeur(event):
     else:
         messagebox.showwarning("Coup interdit", "Cette case est déjà occupée !")
 
-def Rejouer():#remet variables à zero, relance programme, quand boutton rejouer appyué
+
+def Rejouer():  # remet variables à zero, relance programme, quand boutton rejouer appyué
     global morpion, joueur
-    morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+    morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     joueur = 1
     Grille(morpion)
 
+
 def gagnant(morpion):
-    for i in range(3):#quand lignes ou colonnes complètes par un joueur
+    for i in range(3):  # quand lignes ou colonnes complètes par un joueur
         if morpion[i][0] == morpion[i][1] == morpion[i][2] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[i][0]
         if morpion[0][i] == morpion[1][i] == morpion[2][i] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[0][i]
-    if morpion[0][0] == morpion[1][1] == morpion[2][2] != 0:#quand diagonales complètes par un joueur
+    if (
+        morpion[0][0] == morpion[1][1] == morpion[2][2] != 0
+    ):  # quand diagonales complètes par un joueur
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][0]
     if morpion[0][2] == morpion[1][1] == morpion[2][0] != 0:
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][2]
-    for ligne in morpion:#match nul
+    for ligne in morpion:  # match nul
         if 0 in ligne:
             return 0
 
     Rejouer()  # relance automatiquement après match nul
     return 3
-#programme principal
-window =Tk()
+
+
+# programme principal
+window = Tk()
 window.title("Morpion")
 window.geometry("700x700")
 
 img_rond = PhotoImage(file=ROND_PATH)
 img_croix = PhotoImage(file=CROIX_PATH)
 
-canvas =Canvas(window, width=600, height=600, bg="white",relief=SUNKEN)
+canvas = Canvas(window, width=600, height=600, bg="white", relief=SUNKEN)
 canvas.pack()
 
-canvas.bind("<Button-1>", pointeur)#attribution souris à variable pointeur
+canvas.bind("<Button-1>", pointeur)  # attribution souris à variable pointeur
 
-frame =Frame(window)
+frame = Frame(window)
 frame.pack(pady=10)
 
-bouttonrejouer = Button(frame, text="Rejouer", command=Rejouer)#bouttons
+bouttonrejouer = Button(frame, text="Rejouer", command=Rejouer)  # bouttons
 bouttonrejouer.pack(side="left", padx=10)
 
 bouttonquitter = Button(frame, text="Quitter", command=window.destroy)
 bouttonquitter.pack(side="left", padx=10)
 
-Grille(morpion)#lancement du programme
-window.mainloop()`},{type:`file`,name:`gabs moderne.py`,path:`projets/morpion/gabs moderne.py`,language:`Python`,content:`from tkinter import*
+Grille(morpion)  # lancement du programme
+window.mainloop()
+`},{type:`file`,name:`gabs moderne.py`,path:`projets/morpion/gabs moderne.py`,language:`Python`,content:`from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
 import sv_ttk
 import pywinstyles, sys
 
-class Theme: #classe pour les couleurs
-    dark_bg="#1c1c1c"
 
-morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]#variable morpion et joueur
+class Theme:  # classe pour les couleurs
+    dark_bg = "#1c1c1c"
+
+
+morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]  # variable morpion et joueur
 joueur = 1
 
-def Effacer():#fonction effaçant la grille
+
+def Effacer():  # fonction effaçant la grille
     canvas.delete("all")
+
 
 def Grille(morpion):
     Effacer()
-    for i in range(1, 3):#dessine la grille
-        canvas.create_line(0, i*200, 600, i*200, width=3,fill="white")
-        canvas.create_line(i*200, 0, i*200, 600, width=3,fill="white")
-    for d in range(3):#affiche à tour de rôle, rond, croix
+    for i in range(1, 3):  # dessine la grille
+        canvas.create_line(0, i * 200, 600, i * 200, width=3, fill="white")
+        canvas.create_line(i * 200, 0, i * 200, 600, width=3, fill="white")
+    for d in range(3):  # affiche à tour de rôle, rond, croix
         for j in range(3):
             x = j * 200
             y = d * 200
-            if morpion[d][j] == 1: #rond
-                canvas.create_oval(x+20, y+20, x+180, y+180, width=4, outline="blue")
-            elif morpion[d][j] == 2: #croix
-                canvas.create_line(x+20, y+20, x+180, y+180, width=4, fill="red")
-                canvas.create_line(x+180, y+20, x+20, y+180, width=4, fill="red")
+            if morpion[d][j] == 1:  # rond
+                canvas.create_oval(
+                    x + 20, y + 20, x + 180, y + 180, width=4, outline="blue"
+                )
+            elif morpion[d][j] == 2:  # croix
+                canvas.create_line(
+                    x + 20, y + 20, x + 180, y + 180, width=4, fill="red"
+                )
+                canvas.create_line(
+                    x + 180, y + 20, x + 20, y + 180, width=4, fill="red"
+                )
+
 
 def pointeur(event):
     global joueur
     ligne = event.y // 200
     colonne = event.x // 200
-    print("Case choisie :", ligne, colonne)#affiche dans la console les cases choisies
-    if morpion[ligne][colonne] == 0:#si la case sélectionnée est vide(=0), alors
+    print(
+        "Case choisie :", ligne, colonne
+    )  # affiche dans la console les cases choisies
+    if morpion[ligne][colonne] == 0:  # si la case sélectionnée est vide(=0), alors
         morpion[ligne][colonne] = joueur
-        if joueur == 1:#passage joueur 1 à 2
+        if joueur == 1:  # passage joueur 1 à 2
             joueur = 2
         else:
             joueur = 1
-        Grille(morpion)#exécute fonction grille
-        g = gagnant(morpion)#affiche les différents issues par messagebox
+        Grille(morpion)  # exécute fonction grille
+        g = gagnant(morpion)  # affiche les différents issues par messagebox
         if g == 1:
             messagebox.showinfo("Fin de partie", "Le joueur 1 a gagné !")
         elif g == 2:
@@ -1609,103 +1634,128 @@ def pointeur(event):
     else:
         messagebox.showwarning("Coup interdit", "Cette case est déjà occupée !")
 
-def Rejouer():#remet variables à zero, relance programme, quand boutton rejouer appyué
+
+def Rejouer():  # remet variables à zero, relance programme, quand boutton rejouer appyué
     global morpion, joueur
-    morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+    morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     joueur = 1
     Grille(morpion)
 
+
 def gagnant(morpion):
-    for i in range(3):#quand lignes ou colonnes complètes par un joueur
+    for i in range(3):  # quand lignes ou colonnes complètes par un joueur
         if morpion[i][0] == morpion[i][1] == morpion[i][2] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[i][0]
         if morpion[0][i] == morpion[1][i] == morpion[2][i] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[0][i]
-    if morpion[0][0] == morpion[1][1] == morpion[2][2] != 0:#quand diagonales complètes par un joueur
+    if (
+        morpion[0][0] == morpion[1][1] == morpion[2][2] != 0
+    ):  # quand diagonales complètes par un joueur
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][0]
     if morpion[0][2] == morpion[1][1] == morpion[2][0] != 0:
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][2]
-    for ligne in morpion:#match nul
+    for ligne in morpion:  # match nul
         if 0 in ligne:
             return 0
 
     Rejouer()  # relance automatiquement après match nul
     return 3
-#programme principal
-window =Tk()
+
+
+# programme principal
+window = Tk()
 window.title("Morpion")
 window.geometry("700x700")
 sv_ttk.set_theme("dark")
 
-def apply_theme_to_titlebar(window): #style de la barre de titre
+
+def apply_theme_to_titlebar(window):  # style de la barre de titre
     version = sys.getwindowsversion()
 
     if version.major == 10 and version.build >= 22000:
-        pywinstyles.change_header_color(window, Theme.dark_bg if sv_ttk.get_theme() == "dark" else "#fafafa")
+        pywinstyles.change_header_color(
+            window, Theme.dark_bg if sv_ttk.get_theme() == "dark" else "#fafafa"
+        )
     elif version.major == 10:
-        pywinstyles.apply_style(window, "dark" if sv_ttk.get_theme() == "dark" else "normal")
+        pywinstyles.apply_style(
+            window, "dark" if sv_ttk.get_theme() == "dark" else "normal"
+        )
         window.wm_attributes("-alpha", 0.99)
         window.wm_attributes("-alpha", 1)
+
+
 apply_theme_to_titlebar(window)
 
 style = ttk.Style()
 style.configure("canvas.TFrame", background=Theme.dark_bg)
-canvas =Canvas(window, width=600, height=600, bg=Theme.dark_bg,relief=SUNKEN)
+canvas = Canvas(window, width=600, height=600, bg=Theme.dark_bg, relief=SUNKEN)
 canvas.pack()
 
-canvas.bind("<Button-1>", pointeur)#attribution souris à variable pointeur
+canvas.bind("<Button-1>", pointeur)  # attribution souris à variable pointeur
 
 frame = ttk.Frame(window)
 frame.pack(pady=10)
 
-bouttonrejouer = ttk.Button(frame, text="Rejouer", command=Rejouer)#bouttons
+bouttonrejouer = ttk.Button(frame, text="Rejouer", command=Rejouer)  # bouttons
 bouttonrejouer.pack(side="left", padx=10)
 
 bouttonquitter = ttk.Button(frame, text="Quitter", command=window.destroy)
 bouttonquitter.pack(side="left", padx=10)
 
-Grille(morpion)#lancement du programme
-window.mainloop()`},{type:`file`,name:`gabs.py`,path:`projets/morpion/gabs.py`,language:`Python`,content:`from tkinter import*
+Grille(morpion)  # lancement du programme
+window.mainloop()
+`},{type:`file`,name:`gabs.py`,path:`projets/morpion/gabs.py`,language:`Python`,content:`from tkinter import *
 from tkinter import messagebox
 
-morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]#variable morpion et joueur
+morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]  # variable morpion et joueur
 joueur = 1
 
-def Effacer():#fonction effaçant la grille
+
+def Effacer():  # fonction effaçant la grille
     canvas.delete("all")
+
 
 def Grille(morpion):
     Effacer()
-    for i in range(1, 3):#dessine la grille
-        canvas.create_line(0, i*200, 600, i*200, width=3)
-        canvas.create_line(i*200, 0, i*200, 600, width=3)
-    for d in range(3):#affiche à tour de rôle, rond, croix
+    for i in range(1, 3):  # dessine la grille
+        canvas.create_line(0, i * 200, 600, i * 200, width=3)
+        canvas.create_line(i * 200, 0, i * 200, 600, width=3)
+    for d in range(3):  # affiche à tour de rôle, rond, croix
         for j in range(3):
             x = j * 200
             y = d * 200
-            if morpion[d][j] == 1: #rond
-                canvas.create_oval(x+20, y+20, x+180, y+180, width=4, outline="blue")
-            elif morpion[d][j] == 2: #croix
-                canvas.create_line(x+20, y+20, x+180, y+180, width=4, fill="red")
-                canvas.create_line(x+180, y+20, x+20, y+180, width=4, fill="red")
+            if morpion[d][j] == 1:  # rond
+                canvas.create_oval(
+                    x + 20, y + 20, x + 180, y + 180, width=4, outline="blue"
+                )
+            elif morpion[d][j] == 2:  # croix
+                canvas.create_line(
+                    x + 20, y + 20, x + 180, y + 180, width=4, fill="red"
+                )
+                canvas.create_line(
+                    x + 180, y + 20, x + 20, y + 180, width=4, fill="red"
+                )
+
 
 def pointeur(event):
     global joueur
     ligne = event.y // 200
     colonne = event.x // 200
-    print("Case choisie :", ligne, colonne)#affiche dans la console les cases choisies
-    if morpion[ligne][colonne] == 0:#si la case sélectionnée est vide(=0), alors
+    print(
+        "Case choisie :", ligne, colonne
+    )  # affiche dans la console les cases choisies
+    if morpion[ligne][colonne] == 0:  # si la case sélectionnée est vide(=0), alors
         morpion[ligne][colonne] = joueur
-        if joueur == 1:#passage joueur 1 à 2
+        if joueur == 1:  # passage joueur 1 à 2
             joueur = 2
         else:
             joueur = 1
-        Grille(morpion)#exécute fonction grille
-        g = gagnant(morpion)#affiche les différents issues par messagebox
+        Grille(morpion)  # exécute fonction grille
+        g = gagnant(morpion)  # affiche les différents issues par messagebox
         if g == 1:
             messagebox.showinfo("Fin de partie", "Le joueur 1 a gagné !")
         elif g == 2:
@@ -1716,53 +1766,60 @@ def pointeur(event):
     else:
         messagebox.showwarning("Coup interdit", "Cette case est déjà occupée !")
 
-def Rejouer():#remet variables à zero, relance programme, quand boutton rejouer appyué
+
+def Rejouer():  # remet variables à zero, relance programme, quand boutton rejouer appyué
     global morpion, joueur
-    morpion = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+    morpion = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     joueur = 1
     Grille(morpion)
 
+
 def gagnant(morpion):
-    for i in range(3):#quand lignes ou colonnes complètes par un joueur
+    for i in range(3):  # quand lignes ou colonnes complètes par un joueur
         if morpion[i][0] == morpion[i][1] == morpion[i][2] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[i][0]
         if morpion[0][i] == morpion[1][i] == morpion[2][i] != 0:
             Rejouer()  # relance automatiquement après victoire
             return morpion[0][i]
-    if morpion[0][0] == morpion[1][1] == morpion[2][2] != 0:#quand diagonales complètes par un joueur
+    if (
+        morpion[0][0] == morpion[1][1] == morpion[2][2] != 0
+    ):  # quand diagonales complètes par un joueur
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][0]
     if morpion[0][2] == morpion[1][1] == morpion[2][0] != 0:
         Rejouer()  # relance automatiquement après victoire
         return morpion[0][2]
-    for ligne in morpion:#match nul
+    for ligne in morpion:  # match nul
         if 0 in ligne:
             return 0
 
     Rejouer()  # relance automatiquement après match nul
     return 3
-#programme principal
-window =Tk()
+
+
+# programme principal
+window = Tk()
 window.title("Morpion")
 window.geometry("700x700")
 
-canvas =Canvas(window, width=600, height=600, bg="white",relief=SUNKEN)
+canvas = Canvas(window, width=600, height=600, bg="white", relief=SUNKEN)
 canvas.pack()
 
-canvas.bind("<Button-1>", pointeur)#attribution souris à variable pointeur
+canvas.bind("<Button-1>", pointeur)  # attribution souris à variable pointeur
 
-frame =Frame(window)
+frame = Frame(window)
 frame.pack(pady=10)
 
-bouttonrejouer = Button(frame, text="Rejouer", command=Rejouer)#bouttons
+bouttonrejouer = Button(frame, text="Rejouer", command=Rejouer)  # bouttons
 bouttonrejouer.pack(side="left", padx=10)
 
 bouttonquitter = Button(frame, text="Quitter", command=window.destroy)
 bouttonquitter.pack(side="left", padx=10)
 
-Grille(morpion)#lancement du programme
-window.mainloop()`},{type:`file`,name:`morpion.py`,path:`projets/morpion/morpion.py`,language:`Python`,content:`from tkinter import *
+Grille(morpion)  # lancement du programme
+window.mainloop()
+`},{type:`file`,name:`morpion.py`,path:`projets/morpion/morpion.py`,language:`Python`,content:`from tkinter import *
 from tkinter import messagebox
 
 # Variables globales
@@ -1770,59 +1827,70 @@ joueur_actuel = "X"
 grille = [""] * 9  # 9 cases vides
 boutons = []
 
+
 def cliquer_case(numero_case):
     """Quand un joueur clique sur une case"""
     global joueur_actuel
-    
+
     # Si la case est vide
     if grille[numero_case] == "":
         # Mettre le symbole du joueur dans la case
         grille[numero_case] = joueur_actuel
         boutons[numero_case].config(text=joueur_actuel)
-        
+
         # Vérifier si ce joueur a gagné
         if verifier_victoire():
             messagebox.showinfo("Fin du jeu", f"Le joueur {joueur_actuel} gagne !")
             return
-        
+
         # Vérifier si la grille est pleine (match nul)
         if "" not in grille:
             messagebox.showinfo("Fin du jeu", "Match nul !")
             return
-        
+
         # Changer de joueur
         joueur_actuel = "O" if joueur_actuel == "X" else "X"
         label_info.config(text=f"Tour du joueur {joueur_actuel}")
+
 
 def verifier_victoire():
     """Vérifie si le joueur actuel a gagné"""
     # Toutes les combinaisons gagnantes possibles
     lignes_gagnantes = [
-        [0, 1, 2], [3, 4, 5], [6, 7, 8],  # Lignes horizontales
-        [0, 3, 6], [1, 4, 7], [2, 5, 8],  # Lignes verticales
-        [0, 4, 8], [2, 4, 6]               # Diagonales
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],  # Lignes horizontales
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],  # Lignes verticales
+        [0, 4, 8],
+        [2, 4, 6],  # Diagonales
     ]
-    
+
     # Vérifier chaque ligne gagnante
     for ligne in lignes_gagnantes:
-        if (grille[ligne[0]] == joueur_actuel and 
-            grille[ligne[1]] == joueur_actuel and 
-            grille[ligne[2]] == joueur_actuel):
+        if (
+            grille[ligne[0]] == joueur_actuel
+            and grille[ligne[1]] == joueur_actuel
+            and grille[ligne[2]] == joueur_actuel
+        ):
             return True
     return False
+
 
 def nouvelle_partie():
     """Recommencer une nouvelle partie"""
     global joueur_actuel, grille
-    
+
     joueur_actuel = "X"
     grille = [""] * 9
-    
+
     # Vider tous les boutons
     for bouton in boutons:
         bouton.config(text="")
-    
+
     label_info.config(text="Tour du joueur X")
+
 
 # Créer la fenêtre
 fenetre = Tk()
@@ -1838,9 +1906,14 @@ cadre_grille.pack(pady=10)
 
 # Créer les 9 boutons de la grille (3x3)
 for i in range(9):
-    bouton = Button(cadre_grille, text="", width=10, height=5,
-                   font=("Arial", 18, "bold"),
-                   command=lambda num=i: cliquer_case(num))
+    bouton = Button(
+        cadre_grille,
+        text="",
+        width=10,
+        height=5,
+        font=("Arial", 18, "bold"),
+        command=lambda num=i: cliquer_case(num),
+    )
     ligne = i // 3  # Calculer la ligne (0, 1, ou 2)
     colonne = i % 3  # Calculer la colonne (0, 1, ou 2)
     bouton.grid(row=ligne, column=colonne, padx=2, pady=2)
@@ -1851,8 +1924,13 @@ label_info = Label(fenetre, text="Tour du joueur X", font=("Arial", 14))
 label_info.pack(pady=10)
 
 # Bouton pour recommencer
-Button(fenetre, text="Nouvelle Partie", font=("Arial", 12), 
-       bg="lightblue", command=nouvelle_partie).pack(pady=5)
+Button(
+    fenetre,
+    text="Nouvelle Partie",
+    font=("Arial", 12),
+    bg="lightblue",
+    command=nouvelle_partie,
+).pack(pady=5)
 
 # Lancer la fenêtre
 fenetre.mainloop()
@@ -1864,7 +1942,666 @@ fenetre.mainloop()
 - [morpion avec image](/morpion/gabs%20imagée.py)
 
 les assets sont présents directement dans le dossier du projet morpion
-`},{type:`file`,name:`rond_200x200.png`,path:`projets/morpion/rond_200x200.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/rond_200x200.png (18756 octets)]`}]},{type:`folder`,name:`space invader`,path:`projets/space invader`,children:[{type:`file`,name:`gabs.py`,path:`projets/space invader/gabs.py`,language:`Python`,content:`# ============================================================================
+`},{type:`file`,name:`rond_200x200.png`,path:`projets/morpion/rond_200x200.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/morpion/rond_200x200.png (18756 octets)]`}]},{type:`folder`,name:`re_chess`,path:`projets/re_chess`,children:[{type:`folder`,name:`arcade_templates`,path:`projets/re_chess/arcade_templates`,children:[{type:`file`,name:`circle_1.glsl`,path:`projets/re_chess/arcade_templates/circle_1.glsl`,language:`Text`,content:`uniform vec2 pos;
+uniform vec3 color;
+
+void mainImage(out vec4 fragColor, in vec2 fragCoord) {
+
+    // Normalized pixel coordinates (from 0 to 1)
+    vec2 uv = fragCoord / iResolution.xy;
+    vec2 npos = pos / iResolution.xy;
+
+    // Position of fragment relative to specified position
+    vec2 rpos = npos - uv;
+    // Adjust y by aspect ratio
+    rpos.y /= iResolution.x / iResolution.y;
+
+    // How far is the current pixel from the origin (0, 0)
+    float distance = length(rpos);
+    // Use an inverse 1/distance to set the fade
+    float scale = 0.02;
+    float fade = 1.1;
+    float strength = pow(1.0 / distance * scale, fade);
+
+    // Fade our orange color
+    vec3 color = strength * color;
+
+    // Tone mapping
+    color = 1.0 - exp(-color);
+
+    // Output to the screen
+    fragColor = vec4(color, 1.0);
+}
+`},{type:`file`,name:`crt_filter.py`,path:`projets/re_chess/arcade_templates/crt_filter.py`,language:`Python`,content:`import arcade
+from arcade.experimental.crt_filter import CRTFilter
+from arcade.types.rect import LBWH
+from pyglet.math import Vec2
+
+# Store our screen dimensions & title in a convenient place
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 1100
+SCREEN_TITLE = "ShaderToy Demo"
+
+
+class MyGame(arcade.Window):
+    def __init__(self, width, height, title):
+        super().__init__(width, height, title, resizable=False)
+
+        # Create the crt filter
+        self.crt_filter = CRTFilter(
+            width,
+            height,
+            resolution_down_scale=6.0,
+            hard_scan=-8.0,
+            hard_pix=-3.0,
+            display_warp=Vec2(1.0 / 32.0, 1.0 / 24.0),
+            mask_dark=0.5,
+            mask_light=1.5,
+        )
+
+        self.filter_on = True
+
+        # Create some stuff to draw on the screen
+        self.sprite_list = arcade.SpriteList()
+
+        # Load the pac-man map image and scale it up to the window size
+        map = arcade.Sprite("Pac-man.png", center_x=width / 2, center_y=height / 2)
+        map.scale = width / map.width
+        self.sprite_list.append(map)
+
+        # Slice out some textures from the sprite sheet
+        spritesheet = arcade.load_spritesheet("pac_man_sprite_sheet.png")
+        ghost_red = spritesheet.get_texture(LBWH(4, 65, 13, 15))
+        pink_ghost = spritesheet.get_texture(LBWH(4, 81, 13, 15))
+        pacman_1 = spritesheet.get_texture(LBWH(4, 1, 13, 15))
+        pacman_2 = spritesheet.get_texture(LBWH(20, 1, 13, 15))
+        pacman_3 = spritesheet.get_texture(LBWH(36, 1, 13, 15))
+
+        # Create sprite for the red ghost with some movement and add it to the sprite list
+        sprite = arcade.Sprite(ghost_red, center_x=100, center_y=300, scale=5.0)
+        sprite.change_x = 1
+        self.sprite_list.append(sprite)
+
+        # Create sprite for the pink ghost with some movement and add it to the sprite list
+        sprite = arcade.Sprite(pink_ghost, center_x=800, center_y=200, scale=5.0)
+        sprite.change_x = -1
+        self.sprite_list.append(sprite)
+
+        # Create an animated pacman sprite and add it to the sprite list
+        keyframes = [
+            arcade.TextureKeyframe(pacman_1, duration=100),
+            arcade.TextureKeyframe(pacman_2, duration=100),
+            arcade.TextureKeyframe(pacman_3, duration=100),
+        ]
+        sprite = arcade.TextureAnimationSprite(
+            center_x=0,
+            center_y=300,
+            scale=5.0,
+            animation=arcade.TextureAnimation(keyframes),
+        )
+        sprite.change_x = 1
+        self.sprite_list.append(sprite)
+
+    def on_draw(self):
+        if self.filter_on:
+            # Draw our stuff into the CRT filter instead of on screen
+            self.crt_filter.use()
+            self.crt_filter.clear()
+            self.sprite_list.draw()
+
+            # Next, switch back to the screen and dump the contents of
+            # the CRT filter to it.
+            self.use()
+            self.clear()
+            self.crt_filter.draw()
+        else:
+            # Draw our stuff into the screen
+            self.use()
+            self.clear()
+            self.sprite_list.draw()
+
+    def on_update(self, dt):
+        # Keep track of elapsed time
+        self.sprite_list.update()
+        self.sprite_list.update_animation(dt)
+        for sprite in self.sprite_list:
+            if sprite.left > self.width and sprite.change_x > 0:
+                sprite.right = 0
+            if sprite.right < 0 and sprite.change_x < 0:
+                sprite.left = self.width
+
+    def on_key_press(self, key, mod):
+        if key == arcade.key.SPACE:
+            self.filter_on = not self.filter_on
+
+
+if __name__ == "__main__":
+    MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    arcade.run()
+`},{type:`file`,name:`explosion.glsl`,path:`projets/re_chess/arcade_templates/explosion.glsl`,language:`Text`,content:`// Origin of the particles
+uniform vec2 pos;
+
+// Constants
+
+// Number of particles
+const float PARTICLE_COUNT = 100.0;
+// Max distance the particle can be from the position.
+// Normalized. (So, 0.3 is 30% of the screen.)
+const float MAX_PARTICLE_DISTANCE = 0.3;
+// Size of each particle. Normalized.
+const float PARTICLE_SIZE = 0.004;
+// Time for each burst cycle, in seconds.
+const float BURST_TIME = 2.0;
+// Particle brightness
+const float DEFAULT_BRIGHTNESS = 0.0005;
+// How many times to the particles twinkle
+const float TWINKLE_SPEED = 10.0;
+
+const float TWOPI = 6.2832;
+
+// This function will return two pseudo-random numbers given an input seed.
+// The result is in polar coordinates, to make the points random in a circle
+// rather than a rectangle.
+vec2 Hash12_Polar(float t) {
+    float angle = fract(sin(t * 674.3) * 453.2) * TWOPI;
+    float distance = fract(sin((t + angle) * 724.3) * 341.2);
+    return vec2(sin(angle), cos(angle)) * distance;
+}
+
+void mainImage(out vec4 fragColor, in vec2 fragCoord)
+{
+    // Normalized pixel coordinates (from 0 to 1)
+    // Origin of the particles
+    vec2 npos = (pos - .5 * iResolution.xy) / iResolution.y;
+    // Position of current pixel we are drawing
+    vec2 uv = (fragCoord - .5 * iResolution.xy) / iResolution.y;
+
+    // Re-center based on input coordinates, rather than origin.
+    uv -= npos;
+
+    // Default alpha is transparent.
+    float alpha = 0.0;
+
+    // 0.0 - 1.0 normalized fraction representing how far along in the explosion we are.
+    // Auto resets if time goes beyond burst time. This causes the explosion to cycle.
+    float timeFract = fract(iTime * 1 / BURST_TIME);
+
+    // Loop for each particle
+    for (float i = 0.; i < PARTICLE_COUNT; i++) {
+        // Direction of particle + speed
+        float seed = i + 1.0;
+        vec2 dir = Hash12_Polar(seed);
+        // Get position based on direction, magnitude, and explosion size
+        // Adjust based on time scale. (0.0-1.0)
+        vec2 particlePosition = dir * MAX_PARTICLE_DISTANCE * timeFract;
+        // Distance of this pixel from that particle
+        float d = length(uv - particlePosition);
+        // Add glow based on distance
+        float brightness = DEFAULT_BRIGHTNESS * (sin(timeFract * TWINKLE_SPEED + i) * .5 + .5);
+        alpha += brightness / d;
+    }
+    // Output to screen
+    fragColor = vec4(1.0, 1.0, 1.0, alpha * (1.0 - timeFract));
+}
+`},{type:`file`,name:`glow.py`,path:`projets/re_chess/arcade_templates/glow.py`,language:`Python`,content:`import arcade
+from arcade.experimental import Shadertoy
+
+
+# Derive an application window from Arcade's parent Window class
+class MyGame(arcade.Window):
+    def __init__(self, width=1920, height=1080, glow_color=arcade.color.LIGHT_BLUE):
+        # Call the parent constructor
+        super().__init__(width=width, height=height, update_rate=1 / 8000)
+
+        # Load a file and create a shader from it
+        shader_file_path = "circle_1.glsl"
+        window_size = self.get_size()
+        self.shadertoy = Shadertoy.create_from_file(window_size, shader_file_path)
+        # Set uniform light color data to send to the GLSL shader
+        # from the normalized RGB components of the color.
+        self.shadertoy.program["color"] = glow_color.normalized[:3]
+
+    def on_draw(self):
+        # Set uniform position data to send to the GLSL shader
+        self.shadertoy.program["pos"] = self.mouse["x"], self.mouse["y"]
+        # Run the GLSL code
+        self.shadertoy.render()
+
+
+if __name__ == "__main__":
+    MyGame()
+    arcade.run()
+`},{type:`file`,name:`pac_man_sprite_sheet.png`,path:`projets/re_chess/arcade_templates/pac_man_sprite_sheet.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/re_chess/arcade_templates/pac_man_sprite_sheet.png (7252 octets)]`},{type:`file`,name:`Pac-man.png`,path:`projets/re_chess/arcade_templates/Pac-man.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: projets/re_chess/arcade_templates/Pac-man.png (1472 octets)]`},{type:`file`,name:`particles.py`,path:`projets/re_chess/arcade_templates/particles.py`,language:`Python`,content:`# load the shader
+import arcade
+from arcade.experimental import Shadertoy
+
+
+# Derive an application window from Arcade's parent Window class
+class MyGame(arcade.Window):
+    def __init__(self):
+        # Call the parent constructor
+        super().__init__(width=1920, height=1080)
+
+        # Load a file and create a shader from it
+        file_name = "explosion.glsl"
+        self.shadertoy = Shadertoy(
+            size=self.get_size(), main_source=open(file_name).read()
+        )
+
+    def on_draw(self):
+        self.clear()
+        self.ctx.enable_only(self.ctx.BLEND)
+        # Set uniform data to send to the GLSL shader
+        self.shadertoy.program["pos"] = self.mouse["x"], self.mouse["y"]
+
+        # Run the GLSL code
+        self.shadertoy.render(time=self.time)
+
+
+if __name__ == "__main__":
+    window = MyGame()
+    window.center_window()
+    arcade.run()
+`}]},{type:`file`,name:`main.py`,path:`projets/re_chess/main.py`,language:`Python`,content:`import math
+import os
+
+import chess
+import chess.engine
+import matplotlib.pyplot as plt
+from matplotlib import patches
+from matplotlib.widgets import Button
+
+STOCKFISH_PATH = os.environ.get(
+    "STOCKFISH_PATH",
+    "/home/nino-nakano/Téléchargements/stockfish/stockfish/stockfish-linux-x86-64-universal",
+)
+
+START_FEN = chess.STARTING_FEN
+
+PIECE_SYMBOLS = {
+    "P": "♙",
+    "R": "♖",
+    "N": "♘",
+    "B": "♗",
+    "Q": "♕",
+    "K": "♔",
+    "p": "♟",
+    "r": "♜",
+    "n": "♞",
+    "b": "♝",
+    "q": "♛",
+    "k": "♚",
+}
+
+
+def cp_to_win(cp: float) -> float:
+    return 1 / (1 + math.exp(-0.00368 * cp))
+
+
+def color_for(cls: str) -> str:
+    return {
+        "Meilleur coup (Best Move) ★": "#26ac5e",
+        "Excellent": "#81b64c",
+        "Bon": "#96bc4b",
+        "Imprécision (?!)": "#f7c04a",
+        "Erreur (?)": "#e58f2a",
+        "Gaffe (??)": "#ca3431",
+    }.get(cls, "#808080")
+
+
+class LiveAnalyzer:
+    def __init__(
+        self, fen: str = START_FEN, engine_path: str = STOCKFISH_PATH, depth: int = 14
+    ):
+        self.board = chess.Board(fen)
+        self.engine = chess.engine.SimpleEngine.popen_uci(engine_path)
+        self.depth = depth
+        self.flipped = False
+        self.selected = None
+        self.last_move = None
+        self.last_classification = None
+        self.last_win_before = None
+        self.last_win_after = None
+
+        # Analyse initiale (perspective du joueur au trait)
+        self._refresh_analysis()
+
+        # --- Figure ---
+        self.fig = plt.figure(figsize=(11, 6))
+        gs = self.fig.add_gridspec(1, 2, width_ratios=[3, 1.2], wspace=0.15)
+        self.ax_board = self.fig.add_subplot(gs[0, 0])
+        self.ax_bar = self.fig.add_subplot(gs[0, 1])
+
+        self.btn_undo = Button(self.fig.add_axes([0.32, 0.02, 0.10, 0.05]), "↶ Annuler")
+        self.btn_reset = Button(self.fig.add_axes([0.43, 0.02, 0.10, 0.05]), "⟲ Reset")
+        self.btn_flip = Button(self.fig.add_axes([0.54, 0.02, 0.10, 0.05]), "⇅ Pivoter")
+        self.btn_undo.on_clicked(self._undo)
+        self.btn_reset.on_clicked(self._reset)
+        self.btn_flip.on_clicked(self._flip)
+
+        self.fig.canvas.mpl_connect("button_press_event", self._on_click)
+        self.fig.canvas.mpl_connect("key_press_event", self._on_key)
+
+        self._draw()
+        plt.show()
+        self.engine.quit()
+
+    # ----- coordonnées -----
+    def _xy(self, square: int):
+        f, r = chess.square_file(square), chess.square_rank(square)
+        if self.flipped:
+            f, r = 7 - f, 7 - r
+        return f + 0.5, r + 0.5
+
+    def _sq(self, x: float, y: float):
+        f, r = int(x), int(y)
+        if self.flipped:
+            f, r = 7 - f, 7 - r
+        if 0 <= f < 8 and 0 <= r < 8:
+            return chess.square(f, r)
+        return None
+
+    # ----- analyse -----
+    def _refresh_analysis(self):
+        """Recalcule win_before / best_move_hint pour le joueur au trait."""
+        info = self.engine.analyse(self.board, chess.engine.Limit(depth=self.depth))
+        player = self.board.turn
+        cp = info["score"].pov(player).score(mate_score=10000) or 0
+        self.win_before = cp_to_win(cp)
+        pv = info.get("pv") or []
+        self.best_move_hint = pv[0] if pv else None
+
+    # ----- interactions -----
+    def _on_click(self, event):
+        if event.inaxes != self.ax_board or event.xdata is None:
+            return
+        sq = self._sq(event.xdata, event.ydata)
+        if sq is None:
+            return
+
+        # Sélection
+        if self.selected is None:
+            piece = self.board.piece_at(sq)
+            if piece and piece.color == self.board.turn:
+                self.selected = sq
+                self._draw()
+            return
+
+        # Déplacement
+        moves = [
+            m
+            for m in self.board.legal_moves
+            if m.from_square == self.selected and m.to_square == sq
+        ]
+        if not moves:
+            piece = self.board.piece_at(sq)
+            self.selected = sq if (piece and piece.color == self.board.turn) else None
+            self._draw()
+            return
+
+        move = next((m for m in moves if m.promotion == chess.QUEEN), moves[0])
+        self._play(move)
+
+    def _on_key(self, event):
+        if event.key == "u":
+            self._undo(None)
+        elif event.key == "r":
+            self._reset(None)
+        elif event.key == "f":
+            self._flip(None)
+
+    def _play(self, move: chess.Move):
+        win_before = self.win_before
+        best_hint = self.best_move_hint
+
+        self.board.push(move)
+        self.last_move = move
+        self.selected = None
+
+        # Analyse après le coup, du point de vue de celui qui vient de jouer
+        info = self.engine.analyse(self.board, chess.engine.Limit(depth=self.depth))
+        player = not self.board.turn
+        cp = info["score"].pov(player).score(mate_score=10000) or 0
+        win_after = cp_to_win(cp)
+
+        # Classification
+        prob_loss = win_before - win_after
+        if best_hint is not None and move == best_hint:
+            cls = "Meilleur coup (Best Move) ★"
+        elif prob_loss <= 0.02:
+            cls = "Excellent"
+        elif prob_loss <= 0.05:
+            cls = "Bon"
+        elif prob_loss <= 0.09:
+            cls = "Imprécision (?!)"
+        elif prob_loss <= 0.20:
+            cls = "Erreur (?)"
+        else:
+            cls = "Gaffe (??)"
+
+        self.last_classification = cls
+        self.last_win_before = win_before
+        self.last_win_after = win_after
+
+        # Nouveau calcul pour le joueur suivant
+        self._refresh_analysis()
+        self._draw()
+
+    def _undo(self, _):
+        if self.board.move_stack:
+            self.board.pop()
+            self.last_move = None
+            self.last_classification = None
+            self.last_win_before = None
+            self.last_win_after = None
+            self.selected = None
+            self._refresh_analysis()
+            self._draw()
+
+    def _reset(self, _):
+        self.board.reset()
+        self.last_move = None
+        self.last_classification = None
+        self.last_win_before = None
+        self.last_win_after = None
+        self.selected = None
+        self._refresh_analysis()
+        self._draw()
+
+    def _flip(self, _):
+        self.flipped = not self.flipped
+        self._draw()
+
+    # ----- dessin -----
+    def _draw(self):
+        ax = self.ax_board
+        ax.clear()
+        ax.set_xlim(0, 8)
+        ax.set_ylim(0, 8)
+        ax.set_aspect("equal")
+        ax.axis("off")
+
+        # Cases
+        base = ["#eeeed2", "#769656"]
+        for row in range(8):
+            for col in range(8):
+                ax.add_patch(
+                    patches.Rectangle((col, row), 1, 1, color=base[(row + col) % 2])
+                )
+
+        # Dernier coup
+        if self.last_move is not None:
+            for sq in (self.last_move.from_square, self.last_move.to_square):
+                x, y = self._xy(sq)
+                ax.add_patch(
+                    patches.Rectangle(
+                        (x - 0.5, y - 0.5),
+                        1,
+                        1,
+                        facecolor="#f7c04a",
+                        alpha=0.5,
+                        edgecolor="none",
+                    )
+                )
+
+        # Sélection + coups légaux
+        if self.selected is not None:
+            x, y = self._xy(self.selected)
+            ax.add_patch(
+                patches.Rectangle(
+                    (x - 0.5, y - 0.5),
+                    1,
+                    1,
+                    facecolor="#26ac5e",
+                    alpha=0.55,
+                    edgecolor="none",
+                )
+            )
+            for m in self.board.legal_moves:
+                if m.from_square == self.selected:
+                    cx, cy = self._xy(m.to_square)
+                    is_capture = self.board.piece_at(m.to_square) is not None
+                    if is_capture:
+                        ax.add_patch(
+                            patches.Circle(
+                                (cx, cy),
+                                0.42,
+                                fill=False,
+                                lw=3,
+                                color="#26ac5e",
+                                alpha=0.8,
+                            )
+                        )
+                    else:
+                        ax.add_patch(
+                            patches.Circle((cx, cy), 0.13, color="#26ac5e", alpha=0.7)
+                        )
+
+        # Pièces
+        for sq in chess.SQUARES:
+            p = self.board.piece_at(sq)
+            if p:
+                x, y = self._xy(sq)
+                sym = PIECE_SYMBOLS.get(p.symbol(), p.symbol())
+                col = "black" if p.color == chess.BLACK else "#ffffff"
+                ax.text(
+                    x,
+                    y,
+                    sym,
+                    ha="center",
+                    va="center",
+                    fontsize=26,
+                    color=col,
+                    weight="bold",
+                )
+
+        # Flèche du meilleur coup (indice)
+        if self.best_move_hint is not None and self.selected is None:
+            x1, y1 = self._xy(self.best_move_hint.from_square)
+            x2, y2 = self._xy(self.best_move_hint.to_square)
+            ax.annotate(
+                "",
+                xy=(x2, y2),
+                xytext=(x1, y1),
+                arrowprops=dict(arrowstyle="-|>", color="#26ac5e", lw=3, alpha=0.75),
+            )
+
+        # Titre
+        if self.last_classification:
+            ax.set_title(
+                self.last_classification,
+                color=color_for(self.last_classification),
+                fontsize=13,
+                fontweight="bold",
+            )
+        else:
+            ax.set_title("À vous de jouer", fontsize=13, fontweight="bold")
+
+        turn = "Blancs" if self.board.turn else "Noirs"
+        self.fig.suptitle(
+            f"Trait aux {turn}   —   cliquez pièce puis destination   "
+            f"([u] annuler, [r] reset, [f] pivoter)",
+            fontsize=10,
+        )
+
+        # Barre
+        self.ax_bar.clear()
+        self.ax_bar.set_ylim(0, 100)
+        self.ax_bar.set_ylabel("Chances de gain (%)")
+        self.ax_bar.grid(axis="y", linestyle="--", alpha=0.5)
+
+        if self.last_win_before is not None and self.last_win_after is not None:
+            self.ax_bar.bar(
+                ["Avant"],
+                [self.last_win_before * 100],
+                color="#bbbbbb",
+                edgecolor="black",
+                width=0.5,
+            )
+            self.ax_bar.bar(
+                ["Après"],
+                [self.last_win_after * 100],
+                color=color_for(self.last_classification or ""),
+                edgecolor="black",
+                width=0.5,
+            )
+            self.ax_bar.text(
+                0,
+                self.last_win_before * 100 + 2,
+                f"{self.last_win_before * 100:.1f}%",
+                ha="center",
+                fontsize=10,
+            )
+            self.ax_bar.text(
+                1,
+                self.last_win_after * 100 + 2,
+                f"{self.last_win_after * 100:.1f}%",
+                ha="center",
+                fontsize=10,
+                fontweight="bold",
+            )
+        else:
+            self.ax_bar.bar(
+                ["Actuel"],
+                [self.win_before * 100],
+                color="#81b64c",
+                edgecolor="black",
+                width=0.5,
+            )
+            self.ax_bar.text(
+                0,
+                self.win_before * 100 + 2,
+                f"{self.win_before * 100:.1f}%",
+                ha="center",
+                fontsize=10,
+            )
+
+        self.fig.canvas.draw_idle()
+
+
+if __name__ == "__main__":
+    LiveAnalyzer()
+`},{type:`file`,name:`README.md`,path:`projets/re_chess/README.md`,language:`Markdown`,content:`# re:Chess
+
+## Principe
+- Jeu d'échec classique
+- Les pièces peuvent avoir des habilités spéciales (ex: système casino)
+
+## Choses à faire
+- [ ] menu principale
+- [ ] adversaire IA
+- [ ] adversaire humain (curseur change selon le joueur)
+- [ ] système de sauvegarde
+- [ ] système de chargement
+- [ ] système de score selon les mouvements
+- [ ] chronomètre
+- [ ] système de tour par tour
+- [ ] système de capture des pièces
+- [ ] système de promotion des pions
+- [ ] système de roque
+- [ ] système de casino (on peut choisir une pièce, on tourne la roue et selon la puissance de la pièece sacrifiée, on peut obtenir une pièce plus puissante)
+- [ ] système de compétences selon les niveaux
+`}]},{type:`folder`,name:`space invader`,path:`projets/space invader`,children:[{type:`file`,name:`gabs.py`,path:`projets/space invader/gabs.py`,language:`Python`,content:`# ============================================================================
 # FOX INVADERS - Jeu de tir spatial à la poule personne
 # ============================================================================
 
@@ -1930,6 +2667,7 @@ sprite_joueur_y = 208
 # AFFICHAGE D'ACCUEIL
 # ============================================================================
 
+
 def afficher_accueil():
     # Affiche l'écran de titre
     pyxel.blt(75, 70, 0, 0, 224, 46, 16)
@@ -1939,6 +2677,7 @@ def afficher_accueil():
 # ============================================================================
 # GESTION DU JOUEUR
 # ============================================================================
+
 
 def maj_position_joueur():
     global pos_x
@@ -1960,21 +2699,21 @@ def maj_position_joueur():
 def maj_projectiles_joueur():
     global projectiles_joueur
     global attente_tir
-    
+
     # Coordonnées du nouveau projectile
     projectile_x = pos_x + 7
     projectile_y = pos_y
-    
+
     # Création d'un nouveau projectile si touche ESPACE appuyée et cooldown terminé
     if pyxel.btnr(pyxel.KEY_SPACE) and attente_tir == 0:
         projectiles_joueur.append([projectile_x, projectile_y])
         pyxel.play(0, 0)
         attente_tir = 60
-    
+
     # Décompte du cooldown
     if attente_tir > 0:
         attente_tir -= 1
-    
+
     # Mouvement et affichage des projectiles
     for projectile in projectiles_joueur:
         projectile[1] -= 5
@@ -1984,18 +2723,18 @@ def maj_projectiles_joueur():
 def maj_projectiles_laser():
     global projectiles_laser
     global vitesse
-    
+
     # Coordonnées du laser
     projectile_x = pos_x + 7
     projectile_y = pos_y
-    
+
     # Création de laser si touche R maintenue - augmente aussi la vitesse
     if pyxel.btn(pyxel.KEY_R):
         projectiles_laser.append([projectile_x, projectile_y])
         vitesse = 2
     else:
         vitesse = 1
-    
+
     # Mouvement et affichage des lasers
     for projectile in projectiles_laser:
         projectile[1] -= 5
@@ -2006,16 +2745,23 @@ def maj_projectiles_laser():
 # GESTION DES ENNEMIS
 # ============================================================================
 
+
 def maj_ennemis():
     # Création de nouveaux ennemis si la limite maximale n'est pas atteinte
     if len(ennemis) < ennemis_max:
         positions_y_occupees = [e[1] for e in ennemis]
-        positions_y_libres = [y for y in range(16, 80, 16) if y not in positions_y_occupees]
+        positions_y_libres = [
+            y for y in range(16, 80, 16) if y not in positions_y_occupees
+        ]
 
         # Placement aléatoire d'un nouvel ennemi à une position libre
         if positions_y_libres:
             ennemis.append(
-                [pyxel.rndi(10, 174), random.choice(positions_y_libres), random.choice([-1, 1])]
+                [
+                    pyxel.rndi(10, 174),
+                    random.choice(positions_y_libres),
+                    random.choice([-1, 1]),
+                ]
             )
 
     # Mise à jour de chaque ennemi
@@ -2026,13 +2772,13 @@ def maj_ennemis():
         # Inversion de direction aux limites de l'écran
         if ennemi[0] <= limite_gauche or ennemi[0] >= limite_droite:
             ennemi[2] = -ennemi[2]
-        
+
         # Affichage de l'ennemi
         pyxel.blt(ennemi[0], ennemi[1], 0, 0, 176, 16, 16)
-        
+
         # Déplacement vers le bas
         ennemi[1] += multiplicateur_vitesse
-        
+
         # Suppression si l'ennemi dépasse le bas de l'écran
         if ennemi[1] >= limite_bas:
             ennemis.remove(ennemi)
@@ -2040,23 +2786,23 @@ def maj_ennemis():
 
 def maj_projectiles_ennemis():
     global projectiles_ennemis, attente_tir_ennemi, ennemis
-    
+
     # Sélection aléatoire d'un ennemi qui tire
     if ennemis:
         tireur = random.choice(ennemis)
         projectile_x = tireur[0] + 7
         projectile_y = tireur[1] + 16
-        
+
         # Création d'un projectile si le cooldown est écoulé
         if attente_tir_ennemi == 0:
             projectiles_ennemis.append([projectile_x, projectile_y])
             pyxel.play(0, 0)
             attente_tir_ennemi = 100
-    
+
     # Décompte du cooldown
     if attente_tir_ennemi > 0:
         attente_tir_ennemi -= 1
-    
+
     # Mouvement et affichage des projectiles ennemis
     for projectile in projectiles_ennemis:
         projectile[1] += 1
@@ -2066,6 +2812,7 @@ def maj_projectiles_ennemis():
 # ============================================================================
 # GESTION DES COLLISIONS
 # ============================================================================
+
 
 def verifier_collisions():
     global projectiles_joueur, projectiles_laser, ennemis, score, explosions
@@ -2159,6 +2906,7 @@ def verifier_collisions():
 # GESTION DES EXPLOSIONS
 # ============================================================================
 
+
 def afficher_explosions():
     global explosions
     for explosion in explosions[:]:
@@ -2213,16 +2961,17 @@ def afficher_explosions_impact():
 # AFFICHAGE DE L'INTERFACE
 # ============================================================================
 
+
 def afficher_interface():
     global combo_timer, combo, couleur_combo_texte, score, vies, état
-    
+
     # Affichage des vies restantes
-    if vies==3:
-        pyxel.blt(5,5,0,0,3,20,10)
-    elif vies==2:
-        pyxel.blt(5,5,0,5,3,20,10)
-    elif vies==1:
-        pyxel.blt(5,5,0,12,3,20,10)
+    if vies == 3:
+        pyxel.blt(5, 5, 0, 0, 3, 20, 10)
+    elif vies == 2:
+        pyxel.blt(5, 5, 0, 5, 3, 20, 10)
+    elif vies == 1:
+        pyxel.blt(5, 5, 0, 12, 3, 20, 10)
 
     # Gestion de la fin de partie
     if vies == 0:
@@ -2244,14 +2993,14 @@ def afficher_score():
 
 def afficher_meilleur_score():
     global score, meilleur_score, combo, combo_timer, couleur_combo_texte
-    
+
     # Mise à jour du meilleur score
     if meilleur_score >= score:
         pyxel.text(50, 5, "MEILLEUR SCORE=" + str(meilleur_score), 3)
     elif meilleur_score < score:
         meilleur_score = score
         pyxel.text(50, 5, "MEILLEUR SCORE=" + str(meilleur_score), 3)
-    
+
     # Changement de couleur du texte selon le combo (arc-en-ciel)
     if combo < 10:
         couleur_combo_texte = 7  # Blanc
@@ -2285,9 +3034,10 @@ def afficher_meilleur_score():
 # BOUCLES PRINCIPALES
 # ============================================================================
 
+
 def mettre_a_jour():
     global état
-    
+
     # État 0: Écran d'accueil
     if état == 0:
         if pyxel.btnp(pyxel.KEY_E):
@@ -2303,10 +3053,10 @@ def mettre_a_jour():
 
 def dessiner():
     global multiplicateur_vitesse
-    
+
     # Effacement de l'écran
     pyxel.cls(0)
-    
+
     # État 0: Écran d'accueil
     if état == 0:
         afficher_accueil()
@@ -2354,7 +3104,10 @@ def dessiner_jeu():
 # ============================================================================
 # LANCEMENT DU JEU
 # ============================================================================
-pyxel.run(dessiner, mettre_a_jour)       #Monsieur on sait que les commentaires pourrait faire un peu suspicieux d'utilisation d'ia, mais on peut vous assurer que c'est juste Tristan qui était très déterminé à faire quelque chose de propre.`},{type:`file`,name:`kani.pyxres`,path:`projets/space invader/kani.pyxres`,language:`Text`,content:`PK\0\0\0\b\0\0\0!\0���IL\0\0ŧ\0\0\0\0pyxel_resource.toml�]�n�8���\x07��V��N�ȓ�"�x����3�����T��*Q}�\0:��"Y�W�C<~���ϯ�����Ϸ�_�>����/_^~�����|���o�?V�W����������߾�]}^}��~�_��ܯ6������ǿ%Y7��TH��s�ǈC�ᐵ�����W���\r?�]��G�x��K:�vi{L�,�H��|�#d�,\\5��΋�'\`�m�,�^F=C-�\x07I'0�!~�tF\r �&�\`fa�ã~nT^���\b�b��\x07�o�7c\x1B��P���"���Ӵ���Y��5���Oi�!H|"�,�?�����\\��~I��@��ҧ���r.�,�\v _��e*A_�)Y<���3�\0�'D�'\v%׾T@�E����c$ˁ:�c���#���xZ�u����h� _�\f�&��R�4��C<-�̮���U\`�����)p?_�\f��w%���<�'Du��3{�SsHT!q����P�A
+pyxel.run(
+    dessiner, mettre_a_jour
+)  # Monsieur on sait que les commentaires pourrait faire un peu suspicieux d'utilisation d'ia, mais on peut vous assurer que c'est juste Tristan qui était très déterminé à faire quelque chose de propre.
+`},{type:`file`,name:`kani.pyxres`,path:`projets/space invader/kani.pyxres`,language:`Text`,content:`PK\0\0\0\b\0\0\0!\0���IL\0\0ŧ\0\0\0\0pyxel_resource.toml�]�n�8���\x07��V��N�ȓ�"�x����3�����T��*Q}�\0:��"Y�W�C<~���ϯ�����Ϸ�_�>����/_^~�����|���o�?V�W����������߾�]}^}��~�_��ܯ6������ǿ%Y7��TH��s�ǈC�ᐵ�����W���\r?�]��G�x��K:�vi{L�,�H��|�#d�,\\5��΋�'\`�m�,�^F=C-�\x07I'0�!~�tF\r �&�\`fa�ã~nT^���\b�b��\x07�o�7c\x1B��P���"���Ӵ���Y��5���Oi�!H|"�,�?�����\\��~I��@��ҧ���r.�,�\v _��e*A_�)Y<���3�\0�'D�'\v%׾T@�E����c$ˁ:�c���#���xZ�u����h� _�\f�&��R�4��C<-�̮���U\`�����)p?_�\f��w%���<�'Du��3{�SsHT!q����P�A
 ��Cbw�J��,-��m�S�Z^#��\bB��	,m�ݯ���\f��C���[#���ajIgԀQl38ہ�-�7�ӓ�B���n(��9cQ������D�H2@Q=��H{�
 �LF�<|#A0�j�
 'gK�8�HC�\b0�؊Qg�\x1B�>K�vW�ѿ.����ߒ����J �3ʒ�RET��)��\`\`�QpTF+��+�D��3֨�*S��}�ǎ,��9�k�>?�\fs�L�/(�!�(�dI��\0\f���� *�t�����\r����2Gu�$�6�O����>����E��!2qdt�H@$�9Uq g�?N;\x07�Ed�<4ɠTT"�b�H�ʡ���%���_\fM������|x��k�֐ȩCP�^�� ��)����2{�\`�W7�����(<��#��^�b��+97n9qU����B�Gy�$c�yl㰬�z�_�G,'�S��f��-._��l2����h�|;5c\fv�j*\\V�9�0�x~*lf�8!����\\��"���,�'҃p�'�n��Eq�
@@ -2548,96 +3301,137 @@ Ce projet est un jeu type space invader basé sur la bibliothèque Pyxel et les 
 5.2,2.0,2
 5.4,2.3,2
 5.1,1.8,2
-`},{type:`file`,name:`KNN.py`,path:`séance 07/KNN.py`,language:`Python`,content:`import pandas
-import matplotlib.pyplot as plt
+`},{type:`file`,name:`KNN.py`,path:`séance 07/KNN.py`,language:`Python`,content:`import matplotlib.pyplot as plt
+import pandas
 from sklearn.neighbors import KNeighborsClassifier
-iris=pandas.read_csv("iris.csv")
-x=iris.loc[:,"petal_length"]  
-y=iris.loc[:,"petal_width"]  
-lab=iris.loc[:,"species"]  
-plt.scatter(x[lab == 0], y[lab == 0], color='g', label='setosa')  
-plt.scatter(x[lab == 1], y[lab == 1], color='r', label='virginica')  
-plt.scatter(x[lab == 2], y[lab == 2], color='b', label='versicolor')  
-plt.scatter(2.5, 0.75, color='k')
-plt.legend()  
-d=list(zip(x,y))
-k=2
-model=KNeighborsClassifier(n_neighbors=k)
-model.fit(d,lab)
 
-longueur=2.5
-largeur=0.75
-prediction=model.predict([[longueur,largeur]])
-#Affichage résultats 
-txt="Résultat : " 
-if prediction[0]==0: 
-  txt=txt+"setosa" 
-if prediction[0]==1: 
-  txt=txt+"virginica" 
-if prediction[0]==2: 
-  txt=txt+"versicolor" 
-plt.text(3,0.5,"largeur : {0} cm, longueur : {1} cm.".format(largeur,longueur),fontsize=12) 
-plt.text(3,0.3, "k : {0}".format(k), fontsize=12) 
-plt.text(3,0.1, txt, fontsize=12) 
-#fin affichage résultats
-plt.show()`},{type:`file`,name:`NSI_1iere_S7.pdf`,path:`séance 07/NSI_1iere_S7.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 07/NSI_1iere_S7.pdf (433442 octets)]`},{type:`file`,name:`README.md`,path:`séance 07/README.md`,language:`Markdown`,content:`# KNN
+iris = pandas.read_csv("iris.csv")
+x = iris.loc[:, "petal_length"]
+y = iris.loc[:, "petal_width"]
+lab = iris.loc[:, "species"]
+plt.scatter(x[lab == 0], y[lab == 0], color="g", label="setosa")
+plt.scatter(x[lab == 1], y[lab == 1], color="r", label="virginica")
+plt.scatter(x[lab == 2], y[lab == 2], color="b", label="versicolor")
+plt.scatter(2.5, 0.75, color="k")
+plt.legend()
+d = list(zip(x, y))
+k = 2
+model = KNeighborsClassifier(n_neighbors=k)
+model.fit(d, lab)
+
+longueur = 2.5
+largeur = 0.75
+prediction = model.predict([[longueur, largeur]])
+# Affichage résultats
+txt = "Résultat : "
+if prediction[0] == 0:
+    txt = txt + "setosa"
+if prediction[0] == 1:
+    txt = txt + "virginica"
+if prediction[0] == 2:
+    txt = txt + "versicolor"
+plt.text(
+    3,
+    0.5,
+    "largeur : {0} cm, longueur : {1} cm.".format(largeur, longueur),
+    fontsize=12,
+)
+plt.text(3, 0.3, "k : {0}".format(k), fontsize=12)
+plt.text(3, 0.1, txt, fontsize=12)
+# fin affichage résultats
+plt.show()
+`},{type:`file`,name:`NSI_1iere_S7.pdf`,path:`séance 07/NSI_1iere_S7.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 07/NSI_1iere_S7.pdf (433442 octets)]`},{type:`file`,name:`README.md`,path:`séance 07/README.md`,language:`Markdown`,content:`# KNN
 
 jsp à quoi ce truc sert mais en tout cas c'est fleuri
-
-## dépendances
-
-\`\`\`
-pip install matplotlib scikit-learn pandas
-\`\`\`
 `}]},{type:`folder`,name:`séance 08`,path:`séance 08`,children:[{type:`folder`,name:`1. première application`,path:`séance 08/1. première application`,children:[{type:`file`,name:`bot ver.py`,path:`séance 08/1. première application/bot ver.py`,language:`Python`,content:`from tkinter import *
 import webbrowser
-window=Tk()
+
+window = Tk()
 window.title("Mon Application")
 window.geometry("800x800")
-window.minsize(400,300)
+window.minsize(400, 300)
 window.config(background="#0050FF")
-frame=Frame(window,bg="#0050FF",bd=1,relief=SUNKEN)
-frame2=Frame(window,bg="#6E6E6E",bd=1,relief=SUNKEN)
+frame = Frame(window, bg="#0050FF", bd=1, relief=SUNKEN)
+frame2 = Frame(window, bg="#6E6E6E", bd=1, relief=SUNKEN)
 frame.pack(side=TOP)
 frame2.pack(expand=YES)
-label_titre=Label(frame,text="Première application",font=("Courrier",40),bg="#0050FF",fg="white")
+label_titre = Label(
+    frame, text="Première application", font=("Courrier", 40), bg="#0050FF", fg="white"
+)
 label_titre.pack(side=TOP)
-label_sous_titre=Label(frame2,text="Bonjour tout le monde",font=("Courrier",20),bg="#0050FF",fg="white")
+label_sous_titre = Label(
+    frame2,
+    text="Bonjour tout le monde",
+    font=("Courrier", 20),
+    bg="#0050FF",
+    fg="white",
+)
 label_sous_titre.pack(side=TOP)
+
 
 def ouvrir_nsi():
     webbrowser.open_new("http://gisele.bareux.free.fr/NSI1.htm")
-bouton_nsi=Button(frame2,text="NSI",font=("Courrier",20),bg="#0050FF",fg="white",command=ouvrir_nsi)
-bouton_nsi.pack(pady=50,fill=X,padx=50)
 
-window.mainloop()`},{type:`file`,name:`chiyo ver.py`,path:`séance 08/1. première application/chiyo ver.py`,language:`Python`,content:`from tkinter import *
-import webbrowser
+
+bouton_nsi = Button(
+    frame2,
+    text="NSI",
+    font=("Courrier", 20),
+    bg="#0050FF",
+    fg="white",
+    command=ouvrir_nsi,
+)
+bouton_nsi.pack(pady=50, fill=X, padx=50)
+
+window.mainloop()
+`},{type:`file`,name:`chiyo ver.py`,path:`séance 08/1. première application/chiyo ver.py`,language:`Python`,content:`import webbrowser
+from tkinter import *
+
 from PIL import Image, ImageTk
-window=Tk()
+
+window = Tk()
 window.title("Mon Application")
 window.geometry("800x800")
-window.minsize(400,300)
+window.minsize(400, 300)
 window.config(background="#0050FF")
-frame=Frame(window,bg="#0050FF",bd=1,relief=SUNKEN)
-frame2=Frame(window,bg="#6E6E6E",bd=1,relief=SUNKEN)
+frame = Frame(window, bg="#0050FF", bd=1, relief=SUNKEN)
+frame2 = Frame(window, bg="#6E6E6E", bd=1, relief=SUNKEN)
 frame.pack(side=TOP)
 frame2.pack(expand=YES)
-label_titre=Label(frame,text="Première application",font=("Courrier",40),bg="#0050FF",fg="white")
+label_titre = Label(
+    frame, text="Première application", font=("Courrier", 40), bg="#0050FF", fg="white"
+)
 label_titre.pack(side=TOP)
-label_sous_titre=Label(frame2,text="Bonjour tout le monde",font=("Courrier",20),bg="#0050FF",fg="white")
+label_sous_titre = Label(
+    frame2,
+    text="Bonjour tout le monde",
+    font=("Courrier", 20),
+    bg="#0050FF",
+    fg="white",
+)
 label_sous_titre.pack(side=TOP)
-image=Image.open("ouii.jpg")
-photo=ImageTk.PhotoImage(image)
-label_img=Label(frame2,image=photo,bg="#6E6E6E")
+image = Image.open("ouii.jpg")
+photo = ImageTk.PhotoImage(image)
+label_img = Label(frame2, image=photo, bg="#6E6E6E")
 label_img.pack()
 
 
 def ouvrir_nsi():
     webbrowser.open_new("http://gisele.bareux.free.fr/NSI1.htm")
-bouton_nsi=Button(frame2,text="NSI",font=("Courrier",20),bg="#0050FF",fg="white",command=ouvrir_nsi)
-bouton_nsi.pack(pady=50,fill=X,padx=50)
 
-window.mainloop()`},{type:`file`,name:`ouii.jpg`,path:`séance 08/1. première application/ouii.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/1. première application/ouii.jpg (50050 octets)]`},{type:`file`,name:`README.md`,path:`séance 08/1. première application/README.md`,language:`Markdown`,content:`# 1. première application
+
+bouton_nsi = Button(
+    frame2,
+    text="NSI",
+    font=("Courrier", 20),
+    bg="#0050FF",
+    fg="white",
+    command=ouvrir_nsi,
+)
+bouton_nsi.pack(pady=50, fill=X, padx=50)
+
+window.mainloop()
+`},{type:`file`,name:`ouii.jpg`,path:`séance 08/1. première application/ouii.jpg`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/1. première application/ouii.jpg (50050 octets)]`},{type:`file`,name:`README.md`,path:`séance 08/1. première application/README.md`,language:`Markdown`,content:`# 1. première application
 
 - [bot ver](/séance%208/1.%20première%20application/bot%20ver.py)
 - [chiyo ver](/séance%208/1.%20première%20application/chiyo%20ver.py)
@@ -2645,39 +3439,47 @@ window.mainloop()`},{type:`file`,name:`ouii.jpg`,path:`séance 08/1. première a
 `},{type:`file`,name:`sac-a-dos.py`,path:`séance 08/1. première application/sac-a-dos.py`,language:`Python`,content:`# Créé par csieg, le 28/11/2025 en Python 3.7
 # Créé par csieg, le 21/11/2025 en Python 3.7
 
-Valeurs=[[4,6],[6,7],[8,13],[12,16]] #declaration des objets
+Valeurs = [[4, 6], [6, 7], [8, 13], [12, 16]]  # declaration des objets
 
 
-rapport=[]            # calcul des différent coefficient valeur /poids
+rapport = []  # calcul des différent coefficient valeur /poids
 for element in Valeurs:
-    rapport.append(element[1]/element[0])
+    rapport.append(element[1] / element[0])
 print(rapport)
-ordre=[n for n in rapport] # copy de la liste rapport dans la liste ordre
-rapport.sort()           #on a trie du + petit au + grand
+ordre = [n for n in rapport]  # copy de la liste rapport dans la liste ordre
+rapport.sort()  # on a trie du + petit au + grand
 
-rapport.reverse()        #on a maintenant la liste rapport classée du + grand au plus petit
-                         #le classement ma faire perdre l'ordre des objets
-                         #exemple le premier coeff ne correspond plus au premier objet de la
-                         #liste Valeurs mais au 3eme d'indice 2
+rapport.reverse()  # on a maintenant la liste rapport classée du + grand au plus petit
+# le classement ma faire perdre l'ordre des objets
+# exemple le premier coeff ne correspond plus au premier objet de la
+# liste Valeurs mais au 3eme d'indice 2
 # on cherche a savoir maintenant en créant un tableau indice l'indice de la valeur
-#qui corrspond a chaque coefficient classe du tableau rapport
-indices=[]
-for i in range(0,len(rapport)):# on veut lire chaque element des coefficient rapport qui sont classés
-     for j in range(0,len(ordre)):#on veut lire chaque element des element rapport non classé
-        if rapport[i]==ordre[j]: #pour retouver la poisiton d'origine des elements de la liste
+# qui corrspond a chaque coefficient classe du tableau rapport
+indices = []
+for i in range(
+    0, len(rapport)
+):  # on veut lire chaque element des coefficient rapport qui sont classés
+    for j in range(
+        0, len(ordre)
+    ):  # on veut lire chaque element des element rapport non classé
+        if (
+            rapport[i] == ordre[j]
+        ):  # pour retouver la poisiton d'origine des elements de la liste
             indices.append(j)
 
 # La liste indice contient respectivement l'indice des element les plus interressant au moins interessant
-print("valeurs",Valeurs)
-print("rapport",rapport)
-print("indice",indices)
-`}]},{type:`folder`,name:`2. générateur de mot de passe`,path:`séance 08/2. générateur de mot de passe`,children:[{type:`file`,name:`login.png`,path:`séance 08/2. générateur de mot de passe/login.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/2. générateur de mot de passe/login.png (17969 octets)]`},{type:`file`,name:`mdp.py`,path:`séance 08/2. générateur de mot de passe/mdp.py`,language:`Python`,content:`from tkinter import *
-from string import *
-from random import *
+print("valeurs", Valeurs)
+print("rapport", rapport)
+print("indice", indices)
+`}]},{type:`folder`,name:`2. générateur de mot de passe`,path:`séance 08/2. générateur de mot de passe`,children:[{type:`file`,name:`login.png`,path:`séance 08/2. générateur de mot de passe/login.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 08/2. générateur de mot de passe/login.png (17969 octets)]`},{type:`file`,name:`mdp.py`,path:`séance 08/2. générateur de mot de passe/mdp.py`,language:`Python`,content:`import sys
 import tkinter as tk
+from random import *
+from string import *
+from tkinter import *
 from tkinter import ttk
+
+import pywinstyles
 import sv_ttk
-import pywinstyles, sys
 
 window = Tk()
 window.title("Générateur de mot de passe")
@@ -2685,20 +3487,27 @@ window.geometry("720x480")
 
 sv_ttk.set_theme("dark")
 
+
 def apply_theme_to_titlebar(window):
     version = sys.getwindowsversion()
 
     if version.major == 10 and version.build >= 22000:
         # Set the title bar color to the background color on Windows 11 for better appearance
-        pywinstyles.change_header_color(window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa")
+        pywinstyles.change_header_color(
+            window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa"
+        )
     elif version.major == 10:
-        pywinstyles.apply_style(window, "dark" if sv_ttk.get_theme() == "dark" else "normal")
+        pywinstyles.apply_style(
+            window, "dark" if sv_ttk.get_theme() == "dark" else "normal"
+        )
 
         # A hacky way to update the title bar's color on Windows 10 (it doesn't update instantly like on Windows 11)
         window.wm_attributes("-alpha", 0.99)
         window.wm_attributes("-alpha", 1)
 
+
 apply_theme_to_titlebar(window)
+
 
 def generer_mdp():
     mdp_mini = 6
@@ -2708,31 +3517,38 @@ def generer_mdp():
     champ_mdp.delete(0, END)
     champ_mdp.insert(0, mdp)
 
+
 frame = Frame(window, padx=20, pady=20)
 largeur = 300
 longueur = 300
 
-image = PhotoImage(file="séance 8\\\\2. générateur de mot de passe\\\\login.png").zoom(1).subsample(3)
+image = (
+    PhotoImage(file="séance 8\\\\2. générateur de mot de passe\\\\login.png")
+    .zoom(1)
+    .subsample(3)
+)
 canvas = Canvas(frame, width=largeur, height=longueur, bd=0, highlightthickness=0)
-canvas.create_image(largeur/2, longueur/2, image=image)
+canvas.create_image(largeur / 2, longueur / 2, image=image)
 canvas.grid(row=0, column=0)
 
 frame_d = Frame(frame, padx=20, pady=20)
 
 # Style titre
 style = ttk.Style()
-style.configure("Titre.TLabel", font=("Rubik", 24, "bold")) 
+style.configure("Titre.TLabel", font=("Rubik", 24, "bold"))
 titre = ttk.Label(frame_d, text="Mot de passe", style="Titre.TLabel")
 titre.pack()
 
 # Style saisie
-style.configure("Entry.TEntry", font=("Rubik", 18)) 
+style.configure("Entry.TEntry", font=("Rubik", 18))
 champ_mdp = ttk.Entry(frame_d, style="Entry.TEntry")
 champ_mdp.pack()
 
 # Style bouton
 style.configure("Bouton.TButton", font=("Rubik", 16, "italic"))
-BP_mdp = ttk.Button(frame_d, text="Générer le mot de passe", style="Bouton.TButton", command=generer_mdp)
+BP_mdp = ttk.Button(
+    frame_d, text="Générer le mot de passe", style="Bouton.TButton", command=generer_mdp
+)
 BP_mdp.pack(fill=X, pady=20)
 
 frame_d.grid(row=0, column=1)
@@ -2745,134 +3561,180 @@ menu_fichier.add_command(label="Quitter", command=window.quit)
 menu_barre.add_cascade(label="Fichier", menu=menu_fichier)
 window.config(menu=menu_barre)
 
-window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 08/2. générateur de mot de passe/README.md`,language:`Markdown`,content:`# 2. générateur de mot de passe
+window.mainloop()
+`},{type:`file`,name:`README.md`,path:`séance 08/2. générateur de mot de passe/README.md`,language:`Markdown`,content:`# 2. générateur de mot de passe
 
 - [mdp](/séance%208/2.%20générateur%20de%20mot%20de%20passe/mdp.py)
 `}]},{type:`folder`,name:`exercices`,path:`séance 08/exercices`,children:[{type:`file`,name:`exercice 1.py`,path:`séance 08/exercices/exercice 1.py`,language:`Python`,content:`import tkinter as tk
 from tkinter import *
 
-window=Tk()
+window = Tk()
 window.title("Exo1")
 window.geometry("300x100")
 
-Frame=Frame(window,bg="white")
+Frame = Frame(window, bg="white")
 Frame.pack()
-Label=Label(Frame,text="Bonjour tout le monde")
+Label = Label(Frame, text="Bonjour tout le monde")
 Label.pack()
-Button=Button(Frame,text="Quitter",command=quit)
+Button = Button(Frame, text="Quitter", command=quit)
 Button.pack()
-window.mainloop()`},{type:`file`,name:`exercice 2.py`,path:`séance 08/exercices/exercice 2.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 2.py`,path:`séance 08/exercices/exercice 2.py`,language:`Python`,content:`from tkinter import *
 from random import *
 
-def NouveauLance():
-    nb=randint(1,6)
-    Texte.set("Résultats : "+str(nb))
 
-window=Tk()
+def NouveauLance():
+    nb = randint(1, 6)
+    Texte.set("Résultats : " + str(nb))
+
+
+window = Tk()
 window.title("Exo2")
 window.geometry("200x100")
 window.config(bg="white")
 
-BoutonLancer=Button(window,text="Lancer le dé",command=NouveauLance)
+BoutonLancer = Button(window, text="Lancer le dé", command=NouveauLance)
 BoutonLancer.pack()
 
-Texte=StringVar()
+Texte = StringVar()
 NouveauLance()
 
-LabelResultat=Label(window,textvariable=Texte,bg="white")
-LabelResultat.pack(padx=0,pady=0)
+LabelResultat = Label(window, textvariable=Texte, bg="white")
+LabelResultat.pack(padx=0, pady=0)
 
-BoutonQuitter=Button(window,text="Quitter",command=quit)
-BoutonQuitter.pack(padx=15,pady=5)
+BoutonQuitter = Button(window, text="Quitter", command=quit)
+BoutonQuitter.pack(padx=15, pady=5)
 
-window.mainloop()`},{type:`file`,name:`exercice 3.py`,path:`séance 08/exercices/exercice 3.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 3.py`,path:`séance 08/exercices/exercice 3.py`,language:`Python`,content:`from tkinter import *
 
-window=Tk()
+window = Tk()
 window.title("Exo3")
 window.geometry("300x100")
 
-def carre():
-    Resultat.set("Carré ="+str(float(Valeur.get())**2))
 
-Valeur=StringVar()
+def carre():
+    Resultat.set("Carré =" + str(float(Valeur.get()) ** 2))
+
+
+Valeur = StringVar()
 Valeur.set(5.0)
 
-boite=Spinbox(window,from_=0.0,to=100.0,increment=0.5,textvariable=Valeur,width=5,command=carre)
-boite.place(x=100,y=0)
+boite = Spinbox(
+    window,
+    from_=0.0,
+    to=100.0,
+    increment=0.5,
+    textvariable=Valeur,
+    width=5,
+    command=carre,
+)
+boite.place(x=100, y=0)
 
-Resultat=StringVar()
+Resultat = StringVar()
 carre()
-Resultatat=Label(window,textvariable=Resultat)
-Resultatat.place(x=100,y=30)
+Resultatat = Label(window, textvariable=Resultat)
+Resultatat.place(x=100, y=30)
 
-window.mainloop()`},{type:`file`,name:`exercice 4.py`,path:`séance 08/exercices/exercice 4.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 4.py`,path:`séance 08/exercices/exercice 4.py`,language:`Python`,content:`from tkinter import *
+
 
 def plus():
-    Valeur.set(str(int(Valeur.get())+10))
+    Valeur.set(str(int(Valeur.get()) + 10))
+
+
 def moins():
-    Valeur.set(str(int(Valeur.get())-10))
+    Valeur.set(str(int(Valeur.get()) - 10))
 
-window= Tk()
-window.title("Exo 4") #titre de la fenêtre
-window.geometry("400x200") #dimensions de la fenêtre
-window.config(bg='white') #couleur du fond en RGB en hexadécimal
-Valeur=StringVar()
+
+window = Tk()
+window.title("Exo 4")  # titre de la fenêtre
+window.geometry("400x200")  # dimensions de la fenêtre
+window.config(bg="white")  # couleur du fond en RGB en hexadécimal
+Valeur = StringVar()
 Valeur.set(50)
-echelle = Scale(window,from_=-100,to=100,resolution=10,orient=HORIZONTAL,length=300,
-width=20, tickinterval=20, label="Curseur",variable=Valeur)
+echelle = Scale(
+    window,
+    from_=-100,
+    to=100,
+    resolution=10,
+    orient=HORIZONTAL,
+    length=300,
+    width=20,
+    tickinterval=20,
+    label="Curseur",
+    variable=Valeur,
+)
 
-echelle.pack(padx=10,pady=10)
-BP_plus=Button(window,text="+",command=plus)
-BP_plus.pack(padx=0,pady=0)
-BP_moins=Button(window,text="-",command=moins)
-BP_moins.pack(padx=10,pady=10)
-window.mainloop()`},{type:`file`,name:`exercice 5.py`,path:`séance 08/exercices/exercice 5.py`,language:`Python`,content:`from tkinter import *
+echelle.pack(padx=10, pady=10)
+BP_plus = Button(window, text="+", command=plus)
+BP_plus.pack(padx=0, pady=0)
+BP_moins = Button(window, text="-", command=moins)
+BP_moins.pack(padx=10, pady=10)
+window.mainloop()
+`},{type:`file`,name:`exercice 5.py`,path:`séance 08/exercices/exercice 5.py`,language:`Python`,content:`from tkinter import *
 from random import *
 
+
 def nl():
-    NbDes=int(Valeur.get())
-    resultat=""
-    total=0
-    max=int(nfd.get())
-    for i in range(0,NbDes):
-        nb=randint(1,max)
-        total=total+nb
-        resultat=resultat+str(nb)
-        if i<NbDes-1:
-            resultat=resultat+', '
-    Texte.set('Résultat -> '+resultat+' = '+str(total))
-window=Tk()
+    NbDes = int(Valeur.get())
+    resultat = ""
+    total = 0
+    max = int(nfd.get())
+    for i in range(0, NbDes):
+        nb = randint(1, max)
+        total = total + nb
+        resultat = resultat + str(nb)
+        if i < NbDes - 1:
+            resultat = resultat + ", "
+    Texte.set("Résultat -> " + resultat + " = " + str(total))
+
+
+window = Tk()
 window.title("Exo5")
 window.geometry("200x200")
 window.config(background="black")
 
-Frame1 = Frame(window,borderwidth=2,relief=GROOVE)
-Frame1.pack(side=LEFT,padx=10,pady=10)
+Frame1 = Frame(window, borderwidth=2, relief=GROOVE)
+Frame1.pack(side=LEFT, padx=10, pady=10)
 
-Frame2 = Frame(window,borderwidth=2,relief=GROOVE,width=400)
-Frame2.pack(side=LEFT,padx=10,pady=10)
+Frame2 = Frame(window, borderwidth=2, relief=GROOVE, width=400)
+Frame2.pack(side=LEFT, padx=10, pady=10)
 
-Label(Frame1,text="Choix du nombre de dés :").pack(padx=10,pady=10)
-Valeur=StringVar()
+Label(Frame1, text="Choix du nombre de dés :").pack(padx=10, pady=10)
+Valeur = StringVar()
 Valeur.set(3.0)
 
-boite=Spinbox(Frame1,from_=1,to=6,increment=1,textvariable=Valeur,width=5)
-boite.pack(padx=30,pady=10)
+boite = Spinbox(Frame1, from_=1, to=6, increment=1, textvariable=Valeur, width=5)
+boite.pack(padx=30, pady=10)
 
-nfd=StringVar()
-echelle=Scale(Frame1,from_=6,to=20,resolution=1,orient=HORIZONTAL,length=200,width=20,label="Choix du nombre de faces de dés",tickinterval=20,variable=nfd)
-echelle.pack(padx=10,pady=10)
+nfd = StringVar()
+echelle = Scale(
+    Frame1,
+    from_=6,
+    to=20,
+    resolution=1,
+    orient=HORIZONTAL,
+    length=200,
+    width=20,
+    label="Choix du nombre de faces de dés",
+    tickinterval=20,
+    variable=nfd,
+)
+echelle.pack(padx=10, pady=10)
 
-Texte=StringVar()
+Texte = StringVar()
 nl()
-LabelResultat=Label(Frame2,textvariable=Texte,fg='red',background="black")
-LabelResultat.pack(side=TOP,padx=60,pady=35)
-BoutonL=Button(Frame2,text='Lancer',command=nl)
-BoutonL.pack(side=LEFT,padx=15,pady=15)
-BoutonQ=Button(Frame2,text='Quitter',command=quit)
-BoutonQ.pack(side=RIGHT,padx=15,pady=33)
+LabelResultat = Label(Frame2, textvariable=Texte, fg="red", background="black")
+LabelResultat.pack(side=TOP, padx=60, pady=35)
+BoutonL = Button(Frame2, text="Lancer", command=nl)
+BoutonL.pack(side=LEFT, padx=15, pady=15)
+BoutonQ = Button(Frame2, text="Quitter", command=quit)
+BoutonQ.pack(side=RIGHT, padx=15, pady=33)
 
-window.mainloop()`},{type:`file`,name:`exercice 6.py`,path:`séance 08/exercices/exercice 6.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 6.py`,path:`séance 08/exercices/exercice 6.py`,language:`Python`,content:`from tkinter import *
 from string import *
 from random import *
 import tkinter as tk
@@ -2880,148 +3742,184 @@ from tkinter import ttk
 import sv_ttk
 import pywinstyles, sys
 
-window=Tk()
+window = Tk()
 window.title("Exo6")
 window.geometry("500x400")
 window.config(background="black")
 
-sv_ttk.set_theme('dark')
+sv_ttk.set_theme("dark")
 style = ttk.Style()
+
 
 def apply_theme_to_titlebar(window):
     version = sys.getwindowsversion()
 
     if version.major == 10 and version.build >= 22000:
         # Set the title bar color to the background color on Windows 11 for better appearance
-        pywinstyles.change_header_color(window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa")
+        pywinstyles.change_header_color(
+            window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa"
+        )
     elif version.major == 10:
-        pywinstyles.apply_style(window, "dark" if sv_ttk.get_theme() == "dark" else "normal")
+        pywinstyles.apply_style(
+            window, "dark" if sv_ttk.get_theme() == "dark" else "normal"
+        )
 
         # A hacky way to update the title bar's color on Windows 10 (it doesn't update instantly like on Windows 11)
         window.wm_attributes("-alpha", 0.99)
         window.wm_attributes("-alpha", 1)
 
+
 apply_theme_to_titlebar(window)
 
 
 def cercle():
-    r=20
-    x=randint(r,l-r)
-    y=randint(r,h-r)
-    Canvas.create_oval(x-r,y-r,x+r,y+r,outline='beige',fill='#fafafa')
+    r = 20
+    x = randint(r, l - r)
+    y = randint(r, h - r)
+    Canvas.create_oval(x - r, y - r, x + r, y + r, outline="beige", fill="#fafafa")
+
 
 def effacer():
     Canvas.delete(ALL)
 
-l=480
-h=320
-Canvas=Canvas(window,width=l,height=h,bg="black")
-Canvas.pack(padx=5,pady=5)
+
+l = 480
+h = 320
+Canvas = Canvas(window, width=l, height=h, bg="black")
+Canvas.pack(padx=5, pady=5)
 
 style.configure("button.TButton", font=("Rubik", 16))
-go=ttk.Button(window,text="Go",command=cercle,style="button.TButton")
-go.pack(side=LEFT,padx=10,pady=10,fill=X)
+go = ttk.Button(window, text="Go", command=cercle, style="button.TButton")
+go.pack(side=LEFT, padx=10, pady=10, fill=X)
 
-effacer=ttk.Button(window,text='Effacer',command=effacer)
-effacer.pack(side=LEFT,ipadx=15,pady=5)
+effacer = ttk.Button(window, text="Effacer", command=effacer)
+effacer.pack(side=LEFT, ipadx=15, pady=5)
 
-quitter=ttk.Button(window,text='Quitter',command=quit)
-quitter.pack(side=RIGHT,padx=5)
+quitter = ttk.Button(window, text="Quitter", command=quit)
+quitter.pack(side=RIGHT, padx=5)
 
-window.mainloop()`},{type:`file`,name:`exercice 7.py`,path:`séance 08/exercices/exercice 7.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 7.py`,path:`séance 08/exercices/exercice 7.py`,language:`Python`,content:`from tkinter import *
 from time import *
 
-def h():
-    heure.set(strftime('%H:%M:%S'))
-    window.after(1000,h)
 
-window=Tk()
-window.title=("Exo7")
+def h():
+    heure.set(strftime("%H:%M:%S"))
+    window.after(1000, h)
+
+
+window = Tk()
+window.title = "Exo7"
 window.geometry("200x50")
-window.config(background='#1C1C1C')
+window.config(background="#1C1C1C")
 
 heure = StringVar()
-aff_h=Label(window,font=('Rubik',20,),bg="#1C1C1C",fg='white',textvariable=heure)
-aff_h.pack(ipadx=50,ipady=50)
+aff_h = Label(
+    window,
+    font=(
+        "Rubik",
+        20,
+    ),
+    bg="#1C1C1C",
+    fg="white",
+    textvariable=heure,
+)
+aff_h.pack(ipadx=50, ipady=50)
 h()
-window.mainloop()`},{type:`file`,name:`exercice 8.py`,path:`séance 08/exercices/exercice 8.py`,language:`Python`,content:`from tkinter import *
+window.mainloop()
+`},{type:`file`,name:`exercice 8.py`,path:`séance 08/exercices/exercice 8.py`,language:`Python`,content:`from tkinter import *
 from string import *
 from random import *
 import tkinter as tk
 from tkinter import ttk
 import sv_ttk
 import pywinstyles, sys
-tempo=20
 
-window=Tk()
+tempo = 20
+
+window = Tk()
 window.title("Exo8")
 window.geometry("500x400")
 window.config(background="black")
 
-sv_ttk.set_theme('dark')
+sv_ttk.set_theme("dark")
 style = ttk.Style()
+
 
 def apply_theme_to_titlebar(window):
     version = sys.getwindowsversion()
 
     if version.major == 10 and version.build >= 22000:
         # Set the title bar color to the background color on Windows 11 for better appearance
-        pywinstyles.change_header_color(window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa")
+        pywinstyles.change_header_color(
+            window, "#1c1c1c" if sv_ttk.get_theme() == "dark" else "#fafafa"
+        )
     elif version.major == 10:
-        pywinstyles.apply_style(window, "dark" if sv_ttk.get_theme() == "dark" else "normal")
+        pywinstyles.apply_style(
+            window, "dark" if sv_ttk.get_theme() == "dark" else "normal"
+        )
 
         # A hacky way to update the title bar's color on Windows 10 (it doesn't update instantly like on Windows 11)
         window.wm_attributes("-alpha", 0.99)
         window.wm_attributes("-alpha", 1)
 
+
 apply_theme_to_titlebar(window)
 
+
 def cercle():
-    global x,y,depx,depy,tempo
-    r=20
-    x=x+depx
-    y=y+depy
-    if x>l-r or y<r:
-        depx=-depx
-    if y>h-r or y<r:
-        depy=-depy
+    global x, y, depx, depy, tempo
+    r = 20
+    x = x + depx
+    y = y + depy
+    if x > l - r or y < r:
+        depx = -depx
+    if y > h - r or y < r:
+        depy = -depy
     effacer()
-    Canvas.create_oval(x-r,y-r,x+r,y+r,outline='brown',fill='#fafafa')
-    window.after(tempo,cercle)
+    Canvas.create_oval(x - r, y - r, x + r, y + r, outline="brown", fill="#fafafa")
+    window.after(tempo, cercle)
+
 
 def effacer():
     Canvas.delete(ALL)
 
-l=480
-h=320
-x=int(l/2)
-y=int(h/2)
-depx=randint(1,5)
-depy=randint(1,5)
-Canvas=Canvas(window,width=l,height=h,bg="#1C1C1C")
-Canvas.pack(padx=5,pady=5)
+
+l = 480
+h = 320
+x = int(l / 2)
+y = int(h / 2)
+depx = randint(1, 5)
+depy = randint(1, 5)
+Canvas = Canvas(window, width=l, height=h, bg="#1C1C1C")
+Canvas.pack(padx=5, pady=5)
+
 
 def fast():
     global tempo
-    if tempo>5:
-        tempo=tempo-5
+    if tempo > 5:
+        tempo = tempo - 5
     else:
-        tempo=5
+        tempo = 5
+
+
 def slow():
     global tempo
-    tempo=tempo+5
+    tempo = tempo + 5
+
 
 style.configure("button.TButton", font=("Rubik", 10))
-go=ttk.Button(window,text="Go",command=cercle,style="button.TButton")
-go.pack(side=LEFT,fill=X)
+go = ttk.Button(window, text="Go", command=cercle, style="button.TButton")
+go.pack(side=LEFT, fill=X)
 
-fast=ttk.Button(window,text="Plus vite",command=fast,style="button.TButton")
-fast.pack(side=LEFT,fill=X)
+fast = ttk.Button(window, text="Plus vite", command=fast, style="button.TButton")
+fast.pack(side=LEFT, fill=X)
 
-slow=ttk.Button(window,text="Plus doucement",command=slow,style="button.TButton")
-slow.pack(side=LEFT,fill=X)
+slow = ttk.Button(window, text="Plus doucement", command=slow, style="button.TButton")
+slow.pack(side=LEFT, fill=X)
 
-window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 08/exercices/README.md`,language:`Markdown`,content:`# exercices
+window.mainloop()
+`},{type:`file`,name:`README.md`,path:`séance 08/exercices/README.md`,language:`Markdown`,content:`# exercices
 
 - [exercice 1](/séance%208/exercices/exercice%201.py)
 - [exercice 2](/séance%208/exercices/exercice%202.py)
@@ -3038,160 +3936,200 @@ window.mainloop()`},{type:`file`,name:`README.md`,path:`séance 08/exercices/REA
 1. [première application](/séance%208/1.%20première%20application/)
 2. [générateur de mot de passe](/séance%208/2.%20générateur%20de%20mot%20de%20passe/)
 3. [exercice](/séance%208/exercices/)
-
-# dépendances
-
-pillow :
-
-\`\`\`
-pip install pillow
-\`\`\`
 `}]},{type:`folder`,name:`séance 09`,path:`séance 09`,children:[{type:`folder`,name:`exercices`,path:`séance 09/exercices`,children:[{type:`file`,name:`carre_couleur.py`,path:`séance 09/exercices/carre_couleur.py`,language:`Python`,content:`import pyxel
 
 liste_couleurs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
 couleur = 0
 
+
 def carre():
     x = 50
     y = 50
     pyxel.rect(x, y, 50, 50, liste_couleurs[couleur])
 
+
 def update():
     global couleur
-    
+
     if pyxel.btnp(pyxel.MOUSE_BUTTON_RIGHT):
         couleur = (couleur + 1) % len(liste_couleurs)
-    
+
     if pyxel.btnp(pyxel.MOUSE_BUTTON_LEFT):
         couleur = (couleur - 1) % len(liste_couleurs)
+
 
 def draw():
     pyxel.cls(0)
     carre()
 
-pyxel.init(400, 300)
-pyxel.run(update, draw)`},{type:`file`,name:`carre.py`,path:`séance 09/exercices/carre.py`,language:`Python`,content:`import pyxel
 
-posx=10
-posy=10
+pyxel.init(400, 300)
+pyxel.run(update, draw)
+`},{type:`file`,name:`carre.py`,path:`séance 09/exercices/carre.py`,language:`Python`,content:`import pyxel
+
+posx = 10
+posy = 10
+
 
 def move():
-    global posx,posy
+    global posx, posy
     if pyxel.btn(pyxel.KEY_RIGHT):
-        posx+=1
+        posx += 1
     if pyxel.btn(pyxel.KEY_LEFT):
-        posx-=1
+        posx -= 1
     if pyxel.btn(pyxel.KEY_UP):
-        posy-=1
+        posy -= 1
     if pyxel.btn(pyxel.KEY_DOWN):
-        posy+=1
-    if posx>180:
-        posx=180
-    if posx<0:
-        posx=0
-    if posy>180:
-        posy=180
-    if posy<0:
-        posy=0
+        posy += 1
+    if posx > 180:
+        posx = 180
+    if posx < 0:
+        posx = 0
+    if posy > 180:
+        posy = 180
+    if posy < 0:
+        posy = 0
+
 
 def carre():
     pyxel.rect(posx, posy, 20, 20, 1)
 
+
 pyxel.init(200, 200)
+
 
 def draw():
     pyxel.cls(0)
     carre()
 
+
 def update():
     move()
     pass
-pyxel.run(draw,update)`},{type:`file`,name:`cercle.py`,path:`séance 09/exercices/cercle.py`,language:`Python`,content:`import random
+
+
+pyxel.run(draw, update)
+`},{type:`file`,name:`cercle.py`,path:`séance 09/exercices/cercle.py`,language:`Python`,content:`import random
 import pyxel
 
 cercles = []
 
-def cercle(): # cercle aléatoire
-    x=random.randint(50,350)
-    y=random.randint(50,250)
-    r=random.randint(10,50)
-    col=random.randint(1,15)
+
+def cercle():  # cercle aléatoire
+    x = random.randint(50, 350)
+    y = random.randint(50, 250)
+    r = random.randint(10, 50)
+    col = random.randint(1, 15)
     cercles.append((x, y, r, col))
 
+
 def nya():
-    if pyxel.btnp(pyxel.KEY_SPACE): # crée des cercles
+    if pyxel.btnp(pyxel.KEY_SPACE):  # crée des cercles
         cercle()
-    if pyxel.btnp(pyxel.KEY_BACKSPACE) and cercles: # supprimer des cercles
-        cercles.pop(random.randint(0,len(cercles)-1))
+    if pyxel.btnp(pyxel.KEY_BACKSPACE) and cercles:  # supprimer des cercles
+        cercles.pop(random.randint(0, len(cercles) - 1))
+
 
 pyxel.init(400, 300)
+
 
 def draw():
     pyxel.cls(0)
     for x, y, r, col in cercles:
         pyxel.circ(x, y, r, col)
-        
+
+
 def update():
     nya()
-    
-pyxel.run(update, draw)`},{type:`file`,name:`couleurs.py`,path:`séance 09/exercices/couleurs.py`,language:`Python`,content:`import pyxel
+
+
+pyxel.run(update, draw)
+`},{type:`file`,name:`couleurs.py`,path:`séance 09/exercices/couleurs.py`,language:`Python`,content:`import pyxel
+
 pyxel.init(320, 320, title="couleurs")
+
 
 def update():
     if pyxel.btnp(pyxel.KEY_Q):
         pyxel.quit()
+
 
 def draw():
     pyxel.cls(0)
     for i in range(16):
-        pyxel.rect(20*i, 0, 20, 20, i)
+        pyxel.rect(20 * i, 0, 20, 20, i)
 
-pyxel.run(update, draw)`},{type:`file`,name:`images.py`,path:`séance 09/exercices/images.py`,language:`Python`,content:`import pyxel
 
-pyxel.init(600,600,title="Mermoz")
-pyxel.image(0).load(0,0,"logo_mermoz.png")
-pyxel.image(1).load(0,0,"NSI.png")
+pyxel.run(update, draw)
+`},{type:`file`,name:`images.py`,path:`séance 09/exercices/images.py`,language:`Python`,content:`import pyxel
+
+pyxel.init(600, 600, title="Mermoz")
+pyxel.image(0).load(0, 0, "logo_mermoz.png")
+pyxel.image(1).load(0, 0, "NSI.png")
+
 
 def update():
     if pyxel.btnp(pyxel.KEY_Q):
         pyxel.quit()
+
+
 def draw():
     pyxel.cls(0)
-    taille=255
-    pyxel.blt(pyxel.width//2-(taille//2),0,0,0,0,taille,236)
-    pyxel.blt(pyxel.width//2-(taille//2),300,1,0,0,taille,154)
-pyxel.run(update,draw)`},{type:`file`,name:`images2.py`,path:`séance 09/exercices/images2.py`,language:`Python`,content:`import pyxel
+    taille = 255
+    pyxel.blt(pyxel.width // 2 - (taille // 2), 0, 0, 0, 0, taille, 236)
+    pyxel.blt(pyxel.width // 2 - (taille // 2), 300, 1, 0, 0, taille, 154)
+
+
+pyxel.run(update, draw)
+`},{type:`file`,name:`images2.py`,path:`séance 09/exercices/images2.py`,language:`Python`,content:`import pyxel
+
 pyxel.init(600, 600, title="Mermoz")
 pyxel.image(0).load(0, 0, "NSI.png")
 pyxel.image(1).load(0, 0, "logo_mermoz.png")
-change=0
+change = 0
+
 
 def update():
     global change
     if pyxel.btnp(pyxel.KEY_Q):
         pyxel.quit()
     if pyxel.btnp(pyxel.KEY_N):
-        change=0
+        change = 0
     if pyxel.btnp(pyxel.KEY_L):
-        change=1
+        change = 1
+
 
 def draw():
     pyxel.cls(0)
-    taille_img=(pyxel.image(change).width,pyxel.image(change).height)
-    pyxel.blt(pyxel.width//2-(taille_img[0]//2),0,change,0,0,taille_img[0],taille_img[1])
-pyxel.run(update, draw)`},{type:`file`,name:`logo_mermoz.png`,path:`séance 09/exercices/logo_mermoz.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/logo_mermoz.png (39283 octets)]`},{type:`file`,name:`neige.py`,path:`séance 09/exercices/neige.py`,language:`Python`,content:`import pyxel
+    taille_img = (pyxel.image(change).width, pyxel.image(change).height)
+    pyxel.blt(
+        pyxel.width // 2 - (taille_img[0] // 2),
+        0,
+        change,
+        0,
+        0,
+        taille_img[0],
+        taille_img[1],
+    )
+
+
+pyxel.run(update, draw)
+`},{type:`file`,name:`logo_mermoz.png`,path:`séance 09/exercices/logo_mermoz.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/logo_mermoz.png (39283 octets)]`},{type:`file`,name:`neige.py`,path:`séance 09/exercices/neige.py`,language:`Python`,content:`import pyxel
 import random
 
-pyxel.init(400,300,title="neige",fps=400)
-neige=[]
+pyxel.init(400, 300, title="neige", fps=400)
+neige = []
+
 
 def ajout_neige():
     global neige
     if pyxel.frame_count % 30 == 0:
-        taille=random.randint(1,8)
-        x=random.randint(0,pyxel.width)
-        neige.append([x,0,taille])
+        taille = random.randint(1, 8)
+        x = random.randint(0, pyxel.width)
+        neige.append([x, 0, taille])
+
+
 def update():
     if pyxel.btnp(pyxel.KEY_Q):
         pyxel.quit()
@@ -3199,14 +4137,19 @@ def update():
     ajout_neige()
     for flocon in neige:
         flocon[1] += 0.1
-        if flocon[1]>pyxel.height:
+        if flocon[1] > pyxel.height:
             neige.remove(flocon)
     neige = [flocon for flocon in neige if flocon[1] < pyxel.height]
+
+
 def draw():
     pyxel.cls(0)
     for flocon in neige:
-        pyxel.circ(flocon[0],flocon[1],flocon[2],7)
-pyxel.run(update, draw)`},{type:`file`,name:`NSI.png`,path:`séance 09/exercices/NSI.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/NSI.png (65229 octets)]`},{type:`file`,name:`NSI.py`,path:`séance 09/exercices/NSI.py`,language:`Python`,content:`import pyxel
+        pyxel.circ(flocon[0], flocon[1], flocon[2], 7)
+
+
+pyxel.run(update, draw)
+`},{type:`file`,name:`NSI.png`,path:`séance 09/exercices/NSI.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: séance 09/exercices/NSI.png (65229 octets)]`},{type:`file`,name:`NSI.py`,path:`séance 09/exercices/NSI.py`,language:`Python`,content:`import pyxel
 
 HAUTEUR = 100
 LARGEUR = 40
@@ -3258,12 +4201,6 @@ pyxel.run(update, draw)
 # séance 9
 
 1. [exercices](./exercices/)
-
-# dépendances
-
-\`\`\`
-pip install pyxel
-\`\`\`
 `}]},{type:`folder`,name:`séance 10`,path:`séance 10`,children:[{type:`folder`,name:`code(Sic)`,path:`séance 10/code(Sic)`,children:[{type:`file`,name:`AccueilQ6.html`,path:`séance 10/code(Sic)/AccueilQ6.html`,language:`HTML`,content:`<html>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,572;1,14..32,572&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -36061,6 +36998,8 @@ export function useIsMobile() {
 export function cn(...values) {
   return values.map(toClassName).filter(Boolean).join(" ")
 }
+`}]},{type:`folder`,name:`not_so_informatic`,path:`src/not_so_informatic`,children:[{type:`file`,name:`__init__.py`,path:`src/not_so_informatic/__init__.py`,language:`Python`,content:`def main() -> None:
+    print("Hello from not-so-informatic!")
 `}]},{type:`folder`,name:`pages`,path:`src/pages`,children:[{type:`file`,name:`ExplorerPage.jsx`,path:`src/pages/ExplorerPage.jsx`,language:`JavaScript JSX`,content:`import {
   Fragment,
   lazy,
@@ -38034,12 +38973,6 @@ print(compteur)
 2. [duracell](./duracell/) (piles)
 3. [chipeur](./chipeur/) (files)
 4. [Три полоски](./Три%20полоски/) (mini-programmes)
-
-# dépendances
-
-\`\`\`python
-dépendances=[None]
-\`\`\`
 `}]},{type:`folder`,name:`tle-séance 02`,path:`tle-séance 02`,children:[{type:`folder`,name:`ds`,path:`tle-séance 02/ds`,children:[{type:`file`,name:`arbre.py`,path:`tle-séance 02/ds/arbre.py`,language:`Python`,content:`import matplotlib
 
 matplotlib.use("TkAgg")
@@ -38498,17 +39431,6 @@ dessiner(exemple)
 
 1. [bonsai.py](./bonsai.py) programme simple qui fait un arbre selon la variable \`exemple\`
 2. [winrar.py](./winrar.py) honnêtement, jsp
-
-# dépendances
-
-pour bien visualiser les données, il est nécessaire d'installer la bibliothèque matplotlib et tk. Vous pouvez l'installer en utilisant pip :
-
-\`\`\`bash
-pip install matplotlib tk
-\`\`\`
-
-> [!note]
-> selon votre système d'exploitation, vous pourriez avoir besoin d'installer tk séparément. Pour les utilisateurs de Windows, tk est généralement inclus avec Python. Pour les utilisateurs de macOS et Linux, vous pouvez installer tk via votre gestionnaire de paquets.
 `},{type:`file`,name:`winrar.py`,path:`tle-séance 02/winrar.py`,language:`Python`,content:`# THIS IS NOT A WINRAR BOOTLEG
 # merci à damien pour le script très bien commenté...
 
@@ -39582,6 +40504,229 @@ dist-ssr
 *.sw?
 dist/
 node_modules/
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#   Usually these files are written by a python script from a template
+#   before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+# Pipfile.lock
+
+# uv
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+# uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+# poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+# pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi/*
+!.pixi/config.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule*
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs/Zensical documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#   and can be added to the global gitignore or merged into this file.  For a more nuclear
+#   option (not recommended) you can uncomment the following to ignore the entire idea folder.
+# .idea/
+
+# Abstra
+#   Abstra is an AI-powered process automation framework.
+#   Ignore directories containing user credentials, local state, and settings.
+#   Learn more at https://abstra.io/docs
+.abstra/
+
+# Visual Studio Code
+#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore that
+#   can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#   and can be added to the global gitignore or merged into this file. However, if you prefer, you
+#   could uncomment the following to ignore the entire vscode folder
+# .vscode/
+# Temporary file for partial code execution
+tempCodeRunnerFile.py
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
+`},{type:`file`,name:`.python-version`,path:`.python-version`,language:`Text`,content:`3.14
 `},{type:`file`,name:`components.json`,path:`components.json`,language:`JSON`,content:`{
   "$schema": "https://ui.shadcn.com/schema.json",
   "style": "base-nova",
@@ -48285,6 +49430,37 @@ SOFTWARE.
     "vite": "^8.3.0"
   }
 }
+`},{type:`file`,name:`pyproject.toml`,path:`pyproject.toml`,language:`TOML`,content:`[project]
+name = "not-so-informatic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mokotanin", email = "titchou68@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "arcade>=3.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "pymunk>=7.3.1",
+    "python-chess>=1.999",
+    "pywinstyles>=1.8",
+    "pyxel>=2.9.9",
+    "ruff>=0.17.0",
+    "scikit-learn>=1.9.1",
+    "stockfish>=5.2.0",
+    "sv-ttk>=2.6.1",
+    "tk>=0.1.0",
+]
+
+[project.scripts]
+not-so-informatic = "not_so_informatic:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"
 `},{type:`file`,name:`pyrightconfig.json`,path:`pyrightconfig.json`,language:`JSON`,content:`{
   "typeCheckingMode": "basic",
   "reportMissingParameterType": "none",
@@ -48303,17 +49479,16 @@ En réalité, numérique et sciences informatiques
 25-26 Première </br>
 26-27 Terminale (tle)
 
-> [!TIP]
-> Créez un environnement virtuel avant d'installer les dépendances
->
-> \`\`\`bash
-> python -m venv .venv
-> \`\`\`
-
 ## Dépendances
 
-> [!IMPORTANT]
-> Les dépendances se trouvent dans les README de chaque séance
+J'utilise [uv](https://docs.astral.sh/uv/getting-started/installation/) pour gérer les dépendances.
+
+Une fois installé, faites :
+\`\`\`
+cd not-so-informatic
+uv sync
+\`\`\`
+
 
 ## Web explorer
 
@@ -48710,6 +49885,864 @@ J'ai donc:
 
 Mais donc maintenant, comment utiliser ce proxy ?
 Malheureusement, va falloir le configurer manuellement pour chaque application...
+`},{type:`file`,name:`uv.lock`,path:`uv.lock`,language:`Text`,content:`version = 1
+revision = 5
+requires-python = ">=3.14"
+resolution-markers = [
+    "sys_platform == 'win32'",
+    "sys_platform == 'emscripten'",
+    "sys_platform != 'emscripten' and sys_platform != 'win32'",
+]
+
+[[package]]
+name = "arcade"
+version = "4.0.0.dev8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pillow" },
+    { name = "pyglet" },
+    { name = "pytiled-parser" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0b/ea/3047aab0b7ccb71776302f23420fe24429bff12c3ee0a17bea7dc5004d3c/arcade-4.0.0.dev8.tar.gz", hash = "sha256:31d2b5cbaae6abdae8a31d8078c420b244de753ef422fe308bbb5acec62f854b", size = 42136902, upload-time = "2026-10-05T19:04:39.169Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2d/3d/2def0f3851b2cebad7e0b4e4b739d8d98c1e797a8fba5c2caec6c087e64c/arcade-4.0.0.dev8-py3-none-any.whl", hash = "sha256:8f95630496d7a25cde6ab6b34e17898b025782e18fef867043f11cdd64abff18", size = 42873800, upload-time = "2026-10-05T19:04:34.942Z" },
+]
+
+[[package]]
+name = "attrs"
+version = "26.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz", hash = "sha256:d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32", size = 952055, upload-time = "2026-03-19T14:22:25.026Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl", hash = "sha256:c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309", size = 67548, upload-time = "2026-03-19T14:22:23.645Z" },
+]
+
+[[package]]
+name = "cffi"
+version = "2.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pycparser", marker = "implementation_name != 'PyPy'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz", hash = "sha256:dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be", size = 530807, upload-time = "2026-08-03T21:21:18.939Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d3/7b/d6bbf82b8b96e7391438898c42f5bd96dd02030fd5b64937d248220003e2/cffi-2.1.1-cp314-cp314-ios_13_0_arm64_iphoneos.whl", hash = "sha256:7dbb61fe3a7699468030f71bbe5f8a0e326a151daa91beb11a6fc1f980c55e1c", size = 194064, upload-time = "2026-08-03T21:20:17.148Z" },
+    { url = "https://files.pythonhosted.org/packages/94/e6/bcc91b283be94735e268487a054004f0aa19947b6348fa367db53230abc8/cffi-2.1.1-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:f24fb43132a4c6b4cb4eb029492919b2db645be6808d738f244fd146c03c32cb", size = 196720, upload-time = "2026-08-03T21:20:18.268Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/99/c4b0c17cacdc9c3b8f280026286a9826d6a208c0f047591a3c3ce99b91fd/cffi-2.1.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:d28630f5854ab07ab1fd4aba756de52326c82e6be15d414b12793f1975048b54", size = 184964, upload-time = "2026-08-03T21:20:19.708Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/a9/9db617d05d7367c1ad0ab00b3aa6e6f9281edd689b4ee9ea0e5a84e89c97/cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:661c298b4821edebead0c91edd2b00374d67ad7c5a1f7a91d4442633b79d6a72", size = 184962, upload-time = "2026-08-03T21:20:20.833Z" },
+    { url = "https://files.pythonhosted.org/packages/67/b8/b42132ca113dc567d37684437b46ca1dafc885902b02a110a02d5b511857/cffi-2.1.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:58acb8ab8e295e6c5ea12f888cbb13cf21511ef2a3303a23f4325c29d17fe5c1", size = 222328, upload-time = "2026-08-03T21:20:22.118Z" },
+    { url = "https://files.pythonhosted.org/packages/80/10/c5c0cbf0a657aecf59ef511409734230bf556f05a0d6c9eed7aa5c0a0166/cffi-2.1.1-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:456a61fa52d579ebf9df2e9552ead5129855dbaff6c1e5a9b1bc408809bdc062", size = 209985, upload-time = "2026-08-03T21:20:23.401Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/6c/bfa0b87b03b9238148beca990292843c9396ba069b54496596594173de7b/cffi-2.1.1-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:a4f00aa42f75d6e4595e8866e748cc1705adc0cddfeb2ca86d0d03993d63ba03", size = 208530, upload-time = "2026-08-03T21:20:24.628Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/02/4e7d553a7ac4b4238b38b3c1b80d486e9d4436f8d2acbf87a0997fe3f402/cffi-2.1.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:b0431303acaea1089ad4b3e9ce4e6518193def1118d4073ca848635ee4ea2e96", size = 221525, upload-time = "2026-08-03T21:20:25.758Z" },
+    { url = "https://files.pythonhosted.org/packages/82/1d/a4aaf9babd75acb4d5f223bff71533bee748dd770a382619a798960ee9ba/cffi-2.1.1-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:64faea20f4e2613363a1a9b9c7dd73058f3ecd00133a511e72ad7c511658f527", size = 225053, upload-time = "2026-08-03T21:20:26.985Z" },
+    { url = "https://files.pythonhosted.org/packages/81/10/5dc0e7bdd18e22107054288283380fc97a06ae3f1656a106908d666a3c88/cffi-2.1.1-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:5c58fe613dc5e5336357eff555824a314d8e43282600435c8d1cb6a7a2fedd13", size = 223213, upload-time = "2026-08-03T21:20:28.277Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/e9/d0061c364cde06ee43168a0d076ac1da512cbc380d44767b844ba34fe2b6/cffi-2.1.1-cp314-cp314-win32.whl", hash = "sha256:1a18a57b58cfb21fc28d72e876acf10eaed67a1ed96226f92af4df681d571c4c", size = 177682, upload-time = "2026-08-03T21:20:44.288Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/06/1c3e01e3ba14c39f6d10bfbac52753b7e22259e38088e5cfe1d704918690/cffi-2.1.1-cp314-cp314-win_amd64.whl", hash = "sha256:3222ba5d678f80a030e6afbcc33dc1ae5cb45facabb61cee2c7016b8432fde48", size = 187949, upload-time = "2026-08-03T21:20:45.623Z" },
+    { url = "https://files.pythonhosted.org/packages/87/5b/da4e39efe18eeb89cf580ea9cfc66b6a7c3eadb808fc0cc1d3a295cb5a5d/cffi-2.1.1-cp314-cp314-win_arm64.whl", hash = "sha256:ab36d55f9ed2d067327667c2fea18dda018eb628dd6347aa01dda6cf1f5d3836", size = 182947, upload-time = "2026-08-03T21:20:46.955Z" },
+    { url = "https://files.pythonhosted.org/packages/23/59/40338bf421c5accea1d45158170c87006ef1cd371b05c077e76476949728/cffi-2.1.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:7750c6449dff7864bb9bb27ddfb0267756189201a3afc911d82b3caacd70dfc3", size = 188504, upload-time = "2026-08-03T21:20:29.495Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/47/5ecf1023850036e674c77ec4de86182d309ae344e39e7cba984b7df5d647/cffi-2.1.1-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:0beceaabe56af686895136a2de78db54ecd8e4046b236b8fd6d6cb61389e9bf2", size = 188259, upload-time = "2026-08-03T21:20:31.291Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/9c/92934c3bea9f785b23eba304538c0b4d37a2a96d2431eb3a1bc87a11aa19/cffi-2.1.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:49cbc70e6542d4ccccb936558d1064a8012541e78f821f955cff24e357776c94", size = 223864, upload-time = "2026-08-03T21:20:32.571Z" },
+    { url = "https://files.pythonhosted.org/packages/4d/45/ba4c93527bc38616a8bd36488acb69a2212d60486794f0c1f318949bbb76/cffi-2.1.1-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:e2d65b31f36619cda3999b78b2aa9632e76b78448e7a56fc4240824200e7c4fc", size = 211538, upload-time = "2026-08-03T21:20:33.808Z" },
+    { url = "https://files.pythonhosted.org/packages/80/e9/b6ef565e452acb932fb0cb5443f44a78efbd1233e566f02b5a83855e9115/cffi-2.1.1-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:28907ab9bfb6aa13184cfc17c6b8e1023c5ab6fd7076d8c20a35e59fe04f8f29", size = 210688, upload-time = "2026-08-03T21:20:34.974Z" },
+    { url = "https://files.pythonhosted.org/packages/9a/95/eff5f0cee78d2eabc7eebffec40d3fc1876b5f3c95582e018bb4b99601f2/cffi-2.1.1-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:51b31d1c98274844cfd7838ce00bfc27c7423a4dc00fc0772fc3331c2cc90676", size = 223803, upload-time = "2026-08-03T21:20:36.564Z" },
+    { url = "https://files.pythonhosted.org/packages/fa/01/579d39fb8bef00a335a23d83757b44feb24cd6345a2c451b64cb67b9c362/cffi-2.1.1-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:5e7cecbaadb83884793e05828cee59b210b24583b9c7425d0ba6a754fe22eb4e", size = 226763, upload-time = "2026-08-03T21:20:37.816Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/b0/0b44f47c60b01b57b6e2bbd92343f13a85a1d93bc46ccf6e47e244acd99c/cffi-2.1.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:25792eac27877609e7bb06d42ff88278a6624fff2ba9bbb523c09616b117e80f", size = 225688, upload-time = "2026-08-03T21:20:38.959Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/d2/3b7176cb570a1d3e27faf67b72f591af508036e0d8b2be2ef9af9e8c84bb/cffi-2.1.1-cp314-cp314t-win32.whl", hash = "sha256:8ef53b2de9bcb9197d31854256575d59dbac0cba72ac627bb291ef5eceb74be4", size = 182868, upload-time = "2026-08-03T21:20:40.388Z" },
+    { url = "https://files.pythonhosted.org/packages/56/78/31f00c1bcd97c9bbf55f1bfdf5bc809a5de8887473e90bb9960dca825e80/cffi-2.1.1-cp314-cp314t-win_amd64.whl", hash = "sha256:616f097f2fe415bc92a247f02e11f634e1f9e9a83d327e3c915c15089c87869e", size = 194104, upload-time = "2026-08-03T21:20:41.725Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/1b/58496f2ed0a35de575250c02a43ab3cc2c04d494a88fed31c1cabc0fd176/cffi-2.1.1-cp314-cp314t-win_arm64.whl", hash = "sha256:ad2c86c495b899d862ea0f4b42891b8713a3bd45dd4105c7fd51c2a72f39f3a5", size = 186402, upload-time = "2026-08-03T21:20:43.042Z" },
+    { url = "https://files.pythonhosted.org/packages/c1/8f/9ebe220eab48a093d1a5a5e339ab0dc7316eef3bb04d63c42f0251b61f50/cffi-2.1.1-cp315-cp315-ios_13_0_arm64_iphoneos.whl", hash = "sha256:dddad92b554513a31f272570678ba307fb9f618f05e3d4a5eacafff9eae03e1d", size = 194043, upload-time = "2026-08-03T21:20:48.179Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/69/844bad3ece306c4782c2ecb93597035b6690d48704b803914c199da1e8b3/cffi-2.1.1-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:da0e573f9f97159390c89d9f1a9e41908b66d408cc5b58d08cf3847d844c531b", size = 196737, upload-time = "2026-08-03T21:20:49.457Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/8a/af668013284634733f02d683458a0728739c7d6ddb5e14cb0c20832266fe/cffi-2.1.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:fb92203a88b3d3053034db775110081c49d28be6551923805e039924093761e4", size = 184933, upload-time = "2026-08-03T21:20:50.639Z" },
+    { url = "https://files.pythonhosted.org/packages/0c/75/2f5207ff6d1a613133b23a5203cc0c2a628313b5eb3974d7956ae3c57950/cffi-2.1.1-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:2ae64be792b8966f2c69538199728b290e34726562896df1e5dc8ffd8d8188e8", size = 185002, upload-time = "2026-08-03T21:20:52.173Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/31/9e1313b0a6e30e91b3b3d3fff51ae99c857c07738e3afcce1f7334e1b7ab/cffi-2.1.1-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:507a24c282e0f42f8ed737cf048572cbf580468da5555764a8331735e9c736b6", size = 222271, upload-time = "2026-08-03T21:20:53.462Z" },
+    { url = "https://files.pythonhosted.org/packages/50/e3/f6234a833e6e08c7007003074723c406559eecf9b48dfc97471e5a8eb7a0/cffi-2.1.1-cp315-cp315-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:246fa40ce8645a614ff682e0b70f37134e460eaf93a775e0cbe3cca585a67a80", size = 209919, upload-time = "2026-08-03T21:20:54.783Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/fc/5f74e293fced6edb51af3a46c4ccf6c23c9943774ecb375ddbd522c76add/cffi-2.1.1-cp315-cp315-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:471cee653ae88de62096552e6d24ccb4a5adb8c8c9f10b5054d0122c15bf2779", size = 208529, upload-time = "2026-08-03T21:20:56.066Z" },
+    { url = "https://files.pythonhosted.org/packages/44/16/29e6d01b388bef055ecd6ca8244b3f4d336bd09e92d5d892187b9601084e/cffi-2.1.1-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:aeae0e330c9f6acd681f647d46cefd30c29f93e3392882e792e82080c9691399", size = 221630, upload-time = "2026-08-03T21:20:57.336Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/18/fa7f1f6857d5eb88a4ca99ffcbfb7c387a287ccc154c64a73e86314745d7/cffi-2.1.1-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:42a494cee34437f05546455144f2b5d9ac09b1face62bcfce597d2e521066688", size = 225134, upload-time = "2026-08-03T21:20:58.675Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/9f/e8e3dfa04a1b4c241f8c91faacad872b4d4efd051d49764ad4e2fd4b9fea/cffi-2.1.1-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:cc572dace3f60ef98d7b12ff411d20f5362feb31a0439eab0085bbfd349982d7", size = 223197, upload-time = "2026-08-03T21:20:59.968Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/7e/8debeb04f1ab9fe2a6963964cd6f1aaf7192627b83926586a6a4e089c9fa/cffi-2.1.1-cp315-cp315-win32.whl", hash = "sha256:4f42141fc14250de6dde5ee7ea4432be017252d91f19c5ad043c084cea629cac", size = 177683, upload-time = "2026-08-03T21:21:14.901Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/31/5158704cc474ab65c1647932e88be78dc0873f47130e253be38bcaf13d01/cffi-2.1.1-cp315-cp315-win_amd64.whl", hash = "sha256:e6e8cff14d6fb0be70a09c0bdc58096f501952d04624ebf867e0e56da2df8960", size = 187897, upload-time = "2026-08-03T21:21:16.108Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/4b/b3a2da8570c704ffc0f9762cdc3ec0f02c8573798e0b5cf7f11c82bbb70f/cffi-2.1.1-cp315-cp315-win_arm64.whl", hash = "sha256:27350daa11d4f10c540e6e89dada4c54feb7256ad03e9a4dc075ebad7ba360d1", size = 182935, upload-time = "2026-08-03T21:21:17.271Z" },
+    { url = "https://files.pythonhosted.org/packages/d0/ef/5443574510a1207e6f6bc38ba6e1f1de36cb48fef07b2728bb896a21f430/cffi-2.1.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:c26608d2222fb1e94487e4a387d85f13eb55d5ed725cb25a0c589ac4ee60e7bc", size = 188464, upload-time = "2026-08-03T21:21:01.163Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/ae/a56fa8c4686ad50e148fcbc8d3ae0d03915ff5c30d795058988c24118cef/cffi-2.1.1-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:4be96343e422f2dfcd12ab5c9f5aebe03f82f737c6bffeca6830b3875cb44aab", size = 188262, upload-time = "2026-08-03T21:21:02.382Z" },
+    { url = "https://files.pythonhosted.org/packages/53/b2/6187f46f2912276a3ae284076109cc5c8680482f11f766ccf26db4a86427/cffi-2.1.1-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:937c0052c05a31ca1daf18de3158eed4dbfcb9cc107adbea227728d647be701e", size = 223779, upload-time = "2026-08-03T21:21:03.553Z" },
+    { url = "https://files.pythonhosted.org/packages/8a/f6/c3ad28bd19f77047a03084424fbd4cbe997303267c14423737324be0385d/cffi-2.1.1-cp315-cp315t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.whl", hash = "sha256:df423d40ee8654634421812bc3b196da3f9bd7d32929da813f8394c4348a5358", size = 211520, upload-time = "2026-08-03T21:21:04.863Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/cd/ccac9013a5bd9fd764de118674ab9c805b5ca10c19270d90ee273f8b2240/cffi-2.1.1-cp315-cp315t-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:a730a083190634c65cca36ba5f489531576ebd79bcd5c8e172130f6453127231", size = 210673, upload-time = "2026-08-03T21:21:06.223Z" },
+    { url = "https://files.pythonhosted.org/packages/52/86/2976131c639aead931c5bee5aba67e4b09fbeb8018b6f282f70803f923a7/cffi-2.1.1-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:363e05fa78e15116c3c32c210ee36884fd6b9afa6d440e47112c3bd511d64cb6", size = 223835, upload-time = "2026-08-03T21:21:07.539Z" },
+    { url = "https://files.pythonhosted.org/packages/ac/0c/33a7aeab2f9c76918c52e084beb39c570db3588133412929e8ec06fab90b/cffi-2.1.1-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:770de9db11e84213beec501cfcaa013b019820ca881e03344dea5844f7876d94", size = 226705, upload-time = "2026-08-03T21:21:08.774Z" },
+    { url = "https://files.pythonhosted.org/packages/e3/26/2cde30fdde421130bfc18f70395731a6e6b2053c6a1978a5258ff04e72fa/cffi-2.1.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:7da0c5eff80f0197f3b3d1232ec5a682a9325f4ae9016a78f5f5ca35f9ced1f5", size = 225539, upload-time = "2026-08-03T21:21:09.911Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/cd/a361394c94b2129d604bb846f624a8e88255a3ee33129c434a00d715e64f/cffi-2.1.1-cp315-cp315t-win32.whl", hash = "sha256:06c72bb76605a4b0cd0aad6930b69d4baf7dd5d806cfc409b824191099700e66", size = 182707, upload-time = "2026-08-03T21:21:11.226Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/b5/ba2b299993c26577d529b6ae29841f9e15b9fcf004d65f423f4fcf94ade9/cffi-2.1.1-cp315-cp315t-win_amd64.whl", hash = "sha256:d9c275eaacd24aa73f94ffd6de08fc3f932424d8b6c376f4bed7cde376fe7bc3", size = 193772, upload-time = "2026-08-03T21:21:12.39Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/29/35e016098c814cd93de9cd320c66b5bfba14dc6ecedd3cb518fa7c408c69/cffi-2.1.1-cp315-cp315t-win_arm64.whl", hash = "sha256:d18e5ac0f2f03f4f518d3e23db0f0cad7faa1da8620e9c09461d443bbf6e6692", size = 186360, upload-time = "2026-08-03T21:21:13.636Z" },
+]
+
+[[package]]
+name = "chess"
+version = "1.11.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/09/7d04d7581ae3bb8b598017941781bceb7959dd1b13e3ebf7b6a2cd843bc9/chess-1.11.2.tar.gz", hash = "sha256:a8b43e5678fdb3000695bdaa573117ad683761e5ca38e591c4826eba6d25bb39", size = 6131385, upload-time = "2025-02-25T19:10:27.328Z" }
+
+[[package]]
+name = "cloudpickle"
+version = "3.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/27/fb/576f067976d320f5f0114a8d9fa1215425441bb35627b1993e5afd8111e5/cloudpickle-3.1.2.tar.gz", hash = "sha256:7fda9eb655c9c230dab534f1983763de5835249750e85fbcef43aaa30a9a2414", size = 22330, upload-time = "2025-11-03T09:25:26.604Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl", hash = "sha256:9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a", size = 22228, upload-time = "2025-11-03T09:25:25.534Z" },
+]
+
+[[package]]
+name = "contourpy"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/83/5a/a55177dd22553a277388e8a1b3220e92de91bacb28356cdc73caa240121d/contourpy-1.4.0.tar.gz", hash = "sha256:20156f5a1ac4f8ce02656e39a61e82164a3d359796dc8026f75b062783d500e1", size = 13323726, upload-time = "2026-09-11T19:05:05.808Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/75/b0/b548628c8dddf6e5e0a981b7fa8e4c008024df09c7d17c6a9e271edfa0b3/contourpy-1.4.0-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:a3e67bc1a6a4618a1dac7c3053a9ffece5ddfa2046b2670b342cf430bb0b87d1", size = 297354, upload-time = "2026-09-11T19:03:35.017Z" },
+    { url = "https://files.pythonhosted.org/packages/04/5a/513484208742f65af2648c519f0b7ab034616e183c4403538024c136a1ab/contourpy-1.4.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:072a702e2e178f4fcf96f04775d0c059e4c917925abf0d3208ebb6865df3c23d", size = 283729, upload-time = "2026-09-11T19:03:36.818Z" },
+    { url = "https://files.pythonhosted.org/packages/35/da/5a6562febc994b2c4bf9d01e57a50458ef8a2051bb3e7b35a00333e0fc26/contourpy-1.4.0-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:404dbcd9233513dfd1323b66ea593fef90e899f658f6b8a9ed8e93bd0ca669db", size = 357819, upload-time = "2026-09-11T19:03:39.058Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/99/7b358ce888aaa426f755daa096c99c59d17c352037344e836f20e5d3b957/contourpy-1.4.0-cp314-cp314-manylinux_2_26_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:61624f6722480aa7e168fd746164e7bfdf48f8ccb6542f1613741200dc37e2b1", size = 407795, upload-time = "2026-09-11T19:03:41.293Z" },
+    { url = "https://files.pythonhosted.org/packages/be/02/34d7548adf08c60967435d79d7a90882eacc84f5093435287974c7e99943/contourpy-1.4.0-cp314-cp314-manylinux_2_26_s390x.manylinux_2_28_s390x.whl", hash = "sha256:2e741a39dfc96babe1722561e81351aeec104526c57dbe91c167c1db606c2d55", size = 408552, upload-time = "2026-09-11T19:03:42.728Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/8c/9677dad226e5aaac5b823d5b09d881ebc32ff1648af417597649841e516c/contourpy-1.4.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:e439ab450c93455feb0218532ded3e946ec7a9b5f459069f122cfa44b89229f6", size = 384850, upload-time = "2026-09-11T19:03:44.402Z" },
+    { url = "https://files.pythonhosted.org/packages/08/f5/e3fbeaa489c223629fbb434737cb3de4ecaca9cae4825e77b92490f640f8/contourpy-1.4.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:417be048f7e122cefbe2a34c51a1f2b0410f8eb35796f794d45475ddb7872d9d", size = 1357601, upload-time = "2026-09-11T19:03:46.746Z" },
+    { url = "https://files.pythonhosted.org/packages/88/be/55fec293d342c222ed58a5d4056df4362e192af2e59527a3d5d822de8828/contourpy-1.4.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:43d80072a32299bf945de0a6dd4e034ea0162e832261de2e07a274a5adbba9c9", size = 1427340, upload-time = "2026-09-11T19:03:48.745Z" },
+    { url = "https://files.pythonhosted.org/packages/86/40/0faabf453edf59b0e3633381d7ca72c3414fb9b72b5cbb08b06ed792d3e5/contourpy-1.4.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl", hash = "sha256:fa1b787362a3856e63dd2b89449f6c384d55ee1beb8f94f4bcc871b40f02462c", size = 118355, upload-time = "2026-09-11T19:03:50.047Z" },
+    { url = "https://files.pythonhosted.org/packages/38/0c/7ea75aa3559ae8a6805015e15a19c92b6480752ecc92526361e5776e88c5/contourpy-1.4.0-cp314-cp314-win32.whl", hash = "sha256:738c44fa71735a617f36da58e32810512407d283d5d1bb5b1cecb00d7eeba7cf", size = 356977, upload-time = "2026-09-11T19:04:11.401Z" },
+    { url = "https://files.pythonhosted.org/packages/15/41/3df8cc14bb572c8b447f9dfbc876703f0f2f2896058285b5c87a1d4a638d/contourpy-1.4.0-cp314-cp314-win_amd64.whl", hash = "sha256:181bea01bc742734ae672fa00c717d855dd35e1f029536406538c52e7b0cd73d", size = 240101, upload-time = "2026-09-11T19:04:12.772Z" },
+    { url = "https://files.pythonhosted.org/packages/66/01/ee6830a5aa4565662a345172f6f35eeeed625d20f1c9d4ecd35318fe4ade/contourpy-1.4.0-cp314-cp314-win_arm64.whl", hash = "sha256:64039341e2d8804f1a13bda8c69083eab935167bbd7e856cf096241f17d5bd45", size = 576359, upload-time = "2026-09-11T19:04:14.983Z" },
+    { url = "https://files.pythonhosted.org/packages/51/af/49ee9c9cf012699e505c1b63c531cc99f19df50f205173092c4d541e3ec7/contourpy-1.4.0-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:ef47fef9a912c77e3d84b014f701e5a9340f25703e9ed3bcebe37f91fb69dc49", size = 313601, upload-time = "2026-09-11T19:03:51.452Z" },
+    { url = "https://files.pythonhosted.org/packages/ad/59/ce411ab2be0f805038626d8f4ca9ce563487ff51ff6c363e7512271564ed/contourpy-1.4.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:96019f059bcb3774acc0104be3360a57b36d33eaaa2e1d7f77c800ca8e07618b", size = 302812, upload-time = "2026-09-11T19:03:53.022Z" },
+    { url = "https://files.pythonhosted.org/packages/95/b0/390915f9af14c1e2d3b2a9ad99d85b98df4352346a51e368cbb825f813c3/contourpy-1.4.0-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:ddf5a2596d716fd3793434844caf31abc7a40b1e8718431420c89858268fb909", size = 348996, upload-time = "2026-09-11T19:03:54.594Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/85/e0952576d54322f3e9983b1e049a7a31f42ce82c5c29d01821e6dd3780d7/contourpy-1.4.0-cp314-cp314t-manylinux_2_26_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:dd59df9e2fb0aff8bd7fd1adb9f349b7c835245a9d0f18c2f2deeb537190f2b1", size = 400272, upload-time = "2026-09-11T19:03:56.822Z" },
+    { url = "https://files.pythonhosted.org/packages/d6/7d/f13543a5e1598e4a4ad01d9d5e2d65f9c09c37660616429913d606c5977d/contourpy-1.4.0-cp314-cp314t-manylinux_2_26_s390x.manylinux_2_28_s390x.whl", hash = "sha256:b7794ea07cab575633daad8d6e963b662053391022294d3aacc1d9ba9ef54114", size = 412895, upload-time = "2026-09-11T19:03:58.487Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/a8/6e5eaff53507dfd2dfc428240eecda32453067277d4b3e7ca71210b2d611/contourpy-1.4.0-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a1c8a74744fa746eeaa12f0f9ed7f8b4add9d8f1b14d95e3b5e133675eac888f", size = 377060, upload-time = "2026-09-11T19:04:00.122Z" },
+    { url = "https://files.pythonhosted.org/packages/16/a3/d00e44d35511b3cead5bd794ee672d4eecf30d9de4ceac57a49d6204064f/contourpy-1.4.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:107ec46f7aa1664266d69b1181aadc953d58d39f7d8d648fa5b795d4a060b0de", size = 1345688, upload-time = "2026-09-11T19:04:02.705Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/01/1e533b0cae32c8edd63fe40435ec3b29345dab87321afcd28722d7f957d1/contourpy-1.4.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:5a4c89c7f38a0d7a94356d74e3391073c4325c4d47ad2fd065c3fe7dbae16c0c", size = 1416140, upload-time = "2026-09-11T19:04:04.77Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/0c/4ee66759f00d6a5d6909782f14f441d639fa18a4a43142e334351efc47f8/contourpy-1.4.0-cp314-cp314t-win32.whl", hash = "sha256:912c6afaa106e2f74ba22b30416b77ef7eb94e3bdc5a4df51ab147845dba9b6d", size = 371982, upload-time = "2026-09-11T19:04:06.233Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/ac/b3e5324138c3e3741f526663f4f265f4f69dfdf26415a39428940864a5f6/contourpy-1.4.0-cp314-cp314t-win_amd64.whl", hash = "sha256:ef9440f6f8506246269a82734f5ff9e2e4c5e775b3996fc883cc491c5257eca6", size = 262907, upload-time = "2026-09-11T19:04:07.882Z" },
+    { url = "https://files.pythonhosted.org/packages/19/37/c9aa45e47819dc15a38fc5c81a2fb987fde55e9d3b991fbde514e3b6b5f5/contourpy-1.4.0-cp314-cp314t-win_arm64.whl", hash = "sha256:fc9feef8f1f001c5b87decadc67c4a5d1eebb62ca39c4763d1237ff62cf2b707", size = 587071, upload-time = "2026-09-11T19:04:09.898Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/74/66d4e6fbea3bcb3fd4e5ae21c039ba31b8fc408b35884b4bc09b88016dce/contourpy-1.4.0-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:79b06c60d5e569ce12c5da8f0c51217cdc484386e2349fa717c30fafb56d2871", size = 297358, upload-time = "2026-09-11T19:04:16.718Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/8d/8f7f25e71d73f15d7859943189900d2d348e740388c9ef52a0180d284762/contourpy-1.4.0-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:6f963ea9f0d68d2b6a02d861e3c0aae09ae25ba21f243fcf281e9fed468b078d", size = 283732, upload-time = "2026-09-11T19:04:18.087Z" },
+    { url = "https://files.pythonhosted.org/packages/f0/90/957549e3b03c407c670e3e191db63f4aef60dab6605bc967af3a806b543e/contourpy-1.4.0-cp315-cp315-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5545ff38229c15d11d822fc6f7415b932da9f4975f53e305b7b96ebfb01f889c", size = 357820, upload-time = "2026-09-11T19:04:20.077Z" },
+    { url = "https://files.pythonhosted.org/packages/56/4c/fa8de87d907b41b05d03f4945a51675cd67319650d01b4c927d209ffa6ee/contourpy-1.4.0-cp315-cp315-manylinux_2_26_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:630d32f06cedf37b7f1dd2b6a12e4492826bd477a4c9c7b2e2fee6ce3a2cea76", size = 407804, upload-time = "2026-09-11T19:04:21.781Z" },
+    { url = "https://files.pythonhosted.org/packages/04/e7/96bd4f4a4ae285727befbdb4b332d53a2654cc5da4585d2525b47a063e1f/contourpy-1.4.0-cp315-cp315-manylinux_2_26_s390x.manylinux_2_28_s390x.whl", hash = "sha256:be85d160e7c795113c2a93254dde2fc7e86b375322570eee78b420969426973c", size = 408559, upload-time = "2026-09-11T19:04:23.432Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/94/39660e8dc309f96bf7971eb4ec5659f272f84e42b34c9990a96ecce8442c/contourpy-1.4.0-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:018227e134b73090b06f911e773a526c77c9af426be29065500ce096a5accd4c", size = 384861, upload-time = "2026-09-11T19:04:25.198Z" },
+    { url = "https://files.pythonhosted.org/packages/ab/7b/411dccbf73d5d19da49bf7735786b3baf4ddb1456412d48ae4d4ab1fc761/contourpy-1.4.0-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:4bffcb2e8cc5c0e837631acab59dd04265fdac376550e7c3e310523877c68cb7", size = 1357612, upload-time = "2026-09-11T19:04:27.614Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/39/bf2442130e7d5aae75a4de4504f0c8aca3ef3da3feac3940ee27ca985d83/contourpy-1.4.0-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:cc87f2ffa84a49a77d76cb792f28a48ff3b05a222aa0b2bddbd839ba78e1d5ca", size = 1427345, upload-time = "2026-09-11T19:04:29.646Z" },
+    { url = "https://files.pythonhosted.org/packages/96/60/e5d9196dd83ccd7dd103762982b10ef19a4f72e8ef67ae7157699b9be0bb/contourpy-1.4.0-cp315-cp315-pyemscripten_2026_5_wasm32.whl", hash = "sha256:c8be3392b84cf43373a488874dc1ebf46f60784a70977f92586e18019d71c7ed", size = 118157, upload-time = "2026-09-11T19:04:31.091Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/b2/ae3d90f08ba2ed82189d93b55ffbd41e559760e89af4f9ef54d51869f41d/contourpy-1.4.0-cp315-cp315-win32.whl", hash = "sha256:618137ec5778fb76d494c9ec854b104a377fddba0d128bef7136cce2c3bf0df8", size = 356982, upload-time = "2026-09-11T19:04:52.913Z" },
+    { url = "https://files.pythonhosted.org/packages/02/a0/36648fff407dcf8b8482985d33367ffc0fe90be72383869312cd0bd00a1b/contourpy-1.4.0-cp315-cp315-win_amd64.whl", hash = "sha256:ea09dc704029930cbd097f75cb0cc1db9852adbcf1a151fac7e9559f7bcbfd19", size = 240101, upload-time = "2026-09-11T19:04:54.587Z" },
+    { url = "https://files.pythonhosted.org/packages/07/09/49e987a96706b8f877596cee00d558d7880793a833addc6b33f80805e5dc/contourpy-1.4.0-cp315-cp315-win_arm64.whl", hash = "sha256:a5e2bb871b90cd7a52bdee63bf80ef7acb46398d27efc66d7679240016efc5aa", size = 576375, upload-time = "2026-09-11T19:04:56.515Z" },
+    { url = "https://files.pythonhosted.org/packages/e3/18/820ba24a070fe2a834af73e52245c501960746f5c1777ebc64ec0c0dec12/contourpy-1.4.0-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:432e89f835cf01f8d2123a130a3126b17ee6e0348e4d62c0973872b30aa873bf", size = 313543, upload-time = "2026-09-11T19:04:32.582Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/4c/f61a63d8107e0c1c3fa47d30ce45abad90b2ad48a1a9a4510332db7e0176/contourpy-1.4.0-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:3e0a2392533e5e2abdf277c951047516acc8d2f3c42b2dd9dc34c907c9ebabf2", size = 302702, upload-time = "2026-09-11T19:04:34.257Z" },
+    { url = "https://files.pythonhosted.org/packages/9d/93/5af95cb5113ecc6e780ca0c6c79756a2cea8833f971bbae112dd4ad73ded/contourpy-1.4.0-cp315-cp315t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:758e7496cec3195fc28a28945eab3ceef348c47fb95c7afc2eca2f3901209c8c", size = 354370, upload-time = "2026-09-11T19:04:36.158Z" },
+    { url = "https://files.pythonhosted.org/packages/47/75/5a9942446647202beb7b4d150891bfcb78fb112c73862484bbe4cc031092/contourpy-1.4.0-cp315-cp315t-manylinux_2_26_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:bee6ff96653e0807cd0f8eaef00174a031e3a2effa5c20f49a5a8d574b05af23", size = 402340, upload-time = "2026-09-11T19:04:37.914Z" },
+    { url = "https://files.pythonhosted.org/packages/c3/4f/bfdb0c67775a584f957211936661289789c4d0ec3e988bca2c8c02f8090e/contourpy-1.4.0-cp315-cp315t-manylinux_2_26_s390x.manylinux_2_28_s390x.whl", hash = "sha256:a58b5f130afec61a093d743cdda435cc4047748b6791627e34a68f41ec3a9b07", size = 410721, upload-time = "2026-09-11T19:04:39.925Z" },
+    { url = "https://files.pythonhosted.org/packages/65/d3/dddf13d6bb26e145c99debd1f2695018b5f3e24452dd9bfc9904c9d2ec89/contourpy-1.4.0-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:b9dc493e7924e5aa32d89d0b8e50986280f3d4b284968a792787bd7bcffd3cad", size = 382604, upload-time = "2026-09-11T19:04:41.793Z" },
+    { url = "https://files.pythonhosted.org/packages/37/b4/89f0a5f6c6ccd322eae2704c7e933c82a4e594a61773933b4b0a18646866/contourpy-1.4.0-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:c927ec747633e68c9920bcaad48b0bcefe648812b822f18c34e2d0e2270a3d2a", size = 1354996, upload-time = "2026-09-11T19:04:43.856Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/29/fc91cc1ac6f3b591a269f4357b656d6ed0c39eb17c148f41f6da2f9729b9/contourpy-1.4.0-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:80c7fc8e7ac217777ce7ba2db3cf8478652b5a4b335283111012ff9eaac9d842", size = 1425030, upload-time = "2026-09-11T19:04:45.981Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/b8/bb129f524210c5d3eb8616876e02af280fba8b5554e0ac1afad80b51e06b/contourpy-1.4.0-cp315-cp315t-win32.whl", hash = "sha256:90feb8da006803a95ba573fddc9536357d0c3faddc3a4c9e22816ca49af52878", size = 371854, upload-time = "2026-09-11T19:04:48.106Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/b1/bc774d9d200cfc4f073bba78b1bb1cb3b55bf1c8c345eae41fc2db510459/contourpy-1.4.0-cp315-cp315t-win_amd64.whl", hash = "sha256:de503609fdb71f597634ca64fb4bd2f13d27c97f140e912b1e8ed93544840df0", size = 262450, upload-time = "2026-09-11T19:04:49.502Z" },
+    { url = "https://files.pythonhosted.org/packages/54/bf/eb4ff492e1c3d027617b5a20e4e6d63a035b41b8cf77a95950159556a3a5/contourpy-1.4.0-cp315-cp315t-win_arm64.whl", hash = "sha256:78ed5c5f962b3e156109f0531b174a65ba80d13cc681a70227b12524c162e184", size = 587064, upload-time = "2026-09-11T19:04:51.148Z" },
+]
+
+[[package]]
+name = "cycler"
+version = "0.12.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a9/95/a3dbbb5028f35eafb79008e7522a75244477d2838f38cbb722248dabc2a8/cycler-0.12.1.tar.gz", hash = "sha256:88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c", size = 7615, upload-time = "2023-10-07T05:32:18.335Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl", hash = "sha256:85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30", size = 8321, upload-time = "2023-10-07T05:32:16.783Z" },
+]
+
+[[package]]
+name = "fonttools"
+version = "4.66.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/87/b6/126c659ab7e0e03e01a5f5d223abf7b2c0691ae92718085a212a3924a2a3/fonttools-4.66.1.tar.gz", hash = "sha256:64967c6ddb0d4c610dfd8cb1485981b2d27972ddfb7d4bbbd9e199d2a089c450", size = 3694174, upload-time = "2026-09-29T16:11:53.706Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/83/c745b210ec49379ebfe627e166b527f44671a1f6ec5e1e219d91caa8964d/fonttools-4.66.1-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:b18803cbdef248e7ee1be59cb277fbbe1da1faaa6f726fa5d3557904e6a3d967", size = 3099264, upload-time = "2026-09-29T16:10:41.998Z" },
+    { url = "https://files.pythonhosted.org/packages/35/af/dd698f10bf0f743873077259e8a6fce075861dde3bb01eb22b2c4f7aefe8/fonttools-4.66.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:f08ab7f8461c37ecfdd29ad97fb0c0780b50501bd664bb0f46b6e83ed2b9d2a7", size = 2588769, upload-time = "2026-09-29T16:10:43.933Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/65/10b5caa2aa779e62411b67949bda9741d4d7532ba0b6dea647b715131260/fonttools-4.66.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:7cf4f996f9b1cb549bff9ea4c50813988a26ec922c95cfa85c7e4f1270447e06", size = 5374278, upload-time = "2026-09-29T16:10:45.727Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/db/9ac5c6773feec1b40e57eac106d869886f66a1e44082d343ac1e1e1fb773/fonttools-4.66.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:9261ef507f2dd74203443a472b65b5a26429eb378f975016dec7dc7305b24898", size = 5317826, upload-time = "2026-09-29T16:10:48.056Z" },
+    { url = "https://files.pythonhosted.org/packages/04/0a/69beb11f6b714ac90ee73ad4600ac91d7dd4e1ce361d087c8425bb8472de/fonttools-4.66.1-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:e1cde50b3ec84ca6fe63ca815de183dbecb88e8adf8ada82d8ea130ef12b2b43", size = 5316239, upload-time = "2026-09-29T16:10:50.201Z" },
+    { url = "https://files.pythonhosted.org/packages/33/a8/7a77359e469d3a638df91d3e225cef4a3c1184c20e98381238042f7835fa/fonttools-4.66.1-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:d8f0a8f16c4f3a5a87ca971de2631792d8cb4d570951f2000acf712f157d40db", size = 5449423, upload-time = "2026-09-29T16:10:52.337Z" },
+    { url = "https://files.pythonhosted.org/packages/93/cf/ea0b2f1ef90431b1879d6e6c680a7fde497129cf511ab995ade0ff8e19a7/fonttools-4.66.1-cp314-cp314-win32.whl", hash = "sha256:b878c78b2af11b879bd4f26bb0d8bda2a4c64543fdd3f28efe2c80f97f043885", size = 2437673, upload-time = "2026-09-29T16:10:54.281Z" },
+    { url = "https://files.pythonhosted.org/packages/b2/53/629dbb4a40c4a7b3de61442c6b4430d36ab6e0e8cf941c547f4fd66f3337/fonttools-4.66.1-cp314-cp314-win_amd64.whl", hash = "sha256:05aeb146451f37289f782c3c861f3d0f4b86c2dd2e4620b46683544c7406640e", size = 2489763, upload-time = "2026-09-29T16:10:56.262Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/59/342e5fce9438f88882524128d1feb0311d4014cb6f8bdeb4607fcc00713f/fonttools-4.66.1-cp314-cp314t-macosx_10_15_universal2.whl", hash = "sha256:66fad3b7874062c2a2692f0ae6dea56d24f01b778c7f191950ca3ff997e25a88", size = 3172931, upload-time = "2026-09-29T16:10:58.563Z" },
+    { url = "https://files.pythonhosted.org/packages/50/92/96196ebfd02676f28fa9b3776d85e18281bca0c8450d7e214c40e346bf92/fonttools-4.66.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:eef76d5796e604f9d6753fa6d323c4eb9f4e0e43f1dcca553f3e6914f1667b64", size = 2621937, upload-time = "2026-09-29T16:11:00.845Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/c3/3f4b761037ebc2e5597c52c218a9e95dbc4a2cab572828654f6004f422f5/fonttools-4.66.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:c47299bca4b5acaaeb32100f77b944feea151de9ef1773365a410dc3d49b945b", size = 5546932, upload-time = "2026-09-29T16:11:03.126Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/d1/3f506cc79608becbc287785db8c44eb3f93079b49752266eb9f57700ecc4/fonttools-4.66.1-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:dfba62cc93199ba62c376f90f2a9147d92730d301e44f88e013e50ff5edf6193", size = 5353546, upload-time = "2026-09-29T16:11:05.394Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/27/6534d84430ba1641185f8a0c9e2c7ecd395b15ff98f96967e3fb3c728b09/fonttools-4.66.1-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:2c7340497cf53490293e0c2b61011e0191633022ede0a0a964a68157a98b0fb4", size = 5414313, upload-time = "2026-09-29T16:11:07.618Z" },
+    { url = "https://files.pythonhosted.org/packages/27/17/831ceca06d78855b11dc203b0e3ba5e6fd8a63a71ee0343ea8bd367fda55/fonttools-4.66.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:c666fefdd5613a0e99aa4516e6ff4ef87aa86cf1c7ba12a73550f4770e46b750", size = 5449661, upload-time = "2026-09-29T16:11:09.997Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/e4/21dc18bcbc8d0354814f6ea58af3d76d3bcd9b0d7246df454cb9e00c1740/fonttools-4.66.1-cp314-cp314t-win32.whl", hash = "sha256:2ce4c93160535761f22c80b2afbc96cabc09855363a5d1a5554265b8a4c85901", size = 2471431, upload-time = "2026-09-29T16:11:12.237Z" },
+    { url = "https://files.pythonhosted.org/packages/b5/f4/eb0489e7d58ac0d3387584afc7f3e505f60f60fe4b4f5a0274f013d444a2/fonttools-4.66.1-cp314-cp314t-win_amd64.whl", hash = "sha256:b13c8c541ce0b794add3211b3641cc0e113d707f73e06235e6fe9731bd7c45a9", size = 2521288, upload-time = "2026-09-29T16:11:14.52Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/95/235679d5fe4265c251418cd02321de069281a700415389e14c4cce442e3d/fonttools-4.66.1-cp315-cp315-macosx_10_15_universal2.whl", hash = "sha256:2d637468dac23aac0e223bd52e66f8faa3b0dfcef57435460fa2107e830226cd", size = 3093646, upload-time = "2026-09-29T16:11:16.809Z" },
+    { url = "https://files.pythonhosted.org/packages/ad/2b/7bcd4046b3b5644c563059cce6421b488fe57f65c59171ef01ed11b66d3a/fonttools-4.66.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:90de3477394c73481d27d2b86091c1c736053ee13ff52c42f0e151948e8578c6", size = 2587335, upload-time = "2026-09-29T16:11:18.721Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/b6/05a093ec04fa2ad449ecc67638aad0f8d60df380df2471b68b549fe2a4b2/fonttools-4.66.1-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:d84ac0bf776b68396185bd919dd29e633d94300660335efc40b55b294b886903", size = 5371509, upload-time = "2026-09-29T16:11:20.742Z" },
+    { url = "https://files.pythonhosted.org/packages/65/a9/55effa83e64b9ff4f379d9186236d50d03f6d4770d8346805c1b6620c370/fonttools-4.66.1-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:0dc6fd99cb8c30941036308b148da9432640442a6f26f36d71dad9be24cbd0e9", size = 5334853, upload-time = "2026-09-29T16:11:22.928Z" },
+    { url = "https://files.pythonhosted.org/packages/af/a8/44bb4021c585b76f8e480116e1f3fca62eb7d88fe5794e2ec84c10d2da76/fonttools-4.66.1-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:d3b5403e82d0c7659ff1d9f956e29a3a68d094f043e9f5bc0442796fc3a4fb58", size = 5311704, upload-time = "2026-09-29T16:11:25.393Z" },
+    { url = "https://files.pythonhosted.org/packages/63/dd/dd482902fb7fd8b71d3b6508431a57938b5e41b29bf6fb252ed3cfce065f/fonttools-4.66.1-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:b8b71db96d605784e2c5ebf0788a406018ea8fdd80338491f4c83613d5cd1fec", size = 5459477, upload-time = "2026-09-29T16:11:27.536Z" },
+    { url = "https://files.pythonhosted.org/packages/3c/a5/07611ba4d4b298b90908cb15005a6d730c334e25548f5175a09907b2eea6/fonttools-4.66.1-cp315-cp315-win32.whl", hash = "sha256:668f092bc0de8902167df6a0d5c5aedc3b4f9e43cf88eea92e9b46a2bd3968f5", size = 2436532, upload-time = "2026-09-29T16:11:29.653Z" },
+    { url = "https://files.pythonhosted.org/packages/42/a5/5c39a05bf7c518743c6072cd75b63cd27285c58a70b1086e923fc071fb84/fonttools-4.66.1-cp315-cp315-win_amd64.whl", hash = "sha256:7f49f2834f5d006fe0f3bb10fec73b261806c50941f0cfbc08294074ffc32210", size = 2488769, upload-time = "2026-09-29T16:11:31.967Z" },
+    { url = "https://files.pythonhosted.org/packages/c0/a6/1205f7a7dd746581498457e55bfbcdfbea87105a454a7b3465259816bb79/fonttools-4.66.1-cp315-cp315t-macosx_10_15_universal2.whl", hash = "sha256:71c7ca1b5f46f5dd549f56b47d47c0b709217675c23d3a7bc6aa1a69b6d9bbae", size = 3164459, upload-time = "2026-09-29T16:11:33.897Z" },
+    { url = "https://files.pythonhosted.org/packages/33/42/915ff8f3c5d3bc9877007e708774e52f7ec431f9e59f607a86e50fe1864c/fonttools-4.66.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:2d320483928c7831f0139ecb361954a26b2e2a8995681200155835dd8cd4a7d5", size = 2618183, upload-time = "2026-09-29T16:11:36.067Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/c6/cae2f6ebe38f8927a8d0978a349b202047268016344991a14ae978c2aee3/fonttools-4.66.1-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:2aeb745f2664eb811026997c95628071137a777ea2ad296deec9cb393f0b23cf", size = 5524861, upload-time = "2026-09-29T16:11:38.099Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/14/1941629956b526d6fb46ee764cf0942221f0238581adb94de0ac229fe67f/fonttools-4.66.1-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:3087a430722aba8de429c2539fd2a58a9cf05238cdfefd8626460001052ca878", size = 5346561, upload-time = "2026-09-29T16:11:40.366Z" },
+    { url = "https://files.pythonhosted.org/packages/62/1f/b7e7f4757dcae74285f4ecd8453d870d63c7ba38a3d46bd9175a124c350b/fonttools-4.66.1-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:058cd823b80bac59e64dfad9e3b6fcd677852f9a3804971bbf6b48cc611e785c", size = 5392826, upload-time = "2026-09-29T16:11:42.653Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/71/76db3cbdcfac0e9b3ba26e1e6e8740040cfe5f7b5199dfb9b854bc8da2c3/fonttools-4.66.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:56d41d650cb8fc6cfe1d85ed7c62a0a56cbeed07bc65ca795475b914d401312a", size = 5439233, upload-time = "2026-09-29T16:11:45.088Z" },
+    { url = "https://files.pythonhosted.org/packages/10/37/cdc6b213c9fbabdf36e9169f845e8596b419c7e0cceba48e5594b952d2cf/fonttools-4.66.1-cp315-cp315t-win32.whl", hash = "sha256:c258eba62260beb33c110b03a6912cefa3635239c4ab5615b7225fb6f7b85238", size = 2468614, upload-time = "2026-09-29T16:11:47.363Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/35/e2247e7e29e8da213e02691a6ada7a30592c7bc0d1db8d2786ebb9bea138/fonttools-4.66.1-cp315-cp315t-win_amd64.whl", hash = "sha256:5de5d80fbc0e50ff794c244e8fb7afd3eadfe0fa232ba8b162b8c551df22fcb4", size = 2516977, upload-time = "2026-09-29T16:11:49.425Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/10/d45b74135d5d642cb3a4fb0a957c1613ef93de4c8548671dfc3a5bf38299/fonttools-4.66.1-py3-none-any.whl", hash = "sha256:7234ae9e28db64273fbbfa72caebd0a97e3bdba6b05064114741b9539ef339d0", size = 1202222, upload-time = "2026-09-29T16:11:51.678Z" },
+]
+
+[[package]]
+name = "joblib"
+version = "1.6.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cloudpickle" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d5/1d/537ab090f302b838943a1b56497dd53059b9a9b46a074936470173a2e207/joblib-1.6.0.tar.gz", hash = "sha256:2ccc96785b12046c08fd6d55839c12857831b54a3c1673ffadd2f04bfc4eda03", size = 327903, upload-time = "2026-08-31T09:39:04.122Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl", hash = "sha256:3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba", size = 306115, upload-time = "2026-08-31T09:39:02.298Z" },
+]
+
+[[package]]
+name = "kiwisolver"
+version = "1.5.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/07/bd78e6a8fae171ea041ef5bba3ed21a003522fa088834b069b1909981f30/kiwisolver-1.5.1.tar.gz", hash = "sha256:f1303ef2eec81262a4b708c3e858afe58d7c75ad91c1c05266eda7673369859a", size = 104395, upload-time = "2026-08-28T10:28:27.153Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/dd/87/2d5dfad0daf17dcc18d98c48ed2332fc3f051cf599e60be6182a30dd4cf1/kiwisolver-1.5.1-cp314-cp314-ios_13_0_arm64_iphoneos.whl", hash = "sha256:0324cd2567259b7a095f6cf18a52b0ffc6f3de9e69528ff1bc0e7a37bd43ff1a", size = 62337, upload-time = "2026-08-28T10:26:18.778Z" },
+    { url = "https://files.pythonhosted.org/packages/08/c8/83e1624f15d6262b470dbcc80b09979fd4d5b2ea3ddfc6b6e3327e235726/kiwisolver-1.5.1-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:74ea337e0ec3f6f342a36a4f1b5cd94dd9affddcd28ba9aae2905af932ee8c6b", size = 64513, upload-time = "2026-08-28T10:26:19.909Z" },
+    { url = "https://files.pythonhosted.org/packages/c9/2d/827ec30eb07f528c08d8459ffb318ae91a56d793ee8acbea8b491f0ff906/kiwisolver-1.5.1-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:ee9df1f0d77b9c6e94f4ac0fec533fbddd5ea3a327807f18d7b069ae019ded80", size = 66287, upload-time = "2026-08-28T10:26:21.078Z" },
+    { url = "https://files.pythonhosted.org/packages/53/11/5c43a562529dad8def4b81e5e1877c612a7e0298105a5939b3b409d2079c/kiwisolver-1.5.1-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:fc271a6f0a2126958f4090e5507b9da5848927dae331f8f763bd4aa642b3d2cd", size = 123940, upload-time = "2026-08-28T10:26:22.475Z" },
+    { url = "https://files.pythonhosted.org/packages/64/db/9bd6c505c95128c258a55236bfbb3a7a3fb6023f863316b6d7d9f3c69052/kiwisolver-1.5.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:9b3092d8992a1d69b7a59c3e39f35e1b9be327a17f68a7c35fc17329e337d6f2", size = 66493, upload-time = "2026-08-28T10:26:23.743Z" },
+    { url = "https://files.pythonhosted.org/packages/e1/f4/b3007a3ed5c9be73f81161140684cf7d9bdb9c4b632f5f484d2a1c713fb9/kiwisolver-1.5.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:c2306e8bb53601979fcb3fa09cc65e031876d9ae01eff2fcbcd7a84ef94d5bc1", size = 64720, upload-time = "2026-08-28T10:26:24.95Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/13/08188f0cafa3a800403e4ff62b9aad4e7a17f9c4c7e080dc8f18c64794cf/kiwisolver-1.5.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:18a0cfb124546a4c2e6087c5f3029c7f44b37c85b142e0ced71f73a7599ac208", size = 1475867, upload-time = "2026-08-28T10:26:26.393Z" },
+    { url = "https://files.pythonhosted.org/packages/8a/3e/053bdc3c9abdb8f2606225eda398adca25c0c91ab90add8222a69db65ee0/kiwisolver-1.5.1-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:34ec467940442c9943016fb2d4c81d1ba84351eeca2f1a78f8bc87f1ba0d414c", size = 1282865, upload-time = "2026-08-28T10:26:28.118Z" },
+    { url = "https://files.pythonhosted.org/packages/5e/64/a44c341b36b610588cc2f1e89b3cae072a3119aa8be578e90987cd640751/kiwisolver-1.5.1-cp314-cp314-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:a83ee7107df13abe42a54a6654670eef9bb39425cf2e27f65e0007465e1286ab", size = 1300865, upload-time = "2026-08-28T10:26:30.125Z" },
+    { url = "https://files.pythonhosted.org/packages/60/5e/7e7d716dca38c714478b741257a5b4a321d9932b8d851551a136dcaf3984/kiwisolver-1.5.1-cp314-cp314-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:bebb89489b279b2f5661bbbb2abcc87bcd4a46607bb4a5c966f04f1db6b8df9a", size = 1348071, upload-time = "2026-08-28T10:26:31.829Z" },
+    { url = "https://files.pythonhosted.org/packages/10/1a/2b98fdda8bf45b7be317e48ed12393d44334394d315c74b81f4a14c0e31b/kiwisolver-1.5.1-cp314-cp314-manylinux_2_39_riscv64.whl", hash = "sha256:509735237ae0d849e8a843551d423d2500d2e0a9ac1611a145658b29c0fb9f85", size = 992191, upload-time = "2026-08-28T10:26:33.544Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/55/d893f5ede0e50f9e3fcf01f6015f42ec7d9cd221e26772701fe4a98745f9/kiwisolver-1.5.1-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:824c3d763a05ea9e9003610145186b0e9848c7584a5575c79bac5a8e7cd80bad", size = 2233854, upload-time = "2026-08-28T10:26:35.282Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/82/f85f6279555a6ee1639fef7bfe83adb037a03e11a6fc9eaa54b8d0380339/kiwisolver-1.5.1-cp314-cp314-musllinux_1_2_ppc64le.whl", hash = "sha256:1fff05e239575b1481b6ed1a782f6fad616efbf1f0b1f44e6e85c4dfe426e483", size = 2330621, upload-time = "2026-08-28T10:26:36.9Z" },
+    { url = "https://files.pythonhosted.org/packages/56/31/e11aea078f66fc2fffcc179d38ca90d9da97652a241b64519169742ba46a/kiwisolver-1.5.1-cp314-cp314-musllinux_1_2_riscv64.whl", hash = "sha256:0627b9bceb9c3cdcf12b8a18655eedfed2692b038df27423383c120d0b7dc2d6", size = 1982848, upload-time = "2026-08-28T10:26:39.01Z" },
+    { url = "https://files.pythonhosted.org/packages/af/ea/2956b63bf5140ca46aa2c2818e6aa03e2d5754dd2fa41db1c6b28922940c/kiwisolver-1.5.1-cp314-cp314-musllinux_1_2_s390x.whl", hash = "sha256:8a708a47ade1fe19e8371d5da076bac0dd4b0a5a7985ad6c637f7f7e361b6baa", size = 2494850, upload-time = "2026-08-28T10:26:40.837Z" },
+    { url = "https://files.pythonhosted.org/packages/11/d1/3829542258d8b3fc0898d221e7ef0e2c83eca0d348709bb8dbe54f3d4005/kiwisolver-1.5.1-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:007a5553dfc4f4e8d184f588a0200e2cd4b63a59cc8796df3c39909e679dc7a0", size = 2298067, upload-time = "2026-08-28T10:26:42.803Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/0e/49522e1ab5788cbaf63a26fbd3b851f9028616828c961b8a31b35cb96df8/kiwisolver-1.5.1-cp314-cp314-win_amd64.whl", hash = "sha256:f4167e87b397f273dc2356fcf1eaf50a6bac51e6105f45103ef7129c8efb0255", size = 72282, upload-time = "2026-08-28T10:26:44.268Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/b6/22e7ca5315d363e6f81c9f37c9472e12e7b298731e77c0428e6a911a2c39/kiwisolver-1.5.1-cp314-cp314-win_arm64.whl", hash = "sha256:5c490db2168a508088f59140dd392556a54b8bd1048fc6383c8baff13c359673", size = 69855, upload-time = "2026-08-28T10:26:45.725Z" },
+    { url = "https://files.pythonhosted.org/packages/30/8c/03a9cfbe871964c8758a816eb03ac96c806da2795a9a7cd9bf9648bfb594/kiwisolver-1.5.1-cp314-cp314t-macosx_10_15_universal2.whl", hash = "sha256:4d4ca09bf13cff792b1884f64b98ee6c2467930d632233be25c56b442d99f10e", size = 126289, upload-time = "2026-08-28T10:26:47.023Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/e3/14ce3041ca79dff9c9d884ca00c7bf32374e76028a865a9ecd99b4f5a517/kiwisolver-1.5.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:44b8faef94f1857e77fa0238f3390ff1ac51d2ea20a487e2e452a59fd2b5f5ca", size = 67709, upload-time = "2026-08-28T10:26:48.268Z" },
+    { url = "https://files.pythonhosted.org/packages/af/c4/45030471a66ec8ef042e9f96ffe1d522c9ab12da180186a0898966fc1385/kiwisolver-1.5.1-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:2ae70bc59790d2af72a3f76f24b272403e135070340281108b447cb77ea70819", size = 65909, upload-time = "2026-08-28T10:26:49.523Z" },
+    { url = "https://files.pythonhosted.org/packages/42/73/17dce073a6ae259bb32cf9d686c4079d2e538868bc45967462bf33df914a/kiwisolver-1.5.1-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:43844c1a7ad6d723d5b5b4c4fc7f5bd399c40e288120d16257c7c9e8765c6e85", size = 1584907, upload-time = "2026-08-28T10:26:50.933Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/84/ae3c75909f507283cbfcc7e916c7e822579ef962020b97e6882b27b4478f/kiwisolver-1.5.1-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:22d5e5aaad6be121f2515765e3b1c444352cb8eb4c86510801db8f2e50757316", size = 1392474, upload-time = "2026-08-28T10:26:52.638Z" },
+    { url = "https://files.pythonhosted.org/packages/34/31/8bcc83caad5bce8fa4577152389848bf6bc110e51e573a2b4e7c2aa34c89/kiwisolver-1.5.1-cp314-cp314t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:3fa5855898f6d3d01b72ccd48a2d65cbdee301251603fefe34e2025bddba219c", size = 1405246, upload-time = "2026-08-28T10:26:54.248Z" },
+    { url = "https://files.pythonhosted.org/packages/55/72/220345537d790cf4ae54f8acfff4b5cc2468e0702a384d651cf7a771c63e/kiwisolver-1.5.1-cp314-cp314t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:d66a64dd5dec136040ec2ae94aa026a912ee60fdd45bc28d3db30037fd809e88", size = 1456099, upload-time = "2026-08-28T10:26:56.042Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/10/3725fd2398f66d18c34b4e0f81a8d03764cd4f4f089f58a527f0b4428086/kiwisolver-1.5.1-cp314-cp314t-manylinux_2_39_riscv64.whl", hash = "sha256:9e51c119992ea8820706871c30a4642ec76de20ae82f9b50b9a45517d8e9f810", size = 1073695, upload-time = "2026-08-28T10:26:57.658Z" },
+    { url = "https://files.pythonhosted.org/packages/86/cb/28d6e09e66b93e4588b2e6b7d84d020ccefea09e2f4de788510a07efeab7/kiwisolver-1.5.1-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:70ed9a45c7484d2b30cdacf60d220f494a1763b9fec1ad03285c6553fa0889f2", size = 2335355, upload-time = "2026-08-28T10:26:59.202Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/b3/a0f31d5e4e40af7dc97c36b8a74fdd3a36cf3c8bbd098da9a23466ff6a94/kiwisolver-1.5.1-cp314-cp314t-musllinux_1_2_ppc64le.whl", hash = "sha256:98b208a7cc42c803445ef551d6753cc42a5ea13e9cab1ee66cd8b9cb70195330", size = 2426524, upload-time = "2026-08-28T10:27:01.181Z" },
+    { url = "https://files.pythonhosted.org/packages/2f/c9/728f63bd58c72cafdc79fc306abeeac7391bec03b757a48dadeb30906521/kiwisolver-1.5.1-cp314-cp314t-musllinux_1_2_riscv64.whl", hash = "sha256:c6834b92dd2428e2dd85ef3d85f723d3c12f20aaf43a2ddd4f944ca25d833408", size = 2063430, upload-time = "2026-08-28T10:27:03.06Z" },
+    { url = "https://files.pythonhosted.org/packages/84/df/ce188b96f92f9a2c958231da140768918cba53c9713dc887b82f85462118/kiwisolver-1.5.1-cp314-cp314t-musllinux_1_2_s390x.whl", hash = "sha256:5d142e352eb13facc7dd047489aebdff6ba78576c239f1ea04931979caaf0567", size = 2597513, upload-time = "2026-08-28T10:27:05.072Z" },
+    { url = "https://files.pythonhosted.org/packages/69/d6/76947c8203768968382e5bd74d9cc95654746703a61ea53015f2c74a2e06/kiwisolver-1.5.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:f9b1c4900736e489a812c529100de4b8fb617d4db075e931e213c57424b83d9b", size = 2394488, upload-time = "2026-08-28T10:27:07.423Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/d4/14b21e4eb203c4d15425e8b6a2c625a320b4a1f2f7557eead63ffc30ffb7/kiwisolver-1.5.1-cp314-cp314t-win_amd64.whl", hash = "sha256:5978c3340f16a35c30f8ab2fa7bcf559973c55f1a5ef6970e1f621acf3c4db13", size = 75404, upload-time = "2026-08-28T10:27:08.892Z" },
+    { url = "https://files.pythonhosted.org/packages/cb/f5/53157899fc7f45f76421b77b99eb1639dd0f83f26ff9d76300c96bb4a3b0/kiwisolver-1.5.1-cp314-cp314t-win_arm64.whl", hash = "sha256:ca307d6c259e5c98d3cb9ade55342b47a6839762caf2536f3d7b46ee660cc82e", size = 72946, upload-time = "2026-08-28T10:27:10.944Z" },
+    { url = "https://files.pythonhosted.org/packages/75/62/f786c3a27f181fa339d851a77e266d208e776b9883cabc40a5b041a31b5a/kiwisolver-1.5.1-cp315-cp315-ios_13_0_arm64_iphoneos.whl", hash = "sha256:bb7c99f0673c03017a3ee01e54a5c2617a05468b11eabe513b0080e063ed95b1", size = 62420, upload-time = "2026-08-28T10:27:12.308Z" },
+    { url = "https://files.pythonhosted.org/packages/02/cd/58a91ed25fbad0facdf503297b03768efab04bdf3141e5e3b49a34be7443/kiwisolver-1.5.1-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:0d8924877ce22e17326a99a418c3c82037da078df3c6a260b13eca677444e6e7", size = 64577, upload-time = "2026-08-28T10:27:13.502Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/5c/d501ef5a0958b226eac28306d24d5e5f114be0ace50e19cabae7b6b3b197/kiwisolver-1.5.1-cp315-cp315-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:534f02c1abb31ed6dbd3515545285c330b2f12d00fdb1fdb71658b9ca5a13a6a", size = 66284, upload-time = "2026-08-28T10:27:14.813Z" },
+    { url = "https://files.pythonhosted.org/packages/a3/a6/8fbecaf4fc18c02f31f05e47a84c010a80e3ec391ed2f0bdade1d62b5954/kiwisolver-1.5.1-cp315-cp315-macosx_10_15_universal2.whl", hash = "sha256:cea20da04494e662b83c872683bf4ff2345206043d036315ed0e924b652e7294", size = 124031, upload-time = "2026-08-28T10:27:16.193Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/c6/bf3090d2983b4204347cbdbe952116e7c3b2abf62b4e33e50167a13e75ee/kiwisolver-1.5.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:7fd82debf43c6acd0a94359d232f6bb516ee13f269a7993736a9ac9f988bb5d9", size = 66489, upload-time = "2026-08-28T10:27:17.506Z" },
+    { url = "https://files.pythonhosted.org/packages/85/de/562dddef55fdd7c291da8626d6619e72b5fc0870e6ccca0e149a5731e7f3/kiwisolver-1.5.1-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:18170a77ddfecf40ec60d0928268dc95880c881864e015a8f34094ed18b9b9ad", size = 64806, upload-time = "2026-08-28T10:27:18.673Z" },
+    { url = "https://files.pythonhosted.org/packages/89/b1/ba7b9c0164ce1cf62bf2872db63b8483289cf0f3110d6f9390eb09e409ed/kiwisolver-1.5.1-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:ca7f6fe0f37ca978a1e5eb7a3a68e6413f417e78e838324947ffd420202b198b", size = 1482211, upload-time = "2026-08-28T10:27:20.039Z" },
+    { url = "https://files.pythonhosted.org/packages/13/dc/34da54efb4976616d45c20aae32d70e89d6e7395ed908029154d1609ef22/kiwisolver-1.5.1-cp315-cp315-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5b973887ff782cfd6b67c9904ad8ca542e0bc5e4961503408b423b5a688b4d38", size = 1283739, upload-time = "2026-08-28T10:27:21.82Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/3a/30ffb62bee646e266e98a1b5cd276d9c75b6116fbfcb87c1190838c1b6df/kiwisolver-1.5.1-cp315-cp315-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:f76fc85bd054c806960f917ec0f329e24e436f1712267d90588e4c39890caa63", size = 1301681, upload-time = "2026-08-28T10:27:23.876Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/8d/13c70be22a8506880b35fdc38dca36629613bc493405c79f4037f2cd2bb9/kiwisolver-1.5.1-cp315-cp315-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:828f75af2b0080c8a972e75f649ab46af008e92c6104a57a759157200b835b75", size = 1349159, upload-time = "2026-08-28T10:27:25.899Z" },
+    { url = "https://files.pythonhosted.org/packages/82/0e/993972b8ec6767f47cd69818fb3a5ff14510557d29f7d1a839be7574fa1b/kiwisolver-1.5.1-cp315-cp315-manylinux_2_39_riscv64.whl", hash = "sha256:431dc224a1a92a5c8f582d96e505196a3b5997a7271076678da2dfde67b77e9a", size = 997613, upload-time = "2026-08-28T10:27:27.507Z" },
+    { url = "https://files.pythonhosted.org/packages/36/82/ca26eddd2eda2420dfc56693449c1f821f78b485da9cbde9904c03af3f93/kiwisolver-1.5.1-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:61e9a64c7635095a6bfe483e2ff055d437c59bd45f3617a228b37277f0185d62", size = 2235109, upload-time = "2026-08-28T10:27:30.113Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/84/97d920881e10840b8d7c7185620298e3e4c88820b05514e3a15a258b08a6/kiwisolver-1.5.1-cp315-cp315-musllinux_1_2_ppc64le.whl", hash = "sha256:3c24cd69455e1b00ddf770c13b6e2c33e07d6dc3f2d34add0bf9277c5c6bbd46", size = 2331207, upload-time = "2026-08-28T10:27:32.795Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/ce/34d74b8f25acc58800f4c09268371e8d6159cf0f1206f1e4dc7835629b48/kiwisolver-1.5.1-cp315-cp315-musllinux_1_2_riscv64.whl", hash = "sha256:27add358abe374ebaa3b8763ef380bc99051b5a4b18d94878366a9e4f59efef0", size = 1986696, upload-time = "2026-08-28T10:27:34.628Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/01/f892644014612527aef7031d3306a2ffc60b3cb044f802c1561f8e5e14f3/kiwisolver-1.5.1-cp315-cp315-musllinux_1_2_s390x.whl", hash = "sha256:255605693a483db7bd5c79f60437f7bf658f7f520d61aa42722e32257c941951", size = 2496400, upload-time = "2026-08-28T10:27:36.818Z" },
+    { url = "https://files.pythonhosted.org/packages/32/6d/d8284e66e697026536e5f418b9cfe56567bffd3c775e3ecfbae373605854/kiwisolver-1.5.1-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:7d38b0c279c3032e8c9cc013b405c6df8e1668dbf15465779aa7f15f61201812", size = 2302967, upload-time = "2026-08-28T10:27:38.803Z" },
+    { url = "https://files.pythonhosted.org/packages/46/0a/69a355e27f32ba50d5b6369949b6a1702e122f5277c89bc76d452b81c1c4/kiwisolver-1.5.1-cp315-cp315-win_amd64.whl", hash = "sha256:958254518717542d02d0688d0d20cbf771da5e415e6f49543f92481c850a4540", size = 72283, upload-time = "2026-08-28T10:27:40.491Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/d8/7a95be90c33dcdd52204d4aa6384d731443225b887283bbd8b61e7931f6c/kiwisolver-1.5.1-cp315-cp315-win_arm64.whl", hash = "sha256:da3275833be0edbaf4830fae08bae3dc7219f40ce0c37eaa6c25825957e06612", size = 69860, upload-time = "2026-08-28T10:27:41.835Z" },
+    { url = "https://files.pythonhosted.org/packages/31/f8/9bc493e7f5707788ba7f621902c68f82dc3a7ba03c78fbd337b026cef1ed/kiwisolver-1.5.1-cp315-cp315t-macosx_10_15_universal2.whl", hash = "sha256:470d420f98d368d6f010633a20659b544c5fdfa5329e6b70219f2ef08fd4a7ef", size = 126336, upload-time = "2026-08-28T10:27:43.379Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/82/3aea86b3f99712db825e9ac5631bf99571e818a8b8961ff98cebd798413e/kiwisolver-1.5.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:83f78128fa28705fa85d01c59771c72fe81c11bd0e6155edbb9f818983a7d761", size = 67698, upload-time = "2026-08-28T10:27:44.613Z" },
+    { url = "https://files.pythonhosted.org/packages/84/7d/8daafc5d2e7f9c47a4f78f8865d86d2a9cf399c2a85f86c44a993594410c/kiwisolver-1.5.1-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:9506e892bcc3b409831d363c6f53e5985e1c8d1f6f6b0256d00358684ff85378", size = 65945, upload-time = "2026-08-28T10:27:45.932Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/c9/51dc974d9130da70a8c47a96160123443d387ffe1b6b833d6f91d9429339/kiwisolver-1.5.1-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:cea90547bfd93807e0013a004dc76552be44fad3bc1cc2b38610a9e889ed098f", size = 1588030, upload-time = "2026-08-28T10:27:47.678Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/86/f3e1a730e7a995149d8d3ff9e313b6d8a17b2cf1d98a8eff139dc30463fb/kiwisolver-1.5.1-cp315-cp315t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e8e4d953faaded9ec7ede36824e9814082d22d4c7b1eafbfa079ecba8cd0d076", size = 1390760, upload-time = "2026-08-28T10:27:49.676Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/3b/8ba25a2b5a0d2375e046f1b72de5179513f0be95aba6e7b094c89303929f/kiwisolver-1.5.1-cp315-cp315t-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:7e9c01d3dd7ceba4d1d436cc021d40d592466e40b9bc7f5d83dc4e98a5c9cd8c", size = 1403279, upload-time = "2026-08-28T10:27:51.242Z" },
+    { url = "https://files.pythonhosted.org/packages/18/d0/278d5cb8be812740027d5ca0a7eda0c375488a88d6dce0fa60fcc2591ad2/kiwisolver-1.5.1-cp315-cp315t-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:37f801b5d7cc0e5a548921308e059fd2b057bb42972b591cfa3049f95423c4ed", size = 1454429, upload-time = "2026-08-28T10:27:53.213Z" },
+    { url = "https://files.pythonhosted.org/packages/94/37/bcbab41063ec284c1d200efe5087cf087798c2f8916960aa8a20dd303290/kiwisolver-1.5.1-cp315-cp315t-manylinux_2_39_riscv64.whl", hash = "sha256:e68e151428b5384f766cd25739bf77c7e4a3dc93b5ded7a12118d9fbfdf78ab6", size = 1073225, upload-time = "2026-08-28T10:27:55.089Z" },
+    { url = "https://files.pythonhosted.org/packages/cb/c5/ab79dcdf5ae28909a51210ae0a1c579e97ff997b3466414f0d04c0994583/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:8f8fddb8e323bd6eee4e54e69a39243beab22689070f4c66b472c4cc88bb89d8", size = 2334335, upload-time = "2026-08-28T10:27:56.78Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/8e/71d047468a189041d9c93f3b76844b924f9793b188c44bd149fa258912da/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_ppc64le.whl", hash = "sha256:3cc210010fd2f438a3ed430b45f1b501fd13a8618bf984dc2c5ce5b69b78752e", size = 2424982, upload-time = "2026-08-28T10:27:58.639Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/37/1347461bbea6d0e1f0580b94ef603b18e72c2be5f667fa1653867361a00b/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_riscv64.whl", hash = "sha256:b5664603a253efd3a75716d793d1d3a6a82723b61dc6db767b2460bbbeec4c0f", size = 2062857, upload-time = "2026-08-28T10:28:00.407Z" },
+    { url = "https://files.pythonhosted.org/packages/1f/87/c7f0976c9cd0d127643351bc0c9929e0b8899d7f49d4ec238cd909e39c42/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_s390x.whl", hash = "sha256:a7b85b2cc6ea45e5f7e8c9a30bc9fabd47cda09106cbb4b967335c3e6c43b69d", size = 2596022, upload-time = "2026-08-28T10:28:02.183Z" },
+    { url = "https://files.pythonhosted.org/packages/e3/9a/59a6f6ae6f938c15076be2c21b6cedea973d71bb1349ec84fa485fab82cf/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:ab620eb663952455271ac37f9aaad86b73c969c02f11f53cea405b38e96a4300", size = 2395634, upload-time = "2026-08-28T10:28:03.977Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/2d/8982c1fb7926da5bb7ed60318c3665b5c3f941447271ac982960a11b8637/kiwisolver-1.5.1-cp315-cp315t-win_amd64.whl", hash = "sha256:cb6fae641357ed2f6e533c0d3c6504a4a5703621a50c89459e46051d56b61140", size = 75379, upload-time = "2026-08-28T10:28:06.307Z" },
+    { url = "https://files.pythonhosted.org/packages/07/78/ba7b6dfa1708b82b373ac056928a30c545d5c1a627df9839dcec3c6c1881/kiwisolver-1.5.1-cp315-cp315t-win_arm64.whl", hash = "sha256:b390aec180a7c054919c04898835e1c77bced23ea8383eb2c570213bf25d1a86", size = 73011, upload-time = "2026-08-28T10:28:07.578Z" },
+]
+
+[[package]]
+name = "matplotlib"
+version = "3.11.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "contourpy" },
+    { name = "cycler" },
+    { name = "fonttools" },
+    { name = "kiwisolver" },
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "pillow" },
+    { name = "pyparsing" },
+    { name = "python-dateutil" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e7/c8/9aa712a0afb882649424dd8de8ad9aa6235e796e84c6052e8f6dc1598d0d/matplotlib-3.11.2.tar.gz", hash = "sha256:cec596316640f2b394b8f0daa0ea61a8eae82d017b620b9f202befb972a59ea4", size = 32660610, upload-time = "2026-09-11T19:05:31.214Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/54/b4/4facdb700bc236e4c676495ca3798d8134ab8668cbfe0f6b2e9ebf962a38/matplotlib-3.11.2-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:c9721f81275499da1feeb36a2cf8192ea086283b3bd16b7dc4c9d7aedb7396d6", size = 9478976, upload-time = "2026-09-11T19:04:00.12Z" },
+    { url = "https://files.pythonhosted.org/packages/4c/a0/bba05f0a25bfeb0475c2f2a87958b31103aa6b7a5386017afb1a96212825/matplotlib-3.11.2-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:1a3040b209f3968b4e84161df7b174f07a9fad33b0f2d7e48ea3bbd3075e2863", size = 9307932, upload-time = "2026-09-11T19:04:02.976Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/42/81d5cba4bb39b41b0998efc880e129f2d7cdb94256ca49678fdcd9c21be5/matplotlib-3.11.2-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:bf3fe71fbfb8ec0e310e0bc8537c3405a01f38f25f9394ed2135e6202fed542b", size = 10674370, upload-time = "2026-09-11T19:04:06.912Z" },
+    { url = "https://files.pythonhosted.org/packages/29/5e/52f56f93d5b20815ee0ae352f7a38eff25580edb180b4fa7df87cfeba68f/matplotlib-3.11.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:8c8255de28f986d935a64c9ca71c0ec2d2f41d355691f5ea684725dc91413f71", size = 10954597, upload-time = "2026-09-11T19:04:09.948Z" },
+    { url = "https://files.pythonhosted.org/packages/6e/ae/f8918a1b564db49c53cd603eb3c8748c5767e4ce0fb2cf1d7c38653e4c5d/matplotlib-3.11.2-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:a8756cc73d9af9a7fe0deb54ea2e75ef73b01d9e575877e72acad5458e660943", size = 10812583, upload-time = "2026-09-11T19:04:12.887Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/61/4315ef0d63937fe56f451887b4a0be3b8e8b22cf1d92a8d157caac54570d/matplotlib-3.11.2-cp314-cp314-win_amd64.whl", hash = "sha256:ecea603dd2fbf8242fd31a305a8b12a4ece2de28096870c65fdd0d1e35b8d9a6", size = 9505972, upload-time = "2026-09-11T19:04:15.788Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/00/02398b0a1a62ef73d9af0a957fe1773363eec9a6ca7e433c72ae2790fbce/matplotlib-3.11.2-cp314-cp314-win_arm64.whl", hash = "sha256:01dc8eaaab5a9fce9ff615eca82345728f289e4715b186ee10c6d85272fc26bb", size = 9184534, upload-time = "2026-09-11T19:04:18.691Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/c5/1e6ca10baa7e04f113c37856aadb4adc3dbb1c55fc7da6dc830bba1292d7/matplotlib-3.11.2-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:79a258f58253dfa025af80a9e9bb228d75fced007f0e93ae7423fefbde81a74d", size = 9526415, upload-time = "2026-09-11T19:04:21.39Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/93/7561727af07ccc84747953c6a33eee3981cc436d04f465032e707ca0e429/matplotlib-3.11.2-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:c0b83f044ce10a98027b105b3931548719a6e8c7ef986b4362651e0b5367c8dc", size = 9361064, upload-time = "2026-09-11T19:04:24.107Z" },
+    { url = "https://files.pythonhosted.org/packages/c1/40/ce270ef2a6794d94a409fe28b8dabedffc07c07f9e5dbb89e0f605bd157d/matplotlib-3.11.2-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e43b188f0a5b75447bcc197728258166aa64365770ed1caa36595a5e1ca4bbba", size = 10684626, upload-time = "2026-09-11T19:04:27.201Z" },
+    { url = "https://files.pythonhosted.org/packages/45/46/396e0307dbf1c1f2d0a3654caa6dbc780dd5379f5f11257369cf8d21d9fe/matplotlib-3.11.2-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d3304eb5a59442a8867f6920d484591c0fa09ffc29e9260be2feec3351e25869", size = 10960602, upload-time = "2026-09-11T19:04:30.254Z" },
+    { url = "https://files.pythonhosted.org/packages/1c/97/4defb84695477340aa88b27c9482cc1ca4de11f36f66b6c8c0ddd685def1/matplotlib-3.11.2-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:02329432ae5c6af87cf208ee575b701d698bdf0b1a3bb28cc6d53c36e967e575", size = 10822603, upload-time = "2026-09-11T19:04:32.964Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/e7/eab54551c1ec6b72dcd678a078b6c6da8d4c85ec1ff0016e81fe52866304/matplotlib-3.11.2-cp314-cp314t-win_amd64.whl", hash = "sha256:f2ac30cf5eb5dff1b584627ae0b0e1186551a4f69ae3c75073911da497a29170", size = 9551206, upload-time = "2026-09-11T19:04:35.811Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/0e/04698032cb4d8fb1e30d8ffec5ded20f6f582b03c8c58b2385c95245f158/matplotlib-3.11.2-cp314-cp314t-win_arm64.whl", hash = "sha256:cf41ecd1b0c0b6f7177ed965a54c2afbe888715c7cf6054dc12d53bc1494002c", size = 9234977, upload-time = "2026-09-11T19:04:38.972Z" },
+    { url = "https://files.pythonhosted.org/packages/44/a9/ca827c184b87364378964e36e7c0ae23651d146fdbc4000635205490cf82/matplotlib-3.11.2-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:894a9cbbecbe30ae6787d464df2e8fc7a8d475cfc68f87c3029f7c11152899b3", size = 9478997, upload-time = "2026-09-11T19:04:41.914Z" },
+    { url = "https://files.pythonhosted.org/packages/48/60/01aaafc9c3159f3fae9a65bbcddaa4a6d4d72b0aeffdd636d7f6d00a5c8d/matplotlib-3.11.2-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:bbf1062991d826ed27e2144f3afa4461afbb8ff56e8f703043e191a8163b1ee9", size = 9307947, upload-time = "2026-09-11T19:04:44.834Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/a0/6aa72c7cd7cf4dfac652744d7a3310007cec3ce8e5ab9be607bec7096471/matplotlib-3.11.2-cp315-cp315-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:399fef672f7046ef7d6a57572b2a6f9845f3f5afcff04e7b2df7a363a9f42190", size = 10674370, upload-time = "2026-09-11T19:04:47.745Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/97/d7e90225ac145046787a2ee0fa4cdc7e4d5cb6772ea232130b10f8a4095a/matplotlib-3.11.2-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:cc82dde2a0d3e3ad472edce04897ad7146b8d8bfd1df8a32992eebb81af18fdc", size = 10954581, upload-time = "2026-09-11T19:04:50.712Z" },
+    { url = "https://files.pythonhosted.org/packages/58/18/89cf056a9d2cae01f4b8baf01c7e809d613244fcdfa2a2acf28c1e0d79fa/matplotlib-3.11.2-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:930efb28f59fda124e39265d177bab302625297bb147d2910de725a2fc2aef54", size = 10812605, upload-time = "2026-09-11T19:04:53.552Z" },
+    { url = "https://files.pythonhosted.org/packages/9d/4d/c61b9f4c34af802d4d84e58803e009013d626b5f468bafe1416131863b5b/matplotlib-3.11.2-cp315-cp315-win_amd64.whl", hash = "sha256:3da3bc0cbf7245e7db72cc6d29d12c5abef72cb73059c73b945f14e3545f3eb2", size = 9506068, upload-time = "2026-09-11T19:04:56.519Z" },
+    { url = "https://files.pythonhosted.org/packages/03/7b/047f2fa8708d47430d8e7fa45e9fffb0aee5d4e300f978e087be2ee11fbc/matplotlib-3.11.2-cp315-cp315-win_arm64.whl", hash = "sha256:f25446b2981717dca9786bac841cb3fd7efb568e3e3c755dd980481c5cb9228d", size = 9184576, upload-time = "2026-09-11T19:04:59.318Z" },
+    { url = "https://files.pythonhosted.org/packages/03/6e/ad9c5989950785a98642667df265a47c6637e924cb69b5dcf68c3299ae7c/matplotlib-3.11.2-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:fea03cf56568cc1cba08b470be6a0559e71c3a5b688d54b7179bb35ba23d0821", size = 9525988, upload-time = "2026-09-11T19:05:02.304Z" },
+    { url = "https://files.pythonhosted.org/packages/a6/c3/25c61701fb655dd412428b15eee2591ce554cdd593e39a045a153373f428/matplotlib-3.11.2-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:254d4ddb2fa8df3b4c689c0c306063aee10521df82cfb438185e499c75fe37c1", size = 9360774, upload-time = "2026-09-11T19:05:05.092Z" },
+    { url = "https://files.pythonhosted.org/packages/58/5a/4552878fce8f9d249a5e264c16f5c267c27eac08fb039fa3e207a06feff5/matplotlib-3.11.2-cp315-cp315t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e60cf3047a51edecdc4535a9196bbd6a732936b8e9f8184aabf4d16165884aaf", size = 10685892, upload-time = "2026-09-11T19:05:07.686Z" },
+    { url = "https://files.pythonhosted.org/packages/af/dd/b3b19ec0124fc4aafd8a4b3bae859c562a7ff0fd8ae3b2099947f78bde19/matplotlib-3.11.2-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:eb3712dc9b464793de0a4e42a7313d50293c751f94bddaf7332a1bc71bccdda9", size = 10964946, upload-time = "2026-09-11T19:05:10.943Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/30/687ccce22f66a57fed85942450e88062773bcbf1a42914e70c7148ec71dc/matplotlib-3.11.2-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:75b6d88402770e181b5d06a67dda4129c31da7d05004d63a21c310ec78d1b83c", size = 10824960, upload-time = "2026-09-11T19:05:13.9Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/34/117fe35a8d05054b4b34d2d29287099927c24c3841d36e06d9fa2f20c1cf/matplotlib-3.11.2-cp315-cp315t-win_amd64.whl", hash = "sha256:a6939df7567114b6bac7f4c5e06c84a67f197c1b2f2e4b234d4eecb3bfec9482", size = 9551204, upload-time = "2026-09-11T19:05:16.48Z" },
+    { url = "https://files.pythonhosted.org/packages/63/5a/9f440e7bec8b80d0af2a65d1165b2f4e718982dad785531f62255d9ff19b/matplotlib-3.11.2-cp315-cp315t-win_arm64.whl", hash = "sha256:d480038c83691532ed52ff3147db51fa902fc78cb2d8349993a1cdb684435bff", size = 9233946, upload-time = "2026-09-11T19:05:19.063Z" },
+]
+
+[[package]]
+name = "narwhals"
+version = "2.27.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bf/21/f64d6b2dbea7bf3f8c38cdc786dcc6ef012ca3d173ad208c782c9a7bedf6/narwhals-2.27.1.tar.gz", hash = "sha256:aed93076a3ea42d9c32c88e4eb5ea422a21937011cbe1f480f9572a523c82094", size = 735013, upload-time = "2026-10-10T06:52:18.113Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/89/5d4c86da1130d9059681e5b6cd7645df5c10279a6a079c5c37dcb2cc6f3f/narwhals-2.27.1-py3-none-any.whl", hash = "sha256:d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31", size = 483211, upload-time = "2026-10-10T06:52:16.32Z" },
+]
+
+[[package]]
+name = "not-so-informatic"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "arcade" },
+    { name = "matplotlib" },
+    { name = "pandas" },
+    { name = "pillow" },
+    { name = "pymunk" },
+    { name = "python-chess" },
+    { name = "pywinstyles" },
+    { name = "pyxel" },
+    { name = "ruff" },
+    { name = "scikit-learn" },
+    { name = "stockfish" },
+    { name = "sv-ttk" },
+    { name = "tk" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "arcade", specifier = ">=3.0" },
+    { name = "matplotlib", specifier = ">=3.11.2" },
+    { name = "pandas", specifier = ">=3.0.6" },
+    { name = "pillow", specifier = ">=12.3.0" },
+    { name = "pymunk", specifier = ">=7.3.1" },
+    { name = "python-chess", specifier = ">=1.999" },
+    { name = "pywinstyles", specifier = ">=1.8" },
+    { name = "pyxel", specifier = ">=2.9.9" },
+    { name = "ruff", specifier = ">=0.17.0" },
+    { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "stockfish", specifier = ">=5.2.0" },
+    { name = "sv-ttk", specifier = ">=2.6.1" },
+    { name = "tk", specifier = ">=0.1.0" },
+]
+
+[[package]]
+name = "numpy"
+version = "2.5.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz", hash = "sha256:9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a", size = 20866315, upload-time = "2026-10-10T20:05:31.422Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/ba/005cb5edd580d2f84d7ca3206b92dc17d4388e56e6f87ffe8f2762f83139/numpy-2.5.4-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:c668b2f0d651605b58892644b0e302c7157f7159544227758c896982ef384b18", size = 17005499, upload-time = "2026-10-10T20:03:37.961Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/49/fee7587c33ee35f7977f9051d7f2023d4e7246d62710c80f20c2361ea232/numpy-2.5.4-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:ffa6ce09a1c6a08e9667dd9c97aa0b14184e8d18f2a14b78b2a2328c9147f076", size = 12019666, upload-time = "2026-10-10T20:03:40.606Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/b2/c6ce165acffceb15a82c07b9cc77d391f86b3f379ba62911908ae5d34b91/numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:956555e0603a4d38019ae6925711cb9dc43195c076a928accf7ea5d50bddfe53", size = 5455617, upload-time = "2026-10-10T20:03:43.138Z" },
+    { url = "https://files.pythonhosted.org/packages/77/7f/dd85ce260a669a89be06842cf355d7353a33e6cfbc590fb8ebb947d88dc9/numpy-2.5.4-cp314-cp314-macosx_14_0_x86_64.whl", hash = "sha256:2c2c4afffdeb7920e445028dd71eb932cac3e704792e964bc2a232426d4f1255", size = 6791932, upload-time = "2026-10-10T20:03:44.874Z" },
+    { url = "https://files.pythonhosted.org/packages/63/d6/34b0a2b0741386a63025a65a2c09caaaaaad6d0ca95b66cd65c30dd7fcb5/numpy-2.5.4-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4054173604cd8658796053f1f3bc0befb68ec1c0762c57fdad61e199256a8617", size = 15710899, upload-time = "2026-10-10T20:03:46.839Z" },
+    { url = "https://files.pythonhosted.org/packages/16/d5/928078d2b28f26829b138b4a6c3980045022fb409f570657a224ae60ef4e/numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d549420b8858885cea8838a727842249218b9c1da24dd517e25c9c7a948310a3", size = 16721710, upload-time = "2026-10-10T20:03:49.489Z" },
+    { url = "https://files.pythonhosted.org/packages/f9/cf/673fd1b8f4cd78eb6320e87ec4c90ac19c095644259e3749853a405c70f4/numpy-2.5.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:823874a507a84af050493b622affde94b6f7c3a0dc22cb2801381bc03b871c00", size = 17066182, upload-time = "2026-10-10T20:03:52.25Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/92/a77b5061b1b3e2643928c37976d79ee173e1b171ed158b7a3c61056b41bc/numpy-2.5.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:4e263278bfb5ee6409db8aedbc4cc32973b1b82bc1e8d3c668551d04d83a7e37", size = 18480315, upload-time = "2026-10-10T20:03:55.39Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/1d/1486ef3d3fb2279fd93c4c43c1bbbf1ca389a19816696684409f71babaab/numpy-2.5.4-cp314-cp314-win32.whl", hash = "sha256:cfd73180400042a7c532d30c5e287bdd03c59ff9ee1b4c0316af0539e29dfe23", size = 6185739, upload-time = "2026-10-10T20:03:58.186Z" },
+    { url = "https://files.pythonhosted.org/packages/52/9a/e1e512ebc948d5b9dd33b08736760f0ebbed2848fd4eda1f553088a6dcee/numpy-2.5.4-cp314-cp314-win_amd64.whl", hash = "sha256:2ca144f15135b6212a5c47b1e2aeca6e412f102f95a2d5d88d8aec77eb255de3", size = 12703552, upload-time = "2026-10-10T20:04:00.28Z" },
+    { url = "https://files.pythonhosted.org/packages/2c/05/de709a982d7bbcd688a3fad71f002e9ff80c2db39e03ee726609b610f1d1/numpy-2.5.4-cp314-cp314-win_arm64.whl", hash = "sha256:468397ba3c64427474706e5c9123fe266395496714dc684294eac75cd4930d1e", size = 10803901, upload-time = "2026-10-10T20:04:02.659Z" },
+    { url = "https://files.pythonhosted.org/packages/13/34/083570ada3bb2a30fbe5d77c8c6fef9141144a15d33e6f793a67e9749ab8/numpy-2.5.4-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:1ef3aa6d7e29bb13677323114280b05acc57607fa2300e66432d665d5418a162", size = 12138695, upload-time = "2026-10-10T20:04:05.012Z" },
+    { url = "https://files.pythonhosted.org/packages/94/06/1f9c24db48eef0c2d1207e3b11fffb0478e39dfd8c1e1be7476936885eed/numpy-2.5.4-cp314-cp314t-macosx_14_0_arm64.whl", hash = "sha256:98b053943e5a0474ec0da309d2cb9d3f18ea57f8a2067c2ab7b5f763d1068380", size = 5574615, upload-time = "2026-10-10T20:04:07.316Z" },
+    { url = "https://files.pythonhosted.org/packages/da/0f/593fba2e1560e949123bc7d2fc48b5893d56e58cd4bd5a273d2fbf60b220/numpy-2.5.4-cp314-cp314t-macosx_14_0_x86_64.whl", hash = "sha256:b64a85f40e154983960a4167d4c1d57a50c7f109b3d3264a3a984154e90a8454", size = 6889383, upload-time = "2026-10-10T20:04:09.918Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/9f/b799dfdce4e05e80ed4bc815c71ff343a11533b2c0ffc221cae8538cda63/numpy-2.5.4-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:a813ed7719bf45463c51779e6a98d0385fe905e48447526938a4b8337333d551", size = 15753763, upload-time = "2026-10-10T20:04:12.278Z" },
+    { url = "https://files.pythonhosted.org/packages/34/88/16c5f12f86f5ad2817c4d103205131fc6c8acb3d1878af05a1a4f23ec859/numpy-2.5.4-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c9b80cdf5cedba0e90d93fa5f9a333c4d65bd545cd669b71bb97ce2b703c9d73", size = 16757212, upload-time = "2026-10-10T20:04:14.799Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/4f/a1fe40e18a898e6a5089f4f0d891f0a493eb0574d5b34458f0fbe5aa3e5c/numpy-2.5.4-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:2199ed071f460487c8db2c0e5c0b564494190edb4772fe80f9aad88b2604def5", size = 17116471, upload-time = "2026-10-10T20:04:17.58Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/46/e923a11c78e65c1722e7aaad817c06bd591324174b9d28ce5d31eee4d432/numpy-2.5.4-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:64f9c9878c1938476365e11ccfb6b770f3b9e5f045ccddc514235041e6959365", size = 18524063, upload-time = "2026-10-10T20:04:20.365Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/fa/84ab064514440c1f64a1b21088f2c82756defdd05e07c75ab233899565b2/numpy-2.5.4-cp314-cp314t-win32.whl", hash = "sha256:64d1c8ac28a4077cf987e0a71a7a0ef7e2df70722f07f0baa42dbb7eb6938647", size = 6340926, upload-time = "2026-10-10T20:04:22.865Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/7e/6cd886876f435b10685db9b9f7eeb70356f99e052116f4e5f11c5792c714/numpy-2.5.4-cp314-cp314t-win_amd64.whl", hash = "sha256:067374eb538c34c745436365cf7b0112595c1d326f21ce4ff340f61230239fbb", size = 12901584, upload-time = "2026-10-10T20:04:24.99Z" },
+    { url = "https://files.pythonhosted.org/packages/38/1b/3c1684f6a06f7307f2335fca6e486cb162847fb97e91d65f8eb5cabad213/numpy-2.5.4-cp314-cp314t-win_arm64.whl", hash = "sha256:e94aef2c639da4a960ad0db8e06471208d8589974953d78b61d345b4eb99e394", size = 10891152, upload-time = "2026-10-10T20:04:27.52Z" },
+    { url = "https://files.pythonhosted.org/packages/08/f4/3224deff3af2bef6bc0b175369698d8cb348f3d91d9bb0286cd5c9eae9e0/numpy-2.5.4-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:8dddfbee2e68d26d0d7d7d9cb247b1fd4409241cce32d815a11d97ec2cfde179", size = 17003231, upload-time = "2026-10-10T20:04:30.021Z" },
+    { url = "https://files.pythonhosted.org/packages/be/75/fee0b8c6d94b44b2fdfae74f6a4ad5a138739589a8aebaec28ce4e713ed5/numpy-2.5.4-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:81e3420b27048b65eb14c3acf0c174a8cb0e023277716110347d2dcb26026dad", size = 12018300, upload-time = "2026-10-10T20:04:32.519Z" },
+    { url = "https://files.pythonhosted.org/packages/47/c0/d0b335a499a04b65f532c3f034346ef390f81299060f928492dabc1e0272/numpy-2.5.4-cp315-cp315-macosx_14_0_arm64.whl", hash = "sha256:0b4724a19de67bea8cfc4970798efa78bcbbe2ac2613cfac16721a42d44de2a5", size = 5454250, upload-time = "2026-10-10T20:04:34.943Z" },
+    { url = "https://files.pythonhosted.org/packages/5a/0e/461b3783c03d668052e6a21b01b673db6ffcb7831fd32d9aa5368c1cd426/numpy-2.5.4-cp315-cp315-macosx_14_0_x86_64.whl", hash = "sha256:2132418bf8dd124a427ca9e6a1daf9ee1a87185344c95119ceae868b99466da1", size = 6789644, upload-time = "2026-10-10T20:04:37.258Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/02/5dad269b02166965a7b4ca14adaddd75dbee0de42435bfecf561b84ba5a6/numpy-2.5.4-cp315-cp315-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:325518d4245b9e331387702aa58c2ce1dc4cdcbb41dfb4ccd5dcbc7e08db1266", size = 15704353, upload-time = "2026-10-10T20:04:39.616Z" },
+    { url = "https://files.pythonhosted.org/packages/93/3a/01360c8036822ed9f7aa32189a77d1476567ec1e8e1383522389e4faac45/numpy-2.5.4-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:56733449d2544178beaa4545cee357370440cf056c197f9c7bfb19dbfdd0e86d", size = 16718648, upload-time = "2026-10-10T20:04:42.383Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/5c/b863a2c093c4d6f21a597fcaf24ead0835c09ab16a8312d5a5a8868af683/numpy-2.5.4-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:5ec3753760c1a6d8bb91200666e545c3a9728e6269dfb5d6ce02340996698aa3", size = 17059053, upload-time = "2026-10-10T20:04:44.976Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/60/ced4f57f9a1258a0af74f17cb0b0c2700b5c67cd6678823c803b263e4df3/numpy-2.5.4-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:b1185012870173de7ae33d370bd45b1cf5baee747ea4b97036b65f4e93016877", size = 18477406, upload-time = "2026-10-10T20:04:47.863Z" },
+    { url = "https://files.pythonhosted.org/packages/f9/bd/0ef22dafaafcc7d4bb3ca26b8d2afbd55dedad8eaba99a8c864e1997456f/numpy-2.5.4-cp315-cp315-win32.whl", hash = "sha256:298eca75243f2cbbfdb460560b9fb2a1792a33cf2ab4286efd43d92e8d3df508", size = 6185133, upload-time = "2026-10-10T20:04:50.467Z" },
+    { url = "https://files.pythonhosted.org/packages/50/bc/d2651b155ecc608a77e6f4d15495c11f14f19bb98f8bf0c5b0d38f86dda1/numpy-2.5.4-cp315-cp315-win_amd64.whl", hash = "sha256:332f3378fe077dd850e677ec01bdcc4f22368fb5d50ef10b2c79230b1bf5a592", size = 12703085, upload-time = "2026-10-10T20:04:52.63Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/d2/45e404f8abb26fb9eda12b94012936873e827b1be76f2ee7890be128312e/numpy-2.5.4-cp315-cp315-win_arm64.whl", hash = "sha256:d4cccbbc78717966f764cd3af4fb70276fa01fc7a2688af11c78901fa5c04f05", size = 10801451, upload-time = "2026-10-10T20:04:55.677Z" },
+    { url = "https://files.pythonhosted.org/packages/c6/c3/2ae14e09cfdb67dc187a342e15308a21c15bf4d2071f8079e6aee5fe56dc/numpy-2.5.4-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:950ea81d57ef070665581b6e1b5f6a029306423cd1739c5b95fe78aa30db6b9d", size = 17097121, upload-time = "2026-10-10T20:04:58.403Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/cf/305ae624ef8a039414317224abe9ec9c2fe7ea3c2e1cf204d43ff6b2ffb9/numpy-2.5.4-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:c05ede731b03fb1b7591faca9389ade3267d2bddf1ad8882bb3f2cc5e101694f", size = 12135439, upload-time = "2026-10-10T20:05:01.65Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/a8/f75c63813aef95827bb2c0d13b12803016853056e8792c280058cdbfe783/numpy-2.5.4-cp315-cp315t-macosx_14_0_arm64.whl", hash = "sha256:5fbf7141bbfd63aea22f435c9062a032b9ea0082fe9845dad7f021d3f1234e71", size = 5571451, upload-time = "2026-10-10T20:05:04.135Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/0f/f17763f983868b5c49b4101ebd7e00760bd1769478a6bb6a8de6e085bbac/numpy-2.5.4-cp315-cp315t-macosx_14_0_x86_64.whl", hash = "sha256:3573cd22564692a5b899ec344e5d5b9cc4576f2985b96f22af3564ed54f2710f", size = 6883356, upload-time = "2026-10-10T20:05:06.249Z" },
+    { url = "https://files.pythonhosted.org/packages/67/a7/8af04c5a79e047996cfa38854dcfbececdd0343a7c933a46fdd03ef6f5da/numpy-2.5.4-cp315-cp315t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6c109eac9cd439193678f69d70733c1108487546ca8eafc107b510ae10c1aecd", size = 15750991, upload-time = "2026-10-10T20:05:08.376Z" },
+    { url = "https://files.pythonhosted.org/packages/57/7a/648254290d0c504faa8f2d07aa206660c728802c781a6f3fc68ab7cb5d71/numpy-2.5.4-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:80d6ef6e8620eb2c2b4c4caad50b5935d6db3cde2d51581b55dcc79e14016d1d", size = 16757675, upload-time = "2026-10-10T20:05:11.393Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/fe/4a8c3cdb0c70400cfe4c5bec42d3099a5673802a95064614b33e07b82aa1/numpy-2.5.4-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:77045a4b175bbf5316ec08003880804336c78f92281a1b72222b274ea85ec5ac", size = 17113846, upload-time = "2026-10-10T20:05:14.49Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/7e/619692bb67778702c0e9eb2d468568a7573f4e269386ea61aed01ee4e557/numpy-2.5.4-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:0f02a46e49cfb6c73bdb7aea1c0d3461dbae9aba613542b65f657cd3d17b9fab", size = 18522915, upload-time = "2026-10-10T20:05:17.33Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/b5/4da41c328788f575838f97a098fe8ca691ebc6f6fd73ad4a262ee40b184d/numpy-2.5.4-cp315-cp315t-win32.whl", hash = "sha256:ad62a416ddcf863bf44bba76fbf6b53366ab0692e294f51cae4b5fbe0d246788", size = 6335804, upload-time = "2026-10-10T20:05:19.921Z" },
+    { url = "https://files.pythonhosted.org/packages/98/94/6482ddfa3d312490cb9358f375bf2ad56427dbea8769187158e94d653753/numpy-2.5.4-cp315-cp315t-win_amd64.whl", hash = "sha256:38f47be9f74ab870d2633b5456ae519c43758a8d1fd05342f0ce4ecc034396ee", size = 12890095, upload-time = "2026-10-10T20:05:21.875Z" },
+    { url = "https://files.pythonhosted.org/packages/48/7f/c2d1b436b6e7cfebac140c2579a298344b85f2991a2ce5c3615cefb29400/numpy-2.5.4-cp315-cp315t-win_arm64.whl", hash = "sha256:7a14a461d9340f1b46b8648578aed9cdb8b3b018a8fac6c1dde2c9192a01a87f", size = 10883718, upload-time = "2026-10-10T20:05:28.547Z" },
+]
+
+[[package]]
+name = "packaging"
+version = "26.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz", hash = "sha256:94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79", size = 313412, upload-time = "2026-08-04T18:15:28.737Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl", hash = "sha256:d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c", size = 129956, upload-time = "2026-08-04T18:15:27.159Z" },
+]
+
+[[package]]
+name = "pandas"
+version = "3.0.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "python-dateutil" },
+    { name = "tzdata", marker = "sys_platform == 'emscripten' or sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e2/17/d7b106e05bfa642e8694451e7d3d759c6a241c5386a5d962e4f66c047e06/pandas-3.0.6.tar.gz", hash = "sha256:66b07ef7315a31bfe1089cd3d71a7de781c9dca986762d0b4fe7c0ef17465d10", size = 4667686, upload-time = "2026-09-17T23:23:18.345Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/75/55/1a8875395b05ccd572cbca0b9255dcd2db6e6508e632a558c1a6884b39ad/pandas-3.0.6-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:ee913a91669056c1de1a6b733fbfeab711de9e54e3bee2dfa5fe79d9457247d1", size = 10492213, upload-time = "2026-09-17T23:21:40.746Z" },
+    { url = "https://files.pythonhosted.org/packages/35/61/47ae13476995cc8a40cd609e93e7cf11f273d8692925c2903cb6d38aa0d1/pandas-3.0.6-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:ff51a4459ed036e93d1eb1bb5e6e7b28685d3cb6b7c12b91c05b31024e234729", size = 10156618, upload-time = "2026-09-17T23:21:44.142Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/f2/cc5f2adb8d6e86a85d9fb5128f8cf205a61189336f70d1f7faf0d1b53ec9/pandas-3.0.6-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:654aae059295dbba6ecd2328ca12712a2cf1676214c8699f1c29213f7ccf9c34", size = 10375479, upload-time = "2026-09-17T23:21:47.159Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/ba/ffdcb19be4ff6bfe7d969e7cef2c567c633df5a3a1cc1053394ad053bca8/pandas-3.0.6-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:62f51d7f651c8054c5e82a69265c98082e795d1442df7ca6edc3a545d61214b1", size = 10783244, upload-time = "2026-09-17T23:21:50.367Z" },
+    { url = "https://files.pythonhosted.org/packages/77/5b/e150075b2c6eb69fae896f2d9239bc6ed07db97735971d53d66de6553460/pandas-3.0.6-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:22172a92e7ee678ec0140c7af4fc9366b55413834a1cd86af78b3caa0b0574de", size = 11382223, upload-time = "2026-09-17T23:21:53.355Z" },
+    { url = "https://files.pythonhosted.org/packages/d6/8a/b441c587dc7355bf6e1f68a91b4f76a6c29740f0c23be3acc5d4ebbeea6d/pandas-3.0.6-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:583be68728a31d0d750d5b8d9e00f02b153df0d4655f858bde93cb84cfc4227c", size = 11854881, upload-time = "2026-09-17T23:21:56.342Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/e9/f43410fada510b43fec09993c08f552086c3d247d3ee801a678f3cb10ea5/pandas-3.0.6-cp314-cp314-win_amd64.whl", hash = "sha256:77ccbe5057aece6fc172b9b77f19c04335af6882bc2e10c8f3ee4e6bfb3da553", size = 9791672, upload-time = "2026-09-17T23:21:59.332Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/9e/db14c059c21f9baa1907d436f8bf30e0c76c6288225c5e8b79a08ba8b2c5/pandas-3.0.6-cp314-cp314-win_arm64.whl", hash = "sha256:fb625f426b375bcc96e3a04c5d5d266cd7be6ae5d6866e0e703382ab5164068c", size = 9121246, upload-time = "2026-09-17T23:22:02.123Z" },
+    { url = "https://files.pythonhosted.org/packages/67/ba/bad0f8dac020ab38a8637fddab01a57a82da7a496a6e6f19590aad53ab62/pandas-3.0.6-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:9e492cd4bdba6778de4fe0df7f4590c012161ebcf9902dce01b01dc683105514", size = 10920612, upload-time = "2026-09-17T23:22:05.404Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/a9/b500982e9aac6d52a58da4ad3f11e14168a315b06906b3f397c427878065/pandas-3.0.6-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:d7dcd21238cbb4828ff148481ba01cac8946dc5121457b5aeba28636f8f99a60", size = 10570213, upload-time = "2026-09-17T23:22:08.44Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/fa/e6ecd0073c98be8f840ac3125b955272835d7d9fd69f5944383b164deb5e/pandas-3.0.6-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6ff482fa91fa2bafd92e8fe66ce3645c851824310f295c1f0a2f96e928fc4541", size = 10252356, upload-time = "2026-09-17T23:22:11.302Z" },
+    { url = "https://files.pythonhosted.org/packages/04/f5/001e230a7a7803590d9275a1a3f7e1bb605e3a495cfe5e8d3a532090621b/pandas-3.0.6-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:db7ec631f26223beee8e5c9e0b8f23c24d8197bbd1d982421d4e3188bea51965", size = 10655952, upload-time = "2026-09-17T23:22:14.283Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/ab/bab587148a3852c96aae26c4b5f9e04ce2221801ad94e166b4fbf969ede0/pandas-3.0.6-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:bd75ed0c840f709fc2ae26ddd9534ac77ca1a48ac0cce521a74acaa85f3340a7", size = 11274177, upload-time = "2026-09-17T23:22:17.352Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/32/74b48d87df2b80892d713c149abfe36d5db4de41b4eccb042a2bc07dafc1/pandas-3.0.6-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:ef738d71d1059245b6bb03e312be06d8b3821326a83486c1ad03b9aba3710e44", size = 11719041, upload-time = "2026-09-17T23:22:20.227Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/c6/d64b72d64d7eb0fad9fe424d34138e45dee70ddbea1360dcd0adf30e28f6/pandas-3.0.6-cp314-cp314t-win_amd64.whl", hash = "sha256:429d9df32731ab01383ed98f2baa7a60368090d1a94fc06019a12062510e8630", size = 10191388, upload-time = "2026-09-17T23:22:23.524Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/30/5e5b2ccabeca73ae2b03fc82bca3eabb7466cf43737f05ac08d591665d47/pandas-3.0.6-cp314-cp314t-win_arm64.whl", hash = "sha256:a4dbd4dc65cbe645b92b8785d0f96dd7311010dc6606cf620e51b07b8788a12a", size = 9387796, upload-time = "2026-09-17T23:22:26.64Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/77/47c5fb0be8bdd00116814c2c40d9ec42dbeb943865ef95130fe58a898226/pandas-3.0.6-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:50c44cbf5820b6b91a5f74aae04972472aefadd3cd9fbd1010409d85528bd570", size = 10483960, upload-time = "2026-09-17T23:22:30.071Z" },
+    { url = "https://files.pythonhosted.org/packages/09/08/a310cb2fefe6d2b4623ab2150da818d93d4e73e33b58e4d163bb74243c5a/pandas-3.0.6-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:eb6900de08ac85f93ac4948aa6b80842eba555875337b8359035ac9c43e92d34", size = 10149432, upload-time = "2026-09-17T23:22:32.818Z" },
+    { url = "https://files.pythonhosted.org/packages/54/36/6af478ec3a26d7754555cd62c3101c589c0931b1d85398e4fa5403910a1c/pandas-3.0.6-cp315-cp315-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4e25e2e1adee99ddfada6f7206a79ae8e9c8a8861b0e3eaaba165006d3eef18e", size = 10360981, upload-time = "2026-09-17T23:22:35.621Z" },
+    { url = "https://files.pythonhosted.org/packages/43/20/5ece0e9cb79a6473216620db6a90546f578001c2bd857b77c444b27acad1/pandas-3.0.6-cp315-cp315-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4ff44b2cb51cbd691c91f92c4ea6c71e34003f239ebd67c2e857dc898466b49c", size = 10776585, upload-time = "2026-09-17T23:22:38.427Z" },
+    { url = "https://files.pythonhosted.org/packages/2f/b6/cd3038f31ade5e8d2b4e1c9549d4b31e4d598469562f47142b2ad9171c0a/pandas-3.0.6-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:5edd0a7abb0986ecce1ac81f56d99b6763f86aa6946dceb6c661224f90af5a19", size = 11385249, upload-time = "2026-09-17T23:22:41.18Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/87/05bb3003737f80375d7311774916a24d161e2e591abe8c672aed7813defc/pandas-3.0.6-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:1bcb3e9ed29e74a7439cedff9e2aefd3ea65de84d7de9ccb6c194192541bd60e", size = 11848595, upload-time = "2026-09-17T23:22:44.207Z" },
+    { url = "https://files.pythonhosted.org/packages/c0/30/1c0d46acf236d19ef975e9cdd5d1e0dd54924b03f0ed8287096ad4a18152/pandas-3.0.6-cp315-cp315-win_amd64.whl", hash = "sha256:253e12cb9081b0afbac607920f6142975966bc315135e09de275fdbaa415d2de", size = 9783810, upload-time = "2026-09-17T23:22:47.097Z" },
+    { url = "https://files.pythonhosted.org/packages/87/03/df3304a9c2833c4810e7f1c887b04105b24731f9deef8b5d5d04522a375b/pandas-3.0.6-cp315-cp315-win_arm64.whl", hash = "sha256:97274c9adf6255bb48c620cd6959805efa7f09ea2167f0e0ae006a448cd2fca7", size = 9116820, upload-time = "2026-09-17T23:22:50.149Z" },
+    { url = "https://files.pythonhosted.org/packages/47/25/d5f6cce5efa17c38e4f752a875b4a26d66cfadd529cb8c81672f0376d6a6/pandas-3.0.6-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:265f562fdd1079f69f3de96dd425c3405224038c0af4f920c54bd240ee2c4640", size = 10894614, upload-time = "2026-09-17T23:22:53.223Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/8b/e1876bfdc1df06bafc022d33202b5663bd86c81df2a6140aacafd0344669/pandas-3.0.6-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:c6e4aae3e9bea26c6c9a20d88d96c86ec4a99b4db5fd516bcb4e829ab2c0ee36", size = 10546973, upload-time = "2026-09-17T23:22:56.155Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/27/e0a27a5a5c27f7db66657b44def9e93121fd0ad4f0808355b9898fcbf204/pandas-3.0.6-cp315-cp315t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:a77a1a44e4d88f1c6a2a64d3eb12efec8420875722e14279800b173a7c7c2804", size = 10239717, upload-time = "2026-09-17T23:22:59.603Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/4f/4eadb7d86a921c1e8bc70916cfe601ed667c4169118d17d69958611c21f8/pandas-3.0.6-cp315-cp315t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:86fa853a12e0b70927e2b1ee00d56d2224ec9cbb4b9d58348b5ad52d2f21150e", size = 10641275, upload-time = "2026-09-17T23:23:02.81Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/d1/eba72e9d905e84e79aefeefdcc6bc1abe15d9077973566643f4211636966/pandas-3.0.6-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:c826e9babb7790142c399f58599d8de679bea059d7b39c5b6efa2096fac37266", size = 11262919, upload-time = "2026-09-17T23:23:06.038Z" },
+    { url = "https://files.pythonhosted.org/packages/9d/8a/1c5bd2642b450e374b6191189f47c49538fe41f82348a66de6f647e6ab59/pandas-3.0.6-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:8fe77b408d82e2615674dfed62533b95e18a03610573877422aada4f625d4947", size = 11709148, upload-time = "2026-09-17T23:23:09.082Z" },
+    { url = "https://files.pythonhosted.org/packages/73/3d/1b142bd0d0f1326a5d98c91c955b923cd1e06b5eecb428cd9d8817fa01c0/pandas-3.0.6-cp315-cp315t-win_amd64.whl", hash = "sha256:83e91d15738d7783c050197cef2f2cf82fc6353dae9865aa87ed1fa16aa4d55a", size = 10161518, upload-time = "2026-09-17T23:23:12.365Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/a3/6419c14da2adc1f09a6a183b8f91d7494d325b287f4ca984ac04f663638a/pandas-3.0.6-cp315-cp315t-win_arm64.whl", hash = "sha256:963ca21199097a84c7827c4678b04e30833084fbf8ef44fde3fa7180a29f8fa0", size = 9364529, upload-time = "2026-09-17T23:23:15.274Z" },
+]
+
+[[package]]
+name = "pillow"
+version = "12.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz", hash = "sha256:3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce", size = 47025035, upload-time = "2026-07-01T11:56:38.965Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/dc/01/001f65b68192f0228cc1dbbc8d2530ab5d58b61037ba0587f946fea607cd/pillow-12.3.0-cp314-cp314-ios_13_0_arm64_iphoneos.whl", hash = "sha256:9cf95fe4d0f84c82d282745d9bb08ad9f926efa00be4697e767b814ce40d4330", size = 4161736, upload-time = "2026-07-01T11:54:51.156Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/d2/0219746d0fd16fc8a84498e79452375be3797d3ce4044596ce565164b84f/pillow-12.3.0-cp314-cp314-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:8728f216dcdb6e6d555cf971cb34076139ad74b31fc2c14da4fafc741c5f6217", size = 4255435, upload-time = "2026-07-01T11:54:53.414Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/02/8d0bc62ef0302318c46ff2a512822d2610e81c7aa46c9b3abe6cbaca5ad0/pillow-12.3.0-cp314-cp314-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:a45650e8ce7fafffd731db8550230db6b0d306d181a90b67d3e6bca2f1990930", size = 3696262, upload-time = "2026-07-01T11:54:55.739Z" },
+    { url = "https://files.pythonhosted.org/packages/85/e2/73c77d218410b14f5f2d565e8a998d5317b7b9c75368d29985139f7a46f0/pillow-12.3.0-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:ba54cfebe86920a559a7c4d6b9050791c20513650a1952ebe3368c7dc70306f8", size = 5350344, upload-time = "2026-07-01T11:54:57.657Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/da/32c752228ae345f489e3a42499d817b6c3996da7e8a3bc7a04fc806b243b/pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:e158cb00350dc278f3b91551101aa7d12415a66ebf2c91d8d5ac14e56ddd3ad0", size = 4780131, upload-time = "2026-07-01T11:54:59.713Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/9d/8b2c807dbef61a5197c047afe99823787eb66f63daf9fb2432f91d6f0462/pillow-12.3.0-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e9aeb04d6aef139de265b29683e119b638208f88cf73cdd1658aa07221165321", size = 6263757, upload-time = "2026-07-01T11:55:01.778Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/44/c85361f65dbe00eea8576ee467c768d25129989efb76e94f205e9ca9bb46/pillow-12.3.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:251bf95b67017e27b13d82f5b326234ca62d70f9cf4c2b9032de2358a3b12c7b", size = 6936962, upload-time = "2026-07-01T11:55:03.93Z" },
+    { url = "https://files.pythonhosted.org/packages/18/7e/e483414b35800b86b6f08dbbc7803fb5cd52c4d6f897f47d53ea2c7e6f65/pillow-12.3.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:fe3cca2e4e8a592be0f269a1ca4835c25199d9f3ce815c8491048f785b0a0198", size = 6339171, upload-time = "2026-07-01T11:55:05.989Z" },
+    { url = "https://files.pythonhosted.org/packages/f0/f4/68c491844841ede6bed70189546b3ee9731cf9f2cbad396faff5e1ccba45/pillow-12.3.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:23aceaa007d6172b02c277f0cd359c79492bbb14f7072b4ede9fbcaf20648130", size = 7048116, upload-time = "2026-07-01T11:55:08.131Z" },
+    { url = "https://files.pythonhosted.org/packages/a3/34/77f3f793fed8efc7d243f21b33c5a3f0d1c97ee70346d3db855587e155ff/pillow-12.3.0-cp314-cp314-win32.whl", hash = "sha256:af8d94b0db561cf68b88a267c5c44b49e134f525d0dc2cb7ed413a66bc23559a", size = 6467209, upload-time = "2026-07-01T11:55:10.408Z" },
+    { url = "https://files.pythonhosted.org/packages/f1/e0/492879f69d94f91f60fc8cd05ba03650e9520afebb2fb7aa12777d7c7f38/pillow-12.3.0-cp314-cp314-win_amd64.whl", hash = "sha256:fdafc9cce40277e0f7a0feabce0ee50dd2fa1800f3b38015e51296b5e814048d", size = 7237707, upload-time = "2026-07-01T11:55:12.745Z" },
+    { url = "https://files.pythonhosted.org/packages/c9/ac/6b11f2875f1c2ac040d84e1bbf9cf22a88038f901ca1037898b280b38365/pillow-12.3.0-cp314-cp314-win_arm64.whl", hash = "sha256:e91206ee562682b51b98ef4b26a6ef48fd84e15fd4c4bc5ec768eb641d206838", size = 2565995, upload-time = "2026-07-01T11:55:14.736Z" },
+    { url = "https://files.pythonhosted.org/packages/52/69/c2208e56af9bfc1913afb24020297a691eb1d4ef688474c8a04913f65e04/pillow-12.3.0-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:164b31cd1a0490ab6efae01aa5df49da7061be0af1b30e035b6e9a1bfe34ee6e", size = 5352503, upload-time = "2026-07-01T11:55:17.076Z" },
+    { url = "https://files.pythonhosted.org/packages/07/70/e5686d753e898a45d778ff1718dba8516ead6ab6b95d85fc8c4b70650cf2/pillow-12.3.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:5afb51d599ea772b8365ae807ae557f18bccfe46ab261fd1c2a9ed700fc6eb17", size = 4782956, upload-time = "2026-07-01T11:55:19.448Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/37/25c6692f06927ee973ff18c8d9ee98ad0b4d84ee67a09610c2dd1447958e/pillow-12.3.0-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:3edce1d53195db527e0191f84b71d02022de0540bf43a16ed734ed7537b07385", size = 6322855, upload-time = "2026-07-01T11:55:21.613Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/91/420637fcb8f1bc11029e403b4538e6694744428d8246118e45719f944556/pillow-12.3.0-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:bf16ba1b4d0b6b7c8e534936632270cf70eb00dbe09005bc345b2677b726855c", size = 6989642, upload-time = "2026-07-01T11:55:24.006Z" },
+    { url = "https://files.pythonhosted.org/packages/10/08/b94d7811281ccf0d143a1cf768d1c49e1e54af63e7b708ab2ee3eb87face/pillow-12.3.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:24870b09b224f7ae3c39ed07d10e819d06f8720bc551847b1d623832b5b0e28d", size = 6391281, upload-time = "2026-07-01T11:55:26.252Z" },
+    { url = "https://files.pythonhosted.org/packages/d2/87/24233f785f55474dc02ce3e739c5528a77e3a862e9333d1dd7a25cc31f70/pillow-12.3.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:30f2aa603c41533cc25c05acd0da21636e84a315768feb631c937177db558931", size = 7096716, upload-time = "2026-07-01T11:55:28.318Z" },
+    { url = "https://files.pythonhosted.org/packages/23/26/fcb2f6e37175b04f53570b59937867e2b80ee1685e744023153028fc14f9/pillow-12.3.0-cp314-cp314t-win32.whl", hash = "sha256:4b0a7fe987b14c31ebda6083f74f22b561fd3739bc0ac51e019622e3d72668c7", size = 6474125, upload-time = "2026-07-01T11:55:30.956Z" },
+    { url = "https://files.pythonhosted.org/packages/90/de/3634abee5f1c9e13c56787b7d5517b0ba8d6de51700b95578cf338349c9f/pillow-12.3.0-cp314-cp314t-win_amd64.whl", hash = "sha256:962864dc93511324d51ddbb5b9f8731bf71675b93ca612a07441896f4688fb8c", size = 7242939, upload-time = "2026-07-01T11:55:34.044Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/2a/fd13f8eb24de5714a6eb444a3d67e2842c6c576e159a43793adf23051351/pillow-12.3.0-cp314-cp314t-win_arm64.whl", hash = "sha256:0740a512dc522224c77d9aa5a8d70d8b7d73fb91f2c21125d8d025d3b8990e45", size = 2567506, upload-time = "2026-07-01T11:55:35.988Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/dc/8fdce34ec725a33c81c6ba122b904d6b9024e50ea9ac7bede62fab54506c/pillow-12.3.0-cp315-cp315-ios_13_0_arm64_iphoneos.whl", hash = "sha256:0feb2e9d6ad6c9e3c06effe9d00f3f1e618a6643273576b016f591e9315a7139", size = 4162063, upload-time = "2026-07-01T11:55:37.941Z" },
+    { url = "https://files.pythonhosted.org/packages/76/66/2044b9a63d3b84ff048228dfcb7cd9bf0df983e8470971bf7d4c57b693de/pillow-12.3.0-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:9e881fca225083806662a5c43d627d215f258ff43c890f831966c7d7ba9c7402", size = 4255549, upload-time = "2026-07-01T11:55:40.022Z" },
+    { url = "https://files.pythonhosted.org/packages/52/7e/1f67e6f4ece6b582ee4b539decbcc9f848dc245a93ed8cd7338bafef72f1/pillow-12.3.0-cp315-cp315-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:4998562bf62a445225f22e07c896bb04b35b1b1f2eb6d760584c9c51d7a5f78c", size = 3696331, upload-time = "2026-07-01T11:55:41.98Z" },
+    { url = "https://files.pythonhosted.org/packages/12/40/d306fc2c8e4d45d7f175c77edca7063be7b86fe7fe6e68f4353bf71d808c/pillow-12.3.0-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:dc624f6bc473dacdf7ef7eb8678d0d08edf15cd94fad6ae5c7d6cc67a4e4902f", size = 5350370, upload-time = "2026-07-01T11:55:44.028Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/44/668fb1437e8ce420f62d6106eb66e44a5971602a4d794615bdf79315d82d/pillow-12.3.0-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:71d6097b330eea8fd15097780c8e89cb1a8ce7838669f48c5bacd6f663dd4701", size = 4780147, upload-time = "2026-07-01T11:55:46.073Z" },
+    { url = "https://files.pythonhosted.org/packages/0c/08/93fa2e70e30a2d81547e481b6ee2bb9522117221fb1e0ce4b5df70967677/pillow-12.3.0-cp315-cp315-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:28ce87c5ab450a9dd970b52e5aca5fe63ed432d18a2eaddd1979a00a1ba24ace", size = 6273659, upload-time = "2026-07-01T11:55:48.264Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/6d/043e96ff814fc31a33077e4cba86082167db520c93632afdf2042febbb0c/pillow-12.3.0-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:6b02afb9b97f65fbca5f31db6a2a3ba21aa93030225f150fa3f249717e938fb4", size = 6947439, upload-time = "2026-07-01T11:55:50.503Z" },
+    { url = "https://files.pythonhosted.org/packages/af/92/ba71d2ee2ac0edf3fa33bd9d5ee9ee080da70b1766f3ca3934f9938ddac9/pillow-12.3.0-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:1182d52bc2d5e5d7d0949503aa7e36d12f42205dc287e4883f407b1988820d39", size = 6353577, upload-time = "2026-07-01T11:55:52.697Z" },
+    { url = "https://files.pythonhosted.org/packages/0f/ce/e63064e2122923ff687c8ad792d0d736a7b3920a56a46982e81a7fdd25d6/pillow-12.3.0-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:e795b7eb908249c4e43c7c99fac7c2c75dab0c43566e37db472a355f63693d71", size = 7060394, upload-time = "2026-07-01T11:55:55.149Z" },
+    { url = "https://files.pythonhosted.org/packages/54/76/a09cc3ccc8d773a7283d34c38bec1708f9e3cc932093cbc4c5e71ac4060b/pillow-12.3.0-cp315-cp315-win32.whl", hash = "sha256:57b3d78c95ba9059768b10e28b813002261d3f3dfc55cc48b0c988f625175827", size = 6467375, upload-time = "2026-07-01T11:55:57.769Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/03/1846c49ba3b1d5550392a4bbd06d6fb4578e1cd91a803198b5c90f5f7d53/pillow-12.3.0-cp315-cp315-win_amd64.whl", hash = "sha256:fa4ecea169a355be7a3ade2c783e2ed12f0e40d2c5621cda8b3297faf7fbb9f5", size = 7237048, upload-time = "2026-07-01T11:55:59.975Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/bb/89f35dcc79610423f9f195504d7def7f0d1416a711541b42867e25fe3412/pillow-12.3.0-cp315-cp315-win_arm64.whl", hash = "sha256:877c3f311ff35410f690861c4409e7ccbf0cd2f878e50628a28e5a0bb689e658", size = 2566006, upload-time = "2026-07-01T11:56:02.143Z" },
+    { url = "https://files.pythonhosted.org/packages/30/88/707027ba09942dfa2c28759b5c222d769290a41c6d20ea60ec250801941f/pillow-12.3.0-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:e9871b1ffbfa9656b60aeee92ed5136a5742696006fa322b29ea3d8da0ecc9cf", size = 5352509, upload-time = "2026-07-01T11:56:04.2Z" },
+    { url = "https://files.pythonhosted.org/packages/b0/6d/00352fa25332c2569cd387851f568cc5a4b75a9adbfb37ac4fbce4c02eec/pillow-12.3.0-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:53aa02d20d10c3d814d536aa4e5ac9b84ca0ff5a88377963b085ad6822f93e64", size = 4783167, upload-time = "2026-07-01T11:56:06.631Z" },
+    { url = "https://files.pythonhosted.org/packages/13/4f/9e049dfa21af7c22427275720e2490267ba8138120add5c4c574deb69782/pillow-12.3.0-cp315-cp315t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:446c34dcc4324b084a53b705127dc15717b22c5e140ae0a3c38349d4efec071e", size = 6329237, upload-time = "2026-07-01T11:56:08.868Z" },
+    { url = "https://files.pythonhosted.org/packages/36/16/cf6eeaae8d0fce8dd390a33437cf68c5d5bd73834a2bc6e2f14efda0ab45/pillow-12.3.0-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:cf1845d02ad822a369a49f2bb9345b1614744267682e7a03527dc3bf6eea1777", size = 6997047, upload-time = "2026-07-01T11:56:11.379Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/69/dbf769bdd55f48bf5733cac28edc6364ffaa072ec9ba336266e4fe66be55/pillow-12.3.0-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:186941b6aef820ad110fb01fb06eb925374dc3a21b17e37ec9a53b250c6fe2d1", size = 6400440, upload-time = "2026-07-01T11:56:13.908Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/e1/ffc9cfc2eea0d178da8018e18e959301ad9d6bc9f3edb7181e748a474b97/pillow-12.3.0-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:f13c32a3abd6079a66d9526e18dad9b6d280384d49d7c54040cd57b6424041d9", size = 7105895, upload-time = "2026-07-01T11:56:16.575Z" },
+    { url = "https://files.pythonhosted.org/packages/18/f0/a5595c1e8c3ae44b9828cb2f0fa8155e5095ef04d6327b8f61cf44a3df85/pillow-12.3.0-cp315-cp315t-win32.whl", hash = "sha256:1657923d2d45afb66526e5b933e5b3052e6bdea196c90d3abb2424e18c77dae8", size = 6474384, upload-time = "2026-07-01T11:56:18.855Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/04/62bcd9f844984c5938d3b05264a61d797a29d3e0812341a8204af70bbdee/pillow-12.3.0-cp315-cp315t-win_amd64.whl", hash = "sha256:8cd2f7bdda092d99c9fc2fb7391354f306d01443d22785d0cbfafa2e2c8bb418", size = 7243537, upload-time = "2026-07-01T11:56:21.214Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/68/1f3066acedf37673694a7141381d8f811ae97f30d34413d236abe7d489f1/pillow-12.3.0-cp315-cp315t-win_arm64.whl", hash = "sha256:06ff022112bc9cbf83b60f8e028d94ad87b60621706487e65f673de61610ab59", size = 2567491, upload-time = "2026-07-01T11:56:23.506Z" },
+]
+
+[[package]]
+name = "pycparser"
+version = "3.11"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/da/a8/c5fdbeee588bb8ada9458774f43adf1bdd30bd59157055142183e769a024/pycparser-3.11.tar.gz", hash = "sha256:d875f09c3507d00e1aba0eecc6dcadc1352f30fff09dc6bff2f1c2935e97c2bc", size = 113796, upload-time = "2026-10-09T12:56:59.539Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl", hash = "sha256:51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80", size = 51178, upload-time = "2026-10-09T12:56:58.131Z" },
+]
+
+[[package]]
+name = "pyglet"
+version = "3.0.dev11"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4d/7b/4a2a710751730fd5b9a26af610436e3eab8d767252e37c77e721b1b48e91/pyglet-3.0.dev11.tar.gz", hash = "sha256:e8bb6d4e5f1eb34da4fba30d2786b9c823e84f780db8ef76b60ffc975e51ef00", size = 1502390, upload-time = "2026-09-25T09:37:48.713Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7d/1b/9a654be062972d403c0c1aaaa5d26a84f2ff8e823b497852398bfffeedbe/pyglet-3.0.dev11-py3-none-any.whl", hash = "sha256:13f0bd3b286bf33ed5aa4de6df687512e136676080b5f991b01ead5c37df0432", size = 1662636, upload-time = "2026-09-25T09:37:45.816Z" },
+]
+
+[[package]]
+name = "pymunk"
+version = "7.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cffi" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/29/47/6e510f1e6809efdf6f0cc55f4f0cf13a8a4d0b3c093198a10ef6dbecf554/pymunk-7.3.1.tar.gz", hash = "sha256:d36f10ac78355b5f4798d5b17e32100a1a1230258b1f37008f778ece72ddb719", size = 3580833, upload-time = "2026-10-11T13:18:41.155Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5b/6f/23bd073793d72b3cac497711408d33989ca8683cc63baea0cdac778a1162/pymunk-7.3.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:b71c4b6ff68de8d30e69727302c22f81d4b4289d4c53dcd607961e63c73b82a3", size = 372330, upload-time = "2026-10-11T13:16:50.651Z" },
+    { url = "https://files.pythonhosted.org/packages/df/e5/703e608b416aab05daf5d7ee2371d3ab03b6e2edee5bcedc604e5f518ebb/pymunk-7.3.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:4655303a5e9076762c3e837af7b5b1fa9c08f09e0624a1ac485f91620489c38e", size = 352829, upload-time = "2026-10-11T13:16:52.774Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/e1/ec3cb71c8fc6d6377eb0f36b2fadcf9913fc5ea82825795d8cd1c0267bcd/pymunk-7.3.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:11d45bf39294670177899d16be1ae9e86d74bd3a3ff92b22ffb2079808bbb65b", size = 985924, upload-time = "2026-10-11T13:16:55.305Z" },
+    { url = "https://files.pythonhosted.org/packages/69/5b/76b7ea09663d99cbd83e3240916d3a4414beb4d6b64af45660457acce92a/pymunk-7.3.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:9d5999e483a0551dc26e0d5517055b280ed899e3e52de0d073f44cc2cd4c8aa5", size = 1013103, upload-time = "2026-10-11T13:16:57.907Z" },
+    { url = "https://files.pythonhosted.org/packages/6b/eb/d1884c06992eab8407b68f78149a879e52be5cbb9061a44be6eba157bdc4/pymunk-7.3.1-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:8578f7a59acdd94509e4cba496b7f443b75b91313e7ce03dbb8b76dedac0b085", size = 983447, upload-time = "2026-10-11T13:17:00.695Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/f5/34cb53b1e45eb69ddd5a02ba6514e24addb9456f8ffbb4517b77d8a2e463/pymunk-7.3.1-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:6ec4f2d269fde03fb0309cb5a705f5c854c64dc98cd1336b1959a97311bf68a3", size = 1012979, upload-time = "2026-10-11T13:17:03.93Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/b8/4a18c171c8c4ada626b5f88d440fc468b1de49817711e195ed556a7989ec/pymunk-7.3.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl", hash = "sha256:dedd9ea9aba1e916bfbee7bf7450c5e04fe387fcd21bfecc8cd4b3c6f9c96bb3", size = 219103, upload-time = "2026-10-11T13:17:05.9Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/dc/eb67a3f77cbc5f8e477dd2ed60467db696f3f747c16c4551e67f1801284a/pymunk-7.3.1-cp314-cp314-win32.whl", hash = "sha256:ca4716c4f8cb8e5e5fa9dffbe83c91e61aaebb98bc34000c4da0a78f8946a539", size = 322812, upload-time = "2026-10-11T13:17:07.72Z" },
+    { url = "https://files.pythonhosted.org/packages/18/80/6908a6797aa9758929807bc7e320c7aec202c3966c08e7e276991bcffde3/pymunk-7.3.1-cp314-cp314-win_amd64.whl", hash = "sha256:6d44eaaf6199295df800498ed7875fc596613543abc94bd4ed2d15dc3ac2d9a7", size = 376117, upload-time = "2026-10-11T13:17:09.773Z" },
+    { url = "https://files.pythonhosted.org/packages/ab/68/4396f09e16d8bb4690d2532c7de84735704e1d88b2b9caa671026c514e6d/pymunk-7.3.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:fd14158bcfa5622d2274f6b4f02aa9f838bed477fd484a398f004bfc223b56d3", size = 373087, upload-time = "2026-10-11T13:17:12.17Z" },
+    { url = "https://files.pythonhosted.org/packages/67/d6/47d0cdd85ac00d80b09c189c064eddca0958fa8b7847cfd96f2f6f9508da/pymunk-7.3.1-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:049b6866994321f36871971d8badee3a4b713c4b2aff761a0e19a24b3deaebbd", size = 353304, upload-time = "2026-10-11T13:17:14.5Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/bc/d14ed9a3325c0ce93d583ce451573488943c312dc1b69751015e8b322878/pymunk-7.3.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b14e2c76bce4eb02f7958d1cad414e424539df961d3ba442198bf4c8baa81f0a", size = 1017620, upload-time = "2026-10-11T13:17:17.241Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/f5/1f4d0300d913708026db17277cd1436442e28bfb52f53d8c38c2accd3b2d/pymunk-7.3.1-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:31500c3db6e3ba712f662aec7a38d18be68ce439f3d43161a8bd329db531a6ad", size = 1041646, upload-time = "2026-10-11T13:17:19.746Z" },
+    { url = "https://files.pythonhosted.org/packages/46/29/390d681d72052bfc018b9a36ca4746e7f7e879a6c91f4258da27144e6c05/pymunk-7.3.1-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:a73016a291de1cc9717302d6c14350b3dd116b1c0139c17473b527c50d974501", size = 1015161, upload-time = "2026-10-11T13:17:22.904Z" },
+    { url = "https://files.pythonhosted.org/packages/9c/e6/6d38e6371b8e55d964807e9f4bb01a5abfabdc5cf138d855de0c0ff1433e/pymunk-7.3.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:9098511563d234fd0fde75a9bc00637bc257419af0158699b586e80dc7d3c88f", size = 1039738, upload-time = "2026-10-11T13:17:25.537Z" },
+    { url = "https://files.pythonhosted.org/packages/78/1b/7ab6fb57ccc9fbf459ec8175c4c4655ac77209595c3c6910b9275e5361f8/pymunk-7.3.1-cp314-cp314t-win32.whl", hash = "sha256:42c2c0ce93c27a463f21a6208500bf6ba5f198d58844aa19c6fe5bcf59a1075d", size = 324012, upload-time = "2026-10-11T13:17:27.572Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/52/8e406746416905708ecac380c052c3053261dae088940047eef18a72f4db/pymunk-7.3.1-cp314-cp314t-win_amd64.whl", hash = "sha256:3417cd45fa5a34efd20fba354a8eab092e9d03d2f3f61c407c415c4429c15b42", size = 377055, upload-time = "2026-10-11T13:17:29.49Z" },
+    { url = "https://files.pythonhosted.org/packages/76/80/ad316cfa5bf89af0f8b17ce9844ce8cee36068aa29428b3dee077c9ed418/pymunk-7.3.1-cp315-cp315-ios_13_0_arm64_iphoneos.whl", hash = "sha256:55a0e3f025050bbc9b61710c7e8e3a847fd443dbe85995c918b019e3f61f58b0", size = 288763, upload-time = "2026-10-11T13:17:31.421Z" },
+    { url = "https://files.pythonhosted.org/packages/43/cb/6a3449952bd41759375a19c69ba98429f7bfc1c8f8b9a08c0b28fcd019bf/pymunk-7.3.1-cp315-cp315-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:7671ec94eef9da827498d0bb3942685268a8bea6fbd824b98e9dab039d3eb74f", size = 292381, upload-time = "2026-10-11T13:17:33.178Z" },
+    { url = "https://files.pythonhosted.org/packages/61/ca/815d0d2ddeedc7aa5771d0da9cda7c8ce25116ae82efb72e0570c78c8bb2/pymunk-7.3.1-cp315-cp315-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:380c9a07f856b1b99f5fc5eabfcfe3e1e366fb20a9b93087eec14a2d55e38203", size = 310868, upload-time = "2026-10-11T13:17:35.321Z" },
+    { url = "https://files.pythonhosted.org/packages/43/cd/aafd165f9d797e010d2a3e58a8b2301ff8fdd09c4a391565835a824b9118/pymunk-7.3.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:c6cb932871d673ea28b6a198af92ffa2ee32d19733f67a1bfa1823e80938fa06", size = 372353, upload-time = "2026-10-11T13:17:37.554Z" },
+    { url = "https://files.pythonhosted.org/packages/25/5e/fa875c4514109ce1be113aaae4ac487b1b4b174badc064e00d9c5a4c01f8/pymunk-7.3.1-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:83de3d385adf8fb2f7111f7cd89c92ba988387d2b8eee6c859807cef605cb765", size = 354041, upload-time = "2026-10-11T13:17:39.463Z" },
+    { url = "https://files.pythonhosted.org/packages/b5/a9/75d818190c9553e70bda999c23dd81be8ed077800c508422584bb048ab02/pymunk-7.3.1-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5522e177e27e19873c821b25bbb7f02ad9128dec5ace1e89d2b7ee5fe7b10109", size = 987576, upload-time = "2026-10-11T13:17:42.032Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/43/08f0d7c4aad6c6d4f98ba87aebe34cbb623613d8c912228a107188b1583b/pymunk-7.3.1-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:f5e294f8866371b05ea9a81bbf66cad0289392a4ef927a30f9ab2ebf13b21baf", size = 1014988, upload-time = "2026-10-11T13:17:46.202Z" },
+    { url = "https://files.pythonhosted.org/packages/11/18/717fad34730c4b10b8f2c933d91cfb02a4b20fd368b5e5f7fe41e4ad47d5/pymunk-7.3.1-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:5db897e12a069616de18eeb6c067ce3a0035fc2eff11cbc3597a475d450e0de3", size = 985549, upload-time = "2026-10-11T13:17:49.407Z" },
+    { url = "https://files.pythonhosted.org/packages/87/14/7252dd9b7ad57e3d0a857733f7169683b4784657e5d86360b3f104e552cb/pymunk-7.3.1-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:437f196cf9450eb414e696191299e7ab916c9c4d736ebf346c737519e89c706f", size = 1013466, upload-time = "2026-10-11T13:17:52.609Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/36/5f19d5231362fd9ec66073c0bd26010285b4e6e5b98f66421c5de5ec45e4/pymunk-7.3.1-cp315-cp315-win32.whl", hash = "sha256:f3f9b2153aa38d8f8f110c9d26b1f46108e82edad4166f9f2c152e35d719f335", size = 322804, upload-time = "2026-10-11T13:17:54.951Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/da/e23ae23355a9e7d1ce46fe305cd172700b088e007730c2a9fda7e94da3a0/pymunk-7.3.1-cp315-cp315-win_amd64.whl", hash = "sha256:d430ffb3f9a3cee082744ae6283a84c4998a8cef960bc69fe8e91532207fb5a9", size = 376111, upload-time = "2026-10-11T13:17:57.237Z" },
+    { url = "https://files.pythonhosted.org/packages/6c/56/08ed81eea77de44a03ba39ba5d1682257bca064226527457ad98bfd09209/pymunk-7.3.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:f7a7b059ebe4c4904ee4ae85708e01eeb56fc7bc7ec38c12ad5b974da502b202", size = 372671, upload-time = "2026-10-11T13:17:59.069Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/c2/0f3d8cd316d23dbe006dcdcff9e9d7e5d809afaac1c5db8326230ea63bb8/pymunk-7.3.1-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:bd24156a414b36d7e90f95c6a588829c9a635f63332a97b0c0469bdb7b3cd554", size = 355417, upload-time = "2026-10-11T13:18:01.153Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/8f/3ac13b11b3a1d30becfeb4e681b75091a628dfcd4a7133ce229667f6061d/pymunk-7.3.1-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:ddbecc854ee3928f73fddd3698d271b1ae316c582f838300f902760d6f938e04", size = 990057, upload-time = "2026-10-11T13:18:04.335Z" },
+    { url = "https://files.pythonhosted.org/packages/49/bd/78e5955eb1315101423492de09c2533f61fd26f8bf9fc6af45ef0d5f2657/pymunk-7.3.1-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:798f0433c00717950573467b3363dc9aaf7dea03e62adba8220e67f664365db7", size = 1017849, upload-time = "2026-10-11T13:18:07.367Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/7b/bb77299d07f6480be1cc4a63b2aca862d7d3d66467946b89be760044fdf0/pymunk-7.3.1-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:746eaa31229c6c47df4257e143e8e9187fe3aa725f513db23a10ea45fb946e24", size = 987622, upload-time = "2026-10-11T13:18:10.351Z" },
+    { url = "https://files.pythonhosted.org/packages/85/5f/6ea0e5f33b93b62da37371ff6f6757dd8b2ac3bab09be46d3f2bb4631267/pymunk-7.3.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:4d6790bb3bbed178705e681a813037d9aef7f2d6f3c4517d84aac2ed05ff041f", size = 1015895, upload-time = "2026-10-11T13:18:13.308Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/5a/c1b12cb0f73ff7641bcf486fac80c3435afd4c059ffcefd37fa08e5a2808/pymunk-7.3.1-cp315-cp315t-win32.whl", hash = "sha256:56cd93ef8c6e4826f931cd087c60cfff9a3071a5fda7d129e3c09fa9a5be3fb9", size = 322704, upload-time = "2026-10-11T13:18:15.167Z" },
+    { url = "https://files.pythonhosted.org/packages/1f/0a/7aa87e82e1d536b6ec0f9aaac22b7e3283fb8df20c4b9c89d9bda48cd926/pymunk-7.3.1-cp315-cp315t-win_amd64.whl", hash = "sha256:d2ce8ea8a773262188da829478b6c3ac9f58197886beaa05079eeb29861198ab", size = 376832, upload-time = "2026-10-11T13:18:16.914Z" },
+]
+
+[[package]]
+name = "pyparsing"
+version = "3.3.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e4/11/b213bebff182584360cb8d17c72c1677fec5c5c228de439e63bcf8ab1c8f/pyparsing-3.3.3.tar.gz", hash = "sha256:928ae7e20211f3b6f3915a72f06a0cfd29ab9d24279dd6346b6b1a7146397d36", size = 1050487, upload-time = "2026-09-20T20:59:05.609Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl", hash = "sha256:ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4", size = 126420, upload-time = "2026-09-20T20:59:04.025Z" },
+]
+
+[[package]]
+name = "python-chess"
+version = "1.999"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "chess" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5f/60/7c7d132b6683ff215bf705fc55ffc0240a6cddea89657407ca0a4fb628d0/python-chess-1.999.tar.gz", hash = "sha256:8cad0388c42242d890ac6368ad64def15cd0165db033df0ad479492e266e5e6c", size = 1453, upload-time = "2020-10-26T11:30:10.118Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/38/47/dfebc06e589530691d33c71bc7b3d8d311252b58ae338980fd4327fe77f2/python_chess-1.999-py3-none-any.whl", hash = "sha256:93b562f8f1124cb7bf56fb095e18743758e69dc6a028ccda0badcaa5c59d88c8", size = 1401, upload-time = "2020-10-26T11:30:07.758Z" },
+]
+
+[[package]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432, upload-time = "2024-03-01T18:36:20.211Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892, upload-time = "2024-03-01T18:36:18.57Z" },
+]
+
+[[package]]
+name = "pytiled-parser"
+version = "2.2.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "attrs" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/79/62/0d8a2220ee0747522f3b73e4f38bea7c78aefdf707afb86decf26f799fc5/pytiled_parser-2.2.9.tar.gz", hash = "sha256:225269fdd37afcbcd3b76ea3e2cab6b1e742387027106055990db43fd7451ebd", size = 45958, upload-time = "2025-01-23T18:43:30.538Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d7/f7/6b6c51b50ed8681a31146e5e7ac325b78fe776ff48b1ec8f56d7e4995d72/pytiled_parser-2.2.9-py2.py3-none-any.whl", hash = "sha256:37f73d31950bf4d02ee3bda59f3d6123c55194dc8d8e876821dd2080af5f1f91", size = 44452, upload-time = "2025-01-23T18:43:28.207Z" },
+]
+
+[[package]]
+name = "pywinstyles"
+version = "1.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/5b/c3356335b7f60a940c3e9c1aa6f3b6407af10b26c763739933c500937dbe/pywinstyles-1.8.tar.gz", hash = "sha256:7a087b1f45ef8d572b440712817dbbef8ae90793ab7fcc51b060851d2d6f301c", size = 10514, upload-time = "2024-04-22T06:18:18.065Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/37/be473b2d3bde387ef39e57b3ebabadfaaf0627333814e0c3813dac686f5e/pywinstyles-1.8-py3-none-any.whl", hash = "sha256:17d89c6bc91569b676b71c00400ec958548302809858966c4cf447bb16a7e407", size = 10535, upload-time = "2024-04-22T06:18:15.816Z" },
+]
+
+[[package]]
+name = "pyxel"
+version = "2.9.9"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b5/1f/6c6d805e19210b1b69915429423ee4433953c1ba932ff5f82bf24cea50ce/pyxel-2.9.9-cp311-abi3-macosx_10_13_x86_64.whl", hash = "sha256:1cd599ce3a7c3f966f496aeb60ca16324403daf1eadfae0f0cd697eb79670b1f", size = 7420687, upload-time = "2026-08-12T07:50:59.079Z" },
+    { url = "https://files.pythonhosted.org/packages/76/1f/016f69a9dc5f2c110e05833d8262856008db095bc5b4014a936760fd7e9a/pyxel-2.9.9-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:fdd3eaa6cf8efc850a70691679566cc8ef33305a80f03ab3a6f57b4905cbe8ed", size = 6969838, upload-time = "2026-08-12T07:51:00.824Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/e4/0d1298cc729fd32e37988febe519aee19db8bacf5a5d8e37bb9d076bb7f0/pyxel-2.9.9-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:2a8c896dd8854eede7992c22878903333a69b6acfabb874f8aefbdee519c2ca1", size = 7494446, upload-time = "2026-08-12T07:51:02.137Z" },
+    { url = "https://files.pythonhosted.org/packages/82/26/193b61c745aebb0bcce069749aac3a6352292546a0f5912a3f7128b8c444/pyxel-2.9.9-cp311-abi3-manylinux_2_28_armv7l.whl", hash = "sha256:0842b47d825d4efc12c6c87ea36f5962a9534da4f87c8511f15a0a665e873f59", size = 7536812, upload-time = "2026-08-12T07:51:03.552Z" },
+    { url = "https://files.pythonhosted.org/packages/67/51/d7698d4686a0fd00233cd410b65b5e5a2d49a1a27a84cf8b7cdb3f9de307/pyxel-2.9.9-cp311-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:f63ef27bc2e92f085691c694a28ec774ba8b668bdf9c608fbaa9aae5c9d82518", size = 8166478, upload-time = "2026-08-12T07:51:04.92Z" },
+    { url = "https://files.pythonhosted.org/packages/78/e0/5ac960f97fd4710670cebee0f6aa2fc326d8225982f3cb5056c05910ce09/pyxel-2.9.9-cp311-abi3-win32.whl", hash = "sha256:518ae3d0bc3c4853fad830e0850cbebe22f39994f106bb1829260aabfa816618", size = 6996888, upload-time = "2026-08-12T07:51:07.865Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/74/041e1bd6a42cc9c529c2ace305534f70fbe58e808b64e4908196352e99e8/pyxel-2.9.9-cp311-abi3-win_amd64.whl", hash = "sha256:1a88a08c7bf06edcb8750b276fc13069d1fdbc6b999c455f4001500420406d17", size = 7533491, upload-time = "2026-08-12T07:51:06.445Z" },
+]
+
+[[package]]
+name = "ruff"
+version = "0.17.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e9/a7/70debb024dfacda67b8e560cc7511f52b34b9348a8cc8c1ec23036dcd51d/ruff-0.17.0.tar.gz", hash = "sha256:5cd03240d8208a557c2a9655a5cb07ebe36aa6bb35065f97d48c1f6adef5a322", size = 5320554, upload-time = "2026-10-09T19:47:29.248Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bc/f8/ee5ab9da6089eae2a33e6008b01deb1eda19992c1c8e10661e98cee1640f/ruff-0.17.0-py3-none-linux_armv6l.whl", hash = "sha256:0e271826af9a20d18c6cfae8c51e82959167c24859686ddd3eb9a7f0842ce81e", size = 10148907, upload-time = "2026-10-09T19:46:38.695Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/d9/2f81fb5a9d580afbb11b1c8ff915233a11f2a1b27405d7991f183c5e1976/ruff-0.17.0-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:5f0ca4a40f81403689c04f12966e22f44e329ae362072d8f1587b7bda87f603b", size = 10224208, upload-time = "2026-10-09T19:46:41.711Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/20/643f3c8f75594f937b2bf74801241c56a2e2b8e139d24dff8b66b28cdd7f/ruff-0.17.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:cbf7149e0927dc3295d5d64679a4765576eef71b00782b2ae969ef82274d6bb9", size = 9273324, upload-time = "2026-10-09T19:46:44.323Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/91/627700b233d367736cb274f1bd0b47d1f2b12f68878192812bd875adadc3/ruff-0.17.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:13ee90156522998c3037059d8f66885c8adeeaf7643bdce2caceee196ecd23e0", size = 9953190, upload-time = "2026-10-09T19:46:47.155Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/92/91f7b5ed39490f89d6cbf56e1f543c383667a725efa8e2c2dee0f01f5591/ruff-0.17.0-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:3d8e4a002a94cd9d0dc48b51dc69d807a172b5b9bf2b668e656424dc5b55ead1", size = 9961746, upload-time = "2026-10-09T19:46:50.098Z" },
+    { url = "https://files.pythonhosted.org/packages/87/c5/7310f9fc63ce11ff6394edbd5e85433dfb0e14c9fbf6ccc97f1538491bc7/ruff-0.17.0-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:c0b8a60c06a218c337e1161638d34757f83449243e2db161483ddf948e53ad14", size = 10625483, upload-time = "2026-10-09T19:46:53.379Z" },
+    { url = "https://files.pythonhosted.org/packages/a5/8d/97443f0dca4a03a0bc7629fd396fd494a1cb6666121e38c5075acb217d8f/ruff-0.17.0-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:a330178bdffc4205dbf3bda11d93e059e388fd6546f8cdd304501a9160363c0d", size = 11350129, upload-time = "2026-10-09T19:46:56.486Z" },
+    { url = "https://files.pythonhosted.org/packages/9c/0a/c525efd9777be4b6b012e6969a3012648468e7e6c4b3e5b46af69f46e8eb/ruff-0.17.0-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:7bb08489e234876fa2da67ae3ea938e9a2156da80293e0e4365abd6973d98329", size = 10906223, upload-time = "2026-10-09T19:47:00.263Z" },
+    { url = "https://files.pythonhosted.org/packages/2c/3c/4a01195d93420cad1175bedad13a515dc8a56f95a6e39789b92e582682f5/ruff-0.17.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc73e7c133e82d55b5f15897b2a442d72c0cb4a0c886c46801ce3c247150b60c", size = 10386314, upload-time = "2026-10-09T19:47:03.057Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/72/1a3951665485a921f6375f91e754a1854d5a645d41acc3642668064ff64d/ruff-0.17.0-py3-none-manylinux_2_31_riscv64.whl", hash = "sha256:db4f74c533403ab70fe4007873f6ae0c9f94a8b03158cf48d78788e47cdbe399", size = 10565464, upload-time = "2026-10-09T19:47:05.831Z" },
+    { url = "https://files.pythonhosted.org/packages/90/8c/539b4d8c082f57e18db8ae2be85a460d77861c79dcd5798e32b536a6a06f/ruff-0.17.0-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:3d8cc360e666d1914e47b0777c6906d70cf18891a55532bd0a16844195d70859", size = 10079468, upload-time = "2026-10-09T19:47:08.617Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/b8/84286966db79434e8c26b585b0a0f6897cb3ab1c51a4aa4df10c28488b62/ruff-0.17.0-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:d66de796b726c4801e05fa99a2a8d7a780e107be222486c304ab61765561e866", size = 9958556, upload-time = "2026-10-09T19:47:11.324Z" },
+    { url = "https://files.pythonhosted.org/packages/69/50/27b6eed27b83fcdd5bfa0d52b83231e29094754374698da404d094487ae3/ruff-0.17.0-py3-none-musllinux_1_2_i686.whl", hash = "sha256:c3f268baf004aea944f040623327119527ea231af15f7fb7890e82cea0679589", size = 10352173, upload-time = "2026-10-09T19:47:14.188Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/fa/955399fd13044cd827862044117d784a59e3196f6cce7424908ac9a7f914/ruff-0.17.0-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:864b6c1acb6b0bccf94b5a3938a1531fd09aaca5e5659a2e7bf0f3cf2a685540", size = 10791761, upload-time = "2026-10-09T19:47:16.931Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/bf/024e01e1f6aec87768696725e648ed5b438941341eea8f8100beb681961f/ruff-0.17.0-py3-none-win32.whl", hash = "sha256:5e50aa5b84decd9fe5b0bb0e6f71c3b592f1767ed09faa4b7207d933961e35cd", size = 9904112, upload-time = "2026-10-09T19:47:19.75Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/77/1ee73df41dcc8d1cdb686ee4bc46ea29704ea175feb6b95c78420f631ab8/ruff-0.17.0-py3-none-win_amd64.whl", hash = "sha256:8ab76bcda86dfd28e13776cb5de3c7bcdcf1ae3d37ed761113d1a5a415dc134c", size = 10115585, upload-time = "2026-10-09T19:47:22.698Z" },
+    { url = "https://files.pythonhosted.org/packages/fd/71/eb4f0ccc844aece56963e8578df9c95d4c00f580547d52329d4035d3af18/ruff-0.17.0-py3-none-win_arm64.whl", hash = "sha256:c154c73ff43f9854395e24cac507af13078962e53d2b511605058d22af1fdb88", size = 9872035, upload-time = "2026-10-09T19:47:26.306Z" },
+]
+
+[[package]]
+name = "scikit-learn"
+version = "1.9.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib" },
+    { name = "narwhals" },
+    { name = "numpy" },
+    { name = "scipy" },
+    { name = "threadpoolctl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/eb/eaf5e07fcc0da7149b0e084f24e54edd7441b9a89ce7e034032ae97fe3a0/scikit_learn-1.9.1.tar.gz", hash = "sha256:629cada3e33e2b9bf376cdc7614a47a4140b8aedc1d836579e359736fbd82977", size = 7786908, upload-time = "2026-09-10T18:34:04.679Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/64/e3/b58e45082dcf3dcf0eb1192ee03545ec43d8c98441dfe20e88afca8442ce/scikit_learn-1.9.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:d5d117952769b563067656784e03c75a2d8235a7a05cf7fffa78a311e75aac08", size = 8747414, upload-time = "2026-09-10T18:33:10.698Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/ed/d68115577c8b42b0442ebd8180945d4008880a33176094640e00b585128e/scikit_learn-1.9.1-cp314-cp314-macosx_12_0_arm64.whl", hash = "sha256:8893bc6331f60f18d4ac75e12ed356e2dcf6a564bf767918b5b7ca54c8c8be49", size = 8279175, upload-time = "2026-09-10T18:33:12.846Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/6c/06c7eb61a438e389cbf3f7210897069bec5a883dbe03c189ae792781e11a/scikit_learn-1.9.1-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b5492cf2df5226691c32611de8734bcf42148c6547ae53c7f4e6b847793addc0", size = 8881706, upload-time = "2026-09-10T18:33:14.741Z" },
+    { url = "https://files.pythonhosted.org/packages/86/4e/0bab75490ca4b85fad8388739c7ebc71d9db553f8c69e39943ee8db0aaae/scikit_learn-1.9.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:993d332ff80e62efae9e39603b7e872297c418d780f01a01855269a3489c950f", size = 9152030, upload-time = "2026-09-10T18:33:17.436Z" },
+    { url = "https://files.pythonhosted.org/packages/9a/13/31c6f8ba1b7eecef9dd9558576c752d2ec5785fd0e456bb9fc59305be23f/scikit_learn-1.9.1-cp314-cp314-win_amd64.whl", hash = "sha256:ca9051447455dae341d4d591eece7deb2d8e3d1020298fc87a81fc51e4da8f53", size = 8377024, upload-time = "2026-09-10T18:33:19.941Z" },
+    { url = "https://files.pythonhosted.org/packages/62/e6/6d3cb8a45f5228f915acd66b819dd6b8232ccbe24532f51d278e3991df31/scikit_learn-1.9.1-cp314-cp314-win_arm64.whl", hash = "sha256:90de6573f733a9fb79476ff1371af52a397d41c8b35f9146e20923db010d67b6", size = 8014196, upload-time = "2026-09-10T18:33:22.126Z" },
+    { url = "https://files.pythonhosted.org/packages/66/6e/6befb2d5961490d18d9dbc16a5df37aa121d08bc9893316a6a363977a903/scikit_learn-1.9.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:7b5cad1624de8b75e5b9ccb7b0ce1ff1d01306340a3efc56d5529c5ba92392eb", size = 9066066, upload-time = "2026-09-10T18:33:24.396Z" },
+    { url = "https://files.pythonhosted.org/packages/cb/18/11271f2f7db337db01f598e358721b1e83989407131272e5dd64214c28a8/scikit_learn-1.9.1-cp314-cp314t-macosx_12_0_arm64.whl", hash = "sha256:d137ce8a6142029fb5c35bd82f470c40cd9e760e5e2f7694b362c497c4ab3fa2", size = 8647654, upload-time = "2026-09-10T18:33:26.649Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/04/9c15d201e1b6a2e81b8215865df7646c5a360f560831769c8dc92ac1ab9a/scikit_learn-1.9.1-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:66f852f7325b5070bc28329005aca76055a2def78faac039548ae889aeaa45a6", size = 8889070, upload-time = "2026-09-10T18:33:28.95Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/5a/4cb6c85160af4a639e87a3b7bf8b1c25cfc3b504c5af710ca416a6dcfc5f/scikit_learn-1.9.1-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:748bcb0a4cc04aec470652c9e5ec68450948e867387e7dfade647107ade68d25", size = 9131227, upload-time = "2026-09-10T18:33:31.008Z" },
+    { url = "https://files.pythonhosted.org/packages/00/0e/361440972ae3d19b90ea88a84791138a51de0e8432a770ba741b2c8d9ced/scikit_learn-1.9.1-cp314-cp314t-win_amd64.whl", hash = "sha256:38cd925e893e5539be704d5edc64dbe081aacdab6b89d8c2977c1f6a7a453ce5", size = 8683001, upload-time = "2026-09-10T18:33:33.188Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/8f/a9f405c5c0e2df6f343a871b40c97fb32969e3ccc38e3033dd118f3c261e/scikit_learn-1.9.1-cp314-cp314t-win_arm64.whl", hash = "sha256:b01e5b01735d38474127ca3f49319b592506225a87793b27559816b5c75cea39", size = 8257996, upload-time = "2026-09-10T18:33:35.343Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/c5/74a83ea39cef7cd07f53e06cc1cf51e79f35df74f81db956835d59ec34b1/scikit_learn-1.9.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:8dec64f31a6e0ec826aca6c1b39a51e16d946e400d4c0904316f3ca72ccfb825", size = 8747991, upload-time = "2026-09-10T18:33:37.4Z" },
+    { url = "https://files.pythonhosted.org/packages/64/c9/cc93e8a7fe204e43d70e96e5eb89871643be20025eea05eb4fdaf19afe39/scikit_learn-1.9.1-cp315-cp315-macosx_12_0_arm64.whl", hash = "sha256:e1b468241f4a7a9a7a0d6479ad3cc47681cc151a4046c530f2777c3d68f08942", size = 8279340, upload-time = "2026-09-10T18:33:39.705Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/61/0c6080f0d356fb966053009e7f25e9bff6cf74b0b16195ccf0c3757d1ae8/scikit_learn-1.9.1-cp315-cp315-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:8ca869d0080a5723cde2d5a8b54a2da1ff7e68735a9e9adb3da1243183a0fa01", size = 8881917, upload-time = "2026-09-10T18:33:41.912Z" },
+    { url = "https://files.pythonhosted.org/packages/47/bb/98a31f10fffbd39edcc2f8bf4119b29652248bb110b7d45c84e68aa293ab/scikit_learn-1.9.1-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:6754b7cabfc3df0b1f7b38f7a344f559bbae9d82f0ac5e3d48cccbd19fdcefdf", size = 9152805, upload-time = "2026-09-10T18:33:44.23Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/48/858ceff52213cfd97c0a069362071756bcb70b9fac9771b38d87c4cf7f17/scikit_learn-1.9.1-cp315-cp315-win_amd64.whl", hash = "sha256:52cfdb1fed3a34362dbc0bd96f2e761a66fd5724d6901629f5a558f1f3bd9849", size = 8376719, upload-time = "2026-09-10T18:33:46.492Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/1e/5337a871bdea53effbd154b61429df048f2665653251de74a3bd8a6dea9e/scikit_learn-1.9.1-cp315-cp315-win_arm64.whl", hash = "sha256:ae6571a4828c6f5019bcd2b4125e5b18c0af3dbc9c99726c891f45f41335ec8e", size = 8014341, upload-time = "2026-09-10T18:33:48.762Z" },
+    { url = "https://files.pythonhosted.org/packages/0e/35/150383a42d83ec4c7b39f9c50bd68408ecf04c19fc30ea5198fa42e67d9c/scikit_learn-1.9.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:48fefd8eb42bd4eec3e2d348149368ccd6d71987e20c30706a56a24eb86a6e73", size = 9059953, upload-time = "2026-09-10T18:33:50.951Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/dd/aa0d738808540f7eaacfab93e01982db8ef1c1c7473ef0ad38193e6aebd1/scikit_learn-1.9.1-cp315-cp315t-macosx_12_0_arm64.whl", hash = "sha256:09f4d73049cd63575157f6b1060e06a8c83a4bd3488dbfaeedf35ccba7aad712", size = 8646602, upload-time = "2026-09-10T18:33:53.23Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/cc/687ae4214c2f598906c3b9fa5f86fbaf834b35e20360625528ff1b713f06/scikit_learn-1.9.1-cp315-cp315t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b3da53831534214322d9cb240fa6f390b36cf69eba727a6d4bd3238677630d70", size = 8880366, upload-time = "2026-09-10T18:33:55.764Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/03/82215cb78ad1c513a4498777571fb28444621ad26ef636287551767b7732/scikit_learn-1.9.1-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:caae15634feceafa2612566b109a3082d3293167fac388eedaf77bff66b51983", size = 9129640, upload-time = "2026-09-10T18:33:58.186Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/90/4b7af4efd7909a4a0524a9f18457e4eb2eb60616eff2c7627eda8e3cdceb/scikit_learn-1.9.1-cp315-cp315t-win_amd64.whl", hash = "sha256:ffbcbbbb44202fbe9bc64bced25a145759adb9ef010b3d37a8064958ac13df2a", size = 8678083, upload-time = "2026-09-10T18:34:00.354Z" },
+    { url = "https://files.pythonhosted.org/packages/31/27/068e484d4b83004302e0d9cfc1faca69bcc010d76fbb66a642446095af1b/scikit_learn-1.9.1-cp315-cp315t-win_arm64.whl", hash = "sha256:800dd22dd87fe97dcea484c24e85dd93cf1734d86bd74e668ad18f7967f4d1b5", size = 8259434, upload-time = "2026-09-10T18:34:02.678Z" },
+]
+
+[[package]]
+name = "scipy"
+version = "1.18.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz", hash = "sha256:52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307", size = 30781235, upload-time = "2026-08-21T23:28:50.599Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/06/d5/d8eb4e280ddb56a4ab2c6f02ee49b56b23f6e977cf0802fd6d68dbef14f5/scipy-1.18.1-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:83de5453a7799afc9048b4616bd085cef126e36412f0ea2f6370c36a2a3a51e7", size = 31090936, upload-time = "2026-08-21T23:25:28.686Z" },
+    { url = "https://files.pythonhosted.org/packages/2a/49/59ea385dc3a62ff498ddf3cfff7c2b41b0f9f9d3c4122b3f1dcb6d6327fe/scipy-1.18.1-cp314-cp314-macosx_12_0_arm64.whl", hash = "sha256:9554bcc6d715ee87a633a3cc8e7703c6628b100dd29cb8a2efc4c0533c7ff729", size = 28725221, upload-time = "2026-08-21T23:25:33.244Z" },
+    { url = "https://files.pythonhosted.org/packages/70/e8/6b0c288c50942d78193696c9f15f9a0874f5178aa0ddf40f83d9924b3e8d/scipy-1.18.1-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:011413b7426b75012840e35649e00fe0a2c3bae89fed433876e3a99251572efc", size = 20466839, upload-time = "2026-08-21T23:25:37.516Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/e0/54fd3793c729e3b936782f181b59cbb1205bf250ab605a16cb1ba61cdd5e/scipy-1.18.1-cp314-cp314-macosx_14_0_x86_64.whl", hash = "sha256:88f0e784020649f88ea48c9f5ddfa403bf9205820667c0914740b392035afb82", size = 23089121, upload-time = "2026-08-21T23:25:42.019Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/56/030af62bea3cf878e0028515dff78c123b01633606a879b63f42d2db99cc/scipy-1.18.1-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:2d3ab0e8c69a17dd3559eab8cbb88f258e285c94d572c2719033f90f83290c89", size = 34053851, upload-time = "2026-08-21T23:25:47.998Z" },
+    { url = "https://files.pythonhosted.org/packages/6b/89/2a844506d49651e9aa1af6ef95b6bd8031cb1d5a4375edec6155037e04cf/scipy-1.18.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ac0333bdf38309aa3dcbe7e3fa7ea29e7a2c37c6ea306a757b700ded8e4596ad", size = 35329183, upload-time = "2026-08-21T23:25:53.522Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/56/c7370c3640e92ac9613cbf26cb3f729f9b12ddf1727b55b94b53b24d6f48/scipy-1.18.1-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:911de823097db8b63f034299d12662db93344e6ffa0b881cbb57748974b70168", size = 35672551, upload-time = "2026-08-21T23:25:59.387Z" },
+    { url = "https://files.pythonhosted.org/packages/24/16/ec8536f351421f8bf60a1120930638f83790f4710b8230446aca3d6159d4/scipy-1.18.1-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:95298364e251be3e60249facbeeca03631d3bb7584f85879516ec55ac717b81f", size = 37469416, upload-time = "2026-08-21T23:26:05.432Z" },
+    { url = "https://files.pythonhosted.org/packages/52/94/d73da0d28f16c45bb9b0a5691b91610b0275c5ef0eb5e43c87cf2dc1bf31/scipy-1.18.1-cp314-cp314-win_amd64.whl", hash = "sha256:78a0d7c918e74a232394117160e7e3db503377572a45bcef8826e4ab8a35feba", size = 37362755, upload-time = "2026-08-21T23:26:11.366Z" },
+    { url = "https://files.pythonhosted.org/packages/89/25/e996e4dc74e10e227b1e14db5eaf6608bb6dd33884a64851c38f18dd4249/scipy-1.18.1-cp314-cp314-win_arm64.whl", hash = "sha256:cbf38d043c1aa4ab306e1ada6ab6eddacc3322a20b7af1b30bc93254b366fe09", size = 25036090, upload-time = "2026-08-21T23:26:15.887Z" },
+    { url = "https://files.pythonhosted.org/packages/fa/c9/c00213f92309d753b48903e6a451b87eb52ff5b7a16e789d1568bbf221c4/scipy-1.18.1-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:0fcb3c93519f27bb4f0c4b0f7802cdcaca7fcf93267b75edda2e9f4e8a55cbd7", size = 31485550, upload-time = "2026-08-21T23:26:20.776Z" },
+    { url = "https://files.pythonhosted.org/packages/74/b2/e3067c487982d4eeab2938928529410370c06fea84a4d3f4925e7d96647d/scipy-1.18.1-cp314-cp314t-macosx_12_0_arm64.whl", hash = "sha256:ddef79fb382df40104a19bb7151b3b23e57c1778fcf857c71ceecd9bd264513f", size = 29174642, upload-time = "2026-08-21T23:26:25.395Z" },
+    { url = "https://files.pythonhosted.org/packages/d5/ab/374c9fe2d1ec014e576c781a4b5d8e1ba340e8f6b4638c16f711d2b194f0/scipy-1.18.1-cp314-cp314t-macosx_14_0_arm64.whl", hash = "sha256:0e82073ecc7acc6436fac4b31674109c7e1d3e596789767eda01258a8c9e8123", size = 20916357, upload-time = "2026-08-21T23:26:30.112Z" },
+    { url = "https://files.pythonhosted.org/packages/90/38/223915c88a17317cafbf8ca2a42b11c265a9fb1e804aa665544132b5fe8a/scipy-1.18.1-cp314-cp314t-macosx_14_0_x86_64.whl", hash = "sha256:8bcf3c1ba5d6456e2effd30fcbd3459b044d683fcdac79a2e6830f0bdf7de487", size = 23482611, upload-time = "2026-08-21T23:26:34.846Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/d1/db0948da8ca57a80b36520ef0a768b967d99f3af65f4b6f1bf6362ad4dd4/scipy-1.18.1-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:cfbf154f2ba187f2ed6cce2639efff7d105f1140573642c0161615b6d91d6a87", size = 34143202, upload-time = "2026-08-21T23:26:40.4Z" },
+    { url = "https://files.pythonhosted.org/packages/87/53/39d046cc7574ed6acacb6bd5723e220107ece80bff12faaf3efc4ddeede4/scipy-1.18.1-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a1d33a7836f7ddc1993427966a0823468ec41bcbdb1a9f9942d1d7e57f803ba3", size = 35380876, upload-time = "2026-08-21T23:26:46.1Z" },
+    { url = "https://files.pythonhosted.org/packages/f9/da/32e0e799d875a85ca57d9bde6c78148afcc0e38276df683d95854eadc8c3/scipy-1.18.1-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:7f4b8bc363b6d65ee2152bec57568e3c52639bb34c46057b09857a307ed5e21d", size = 35770885, upload-time = "2026-08-21T23:26:51.533Z" },
+    { url = "https://files.pythonhosted.org/packages/88/2e/f97a666d362fee68b18f41c9c30ed502ca5c98b549749bfcb52a8b74d1eb/scipy-1.18.1-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:11c423f1049c5755ad4409af52a9ada1cff96fe9b50795d4af3619f292901239", size = 37525424, upload-time = "2026-08-21T23:26:56.751Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/d5/a9e765a84654ebba8479a1fd1b059ced1af72b168a3b2a3a46540ea38d20/scipy-1.18.1-cp314-cp314t-win_amd64.whl", hash = "sha256:c24acac1e18912761c4700239bbc1fd32f615af690f1584d49b35859be51324d", size = 37416961, upload-time = "2026-08-21T23:27:01.546Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/16/e79e0d1c63ef698879d85439d37e9fb434e3b804e506a6991038d086ebd9/scipy-1.18.1-cp314-cp314t-win_arm64.whl", hash = "sha256:9f2897bf7737392ad0d5213ea7b6add72a4edf5679b3153106aeb88b6507b3b9", size = 25331848, upload-time = "2026-08-21T23:27:05.884Z" },
+    { url = "https://files.pythonhosted.org/packages/be/4f/1bd37c883b67163e2ca1f60977a399500e6879c15defecac62831c8d078d/scipy-1.18.1-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:eb0dfcf4e28a99c12c999744a2ff67c9b06200e20401c7c88186e33552a46331", size = 31091484, upload-time = "2026-08-21T23:27:11.051Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/c5/ba929d7feb9b2332f96827c12e0e924b61973b59b4dea383b603372c65ce/scipy-1.18.1-cp315-cp315-macosx_12_0_arm64.whl", hash = "sha256:30f464bee641fa8e282577c7dce027308403213c6ca8270bba73285c91024bc5", size = 28725057, upload-time = "2026-08-21T23:27:15.9Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/19/68f1c50f609d955d230e66d25d02bd3e1e167ec540232135354fb9a4b9e3/scipy-1.18.1-cp315-cp315-macosx_14_0_arm64.whl", hash = "sha256:1bca3b943fc2567ea49cd02c99abde49da4d5178ec46f624bd8255cda8755beb", size = 20466734, upload-time = "2026-08-21T23:27:20.044Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/6d/319fa29b73d1802fa80b32a6eaf3f5be456ef81526da2716a9493bcb5501/scipy-1.18.1-cp315-cp315-macosx_14_0_x86_64.whl", hash = "sha256:c9d18a33309122074ea483dd92dd444189166b8b2ec429fe9ed5ac73c7a0aa23", size = 23089664, upload-time = "2026-08-21T23:27:24.345Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/db/30992f9b51a63de671daf3888ffd18378b6cb9ec9f2c972264238ffa7fd6/scipy-1.18.1-cp315-cp315-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:82f201b4c878551d48558337aab270d3c6cca5507b8737c8d8a608d234cccde0", size = 34054035, upload-time = "2026-08-21T23:27:29.409Z" },
+    { url = "https://files.pythonhosted.org/packages/91/d4/bf3e735dc0b9d5a8ff45079d2540e17d3aff7a2f0048dd8f552ffd031d2b/scipy-1.18.1-cp315-cp315-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:0ac49ea97594532dd44b7136094d35f5440fa06e6d9c6384a74c01764df388c5", size = 35333883, upload-time = "2026-08-21T23:27:34.293Z" },
+    { url = "https://files.pythonhosted.org/packages/19/93/12d78ce9f871fe945fca588d32644e6e63f553c2a35c564d73f3b22a3313/scipy-1.18.1-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:ceb30a00ce7c92d459819443d29ca486d882b83fb6738bdcbb2a1cce94ac5daa", size = 35673124, upload-time = "2026-08-21T23:27:39.059Z" },
+    { url = "https://files.pythonhosted.org/packages/70/cd/886219313a1012a48e6ae0ec4f302c837151beb92e1ff0d709ef8fdfc488/scipy-1.18.1-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:f29633129f9fa7e88a3f0fca835de2d030bfc9643f7799e1a0c46cee24d38fc7", size = 37470753, upload-time = "2026-08-21T23:27:44.435Z" },
+    { url = "https://files.pythonhosted.org/packages/17/6c/a776888ce618bee54fbde26172f0f46ac1da70d27b63861797fe78e1904b/scipy-1.18.1-cp315-cp315-win_amd64.whl", hash = "sha256:92c14f5bdbfb6216315ce33e78080474082de8b3830122ba97809bfbe65f75c0", size = 37361483, upload-time = "2026-08-21T23:27:49.334Z" },
+    { url = "https://files.pythonhosted.org/packages/ab/09/97b651691322ebee97999b017ffc18a15a0b815103844c97e8da9d469731/scipy-1.18.1-cp315-cp315-win_arm64.whl", hash = "sha256:e402cf31eb68f453dbb2d36fc6d722b33f24a55d68b2ae1d92fa6305ca71c298", size = 25035883, upload-time = "2026-08-21T23:27:53.596Z" },
+    { url = "https://files.pythonhosted.org/packages/ed/0f/9ec20467bbabd0d44e2a77d0fd3d124f884b4d67df92af82c91d2d6a486f/scipy-1.18.1-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:2a0b02f9fc46f8520330c23d45e6560db7e3a0d927232139427637f98943e11d", size = 31474926, upload-time = "2026-08-21T23:27:57.993Z" },
+    { url = "https://files.pythonhosted.org/packages/8a/58/dcb79161e56efbedc50079fcd2f5fe427a0ebb53022eb476aa73c015ad8f/scipy-1.18.1-cp315-cp315t-macosx_12_0_arm64.whl", hash = "sha256:1d73131e358976663dd969e1fb4ed1404b815cd977eaaedc3b3a133ba2d81c35", size = 29164940, upload-time = "2026-08-21T23:28:03.062Z" },
+    { url = "https://files.pythonhosted.org/packages/71/d3/1eeea80c817fcb8ef7bd4a05a58824977a0e57a375cfc3d7ea7c911c01ad/scipy-1.18.1-cp315-cp315t-macosx_14_0_arm64.whl", hash = "sha256:bff0b729edd992766136b34e39cc76bc2fad905aa58897ee72a9cd000a6d8443", size = 20906742, upload-time = "2026-08-21T23:28:07.642Z" },
+    { url = "https://files.pythonhosted.org/packages/54/46/e59350428b6099301a20128108c995e2eb175a43f383af9a346e38824f9b/scipy-1.18.1-cp315-cp315t-macosx_14_0_x86_64.whl", hash = "sha256:10ac20c69d880f77f375db44c22e3e6a644f9fefa291d4cd2fb9790a89fc99fd", size = 23472183, upload-time = "2026-08-21T23:28:12.109Z" },
+    { url = "https://files.pythonhosted.org/packages/89/31/cc91623fa98f0621766a0f0aaaadb2c66de74a7ea7e3837164f6e4354260/scipy-1.18.1-cp315-cp315t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:33a834464fdabc0f26a45508df31b3cc5d028e04dbf6c5ed398541418e0a12fe", size = 34130796, upload-time = "2026-08-21T23:28:17.906Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/3e/8572ef536957ddb8aa81bb4090d9e25f257e3b4e05d97deb54319deb8a3a/scipy-1.18.1-cp315-cp315t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:49023963c193dacee096301452f223ee24d86ec5807f8df93c0f7221d119e305", size = 35374253, upload-time = "2026-08-21T23:28:23.732Z" },
+    { url = "https://files.pythonhosted.org/packages/b5/c6/59fdeffb4f1435299f93d9dc8140b43ad2916e6cfc944be6c3041fcec86d/scipy-1.18.1-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:d84a09d0dad90ba6525d8ac1c2334b33e64bf3ccfe9e841f02feb867a22681e4", size = 35758543, upload-time = "2026-08-21T23:28:29.431Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/d9/135be205d9de8783193aff9cc3bf483a03a38e4b29432c954e8cb66ac14e/scipy-1.18.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:179ce34a8d0fe273d8883ba59e17e052247d08973dfcb743ca52bb1cce2d60b0", size = 37521946, upload-time = "2026-08-21T23:28:35.245Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/a2/5b7d5270621ab7cfa3f7766067bf95dc360b5efb6394694e8143b4156e2b/scipy-1.18.1-cp315-cp315t-win_amd64.whl", hash = "sha256:5632e3ae3d09197c446310cd5187de63e28448ce22f0f67b2b93d97503c0c230", size = 37408295, upload-time = "2026-08-21T23:28:40.724Z" },
+    { url = "https://files.pythonhosted.org/packages/63/ad/741c19fcb66755ff953daf9243af8480e4bf3d7fbe57583c178c7d2b6b51/scipy-1.18.1-cp315-cp315t-win_arm64.whl", hash = "sha256:eda632a7981f69730d6281f451db9c1c370993a2c0d7ddb43e2a809a2862b83a", size = 25319710, upload-time = "2026-08-21T23:28:45.713Z" },
+]
+
+[[package]]
+name = "six"
+version = "1.17.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
+]
+
+[[package]]
+name = "stockfish"
+version = "5.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/99/52/685fc4d2c68157579e6b6ed3afba844e4bb467f45a1856c178e6b0e8bc73/stockfish-5.2.0.tar.gz", hash = "sha256:86db6882d34759575af15b7f201914ac8bad95b87672628f7754d8cf39e5a989", size = 33101, upload-time = "2026-04-17T05:51:44.562Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/23/bd/45d33e109d0e822c16c73747d9a8a7fa7bd29dcae435cd13275ddc3bbe98/stockfish-5.2.0-py3-none-any.whl", hash = "sha256:0f733810f6e049ba96f85a517f7122cad22b389b57e054cb9cb6780575cb2447", size = 25830, upload-time = "2026-04-17T05:51:43.138Z" },
+]
+
+[[package]]
+name = "sv-ttk"
+version = "2.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4e/ca/9625914e7a7e58ce9f0d8d6a5eb29975bab077ce58a36cf86f863d188cd3/sv_ttk-2.6.1.tar.gz", hash = "sha256:47589d5e20398cf404e8362f24f3ed48f3830cd0ace056d83354fa25d8e4fe48", size = 49640, upload-time = "2025-06-08T16:14:21.333Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5b/36/32629d8bab9bccd54a36716a960ba1148fca4c1fd453370dba0b42d712ea/sv_ttk-2.6.1-py3-none-any.whl", hash = "sha256:8ca5944f95431a911986b00c54e7f44608f3f811382cd985fd14bb3e65f95d97", size = 50076, upload-time = "2025-06-08T16:14:20.402Z" },
+]
+
+[[package]]
+name = "threadpoolctl"
+version = "3.7.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/00/dc/6c58154c1c65f758ea979e7139cb76993a9cfc662d14e9be3c4a667cfb77/threadpoolctl-3.7.0.tar.gz", hash = "sha256:61348cfb77d53b9242e0017029244b559b810c142ced65b4e21eeca1843959a7", size = 31961, upload-time = "2026-09-15T15:46:20.263Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl", hash = "sha256:cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be", size = 26362, upload-time = "2026-09-15T15:46:19.168Z" },
+]
+
+[[package]]
+name = "tk"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/81/742b342fd642e672fbedecde725ba44db44e800dc4c936216c3c6729885a/tk-0.1.0.tar.gz", hash = "sha256:60bc8923d5d35f67f5c6bd93d4f0c49d2048114ec077768f959aef36d4ed97f8", size = 2247, upload-time = "2019-07-08T06:51:58.051Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1e/0b/029cbdb868bb555fed99bf6540fff072d500b3f895873709f25084e85e33/tk-0.1.0-py3-none-any.whl", hash = "sha256:703a69ff0d5ba2bd2f7440582ad10160e4a6561595d33457dc6caa79b9bf4930", size = 3879, upload-time = "2019-07-08T06:51:55.175Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5", size = 113555, upload-time = "2026-07-02T08:40:05.92Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8", size = 45571, upload-time = "2026-07-02T08:40:04.659Z" },
+]
+
+[[package]]
+name = "tzdata"
+version = "2026.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d9/68/f1b440335057bfce71b6e50a9d09445aa2ecbd08359a337976627b8409e7/tzdata-2026.5.tar.gz", hash = "sha256:8cc73c0a0bfca7dbfa59235d60b2eff82231dee33f53d206db1acd9173cfc0a7", size = 200404, upload-time = "2026-10-03T09:23:14.143Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl", hash = "sha256:b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac", size = 347996, upload-time = "2026-10-03T09:23:12.535Z" },
+]
 `},{type:`file`,name:`vite.config.js`,path:`vite.config.js`,language:`JavaScript`,content:`import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
@@ -48733,7 +50766,7 @@ export default defineConfig(({ mode }) => ({
 `}];function so(e,t=[]){return e.flatMap(e=>{let n={...e,ancestors:t};return e.type===`folder`?[n,...so(e.children,[...t,e])]:[n]})}var $=i(e(((e,t)=>{function n(e){return e instanceof Map?e.clear=e.delete=e.set=function(){throw Error(`map is read-only`)}:e instanceof Set&&(e.add=e.clear=e.delete=function(){throw Error(`set is read-only`)}),Object.freeze(e),Object.getOwnPropertyNames(e).forEach(t=>{let r=e[t],i=typeof r;(i===`object`||i===`function`)&&!Object.isFrozen(r)&&n(r)}),e}var r=class{constructor(e){e.data===void 0&&(e.data={}),this.data=e.data,this.isMatchIgnored=!1}ignoreMatch(){this.isMatchIgnored=!0}};function i(e){return e.replace(/&/g,`&amp;`).replace(/</g,`&lt;`).replace(/>/g,`&gt;`).replace(/"/g,`&quot;`).replace(/'/g,`&#x27;`)}function a(e,...t){let n=Object.create(null);for(let t in e)n[t]=e[t];return t.forEach(function(e){for(let t in e)n[t]=e[t]}),n}var o=`</span>`,s=e=>!!e.scope,c=(e,{prefix:t})=>{if(e.startsWith(`language:`))return e.replace(`language:`,`language-`);if(e.includes(`.`)){let n=e.split(`.`);return[`${t}${n.shift()}`,...n.map((e,t)=>`${e}${`_`.repeat(t+1)}`)].join(` `)}return`${t}${e}`},l=class{constructor(e,t){this.buffer=``,this.classPrefix=t.classPrefix,e.walk(this)}addText(e){this.buffer+=i(e)}openNode(e){if(!s(e))return;let t=c(e.scope,{prefix:this.classPrefix});this.span(t)}closeNode(e){s(e)&&(this.buffer+=o)}value(){return this.buffer}span(e){this.buffer+=`<span class="${e}">`}},u=(e={})=>{let t={children:[]};return Object.assign(t,e),t},d=class e{constructor(){this.rootNode=u(),this.stack=[this.rootNode]}get top(){return this.stack[this.stack.length-1]}get root(){return this.rootNode}add(e){this.top.children.push(e)}openNode(e){let t=u({scope:e});this.add(t),this.stack.push(t)}closeNode(){if(this.stack.length>1)return this.stack.pop()}closeAllNodes(){for(;this.closeNode(););}toJSON(){return JSON.stringify(this.rootNode,null,4)}walk(e){return this.constructor._walk(e,this.rootNode)}static _walk(e,t){return typeof t==`string`?e.addText(t):t.children&&(e.openNode(t),t.children.forEach(t=>this._walk(e,t)),e.closeNode(t)),e}static _collapse(t){typeof t!=`string`&&t.children&&(t.children.every(e=>typeof e==`string`)?t.children=[t.children.join(``)]:t.children.forEach(t=>{e._collapse(t)}))}},f=class extends d{constructor(e){super(),this.options=e}addText(e){e!==``&&this.add(e)}startScope(e){this.openNode(e)}endScope(){this.closeNode()}__addSublanguage(e,t){let n=e.root;t&&(n.scope=`language:${t}`),this.add(n)}toHTML(){return new l(this,this.options).value()}finalize(){return this.closeAllNodes(),!0}};function p(e){return e?typeof e==`string`?e:e.source:null}function m(e){return _(`(?=`,e,`)`)}function h(e){return _(`(?:`,e,`)*`)}function g(e){return _(`(?:`,e,`)?`)}function _(...e){return e.map(e=>p(e)).join(``)}function v(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function y(...e){return`(`+(v(e).capture?``:`?:`)+e.map(e=>p(e)).join(`|`)+`)`}function b(e){return RegExp(e.toString()+`|`).exec(``).length-1}function x(e,t){let n=e&&e.exec(t);return n&&n.index===0}var S=new RegExp(y(/\[(?:[^\\\]]|\\.)*\]/,/\(\?<(?![=!])[^>]+>/,/\(\?'[^']+'/,/\(\??/,/\\([1-9][0-9]*)/,/\\./));function C(e,{joinWith:t}){let n=0;return e.map(e=>{n+=1;let t=n,r=p(e),i=``;for(;r.length>0;){let e=S.exec(r);if(!e){i+=r;break}i+=r.substring(0,e.index),r=r.substring(e.index+e[0].length),e[0][0]===`\\`&&e[1]?i+=`\\`+String(Number(e[1])+t):(i+=e[0],(e[0]===`(`||/^\(\?[<']/.test(e[0]))&&n++)}return i}).map(e=>`(${e})`).join(t)}var w=/\b\B/,T=`[a-zA-Z]\\w*`,E=`[a-zA-Z_]\\w*`,D=`\\b\\d+(\\.\\d+)?`,O=`(-?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)`,k=`\\b(0b[01]+)`,A=`!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|<<|<<=|<=|<|===|==|=|>>>=|>>=|>=|>>>|>>|>|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~`,j=(e={})=>{let t=/^#![ ]*\//;return e.binary&&(e.begin=_(t,/.*\b/,e.binary,/\b.*/)),a({scope:`meta`,begin:t,end:/$/,relevance:0,"on:begin":(e,t)=>{e.index!==0&&t.ignoreMatch()}},e)},M={begin:`\\\\[\\s\\S]`,relevance:0},N={scope:`string`,begin:`'`,end:`'`,illegal:`\\n`,contains:[M]},P={scope:`string`,begin:`"`,end:`"`,illegal:`\\n`,contains:[M]},F={begin:/\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/},I=function(e,t,n={}){let r=a({scope:`comment`,begin:e,end:t,contains:[]},n);r.contains.push({scope:`doctag`,begin:`[ ]*(?=(TODO|FIXME|NOTE|BUG|OPTIMIZE|HACK|XXX):)`,end:/(TODO|FIXME|NOTE|BUG|OPTIMIZE|HACK|XXX):/,excludeBegin:!0,relevance:0});let i=y(`I`,`a`,`is`,`so`,`us`,`to`,`at`,`if`,`in`,`it`,`on`,/[A-Za-z]+['](d|ve|re|ll|t|s|n)/,/[A-Za-z]+[-][a-z]+/,/[A-Za-z][a-z]{2,}/);return r.contains.push({begin:_(/[ ]+/,`(`,i,/[.]?[:]?([.][ ]|[ ])/,`){3}`)}),r},L=I(`//`,`$`),R=I(`/\\*`,`\\*/`),z=I(`#`,`$`),B=Object.freeze({__proto__:null,APOS_STRING_MODE:N,BACKSLASH_ESCAPE:M,BINARY_NUMBER_MODE:{scope:`number`,begin:k,relevance:0},BINARY_NUMBER_RE:k,COMMENT:I,C_BLOCK_COMMENT_MODE:R,C_LINE_COMMENT_MODE:L,C_NUMBER_MODE:{scope:`number`,begin:O,relevance:0},C_NUMBER_RE:O,END_SAME_AS_BEGIN:function(e){return Object.assign(e,{"on:begin":(e,t)=>{t.data._beginMatch=e[1]},"on:end":(e,t)=>{t.data._beginMatch!==e[1]&&t.ignoreMatch()}})},HASH_COMMENT_MODE:z,IDENT_RE:T,MATCH_NOTHING_RE:w,METHOD_GUARD:{begin:`\\.\\s*[a-zA-Z_]\\w*`,relevance:0},NUMBER_MODE:{scope:`number`,begin:D,relevance:0},NUMBER_RE:D,PHRASAL_WORDS_MODE:F,QUOTE_STRING_MODE:P,REGEXP_MODE:{scope:`regexp`,begin:/\/(?=[^/\n]*\/)/,end:/\/[gimuy]*/,contains:[M,{begin:/\[/,end:/\]/,relevance:0,contains:[M]}]},RE_STARTERS_RE:A,SHEBANG:j,TITLE_MODE:{scope:`title`,begin:T,relevance:0},UNDERSCORE_IDENT_RE:E,UNDERSCORE_TITLE_MODE:{scope:`title`,begin:E,relevance:0}});function ee(e,t){e.input[e.index-1]===`.`&&t.ignoreMatch()}function te(e,t){e.className!==void 0&&(e.scope=e.className,delete e.className)}function ne(e,t){t&&e.beginKeywords&&(e.begin=`\\b(`+e.beginKeywords.split(` `).join(`|`)+`)(?!\\.)(?=\\b|\\s)`,e.__beforeBegin=ee,e.keywords=e.keywords||e.beginKeywords,delete e.beginKeywords,e.relevance===void 0&&(e.relevance=0))}function re(e,t){Array.isArray(e.illegal)&&(e.illegal=y(...e.illegal))}function V(e,t){if(e.match){if(e.begin||e.end)throw Error(`begin & end are not supported with match`);e.begin=e.match,delete e.match}}function ie(e,t){e.relevance===void 0&&(e.relevance=1)}var ae=(e,t)=>{if(!e.beforeMatch)return;if(e.starts)throw Error(`beforeMatch cannot be used with starts`);let n=Object.assign({},e);Object.keys(e).forEach(t=>{delete e[t]}),e.keywords=n.keywords,e.begin=_(n.beforeMatch,m(n.begin)),e.starts={relevance:0,contains:[Object.assign(n,{endsParent:!0})]},e.relevance=0,delete n.beforeMatch},oe=[`of`,`and`,`for`,`in`,`not`,`or`,`if`,`then`,`parent`,`list`,`value`],se=`keyword`;function ce(e,t,n=se){let r=Object.create(null);return typeof e==`string`?i(n,e.split(` `)):Array.isArray(e)?i(n,e):Object.keys(e).forEach(function(n){Object.assign(r,ce(e[n],t,n))}),r;function i(e,n){t&&(n=n.map(e=>e.toLowerCase())),n.forEach(function(t){let n=t.split(`|`);r[n[0]]=[e,le(n[0],n[1])]})}}function le(e,t){return t?Number(t):+!ue(e)}function ue(e){return oe.includes(e.toLowerCase())}var de={},fe=e=>{console.error(e)},pe=(e,...t)=>{console.log(`WARN: ${e}`,...t)},me=(e,t)=>{de[`${e}/${t}`]||(console.log(`Deprecated as of ${e}. ${t}`),de[`${e}/${t}`]=!0)},he=Error();function H(e,t,{key:n}){let r=0,i=e[n],a={},o={};for(let e=1;e<=t.length;e++)o[e+r]=i[e],a[e+r]=!0,r+=b(t[e-1]);e[n]=o,e[n]._emit=a,e[n]._multi=!0}function U(e){if(Array.isArray(e.begin)){if(e.skip||e.excludeBegin||e.returnBegin)throw fe(`skip, excludeBegin, returnBegin not compatible with beginScope: {}`),he;if(typeof e.beginScope!=`object`||e.beginScope===null)throw fe(`beginScope must be object`),he;H(e,e.begin,{key:`beginScope`}),e.begin=C(e.begin,{joinWith:``})}}function ge(e){if(Array.isArray(e.end)){if(e.skip||e.excludeEnd||e.returnEnd)throw fe(`skip, excludeEnd, returnEnd not compatible with endScope: {}`),he;if(typeof e.endScope!=`object`||e.endScope===null)throw fe(`endScope must be object`),he;H(e,e.end,{key:`endScope`}),e.end=C(e.end,{joinWith:``})}}function _e(e){e.scope&&typeof e.scope==`object`&&e.scope!==null&&(e.beginScope=e.scope,delete e.scope)}function W(e){_e(e),typeof e.beginScope==`string`&&(e.beginScope={_wrap:e.beginScope}),typeof e.endScope==`string`&&(e.endScope={_wrap:e.endScope}),U(e),ge(e)}function ve(e){function t(t,n){return new RegExp(p(t),`m`+(e.case_insensitive?`i`:``)+(e.unicodeRegex?`u`:``)+(n?`g`:``))}class n{constructor(){this.matchIndexes={},this.regexes=[],this.matchAt=1,this.position=0}addRule(e,t){t.position=this.position++,this.matchIndexes[this.matchAt]=t,this.regexes.push([t,e]),this.matchAt+=b(e)+1}compile(){this.regexes.length===0&&(this.exec=()=>null);let e=this.regexes.map(e=>e[1]);this.matcherRe=t(C(e,{joinWith:`|`}),!0),this.lastIndex=0}exec(e){this.matcherRe.lastIndex=this.lastIndex;let t=this.matcherRe.exec(e);if(!t)return null;let n=t.findIndex((e,t)=>t>0&&e!==void 0),r=this.matchIndexes[n];return t.splice(0,n),Object.assign(t,r)}}class r{constructor(){this.rules=[],this.multiRegexes=[],this.count=0,this.lastIndex=0,this.regexIndex=0}getMatcher(e){if(this.multiRegexes[e])return this.multiRegexes[e];let t=new n;return this.rules.slice(e).forEach(([e,n])=>t.addRule(e,n)),t.compile(),this.multiRegexes[e]=t,t}resumingScanAtSamePosition(){return this.regexIndex!==0}considerAll(){this.regexIndex=0}addRule(e,t){this.rules.push([e,t]),t.type===`begin`&&this.count++}exec(e){let t=this.getMatcher(this.regexIndex);t.lastIndex=this.lastIndex;let n=t.exec(e);if(this.resumingScanAtSamePosition()&&!(n&&n.index===this.lastIndex)){let t=this.getMatcher(0);t.lastIndex=this.lastIndex+1,n=t.exec(e)}return n&&(this.regexIndex+=n.position+1,this.regexIndex===this.count&&this.considerAll()),n}}function i(e){let t=new r;return e.contains.forEach(e=>t.addRule(e.begin,{rule:e,type:`begin`})),e.terminatorEnd&&t.addRule(e.terminatorEnd,{type:`end`}),e.illegal&&t.addRule(e.illegal,{type:`illegal`}),t}function o(n,r){let a=n;if(n.isCompiled)return a;[te,V,W,ae].forEach(e=>e(n,r)),e.compilerExtensions.forEach(e=>e(n,r)),n.__beforeBegin=null,[ne,re,ie].forEach(e=>e(n,r)),n.isCompiled=!0;let s=null;return typeof n.keywords==`object`&&n.keywords.$pattern&&(n.keywords=Object.assign({},n.keywords),s=n.keywords.$pattern,delete n.keywords.$pattern),s||=/\w+/,n.keywords&&=ce(n.keywords,e.case_insensitive),a.keywordPatternRe=t(s,!0),r&&(n.begin||=/\B|\b/,a.beginRe=t(a.begin),!n.end&&!n.endsWithParent&&(n.end=/\B|\b/),n.end&&(a.endRe=t(a.end)),a.terminatorEnd=p(a.end)||``,n.endsWithParent&&r.terminatorEnd&&(a.terminatorEnd+=(n.end?`|`:``)+r.terminatorEnd)),n.illegal&&(a.illegalRe=t(n.illegal)),n.contains||=[],n.contains=[].concat(...n.contains.map(function(e){return be(e===`self`?n:e)})),n.contains.forEach(function(e){o(e,a)}),n.starts&&o(n.starts,r),a.matcher=i(a),a}if(e.compilerExtensions||=[],e.contains&&e.contains.includes(`self`))throw Error("ERR: contains `self` is not supported at the top-level of a language.  See documentation.");return e.classNameAliases=a(e.classNameAliases||{}),o(e)}function ye(e){return e?e.endsWithParent||ye(e.starts):!1}function be(e){return e.variants&&!e.cachedVariants&&(e.cachedVariants=e.variants.map(function(t){return a(e,{variants:null},t)})),e.cachedVariants?e.cachedVariants:ye(e)?a(e,{starts:e.starts?a(e.starts):null}):Object.isFrozen(e)?a(e):e}var xe=`11.12.0`,G=class extends Error{constructor(e,t){super(e),this.name=`HTMLInjectionError`,this.html=t}},Se=i,Ce=a,we=Symbol(`nomatch`),Te=7,Ee=function(e){let t=Object.create(null),i=Object.create(null),a=[],o=!0,s=`Could not find the language '{}', did you forget to load/include a language module?`,c={disableAutodetect:!0,name:`Plain text`,contains:[]},l={ignoreUnescapedHTML:!1,throwUnescapedHTML:!1,noHighlightRe:/^(no-?highlight)$/i,languageDetectRe:/\blang(?:uage)?-([\w-]+)\b/i,classPrefix:`hljs-`,cssSelector:`pre code`,languages:null,__emitter:f};function u(e){return l.noHighlightRe.test(e)}function d(e){let t=e.className+` `;t+=e.parentNode?e.parentNode.className:``;let n=l.languageDetectRe.exec(t);if(n){let t=N(n[1]);return t||(pe(s.replace(`{}`,n[1])),pe(`Falling back to no-highlight mode for this block.`,e)),t?n[1]:`no-highlight`}return t.split(/\s+/).find(e=>u(e)||N(e))}function p(e,t,n){let r=``,i=``;typeof t==`object`?(r=e,n=t.ignoreIllegals,i=t.language):(me(`10.7.0`,`highlight(lang, code, ...args) has been deprecated.`),me(`10.7.0`,`Please use highlight(code, options) instead.
 https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(n=!0);let a={code:r,language:i};z(`before:highlight`,a);let o=a.result?a.result:v(a.language,a.code,n);return o.code=a.code,z(`after:highlight`,o),o}function v(e,n,i,a){let c=Object.create(null);function u(e,t){return e.keywords[t]}function d(){if(!A.keywords){M.addText(P);return}let e=0;A.keywordPatternRe.lastIndex=0;let t=A.keywordPatternRe.exec(P),n=``;for(;t;){n+=P.substring(e,t.index);let r=D.case_insensitive?t[0].toLowerCase():t[0],i=u(A,r);if(i){let[e,a]=i;if(M.addText(n),n=``,c[r]=(c[r]||0)+1,c[r]<=Te&&(F+=a),e.startsWith(`_`))n+=t[0];else{let n=D.classNameAliases[e]||e;m(t[0],n)}}else n+=t[0];e=A.keywordPatternRe.lastIndex,t=A.keywordPatternRe.exec(P)}n+=P.substring(e),M.addText(n)}function f(){if(P===``)return;let e=null;if(typeof A.subLanguage==`string`){if(!t[A.subLanguage]){M.addText(P);return}e=v(A.subLanguage,P,!0,j[A.subLanguage]),j[A.subLanguage]=e._top}else e=S(P,A.subLanguage.length?A.subLanguage:null);A.relevance>0&&(F+=e.relevance),M.__addSublanguage(e._emitter,e.language)}function p(){A.subLanguage==null?d():f(),P=``}function m(e,t){e!==``&&(M.startScope(t),M.addText(e),M.endScope())}function h(e,t){let n=1,r=t.length-1;for(;n<=r;){if(!e._emit[n]){n++;continue}let r=D.classNameAliases[e[n]]||e[n],i=t[n];r?m(i,r):(P=i,d(),P=``),n++}}function g(e,t){return e.scope&&typeof e.scope==`string`&&M.openNode(D.classNameAliases[e.scope]||e.scope),e.beginScope&&(e.beginScope._wrap?(m(P,D.classNameAliases[e.beginScope._wrap]||e.beginScope._wrap),P=``):e.beginScope._multi&&(h(e.beginScope,t),P=``)),A=Object.create(e,{parent:{value:A}}),A}function _(e,t,n){let i=x(e.endRe,n);if(i){if(e[`on:end`]){let n=new r(e);e[`on:end`](t,n),n.isMatchIgnored&&(i=!1)}if(i){for(;e.endsParent&&e.parent;)e=e.parent;return e}}if(e.endsWithParent)return _(e.parent,t,n)}function y(e){return A.matcher.regexIndex===0?(P+=e[0],1):(R=!0,0)}function b(e){let t=e[0],n=e.rule,i=new r(n),a=[n.__beforeBegin,n[`on:begin`]];for(let n of a)if(n&&(n(e,i),i.isMatchIgnored))return y(t);return n.skip?P+=t:(n.excludeBegin&&(P+=t),p(),!n.returnBegin&&!n.excludeBegin&&(P=t)),g(n,e),n.returnBegin?0:t.length}function C(e){let t=e[0],r=n.substring(e.index),i=_(A,e,r);if(!i)return we;let a=A;A.endScope&&A.endScope._wrap?(p(),m(t,A.endScope._wrap)):A.endScope&&A.endScope._multi?(p(),h(A.endScope,e)):a.skip?P+=t:(a.returnEnd||a.excludeEnd||(P+=t),p(),a.excludeEnd&&(P=t));do A.scope&&M.closeNode(),!A.skip&&!A.subLanguage&&(F+=A.relevance),A=A.parent;while(A!==i.parent);return i.starts&&g(i.starts,e),a.returnEnd?0:t.length}function w(){let e=[];for(let t=A;t!==D;t=t.parent)t.scope&&e.unshift(t.scope);e.forEach(e=>M.openNode(e))}let T={};function E(t,r){let a=r&&r[0];if(P+=t,a==null)return p(),0;if(T.type===`begin`&&r.type===`end`&&T.index===r.index&&a===``){if(P+=n.slice(r.index,r.index+1),!o){let t=Error(`0 width match regex (${e})`);throw t.languageName=e,t.badRule=T.rule,t}return 1}if(T=r,r.type===`begin`)return b(r);if(r.type===`illegal`&&!i){let e=Error(`Illegal lexeme "`+a+`" for mode "`+(A.scope||`<unnamed>`)+`"`);throw e.mode=A,e}if(r.type===`end`){let e=C(r);if(e!==we)return e}if(r.type===`illegal`&&a===``)return r.index===n.length||(P+=`
 `),1;if(L>1e5&&L>r.index*3)throw Error(`potential infinite loop, way more iterations than matches`);return P+=a,a.length}let D=N(e);if(!D)throw fe(s.replace(`{}`,e)),Error(`Unknown language: "`+e+`"`);let O=ve(D),k=``,A=a||O,j={},M=new l.__emitter(l);w();let P=``,F=0,I=0,L=0,R=!1;try{if(D.__emitTokens)D.__emitTokens(n,M);else{for(A.matcher.considerAll();;){L++,R?R=!1:A.matcher.considerAll(),A.matcher.lastIndex=I;let e=A.matcher.exec(n);if(!e)break;let t=E(n.substring(I,e.index),e);I=e.index+t}E(n.substring(I))}return M.finalize(),k=M.toHTML(),{language:e,value:k,relevance:F,illegal:!1,_emitter:M,_top:A}}catch(t){if(t.message&&t.message.includes(`Illegal`))return{language:e,value:Se(n),illegal:!0,relevance:0,_illegalBy:{message:t.message,index:I,context:n.slice(I-100,I+100),mode:t.mode,resultSoFar:k},_emitter:M};if(o)return{language:e,value:Se(n),illegal:!1,relevance:0,errorRaised:t,_emitter:M,_top:A};throw t}}function b(e){let t={value:Se(e),illegal:!1,relevance:0,_top:c,_emitter:new l.__emitter(l)};return t._emitter.addText(e),t}function S(e,n){n=n||l.languages||Object.keys(t);let r=b(e),i=n.filter(N).filter(F).map(t=>v(t,e,!1));i.unshift(r);let[a,o]=i.sort((e,t)=>{if(e.relevance!==t.relevance)return t.relevance-e.relevance;if(e.language&&t.language){if(N(e.language).supersetOf===t.language)return 1;if(N(t.language).supersetOf===e.language)return-1}return 0}),s=a;return s.secondBest=o,s}function C(e,t,n){let r=t&&i[t]||n;e.classList.add(`hljs`),e.classList.add(`language-${r}`)}function w(e){let t=null,n=d(e);if(u(n))return;if(z(`before:highlightElement`,{el:e,language:n}),e.dataset.highlighted){console.log("Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",e);return}if(e.children.length>0&&(l.ignoreUnescapedHTML||(console.warn(`One of your code blocks includes unescaped HTML. This is a potentially serious security risk.`),console.warn(`https://github.com/highlightjs/highlight.js/wiki/security`),console.warn(`The element with unescaped HTML:`),console.warn(e)),l.throwUnescapedHTML))throw new G(`One of your code blocks includes unescaped HTML.`,e.innerHTML);t=e;let r=t.textContent,i=n?p(r,{language:n,ignoreIllegals:!0}):S(r);e.innerHTML=i.value,e.dataset.highlighted=`yes`,C(e,n,i.language),e.result={language:i.language,re:i.relevance,relevance:i.relevance},i.secondBest&&(e.secondBest={language:i.secondBest.language,relevance:i.secondBest.relevance}),z(`after:highlightElement`,{el:e,result:i,text:r})}function T(e){l=Ce(l,e)}let E=()=>{k(),me(`10.6.0`,`initHighlighting() deprecated.  Use highlightAll() now.`)};function D(){k(),me(`10.6.0`,`initHighlightingOnLoad() deprecated.  Use highlightAll() now.`)}let O=!1;function k(){function e(){k()}if(document.readyState===`loading`){O||window.addEventListener(`DOMContentLoaded`,e,!1),O=!0;return}document.querySelectorAll(l.cssSelector).forEach(w)}function A(n,r){let i=null;try{i=r(e)}catch(e){if(fe(`Language definition for '{}' could not be registered.`.replace(`{}`,n)),o)fe(e);else throw e;i=c}i.name||(i.name=n),t[n]=i,i.rawDefinition=r.bind(null,e),i.aliases&&P(i.aliases,{languageName:n})}function j(e){delete t[e];for(let t of Object.keys(i))i[t]===e&&delete i[t]}function M(){return Object.keys(t)}function N(e){return e=(e||``).toLowerCase(),t[e]||t[i[e]]}function P(e,{languageName:t}){typeof e==`string`&&(e=[e]),e.forEach(e=>{i[e.toLowerCase()]=t})}function F(e){let t=N(e);return t&&!t.disableAutodetect}function I(e){e[`before:highlightBlock`]&&!e[`before:highlightElement`]&&(e[`before:highlightElement`]=t=>{e[`before:highlightBlock`](Object.assign({block:t.el},t))}),e[`after:highlightBlock`]&&!e[`after:highlightElement`]&&(e[`after:highlightElement`]=t=>{e[`after:highlightBlock`](Object.assign({block:t.el},t))})}function L(e){I(e),a.push(e)}function R(e){let t=a.indexOf(e);t!==-1&&a.splice(t,1)}function z(e,t){let n=e;a.forEach(function(e){e[n]&&e[n](t)})}function ee(e){return me(`10.7.0`,`highlightBlock will be removed entirely in v12.0`),me(`10.7.0`,`Please use highlightElement now.`),w(e)}Object.assign(e,{highlight:p,highlightAuto:S,highlightAll:k,highlightElement:w,highlightBlock:ee,configure:T,initHighlighting:E,initHighlightingOnLoad:D,registerLanguage:A,unregisterLanguage:j,listLanguages:M,getLanguage:N,registerAliases:P,autoDetection:F,inherit:Ce,addPlugin:L,removePlugin:R}),e.debugMode=function(){o=!1},e.safeMode=function(){o=!0},e.versionString=xe,e.regex={concat:_,lookahead:m,either:y,optional:g,anyNumberOfTimes:h};for(let e in B)typeof B[e]==`object`&&n(B[e]);return Object.assign(e,B),e},De=Ee({});De.newInstance=()=>Ee({}),t.exports=De,De.HighlightJS=De,De.default=De}))()).default;function co(e){let t=e.regex,n={},r={begin:/\$\{/,end:/\}/,contains:[`self`,{begin:/:-/,contains:[n]}]};Object.assign(n,{className:`variable`,variants:[{begin:t.concat(/\$[\w\d#@][\w\d_]*/,`(?![\\w\\d])(?![$])`)},r]});let i={className:`subst`,begin:/\$\(/,end:/\)/,contains:[e.BACKSLASH_ESCAPE]},a=e.inherit(e.COMMENT(),{match:[/(^|\s)/,/#.*$/],scope:{2:`comment`}}),o={begin:/<<-?\s*(?=\w+)/,starts:{contains:[e.END_SAME_AS_BEGIN({begin:/(\w+)/,end:/(\w+)/,className:`string`})]}},s={className:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,n,i]};i.contains.push(s);let c={match:/\\"/},l={className:`string`,begin:/'/,end:/'/},u={match:/\\'/},d={begin:/\$?\(\(/,end:/\)\)/,contains:[{begin:/\d+#[0-9a-f]+/,className:`number`},e.NUMBER_MODE,n]},f=e.SHEBANG({binary:`(${[`fish`,`bash`,`zsh`,`sh`,`csh`,`ksh`,`tcsh`,`dash`,`scsh`].join(`|`)})`,relevance:10}),p={className:`function`,begin:/\w[\w\d_]*\s*\(\s*\)\s*\{/,returnBegin:!0,contains:[e.inherit(e.TITLE_MODE,{begin:/\w[\w\d_]*/})],relevance:0},m=[`if`,`then`,`else`,`elif`,`fi`,`time`,`for`,`while`,`until`,`in`,`do`,`done`,`case`,`esac`,`coproc`,`function`,`select`],h=[`true`,`false`],g={match:/(\/[a-z._-]+)+/},_=[`break`,`cd`,`continue`,`eval`,`exec`,`exit`,`export`,`getopts`,`hash`,`pwd`,`readonly`,`return`,`shift`,`test`,`times`,`trap`,`umask`,`unset`],v=[`alias`,`bind`,`builtin`,`caller`,`command`,`declare`,`echo`,`enable`,`help`,`let`,`local`,`logout`,`mapfile`,`printf`,`read`,`readarray`,`source`,`sudo`,`type`,`typeset`,`ulimit`,`unalias`],y=`autoload.bg.bindkey.bye.cap.chdir.clone.comparguments.compcall.compctl.compdescribe.compfiles.compgroups.compquote.comptags.comptry.compvalues.dirs.disable.disown.echotc.echoti.emulate.fc.fg.float.functions.getcap.getln.history.integer.jobs.kill.limit.log.noglob.popd.print.pushd.pushln.rehash.sched.setcap.setopt.stat.suspend.ttyctl.unfunction.unhash.unlimit.unsetopt.vared.wait.whence.where.which.zcompile.zformat.zftp.zle.zmodload.zparseopts.zprof.zpty.zregexparse.zsocket.zstyle.ztcp`.split(`.`),b=`chcon.chgrp.chown.chmod.cp.dd.df.dir.dircolors.ln.ls.mkdir.mkfifo.mknod.mktemp.mv.realpath.rm.rmdir.shred.sync.touch.truncate.vdir.b2sum.base32.base64.cat.cksum.comm.csplit.cut.expand.fmt.fold.head.join.md5sum.nl.numfmt.od.paste.ptx.pr.sha1sum.sha224sum.sha256sum.sha384sum.sha512sum.shuf.sort.split.sum.tac.tail.tr.tsort.unexpand.uniq.wc.arch.basename.chroot.date.dirname.du.echo.env.expr.factor.groups.hostid.id.link.logname.nice.nohup.nproc.pathchk.pinky.printenv.printf.pwd.readlink.runcon.seq.sleep.stat.stdbuf.stty.tee.test.timeout.tty.uname.unlink.uptime.users.who.whoami.yes`.split(`.`);return{name:`Bash`,aliases:[`sh`,`zsh`],keywords:{$pattern:/\b[a-z][a-z0-9._-]+\b/,keyword:m,literal:h,built_in:[..._,...v,`set`,`shopt`,...y,...b]},contains:[f,e.SHEBANG(),p,d,a,o,g,s,c,l,u,n]}}function lo(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,variants:[{begin:`\\b[a-z\\d_]*_t\\b`},{match:t.concat(/\batomic_/,t.either(`bool`,`char`,`schar`,`uchar`,`short`,`ushort`,`int`,`uint`,`long`,`ulong`,`llong`,`ullong`,`char16_t`,`char32_t`,`wchar_t`,`int_least8_t`,`uint_least8_t`,`int_least16_t`,`uint_least16_t`,`int_least32_t`,`uint_least32_t`,`int_least64_t`,`uint_least64_t`,`int_fast8_t`,`uint_fast8_t`,`int_fast16_t`,`uint_fast16_t`,`int_fast32_t`,`uint_fast32_t`,`int_fast64_t`,`uint_fast64_t`,`intptr_t`,`uintptr_t`,`size_t`,`ptrdiff_t`,`intmax_t`,`uintmax_t`),/\b/)}]},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{match:/\b(0b[01']+)/},{match:/(-?)\b([\d']+(\.[\d']*)?|\.[\d']+)((ll|LL|l|L)(u|U)?|(u|U)(ll|LL|l|L)?|f|F|b|B)/},{match:/(-?)\b(0[xX][a-fA-F0-9]+(?:'[a-fA-F0-9]+)*(?:\.[a-fA-F0-9]*(?:'[a-fA-F0-9]*)*)?(?:[pP][-+]?[0-9]+)?(l|L)?(u|U)?)/},{match:/(-?)\b\d+(?:'\d+)*(?:\.\d*(?:'\d*)*)?(?:[eE][-+]?\d+)?/}],relevance:0},c={scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},l={className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef elifdef elifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]},u=[c,l],d={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},f=t.optional(r)+e.IDENT_RE+`\\s*\\(`,p={keyword:`asm.auto.break.case.continue.default.do.else.enum.extern.for.fortran.goto.if.inline.register.restrict.return.sizeof.typeof.typeof_unqual.struct.switch.typedef.union.volatile.while._Alignas._Alignof._Atomic._Generic._Noreturn._Static_assert._Thread_local.alignas.alignof.noreturn.static_assert.thread_local._Pragma`.split(`.`),type:`float.double.signed.unsigned.int.short.long.char.void._Bool._BitInt._Complex._Imaginary._Decimal32._Decimal64._Decimal96._Decimal128._Decimal64x._Decimal128x._Float16._Float32._Float64._Float128._Float32x._Float64x._Float128x.const.static.constexpr.complex.bool.imaginary`.split(`.`),literal:`true false NULL`,built_in:`std string wstring cin cout cerr clog stdin stdout stderr stringstream istringstream ostringstream auto_ptr deque list queue stack vector map set pair bitset multiset multimap unordered_set unordered_map unordered_multiset unordered_multimap priority_queue make_pair array shared_ptr abort terminate abs acos asin atan2 atan calloc ceil cosh cos exit exp fabs floor fmod fprintf fputs free frexp fscanf future isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit tolower toupper labs ldexp log10 log malloc realloc memchr memcmp memcpy memset modf pow printf putchar puts scanf sinh sin snprintf sprintf sqrt sscanf strcat strchr strcmp strcpy strcspn strlen strncat strncmp strncpy strpbrk strrchr strspn strstr tanh tan vfprintf vprintf vsprintf endl initializer_list unique_ptr`},m=[...u,a,n,e.C_BLOCK_COMMENT_MODE,s,o],h={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:p,contains:m.concat([{begin:/\(/,end:/\)/,keywords:p,contains:m.concat([`self`]),relevance:0}]),relevance:0},g={begin:`(`+i+`[\\*&\\s]+){1,12}`+f,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:p,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:p,relevance:0},{begin:f,returnBegin:!0,contains:[e.inherit(d,{className:`title.function`})],relevance:0},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...u]};return{name:`C`,aliases:[`h`],keywords:p,disableAutodetect:!0,illegal:`</`,contains:[].concat(h,g,m,[...u,{begin:e.IDENT_RE+`::`,keywords:p},{className:`class`,beginKeywords:`enum class struct union`,end:/[{;:<>=]/,contains:[{beginKeywords:`final class struct`},e.TITLE_MODE]}]),exports:{preprocessor:l,strings:o,keywords:p}}}function uo(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(?!struct)(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,begin:`\\b[a-z\\d_]*_t\\b`},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{begin:`[+-]?(?:(?:\\b[0-9](?:'?[0-9])*\\.(?:[0-9](?:'?[0-9])*)?|\\.[0-9](?:'?[0-9])*)(?:[Ee][+-]?[0-9](?:'?[0-9])*)?|\\b[0-9](?:'?[0-9])*[Ee][+-]?[0-9](?:'?[0-9])*|\\b0[Xx](?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*(?:\\.(?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)?)?|\\.[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)[Pp][+-]?[0-9](?:'?[0-9])*)(?:[Ff](?:16|32|64|128)?|(BF|bf)16|[Ll]|)`},{begin:`[+-]?\\b(?:0[Bb][01](?:'?[01])*|0[Xx][0-9A-Fa-f](?:'?[0-9A-Fa-f])*|0(?:'?[0-7])*|[1-9](?:'?[0-9])*)(?:[Uu](?:LL?|ll?)|[Uu][Zz]?|(?:LL?|ll?)[Uu]?|[Zz][Uu]|)`}],relevance:0},c=[{scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},{className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]}],l={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},u=t.optional(r)+e.IDENT_RE+`\\s*\\(`,d=`alignas.alignof.and.and_eq.asm.atomic_cancel.atomic_commit.atomic_noexcept.auto.bitand.bitor.break.case.catch.class.co_await.co_return.co_yield.compl.concept.const_cast|10.consteval.constexpr.constinit.continue.decltype.default.delete.do.dynamic_cast|10.else.enum.explicit.export.extern.false.final.for.friend.goto.if.import.inline.module.mutable.namespace.new.noexcept.not.not_eq.nullptr.operator.or.or_eq.override.private.protected.public.reflexpr.register.reinterpret_cast|10.requires.return.sizeof.static_assert.static_cast|10.struct.switch.synchronized.template.this.thread_local.throw.transaction_safe.transaction_safe_dynamic.true.try.typedef.typeid.typename.union.using.virtual.volatile.while.xor.xor_eq`.split(`.`),f=[`bool`,`char`,`char16_t`,`char32_t`,`char8_t`,`double`,`float`,`int`,`long`,`short`,`void`,`wchar_t`,`unsigned`,`signed`,`const`,`static`],p=`any.auto_ptr.barrier.binary_semaphore.bitset.complex.condition_variable.condition_variable_any.counting_semaphore.deque.false_type.flat_map.flat_set.future.imaginary.initializer_list.istringstream.jthread.latch.lock_guard.multimap.multiset.mutex.optional.ostringstream.packaged_task.pair.promise.priority_queue.queue.recursive_mutex.recursive_timed_mutex.scoped_lock.set.shared_future.shared_lock.shared_mutex.shared_timed_mutex.shared_ptr.stack.string_view.stringstream.timed_mutex.thread.true_type.tuple.unique_lock.unique_ptr.unordered_map.unordered_multimap.unordered_multiset.unordered_set.variant.vector.weak_ptr.wstring.wstring_view`.split(`.`),m=`abort.abs.acos.apply.as_const.asin.atan.atan2.calloc.ceil.cerr.cin.clog.cos.cosh.cout.declval.endl.exchange.exit.exp.fabs.floor.fmod.forward.fprintf.fputs.free.frexp.fscanf.future.invoke.isalnum.isalpha.iscntrl.isdigit.isgraph.islower.isprint.ispunct.isspace.isupper.isxdigit.labs.launder.ldexp.log.log10.make_pair.make_shared.make_shared_for_overwrite.make_tuple.make_unique.malloc.memchr.memcmp.memcpy.memset.modf.move.pow.printf.putchar.puts.realloc.scanf.sin.sinh.snprintf.sprintf.sqrt.sscanf.std.stderr.stdin.stdout.strcat.strchr.strcmp.strcpy.strcspn.strlen.strncat.strncmp.strncpy.strpbrk.strrchr.strspn.strstr.swap.tan.tanh.terminate.to_underlying.tolower.toupper.vfprintf.visit.vprintf.vsprintf`.split(`.`),h={type:f,keyword:d,literal:[`NULL`,`false`,`nullopt`,`nullptr`,`true`],built_in:[`_Pragma`],_type_hints:p},g={className:`function.dispatch`,relevance:0,keywords:{_hint:m},begin:t.concat(/\b/,`(?!${d.join(`|`)})`,e.IDENT_RE,t.lookahead(/(<[^<>]+>|)\s*\(/))},_=[g,...c,a,n,e.C_BLOCK_COMMENT_MODE,s,o],v={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:h,contains:_.concat([{begin:/\(/,end:/\)/,keywords:h,contains:_.concat([`self`]),relevance:0}]),relevance:0},y={className:`function`,begin:`(`+i+`[\\*&\\s]+){1,12}`+u,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:h,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:h,relevance:0},{begin:u,returnBegin:!0,contains:[l],relevance:0},{begin:/::/,relevance:0},{begin:/:/,endsWithParent:!0,contains:[o,s]},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...c]};return{name:`C++`,aliases:[`cc`,`c++`,`h++`,`hpp`,`hh`,`hxx`,`cxx`],keywords:h,illegal:`</`,classNameAliases:{"function.dispatch":`built_in`},contains:[].concat(v,y,g,_,[...c,{begin:`\\b(deque|list|queue|priority_queue|pair|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array|tuple|optional|variant|function|flat_map|flat_set)\\s*<(?!<)`,end:`>`,keywords:h,contains:[`self`,a]},{begin:e.IDENT_RE+`::`,keywords:h},{match:[/\b(?:enum(?:\s+(?:class|struct))?|class|struct|union)/,/\s+/,/\w+/],className:{1:`keyword`,3:`title.class`}}])}}var fo=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),po=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),mo=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),ho=[...po,...mo],go=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),_o=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),vo=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),yo=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function bo(e){let t=e.regex,n=fo(e),r={begin:/-(webkit|moz|ms|o)-(?=[a-z])/},i=/@-?\w[\w]*(-\w+)*/,a=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE];return{name:`CSS`,case_insensitive:!0,illegal:/[=|'\$]/,keywords:{keyframePosition:`from to`},classNameAliases:{keyframePosition:`selector-tag`},contains:[n.BLOCK_COMMENT,r,n.CSS_NUMBER_MODE,{className:`selector-id`,begin:/#[A-Za-z0-9_-]+/,relevance:0},{className:`selector-class`,begin:`\\.[a-zA-Z-][a-zA-Z0-9_-]*`,relevance:0},n.ATTRIBUTE_SELECTOR_MODE,{className:`selector-pseudo`,variants:[{begin:`:(`+_o.join(`|`)+`)`},{begin:`:(:)?(`+vo.join(`|`)+`)`}]},n.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+yo.join(`|`)+`)\\b`},{begin:/:/,end:/[;}{]/,contains:[n.BLOCK_COMMENT,n.HEXCOLOR,n.IMPORTANT,n.CSS_NUMBER_MODE,n.UNICODE_RANGE,...a,{begin:/(url|data-uri)\(/,end:/\)/,relevance:0,keywords:{built_in:`url data-uri`},contains:[...a,{className:`string`,begin:/[^)]/,endsWithParent:!0,excludeEnd:!0}]},n.FUNCTION_DISPATCH]},{begin:t.lookahead(/@/),end:`[{;]`,relevance:0,illegal:/:/,contains:[{className:`keyword`,begin:i},{begin:/\s/,endsWithParent:!0,excludeEnd:!0,relevance:0,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:go.join(` `)},contains:[{begin:/[a-z-]+(?=:)/,className:`attribute`},...a,n.CSS_NUMBER_MODE]}]},{className:`selector-tag`,begin:`\\b(`+ho.join(`|`)+`)\\b`}]}}function xo(e){let t=e.regex,n={className:`number`,relevance:0,variants:[{begin:/([+-]+)?[\d]+_[\d_]+/},{begin:e.NUMBER_RE}]},r=e.COMMENT();r.variants=[{begin:/;/,end:/$/},{begin:/#/,end:/$/}];let i={className:`variable`,variants:[{begin:/\$[\w\d"][\w\d_]*/},{begin:/\$\{(.*?)\}/}]},a={className:`literal`,begin:/\bon|off|true|false|yes|no\b/},o={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:`'''`,end:`'''`,relevance:10},{begin:`"""`,end:`"""`,relevance:10},{begin:`"`,end:`"`},{begin:`'`,end:`'`}]},s={begin:/\[/,end:/\]/,contains:[r,a,i,o,n,`self`],relevance:0},c=t.either(/[A-Za-z0-9_-]+/,/"(\\"|[^"])*"/,/'[^']*'/);return{name:`TOML, also INI`,aliases:[`toml`],case_insensitive:!0,illegal:/\S/,contains:[r,{className:`section`,begin:/\[+/,end:/\]+/},{begin:t.concat(c,`(\\s*\\.\\s*`,c,`)*`,t.lookahead(/\s*=\s*[^#\s]/)),className:`attr`,starts:{end:/$/,contains:[r,s,a,i,o,n]}}]}}var So=`[0-9](_*[0-9])*`,Co=`\\.(${So})`,wo=`[0-9a-fA-F](_*[0-9a-fA-F])*`,To={className:`number`,variants:[{begin:`(\\b(${So})((${Co})|\\.)?|(${Co}))[eE][+-]?(${So})[fFdD]?\\b`},{begin:`\\b(${So})((${Co})[fFdD]?\\b|\\.([fFdD]\\b)?)`},{begin:`(${Co})[fFdD]?\\b`},{begin:`\\b(${So})[fFdD]\\b`},{begin:`\\b0[xX]((${wo})\\.?|(${wo})?\\.(${wo}))[pP][+-]?(${So})[fFdD]?\\b`},{begin:`\\b(0|[1-9](_*[0-9])*)[lL]?\\b`},{begin:`\\b0[xX](${wo})[lL]?\\b`},{begin:`\\b0(_*[0-7])*[lL]?\\b`},{begin:`\\b0[bB][01](_*[01])*[lL]?\\b`}],relevance:0};function Eo(e,t,n){return n===-1?``:e.replace(t,r=>Eo(e,t,n-1))}function Do(e){let t=e.regex,n=`[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*`,r=`(?:(?:\\s*\\[\\s*])+)?`,i=`(?:\\?(?:\\s+(?:extends|super)\\s+[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)?|[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)`,a=Eo(`(?:\\s*<\\s*`+i+`(?:\\s*,\\s*`+i+`)*\\s*>)?`,/<@@@>/g,2),o={keyword:`synchronized.abstract.private.var.static.if.const .for.while.strictfp.finally.protected.import.native.final.void.enum.else.break.transient.catch.instanceof.volatile.case.assert.package.default.public.try.switch.continue.throws.protected.public.private.module.requires.exports.do.sealed.yield.permits.goto.when`.split(`.`),literal:[`false`,`true`,`null`],type:[`char`,`boolean`,`long`,`float`,`int`,`byte`,`short`,`double`],built_in:[`super`,`this`]},s={className:`meta`,begin:`@`+n,contains:[{begin:/\(/,end:/\)/,contains:[`self`]}]},c={className:`params`,begin:/\(/,end:/\)/,keywords:o,relevance:0,contains:[e.C_BLOCK_COMMENT_MODE],endsParent:!0};return{name:`Java`,aliases:[`jsp`],keywords:o,illegal:/<\/|#/,contains:[e.COMMENT(`/\\*\\*`,`\\*/`,{relevance:0,contains:[{begin:/\w+@/,relevance:0},{className:`doctag`,begin:`@[A-Za-z]+`}]}),{begin:/import java\.[a-z]+\./,keywords:`import`,relevance:2},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{begin:/"""/,end:/"""/,className:`string`,contains:[e.BACKSLASH_ESCAPE]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,{match:[/\b(?:class|interface|enum|extends|implements|new)/,/\s+/,n],className:{1:`keyword`,3:`title.class`}},{match:/non-sealed/,scope:`keyword`},{beginKeywords:`new throw return else yield assert`,relevance:0},{begin:[n,t.concat(a,r,/\s+/),n,r,/\s*/,/=(?!=)/],className:{1:`type`,3:`variable`,6:`operator`}},{begin:[/record/,/\s+/,n],className:{1:`keyword`,3:`title.class`},contains:[c,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{begin:[n,t.concat(a,r,/\s+/),n,/\s*(?=\()/],className:{1:`type`,3:`title.function`},keywords:o,contains:[{className:`params`,begin:/\(/,end:/\)/,keywords:o,relevance:0,contains:[s,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,To,e.C_BLOCK_COMMENT_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},To,s]}}var Oo=`[A-Za-z$_][0-9A-Za-z$_]*`,ko=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ao=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],jo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Mo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],No=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Po=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Fo=[].concat(No,jo,Mo);function Io(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Oo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Oo,keyword:ko,literal:Ao,built_in:Fo,"variable.language":Po},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...jo,...Mo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...No,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}var Lo={scope:`number`,match:`([-+]?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)|NaN|[-+]?Infinity`,relevance:0};function Ro(e){let t={className:`attr`,begin:/(("(\\.|[^\\"\r\n])*")|('(\\.|[^\\'\r\n])*'))(?=\s*:)/,relevance:1.01},n={match:/[{}[\],:]/,className:`punctuation`,relevance:0},r=[`true`,`false`,`null`],i={scope:`literal`,beginKeywords:r.join(` `)};return{name:`JSON`,aliases:[`jsonc`,`json5`],keywords:{literal:r},contains:[t,n,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,i,Lo,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE],illegal:`\\S`}}function zo(e){let t=e.regex,n={begin:/<\/?[A-Za-z_]/,end:`>`,subLanguage:`xml`,relevance:0},r={match:/^ {0,3}([-*_])[ \t]*(?:\1[ \t]*){2,}$/},i={className:`code`,variants:[{begin:"(`{3,})[^`](.|\\n)*?\\1`*[ ]*"},{begin:`(~{3,})[^~](.|\\n)*?\\1~*[ ]*`},{begin:"```",end:"```+[ ]*$"},{begin:`~~~`,end:`~~~+[ ]*$`},{begin:"`.+?`"},{begin:`(?=^( {4}|\\t))`,contains:[{begin:`^( {4}|\\t)`,end:`(\\n)$`}],relevance:0}]},a={className:`bullet`,begin:`^[ 	]*([*+-]|(\\d+\\.))(?=\\s+)`,end:`\\s+`,excludeEnd:!0},o={begin:/^\[[^\n]+\]:/,returnBegin:!0,contains:[{className:`symbol`,begin:/\[/,end:/\]/,excludeBegin:!0,excludeEnd:!0},{className:`link`,begin:/:\s*/,end:/$/,excludeBegin:!0}]},s={variants:[{begin:/\[.+?\]\[.*?\]/,relevance:0},{begin:/\[.+?\]\(((data|javascript|mailto):|(?:http|ftp)s?:\/\/).*?\)/,relevance:2},{begin:t.concat(/\[.+?\]\(/,/[A-Za-z][A-Za-z0-9+.-]*/,/:\/\/.*?\)/),relevance:2},{begin:/\[.+?\]\([./?&#].*?\)/,relevance:1},{begin:/\[.*?\]\(.*?\)/,relevance:0}],returnBegin:!0,contains:[{match:/\[(?=\])/},{className:`string`,relevance:0,begin:`\\[`,end:`\\]`,excludeBegin:!0,returnEnd:!0},{className:`link`,relevance:0,begin:`\\]\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0},{className:`symbol`,relevance:0,begin:`\\]\\[`,end:`\\]`,excludeBegin:!0,excludeEnd:!0}]},c={className:`strong`,contains:[],variants:[{begin:/_{2}(?!\s)/,end:/_{2}/},{begin:/\*{2}(?!\s)/,end:/\*{2}/}]},l={className:`emphasis`,contains:[],variants:[{begin:/\*(?![*\s])/,end:/\*/},{begin:/_(?![_\s])/,end:/_/,relevance:0}]},u=e.inherit(c,{contains:[]}),d=e.inherit(l,{contains:[]});c.contains.push(d),l.contains.push(u);let f=[n,s];return[c,l,u,d].forEach(e=>{e.contains=e.contains.concat(f)}),f=f.concat(c,l),{name:`Markdown`,aliases:[`md`,`mkdown`,`mkd`],contains:[{className:`section`,variants:[{begin:`^#{1,6}`,end:`$`,contains:f},{begin:`(?=^.+?\\n[=-]{2,}$)`,contains:[{begin:`^[=-]*$`},{begin:`^`,end:`\\n`,contains:f}]}]},n,a,r,c,l,{className:`quote`,begin:`^>\\s+`,contains:f,end:`$`},i,s,o,{scope:`literal`,match:/&([a-zA-Z0-9]+|#[0-9]{1,7}|#[Xx][0-9a-fA-F]{1,6});/}]}}function Bo(e){let t=e.regex,n=/(?![A-Za-z0-9])(?![$])/,r=t.concat(/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/,n),i=t.concat(/(\\?[A-Z][a-z0-9_\x7f-\xff]+|\\?[A-Z]+(?=[A-Z][a-z0-9_\x7f-\xff])){1,}/,n),a=t.concat(/[A-Z]+/,n),o={scope:`variable`,match:`\\$+`+r},s={scope:`meta`,variants:[{begin:/<\?php/,relevance:10},{begin:/<\?=/},{begin:/<\?/,relevance:.1},{begin:/\?>/}]},c={scope:`subst`,variants:[{begin:/\$\w+/},{begin:/\{\$/,end:/\}/}]},l=e.inherit(e.APOS_STRING_MODE,{illegal:null}),u=e.inherit(e.QUOTE_STRING_MODE,{illegal:null,contains:e.QUOTE_STRING_MODE.contains.concat(c)}),d={begin:/<<<[ \t]*(?:(\w+)|"(\w+)")\n/,end:/[ \t]*(\w+)\b/,contains:e.QUOTE_STRING_MODE.contains.concat(c),"on:begin":(e,t)=>{t.data._beginMatch=e[1]||e[2]},"on:end":(e,t)=>{t.data._beginMatch!==e[1]&&t.ignoreMatch()}},f=e.END_SAME_AS_BEGIN({begin:/<<<[ \t]*'(\w+)'\n/,end:/[ \t]*(\w+)\b/}),p=`[ 	
-]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}function Vo(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}function Ho(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}function Uo(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}var Wo=`[A-Za-z$_][0-9A-Za-z$_]*`,Go=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ko=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],qo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Jo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],Yo=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Xo=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Zo=[].concat(Yo,qo,Jo);function Qo(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Wo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Wo,keyword:Go,literal:Ko,built_in:Zo,"variable.language":Xo},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...qo,...Jo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...Yo,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}function $o(e){let t=e.regex,n=Qo(e),r=Wo,i=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],a={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},o={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:i},contains:[n.exports.CLASS_REFERENCE]},s={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},c={$pattern:Wo,keyword:Go.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:Ko,built_in:Zo.concat(i),"variable.language":Xo},l={className:`meta`,begin:`@`+r},u=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(n.keywords,c),n.exports.PARAMS_CONTAINS.push(l);let d=n.contains.find(e=>e.scope===`attr`),f=Object.assign({},d,{match:t.concat(r,t.lookahead(/\s*\?:/))});n.exports.PARAMS_CONTAINS.push([n.exports.CLASS_REFERENCE,d,f]),n.contains=n.contains.concat([l,a,o,f]),u(n,`shebang`,e.SHEBANG()),u(n,`use_strict`,s);let p=n.contains.find(e=>e.label===`func.def`);return p.relevance=0,Object.assign(n,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),n}function es(e){let t=e.regex,n=t.concat(/[\p{L}_]/u,t.optional(/[\p{L}0-9_.-]*:/u),/[\p{L}0-9_.-]*/u),r=/[\p{L}0-9._:-]+/u,i={className:`symbol`,begin:/&[a-z]+;|&#[0-9]+;|&#x[a-f0-9]+;/},a={begin:/\s/,contains:[{className:`keyword`,begin:/#?[a-z_][a-z1-9_-]+/,illegal:/\n/}]},o=e.inherit(a,{begin:/\(/,end:/\)/}),s=e.inherit(e.APOS_STRING_MODE,{className:`string`}),c=e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),l={endsWithParent:!0,illegal:/</,relevance:0,contains:[{className:`attr`,begin:r,relevance:0},{begin:/=\s*/,relevance:0,contains:[{className:`string`,endsParent:!0,variants:[{begin:/"/,end:/"/,contains:[i]},{begin:/'/,end:/'/,contains:[i]},{begin:/[^\s"'=<>`]+/}]}]}]};return{name:`HTML, XML`,aliases:[`html`,`xhtml`,`rss`,`atom`,`xjb`,`xsd`,`xsl`,`plist`,`wsf`,`svg`],case_insensitive:!0,unicodeRegex:!0,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,relevance:10,contains:[a,c,s,o,{begin:/\[/,end:/\]/,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,contains:[a,o,c,s]}]}]},e.COMMENT(/<!--/,/-->/,{relevance:10}),{begin:/<!\[CDATA\[/,end:/\]\]>/,relevance:10},i,{className:`meta`,end:/\?>/,variants:[{begin:/<\?xml/,relevance:10,contains:[c]},{begin:/<\?[a-z][a-z0-9]+/}]},{className:`tag`,begin:/<style(?=\s|>)/,end:/>/,keywords:{name:`style`},contains:[l],starts:{end:/<\/style>/,returnEnd:!0,subLanguage:`css`}},{className:`tag`,begin:/<script(?=\s|>)/,end:/>/,keywords:{name:`script`},contains:[l],starts:{end:/<\/script>/,returnEnd:!0,subLanguage:`javascript`}},{className:`tag`,begin:/<>|<\/>/},{className:`tag`,begin:t.concat(/</,t.lookahead(t.concat(n,t.either(/\/>/,/>/,/\s/)))),end:/\/?>/,contains:[{className:`name`,begin:n,relevance:0,starts:l}]},{className:`tag`,begin:t.concat(/<\//,t.lookahead(t.concat(n,/>/))),contains:[{className:`name`,begin:n,relevance:0},{begin:/>/,relevance:0,endsParent:!0}]}]}}function ts(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}$.registerLanguage(`bash`,co),$.registerLanguage(`c`,lo),$.registerLanguage(`cpp`,uo),$.registerLanguage(`css`,bo),$.registerLanguage(`ini`,xo),$.registerLanguage(`java`,Do),$.registerLanguage(`javascript`,Io),$.registerLanguage(`json`,Ro),$.registerLanguage(`markdown`,zo),$.registerLanguage(`php`,Bo),$.registerLanguage(`python`,Vo),$.registerLanguage(`rust`,Ho),$.registerLanguage(`sql`,Uo),$.registerLanguage(`typescript`,$o),$.registerLanguage(`xml`,es),$.registerLanguage(`yaml`,ts);var ns=(0,g.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:o}]=await Promise.all([a(()=>import(`./react-markdown-CWB54eCS.js`),__vite__mapDeps([0,1,2,3,4,5,6,7])),a(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([8,3,6,7])),a(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([9,7])),a(()=>import(`./rehype-raw-LXaw9nwg.js`),__vite__mapDeps([10,3,4,1,2,5,7])),a(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([11,5]))]),s={...o,attributes:{...o.attributes,div:[...o.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...o.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...o.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function c({children:a}){return(0,U.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,s]],children:a})}return{default:c}}),rs={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function is(e,t){let n=rs[t];if(!n||!$.getLanguage(n))return null;let r;return e.split(`
+]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}function Vo(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}function Ho(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}function Uo(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}var Wo=`[A-Za-z$_][0-9A-Za-z$_]*`,Go=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ko=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],qo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Jo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],Yo=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Xo=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Zo=[].concat(Yo,qo,Jo);function Qo(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Wo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Wo,keyword:Go,literal:Ko,built_in:Zo,"variable.language":Xo},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...qo,...Jo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...Yo,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}function $o(e){let t=e.regex,n=Qo(e),r=Wo,i=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],a={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},o={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:i},contains:[n.exports.CLASS_REFERENCE]},s={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},c={$pattern:Wo,keyword:Go.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:Ko,built_in:Zo.concat(i),"variable.language":Xo},l={className:`meta`,begin:`@`+r},u=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(n.keywords,c),n.exports.PARAMS_CONTAINS.push(l);let d=n.contains.find(e=>e.scope===`attr`),f=Object.assign({},d,{match:t.concat(r,t.lookahead(/\s*\?:/))});n.exports.PARAMS_CONTAINS.push([n.exports.CLASS_REFERENCE,d,f]),n.contains=n.contains.concat([l,a,o,f]),u(n,`shebang`,e.SHEBANG()),u(n,`use_strict`,s);let p=n.contains.find(e=>e.label===`func.def`);return p.relevance=0,Object.assign(n,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),n}function es(e){let t=e.regex,n=t.concat(/[\p{L}_]/u,t.optional(/[\p{L}0-9_.-]*:/u),/[\p{L}0-9_.-]*/u),r=/[\p{L}0-9._:-]+/u,i={className:`symbol`,begin:/&[a-z]+;|&#[0-9]+;|&#x[a-f0-9]+;/},a={begin:/\s/,contains:[{className:`keyword`,begin:/#?[a-z_][a-z1-9_-]+/,illegal:/\n/}]},o=e.inherit(a,{begin:/\(/,end:/\)/}),s=e.inherit(e.APOS_STRING_MODE,{className:`string`}),c=e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),l={endsWithParent:!0,illegal:/</,relevance:0,contains:[{className:`attr`,begin:r,relevance:0},{begin:/=\s*/,relevance:0,contains:[{className:`string`,endsParent:!0,variants:[{begin:/"/,end:/"/,contains:[i]},{begin:/'/,end:/'/,contains:[i]},{begin:/[^\s"'=<>`]+/}]}]}]};return{name:`HTML, XML`,aliases:[`html`,`xhtml`,`rss`,`atom`,`xjb`,`xsd`,`xsl`,`plist`,`wsf`,`svg`],case_insensitive:!0,unicodeRegex:!0,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,relevance:10,contains:[a,c,s,o,{begin:/\[/,end:/\]/,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,contains:[a,o,c,s]}]}]},e.COMMENT(/<!--/,/-->/,{relevance:10}),{begin:/<!\[CDATA\[/,end:/\]\]>/,relevance:10},i,{className:`meta`,end:/\?>/,variants:[{begin:/<\?xml/,relevance:10,contains:[c]},{begin:/<\?[a-z][a-z0-9]+/}]},{className:`tag`,begin:/<style(?=\s|>)/,end:/>/,keywords:{name:`style`},contains:[l],starts:{end:/<\/style>/,returnEnd:!0,subLanguage:`css`}},{className:`tag`,begin:/<script(?=\s|>)/,end:/>/,keywords:{name:`script`},contains:[l],starts:{end:/<\/script>/,returnEnd:!0,subLanguage:`javascript`}},{className:`tag`,begin:/<>|<\/>/},{className:`tag`,begin:t.concat(/</,t.lookahead(t.concat(n,t.either(/\/>/,/>/,/\s/)))),end:/\/?>/,contains:[{className:`name`,begin:n,relevance:0,starts:l}]},{className:`tag`,begin:t.concat(/<\//,t.lookahead(t.concat(n,/>/))),contains:[{className:`name`,begin:n,relevance:0},{begin:/>/,relevance:0,endsParent:!0}]}]}}function ts(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}$.registerLanguage(`bash`,co),$.registerLanguage(`c`,lo),$.registerLanguage(`cpp`,uo),$.registerLanguage(`css`,bo),$.registerLanguage(`ini`,xo),$.registerLanguage(`java`,Do),$.registerLanguage(`javascript`,Io),$.registerLanguage(`json`,Ro),$.registerLanguage(`markdown`,zo),$.registerLanguage(`php`,Bo),$.registerLanguage(`python`,Vo),$.registerLanguage(`rust`,Ho),$.registerLanguage(`sql`,Uo),$.registerLanguage(`typescript`,$o),$.registerLanguage(`xml`,es),$.registerLanguage(`yaml`,ts);var ns=(0,g.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:o}]=await Promise.all([a(()=>import(`./react-markdown-CDYNIP4f.js`),__vite__mapDeps([0,1,2,3,4,5,6,7])),a(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([8,3,6,7])),a(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([9,7])),a(()=>import(`./rehype-raw-BiKMfUhN.js`),__vite__mapDeps([10,3,4,1,2,5,7])),a(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([11,5]))]),s={...o,attributes:{...o.attributes,div:[...o.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...o.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...o.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function c({children:a}){return(0,U.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,s]],children:a})}return{default:c}}),rs={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function is(e,t){let n=rs[t];if(!n||!$.getLanguage(n))return null;let r;return e.split(`
 `).map(e=>{let t=$.highlight(e,{language:n,ignoreIllegals:!0,continuation:r});return r=t.top,t.value||` `})}function as(e){let t=e.split(`.`).pop()?.toLowerCase();return[`md`,`txt`,`pdf`].includes(t)?R:[`py`,`js`,`jsx`,`html`,`css`,`sql`,`json`].includes(t)?I:B}function os(e,t){return e.name.toLocaleLowerCase(`fr`).includes(t)?!0:e.type===`folder`&&e.children.some(e=>os(e,t))}function ss({name:e,term:t}){if(!t)return e;let n=e.toLocaleLowerCase(`fr`).indexOf(t);return n<0?e:(0,U.jsxs)(U.Fragment,{children:[e.slice(0,n),(0,U.jsx)(`mark`,{className:`rounded-sm bg-foreground/15 text-foreground`,children:e.slice(n,n+t.length)}),e.slice(n+t.length)]})}function cs({nodes:e,depth:t=0,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c}){return(n?e.filter(e=>os(e,n)):e).map(e=>{let l=e.type===`folder`,u=r.has(e.path)||!!(n&&l&&e.children.some(e=>os(e,n))),d=l?i===e.path:a===e.path,f=l?u?te:re:as(e.name);return(0,U.jsx)(`div`,{children:l?(0,U.jsxs)(Rt,{open:u,onOpenChange:()=>c(e.path),children:[(0,U.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,U.jsx)(zt,{"aria-label":`${u?`Replier`:`Déplier`} ${e.name}`,className:`flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground/70 transition-colors hover:bg-foreground/5 hover:text-foreground`,children:u?(0,U.jsx)(E,{className:`size-3.5`}):(0,U.jsx)(O,{className:`size-3.5`})}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:()=>o(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,U.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,U.jsx)(`span`,{className:`truncate`,children:(0,U.jsx)(ss,{name:e.name,term:n})})]})]}),(0,U.jsx)(Bt,{children:(0,U.jsx)(cs,{nodes:e.children,depth:t+1,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c})})]}):(0,U.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,U.jsx)(`span`,{className:`w-6 shrink-0`}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:()=>s(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,U.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,U.jsx)(`span`,{className:`truncate`,children:(0,U.jsx)(ss,{name:e.name,term:n})})]})]})},e.path)})}function ls({allEntries:e,query:t,expanded:n,currentFolderPath:r,selectedPath:i,onFolderSelect:a,onFileSelect:o,onToggle:s,onRootSelect:c,onClose:l}){let[u,d]=(0,g.useState)(!1),[f,p]=(0,g.useState)(!1),m=e.filter(e=>e.type===`file`).length;return(0,g.useEffect)(()=>{if(!u&&!f)return;let e=e=>{e.key===`Escape`&&(d(!1),p(!1))};return window.addEventListener(`keydown`,e),()=>window.removeEventListener(`keydown`,e)},[u,f]),(0,U.jsxs)(`div`,{className:`flex h-full min-h-0 flex-col bg-background text-foreground`,children:[(0,U.jsxs)(`div`,{className:`flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4`,children:[(0,U.jsxs)(`div`,{className:`flex min-w-0 items-center gap-2.5`,children:[(0,U.jsx)(`button`,{type:`button`,onClick:()=>d(!0),"aria-label":`Agrandir le logo NSI`,className:`flex size-7 shrink-0 items-center justify-center rounded-md border border-border bg-secondary transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring`,children:(0,U.jsx)(`img`,{src:me,alt:``,className:`size-6 object-contain`})}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,onClick:c,className:`h-auto justify-start p-0 text-left hover:bg-transparent`,children:(0,U.jsxs)(`span`,{className:`text-xs font-medium tracking-wide`,children:[`NSI `,(0,U.jsx)(`span`,{className:`text-muted-foreground`,children:`/ explorer`})]})})]}),l&&(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:l,"aria-label":`Fermer la navigation`,className:`text-muted-foreground`,children:(0,U.jsx)(fe,{})})]}),u&&(0,pe.createPortal)((0,U.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Logo NSI en grand`,onClick:()=>d(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/75 p-6 backdrop-blur-sm`,children:(0,U.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`relative rounded-2xl border border-border bg-background p-5 shadow-2xl`,children:[(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>d(!1),"aria-label":`Fermer`,autoFocus:!0,className:`absolute right-2 top-2 z-10`,children:(0,U.jsx)(fe,{})}),(0,U.jsx)(`img`,{src:me,alt:`Logo NSI`,className:`max-h-[75vh] max-w-[min(80vw,40rem)] object-contain`})]})}),document.body),(0,U.jsxs)(`div`,{className:`flex items-center justify-between px-4 pb-2 pt-5`,children:[(0,U.jsx)(`span`,{className:`text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground`,children:`Explorateur`}),(0,U.jsx)(`span`,{className:`font-mono text-[10px] text-muted-foreground/70`,children:m})]}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:c,className:`mx-2 mb-2 h-8 w-auto justify-start gap-2 rounded-md px-2.5 text-xs ${r===``&&!i?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,children:[(0,U.jsx)(ie,{className:`size-3.5`}),` Accueil`]}),(0,U.jsx)(Kr,{className:`min-h-0 flex-1 px-2 pb-4`,viewportClassName:`h-full`,children:t&&!oo.some(e=>os(e,t))?(0,U.jsx)(`p`,{className:`px-3 py-5 text-xs text-muted-foreground`,children:`Aucun fichier ou dossier trouvé.`}):(0,U.jsx)(cs,{nodes:oo,query:t,expanded:n,currentFolderPath:r,selectedPath:i,onFolderSelect:a,onFileSelect:o,onToggle:s})}),(0,U.jsxs)(`div`,{className:`flex items-center justify-between gap-2 border-t border-border px-4 py-3`,children:[(0,U.jsx)(`p`,{className:`truncate font-mono text-[10px] text-muted-foreground`,children:`Les prémices de la programmation`}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-xs`,onClick:()=>p(!0),"aria-label":`Informations sur le site`,title:`Informations sur le site`,className:`shrink-0 text-muted-foreground hover:text-foreground`,children:(0,U.jsx)(oe,{className:`size-3.5`})})]}),f&&(0,pe.createPortal)((0,U.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Informations sur le site`,onClick:()=>p(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/65 p-4 backdrop-blur-sm`,children:(0,U.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`flex max-h-[min(80vh,42rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-2xl`,children:[(0,U.jsxs)(`div`,{className:`flex shrink-0 items-center justify-between border-b border-border px-5 py-3`,children:[(0,U.jsx)(`h2`,{className:`text-sm font-medium`,children:`À propos du site`}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>p(!1),"aria-label":`Fermer les informations`,autoFocus:!0,className:`text-muted-foreground`,children:(0,U.jsx)(fe,{})})]}),(0,U.jsx)(Kr,{className:`min-h-0 flex-1`,viewportClassName:`h-full`,children:(0,U.jsx)(`article`,{className:`markdown-preview px-6 py-5`,children:(0,U.jsx)(g.Suspense,{fallback:(0,U.jsx)(`p`,{className:`text-sm text-muted-foreground`,children:`Chargement des informations…`}),children:(0,U.jsx)(ns,{children:`# À propos de Not So Informatic
 
 **Not So Informatic** est un mélange de plusieurs projets informatiques.  
