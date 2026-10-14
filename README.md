@@ -10,17 +10,16 @@ En réalité, numérique et sciences informatiques
 25-26 Première </br>
 26-27 Terminale (tle)
 
-> [!TIP]
-> Créez un environnement virtuel avant d'installer les dépendances
->
-> ```bash
-> python -m venv .venv
-> ```
-
 ## Dépendances
 
-> [!IMPORTANT]
-> Les dépendances se trouvent dans les README de chaque séance
+J'utilise [uv](https://docs.astral.sh/uv/getting-started/installation/) pour gérer les dépendances.
+
+Une fois installé, faites :
+```
+cd not-so-informatic
+uv sync
+```
+
 
 ## Web explorer
 

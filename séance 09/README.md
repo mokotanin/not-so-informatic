@@ -3,9 +3,3 @@
 # séance 9
 
 1. [exercices](./exercices/)
-
-# dépendances
-
-```
-pip install pyxel
-```

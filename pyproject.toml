@@ -1,0 +1,26 @@
+[project]
+name = "not-so-informatic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mokotanin", email = "titchou68@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "pywinstyles>=1.8",
+    "pyxel>=2.9.9",
+    "scikit-learn>=1.9.1",
+    "sv-ttk>=2.6.1",
+    "tk>=0.1.0",
+]
+
+[project.scripts]
+not-so-informatic = "not_so_informatic:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"

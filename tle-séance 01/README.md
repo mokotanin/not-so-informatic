@@ -6,9 +6,3 @@
 2. [duracell](./duracell/) (piles)
 3. [chipeur](./chipeur/) (files)
 4. [Три полоски](./Три%20полоски/) (mini-programmes)
-
-# dépendances
-
-```python
-dépendances=[None]
-```
