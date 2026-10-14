@@ -8,9 +8,11 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "arcade>=3.0",
     "matplotlib>=3.11.2",
     "pandas>=3.0.6",
     "pillow>=12.3.0",
+    "pymunk>=7.3.1",
     "python-chess>=1.999",
     "pywinstyles>=1.8",
     "pyxel>=2.9.9",
