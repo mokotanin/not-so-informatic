@@ -64,6 +64,7 @@ sprite_joueur_y = 208
 # AFFICHAGE D'ACCUEIL
 # ============================================================================
 
+
 def afficher_accueil():
     # Affiche l'écran de titre
     pyxel.blt(75, 70, 0, 0, 224, 46, 16)
@@ -73,6 +74,7 @@ def afficher_accueil():
 # ============================================================================
 # GESTION DU JOUEUR
 # ============================================================================
+
 
 def maj_position_joueur():
     global pos_x
@@ -94,21 +96,21 @@ def maj_position_joueur():
 def maj_projectiles_joueur():
     global projectiles_joueur
     global attente_tir
-    
+
     # Coordonnées du nouveau projectile
     projectile_x = pos_x + 7
     projectile_y = pos_y
-    
+
     # Création d'un nouveau projectile si touche ESPACE appuyée et cooldown terminé
     if pyxel.btnr(pyxel.KEY_SPACE) and attente_tir == 0:
         projectiles_joueur.append([projectile_x, projectile_y])
         pyxel.play(0, 0)
         attente_tir = 60
-    
+
     # Décompte du cooldown
     if attente_tir > 0:
         attente_tir -= 1
-    
+
     # Mouvement et affichage des projectiles
     for projectile in projectiles_joueur:
         projectile[1] -= 5
@@ -118,18 +120,18 @@ def maj_projectiles_joueur():
 def maj_projectiles_laser():
     global projectiles_laser
     global vitesse
-    
+
     # Coordonnées du laser
     projectile_x = pos_x + 7
     projectile_y = pos_y
-    
+
     # Création de laser si touche R maintenue - augmente aussi la vitesse
     if pyxel.btn(pyxel.KEY_R):
         projectiles_laser.append([projectile_x, projectile_y])
         vitesse = 2
     else:
         vitesse = 1
-    
+
     # Mouvement et affichage des lasers
     for projectile in projectiles_laser:
         projectile[1] -= 5
@@ -140,16 +142,23 @@ def maj_projectiles_laser():
 # GESTION DES ENNEMIS
 # ============================================================================
 
+
 def maj_ennemis():
     # Création de nouveaux ennemis si la limite maximale n'est pas atteinte
     if len(ennemis) < ennemis_max:
         positions_y_occupees = [e[1] for e in ennemis]
-        positions_y_libres = [y for y in range(16, 80, 16) if y not in positions_y_occupees]
+        positions_y_libres = [
+            y for y in range(16, 80, 16) if y not in positions_y_occupees
+        ]
 
         # Placement aléatoire d'un nouvel ennemi à une position libre
         if positions_y_libres:
             ennemis.append(
-                [pyxel.rndi(10, 174), random.choice(positions_y_libres), random.choice([-1, 1])]
+                [
+                    pyxel.rndi(10, 174),
+                    random.choice(positions_y_libres),
+                    random.choice([-1, 1]),
+                ]
             )
 
     # Mise à jour de chaque ennemi
@@ -160,13 +169,13 @@ def maj_ennemis():
         # Inversion de direction aux limites de l'écran
         if ennemi[0] <= limite_gauche or ennemi[0] >= limite_droite:
             ennemi[2] = -ennemi[2]
-        
+
         # Affichage de l'ennemi
         pyxel.blt(ennemi[0], ennemi[1], 0, 0, 176, 16, 16)
-        
+
         # Déplacement vers le bas
         ennemi[1] += multiplicateur_vitesse
-        
+
         # Suppression si l'ennemi dépasse le bas de l'écran
         if ennemi[1] >= limite_bas:
             ennemis.remove(ennemi)
@@ -174,23 +183,23 @@ def maj_ennemis():
 
 def maj_projectiles_ennemis():
     global projectiles_ennemis, attente_tir_ennemi, ennemis
-    
+
     # Sélection aléatoire d'un ennemi qui tire
     if ennemis:
         tireur = random.choice(ennemis)
         projectile_x = tireur[0] + 7
         projectile_y = tireur[1] + 16
-        
+
         # Création d'un projectile si le cooldown est écoulé
         if attente_tir_ennemi == 0:
             projectiles_ennemis.append([projectile_x, projectile_y])
             pyxel.play(0, 0)
             attente_tir_ennemi = 100
-    
+
     # Décompte du cooldown
     if attente_tir_ennemi > 0:
         attente_tir_ennemi -= 1
-    
+
     # Mouvement et affichage des projectiles ennemis
     for projectile in projectiles_ennemis:
         projectile[1] += 1
@@ -200,6 +209,7 @@ def maj_projectiles_ennemis():
 # ============================================================================
 # GESTION DES COLLISIONS
 # ============================================================================
+
 
 def verifier_collisions():
     global projectiles_joueur, projectiles_laser, ennemis, score, explosions
@@ -293,6 +303,7 @@ def verifier_collisions():
 # GESTION DES EXPLOSIONS
 # ============================================================================
 
+
 def afficher_explosions():
     global explosions
     for explosion in explosions[:]:
@@ -347,16 +358,17 @@ def afficher_explosions_impact():
 # AFFICHAGE DE L'INTERFACE
 # ============================================================================
 
+
 def afficher_interface():
     global combo_timer, combo, couleur_combo_texte, score, vies, état
-    
+
     # Affichage des vies restantes
-    if vies==3:
-        pyxel.blt(5,5,0,0,3,20,10)
-    elif vies==2:
-        pyxel.blt(5,5,0,5,3,20,10)
-    elif vies==1:
-        pyxel.blt(5,5,0,12,3,20,10)
+    if vies == 3:
+        pyxel.blt(5, 5, 0, 0, 3, 20, 10)
+    elif vies == 2:
+        pyxel.blt(5, 5, 0, 5, 3, 20, 10)
+    elif vies == 1:
+        pyxel.blt(5, 5, 0, 12, 3, 20, 10)
 
     # Gestion de la fin de partie
     if vies == 0:
@@ -378,14 +390,14 @@ def afficher_score():
 
 def afficher_meilleur_score():
     global score, meilleur_score, combo, combo_timer, couleur_combo_texte
-    
+
     # Mise à jour du meilleur score
     if meilleur_score >= score:
         pyxel.text(50, 5, "MEILLEUR SCORE=" + str(meilleur_score), 3)
     elif meilleur_score < score:
         meilleur_score = score
         pyxel.text(50, 5, "MEILLEUR SCORE=" + str(meilleur_score), 3)
-    
+
     # Changement de couleur du texte selon le combo (arc-en-ciel)
     if combo < 10:
         couleur_combo_texte = 7  # Blanc
@@ -419,9 +431,10 @@ def afficher_meilleur_score():
 # BOUCLES PRINCIPALES
 # ============================================================================
 
+
 def mettre_a_jour():
     global état
-    
+
     # État 0: Écran d'accueil
     if état == 0:
         if pyxel.btnp(pyxel.KEY_E):
@@ -437,10 +450,10 @@ def mettre_a_jour():
 
 def dessiner():
     global multiplicateur_vitesse
-    
+
     # Effacement de l'écran
     pyxel.cls(0)
-    
+
     # État 0: Écran d'accueil
     if état == 0:
         afficher_accueil()
@@ -488,4 +501,6 @@ def dessiner_jeu():
 # ============================================================================
 # LANCEMENT DU JEU
 # ============================================================================
-pyxel.run(dessiner, mettre_a_jour)       #Monsieur on sait que les commentaires pourrait faire un peu suspicieux d'utilisation d'ia, mais on peut vous assurer que c'est juste Tristan qui était très déterminé à faire quelque chose de propre.
+pyxel.run(
+    dessiner, mettre_a_jour
+)  # Monsieur on sait que les commentaires pourrait faire un peu suspicieux d'utilisation d'ia, mais on peut vous assurer que c'est juste Tristan qui était très déterminé à faire quelque chose de propre.

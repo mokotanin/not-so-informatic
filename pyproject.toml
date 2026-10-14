@@ -11,9 +11,12 @@ dependencies = [
     "matplotlib>=3.11.2",
     "pandas>=3.0.6",
     "pillow>=12.3.0",
+    "python-chess>=1.999",
     "pywinstyles>=1.8",
     "pyxel>=2.9.9",
+    "ruff>=0.17.0",
     "scikit-learn>=1.9.1",
+    "stockfish>=5.2.0",
     "sv-ttk>=2.6.1",
     "tk>=0.1.0",
 ]
