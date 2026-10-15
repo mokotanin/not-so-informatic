@@ -56,10 +56,30 @@ class Refuge:
             lignes = csv.DictReader(f, delimiter=";")
             for ligne in lignes:
                 renard = Renard(
-                    ligne["id"], ligne["nom"], ligne["poids"], ligne["date_arrivee"]
+                    identifiant=int(ligne["id"]),
+                    nom=ligne["nom"],
+                    poids=float(ligne["poids"]),
+                    date_arrivee=ligne["date_arrivee"],
                 )
                 self.recueillir(renard)
+        return print("Importé!")
 
 
-renard1 = Renard(200, "Oscar", "5,1", "1er janvier 2026")
+renard1 = Renard(200, "Oscar", 5.1, "2026-01-01")
 print(renard1)
+
+refuge1 = Refuge("SOS Goupil", "12 rue de la Forêt")
+refuge1.importer_donnees("donnees_renards.csv")
+
+print("======== Liste de peu corpulents =========")
+for renard in refuge1.lister_peu_corpulents():
+    print(renard)
+
+print(f"Pourcentage de peu corpulents: {refuge1.pourcentage_peu_corpulents()}%")
+
+# justification
+L = [renard for renard in refuge1.lister_peu_corpulents()]
+
+print(
+    f"Le nombre de renards peu corpulents {len(L)} ; le nombre de renards dans le refuge {len(refuge1.liste_renards)} "
+)
