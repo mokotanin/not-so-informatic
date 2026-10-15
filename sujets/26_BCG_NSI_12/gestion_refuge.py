@@ -8,10 +8,13 @@ class Renard:
     """
 
     def __init__(self, identifiant, nom, poids, date_arrivee):
-        pass  # Question 1 à compléter
+        self.identifiant = identifiant
+        self.nom = nom
+        self.poids = poids
+        self.date_arrviee = date_arrivee
 
     def __str__(self):
-        pass  # Question 2 à compléter
+        return f"Renard ID {self.identifiant} - {self.nom} (Arrivé le {self.date_arrviee}) "
 
 
 class Refuge:
@@ -56,3 +59,7 @@ class Refuge:
                     ligne["id"], ligne["nom"], ligne["poids"], ligne["date_arrivee"]
                 )
                 self.recueillir(renard)
+
+
+renard1 = Renard(200, "Oscar", "5,1", "1er janvier 2026")
+print(renard1)
