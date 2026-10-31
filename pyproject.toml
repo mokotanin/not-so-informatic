@@ -1,11 +1,9 @@
 [project]
 name = "not-so-informatic"
-version = "0.1.0"
-description = "Add your description here"
+version = "6.6.7"
+description = "i guess these are the dependencies"
 readme = "README.md"
-authors = [
-    { name = "mokotanin", email = "titchou68@gmail.com" }
-]
+authors = [{ name = "mokotanin", email = "titchou68@gmail.com" }]
 requires-python = ">=3.14"
 dependencies = [
     "arcade>=3.0",
