@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-CDYNIP4f.js","assets/index-BhQC2Qky.js","assets/index-DvX3jdk1.css","assets/default-DMI-Tsal.js","assets/space-separated-tokens-ewWZthPN.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-BiKMfUhN.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
-import{a as e,i as t,n,r,s as i,t as a}from"./index-BhQC2Qky.js";var o=e=>e?.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase();function s(e,t,n=[]){if(t==null)throw Error(`[lucide]: iconNode is required when icon name is used`);return{name:o(e),size:24,node:t,...n.length>0?{aliases:n}:{}}}var c=e=>{let t=``,n=!1;for(let r of e){if(r===`-`||r===`_`||r<=` `){n=t.length>0;continue}t.length===0?t+=r.toLowerCase():t+=n?r.toUpperCase():r,n=!1}return t},l=e=>{let t=c(e);return t.charAt(0).toUpperCase()+t.slice(1)},u=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),d={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,"stroke-width":2,"stroke-linecap":`round`,"stroke-linejoin":`round`};function f(e){return e!=null}function p(e,t={}){let n=t.attributeNames??{},r=e=>n[e]??e,i=e.size??e.width??d.width,a=e.size??e.height??d.height,o=e.aliases?.filter(e=>typeof e==`string`&&e.trim()!==``).map(e=>`lucide-${e}`)??[],s=[...e.name?[`lucide-${e.name}`]:[],...o],c=t.className?.split(` `).filter(Boolean)??[],l=t.includeDefaultClasses===!1?u(...c):u(`lucide`,...s,...c),p=t.absoluteStrokeWidth?Number(t.strokeWidth??d[`stroke-width`])*Number(e.size??e.width??d.width)/Number(t.size??t.width??d.width):t.strokeWidth??d[`stroke-width`];return[`svg`,{...Object.entries(d).reduce((e,[t,n])=>(e[r(t)]=n,e),{}),...`color`in t&&t.color&&{[r(`stroke`)]:t.color},...`size`in t&&f(t.size)&&{[r(`width`)]:t.size,[r(`height`)]:t.size},...`width`in t&&f(t.width)&&{[r(`width`)]:t.width},...`height`in t&&f(t.height)&&{[r(`height`)]:t.height},[r(`stroke-width`)]:p,...l&&{[r(`class`)]:l},[r(`viewBox`)]:`0 0 ${i} ${a}`,...t.hasA11yProp===!1?{[r(`aria-hidden`)]:`true`}:{},...`attributes`in t&&t.attributes},e.node.map(e=>{let[n,i,a]=e,o=t.nonScalingStroke?{[r(`vector-effect`)]:`non-scaling-stroke`,...i}:i;return a?[n,o,a]:[n,o]})]}function m(e,t={}){return p(e,{...t,attributeNames:{...t.attributeNames,class:`className`,"stroke-width":`strokeWidth`,"stroke-linecap":`strokeLinecap`,"stroke-linejoin":`strokeLinejoin`,"vector-effect":`vectorEffect`}})}var h=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},g=i(t(),1),_=(0,g.createContext)({}),v=()=>(0,g.useContext)(_),y=(0,g.forwardRef)(({color:e,size:t,width:n,height:r,strokeWidth:i,absoluteStrokeWidth:a,nonScalingStroke:o,className:s=``,children:c,iconNode:l=[],icon:d={node:l,aliases:[],size:24},...f},p)=>{let{size:_=24,strokeWidth:y=2,absoluteStrokeWidth:b=!1,nonScalingStroke:x=!1,color:S=`currentColor`,className:C=``}=v()??{},w=!!c||h(f),[T,E,D=[]]=m(d,{color:e??S,width:n??t??_,height:r??t??_,strokeWidth:i??y,absoluteStrokeWidth:a??b,nonScalingStroke:o??x,className:u(C,s),hasA11yProp:w,attributes:f});return(0,g.createElement)(T,{ref:p,...E},[...D.map(([e,t])=>(0,g.createElement)(e,t)),...Array.isArray(c)?c:[c]])});function b(e,t=[],n=[]){let r=typeof e==`string`?s(e,t,n):e,i=(0,g.forwardRef)(({className:e,...t},n)=>(0,g.createElement)(y,{ref:n,icon:r,className:e,...t}));return r.name&&(i.displayName=l(r.name)),i}var x={name:`arrow-right`,size:24,node:[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`m12 5 7 7-7 7`,key:`xquz4c`}]]};x.node;var S=b(x),C={name:`braces`,size:24,node:[[`path`,{d:`M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1`,key:`ezmyqa`}],[`path`,{d:`M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1`,key:`e1hn23`}]],aliases:[`curly-braces`]};C.node;var w=b(C),T={name:`chevron-down`,size:24,node:[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]};T.node;var E=b(T),D={name:`chevron-right`,size:24,node:[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]};D.node;var O=b(D),k={name:`code-xml`,size:24,node:[[`path`,{d:`m18 16 4-4-4-4`,key:`1inbqp`}],[`path`,{d:`m6 8-4 4 4 4`,key:`15zrgr`}],[`path`,{d:`m14.5 4-5 16`,key:`e7oirm`}]],aliases:[`code-2`]};k.node;var A=b(k),j={name:`corner-down-left`,size:24,node:[[`path`,{d:`M20 4v7a4 4 0 0 1-4 4H4`,key:`6o5b7l`}],[`path`,{d:`m9 10-5 5 5 5`,key:`1kshq7`}]]};j.node;var M=b(j),N={name:`eye`,size:24,node:[[`path`,{d:`M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0`,key:`1nclc0`}],[`circle`,{cx:`12`,cy:`12`,r:`3`,key:`1v7zrd`}]]};N.node;var P=b(N),F={name:`file-code-corner`,size:24,node:[[`path`,{d:`M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35`,key:`1wthlu`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`m5 16-3 3 3 3`,key:`331omg`}],[`path`,{d:`m9 22 3-3-3-3`,key:`lsp7cz`}]],aliases:[`file-code-2`]};F.node;var I=b(F),L={name:`file-text`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`M10 9H8`,key:`b1mrlr`}],[`path`,{d:`M16 13H8`,key:`t4e002`}],[`path`,{d:`M16 17H8`,key:`z1uh3a`}]]};L.node;var R=b(L),z={name:`file`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}]]};z.node;var B=b(z),ee={name:`folder-open`,size:24,node:[[`path`,{d:`m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2`,key:`usdka0`}]]};ee.node;var te=b(ee),ne={name:`folder`,size:24,node:[[`path`,{d:`M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z`,key:`1kt360`}]]};ne.node;var re=b(ne),V={name:`house`,size:24,node:[[`path`,{d:`M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8`,key:`5wwlr5`}],[`path`,{d:`M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z`,key:`r6nss1`}]],aliases:[`home`]};V.node;var ie=b(V),ae={name:`info`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 16v-4`,key:`1dtifu`}],[`path`,{d:`M12 8h.01`,key:`e9boi3`}]]};ae.node;var oe=b(ae),se={name:`menu`,size:24,node:[[`path`,{d:`M4 5h16`,key:`1tepv9`}],[`path`,{d:`M4 12h16`,key:`1lakjw`}],[`path`,{d:`M4 19h16`,key:`1djgab`}]]};se.node;var ce=b(se),le={name:`search`,size:24,node:[[`path`,{d:`m21 21-4.34-4.34`,key:`14j7rj`}],[`circle`,{cx:`11`,cy:`11`,r:`8`,key:`4ej97u`}]]};le.node;var ue=b(le),de={name:`x`,size:24,node:[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]};de.node;var fe=b(de),pe=i(r(),1),me=`/not-so-informatic/assets/favicon-46SYL3JR.png`;function he(e){return e?typeof e==`string`?e:Array.isArray(e)?e.map(he).filter(Boolean).join(` `):typeof e==`object`?Object.entries(e).filter(([,e])=>!!e).map(([e])=>e).join(` `):``:``}function H(...e){return e.map(he).filter(Boolean).join(` `)}var U=n();function ge({checked:e,onCheckedChange:t,label:n,className:r,disabled:i=!1}){return(0,U.jsx)(`button`,{type:`button`,role:`switch`,"aria-checked":e,"aria-label":n,disabled:i,onClick:()=>t(!e),className:H(`group inline-flex shrink-0 items-center rounded-full border border-transparent p-0.5 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50`,e?`bg-foreground`:`bg-secondary`,r),children:(0,U.jsx)(`span`,{"aria-hidden":`true`,className:H(`size-[18px] rounded-full bg-background shadow-sm transition-transform duration-200`,e&&`translate-x-[18px]`)})})}function _e(){return typeof window<`u`}function W(e){return be(e)?(e.nodeName||``).toLowerCase():`#document`}function ve(e){var t;return(e==null||(t=e.ownerDocument)==null?void 0:t.defaultView)||window}function ye(e){return((be(e)?e.ownerDocument:e.document)||window.document)?.documentElement}function be(e){return _e()?e instanceof Node||e instanceof ve(e).Node:!1}function xe(e){return _e()?e instanceof Element||e instanceof ve(e).Element:!1}function G(e){return _e()?e instanceof HTMLElement||e instanceof ve(e).HTMLElement:!1}function Se(e){return!_e()||typeof ShadowRoot>`u`?!1:e instanceof ShadowRoot||e instanceof ve(e).ShadowRoot}function Ce(e){let{overflow:t,overflowX:n,overflowY:r,display:i}=Te(e);return/auto|scroll|overlay|hidden|clip/.test(t+r+n)&&i!==`inline`&&i!==`contents`}function we(e){return/^(html|body|#document)$/.test(W(e))}function Te(e){return ve(e).getComputedStyle(e)}function Ee(e){if(W(e)===`html`)return e;let t=e.assignedSlot||e.parentNode||Se(e)&&e.host||ye(e);return Se(t)?t.host:t}var De={...g},Oe={};function ke(e,t){let n=g.useRef(Oe);return n.current===Oe&&(n.current=e(t)),n}var Ae=De.useInsertionEffect,je=Ae&&Ae!==De.useLayoutEffect?Ae:e=>e();function K(e){let t=ke(Me).current;return t.next=e,je(t.effect),t.trampoline}function Me(){let e={next:void 0,callback:Ne,trampoline:(...t)=>e.callback?.(...t),effect:()=>{e.callback=e.next}};return e}function Ne(){}var q=typeof document<`u`?g.useLayoutEffect:()=>{};function Pe(e,t){if(e&&!t)return e;if(!e&&t)return t;if(e||t)return{...e,...t}}var Fe={};function Ie(e,t,n,r,i){if(!n&&!r&&!i&&!e)return Re(t);let a=Re(e);return t&&(a=ze(a,t)),n&&(a=ze(a,n)),r&&(a=ze(a,r)),i&&(a=ze(a,i)),a}function Le(e){if(e.length===0)return Fe;if(e.length===1)return Re(e[0]);let t=Re(e[0]);for(let n=1;n<e.length;n+=1)t=ze(t,e[n]);return t}function Re(e){return Ue(e)?{...We(e,Fe)}:Be(e)}function ze(e,t){return Ue(t)?We(t,e):Ve(e,t)}function Be(e){let t={...e};for(let e in t){let n=t[e];He(e,n)&&(t[e]=Ke(n))}return t}function Ve(e,t){if(!t)return e;for(let n in t){let r=t[n];switch(n){case`style`:e[n]=Pe(e.style,r);break;case`className`:e[n]=Je(e.className,r);break;default:e[n]=He(n,r)?Ge(e[n],r):r}}return e}function He(e,t){let n=e.charCodeAt(0),r=e.charCodeAt(1),i=e.charCodeAt(2);return n===111&&r===110&&i>=65&&i<=90&&(typeof t==`function`||t===void 0)}function Ue(e){return typeof e==`function`}function We(e,t){return Ue(e)?e(t):e??Fe}function Ge(e,t){return t?e?(...n)=>{let r=n[0];if(Ye(r)){let i=r;qe(i);let a=t(...n);return i.baseUIHandlerPrevented||e?.(...n),a}let i=t(...n);return e?.(...n),i}:Ke(t):e}function Ke(e){return e&&((...t)=>{let n=t[0];return Ye(n)&&qe(n),e(...t)})}function qe(e){return e.preventBaseUIHandler=()=>{e.baseUIHandlerPrevented=!0},e}function Je(e,t){return t?e?t+` `+e:t:e}function Ye(e){return typeof e==`object`&&!!e&&`nativeEvent`in e}function Xe(e,t){return function(n,...r){let i=new URL(e);return i.searchParams.set(`code`,n.toString()),r.forEach(e=>i.searchParams.append(`args[]`,e)),`${t} error #${n}; visit ${i} for the full message.`}}var Ze=Xe(`https://base-ui.com/production-error`,`Base UI`),Qe=g.createContext(void 0);function $e(e=!1){let t=g.useContext(Qe);if(t===void 0&&!e)throw Error(Ze(16));return t}function et(e){let{focusableWhenDisabled:t,disabled:n,composite:r=!1,tabIndex:i=0,isNativeButton:a}=e,o=r&&t!==!1,s=r&&t===!1;return{props:g.useMemo(()=>{let e={onKeyDown(e){n&&t&&e.key!==`Tab`&&e.preventDefault()}};return r||(e.tabIndex=i,!a&&n&&(e.tabIndex=t?i:-1)),(a&&(t||o)||!a&&n)&&(e[`aria-disabled`]=n),a&&(!t||s)&&(e.disabled=n),e},[r,n,t,o,s,a,i])}}function J(e){return e?.ownerDocument||document}function tt(e,t,{detail:n=0}={}){e.dispatchEvent(new(ve(e)).PointerEvent(`click`,{bubbles:!0,cancelable:!0,composed:!0,detail:n,shiftKey:t.shiftKey,ctrlKey:t.ctrlKey,altKey:t.altKey,metaKey:t.metaKey}))}function nt(e={}){let{disabled:t=!1,focusableWhenDisabled:n,tabIndex:r=0,native:i=!0,composite:a}=e,o=g.useRef(null),s=$e(!0),c=a??s!==void 0,{props:l}=et({focusableWhenDisabled:n,disabled:t,composite:c,tabIndex:r,isNativeButton:i}),u=g.useCallback(()=>{let e=o.current;rt(e)&&c&&t&&l.disabled===void 0&&e.disabled&&(e.disabled=!1)},[t,l.disabled,c]);return q(u,[u]),{getButtonProps:g.useCallback((e={})=>{let{onClick:n,onMouseDown:r,onKeyUp:a,onKeyDown:o,onPointerDown:s,...u}=e;return Ie({onClick(e){if(t){e.preventDefault();return}n?.(e)},onMouseDown(e){t||r?.(e)},onKeyDown(e){if(t||(qe(e),o?.(e),e.baseUIHandlerPrevented))return;let n=e.target===e.currentTarget,r=e.currentTarget,a=rt(r),s=!i&&it(r),l=n&&(i?a:!s),u=e.key===`Enter`,d=e.key===` `,f=r.getAttribute(`role`),p=f?.startsWith(`menuitem`)||f===`option`||f===`gridcell`;if(n&&c&&d){if(e.defaultPrevented&&p)return;e.preventDefault(),(!i||a)&&(e.preventBaseUIHandler(),tt(r,e));return}if(!l||i||!d&&!u){n&&s&&d&&e.preventDefault();return}e.defaultPrevented||(e.preventDefault(),u&&(e.preventBaseUIHandler(),tt(r,e)))},onKeyUp(e){if(!t){if(qe(e),a?.(e),e.target===e.currentTarget&&i&&c&&rt(e.currentTarget)&&e.key===` `){e.preventDefault();return}e.baseUIHandlerPrevented||e.target===e.currentTarget&&!i&&!c&&!e.defaultPrevented&&e.key===` `&&(e.preventBaseUIHandler(),tt(e.currentTarget,e))}},onPointerDown(e){if(t){e.preventDefault();return}s?.(e)}},i?{type:`button`}:{role:`button`},l,u)},[t,l,c,i]),buttonRef:K(e=>{o.current=e,u()})}}function rt(e){return G(e)&&e.tagName===`BUTTON`}function it(e){return G(e)&&e.tagName===`A`&&!!e.href}function at(e,t,n,r){let i=ke(st).current;return ct(i,e,t,n,r)&&ut(i,[e,t,n,r]),i.callback}function ot(e){let t=ke(st).current;return lt(t,e)&&ut(t,e),t.callback}function st(){return{callback:null,cleanup:null,refs:[]}}function ct(e,t,n,r,i){return e.refs[0]!==t||e.refs[1]!==n||e.refs[2]!==r||e.refs[3]!==i}function lt(e,t){return e.refs.length!==t.length||e.refs.some((e,n)=>e!==t[n])}function ut(e,t){if(e.refs=t,t.every(e=>e==null)){e.callback=null;return}e.callback=n=>{if(e.cleanup&&=(e.cleanup(),null),n!=null){let r=Array(t.length).fill(null);for(let e=0;e<t.length;e+=1){let i=t[e];if(i!=null)switch(typeof i){case`function`:{let t=i(n);typeof t==`function`&&(r[e]=t);break}case`object`:i.current=n}}e.cleanup=()=>{for(let e=0;e<t.length;e+=1){let n=t[e];if(n!=null)switch(typeof n){case`function`:{let t=r[e];typeof t==`function`?t():n(null);break}case`object`:n.current=null}}}}}}var dt=18;function ft(e){return dt>=e}function pt(e){if(!g.isValidElement(e))return null;let t=e,n=t.props;return(ft(19)?n?.ref:t.ref)??null}function Y(){}var mt=Object.freeze([]),X=Object.freeze({});function ht(e,t){let n={};for(let r in e){let i=e[r];if(t?.hasOwnProperty(r)){let e=t[r](i);e!=null&&Object.assign(n,e);continue}i===!0?n[`data-${r.toLowerCase()}`]=``:i&&(n[`data-${r.toLowerCase()}`]=i.toString())}return n}function gt(e,t){return typeof e==`function`?e(t):e}function _t(e,t){return typeof e==`function`?e(t):e}function vt(e,t,n={}){let r=t.render;n.enabled!==!1&&(r=St(r));let i=yt(t,n,r);if(n.enabled===!1)return null;let a=n.state??X;return Ct(e,r,i,a)}function yt(e,t,n){let{className:r,style:i}=e,{state:a=X,ref:o,props:s,stateAttributesMapping:c,enabled:l=!0}=t,u=l?gt(r,a):void 0,d=l?_t(i,a):void 0,f=l?ht(a,c):X,p=l&&s?bt(s):void 0,m=l?Pe(f,p)??{}:X;return typeof document<`u`&&(l?m.ref=Array.isArray(o)?ot([m.ref,pt(n),...o]):at(m.ref,pt(n),o):at(null,null)),l?(u!==void 0&&(m.className=Je(m.className,u)),d!==void 0&&(m.style=Pe(m.style,d)),m):X}function bt(e){return Array.isArray(e)?Le(e):Ie(void 0,e)}var xt=Symbol.for(`react.lazy`);function St(e){if(e?.$$typeof!==xt)return e;let t=g.Children.toArray(e)[0];return g.isValidElement(t)?t:e}function Ct(e,t,n,r){if(t){if(typeof t==`function`)return t(n,r);let e=Ie(n,t.props);return e.ref=n.ref,g.cloneElement(t,e)}if(e&&typeof e==`string`)return wt(e,n);throw Error(Ze(8))}function wt(e,t){return e===`button`?(0,g.createElement)(`button`,{type:`button`,...t,key:t.key}):e===`img`?(0,g.createElement)(`img`,{alt:``,...t,key:t.key}):g.createElement(e,t)}var Tt=g.forwardRef(function(e,t){let{render:n,className:r,disabled:i=!1,focusableWhenDisabled:a=!1,nativeButton:o=!0,style:s,...c}=e,{getButtonProps:l,buttonRef:u}=nt({disabled:i,focusableWhenDisabled:a,native:o});return vt(`button`,e,{state:{disabled:i},ref:[t,u],props:[c,l]})});function Et(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=Et(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Dt(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=Et(e))&&(r&&(r+=` `),r+=t);return r}var Ot=e=>typeof e==`boolean`?`${e}`:e===0?`0`:e,kt=Dt,At=((e,t)=>n=>{if(t?.variants==null)return kt(e,n?.class,n?.className);let{variants:r,defaultVariants:i}=t,a=Object.keys(r).map(e=>{let t=n?.[e],a=i?.[e];if(t===null)return null;let o=Ot(t)||Ot(a);return r[e][o]}),o=n&&Object.entries(n).reduce((e,t)=>{let[n,r]=t;return r===void 0||(e[n]=r),e},{});return kt(e,a,t?.compoundVariants?.reduce((e,t)=>{let{class:n,className:r,...a}=t;return Object.entries(a).every(e=>{let[t,n]=e;return Array.isArray(n)?n.includes({...i,...o}[t]):{...i,...o}[t]===n})?[...e,n,r]:e},[]),n?.class,n?.className)})(`group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4`,{variants:{variant:{default:`bg-primary text-primary-foreground hover:bg-primary/80`,outline:`border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50`,secondary:`bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)] aria-expanded:bg-secondary aria-expanded:text-secondary-foreground`,ghost:`hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50`,destructive:`bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40`,link:`text-primary underline-offset-4 hover:underline`},size:{default:`h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,xs:`h-6 gap-1 rounded-[min(var(--radius-md),10px)] px-2 text-xs in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3`,sm:`h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5`,lg:`h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,icon:`size-8`,"icon-xs":`size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3`,"icon-sm":`size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg`,"icon-lg":`size-9`}},defaultVariants:{variant:`default`,size:`default`}});function jt({className:e,variant:t=`default`,size:n=`default`,...r}){return(0,U.jsx)(Tt,{"data-slot":`button`,className:H(At({variant:t,size:n,className:e})),...r})}function Mt({className:e,...t}){return(0,U.jsx)(`nav`,{"aria-label":`breadcrumb`,"data-slot":`breadcrumb`,className:H(e),...t})}function Nt({className:e,...t}){return(0,U.jsx)(`ol`,{"data-slot":`breadcrumb-list`,className:H(`flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground`,e),...t})}function Pt({className:e,...t}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-item`,className:H(`inline-flex items-center gap-1`,e),...t})}function Ft({className:e,...t}){return(0,U.jsx)(`span`,{"data-slot":`breadcrumb-page`,role:`link`,"aria-disabled":`true`,"aria-current":`page`,className:H(`font-normal text-foreground`,e),...t})}function It({children:e,className:t,...n}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-separator`,role:`presentation`,"aria-hidden":`true`,className:H(`[&>svg]:size-3.5`,t),...n,children:e??(0,U.jsx)(O,{})})}var Lt=(0,g.createContext)(null);function Rt({open:e,defaultOpen:t=!1,onOpenChange:n,className:r,children:i,...a}){let[o,s]=(0,g.useState)(t),c=e??o;function l(t){e===void 0&&s(t),n?.(t)}return(0,U.jsx)(Lt.Provider,{value:{open:c,setOpen:l},children:(0,U.jsx)(`div`,{"data-slot":`collapsible`,"data-state":c?`open`:`closed`,className:H(r),...a,children:i})})}function zt({className:e,children:t,onClick:n,...r}){let i=(0,g.useContext)(Lt);if(!i)throw Error(`CollapsibleTrigger must be used inside Collapsible`);return(0,U.jsx)(`button`,{type:`button`,"data-slot":`collapsible-trigger`,"aria-expanded":i.open,className:H(e),onClick:e=>{n?.(e),e.defaultPrevented||i.setOpen(!i.open)},...r,children:t})}function Bt({className:e,children:t,...n}){let r=(0,g.useContext)(Lt);if(!r)throw Error(`CollapsibleContent must be used inside Collapsible`);return r.open?(0,U.jsx)(`div`,{"data-slot":`collapsible-content`,className:H(e),...n,children:t}):null}var Vt=`data-valid`,Ht=`data-invalid`,Ut={badInput:!1,customError:!1,patternMismatch:!1,rangeOverflow:!1,rangeUnderflow:!1,stepMismatch:!1,tooLong:!1,tooShort:!1,typeMismatch:!1,valid:null,valueMissing:!1},Wt={disabled:!1,valid:null,touched:!1,dirty:!1,filled:!1,focused:!1},Gt={valid(e){return e===null?null:e?{[Vt]:``}:{[Ht]:``}}},Kt={invalid:void 0,name:void 0,validityData:{state:Ut,errors:[],error:``,value:``,initialValue:null},setValidityData:Y,disabled:void 0,setTouched:Y,setDirty:Y,setFilled:Y,setFocused:Y,validationMode:`onSubmit`,shouldValidateOnChange:()=>!1,state:Wt,registerFieldControl:Y,validation:{getValidationProps:(e,t=X)=>t,inputRef:{current:null},registeredInputs:new Map,registerInput:Y,getInputControl:()=>null,commit:async()=>{},change:Y}},qt=g.createContext(Kt);function Jt(e=!0){let t=g.useContext(qt);if(t.setValidityData===Y&&!e)throw Error(Ze(28));return t}var Yt=g.createContext({elementRef:{current:null},formRef:{current:{fields:new Map}},errors:{},clearErrors:Y,validationMode:`onSubmit`,submitCountRef:{current:0}});function Xt(){return g.useContext(Yt)}var Zt=0;function Qt(e,t=`mui`){let[n,r]=g.useState(e),i=e||n;return g.useEffect(()=>{n??(Zt+=1,r(`${t}-${Zt}`))},[n,t]),i}var $t=De.useId;function en(e,t){if($t!==void 0){let n=$t();return e??(t?`${t}-${n}`:n)}return Qt(e,t)}function tn(e){return en(e,`base-ui`)}var nn=g.createContext({controlId:void 0,registerControlId:Y,resetControlId:Y,labelId:void 0,setLabelId:Y,messageIds:[],setMessageIds:Y,getDescriptionProps:e=>e});function rn(){return g.useContext(nn)}function an(e={}){let{id:t,enabled:n=!0}=e,{controlId:r,registerControlId:i,resetControlId:a}=rn(),o=tn(),s=ke(()=>Symbol()),c=g.useRef(!1),l=g.useRef(!1),u=K(()=>{c.current&&i!==Y&&(c.current=!1,i(s.current,void 0))});return q(()=>{if(!n||i===Y){u();return}let e;if(t!==void 0)l.current=!0,e=t;else if(l.current)e=o;else{a();return}if(e===void 0){u();return}c.current=!0,i(s.current,e)},[t,n,i,a,o,s,u]),q(()=>u,[u]),(n?r:void 0)??t??o}function on(){return typeof navigator>`u`?{userAgent:``,platform:``,maxTouchPoints:0}:{userAgent:navigator.userAgent,platform:navigator.platform??``,maxTouchPoints:navigator.maxTouchPoints??0}}var{userAgent:sn,platform:cn,maxTouchPoints:ln}=on(),un=sn.toLowerCase(),dn=cn.toLowerCase(),fn=/^i(os$|p)/.test(dn)||dn===`macintel`&&ln>1,pn=`android`,mn=dn===pn||un.includes(pn),hn=!fn&&dn.startsWith(`mac`);dn.startsWith(`win`),!mn&&/^(linux|chrome os)/.test(dn);var gn=hn||fn,_n=typeof CSS<`u`&&!!CSS.supports?.(`-webkit-backdrop-filter:none`);!_n&&un.includes(`firefox`),!_n&&un.includes(`chrom`);var vn=gn,yn=/jsdom|happydom/.test(un);function bn(e){let t=e.activeElement;for(;t?.shadowRoot?.activeElement!=null;)t=t.shadowRoot.activeElement;return t}function Z(e,t){if(!e||!t)return!1;let n=t.getRootNode?.();if(e.contains(t))return!0;if(n&&Se(n)){let n=t;for(;n;){if(e===n)return!0;n=n.parentNode||n.host}}return!1}function xn(e){return`composedPath`in e?e.composedPath()[0]??e.target:e.target}var Sn=`data-base-ui-focusable`,Cn=`data-starting-style`,wn=`data-ending-style`,Tn={[Cn]:``},En={[wn]:``},Dn={transitionStatus(e){return e===`starting`?Tn:e===`ending`?En:null}},On=`data-open`,kn=`data-closed`,An=`data-anchor-hidden`,jn={[On]:``},Mn={[kn]:``},Nn={[An]:``},Pn={open(e){return e?jn:Mn},anchorHidden(e){return e?Nn:null}},Fn={...Pn,...Dn};function In(e,t){if(t==null)return!1;if(`composedPath`in e)return e.composedPath().includes(t);let n=e;return n.target!=null&&t.contains(n.target)}function Ln(e){return e.matches(`html,body`)}function Rn(e){return G(e)&&e.matches(`input:not([type='hidden']):not([disabled]),[contenteditable]:not([contenteditable='false']),textarea:not([disabled])`)}function zn(e){return e?e.getAttribute(`role`)===`combobox`&&Rn(e):!1}function Bn(e){return e?e.hasAttribute(`data-base-ui-focusable`)?e:e.querySelector(`[data-base-ui-focusable]`)||e:null}function Vn(e,t,n=!0){return e.filter(e=>e.parentId===t).flatMap(t=>[...!n||t.context?.open?[t]:[],...Vn(e,t.id,n)])}function Hn(e,t){let n=[],r=e.find(e=>e.id===t)?.parentId;for(;r;){let t=e.find(e=>e.id===r);r=t?.parentId,t&&(n=n.concat(t))}return n}function Un(e){e.preventDefault(),e.stopPropagation()}function Wn(e){return`nativeEvent`in e}function Gn(e){return e.pointerType===``&&e.isTrusted?!0:mn&&e.pointerType?e.type===`click`&&e.buttons===1:e.detail===0&&!e.pointerType}function Kn(e){return yn?!1:!mn&&e.width===0&&e.height===0||mn&&e.width===1&&e.height===1&&e.pressure===0&&e.detail===0&&e.pointerType===`mouse`||e.width<1&&e.height<1&&e.pressure===0&&e.detail===0&&e.pointerType===`touch`}function qn(e){let t=e.type;return t===`click`||t===`mousedown`||t===`keydown`||t===`keyup`}function Jn(e){return e.visibility===`hidden`||e.visibility===`collapse`}function Yn(e,t=e?Te(e):null){return!e||!e.isConnected||!t||Jn(t)?!1:typeof e.checkVisibility==`function`?e.checkVisibility():t.display!==`none`&&t.display!==`contents`}var Xn=`a[href],button,input,select,textarea,summary,details,iframe,object,embed,[tabindex],[contenteditable]:not([contenteditable="false"]),audio[controls],video[controls]`;function Zn(e){let t=e.assignedSlot;if(t)return t;if(e.parentElement)return e.parentElement;let n=e.getRootNode();return Se(n)?n.host:null}function Qn(e){for(let t of Array.from(e.children))if(W(t)===`summary`)return t;return null}function $n(e,t){let n=Qn(t);return!!n&&(e===n||Z(n,e))}function er(e){let t=e?W(e):``;return e!=null&&e.matches(Xn)&&(t!==`summary`||e.parentElement!=null&&W(e.parentElement)===`details`&&Qn(e.parentElement)===e)&&(t!==`details`||Qn(e)==null)&&(t!==`input`||e.type!==`hidden`)}function tr(e){if(!er(e)||!e.isConnected||e.matches(`:disabled`))return!1;for(let t=e;t;t=Zn(t)){let n=t!==e,r=W(t)===`slot`;if(t.hasAttribute(`inert`)||n&&W(t)===`details`&&!t.open&&!$n(e,t)||t.hasAttribute(`hidden`)||!r&&!nr(t,n))return!1}return!0}function nr(e,t){let n=Te(e);return t?n.display!==`none`:Yn(e,n)}function rr(e){let t=e.tabIndex;if(t<0){let t=W(e);if(t===`details`||t===`audio`||t===`video`||G(e)&&e.isContentEditable)return 0}return t}function ir(e){if(W(e)!==`input`)return null;let t=e;return t.type===`radio`&&t.name!==``?t:null}function ar(e,t){let n=ir(e);if(!n)return!0;let r=t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form&&t.checked});return r?r===n:t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form})===n}function or(e){if(G(e)&&W(e)===`slot`){let t=e.assignedElements({flatten:!0});if(t.length>0)return t}return G(e)&&e.shadowRoot?Array.from(e.shadowRoot.children):Array.from(e.children)}function sr(e,t){or(e).forEach(e=>{er(e)&&t.push(e),sr(e,t)})}function cr(e,t,n){or(e).forEach(e=>{G(e)&&e.matches(t)&&n.push(e),cr(e,t,n)})}function lr(e){return tr(e)&&rr(e)>=0}function ur(e){let t=[];return sr(e,t),t.filter(tr)}function dr(e){let t=ur(e);return t.filter(e=>rr(e)>=0&&ar(e,t))}function fr(e,t){let n=dr(e),r=n.length;if(r===0)return;let i=bn(J(e)),a=n.indexOf(i);return n[a===-1?t===1?0:r-1:a+t]}function pr(e){return fr(J(e).body,1)||e}function mr(e){return fr(J(e).body,-1)||e}function hr(e,t){let n=t||e.currentTarget,r=e.relatedTarget;return!r||!Z(n,r)}function gr(e){dr(e).forEach(e=>{e.dataset.tabindex=e.getAttribute(`tabindex`)||``,e.setAttribute(`tabindex`,`-1`)})}function _r(e){let t=[];cr(e,`[data-tabindex]`,t),t.forEach(e=>{let t=e.dataset.tabindex;delete e.dataset.tabindex,t?e.setAttribute(`tabindex`,t):e.removeAttribute(`tabindex`)})}function vr(e){g.useEffect(e,mt)}var yr=0,br=class e{static create(){return new e}currentId=yr;start(e,t){this.clear(),this.currentId=setTimeout(()=>{this.currentId=yr,t()},e)}isStarted(){return this.currentId!==yr}clear=()=>{this.currentId!==yr&&(clearTimeout(this.currentId),this.currentId=yr)};disposeEffect=()=>this.clear};function xr(){let e=ke(br.create).current;return vr(e.disposeEffect),e}var Sr=null;globalThis.requestAnimationFrame;var Cr=new class{callbacks=[];callbacksCount=0;nextId=1;startId=1;isScheduled=!1;tick=e=>{this.isScheduled=!1;let t=this.callbacks,n=this.callbacksCount;if(this.callbacks=[],this.callbacksCount=0,this.startId=this.nextId,n>0)for(let n=0;n<t.length;n+=1)t[n]?.(e)};request(e){let t=this.nextId;return this.nextId+=1,this.callbacks.push(e),this.callbacksCount+=1,this.isScheduled||=(requestAnimationFrame(this.tick),!0),t}cancel(e){let t=e-this.startId;t<0||t>=this.callbacks.length||this.callbacks[t]!==null&&(this.callbacks[t]=null,--this.callbacksCount)}},wr=class e{static create(){return new e}static request(e){return Cr.request(e)}static cancel(e){return Cr.cancel(e)}currentId=Sr;request(e){this.cancel(),this.currentId=Cr.request(()=>{this.currentId=Sr,e()})}cancel=()=>{this.currentId!==Sr&&(Cr.cancel(this.currentId),this.currentId=Sr)};disposeEffect=()=>this.cancel};function Tr(){let e=ke(wr.create).current;return vr(e.disposeEffect),e}function Er(e){return e==null?e:`current`in e?e.current:e}var Dr=null;function Or(e){if(!Dr){let e=[];Dr=e,queueMicrotask(()=>{Dr=null,pe.flushSync(()=>{for(let t of e)t()})})}Dr.push(e)}function kr(e,t=!1,n=!1){let r=Tr();return K((i,a=null)=>{r.cancel();let o=Er(e);if(o==null)return;let s=o,c=()=>{if(!n){pe.flushSync(i);return}Or(()=>{a?.aborted||i()})};if(typeof s.getAnimations!=`function`||globalThis.BASE_UI_ANIMATIONS_DISABLED){i();return}function l(){Promise.all(s.getAnimations().map(e=>e.finished)).then(()=>{a?.aborted||c()},()=>{if(!a?.aborted){if(s.getAnimations().some(e=>e.pending||e.playState!==`finished`)){l();return}c()}})}if(t){let e=Cn;if(!s.hasAttribute(e)){r.request(l);return}let t=new MutationObserver(()=>{s.hasAttribute(e)||(t.disconnect(),l())});t.observe(s,{attributes:!0,attributeFilter:[e]}),a?.addEventListener(`abort`,()=>t.disconnect(),{once:!0});return}r.request(l)})}function Ar(e){let{enabled:t=!0,open:n,ref:r,batch:i=!1,onComplete:a}=e,o=K(a),s=kr(r,n,i);g.useEffect(()=>{if(!t)return;let e=new AbortController;return s(o,e.signal),()=>{e.abort()}},[t,n,o,s])}function jr(e,t=!1,n=!1,r=!1){let[i,a]=g.useState(e&&t?`idle`:void 0),[o,s]=g.useState(e&&!r);return e&&!o&&(s(!0),a(`starting`)),!e&&o&&i!==`ending`&&!n&&a(`ending`),!e&&!o&&i===`ending`&&a(void 0),q(()=>{if(!e&&o&&i!==`ending`&&n){let e=wr.request(()=>{a(`ending`)});return()=>{wr.cancel(e)}}},[e,o,i,n]),q(()=>{if(!e||t)return;let n=wr.request(()=>{a(void 0)});return()=>{wr.cancel(n)}},[t,e]),q(()=>{if(!e||!t)return;e&&o&&i!==`idle`&&a(`starting`);let n=wr.request(()=>{a(`idle`)});return()=>{wr.cancel(n)}},[t,e,o,i]),{mounted:o,setMounted:s,transitionStatus:i}}function Mr({controlled:e,default:t,name:n,state:r=`value`}){let{current:i}=g.useRef(e!==void 0),[a,o]=g.useState(t);return[i&&e!==void 0?e:a,g.useCallback(e=>{i||o(e)},[])]}function Nr(e,t,n,r,i=!0,a){let{registerFieldControl:o}=Jt(),s=ke(()=>Symbol());q(()=>{let c=s.current;if(!i){o(c,void 0);return}o(c,{controlRef:e,getValue:r,id:t,name:a,value:n})},[e,i,r,t,a,o,s,n]),q(()=>{let e=s.current;return()=>{o(e,void 0)}},[o,s])}function Pr(e,t){let n=g.useRef(e),r=K(t);q(()=>{n.current!==e&&r(n.current),n.current=e},[e,r])}var Fr=`none`,Ir=`trigger-press`,Lr=`outside-press`,Rr=`close-press`,zr=`focus-out`,Br=`escape-key`,Vr=`imperative-action`;function Hr(e,t,n,r){let i=!1,a=!1,o=r??X;return{reason:e,event:t??new Event(`base-ui`),cancel(){i=!0},allowPropagation(){a=!0},get isCanceled(){return i},get isPropagationAllowed(){return a},trigger:n,...o}}var Ur=g.forwardRef(function(e,t){let{render:n,className:r,id:i,name:a,value:o,disabled:s=!1,onValueChange:c,defaultValue:l,autoFocus:u=!1,style:d,...f}=e,{state:p,name:m,disabled:h,setTouched:_,setDirty:v,validityData:y,setFocused:b,setFilled:x,validationMode:S,validation:C}=Jt(),{clearErrors:w,elementRef:T,submitCountRef:E}=Xt(),D=h||s,O=m??a,k={...p,disabled:D},{labelId:A}=rn(),j=an({id:i}),[M]=Mr({controlled:o,default:l,name:`FieldControl`,state:`value`}),N=o!==void 0,P=N?M:void 0,F=P==null?void 0:String(P),I=K(()=>C.inputRef.current?.value);Nr(C.inputRef,j,F,I,!D,a),q(()=>{let e=F??C.inputRef.current?.value;e!==void 0&&x(e!==``)},[F,C.inputRef,x]),Pr(F,()=>{F!==void 0&&(w(O),v(F!==(y.initialValue??``)),C.change(F))});let L=g.useRef(null),R=xr();return q(()=>{u&&L.current===bn(J(L.current))&&b(!0)},[u,b]),vt(`input`,e,{ref:[t,L],state:k,props:[{id:j,disabled:D,name:O,ref:C.inputRef,"aria-labelledby":A,autoFocus:u,...N?{value:P}:{defaultValue:l},onChange(e){let t=e.currentTarget.value,n=Hr(Fr,e.nativeEvent);c?.(t,n),!N&&(v(t!==(y.initialValue??``)),x(t!==``),!e.nativeEvent.defaultPrevented&&!n.isCanceled&&(w(O),C.change(t)))},onFocus(){b(!0)},onBlur(e){if(_(!0),b(!1),S===`onBlur`){let t=e.currentTarget.value;C.commit(t),N&&queueMicrotask(()=>{let e=C.inputRef.current?.value;e!==void 0&&e!==t&&e!==(y.initialValue??``)&&C.commit(e)})}},onKeyDown(e){if(e.currentTarget.tagName===`INPUT`&&e.key===`Enter`){_(!0);let t=e.currentTarget.value,n=e.currentTarget.form;if(n&&n===T.current&&!e.defaultPrevented){let t=e.currentTarget,n=E.current;R.start(0,()=>{E.current===n&&C.commit(t.value)})}else C.commit(t)}}},f,e=>C.getValidationProps(D,e)],stateAttributesMapping:Gt})}),Wr=g.forwardRef(function(e,t){return(0,U.jsx)(Ur,{ref:t,...e})}),Gr=(0,g.forwardRef)(function({className:e,type:t,...n},r){return(0,U.jsx)(Wr,{ref:r,type:t,"data-slot":`input`,className:H(`h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40`,e),...n})});function Kr({className:e,viewportClassName:t,children:n,...r}){return(0,U.jsx)(`div`,{"data-slot":`scroll-area`,className:H(`relative overflow-hidden`,e),...r,children:(0,U.jsx)(`div`,{"data-slot":`scroll-area-viewport`,className:H(`h-full w-full overflow-auto`,t),children:n})})}var qr=g.createContext(void 0);function Jr(e){let t=g.useContext(qr);if(!e&&t===void 0)throw Error(Ze(27));return t}var Yr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,forceRender:a=!1,...o}=e,s=Jr(),c=s.useState(`open`),l=s.useState(`nested`),u=s.useState(`mounted`);return vt(`div`,e,{state:{open:c,transitionStatus:s.useState(`transitionStatus`)},ref:[s.context.backdropRef,t],stateAttributesMapping:Fn,props:[{role:`presentation`,hidden:!u,style:{userSelect:`none`,WebkitUserSelect:`none`}},o],enabled:a||!l})}),Xr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,disabled:a=!1,nativeButton:o=!0,...s}=e,c=Jr(),l=c.useState(`open`),{getButtonProps:u,buttonRef:d}=nt({disabled:a,native:o}),f={disabled:a};function p(e){l&&c.setOpen(!1,Hr(Rr,e.nativeEvent))}return vt(`button`,e,{state:f,ref:[t,d],props:[{onClick:p},s,u]})});function Q(e,t,n,r){return e.addEventListener(t,n,r),()=>{e.removeEventListener(t,n,r)}}function Zr(...e){return()=>{for(let t=0;t<e.length;t+=1){let n=e[t];n&&n()}}}function Qr(e){let t=ke($r,e).current;return t.next=e,q(t.effect),t}function $r(e){let t={current:e,next:e,effect:()=>{t.current=t.next}};return t}var ei={clipPath:`inset(50%)`,overflow:`hidden`,whiteSpace:`nowrap`,border:0,padding:0,width:1,height:1,margin:-1},ti={...ei,position:`fixed`,top:0,left:0};({...ei});var ni=g.forwardRef(function(e,t){let[n,r]=g.useState();q(()=>{vn&&_n&&r(`button`)},[]);let i={tabIndex:0,role:n};return(0,U.jsx)(`span`,{...e,ref:t,style:ti,"aria-hidden":!n||void 0,...i,"data-base-ui-focus-guard":``})});function ri(e){return`data-base-ui-${e}`}var ii=0;function ai(e,t={}){let{preventScroll:n=!1,sync:r=!1,shouldFocus:i}=t;cancelAnimationFrame(ii);function a(){(!i||i())&&e?.focus({preventScroll:n})}if(r)return a(),Y;let o=requestAnimationFrame(a);return ii=o,()=>{ii===o&&(cancelAnimationFrame(o),ii=0)}}var oi={inert:new WeakMap,"aria-hidden":new WeakMap},si=`data-base-ui-inert`,ci={inert:new WeakSet,"aria-hidden":new WeakSet},li=new WeakMap,ui=0;function di(e){return ci[e]}function fi(e){return e?Se(e)?e.host:fi(e.parentNode):null}var pi=(e,t)=>t.map(t=>{if(e.contains(t))return t;let n=fi(t);return e.contains(n)?n:null}).filter(e=>e!=null),mi=e=>{let t=new Set;return e.forEach(e=>{let n=e;for(;n&&!t.has(n);)t.add(n),n=n.parentNode}),t},hi=(e,t,n)=>{let r=[],i=e=>{e&&!n.has(e)&&Array.from(e.children).forEach(e=>{W(e)!==`script`&&(t.has(e)?i(e):r.push(e))})};return i(e),r};function gi(e,t,n,r,{mark:i=!0}){let a=null;r?a=`inert`:n&&(a=`aria-hidden`);let o=null,s=null,c=pi(t,e),l=i?hi(t,mi(c),new Set(c)):[],u=[],d=[];if(a){let e=oi[a],n=di(a);s=n,o=e;let r=pi(t,Array.from(t.querySelectorAll(`[aria-live]`))),i=c.concat(r);hi(t,mi(i),new Set(i)).forEach(t=>{let r=t.getAttribute(a),i=r!==null&&r!==`false`,o=(e.get(t)||0)+1;e.set(t,o),u.push(t),o===1&&i&&n.add(t),i||t.setAttribute(a,a===`inert`?``:`true`)})}return i&&l.forEach(e=>{let t=(li.get(e)||0)+1;li.set(e,t),d.push(e),t===1&&e.setAttribute(si,``)}),ui+=1,()=>{o&&u.forEach(e=>{let t=(o.get(e)||0)-1;o.set(e,t),t||(!s?.has(e)&&a&&e.removeAttribute(a),s?.delete(e))}),i&&d.forEach(e=>{let t=(li.get(e)||0)-1;li.set(e,t),t||e.removeAttribute(si)}),--ui,ui||(oi.inert=new WeakMap,oi[`aria-hidden`]=new WeakMap,ci.inert=new WeakSet,ci[`aria-hidden`]=new WeakSet,li=new WeakMap)}}function _i(e,t={}){let{ariaHidden:n=!1,inert:r=!1,mark:i=!0}=t,a=J(e[0]).body;return gi(e,a,n,r,{mark:i})}var vi={clipPath:`inset(50%)`,position:`fixed`,top:0,left:0},yi=g.createContext(null),bi=()=>g.useContext(yi),xi=ri(`portal`);function Si(e={}){let{ref:t,container:n,componentProps:r=X,elementProps:i}=e,a=en(),o=bi()?.portalNode,[s,c]=g.useState(null),[l,u]=g.useState(null),d=K(e=>{e!==null&&u(e)}),f=g.useRef(null);q(()=>{if(n===null){f.current&&(f.current=null,u(null),c(null));return}let e=(n&&(be(n)?n:n.current))??o??document.body;if(e==null){f.current&&(f.current=null,u(null),c(null));return}f.current!==e&&(f.current=e,u(null),c(e))},[n,o]);let p=vt(`div`,r,{ref:[t,d],props:[{id:a,[xi]:``},i]}),m=s&&p?pe.createPortal(p,s):null;return{node:l,nodeId:g.isValidElement(p)?p.props.id:void 0,subtree:m}}var Ci=g.forwardRef(function(e,t){let{render:n,className:r,style:i,children:a,container:o,portalOwnerRole:s,...c}=e,{node:l,nodeId:u,subtree:d}=Si({container:o,ref:t,componentProps:e,elementProps:c}),f=g.useRef(null),p=g.useRef(null),m=g.useRef(null),h=g.useRef(null),[_,v]=g.useState(null),y=g.useRef(!1),b=_?.modal,x=_?.open,S=!!_&&!_.modal&&_.open&&!!l;g.useEffect(()=>{if(!l||b)return;function e(e){l&&e.relatedTarget&&hr(e)&&(e.type===`focusin`?y.current&&=(_r(l),!1):(gr(l),y.current=!0))}return Zr(Q(l,`focusin`,e,!0),Q(l,`focusout`,e,!0))},[l,b]),q(()=>{l&&x===!0&&y.current&&(_r(l),y.current=!1)},[x,l]);let C=g.useMemo(()=>({beforeOutsideRef:f,afterOutsideRef:p,beforeInsideRef:m,afterInsideRef:h,portalNode:l,setFocusManagerState:v}),[l]);return(0,U.jsxs)(g.Fragment,{children:[d,(0,U.jsxs)(yi.Provider,{value:C,children:[S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:f,onFocus:e=>{hr(e,l)?m.current?.focus():mr(_?_.domReference:null)?.focus()}}),S&&l&&(0,U.jsx)(`span`,{role:s,"aria-owns":u,style:vi}),l&&pe.createPortal(a,l),S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:p,onFocus:e=>{hr(e,l)?h.current?.focus():(pr(_?_.domReference:null)?.focus(),_?.closeOnFocusOut&&_?.onOpenChange(!1,Hr(`focus-out`,e.nativeEvent)))}})]})]})});function wi(){let e=new Map;return{emit(t,n){e.get(t)?.forEach(e=>e(n))},on(t,n){e.has(t)||e.set(t,new Set),e.get(t).add(n)},off(t,n){e.get(t)?.delete(n)}}}var Ti=g.createContext(null),Ei=g.createContext(null),Di=()=>g.useContext(Ti)?.id||null,Oi=e=>{let t=g.useContext(Ei);return e??t};function ki(e,t){let n=ve(xn(e));return e instanceof n.KeyboardEvent?`keyboard`:e instanceof n.FocusEvent?t||`keyboard`:`pointerType`in e?e.pointerType||`keyboard`:`touches`in e?`touch`:e instanceof n.MouseEvent?t||(e.detail===0?`keyboard`:`mouse`):``}var Ai=20,ji=[];function Mi(){ji=ji.filter(e=>e.deref()?.isConnected)}function Ni(e){Mi(),e&&W(e)!==`body`&&(ji.push(new WeakRef(e)),ji.length>Ai&&(ji=ji.slice(-20)))}function Pi(){return Mi(),ji[ji.length-1]?.deref()}function Fi(e){return e?lr(e)?e:dr(e)[0]||e:null}function Ii(e){if(e.hasAttribute(`tabindex`)&&!e.hasAttribute(`data-tabindex`)||!e.getAttribute(`role`)?.includes(`dialog`))return;let t=ur(e).filter(e=>{let t=e.getAttribute(`data-tabindex`)||``;return lr(e)||e.hasAttribute(`data-tabindex`)&&!t.startsWith(`-`)}),n=e.getAttribute(`tabindex`);t.length===0?n!==`0`&&(e.setAttribute(`tabindex`,`0`),e.setAttribute(`data-tabindex`,`0`)):(n!==`-1`||e.hasAttribute(`data-tabindex`)&&e.getAttribute(`data-tabindex`)!==`-1`)&&(e.setAttribute(`tabindex`,`-1`),e.setAttribute(`data-tabindex`,`-1`))}function Li(e){let{context:t,children:n,disabled:r=!1,initialFocus:i=!0,returnFocus:a=!0,restoreFocus:o=!1,modal:s=!0,closeOnFocusOut:c=!0,openInteractionType:l=``,nextFocusableElement:u,previousFocusableElement:d,beforeContentFocusGuardRef:f,externalTree:p,getInsideElements:m}=e,h=`rootStore`in t?t.rootStore:t,_=h.useState(`open`),v=h.useState(`domReferenceElement`),y=h.useState(`floatingElement`),{events:b,dataRef:x}=h.context,S=K(()=>x.current.floatingContext?.nodeId),C=i===!1,w=zn(v)&&C,T=Qr(i),E=Qr(a),D=Qr(l),O=Qr(_),k=Oi(p),A=bi(),j=g.useRef(!1),M=g.useRef(!1),N=g.useRef(!1),P=g.useRef(null),F=g.useRef(``),I=g.useRef(``),L=g.useRef(null),R=g.useRef(null),z=at(L,f,A?.beforeInsideRef),B=at(R,A?.afterInsideRef),ee=xr(),te=xr(),ne=Tr(),re=A!=null,V=Bn(y),ie=K((e=V)=>e?dr(e):[]),ae=K(()=>m?.().filter(e=>e!=null)??[]);g.useEffect(()=>{if(r||!s)return;function e(e){e.key===`Tab`&&Z(V,bn(J(V)))&&ie().length===0&&!w&&Un(e)}return Q(J(V),`keydown`,e)},[r,V,s,w,ie]),g.useEffect(()=>{if(r||!_)return;let e=J(V);function t(){N.current=!1}function n(e){let t=xn(e),n=ae(),r=Z(y,t)||Z(v,t)||Z(A?.portalNode,t)||n.some(e=>e===t||Z(e,t));N.current=!r,I.current=e.pointerType||`keyboard`,t?.closest(`[data-base-ui-click-trigger]`)&&(M.current=!0,te.start(0,()=>{M.current=!1}))}function i(){I.current=`keyboard`}return Zr(Q(e,`pointerdown`,n,!0),Q(e,`pointerup`,t,!0),Q(e,`pointercancel`,t,!0),Q(e,`keydown`,i,!0),t)},[r,y,v,V,_,A,te,ae]),g.useEffect(()=>{if(r||!c)return;let e=J(V);function t(){M.current=!0,te.start(0,()=>{M.current=!1})}function n(e){let t=xn(e);lr(t)&&(P.current=t)}function i(t){let n=t.relatedTarget,r=t.currentTarget,i=xn(t);s&&n==null&&i!=null&&Z(y,i)&&Ni(i),queueMicrotask(()=>{let a=S(),c=h.context.triggerElements,l=ae(),f=n?.hasAttribute(ri(`focus-guard`))&&[L.current,R.current,A?.beforeInsideRef.current,A?.afterInsideRef.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,Er(d),Er(u)].includes(n),p=!(Z(v,n)||Z(y,n)||Z(n,y)||Z(A?.portalNode,n)||l.some(e=>e===n||Z(e,n))||c.hasMatchingElement(e=>Z(e,n))||f||k&&(Vn(k.nodesRef.current,a).find(e=>Z(e.context?.elements.floating,n)||Z(e.context?.elements.domReference,n))||Hn(k.nodesRef.current,a).find(e=>[e.context?.elements.floating,Bn(e.context?.elements.floating)].includes(n)||e.context?.elements.domReference===n)));if(r===v&&V&&Ii(V),o&&r!==v&&!Yn(i)&&bn(e)===e.body){if(G(V)&&(V.focus(),o===`popup`)){ne.request(()=>{V.focus()});return}let e=ie(),t=P.current,n=(t&&e.includes(t)?t:null)||e[e.length-1]||V;G(n)&&n.focus()}if(x.current.insideReactTree){x.current.insideReactTree=!1;return}(w||!s)&&n&&p&&!M.current&&(w||n!==Pi())&&(j.current=!0,h.setOpen(!1,Hr(zr,t)))})}function a(){N.current||(x.current.insideReactTree=!0,ee.start(0,()=>{x.current.insideReactTree=!1}))}let l=G(v)?v:null;if(y||l)return Zr(l&&Q(l,`focusout`,i),l&&Q(l,`pointerdown`,t),y&&Q(y,`focusin`,n),y&&Q(y,`focusout`,i),y&&A&&Q(y,`focusout`,a,!0))},[r,v,y,V,s,k,A,h,c,o,ie,w,S,x,ee,te,ne,u,d,ae]),g.useEffect(()=>{if(r||!y||!_)return;let e=Array.from(A?.portalNode?.querySelectorAll(`[${ri(`portal`)}]`)||[]),t=(k?Hn(k.nodesRef.current,S()):[]).find(e=>zn(e.context?.elements.domReference||null))?.context?.elements.domReference,n=_i([y,...e,L.current,R.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,...ae(),t,Er(d),Er(u),w?v:null].filter(e=>e!=null),{ariaHidden:s||w,mark:!1}),i=_i([y,...e].filter(e=>e!=null));return()=>{i(),n()}},[_,r,v,y,s,A,w,k,S,u,d,ae]),q(()=>{if(!_||r||!G(V))return;F.current=``,I.current=``;let e=J(V),t=bn(e);queueMicrotask(()=>{let n=T.current,r=typeof n==`function`?n(D.current||``):n;if(r===void 0||r===!1||Z(V,t))return;let i=null,a=()=>(i??=ie(V),i[0]||V),o;o=r===!0||r===null?a():Er(r),o||=a();let s=Z(V,bn(e));ai(o,{preventScroll:o===V,shouldFocus(){if(!O.current)return!1;if(s)return!0;let t=bn(e);return!(t!==o&&Z(V,t))}})})},[r,_,V,ie,T,D,O]),q(()=>{if(r||!V)return;let e=J(V),t=bn(e),n=D.current==null;Ni(t);function i(e){if(e.open||(F.current=ki(e.nativeEvent,I.current)),e.reason===`trigger-hover`&&e.nativeEvent.type===`mouseleave`&&(j.current=!0),e.reason===`outside-press`){if(e.nested)j.current=!1;else if(Gn(e.nativeEvent)||Kn(e.nativeEvent))j.current=!1;else{let e=!1;J(V).createElement(`div`).focus({get preventScroll(){return e=!0,!1}}),e?j.current=!1:j.current=!0}}}b.on(`openchange`,i);function a(e){let r=E.current,i=typeof r==`function`?r(e):r;if(i===void 0||i===!1)return null;i===null&&(i=!0);let a=v?.isConnected?v:null,o=t?.isConnected&&W(t)!==`body`?t:null,s=n?o||a:a||o;return s||=Pi()||null,typeof i==`boolean`?s:Er(i)||s||null}return()=>{b.off(`openchange`,i);let t=bn(e),n=ae(),r=Z(y,t)||n.some(e=>e===t||Z(e,t))||k&&Vn(k.nodesRef.current,S(),!1).some(e=>Z(e.context?.elements.floating,t)),o=E.current,s=F.current,c=a(s);queueMicrotask(()=>{let n=Fi(c),i=typeof o!=`boolean`;if(o&&!j.current&&G(n)&&(i||n===t||t===e.body||r)){let e={preventScroll:!0};s===`keyboard`&&(e.focusVisible=!0),n.focus(e)}j.current=!1})}},[r,y,V,E,D,b,k,v,S,ae]),q(()=>{if(!_n||_||!y)return;let e=bn(J(y));G(e)&&Rn(e)&&Z(y,e)&&e.blur()},[_,y]),q(()=>{if(!r&&A)return A.setFocusManagerState({modal:s,closeOnFocusOut:c,open:_,onOpenChange:h.setOpen,domReference:v}),()=>{A.setFocusManagerState(null)}},[r,A,s,_,h,c,v]),q(()=>{if(!r&&V)return Ii(V),()=>{queueMicrotask(Mi)}},[r,V]);let oe=!r&&(!s||!w)&&(re||s);return(0,U.jsxs)(g.Fragment,{children:[oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:z,onFocus:e=>{if(s){let e=ie();ai(e[e.length-1])}else A?.portalNode&&(j.current=!1,hr(e,A.portalNode)?pr(v)?.focus():Er(d??A.beforeOutsideRef)?.focus())}}),n,oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:B,onFocus:e=>{s?ai(ie()[0]):A?.portalNode&&(c&&(j.current=!0),hr(e,A.portalNode)?mr(v)?.focus():Er(u??A.afterOutsideRef)?.focus())}})]})}function Ri(){return!1}function zi(e){return{escapeKey:typeof e==`boolean`?e:e?.escapeKey??!1,outsidePress:typeof e==`boolean`?e:e?.outsidePress??!0}}function Bi(e,t={}){let{enabled:n=!0,escapeKey:r=!0,outsidePress:i=!0,outsidePressEvent:a=`sloppy`,referencePress:o=Ri,bubbles:s,externalTree:c}=t,l=`rootStore`in e?e.rootStore:e,u=l.useState(`open`),d=l.useState(`floatingElement`),{dataRef:f,events:p}=l.context,m=Oi(c),h=K(typeof i==`function`?i:()=>!1),_=typeof i==`function`?h:i,v=_!==!1,y=K(()=>a),{escapeKey:b,outsidePress:x}=zi(s),S=g.useRef(!1),C=g.useRef(!1),w=g.useRef(!1),T=g.useRef(!1),E=g.useRef(!1),D=g.useRef(``),O=g.useRef(null),k=xr(),A=xr(),j=K(()=>{A.clear(),f.current.insideReactTree=!1}),M=K(e=>{let t=f.current.floatingContext?.nodeId;return(m?Vn(m.nodesRef.current,t):[]).some(t=>t.context?.open&&!t.context.dataRef.current[e])}),N=K(e=>In(e,l.select(`floatingElement`))||In(e,l.select(`domReferenceElement`))),P=K(e=>{o()&&l.setOpen(!1,Hr(Ir,e.nativeEvent))}),F=K(e=>{if(!u||!n||!r||e.key!==`Escape`||E.current||!b&&M(`__escapeKeyBubbles`))return;let t=Hr(Br,Wn(e)?e.nativeEvent:e);l.setOpen(!1,t),t.isCanceled||e.preventDefault(),!b&&!t.isPropagationAllowed&&e.stopPropagation()}),I=K(()=>{f.current.insideReactTree=!0,A.start(0,j)}),L=K(e=>{if(!u||!n||e.button!==0)return;let t=xn(e.nativeEvent);Z(l.select(`floatingElement`),t)&&(S.current||(S.current=!0,C.current=!1))}),R=K(e=>{u&&n&&(e.defaultPrevented||e.nativeEvent.defaultPrevented)&&S.current&&(C.current=!0)});g.useEffect(()=>{function e(e){e.open||(T.current=!1)}return p.on(`openchange`,e),()=>{p.off(`openchange`,e)}},[p]),g.useEffect(()=>{if(!u||!n)return u||(T.current=!1),j;f.current.__escapeKeyBubbles=b,f.current.__outsidePressBubbles=x;let e=new br,t=new br,i=J(d);function a(){e.clear(),E.current=!0}function o(){e.start(_n?5:0,()=>{E.current=!1})}function s(){w.current=!0,t.start(0,()=>{w.current=!1})}function c(){S.current=!1,C.current=!1}function p(){let e=D.current,t=e===`pen`||!e?`mouse`:e,n=y(),r=typeof n==`function`?n():n;return typeof r==`string`?r:r[t]}function h(e){let t=p();return t===`intentional`&&e.type!==`click`||t===`sloppy`&&e.type===`click`}function g(e){let t=f.current.floatingContext?.nodeId,n=m&&Vn(m.nodesRef.current,t).some(t=>In(e,t.context?.elements.floating));return N(e)||n}function A(e){if(h(e)){e.type!==`click`&&!N(e)&&(t.clear(),w.current=!1),j();return}if(f.current.insideReactTree){j();return}let n=xn(e),r=`[${ri(`inert`)}]`,i=xe(n)?n.getRootNode():null,a=Array.from((Se(i)?i:J(l.select(`floatingElement`))).querySelectorAll(r)),o=l.context.triggerElements;if(n&&(o.hasElement(n)||o.hasMatchingElement(e=>Z(e,n))))return;let s=xe(n)?n:null;for(;s&&!we(s);){let e=Ee(s);if(we(e)||!xe(e))break;s=e}if(!(a.length&&xe(n)&&!Ln(n)&&!Z(n,l.select(`floatingElement`))&&a.every(e=>!Z(s,e)))){if(G(n)&&!(`touches`in e)){let t=we(n),r=Te(n),i=/auto|scroll/,a=t||i.test(r.overflowX),o=t||i.test(r.overflowY),s=a&&n.clientWidth>0&&n.scrollWidth>n.clientWidth,c=o&&n.clientHeight>0&&n.scrollHeight>n.clientHeight,l=r.direction===`rtl`,u=c&&(l?e.offsetX<=n.offsetWidth-n.clientWidth:e.offsetX>n.clientWidth),d=s&&e.offsetY>n.clientHeight;if(u||d)return}if(!g(e)){if(p()===`intentional`){if(e.detail!==0&&!Gn(e)&&!T.current)return;if(w.current){t.clear(),w.current=!1;return}}(typeof _!=`function`||_(e))&&(M(`__outsidePressBubbles`)||(l.setOpen(!1,Hr(Lr,e)),j()))}}}function P(e){p()===`sloppy`&&e.pointerType!==`touch`&&l.select(`open`)&&n&&!N(e)&&A(e)}function I(e){if(p()!==`sloppy`||!l.select(`open`)||!n||N(e))return;let t=e.touches[0];t&&(O.current={startTime:Date.now(),startX:t.clientX,startY:t.clientY,dismissOnTouchEnd:!1,dismissOnMouseDown:!0},k.start(1e3,()=>{O.current&&(O.current.dismissOnTouchEnd=!1,O.current.dismissOnMouseDown=!1)}))}function L(e,t){let n=xn(e);if(!n)return;let r=Q(n,e.type,()=>{t(e),r()})}function R(e){D.current=`touch`,L(e,I)}function z(e){k.clear(),e.type===`pointerdown`&&(e.button===0&&(T.current=!0),D.current=e.pointerType),(e.type!==`mousedown`||!O.current||O.current.dismissOnMouseDown)&&L(e,e=>{e.type===`pointerdown`?P(e):A(e)})}function B(e){if(e.type===`pointercancel`&&(T.current=!1),!S.current)return;let n=C.current;if(c(),p()===`intentional`){if(e.type===`pointercancel`){n&&s();return}if(!g(e)){if(n){s();return}(typeof _!=`function`||_(e))&&(t.clear(),w.current=!0,j())}}}function ee(e){if(p()!==`sloppy`||!O.current||N(e))return;let t=e.touches[0];if(!t)return;let n=Math.abs(t.clientX-O.current.startX),r=Math.abs(t.clientY-O.current.startY),i=Math.sqrt(n*n+r*r);i>5&&(O.current.dismissOnTouchEnd=!0),i>10&&(A(e),k.clear(),O.current=null)}function te(e){L(e,ee)}function ne(e){p()===`sloppy`&&O.current&&!N(e)&&(O.current.dismissOnTouchEnd&&A(e),k.clear(),O.current=null)}function re(e){L(e,ne)}let V=Zr(r&&Zr(Q(i,`keydown`,F),Q(i,`compositionstart`,a),Q(i,`compositionend`,o)),v&&Zr(Q(i,`click`,z,!0),Q(i,`pointerdown`,z,!0),Q(i,`pointerup`,B,!0),Q(i,`pointercancel`,B,!0),Q(i,`mousedown`,z,!0),Q(i,`mouseup`,B,!0),Q(i,`touchstart`,R,{capture:!0,passive:!0}),Q(i,`touchmove`,te,{capture:!0,passive:!0}),Q(i,`touchend`,re,{capture:!0,passive:!0})));return()=>{V(),e.clear(),t.clear(),c(),w.current=!1,j()}},[f,d,r,v,_,u,n,b,x,F,j,y,M,N,m,l,k]);let z=g.useMemo(()=>({onKeyDown:F,onPointerDown:P,onClick:P}),[F,P]),B=g.useMemo(()=>({onKeyDown:F,onPointerDown:R,onMouseDown:R,onClickCapture:I,onMouseDownCapture(e){I(),L(e)},onPointerDownCapture(e){I(),L(e)},onMouseUpCapture:I,onTouchEndCapture:I,onTouchMoveCapture:I}),[F,I,L,R]);return g.useMemo(()=>n?{reference:z,floating:B,trigger:z}:{},[n,z,B])}var Vi=e((e=>{var n=t();function r(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var i=typeof Object.is==`function`?Object.is:r,a=n.useState,o=n.useEffect,s=n.useLayoutEffect,c=n.useDebugValue;function l(e,t){var n=t(),r=a({inst:{value:n,getSnapshot:t}}),i=r[0].inst,l=r[1];return s(function(){i.value=n,i.getSnapshot=t,u(i)&&l({inst:i})},[e,n,t]),o(function(){return u(i)&&l({inst:i}),e(function(){u(i)&&l({inst:i})})},[e]),c(n),n}function u(e){var t=e.getSnapshot;e=e.value;try{var n=t();return!i(e,n)}catch{return!0}}function d(e,t){return t()}var f=typeof window>`u`||window.document===void 0||window.document.createElement===void 0?d:l;e.useSyncExternalStore=n.useSyncExternalStore===void 0?f:n.useSyncExternalStore})),Hi=e(((e,t)=>{t.exports=Vi()})),Ui=e((e=>{var n=t(),r=Hi();function i(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var a=typeof Object.is==`function`?Object.is:i,o=r.useSyncExternalStore,s=n.useRef,c=n.useEffect,l=n.useMemo,u=n.useDebugValue;e.useSyncExternalStoreWithSelector=function(e,t,n,r,i){var d=s(null);if(d.current===null){var f={hasValue:!1,value:null};d.current=f}else f=d.current;d=l(function(){function e(e){if(!o){if(o=!0,s=e,e=r(e),i!==void 0&&f.hasValue){var t=f.value;if(i(t,e))return c=t}return c=e}if(t=c,a(s,e))return t;var n=r(e);return i!==void 0&&i(t,n)?(s=e,t):(s=e,c=n)}var o=!1,s,c,l=n===void 0?null:n;return[function(){return e(t())},l===null?void 0:function(){return e(l())}]},[t,n,r,i]);var p=o(e,d[0],d[1]);return c(function(){f.hasValue=!0,f.value=p},[p]),u(p),p}})),Wi=e(((e,t)=>{t.exports=Ui()})),Gi=[],Ki=void 0;function qi(){return Ki}function Ji(e){Gi.push(e)}function Yi(e){let t=(t,n)=>{let r=ke(Xi).current,i;try{Ki=r;for(let e of Gi)e.before(r);i=e(t,n);for(let e of Gi)e.after(r);r.didInitialize=!0}finally{Ki=void 0}return i};return t.displayName=e.displayName||e.name,t}function Xi(){return{didInitialize:!1}}var Zi=Hi(),Qi=Wi(),$i=ft(19)?na:ra;function ea(e,t,n,r,i){return $i(e,t,n,r,i)}function ta(e,t,n,r,i){let a=g.useCallback(()=>t(e.getSnapshot(),n,r,i),[e,t,n,r,i]);return(0,Zi.useSyncExternalStore)(e.subscribe,a,a)}Ji({before(e){e.syncIndex=0,e.didInitialize||(e.syncTick=1,e.syncHooks=[],e.didChangeStore=!0,e.getSnapshot=()=>{let t=!1;for(let n=0;n<e.syncHooks.length;n+=1){let r=e.syncHooks[n],i=r.selector(r.store.state,r.a1,r.a2,r.a3);Object.is(r.value,i)||(t=!0,r.value=i)}return t&&(e.syncTick+=1),e.syncTick})},after(e){e.syncHooks.length>0&&(e.didChangeStore&&(e.didChangeStore=!1,e.subscribe=t=>{let n=new Set;for(let t of e.syncHooks)n.add(t.store);let r=[];for(let e of n)r.push(e.subscribe(t));return()=>{for(let e of r)e()}}),(0,Zi.useSyncExternalStore)(e.subscribe,e.getSnapshot,e.getSnapshot))}});function na(e,t,n,r,i){let a=qi();if(!a)return ta(e,t,n,r,i);let o=a.syncIndex;a.syncIndex+=1;let s;return a.didInitialize?(s=a.syncHooks[o],(s.store!==e||s.selector!==t||!Object.is(s.a1,n)||!Object.is(s.a2,r)||!Object.is(s.a3,i))&&(s.store!==e&&(a.didChangeStore=!0),s.store=e,s.selector=t,s.a1=n,s.a2=r,s.a3=i,s.value=t(e.getSnapshot(),n,r,i))):(s={store:e,selector:t,a1:n,a2:r,a3:i,value:t(e.getSnapshot(),n,r,i)},a.syncHooks.push(s)),s.value}function ra(e,t,n,r,i){return(0,Qi.useSyncExternalStoreWithSelector)(e.subscribe,e.getSnapshot,e.getSnapshot,e=>t(e,n,r,i))}var ia=class{static create(e){return new this(e)}constructor(e){this.state=e,this.listeners=new Set,this.updateTick=0}subscribe=e=>(this.listeners.add(e),()=>{this.listeners.delete(e)});getSnapshot=()=>this.state;setState(e){if(this.state===e)return;this.state=e,this.updateTick+=1;let t=this.updateTick;for(let n of this.listeners){if(t!==this.updateTick)return;n(e)}}update(e){for(let t in e)if(!Object.is(this.state[t],e[t])){this.setState({...this.state,...e});return}}set(e,t){Object.is(this.state[e],t)||this.setState({...this.state,[e]:t})}notifyAll(){let e={...this.state};this.setState(e)}use(e,t,n,r){return ea(this,e,t,n,r)}},aa=class extends ia{constructor(e,t={},n){super(e),this.context=t,this.selectors=n}useSyncedValue(e,t){g.useDebugValue(e);let n=this;q(()=>{n.state[e]!==t&&n.set(e,t)},[n,e,t])}useSyncedValueWithCleanup(e,t){let n=this;q(()=>(n.state[e]!==t&&n.set(e,t),()=>{n.set(e,void 0)}),[n,e,t])}useSyncedValues(e){let t=this;q(()=>{t.update(e)},[t,...Object.values(e)])}useControlledProp(e,t){g.useDebugValue(e);let n=this,r=t!==void 0;q(()=>{r&&!Object.is(n.state[e],t)&&n.setState({...n.state,[e]:t})},[n,e,t,r])}select(e,t,n,r){let i=this.selectors[e];return i(this.state,t,n,r)}useState(e,t,n,r){return g.useDebugValue(e),ea(this,this.selectors[e],t,n,r)}useContextCallback(e,t){g.useDebugValue(e);let n=K(t??Y);this.context[e]=n}useStateSetter(e){let t=g.useRef(void 0);return t.current===void 0&&(t.current=t=>{this.set(e,t)}),t.current}observe(e,t){let n;n=typeof e==`function`?e:this.selectors[e];let r=n(this.state);return t(r,r,this),this.subscribe(e=>{let i=n(e);if(!Object.is(r,i)){let e=r;r=i,t(i,e,this)}})}},oa={open:e=>e.open,transitionStatus:e=>e.transitionStatus,domReferenceElement:e=>e.domReferenceElement,referenceElement:e=>e.positionReference??e.referenceElement,floatingElement:e=>e.floatingElement,floatingId:e=>e.floatingId},sa=class extends aa{constructor(e){let{syncOnly:t,nested:n,onOpenChange:r,triggerElements:i,...a}=e;super({...a,positionReference:a.referenceElement,domReferenceElement:a.referenceElement},{onOpenChange:r,dataRef:{current:{}},events:wi(),nested:n,triggerElements:i},oa),this.syncOnly=t}syncOpenEvent=(e,t)=>{(!e||!this.state.open||t!=null&&qn(t))&&(this.context.dataRef.current.openEvent=e?t:void 0)};dispatchOpenChange=(e,t)=>{this.syncOpenEvent(e,t.event);let n={open:e,reason:t.reason,nativeEvent:t.event,nested:this.context.nested,triggerElement:t.trigger};this.context.events.emit(`openchange`,n)};setOpen=(e,t)=>{if(this.syncOnly){this.context.onOpenChange?.(e,t);return}this.dispatchOpenChange(e,t),this.context.onOpenChange?.(e,t)}};function ca(e){let{popupStore:t,treatPopupAsFloatingElement:n=!1,floatingRootContext:r,floatingId:i,nested:a,onOpenChange:o}=e,s=t.useState(`open`),c=t.useState(`activeTriggerElement`),l=t.useState(n?`popupElement`:`positionerElement`),u=t.context.triggerElements,d=o,f=g.useRef(null);r===void 0&&f.current===null&&(f.current=new sa({open:s,transitionStatus:void 0,referenceElement:c,floatingElement:l,triggerElements:u,onOpenChange:d,floatingId:i,syncOnly:!0,nested:a}));let p=r??f.current;return t.useSyncedValue(`floatingId`,i),q(()=>{let e={open:s,floatingId:i,referenceElement:c,floatingElement:l};xe(c)&&(e.domReferenceElement=c),p.state.positionReference===p.state.referenceElement&&(e.positionReference=c),p.update(e)},[s,i,c,l,p]),p.context.onOpenChange=d,p.context.nested=a,p}var la={tabIndex:-1,[Sn]:``};function ua(e){return t=>t!==`touch`||e.current}function da(e,t=!1){let n=en(),r=Di()!=null,i=ke(()=>e(n,r)).current;return ca({popupStore:i,treatPopupAsFloatingElement:t,floatingRootContext:i.state.floatingRootContext,floatingId:n,nested:r,onOpenChange:i.setOpen}),i}function fa({handle:e,store:t}){return q(()=>e.attachStore(t),[e,t]),null}function pa(e,t,n,r=!1){let i=e.preventUnmountingOnClose;t?i=!1:r&&(i=!0);let a=n?.id??null,o=e.activeTriggerId,s=e.activeTriggerElement;return(a||t)&&(o=a,s=n??null),{open:t,preventUnmountingOnClose:i,activeTriggerId:o,activeTriggerElement:s}}function ma(e,t={}){let{closeOnActiveTriggerUnmount:n=!1}=t,r=g.useRef(null),i=e.useState(`open`);q(()=>{if(!i){r.current=null,e.state.triggerCount!==0&&e.set(`triggerCount`,0);return}let t=e.context.triggerElements.size,a={};e.state.triggerCount!==t&&(a.triggerCount=t);let o=e.select(`activeTriggerId`),s=null;if(o){let t=e.context.triggerElements.getById(o);if(t)r.current=o,t!==e.state.activeTriggerElement&&(a.activeTriggerElement=t);else{for(let[t,n]of e.context.triggerElements.entries())if(n===e.state.activeTriggerElement){a.activeTriggerId=t,a.activeTriggerElement=n,r.current=t;break}a.activeTriggerId===void 0&&(r.current===o?s=o:r.current=null)}}else r.current=null;if(!s&&!o&&t===1){let t=e.context.triggerElements.entries().next();if(!t.done){let[e,n]=t.value;a.activeTriggerId=e,a.activeTriggerElement=n,r.current=e}}(a.triggerCount!==void 0||a.activeTriggerId!==void 0||a.activeTriggerElement!==void 0)&&e.update(a),s&&n&&queueMicrotask(()=>{if(e.select(`open`)&&e.select(`activeTriggerId`)===s&&!e.context.triggerElements.getById(s)){let t=Hr(Fr);e.setOpen(!1,t),t.isCanceled||e.update({activeTriggerId:null,activeTriggerElement:null})}})},[i,e,e.useState(`triggerCount`),e.useState(`activeTriggerId`),e.useState(`activeTriggerElement`),n])}function ha(e,t,n,r){let{mounted:i,setMounted:a,transitionStatus:o}=jr(e,!1,!1,r),s=t.useState(`preventUnmountingOnClose`),c=!e&&s;t.useSyncedValues({mounted:i,transitionStatus:o,preventUnmountingOnClose:c});let l=K(()=>{a(!1),t.update({activeTriggerId:null,activeTriggerElement:null,mounted:!1,preventUnmountingOnClose:!1}),n?.(),t.context.onOpenChangeComplete?.(!1)});return Ar({enabled:i&&!e&&!c,open:e,ref:t.context.popupRef,onComplete(){e||l()}}),{forceUnmount:l,transitionStatus:o}}function ga(e,t){e.useSyncedValues(t),q(()=>()=>{e.update({activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X})},[e])}function _a(e,t){q(()=>{!t&&e.state.openMethod!==null&&e.set(`openMethod`,null)},[t,e]),q(()=>()=>{e.state.openMethod!==null&&e.set(`openMethod`,null)},[e])}var va=class{constructor(){this.idMap=new Map}add(e,t){this.idMap.set(e,t)}delete(e){this.idMap.delete(e)}hasElement(e){for(let t of this.idMap.values())if(t===e)return!0;return!1}hasMatchingElement(e){for(let t of this.idMap.values())if(e(t))return!0;return!1}getById(e){return this.idMap.get(e)}entries(){return this.idMap.entries()}elements(){return this.idMap.values()}get size(){return this.idMap.size}};function ya(e,t,n=!1){return{open:!1,openProp:void 0,mounted:!1,transitionStatus:void 0,floatingRootContext:new sa({open:!1,transitionStatus:void 0,floatingElement:null,referenceElement:null,triggerElements:e,floatingId:t,syncOnly:!0,nested:n,onOpenChange:void 0}),floatingId:t,triggerCount:0,preventUnmountingOnClose:!1,payload:void 0,activeTriggerId:null,activeTriggerElement:null,triggerIdProp:void 0,popupElement:null,positionerElement:null,activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X}}var ba=e=>e.triggerIdProp??e.activeTriggerId,xa=e=>e.openProp??e.open,Sa=e=>(e.popupElement?.id??e.floatingId)||void 0;function Ca(e,t){return t!==void 0&&xa(e)&&ba(e)===t}function wa(e,t){return Ca(e,t)?!0:t!==void 0&&xa(e)&&ba(e)==null&&e.triggerCount===1}var Ta={open:xa,mounted:e=>e.mounted,transitionStatus:e=>e.transitionStatus,floatingRootContext:e=>e.floatingRootContext,triggerCount:e=>e.triggerCount,preventUnmountingOnClose:e=>e.preventUnmountingOnClose,payload:e=>e.payload,activeTriggerId:ba,activeTriggerElement:e=>e.mounted?e.activeTriggerElement:null,popupId:Sa,isTriggerActive:(e,t)=>t!==void 0&&ba(e)===t,isOpenedByTrigger:(e,t)=>Ca(e,t),isMountedByTrigger:(e,t)=>t!==void 0&&ba(e)===t&&e.mounted,triggerProps:(e,t)=>t?e.activeTriggerProps:e.inactiveTriggerProps,triggerPopupId:(e,t)=>wa(e,t)?Sa(e):void 0,popupProps:e=>e.popupProps,popupElement:e=>e.popupElement,positionerElement:e=>e.positionerElement},Ea=g.createContext(void 0);function Da(){let e=g.useContext(Ea);if(e===void 0)throw Error(Ze(26));return e}var Oa=new Set([`ArrowUp`,`ArrowDown`,`ArrowLeft`,`ArrowRight`,`Home`,`End`]),ka=`--nested-dialogs`,Aa=`data-nested-dialog-open`,ja={...Pn,...Dn,nestedDialogOpen(e){return e?{[Aa]:``}:null}},Ma=g.forwardRef(function(e,t){let{render:n,className:r,style:i,finalFocus:a,initialFocus:o,...s}=e,c=Jr(),l=c.useState(`descriptionElementId`),u=c.useState(`disablePointerDismissal`),d=c.useState(`floatingRootContext`),f=c.useState(`popupProps`),p=c.useState(`modal`),m=c.useState(`mounted`),h=c.useState(`nested`),g=c.useState(`nestedOpenDialogCount`),_=c.useState(`open`),v=c.useState(`openMethod`),y=c.useState(`titleElementId`),b=c.useState(`transitionStatus`),x=c.useState(`role`),S=d.useState(`floatingId`);Da(),Ar({open:_,ref:c.context.popupRef,onComplete(){_&&c.context.onOpenChangeComplete?.(!0)}});let C=o===void 0?ua(c.context.popupRef):o,w=g>0,T=c.useStateSetter(`popupElement`),E=vt(`div`,e,{state:{open:_,nested:h,transitionStatus:b,nestedDialogOpen:w},props:[f,{id:S,"aria-labelledby":y,"aria-describedby":l,role:x,...la,hidden:!m,onKeyDown(e){Oa.has(e.key)&&e.stopPropagation()},style:{[ka]:g}},s],ref:[t,c.context.popupRef,T],stateAttributesMapping:ja});return(0,U.jsx)(Li,{context:d,openInteractionType:v,disabled:!m,closeOnFocusOut:!u,initialFocus:C,returnFocus:a,modal:p!==!1,restoreFocus:`popup`,children:E})});function Na(e){return ft(19)?e:e?`true`:void 0}var Pa=g.forwardRef(function(e,t){let{cutout:n,...r}=e,i;if(n){let e=n.getBoundingClientRect();i=`polygon(0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,${e.left}px ${e.top}px,${e.left}px ${e.bottom}px,${e.right}px ${e.bottom}px,${e.right}px ${e.top}px,${e.left}px ${e.top}px)`}return(0,U.jsx)(`div`,{ref:t,role:`presentation`,"data-base-ui-inert":``,...r,style:{position:`fixed`,inset:0,userSelect:`none`,WebkitUserSelect:`none`,clipPath:i}})}),Fa=g.forwardRef(function(e,t){let{keepMounted:n=!1,...r}=e,i=Jr(),a=i.useState(`mounted`),o=i.useState(`modal`),s=i.useState(`open`);return a||n?(0,U.jsx)(Ea.Provider,{value:n,children:(0,U.jsxs)(Ci,{ref:t,...r,children:[a&&o===!0&&(0,U.jsx)(Pa,{ref:i.context.internalBackdropRef,inert:Na(!s)}),e.children]})}):null}),Ia={},La={},Ra=``;function za(e,t){return Ce(e)?e:t}function Ba(e,t,n){return/hidden|clip/.test(e.getComputedStyle(za(t,n)).overflowY)}function Va(e){if(typeof document>`u`)return!1;let t=J(e);return ve(t).innerWidth-t.documentElement.clientWidth>0}function Ha(e){if(!(typeof CSS<`u`&&CSS.supports&&CSS.supports(`scrollbar-gutter`,`stable`))||typeof document>`u`)return!1;let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a=i.style.overflowY,o=n.style.scrollbarGutter;n.style.scrollbarGutter=`stable`,i.style.overflowY=`scroll`;let s=i.offsetWidth;i.style.overflowY=`hidden`;let c=i.offsetWidth;return i.style.overflowY=a,n.style.scrollbarGutter=o,s===c}function Ua(e){let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a={overflowY:i.style.overflowY,overflowX:i.style.overflowX};return Object.assign(i.style,{overflowY:`hidden`,overflowX:`hidden`}),()=>{Object.assign(i.style,a)}}function Wa(e){let t=J(e),n=t.documentElement,r=t.body,i=ve(n),a=0,o=0,s=!1,c=wr.create();if(_n&&(i.visualViewport?.scale??1)!==1)return()=>{};function l(){let t=i.getComputedStyle(n),c=i.getComputedStyle(r),l=(t.scrollbarGutter||``).includes(`both-edges`)?`stable both-edges`:`stable`;a=n.scrollTop,o=n.scrollLeft,Ia={scrollbarGutter:n.style.scrollbarGutter,overflowY:n.style.overflowY,overflowX:n.style.overflowX},Ra=n.style.scrollBehavior,La={position:r.style.position,height:r.style.height,width:r.style.width,boxSizing:r.style.boxSizing,overflowY:r.style.overflowY,overflowX:r.style.overflowX,scrollBehavior:r.style.scrollBehavior};let u=n.scrollHeight>n.clientHeight,d=n.scrollWidth>n.clientWidth,f=t.overflowY===`scroll`||c.overflowY===`scroll`,p=t.overflowX===`scroll`||c.overflowX===`scroll`,m=Math.max(0,i.innerWidth-r.clientWidth),h=Math.max(0,i.innerHeight-r.clientHeight),g=parseFloat(c.marginTop)+parseFloat(c.marginBottom),_=parseFloat(c.marginLeft)+parseFloat(c.marginRight),v=za(n,r);if(s=Ha(e),s){n.style.scrollbarGutter=l,v.style.overflowY=`hidden`,v.style.overflowX=`hidden`;return}Object.assign(n.style,{scrollbarGutter:l,overflowY:`hidden`,overflowX:`hidden`}),(u||f)&&(n.style.overflowY=`scroll`),(d||p)&&(n.style.overflowX=`scroll`),Object.assign(r.style,{position:`relative`,height:g||h?`calc(100dvh - ${g+h}px)`:`100dvh`,width:_||m?`calc(100vw - ${_+m}px)`:`100vw`,boxSizing:`border-box`,overflowY:`hidden`,overflowX:`hidden`,scrollBehavior:`unset`}),r.scrollTop=a,r.scrollLeft=o,n.setAttribute(`data-base-ui-scroll-locked`,``),n.style.scrollBehavior=`unset`}function u(){Object.assign(n.style,Ia),Object.assign(r.style,La),s||(n.scrollTop=a,n.scrollLeft=o,n.removeAttribute(`data-base-ui-scroll-locked`),n.style.scrollBehavior=Ra)}function d(){u(),c.request(l)}l();let f=Q(i,`resize`,d);return()=>{c.cancel(),u(),typeof i.removeEventListener==`function`&&f()}}var Ga=new class{lockCount=0;restore=null;timeoutLock=br.create();timeoutUnlock=br.create();acquire(e){return this.lockCount+=1,this.lockCount===1&&this.restore===null&&this.timeoutLock.start(0,()=>this.lock(e)),this.release}release=()=>{--this.lockCount,this.lockCount===0&&this.restore&&this.timeoutUnlock.start(0,this.unlock)};unlock=()=>{this.lockCount===0&&this.restore&&(this.restore?.(),this.restore=null)};lock(e){if(this.lockCount===0||this.restore!==null)return;let t=J(e),n=t.documentElement,r=t.body,i=ve(n);if(Ba(i,n,r)){let t=new i.MutationObserver(()=>{Ba(i,n,r)||(t.disconnect(),this.restore=null,this.lock(e))}),a={attributes:!0};t.observe(n,a),t.observe(r,a),this.restore=()=>t.disconnect();return}let a=fn||!Va(e);this.restore=a?Ua(e):Wa(e)}};function Ka(e=!0,t=null){q(()=>{if(e)return Ga.acquire(t)},[e,t])}function qa({store:e,parentContext:t,isDrawer:n}){let r=e.useState(`open`),i=e.useState(`disablePointerDismissal`),a=e.useState(`modal`),o=e.useState(`popupElement`),s=e.useState(`floatingRootContext`),[c,l]=g.useState(0),[u,d]=g.useState(0),f=c===0,p=Bi(s,{outsidePressEvent(){return e.context.internalBackdropRef.current||e.context.backdropRef.current?`intentional`:{mouse:a===`trap-focus`?`sloppy`:`intentional`,touch:`sloppy`}},outsidePress(t){if(!e.context.outsidePressEnabledRef.current||`button`in t&&t.button!==0)return!1;if(`touches`in t){if(t.type===`touchend`){if(t.changedTouches.length!==1||t.touches.length!==0)return!1}else if(t.touches.length!==1)return!1}let n=xn(t);if(f&&!i){if(a){let t=e.context.internalBackdropRef.current,r=e.context.backdropRef.current;return t||r?t===n||r===n||Z(n,o)&&!n?.hasAttribute(`data-base-ui-portal`):!0}return!0}return!1},escapeKey:f});return Ka(r&&a===!0,o),e.useContextCallback(`onNestedDialogOpen`,(e,t)=>{l(e),d(t)}),q(()=>(t?.onNestedDialogOpen&&(r?t.onNestedDialogOpen(c+1,u+ +!!n):t.onNestedDialogOpen(0,0)),()=>{t?.onNestedDialogOpen&&r&&t.onNestedDialogOpen(0,0)}),[n,r,c,u,t]),ga(e,{activeTriggerProps:p.reference,inactiveTriggerProps:p.trigger,popupProps:p.floating,nestedOpenDialogCount:c,nestedOpenDrawerCount:u}),null}var Ja={...Ta,modal:e=>e.modal,nested:e=>e.nested,nestedOpenDialogCount:e=>e.nestedOpenDialogCount,nestedOpenDrawerCount:e=>e.nestedOpenDrawerCount,disablePointerDismissal:e=>e.disablePointerDismissal,openMethod:e=>e.openMethod,descriptionElementId:e=>e.descriptionElementId,titleElementId:e=>e.titleElementId,viewportElement:e=>e.viewportElement,role:e=>e.role},Ya=class extends aa{constructor(e,t,n){let r=new va,i=Xa(e,r,t,n);super(i,Za(r),Ja)}setOpen=(e,t)=>{t.preventUnmountOnClose=()=>{this.set(`preventUnmountingOnClose`,!0)},!e&&t.trigger==null&&this.state.activeTriggerId!=null&&(t.trigger=this.state.activeTriggerElement??void 0),this.context.onOpenChange?.(e,t),!t.isCanceled&&(this.state.floatingRootContext.dispatchOpenChange(e,t),this.update(pa(this.state,e,t.trigger)))}};function Xa(e,t,n,r=!1){return{...ya(t,n,r),modal:!0,disablePointerDismissal:!1,viewportElement:null,descriptionElementId:void 0,titleElementId:void 0,openMethod:null,nested:!1,nestedOpenDialogCount:0,nestedOpenDrawerCount:0,role:`dialog`,...e}}function Za(e){return{popupRef:g.createRef(),backdropRef:g.createRef(),internalBackdropRef:g.createRef(),outsidePressEnabledRef:{current:!0},triggerElements:e,onOpenChange:void 0,onOpenChangeComplete:void 0}}function Qa(e,t){let{children:n,open:r,defaultOpen:i=!1,onOpenChange:a,onOpenChangeComplete:o,disablePointerDismissal:s=!1,modal:c=!0,actionsRef:l,handle:u,triggerId:d,defaultTriggerId:f=null}=t,p=e===`drawer`,m=e===`alert-dialog`,h=m?!0:c,_=m||s,v=m?`alertdialog`:`dialog`,y=Jr(!0),b={modal:h,disablePointerDismissal:_,nested:y!=null,role:v},x=da((e,t)=>new Ya({open:i,openProp:r,activeTriggerId:f,triggerIdProp:d,...b},e,t),!0);x.useControlledProp(`openProp`,r),x.useControlledProp(`triggerIdProp`,d),x.useSyncedValues(b),x.useContextCallback(`onOpenChange`,a),x.useContextCallback(`onOpenChangeComplete`,o);let S=x.useState(`open`),C=x.useState(`mounted`),w=x.useState(`payload`);_a(x,S),ma(x);let{forceUnmount:T}=ha(S,x);g.useImperativeHandle(l,()=>({unmount:T,close:()=>x.setOpen(!1,Hr(Vr))}),[T,x]);let E=S||C;return(0,U.jsxs)(qr.Provider,{value:x,children:[u&&(0,U.jsx)(fa,{handle:u,store:x}),E&&(0,U.jsx)(qa,{store:x,parentContext:y?.context,isDrawer:p}),typeof n==`function`?n({payload:w}):n]})}var $a=Yi(function(e){return Qa(`dialog`,e)}),eo=g.forwardRef(function(e,t){let{render:n,className:r,style:i,id:a,...o}=e,s=Jr(),c=tn(a);return s.useSyncedValueWithCleanup(`titleElementId`,c),vt(`h2`,e,{ref:t,props:[{id:c},o]})});function to({...e}){return(0,U.jsx)($a,{"data-slot":`sheet`,...e})}function no({...e}){return(0,U.jsx)(Fa,{"data-slot":`sheet-portal`,...e})}function ro({className:e,...t}){return(0,U.jsx)(Yr,{"data-slot":`sheet-overlay`,className:H(`fixed inset-0 z-50 bg-black/10 transition-opacity duration-150 data-ending-style:opacity-0 data-starting-style:opacity-0 supports-backdrop-filter:backdrop-blur-xs`,e),...t})}function io({className:e,children:t,side:n=`right`,showCloseButton:r=!0,...i}){return(0,U.jsxs)(no,{children:[(0,U.jsx)(ro,{}),(0,U.jsxs)(Ma,{"data-slot":`sheet-content`,"data-side":n,className:H(`fixed z-50 flex flex-col gap-4 bg-popover bg-clip-padding text-sm text-popover-foreground shadow-lg transition duration-200 ease-in-out data-ending-style:opacity-0 data-starting-style:opacity-0 data-[side=bottom]:inset-x-0 data-[side=bottom]:bottom-0 data-[side=bottom]:h-auto data-[side=bottom]:border-t data-[side=bottom]:data-ending-style:translate-y-[2.5rem] data-[side=bottom]:data-starting-style:translate-y-[2.5rem] data-[side=left]:inset-y-0 data-[side=left]:left-0 data-[side=left]:h-full data-[side=left]:w-3/4 data-[side=left]:border-r data-[side=left]:data-ending-style:translate-x-[-2.5rem] data-[side=left]:data-starting-style:translate-x-[-2.5rem] data-[side=right]:inset-y-0 data-[side=right]:right-0 data-[side=right]:h-full data-[side=right]:w-3/4 data-[side=right]:border-l data-[side=right]:data-ending-style:translate-x-[2.5rem] data-[side=right]:data-starting-style:translate-x-[2.5rem] data-[side=top]:inset-x-0 data-[side=top]:top-0 data-[side=top]:h-auto data-[side=top]:border-b data-[side=top]:data-ending-style:translate-y-[-2.5rem] data-[side=top]:data-starting-style:translate-y-[-2.5rem] data-[side=left]:sm:max-w-sm data-[side=right]:sm:max-w-sm`,e),...i,children:[t,r&&(0,U.jsxs)(Xr,{"data-slot":`sheet-close`,render:(0,U.jsx)(jt,{variant:`ghost`,className:`absolute top-3 right-3`,size:`icon-sm`}),children:[(0,U.jsx)(fe,{}),(0,U.jsx)(`span`,{className:`sr-only`,children:`Close`})]})]})]})}function ao({className:e,...t}){return(0,U.jsx)(eo,{"data-slot":`sheet-title`,className:H(`font-heading text-base font-medium text-foreground`,e),...t})}var oo=[{type:`folder`,name:`.github`,path:`.github`,children:[{type:`folder`,name:`workflows`,path:`.github/workflows`,children:[{type:`file`,name:`rust.yml`,path:`.github/workflows/rust.yml`,language:`YAML`,content:`name: Deploy Rust Apps
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/react-markdown-D0eGeZYj.js","assets/index-EOcGz83v.js","assets/index-DvX3jdk1.css","assets/default-DMI-Tsal.js","assets/space-separated-tokens-B0M1ekq3.js","assets/esm-W3h_1bac.js","assets/blank-line-Sh9ipz-Z.js","assets/lib-DqhklvcD.js","assets/remark-gfm-GESheZXV.js","assets/lib-C8gMDuwA.js","assets/rehype-raw-B_pIef3K.js","assets/rehype-sanitize-CdL8W5GJ.js"])))=>i.map(i=>d[i]);
+import{a as e,i as t,n,r,s as i,t as a}from"./index-EOcGz83v.js";var o=e=>e?.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase();function s(e,t,n=[]){if(t==null)throw Error(`[lucide]: iconNode is required when icon name is used`);return{name:o(e),size:24,node:t,...n.length>0?{aliases:n}:{}}}var c=e=>{let t=``,n=!1;for(let r of e){if(r===`-`||r===`_`||r<=` `){n=t.length>0;continue}t.length===0?t+=r.toLowerCase():t+=n?r.toUpperCase():r,n=!1}return t},l=e=>{let t=c(e);return t.charAt(0).toUpperCase()+t.slice(1)},u=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),d={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,"stroke-width":2,"stroke-linecap":`round`,"stroke-linejoin":`round`};function f(e){return e!=null}function p(e,t={}){let n=t.attributeNames??{},r=e=>n[e]??e,i=e.size??e.width??d.width,a=e.size??e.height??d.height,o=e.aliases?.filter(e=>typeof e==`string`&&e.trim()!==``).map(e=>`lucide-${e}`)??[],s=[...e.name?[`lucide-${e.name}`]:[],...o],c=t.className?.split(` `).filter(Boolean)??[],l=t.includeDefaultClasses===!1?u(...c):u(`lucide`,...s,...c),p=t.absoluteStrokeWidth?Number(t.strokeWidth??d[`stroke-width`])*Number(e.size??e.width??d.width)/Number(t.size??t.width??d.width):t.strokeWidth??d[`stroke-width`];return[`svg`,{...Object.entries(d).reduce((e,[t,n])=>(e[r(t)]=n,e),{}),...`color`in t&&t.color&&{[r(`stroke`)]:t.color},...`size`in t&&f(t.size)&&{[r(`width`)]:t.size,[r(`height`)]:t.size},...`width`in t&&f(t.width)&&{[r(`width`)]:t.width},...`height`in t&&f(t.height)&&{[r(`height`)]:t.height},[r(`stroke-width`)]:p,...l&&{[r(`class`)]:l},[r(`viewBox`)]:`0 0 ${i} ${a}`,...t.hasA11yProp===!1?{[r(`aria-hidden`)]:`true`}:{},...`attributes`in t&&t.attributes},e.node.map(e=>{let[n,i,a]=e,o=t.nonScalingStroke?{[r(`vector-effect`)]:`non-scaling-stroke`,...i}:i;return a?[n,o,a]:[n,o]})]}function m(e,t={}){return p(e,{...t,attributeNames:{...t.attributeNames,class:`className`,"stroke-width":`strokeWidth`,"stroke-linecap":`strokeLinecap`,"stroke-linejoin":`strokeLinejoin`,"vector-effect":`vectorEffect`}})}var h=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},g=i(t(),1),_=(0,g.createContext)({}),v=()=>(0,g.useContext)(_),y=(0,g.forwardRef)(({color:e,size:t,width:n,height:r,strokeWidth:i,absoluteStrokeWidth:a,nonScalingStroke:o,className:s=``,children:c,iconNode:l=[],icon:d={node:l,aliases:[],size:24},...f},p)=>{let{size:_=24,strokeWidth:y=2,absoluteStrokeWidth:b=!1,nonScalingStroke:x=!1,color:S=`currentColor`,className:C=``}=v()??{},w=!!c||h(f),[T,E,D=[]]=m(d,{color:e??S,width:n??t??_,height:r??t??_,strokeWidth:i??y,absoluteStrokeWidth:a??b,nonScalingStroke:o??x,className:u(C,s),hasA11yProp:w,attributes:f});return(0,g.createElement)(T,{ref:p,...E},[...D.map(([e,t])=>(0,g.createElement)(e,t)),...Array.isArray(c)?c:[c]])});function b(e,t=[],n=[]){let r=typeof e==`string`?s(e,t,n):e,i=(0,g.forwardRef)(({className:e,...t},n)=>(0,g.createElement)(y,{ref:n,icon:r,className:e,...t}));return r.name&&(i.displayName=l(r.name)),i}var x={name:`arrow-right`,size:24,node:[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`m12 5 7 7-7 7`,key:`xquz4c`}]]};x.node;var S=b(x),C={name:`braces`,size:24,node:[[`path`,{d:`M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1`,key:`ezmyqa`}],[`path`,{d:`M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1`,key:`e1hn23`}]],aliases:[`curly-braces`]};C.node;var w=b(C),T={name:`chevron-down`,size:24,node:[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]};T.node;var E=b(T),D={name:`chevron-right`,size:24,node:[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]};D.node;var O=b(D),k={name:`code-xml`,size:24,node:[[`path`,{d:`m18 16 4-4-4-4`,key:`1inbqp`}],[`path`,{d:`m6 8-4 4 4 4`,key:`15zrgr`}],[`path`,{d:`m14.5 4-5 16`,key:`e7oirm`}]],aliases:[`code-2`]};k.node;var A=b(k),j={name:`corner-down-left`,size:24,node:[[`path`,{d:`M20 4v7a4 4 0 0 1-4 4H4`,key:`6o5b7l`}],[`path`,{d:`m9 10-5 5 5 5`,key:`1kshq7`}]]};j.node;var M=b(j),N={name:`eye`,size:24,node:[[`path`,{d:`M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0`,key:`1nclc0`}],[`circle`,{cx:`12`,cy:`12`,r:`3`,key:`1v7zrd`}]]};N.node;var P=b(N),F={name:`file-code-corner`,size:24,node:[[`path`,{d:`M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35`,key:`1wthlu`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`m5 16-3 3 3 3`,key:`331omg`}],[`path`,{d:`m9 22 3-3-3-3`,key:`lsp7cz`}]],aliases:[`file-code-2`]};F.node;var I=b(F),L={name:`file-text`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}],[`path`,{d:`M10 9H8`,key:`b1mrlr`}],[`path`,{d:`M16 13H8`,key:`t4e002`}],[`path`,{d:`M16 17H8`,key:`z1uh3a`}]]};L.node;var R=b(L),z={name:`file`,size:24,node:[[`path`,{d:`M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z`,key:`1oefj6`}],[`path`,{d:`M14 2v5a1 1 0 0 0 1 1h5`,key:`wfsgrz`}]]};z.node;var B=b(z),ee={name:`folder-open`,size:24,node:[[`path`,{d:`m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2`,key:`usdka0`}]]};ee.node;var te=b(ee),ne={name:`folder`,size:24,node:[[`path`,{d:`M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z`,key:`1kt360`}]]};ne.node;var re=b(ne),V={name:`house`,size:24,node:[[`path`,{d:`M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8`,key:`5wwlr5`}],[`path`,{d:`M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z`,key:`r6nss1`}]],aliases:[`home`]};V.node;var ie=b(V),ae={name:`info`,size:24,node:[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 16v-4`,key:`1dtifu`}],[`path`,{d:`M12 8h.01`,key:`e9boi3`}]]};ae.node;var oe=b(ae),se={name:`menu`,size:24,node:[[`path`,{d:`M4 5h16`,key:`1tepv9`}],[`path`,{d:`M4 12h16`,key:`1lakjw`}],[`path`,{d:`M4 19h16`,key:`1djgab`}]]};se.node;var ce=b(se),le={name:`search`,size:24,node:[[`path`,{d:`m21 21-4.34-4.34`,key:`14j7rj`}],[`circle`,{cx:`11`,cy:`11`,r:`8`,key:`4ej97u`}]]};le.node;var ue=b(le),de={name:`x`,size:24,node:[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]};de.node;var fe=b(de),pe=i(r(),1),me=`/not-so-informatic/assets/favicon-46SYL3JR.png`;function he(e){return e?typeof e==`string`?e:Array.isArray(e)?e.map(he).filter(Boolean).join(` `):typeof e==`object`?Object.entries(e).filter(([,e])=>!!e).map(([e])=>e).join(` `):``:``}function H(...e){return e.map(he).filter(Boolean).join(` `)}var U=n();function ge({checked:e,onCheckedChange:t,label:n,className:r,disabled:i=!1}){return(0,U.jsx)(`button`,{type:`button`,role:`switch`,"aria-checked":e,"aria-label":n,disabled:i,onClick:()=>t(!e),className:H(`group inline-flex shrink-0 items-center rounded-full border border-transparent p-0.5 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50`,e?`bg-foreground`:`bg-secondary`,r),children:(0,U.jsx)(`span`,{"aria-hidden":`true`,className:H(`size-[18px] rounded-full bg-background shadow-sm transition-transform duration-200`,e&&`translate-x-[18px]`)})})}function _e(){return typeof window<`u`}function W(e){return be(e)?(e.nodeName||``).toLowerCase():`#document`}function ve(e){var t;return(e==null||(t=e.ownerDocument)==null?void 0:t.defaultView)||window}function ye(e){return((be(e)?e.ownerDocument:e.document)||window.document)?.documentElement}function be(e){return _e()?e instanceof Node||e instanceof ve(e).Node:!1}function xe(e){return _e()?e instanceof Element||e instanceof ve(e).Element:!1}function G(e){return _e()?e instanceof HTMLElement||e instanceof ve(e).HTMLElement:!1}function Se(e){return!_e()||typeof ShadowRoot>`u`?!1:e instanceof ShadowRoot||e instanceof ve(e).ShadowRoot}function Ce(e){let{overflow:t,overflowX:n,overflowY:r,display:i}=Te(e);return/auto|scroll|overlay|hidden|clip/.test(t+r+n)&&i!==`inline`&&i!==`contents`}function we(e){return/^(html|body|#document)$/.test(W(e))}function Te(e){return ve(e).getComputedStyle(e)}function Ee(e){if(W(e)===`html`)return e;let t=e.assignedSlot||e.parentNode||Se(e)&&e.host||ye(e);return Se(t)?t.host:t}var De={...g},Oe={};function ke(e,t){let n=g.useRef(Oe);return n.current===Oe&&(n.current=e(t)),n}var Ae=De.useInsertionEffect,je=Ae&&Ae!==De.useLayoutEffect?Ae:e=>e();function K(e){let t=ke(Me).current;return t.next=e,je(t.effect),t.trampoline}function Me(){let e={next:void 0,callback:Ne,trampoline:(...t)=>e.callback?.(...t),effect:()=>{e.callback=e.next}};return e}function Ne(){}var q=typeof document<`u`?g.useLayoutEffect:()=>{};function Pe(e,t){if(e&&!t)return e;if(!e&&t)return t;if(e||t)return{...e,...t}}var Fe={};function Ie(e,t,n,r,i){if(!n&&!r&&!i&&!e)return Re(t);let a=Re(e);return t&&(a=ze(a,t)),n&&(a=ze(a,n)),r&&(a=ze(a,r)),i&&(a=ze(a,i)),a}function Le(e){if(e.length===0)return Fe;if(e.length===1)return Re(e[0]);let t=Re(e[0]);for(let n=1;n<e.length;n+=1)t=ze(t,e[n]);return t}function Re(e){return Ue(e)?{...We(e,Fe)}:Be(e)}function ze(e,t){return Ue(t)?We(t,e):Ve(e,t)}function Be(e){let t={...e};for(let e in t){let n=t[e];He(e,n)&&(t[e]=Ke(n))}return t}function Ve(e,t){if(!t)return e;for(let n in t){let r=t[n];switch(n){case`style`:e[n]=Pe(e.style,r);break;case`className`:e[n]=Je(e.className,r);break;default:e[n]=He(n,r)?Ge(e[n],r):r}}return e}function He(e,t){let n=e.charCodeAt(0),r=e.charCodeAt(1),i=e.charCodeAt(2);return n===111&&r===110&&i>=65&&i<=90&&(typeof t==`function`||t===void 0)}function Ue(e){return typeof e==`function`}function We(e,t){return Ue(e)?e(t):e??Fe}function Ge(e,t){return t?e?(...n)=>{let r=n[0];if(Ye(r)){let i=r;qe(i);let a=t(...n);return i.baseUIHandlerPrevented||e?.(...n),a}let i=t(...n);return e?.(...n),i}:Ke(t):e}function Ke(e){return e&&((...t)=>{let n=t[0];return Ye(n)&&qe(n),e(...t)})}function qe(e){return e.preventBaseUIHandler=()=>{e.baseUIHandlerPrevented=!0},e}function Je(e,t){return t?e?t+` `+e:t:e}function Ye(e){return typeof e==`object`&&!!e&&`nativeEvent`in e}function Xe(e,t){return function(n,...r){let i=new URL(e);return i.searchParams.set(`code`,n.toString()),r.forEach(e=>i.searchParams.append(`args[]`,e)),`${t} error #${n}; visit ${i} for the full message.`}}var Ze=Xe(`https://base-ui.com/production-error`,`Base UI`),Qe=g.createContext(void 0);function $e(e=!1){let t=g.useContext(Qe);if(t===void 0&&!e)throw Error(Ze(16));return t}function et(e){let{focusableWhenDisabled:t,disabled:n,composite:r=!1,tabIndex:i=0,isNativeButton:a}=e,o=r&&t!==!1,s=r&&t===!1;return{props:g.useMemo(()=>{let e={onKeyDown(e){n&&t&&e.key!==`Tab`&&e.preventDefault()}};return r||(e.tabIndex=i,!a&&n&&(e.tabIndex=t?i:-1)),(a&&(t||o)||!a&&n)&&(e[`aria-disabled`]=n),a&&(!t||s)&&(e.disabled=n),e},[r,n,t,o,s,a,i])}}function J(e){return e?.ownerDocument||document}function tt(e,t,{detail:n=0}={}){e.dispatchEvent(new(ve(e)).PointerEvent(`click`,{bubbles:!0,cancelable:!0,composed:!0,detail:n,shiftKey:t.shiftKey,ctrlKey:t.ctrlKey,altKey:t.altKey,metaKey:t.metaKey}))}function nt(e={}){let{disabled:t=!1,focusableWhenDisabled:n,tabIndex:r=0,native:i=!0,composite:a}=e,o=g.useRef(null),s=$e(!0),c=a??s!==void 0,{props:l}=et({focusableWhenDisabled:n,disabled:t,composite:c,tabIndex:r,isNativeButton:i}),u=g.useCallback(()=>{let e=o.current;rt(e)&&c&&t&&l.disabled===void 0&&e.disabled&&(e.disabled=!1)},[t,l.disabled,c]);return q(u,[u]),{getButtonProps:g.useCallback((e={})=>{let{onClick:n,onMouseDown:r,onKeyUp:a,onKeyDown:o,onPointerDown:s,...u}=e;return Ie({onClick(e){if(t){e.preventDefault();return}n?.(e)},onMouseDown(e){t||r?.(e)},onKeyDown(e){if(t||(qe(e),o?.(e),e.baseUIHandlerPrevented))return;let n=e.target===e.currentTarget,r=e.currentTarget,a=rt(r),s=!i&&it(r),l=n&&(i?a:!s),u=e.key===`Enter`,d=e.key===` `,f=r.getAttribute(`role`),p=f?.startsWith(`menuitem`)||f===`option`||f===`gridcell`;if(n&&c&&d){if(e.defaultPrevented&&p)return;e.preventDefault(),(!i||a)&&(e.preventBaseUIHandler(),tt(r,e));return}if(!l||i||!d&&!u){n&&s&&d&&e.preventDefault();return}e.defaultPrevented||(e.preventDefault(),u&&(e.preventBaseUIHandler(),tt(r,e)))},onKeyUp(e){if(!t){if(qe(e),a?.(e),e.target===e.currentTarget&&i&&c&&rt(e.currentTarget)&&e.key===` `){e.preventDefault();return}e.baseUIHandlerPrevented||e.target===e.currentTarget&&!i&&!c&&!e.defaultPrevented&&e.key===` `&&(e.preventBaseUIHandler(),tt(e.currentTarget,e))}},onPointerDown(e){if(t){e.preventDefault();return}s?.(e)}},i?{type:`button`}:{role:`button`},l,u)},[t,l,c,i]),buttonRef:K(e=>{o.current=e,u()})}}function rt(e){return G(e)&&e.tagName===`BUTTON`}function it(e){return G(e)&&e.tagName===`A`&&!!e.href}function at(e,t,n,r){let i=ke(st).current;return ct(i,e,t,n,r)&&ut(i,[e,t,n,r]),i.callback}function ot(e){let t=ke(st).current;return lt(t,e)&&ut(t,e),t.callback}function st(){return{callback:null,cleanup:null,refs:[]}}function ct(e,t,n,r,i){return e.refs[0]!==t||e.refs[1]!==n||e.refs[2]!==r||e.refs[3]!==i}function lt(e,t){return e.refs.length!==t.length||e.refs.some((e,n)=>e!==t[n])}function ut(e,t){if(e.refs=t,t.every(e=>e==null)){e.callback=null;return}e.callback=n=>{if(e.cleanup&&=(e.cleanup(),null),n!=null){let r=Array(t.length).fill(null);for(let e=0;e<t.length;e+=1){let i=t[e];if(i!=null)switch(typeof i){case`function`:{let t=i(n);typeof t==`function`&&(r[e]=t);break}case`object`:i.current=n}}e.cleanup=()=>{for(let e=0;e<t.length;e+=1){let n=t[e];if(n!=null)switch(typeof n){case`function`:{let t=r[e];typeof t==`function`?t():n(null);break}case`object`:n.current=null}}}}}}var dt=18;function ft(e){return dt>=e}function pt(e){if(!g.isValidElement(e))return null;let t=e,n=t.props;return(ft(19)?n?.ref:t.ref)??null}function Y(){}var mt=Object.freeze([]),X=Object.freeze({});function ht(e,t){let n={};for(let r in e){let i=e[r];if(t?.hasOwnProperty(r)){let e=t[r](i);e!=null&&Object.assign(n,e);continue}i===!0?n[`data-${r.toLowerCase()}`]=``:i&&(n[`data-${r.toLowerCase()}`]=i.toString())}return n}function gt(e,t){return typeof e==`function`?e(t):e}function _t(e,t){return typeof e==`function`?e(t):e}function vt(e,t,n={}){let r=t.render;n.enabled!==!1&&(r=St(r));let i=yt(t,n,r);if(n.enabled===!1)return null;let a=n.state??X;return Ct(e,r,i,a)}function yt(e,t,n){let{className:r,style:i}=e,{state:a=X,ref:o,props:s,stateAttributesMapping:c,enabled:l=!0}=t,u=l?gt(r,a):void 0,d=l?_t(i,a):void 0,f=l?ht(a,c):X,p=l&&s?bt(s):void 0,m=l?Pe(f,p)??{}:X;return typeof document<`u`&&(l?m.ref=Array.isArray(o)?ot([m.ref,pt(n),...o]):at(m.ref,pt(n),o):at(null,null)),l?(u!==void 0&&(m.className=Je(m.className,u)),d!==void 0&&(m.style=Pe(m.style,d)),m):X}function bt(e){return Array.isArray(e)?Le(e):Ie(void 0,e)}var xt=Symbol.for(`react.lazy`);function St(e){if(e?.$$typeof!==xt)return e;let t=g.Children.toArray(e)[0];return g.isValidElement(t)?t:e}function Ct(e,t,n,r){if(t){if(typeof t==`function`)return t(n,r);let e=Ie(n,t.props);return e.ref=n.ref,g.cloneElement(t,e)}if(e&&typeof e==`string`)return wt(e,n);throw Error(Ze(8))}function wt(e,t){return e===`button`?(0,g.createElement)(`button`,{type:`button`,...t,key:t.key}):e===`img`?(0,g.createElement)(`img`,{alt:``,...t,key:t.key}):g.createElement(e,t)}var Tt=g.forwardRef(function(e,t){let{render:n,className:r,disabled:i=!1,focusableWhenDisabled:a=!1,nativeButton:o=!0,style:s,...c}=e,{getButtonProps:l,buttonRef:u}=nt({disabled:i,focusableWhenDisabled:a,native:o});return vt(`button`,e,{state:{disabled:i},ref:[t,u],props:[c,l]})});function Et(e){var t,n,r=``;if(typeof e==`string`||typeof e==`number`)r+=e;else if(typeof e==`object`){if(Array.isArray(e)){var i=e.length;for(t=0;t<i;t++)e[t]&&(n=Et(e[t]))&&(r&&(r+=` `),r+=n)}else for(n in e)e[n]&&(r&&(r+=` `),r+=n)}return r}function Dt(){for(var e,t,n=0,r=``,i=arguments.length;n<i;n++)(e=arguments[n])&&(t=Et(e))&&(r&&(r+=` `),r+=t);return r}var Ot=e=>typeof e==`boolean`?`${e}`:e===0?`0`:e,kt=Dt,At=((e,t)=>n=>{if(t?.variants==null)return kt(e,n?.class,n?.className);let{variants:r,defaultVariants:i}=t,a=Object.keys(r).map(e=>{let t=n?.[e],a=i?.[e];if(t===null)return null;let o=Ot(t)||Ot(a);return r[e][o]}),o=n&&Object.entries(n).reduce((e,t)=>{let[n,r]=t;return r===void 0||(e[n]=r),e},{});return kt(e,a,t?.compoundVariants?.reduce((e,t)=>{let{class:n,className:r,...a}=t;return Object.entries(a).every(e=>{let[t,n]=e;return Array.isArray(n)?n.includes({...i,...o}[t]):{...i,...o}[t]===n})?[...e,n,r]:e},[]),n?.class,n?.className)})(`group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4`,{variants:{variant:{default:`bg-primary text-primary-foreground hover:bg-primary/80`,outline:`border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50`,secondary:`bg-secondary text-secondary-foreground hover:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)] aria-expanded:bg-secondary aria-expanded:text-secondary-foreground`,ghost:`hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50`,destructive:`bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40`,link:`text-primary underline-offset-4 hover:underline`},size:{default:`h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,xs:`h-6 gap-1 rounded-[min(var(--radius-md),10px)] px-2 text-xs in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3`,sm:`h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5`,lg:`h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2`,icon:`size-8`,"icon-xs":`size-6 rounded-[min(var(--radius-md),10px)] in-data-[slot=button-group]:rounded-lg [&_svg:not([class*='size-'])]:size-3`,"icon-sm":`size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg`,"icon-lg":`size-9`}},defaultVariants:{variant:`default`,size:`default`}});function jt({className:e,variant:t=`default`,size:n=`default`,...r}){return(0,U.jsx)(Tt,{"data-slot":`button`,className:H(At({variant:t,size:n,className:e})),...r})}function Mt({className:e,...t}){return(0,U.jsx)(`nav`,{"aria-label":`breadcrumb`,"data-slot":`breadcrumb`,className:H(e),...t})}function Nt({className:e,...t}){return(0,U.jsx)(`ol`,{"data-slot":`breadcrumb-list`,className:H(`flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground`,e),...t})}function Pt({className:e,...t}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-item`,className:H(`inline-flex items-center gap-1`,e),...t})}function Ft({className:e,...t}){return(0,U.jsx)(`span`,{"data-slot":`breadcrumb-page`,role:`link`,"aria-disabled":`true`,"aria-current":`page`,className:H(`font-normal text-foreground`,e),...t})}function It({children:e,className:t,...n}){return(0,U.jsx)(`li`,{"data-slot":`breadcrumb-separator`,role:`presentation`,"aria-hidden":`true`,className:H(`[&>svg]:size-3.5`,t),...n,children:e??(0,U.jsx)(O,{})})}var Lt=(0,g.createContext)(null);function Rt({open:e,defaultOpen:t=!1,onOpenChange:n,className:r,children:i,...a}){let[o,s]=(0,g.useState)(t),c=e??o;function l(t){e===void 0&&s(t),n?.(t)}return(0,U.jsx)(Lt.Provider,{value:{open:c,setOpen:l},children:(0,U.jsx)(`div`,{"data-slot":`collapsible`,"data-state":c?`open`:`closed`,className:H(r),...a,children:i})})}function zt({className:e,children:t,onClick:n,...r}){let i=(0,g.useContext)(Lt);if(!i)throw Error(`CollapsibleTrigger must be used inside Collapsible`);return(0,U.jsx)(`button`,{type:`button`,"data-slot":`collapsible-trigger`,"aria-expanded":i.open,className:H(e),onClick:e=>{n?.(e),e.defaultPrevented||i.setOpen(!i.open)},...r,children:t})}function Bt({className:e,children:t,...n}){let r=(0,g.useContext)(Lt);if(!r)throw Error(`CollapsibleContent must be used inside Collapsible`);return r.open?(0,U.jsx)(`div`,{"data-slot":`collapsible-content`,className:H(e),...n,children:t}):null}var Vt=`data-valid`,Ht=`data-invalid`,Ut={badInput:!1,customError:!1,patternMismatch:!1,rangeOverflow:!1,rangeUnderflow:!1,stepMismatch:!1,tooLong:!1,tooShort:!1,typeMismatch:!1,valid:null,valueMissing:!1},Wt={disabled:!1,valid:null,touched:!1,dirty:!1,filled:!1,focused:!1},Gt={valid(e){return e===null?null:e?{[Vt]:``}:{[Ht]:``}}},Kt={invalid:void 0,name:void 0,validityData:{state:Ut,errors:[],error:``,value:``,initialValue:null},setValidityData:Y,disabled:void 0,setTouched:Y,setDirty:Y,setFilled:Y,setFocused:Y,validationMode:`onSubmit`,shouldValidateOnChange:()=>!1,state:Wt,registerFieldControl:Y,validation:{getValidationProps:(e,t=X)=>t,inputRef:{current:null},registeredInputs:new Map,registerInput:Y,getInputControl:()=>null,commit:async()=>{},change:Y}},qt=g.createContext(Kt);function Jt(e=!0){let t=g.useContext(qt);if(t.setValidityData===Y&&!e)throw Error(Ze(28));return t}var Yt=g.createContext({elementRef:{current:null},formRef:{current:{fields:new Map}},errors:{},clearErrors:Y,validationMode:`onSubmit`,submitCountRef:{current:0}});function Xt(){return g.useContext(Yt)}var Zt=0;function Qt(e,t=`mui`){let[n,r]=g.useState(e),i=e||n;return g.useEffect(()=>{n??(Zt+=1,r(`${t}-${Zt}`))},[n,t]),i}var $t=De.useId;function en(e,t){if($t!==void 0){let n=$t();return e??(t?`${t}-${n}`:n)}return Qt(e,t)}function tn(e){return en(e,`base-ui`)}var nn=g.createContext({controlId:void 0,registerControlId:Y,resetControlId:Y,labelId:void 0,setLabelId:Y,messageIds:[],setMessageIds:Y,getDescriptionProps:e=>e});function rn(){return g.useContext(nn)}function an(e={}){let{id:t,enabled:n=!0}=e,{controlId:r,registerControlId:i,resetControlId:a}=rn(),o=tn(),s=ke(()=>Symbol()),c=g.useRef(!1),l=g.useRef(!1),u=K(()=>{c.current&&i!==Y&&(c.current=!1,i(s.current,void 0))});return q(()=>{if(!n||i===Y){u();return}let e;if(t!==void 0)l.current=!0,e=t;else if(l.current)e=o;else{a();return}if(e===void 0){u();return}c.current=!0,i(s.current,e)},[t,n,i,a,o,s,u]),q(()=>u,[u]),(n?r:void 0)??t??o}function on(){return typeof navigator>`u`?{userAgent:``,platform:``,maxTouchPoints:0}:{userAgent:navigator.userAgent,platform:navigator.platform??``,maxTouchPoints:navigator.maxTouchPoints??0}}var{userAgent:sn,platform:cn,maxTouchPoints:ln}=on(),un=sn.toLowerCase(),dn=cn.toLowerCase(),fn=/^i(os$|p)/.test(dn)||dn===`macintel`&&ln>1,pn=`android`,mn=dn===pn||un.includes(pn),hn=!fn&&dn.startsWith(`mac`);dn.startsWith(`win`),!mn&&/^(linux|chrome os)/.test(dn);var gn=hn||fn,_n=typeof CSS<`u`&&!!CSS.supports?.(`-webkit-backdrop-filter:none`);!_n&&un.includes(`firefox`),!_n&&un.includes(`chrom`);var vn=gn,yn=/jsdom|happydom/.test(un);function bn(e){let t=e.activeElement;for(;t?.shadowRoot?.activeElement!=null;)t=t.shadowRoot.activeElement;return t}function Z(e,t){if(!e||!t)return!1;let n=t.getRootNode?.();if(e.contains(t))return!0;if(n&&Se(n)){let n=t;for(;n;){if(e===n)return!0;n=n.parentNode||n.host}}return!1}function xn(e){return`composedPath`in e?e.composedPath()[0]??e.target:e.target}var Sn=`data-base-ui-focusable`,Cn=`data-starting-style`,wn=`data-ending-style`,Tn={[Cn]:``},En={[wn]:``},Dn={transitionStatus(e){return e===`starting`?Tn:e===`ending`?En:null}},On=`data-open`,kn=`data-closed`,An=`data-anchor-hidden`,jn={[On]:``},Mn={[kn]:``},Nn={[An]:``},Pn={open(e){return e?jn:Mn},anchorHidden(e){return e?Nn:null}},Fn={...Pn,...Dn};function In(e,t){if(t==null)return!1;if(`composedPath`in e)return e.composedPath().includes(t);let n=e;return n.target!=null&&t.contains(n.target)}function Ln(e){return e.matches(`html,body`)}function Rn(e){return G(e)&&e.matches(`input:not([type='hidden']):not([disabled]),[contenteditable]:not([contenteditable='false']),textarea:not([disabled])`)}function zn(e){return e?e.getAttribute(`role`)===`combobox`&&Rn(e):!1}function Bn(e){return e?e.hasAttribute(`data-base-ui-focusable`)?e:e.querySelector(`[data-base-ui-focusable]`)||e:null}function Vn(e,t,n=!0){return e.filter(e=>e.parentId===t).flatMap(t=>[...!n||t.context?.open?[t]:[],...Vn(e,t.id,n)])}function Hn(e,t){let n=[],r=e.find(e=>e.id===t)?.parentId;for(;r;){let t=e.find(e=>e.id===r);r=t?.parentId,t&&(n=n.concat(t))}return n}function Un(e){e.preventDefault(),e.stopPropagation()}function Wn(e){return`nativeEvent`in e}function Gn(e){return e.pointerType===``&&e.isTrusted?!0:mn&&e.pointerType?e.type===`click`&&e.buttons===1:e.detail===0&&!e.pointerType}function Kn(e){return yn?!1:!mn&&e.width===0&&e.height===0||mn&&e.width===1&&e.height===1&&e.pressure===0&&e.detail===0&&e.pointerType===`mouse`||e.width<1&&e.height<1&&e.pressure===0&&e.detail===0&&e.pointerType===`touch`}function qn(e){let t=e.type;return t===`click`||t===`mousedown`||t===`keydown`||t===`keyup`}function Jn(e){return e.visibility===`hidden`||e.visibility===`collapse`}function Yn(e,t=e?Te(e):null){return!e||!e.isConnected||!t||Jn(t)?!1:typeof e.checkVisibility==`function`?e.checkVisibility():t.display!==`none`&&t.display!==`contents`}var Xn=`a[href],button,input,select,textarea,summary,details,iframe,object,embed,[tabindex],[contenteditable]:not([contenteditable="false"]),audio[controls],video[controls]`;function Zn(e){let t=e.assignedSlot;if(t)return t;if(e.parentElement)return e.parentElement;let n=e.getRootNode();return Se(n)?n.host:null}function Qn(e){for(let t of Array.from(e.children))if(W(t)===`summary`)return t;return null}function $n(e,t){let n=Qn(t);return!!n&&(e===n||Z(n,e))}function er(e){let t=e?W(e):``;return e!=null&&e.matches(Xn)&&(t!==`summary`||e.parentElement!=null&&W(e.parentElement)===`details`&&Qn(e.parentElement)===e)&&(t!==`details`||Qn(e)==null)&&(t!==`input`||e.type!==`hidden`)}function tr(e){if(!er(e)||!e.isConnected||e.matches(`:disabled`))return!1;for(let t=e;t;t=Zn(t)){let n=t!==e,r=W(t)===`slot`;if(t.hasAttribute(`inert`)||n&&W(t)===`details`&&!t.open&&!$n(e,t)||t.hasAttribute(`hidden`)||!r&&!nr(t,n))return!1}return!0}function nr(e,t){let n=Te(e);return t?n.display!==`none`:Yn(e,n)}function rr(e){let t=e.tabIndex;if(t<0){let t=W(e);if(t===`details`||t===`audio`||t===`video`||G(e)&&e.isContentEditable)return 0}return t}function ir(e){if(W(e)!==`input`)return null;let t=e;return t.type===`radio`&&t.name!==``?t:null}function ar(e,t){let n=ir(e);if(!n)return!0;let r=t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form&&t.checked});return r?r===n:t.find(e=>{let t=ir(e);return t?.name===n.name&&t.form===n.form})===n}function or(e){if(G(e)&&W(e)===`slot`){let t=e.assignedElements({flatten:!0});if(t.length>0)return t}return G(e)&&e.shadowRoot?Array.from(e.shadowRoot.children):Array.from(e.children)}function sr(e,t){or(e).forEach(e=>{er(e)&&t.push(e),sr(e,t)})}function cr(e,t,n){or(e).forEach(e=>{G(e)&&e.matches(t)&&n.push(e),cr(e,t,n)})}function lr(e){return tr(e)&&rr(e)>=0}function ur(e){let t=[];return sr(e,t),t.filter(tr)}function dr(e){let t=ur(e);return t.filter(e=>rr(e)>=0&&ar(e,t))}function fr(e,t){let n=dr(e),r=n.length;if(r===0)return;let i=bn(J(e)),a=n.indexOf(i);return n[a===-1?t===1?0:r-1:a+t]}function pr(e){return fr(J(e).body,1)||e}function mr(e){return fr(J(e).body,-1)||e}function hr(e,t){let n=t||e.currentTarget,r=e.relatedTarget;return!r||!Z(n,r)}function gr(e){dr(e).forEach(e=>{e.dataset.tabindex=e.getAttribute(`tabindex`)||``,e.setAttribute(`tabindex`,`-1`)})}function _r(e){let t=[];cr(e,`[data-tabindex]`,t),t.forEach(e=>{let t=e.dataset.tabindex;delete e.dataset.tabindex,t?e.setAttribute(`tabindex`,t):e.removeAttribute(`tabindex`)})}function vr(e){g.useEffect(e,mt)}var yr=0,br=class e{static create(){return new e}currentId=yr;start(e,t){this.clear(),this.currentId=setTimeout(()=>{this.currentId=yr,t()},e)}isStarted(){return this.currentId!==yr}clear=()=>{this.currentId!==yr&&(clearTimeout(this.currentId),this.currentId=yr)};disposeEffect=()=>this.clear};function xr(){let e=ke(br.create).current;return vr(e.disposeEffect),e}var Sr=null;globalThis.requestAnimationFrame;var Cr=new class{callbacks=[];callbacksCount=0;nextId=1;startId=1;isScheduled=!1;tick=e=>{this.isScheduled=!1;let t=this.callbacks,n=this.callbacksCount;if(this.callbacks=[],this.callbacksCount=0,this.startId=this.nextId,n>0)for(let n=0;n<t.length;n+=1)t[n]?.(e)};request(e){let t=this.nextId;return this.nextId+=1,this.callbacks.push(e),this.callbacksCount+=1,this.isScheduled||=(requestAnimationFrame(this.tick),!0),t}cancel(e){let t=e-this.startId;t<0||t>=this.callbacks.length||this.callbacks[t]!==null&&(this.callbacks[t]=null,--this.callbacksCount)}},wr=class e{static create(){return new e}static request(e){return Cr.request(e)}static cancel(e){return Cr.cancel(e)}currentId=Sr;request(e){this.cancel(),this.currentId=Cr.request(()=>{this.currentId=Sr,e()})}cancel=()=>{this.currentId!==Sr&&(Cr.cancel(this.currentId),this.currentId=Sr)};disposeEffect=()=>this.cancel};function Tr(){let e=ke(wr.create).current;return vr(e.disposeEffect),e}function Er(e){return e==null?e:`current`in e?e.current:e}var Dr=null;function Or(e){if(!Dr){let e=[];Dr=e,queueMicrotask(()=>{Dr=null,pe.flushSync(()=>{for(let t of e)t()})})}Dr.push(e)}function kr(e,t=!1,n=!1){let r=Tr();return K((i,a=null)=>{r.cancel();let o=Er(e);if(o==null)return;let s=o,c=()=>{if(!n){pe.flushSync(i);return}Or(()=>{a?.aborted||i()})};if(typeof s.getAnimations!=`function`||globalThis.BASE_UI_ANIMATIONS_DISABLED){i();return}function l(){Promise.all(s.getAnimations().map(e=>e.finished)).then(()=>{a?.aborted||c()},()=>{if(!a?.aborted){if(s.getAnimations().some(e=>e.pending||e.playState!==`finished`)){l();return}c()}})}if(t){let e=Cn;if(!s.hasAttribute(e)){r.request(l);return}let t=new MutationObserver(()=>{s.hasAttribute(e)||(t.disconnect(),l())});t.observe(s,{attributes:!0,attributeFilter:[e]}),a?.addEventListener(`abort`,()=>t.disconnect(),{once:!0});return}r.request(l)})}function Ar(e){let{enabled:t=!0,open:n,ref:r,batch:i=!1,onComplete:a}=e,o=K(a),s=kr(r,n,i);g.useEffect(()=>{if(!t)return;let e=new AbortController;return s(o,e.signal),()=>{e.abort()}},[t,n,o,s])}function jr(e,t=!1,n=!1,r=!1){let[i,a]=g.useState(e&&t?`idle`:void 0),[o,s]=g.useState(e&&!r);return e&&!o&&(s(!0),a(`starting`)),!e&&o&&i!==`ending`&&!n&&a(`ending`),!e&&!o&&i===`ending`&&a(void 0),q(()=>{if(!e&&o&&i!==`ending`&&n){let e=wr.request(()=>{a(`ending`)});return()=>{wr.cancel(e)}}},[e,o,i,n]),q(()=>{if(!e||t)return;let n=wr.request(()=>{a(void 0)});return()=>{wr.cancel(n)}},[t,e]),q(()=>{if(!e||!t)return;e&&o&&i!==`idle`&&a(`starting`);let n=wr.request(()=>{a(`idle`)});return()=>{wr.cancel(n)}},[t,e,o,i]),{mounted:o,setMounted:s,transitionStatus:i}}function Mr({controlled:e,default:t,name:n,state:r=`value`}){let{current:i}=g.useRef(e!==void 0),[a,o]=g.useState(t);return[i&&e!==void 0?e:a,g.useCallback(e=>{i||o(e)},[])]}function Nr(e,t,n,r,i=!0,a){let{registerFieldControl:o}=Jt(),s=ke(()=>Symbol());q(()=>{let c=s.current;if(!i){o(c,void 0);return}o(c,{controlRef:e,getValue:r,id:t,name:a,value:n})},[e,i,r,t,a,o,s,n]),q(()=>{let e=s.current;return()=>{o(e,void 0)}},[o,s])}function Pr(e,t){let n=g.useRef(e),r=K(t);q(()=>{n.current!==e&&r(n.current),n.current=e},[e,r])}var Fr=`none`,Ir=`trigger-press`,Lr=`outside-press`,Rr=`close-press`,zr=`focus-out`,Br=`escape-key`,Vr=`imperative-action`;function Hr(e,t,n,r){let i=!1,a=!1,o=r??X;return{reason:e,event:t??new Event(`base-ui`),cancel(){i=!0},allowPropagation(){a=!0},get isCanceled(){return i},get isPropagationAllowed(){return a},trigger:n,...o}}var Ur=g.forwardRef(function(e,t){let{render:n,className:r,id:i,name:a,value:o,disabled:s=!1,onValueChange:c,defaultValue:l,autoFocus:u=!1,style:d,...f}=e,{state:p,name:m,disabled:h,setTouched:_,setDirty:v,validityData:y,setFocused:b,setFilled:x,validationMode:S,validation:C}=Jt(),{clearErrors:w,elementRef:T,submitCountRef:E}=Xt(),D=h||s,O=m??a,k={...p,disabled:D},{labelId:A}=rn(),j=an({id:i}),[M]=Mr({controlled:o,default:l,name:`FieldControl`,state:`value`}),N=o!==void 0,P=N?M:void 0,F=P==null?void 0:String(P),I=K(()=>C.inputRef.current?.value);Nr(C.inputRef,j,F,I,!D,a),q(()=>{let e=F??C.inputRef.current?.value;e!==void 0&&x(e!==``)},[F,C.inputRef,x]),Pr(F,()=>{F!==void 0&&(w(O),v(F!==(y.initialValue??``)),C.change(F))});let L=g.useRef(null),R=xr();return q(()=>{u&&L.current===bn(J(L.current))&&b(!0)},[u,b]),vt(`input`,e,{ref:[t,L],state:k,props:[{id:j,disabled:D,name:O,ref:C.inputRef,"aria-labelledby":A,autoFocus:u,...N?{value:P}:{defaultValue:l},onChange(e){let t=e.currentTarget.value,n=Hr(Fr,e.nativeEvent);c?.(t,n),!N&&(v(t!==(y.initialValue??``)),x(t!==``),!e.nativeEvent.defaultPrevented&&!n.isCanceled&&(w(O),C.change(t)))},onFocus(){b(!0)},onBlur(e){if(_(!0),b(!1),S===`onBlur`){let t=e.currentTarget.value;C.commit(t),N&&queueMicrotask(()=>{let e=C.inputRef.current?.value;e!==void 0&&e!==t&&e!==(y.initialValue??``)&&C.commit(e)})}},onKeyDown(e){if(e.currentTarget.tagName===`INPUT`&&e.key===`Enter`){_(!0);let t=e.currentTarget.value,n=e.currentTarget.form;if(n&&n===T.current&&!e.defaultPrevented){let t=e.currentTarget,n=E.current;R.start(0,()=>{E.current===n&&C.commit(t.value)})}else C.commit(t)}}},f,e=>C.getValidationProps(D,e)],stateAttributesMapping:Gt})}),Wr=g.forwardRef(function(e,t){return(0,U.jsx)(Ur,{ref:t,...e})}),Gr=(0,g.forwardRef)(function({className:e,type:t,...n},r){return(0,U.jsx)(Wr,{ref:r,type:t,"data-slot":`input`,className:H(`h-8 w-full min-w-0 rounded-lg border border-input bg-transparent px-2.5 py-1 text-base transition-colors outline-none file:inline-flex file:h-6 file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-input/50 disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:disabled:bg-input/80 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40`,e),...n})});function Kr({className:e,viewportClassName:t,children:n,...r}){return(0,U.jsx)(`div`,{"data-slot":`scroll-area`,className:H(`relative overflow-hidden`,e),...r,children:(0,U.jsx)(`div`,{"data-slot":`scroll-area-viewport`,className:H(`h-full w-full overflow-auto`,t),children:n})})}var qr=g.createContext(void 0);function Jr(e){let t=g.useContext(qr);if(!e&&t===void 0)throw Error(Ze(27));return t}var Yr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,forceRender:a=!1,...o}=e,s=Jr(),c=s.useState(`open`),l=s.useState(`nested`),u=s.useState(`mounted`);return vt(`div`,e,{state:{open:c,transitionStatus:s.useState(`transitionStatus`)},ref:[s.context.backdropRef,t],stateAttributesMapping:Fn,props:[{role:`presentation`,hidden:!u,style:{userSelect:`none`,WebkitUserSelect:`none`}},o],enabled:a||!l})}),Xr=g.forwardRef(function(e,t){let{render:n,className:r,style:i,disabled:a=!1,nativeButton:o=!0,...s}=e,c=Jr(),l=c.useState(`open`),{getButtonProps:u,buttonRef:d}=nt({disabled:a,native:o}),f={disabled:a};function p(e){l&&c.setOpen(!1,Hr(Rr,e.nativeEvent))}return vt(`button`,e,{state:f,ref:[t,d],props:[{onClick:p},s,u]})});function Q(e,t,n,r){return e.addEventListener(t,n,r),()=>{e.removeEventListener(t,n,r)}}function Zr(...e){return()=>{for(let t=0;t<e.length;t+=1){let n=e[t];n&&n()}}}function Qr(e){let t=ke($r,e).current;return t.next=e,q(t.effect),t}function $r(e){let t={current:e,next:e,effect:()=>{t.current=t.next}};return t}var ei={clipPath:`inset(50%)`,overflow:`hidden`,whiteSpace:`nowrap`,border:0,padding:0,width:1,height:1,margin:-1},ti={...ei,position:`fixed`,top:0,left:0};({...ei});var ni=g.forwardRef(function(e,t){let[n,r]=g.useState();q(()=>{vn&&_n&&r(`button`)},[]);let i={tabIndex:0,role:n};return(0,U.jsx)(`span`,{...e,ref:t,style:ti,"aria-hidden":!n||void 0,...i,"data-base-ui-focus-guard":``})});function ri(e){return`data-base-ui-${e}`}var ii=0;function ai(e,t={}){let{preventScroll:n=!1,sync:r=!1,shouldFocus:i}=t;cancelAnimationFrame(ii);function a(){(!i||i())&&e?.focus({preventScroll:n})}if(r)return a(),Y;let o=requestAnimationFrame(a);return ii=o,()=>{ii===o&&(cancelAnimationFrame(o),ii=0)}}var oi={inert:new WeakMap,"aria-hidden":new WeakMap},si=`data-base-ui-inert`,ci={inert:new WeakSet,"aria-hidden":new WeakSet},li=new WeakMap,ui=0;function di(e){return ci[e]}function fi(e){return e?Se(e)?e.host:fi(e.parentNode):null}var pi=(e,t)=>t.map(t=>{if(e.contains(t))return t;let n=fi(t);return e.contains(n)?n:null}).filter(e=>e!=null),mi=e=>{let t=new Set;return e.forEach(e=>{let n=e;for(;n&&!t.has(n);)t.add(n),n=n.parentNode}),t},hi=(e,t,n)=>{let r=[],i=e=>{e&&!n.has(e)&&Array.from(e.children).forEach(e=>{W(e)!==`script`&&(t.has(e)?i(e):r.push(e))})};return i(e),r};function gi(e,t,n,r,{mark:i=!0}){let a=null;r?a=`inert`:n&&(a=`aria-hidden`);let o=null,s=null,c=pi(t,e),l=i?hi(t,mi(c),new Set(c)):[],u=[],d=[];if(a){let e=oi[a],n=di(a);s=n,o=e;let r=pi(t,Array.from(t.querySelectorAll(`[aria-live]`))),i=c.concat(r);hi(t,mi(i),new Set(i)).forEach(t=>{let r=t.getAttribute(a),i=r!==null&&r!==`false`,o=(e.get(t)||0)+1;e.set(t,o),u.push(t),o===1&&i&&n.add(t),i||t.setAttribute(a,a===`inert`?``:`true`)})}return i&&l.forEach(e=>{let t=(li.get(e)||0)+1;li.set(e,t),d.push(e),t===1&&e.setAttribute(si,``)}),ui+=1,()=>{o&&u.forEach(e=>{let t=(o.get(e)||0)-1;o.set(e,t),t||(!s?.has(e)&&a&&e.removeAttribute(a),s?.delete(e))}),i&&d.forEach(e=>{let t=(li.get(e)||0)-1;li.set(e,t),t||e.removeAttribute(si)}),--ui,ui||(oi.inert=new WeakMap,oi[`aria-hidden`]=new WeakMap,ci.inert=new WeakSet,ci[`aria-hidden`]=new WeakSet,li=new WeakMap)}}function _i(e,t={}){let{ariaHidden:n=!1,inert:r=!1,mark:i=!0}=t,a=J(e[0]).body;return gi(e,a,n,r,{mark:i})}var vi={clipPath:`inset(50%)`,position:`fixed`,top:0,left:0},yi=g.createContext(null),bi=()=>g.useContext(yi),xi=ri(`portal`);function Si(e={}){let{ref:t,container:n,componentProps:r=X,elementProps:i}=e,a=en(),o=bi()?.portalNode,[s,c]=g.useState(null),[l,u]=g.useState(null),d=K(e=>{e!==null&&u(e)}),f=g.useRef(null);q(()=>{if(n===null){f.current&&(f.current=null,u(null),c(null));return}let e=(n&&(be(n)?n:n.current))??o??document.body;if(e==null){f.current&&(f.current=null,u(null),c(null));return}f.current!==e&&(f.current=e,u(null),c(e))},[n,o]);let p=vt(`div`,r,{ref:[t,d],props:[{id:a,[xi]:``},i]}),m=s&&p?pe.createPortal(p,s):null;return{node:l,nodeId:g.isValidElement(p)?p.props.id:void 0,subtree:m}}var Ci=g.forwardRef(function(e,t){let{render:n,className:r,style:i,children:a,container:o,portalOwnerRole:s,...c}=e,{node:l,nodeId:u,subtree:d}=Si({container:o,ref:t,componentProps:e,elementProps:c}),f=g.useRef(null),p=g.useRef(null),m=g.useRef(null),h=g.useRef(null),[_,v]=g.useState(null),y=g.useRef(!1),b=_?.modal,x=_?.open,S=!!_&&!_.modal&&_.open&&!!l;g.useEffect(()=>{if(!l||b)return;function e(e){l&&e.relatedTarget&&hr(e)&&(e.type===`focusin`?y.current&&=(_r(l),!1):(gr(l),y.current=!0))}return Zr(Q(l,`focusin`,e,!0),Q(l,`focusout`,e,!0))},[l,b]),q(()=>{l&&x===!0&&y.current&&(_r(l),y.current=!1)},[x,l]);let C=g.useMemo(()=>({beforeOutsideRef:f,afterOutsideRef:p,beforeInsideRef:m,afterInsideRef:h,portalNode:l,setFocusManagerState:v}),[l]);return(0,U.jsxs)(g.Fragment,{children:[d,(0,U.jsxs)(yi.Provider,{value:C,children:[S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:f,onFocus:e=>{hr(e,l)?m.current?.focus():mr(_?_.domReference:null)?.focus()}}),S&&l&&(0,U.jsx)(`span`,{role:s,"aria-owns":u,style:vi}),l&&pe.createPortal(a,l),S&&l&&(0,U.jsx)(ni,{"data-type":`outside`,ref:p,onFocus:e=>{hr(e,l)?h.current?.focus():(pr(_?_.domReference:null)?.focus(),_?.closeOnFocusOut&&_?.onOpenChange(!1,Hr(`focus-out`,e.nativeEvent)))}})]})]})});function wi(){let e=new Map;return{emit(t,n){e.get(t)?.forEach(e=>e(n))},on(t,n){e.has(t)||e.set(t,new Set),e.get(t).add(n)},off(t,n){e.get(t)?.delete(n)}}}var Ti=g.createContext(null),Ei=g.createContext(null),Di=()=>g.useContext(Ti)?.id||null,Oi=e=>{let t=g.useContext(Ei);return e??t};function ki(e,t){let n=ve(xn(e));return e instanceof n.KeyboardEvent?`keyboard`:e instanceof n.FocusEvent?t||`keyboard`:`pointerType`in e?e.pointerType||`keyboard`:`touches`in e?`touch`:e instanceof n.MouseEvent?t||(e.detail===0?`keyboard`:`mouse`):``}var Ai=20,ji=[];function Mi(){ji=ji.filter(e=>e.deref()?.isConnected)}function Ni(e){Mi(),e&&W(e)!==`body`&&(ji.push(new WeakRef(e)),ji.length>Ai&&(ji=ji.slice(-20)))}function Pi(){return Mi(),ji[ji.length-1]?.deref()}function Fi(e){return e?lr(e)?e:dr(e)[0]||e:null}function Ii(e){if(e.hasAttribute(`tabindex`)&&!e.hasAttribute(`data-tabindex`)||!e.getAttribute(`role`)?.includes(`dialog`))return;let t=ur(e).filter(e=>{let t=e.getAttribute(`data-tabindex`)||``;return lr(e)||e.hasAttribute(`data-tabindex`)&&!t.startsWith(`-`)}),n=e.getAttribute(`tabindex`);t.length===0?n!==`0`&&(e.setAttribute(`tabindex`,`0`),e.setAttribute(`data-tabindex`,`0`)):(n!==`-1`||e.hasAttribute(`data-tabindex`)&&e.getAttribute(`data-tabindex`)!==`-1`)&&(e.setAttribute(`tabindex`,`-1`),e.setAttribute(`data-tabindex`,`-1`))}function Li(e){let{context:t,children:n,disabled:r=!1,initialFocus:i=!0,returnFocus:a=!0,restoreFocus:o=!1,modal:s=!0,closeOnFocusOut:c=!0,openInteractionType:l=``,nextFocusableElement:u,previousFocusableElement:d,beforeContentFocusGuardRef:f,externalTree:p,getInsideElements:m}=e,h=`rootStore`in t?t.rootStore:t,_=h.useState(`open`),v=h.useState(`domReferenceElement`),y=h.useState(`floatingElement`),{events:b,dataRef:x}=h.context,S=K(()=>x.current.floatingContext?.nodeId),C=i===!1,w=zn(v)&&C,T=Qr(i),E=Qr(a),D=Qr(l),O=Qr(_),k=Oi(p),A=bi(),j=g.useRef(!1),M=g.useRef(!1),N=g.useRef(!1),P=g.useRef(null),F=g.useRef(``),I=g.useRef(``),L=g.useRef(null),R=g.useRef(null),z=at(L,f,A?.beforeInsideRef),B=at(R,A?.afterInsideRef),ee=xr(),te=xr(),ne=Tr(),re=A!=null,V=Bn(y),ie=K((e=V)=>e?dr(e):[]),ae=K(()=>m?.().filter(e=>e!=null)??[]);g.useEffect(()=>{if(r||!s)return;function e(e){e.key===`Tab`&&Z(V,bn(J(V)))&&ie().length===0&&!w&&Un(e)}return Q(J(V),`keydown`,e)},[r,V,s,w,ie]),g.useEffect(()=>{if(r||!_)return;let e=J(V);function t(){N.current=!1}function n(e){let t=xn(e),n=ae(),r=Z(y,t)||Z(v,t)||Z(A?.portalNode,t)||n.some(e=>e===t||Z(e,t));N.current=!r,I.current=e.pointerType||`keyboard`,t?.closest(`[data-base-ui-click-trigger]`)&&(M.current=!0,te.start(0,()=>{M.current=!1}))}function i(){I.current=`keyboard`}return Zr(Q(e,`pointerdown`,n,!0),Q(e,`pointerup`,t,!0),Q(e,`pointercancel`,t,!0),Q(e,`keydown`,i,!0),t)},[r,y,v,V,_,A,te,ae]),g.useEffect(()=>{if(r||!c)return;let e=J(V);function t(){M.current=!0,te.start(0,()=>{M.current=!1})}function n(e){let t=xn(e);lr(t)&&(P.current=t)}function i(t){let n=t.relatedTarget,r=t.currentTarget,i=xn(t);s&&n==null&&i!=null&&Z(y,i)&&Ni(i),queueMicrotask(()=>{let a=S(),c=h.context.triggerElements,l=ae(),f=n?.hasAttribute(ri(`focus-guard`))&&[L.current,R.current,A?.beforeInsideRef.current,A?.afterInsideRef.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,Er(d),Er(u)].includes(n),p=!(Z(v,n)||Z(y,n)||Z(n,y)||Z(A?.portalNode,n)||l.some(e=>e===n||Z(e,n))||c.hasMatchingElement(e=>Z(e,n))||f||k&&(Vn(k.nodesRef.current,a).find(e=>Z(e.context?.elements.floating,n)||Z(e.context?.elements.domReference,n))||Hn(k.nodesRef.current,a).find(e=>[e.context?.elements.floating,Bn(e.context?.elements.floating)].includes(n)||e.context?.elements.domReference===n)));if(r===v&&V&&Ii(V),o&&r!==v&&!Yn(i)&&bn(e)===e.body){if(G(V)&&(V.focus(),o===`popup`)){ne.request(()=>{V.focus()});return}let e=ie(),t=P.current,n=(t&&e.includes(t)?t:null)||e[e.length-1]||V;G(n)&&n.focus()}if(x.current.insideReactTree){x.current.insideReactTree=!1;return}(w||!s)&&n&&p&&!M.current&&(w||n!==Pi())&&(j.current=!0,h.setOpen(!1,Hr(zr,t)))})}function a(){N.current||(x.current.insideReactTree=!0,ee.start(0,()=>{x.current.insideReactTree=!1}))}let l=G(v)?v:null;if(y||l)return Zr(l&&Q(l,`focusout`,i),l&&Q(l,`pointerdown`,t),y&&Q(y,`focusin`,n),y&&Q(y,`focusout`,i),y&&A&&Q(y,`focusout`,a,!0))},[r,v,y,V,s,k,A,h,c,o,ie,w,S,x,ee,te,ne,u,d,ae]),g.useEffect(()=>{if(r||!y||!_)return;let e=Array.from(A?.portalNode?.querySelectorAll(`[${ri(`portal`)}]`)||[]),t=(k?Hn(k.nodesRef.current,S()):[]).find(e=>zn(e.context?.elements.domReference||null))?.context?.elements.domReference,n=_i([y,...e,L.current,R.current,A?.beforeOutsideRef.current,A?.afterOutsideRef.current,...ae(),t,Er(d),Er(u),w?v:null].filter(e=>e!=null),{ariaHidden:s||w,mark:!1}),i=_i([y,...e].filter(e=>e!=null));return()=>{i(),n()}},[_,r,v,y,s,A,w,k,S,u,d,ae]),q(()=>{if(!_||r||!G(V))return;F.current=``,I.current=``;let e=J(V),t=bn(e);queueMicrotask(()=>{let n=T.current,r=typeof n==`function`?n(D.current||``):n;if(r===void 0||r===!1||Z(V,t))return;let i=null,a=()=>(i??=ie(V),i[0]||V),o;o=r===!0||r===null?a():Er(r),o||=a();let s=Z(V,bn(e));ai(o,{preventScroll:o===V,shouldFocus(){if(!O.current)return!1;if(s)return!0;let t=bn(e);return!(t!==o&&Z(V,t))}})})},[r,_,V,ie,T,D,O]),q(()=>{if(r||!V)return;let e=J(V),t=bn(e),n=D.current==null;Ni(t);function i(e){if(e.open||(F.current=ki(e.nativeEvent,I.current)),e.reason===`trigger-hover`&&e.nativeEvent.type===`mouseleave`&&(j.current=!0),e.reason===`outside-press`){if(e.nested)j.current=!1;else if(Gn(e.nativeEvent)||Kn(e.nativeEvent))j.current=!1;else{let e=!1;J(V).createElement(`div`).focus({get preventScroll(){return e=!0,!1}}),e?j.current=!1:j.current=!0}}}b.on(`openchange`,i);function a(e){let r=E.current,i=typeof r==`function`?r(e):r;if(i===void 0||i===!1)return null;i===null&&(i=!0);let a=v?.isConnected?v:null,o=t?.isConnected&&W(t)!==`body`?t:null,s=n?o||a:a||o;return s||=Pi()||null,typeof i==`boolean`?s:Er(i)||s||null}return()=>{b.off(`openchange`,i);let t=bn(e),n=ae(),r=Z(y,t)||n.some(e=>e===t||Z(e,t))||k&&Vn(k.nodesRef.current,S(),!1).some(e=>Z(e.context?.elements.floating,t)),o=E.current,s=F.current,c=a(s);queueMicrotask(()=>{let n=Fi(c),i=typeof o!=`boolean`;if(o&&!j.current&&G(n)&&(i||n===t||t===e.body||r)){let e={preventScroll:!0};s===`keyboard`&&(e.focusVisible=!0),n.focus(e)}j.current=!1})}},[r,y,V,E,D,b,k,v,S,ae]),q(()=>{if(!_n||_||!y)return;let e=bn(J(y));G(e)&&Rn(e)&&Z(y,e)&&e.blur()},[_,y]),q(()=>{if(!r&&A)return A.setFocusManagerState({modal:s,closeOnFocusOut:c,open:_,onOpenChange:h.setOpen,domReference:v}),()=>{A.setFocusManagerState(null)}},[r,A,s,_,h,c,v]),q(()=>{if(!r&&V)return Ii(V),()=>{queueMicrotask(Mi)}},[r,V]);let oe=!r&&(!s||!w)&&(re||s);return(0,U.jsxs)(g.Fragment,{children:[oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:z,onFocus:e=>{if(s){let e=ie();ai(e[e.length-1])}else A?.portalNode&&(j.current=!1,hr(e,A.portalNode)?pr(v)?.focus():Er(d??A.beforeOutsideRef)?.focus())}}),n,oe&&(0,U.jsx)(ni,{"data-type":`inside`,ref:B,onFocus:e=>{s?ai(ie()[0]):A?.portalNode&&(c&&(j.current=!0),hr(e,A.portalNode)?mr(v)?.focus():Er(u??A.afterOutsideRef)?.focus())}})]})}function Ri(){return!1}function zi(e){return{escapeKey:typeof e==`boolean`?e:e?.escapeKey??!1,outsidePress:typeof e==`boolean`?e:e?.outsidePress??!0}}function Bi(e,t={}){let{enabled:n=!0,escapeKey:r=!0,outsidePress:i=!0,outsidePressEvent:a=`sloppy`,referencePress:o=Ri,bubbles:s,externalTree:c}=t,l=`rootStore`in e?e.rootStore:e,u=l.useState(`open`),d=l.useState(`floatingElement`),{dataRef:f,events:p}=l.context,m=Oi(c),h=K(typeof i==`function`?i:()=>!1),_=typeof i==`function`?h:i,v=_!==!1,y=K(()=>a),{escapeKey:b,outsidePress:x}=zi(s),S=g.useRef(!1),C=g.useRef(!1),w=g.useRef(!1),T=g.useRef(!1),E=g.useRef(!1),D=g.useRef(``),O=g.useRef(null),k=xr(),A=xr(),j=K(()=>{A.clear(),f.current.insideReactTree=!1}),M=K(e=>{let t=f.current.floatingContext?.nodeId;return(m?Vn(m.nodesRef.current,t):[]).some(t=>t.context?.open&&!t.context.dataRef.current[e])}),N=K(e=>In(e,l.select(`floatingElement`))||In(e,l.select(`domReferenceElement`))),P=K(e=>{o()&&l.setOpen(!1,Hr(Ir,e.nativeEvent))}),F=K(e=>{if(!u||!n||!r||e.key!==`Escape`||E.current||!b&&M(`__escapeKeyBubbles`))return;let t=Hr(Br,Wn(e)?e.nativeEvent:e);l.setOpen(!1,t),t.isCanceled||e.preventDefault(),!b&&!t.isPropagationAllowed&&e.stopPropagation()}),I=K(()=>{f.current.insideReactTree=!0,A.start(0,j)}),L=K(e=>{if(!u||!n||e.button!==0)return;let t=xn(e.nativeEvent);Z(l.select(`floatingElement`),t)&&(S.current||(S.current=!0,C.current=!1))}),R=K(e=>{u&&n&&(e.defaultPrevented||e.nativeEvent.defaultPrevented)&&S.current&&(C.current=!0)});g.useEffect(()=>{function e(e){e.open||(T.current=!1)}return p.on(`openchange`,e),()=>{p.off(`openchange`,e)}},[p]),g.useEffect(()=>{if(!u||!n)return u||(T.current=!1),j;f.current.__escapeKeyBubbles=b,f.current.__outsidePressBubbles=x;let e=new br,t=new br,i=J(d);function a(){e.clear(),E.current=!0}function o(){e.start(_n?5:0,()=>{E.current=!1})}function s(){w.current=!0,t.start(0,()=>{w.current=!1})}function c(){S.current=!1,C.current=!1}function p(){let e=D.current,t=e===`pen`||!e?`mouse`:e,n=y(),r=typeof n==`function`?n():n;return typeof r==`string`?r:r[t]}function h(e){let t=p();return t===`intentional`&&e.type!==`click`||t===`sloppy`&&e.type===`click`}function g(e){let t=f.current.floatingContext?.nodeId,n=m&&Vn(m.nodesRef.current,t).some(t=>In(e,t.context?.elements.floating));return N(e)||n}function A(e){if(h(e)){e.type!==`click`&&!N(e)&&(t.clear(),w.current=!1),j();return}if(f.current.insideReactTree){j();return}let n=xn(e),r=`[${ri(`inert`)}]`,i=xe(n)?n.getRootNode():null,a=Array.from((Se(i)?i:J(l.select(`floatingElement`))).querySelectorAll(r)),o=l.context.triggerElements;if(n&&(o.hasElement(n)||o.hasMatchingElement(e=>Z(e,n))))return;let s=xe(n)?n:null;for(;s&&!we(s);){let e=Ee(s);if(we(e)||!xe(e))break;s=e}if(!(a.length&&xe(n)&&!Ln(n)&&!Z(n,l.select(`floatingElement`))&&a.every(e=>!Z(s,e)))){if(G(n)&&!(`touches`in e)){let t=we(n),r=Te(n),i=/auto|scroll/,a=t||i.test(r.overflowX),o=t||i.test(r.overflowY),s=a&&n.clientWidth>0&&n.scrollWidth>n.clientWidth,c=o&&n.clientHeight>0&&n.scrollHeight>n.clientHeight,l=r.direction===`rtl`,u=c&&(l?e.offsetX<=n.offsetWidth-n.clientWidth:e.offsetX>n.clientWidth),d=s&&e.offsetY>n.clientHeight;if(u||d)return}if(!g(e)){if(p()===`intentional`){if(e.detail!==0&&!Gn(e)&&!T.current)return;if(w.current){t.clear(),w.current=!1;return}}(typeof _!=`function`||_(e))&&(M(`__outsidePressBubbles`)||(l.setOpen(!1,Hr(Lr,e)),j()))}}}function P(e){p()===`sloppy`&&e.pointerType!==`touch`&&l.select(`open`)&&n&&!N(e)&&A(e)}function I(e){if(p()!==`sloppy`||!l.select(`open`)||!n||N(e))return;let t=e.touches[0];t&&(O.current={startTime:Date.now(),startX:t.clientX,startY:t.clientY,dismissOnTouchEnd:!1,dismissOnMouseDown:!0},k.start(1e3,()=>{O.current&&(O.current.dismissOnTouchEnd=!1,O.current.dismissOnMouseDown=!1)}))}function L(e,t){let n=xn(e);if(!n)return;let r=Q(n,e.type,()=>{t(e),r()})}function R(e){D.current=`touch`,L(e,I)}function z(e){k.clear(),e.type===`pointerdown`&&(e.button===0&&(T.current=!0),D.current=e.pointerType),(e.type!==`mousedown`||!O.current||O.current.dismissOnMouseDown)&&L(e,e=>{e.type===`pointerdown`?P(e):A(e)})}function B(e){if(e.type===`pointercancel`&&(T.current=!1),!S.current)return;let n=C.current;if(c(),p()===`intentional`){if(e.type===`pointercancel`){n&&s();return}if(!g(e)){if(n){s();return}(typeof _!=`function`||_(e))&&(t.clear(),w.current=!0,j())}}}function ee(e){if(p()!==`sloppy`||!O.current||N(e))return;let t=e.touches[0];if(!t)return;let n=Math.abs(t.clientX-O.current.startX),r=Math.abs(t.clientY-O.current.startY),i=Math.sqrt(n*n+r*r);i>5&&(O.current.dismissOnTouchEnd=!0),i>10&&(A(e),k.clear(),O.current=null)}function te(e){L(e,ee)}function ne(e){p()===`sloppy`&&O.current&&!N(e)&&(O.current.dismissOnTouchEnd&&A(e),k.clear(),O.current=null)}function re(e){L(e,ne)}let V=Zr(r&&Zr(Q(i,`keydown`,F),Q(i,`compositionstart`,a),Q(i,`compositionend`,o)),v&&Zr(Q(i,`click`,z,!0),Q(i,`pointerdown`,z,!0),Q(i,`pointerup`,B,!0),Q(i,`pointercancel`,B,!0),Q(i,`mousedown`,z,!0),Q(i,`mouseup`,B,!0),Q(i,`touchstart`,R,{capture:!0,passive:!0}),Q(i,`touchmove`,te,{capture:!0,passive:!0}),Q(i,`touchend`,re,{capture:!0,passive:!0})));return()=>{V(),e.clear(),t.clear(),c(),w.current=!1,j()}},[f,d,r,v,_,u,n,b,x,F,j,y,M,N,m,l,k]);let z=g.useMemo(()=>({onKeyDown:F,onPointerDown:P,onClick:P}),[F,P]),B=g.useMemo(()=>({onKeyDown:F,onPointerDown:R,onMouseDown:R,onClickCapture:I,onMouseDownCapture(e){I(),L(e)},onPointerDownCapture(e){I(),L(e)},onMouseUpCapture:I,onTouchEndCapture:I,onTouchMoveCapture:I}),[F,I,L,R]);return g.useMemo(()=>n?{reference:z,floating:B,trigger:z}:{},[n,z,B])}var Vi=e((e=>{var n=t();function r(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var i=typeof Object.is==`function`?Object.is:r,a=n.useState,o=n.useEffect,s=n.useLayoutEffect,c=n.useDebugValue;function l(e,t){var n=t(),r=a({inst:{value:n,getSnapshot:t}}),i=r[0].inst,l=r[1];return s(function(){i.value=n,i.getSnapshot=t,u(i)&&l({inst:i})},[e,n,t]),o(function(){return u(i)&&l({inst:i}),e(function(){u(i)&&l({inst:i})})},[e]),c(n),n}function u(e){var t=e.getSnapshot;e=e.value;try{var n=t();return!i(e,n)}catch{return!0}}function d(e,t){return t()}var f=typeof window>`u`||window.document===void 0||window.document.createElement===void 0?d:l;e.useSyncExternalStore=n.useSyncExternalStore===void 0?f:n.useSyncExternalStore})),Hi=e(((e,t)=>{t.exports=Vi()})),Ui=e((e=>{var n=t(),r=Hi();function i(e,t){return e===t&&(e!==0||1/e==1/t)||e!==e&&t!==t}var a=typeof Object.is==`function`?Object.is:i,o=r.useSyncExternalStore,s=n.useRef,c=n.useEffect,l=n.useMemo,u=n.useDebugValue;e.useSyncExternalStoreWithSelector=function(e,t,n,r,i){var d=s(null);if(d.current===null){var f={hasValue:!1,value:null};d.current=f}else f=d.current;d=l(function(){function e(e){if(!o){if(o=!0,s=e,e=r(e),i!==void 0&&f.hasValue){var t=f.value;if(i(t,e))return c=t}return c=e}if(t=c,a(s,e))return t;var n=r(e);return i!==void 0&&i(t,n)?(s=e,t):(s=e,c=n)}var o=!1,s,c,l=n===void 0?null:n;return[function(){return e(t())},l===null?void 0:function(){return e(l())}]},[t,n,r,i]);var p=o(e,d[0],d[1]);return c(function(){f.hasValue=!0,f.value=p},[p]),u(p),p}})),Wi=e(((e,t)=>{t.exports=Ui()})),Gi=[],Ki=void 0;function qi(){return Ki}function Ji(e){Gi.push(e)}function Yi(e){let t=(t,n)=>{let r=ke(Xi).current,i;try{Ki=r;for(let e of Gi)e.before(r);i=e(t,n);for(let e of Gi)e.after(r);r.didInitialize=!0}finally{Ki=void 0}return i};return t.displayName=e.displayName||e.name,t}function Xi(){return{didInitialize:!1}}var Zi=Hi(),Qi=Wi(),$i=ft(19)?na:ra;function ea(e,t,n,r,i){return $i(e,t,n,r,i)}function ta(e,t,n,r,i){let a=g.useCallback(()=>t(e.getSnapshot(),n,r,i),[e,t,n,r,i]);return(0,Zi.useSyncExternalStore)(e.subscribe,a,a)}Ji({before(e){e.syncIndex=0,e.didInitialize||(e.syncTick=1,e.syncHooks=[],e.didChangeStore=!0,e.getSnapshot=()=>{let t=!1;for(let n=0;n<e.syncHooks.length;n+=1){let r=e.syncHooks[n],i=r.selector(r.store.state,r.a1,r.a2,r.a3);Object.is(r.value,i)||(t=!0,r.value=i)}return t&&(e.syncTick+=1),e.syncTick})},after(e){e.syncHooks.length>0&&(e.didChangeStore&&(e.didChangeStore=!1,e.subscribe=t=>{let n=new Set;for(let t of e.syncHooks)n.add(t.store);let r=[];for(let e of n)r.push(e.subscribe(t));return()=>{for(let e of r)e()}}),(0,Zi.useSyncExternalStore)(e.subscribe,e.getSnapshot,e.getSnapshot))}});function na(e,t,n,r,i){let a=qi();if(!a)return ta(e,t,n,r,i);let o=a.syncIndex;a.syncIndex+=1;let s;return a.didInitialize?(s=a.syncHooks[o],(s.store!==e||s.selector!==t||!Object.is(s.a1,n)||!Object.is(s.a2,r)||!Object.is(s.a3,i))&&(s.store!==e&&(a.didChangeStore=!0),s.store=e,s.selector=t,s.a1=n,s.a2=r,s.a3=i,s.value=t(e.getSnapshot(),n,r,i))):(s={store:e,selector:t,a1:n,a2:r,a3:i,value:t(e.getSnapshot(),n,r,i)},a.syncHooks.push(s)),s.value}function ra(e,t,n,r,i){return(0,Qi.useSyncExternalStoreWithSelector)(e.subscribe,e.getSnapshot,e.getSnapshot,e=>t(e,n,r,i))}var ia=class{static create(e){return new this(e)}constructor(e){this.state=e,this.listeners=new Set,this.updateTick=0}subscribe=e=>(this.listeners.add(e),()=>{this.listeners.delete(e)});getSnapshot=()=>this.state;setState(e){if(this.state===e)return;this.state=e,this.updateTick+=1;let t=this.updateTick;for(let n of this.listeners){if(t!==this.updateTick)return;n(e)}}update(e){for(let t in e)if(!Object.is(this.state[t],e[t])){this.setState({...this.state,...e});return}}set(e,t){Object.is(this.state[e],t)||this.setState({...this.state,[e]:t})}notifyAll(){let e={...this.state};this.setState(e)}use(e,t,n,r){return ea(this,e,t,n,r)}},aa=class extends ia{constructor(e,t={},n){super(e),this.context=t,this.selectors=n}useSyncedValue(e,t){g.useDebugValue(e);let n=this;q(()=>{n.state[e]!==t&&n.set(e,t)},[n,e,t])}useSyncedValueWithCleanup(e,t){let n=this;q(()=>(n.state[e]!==t&&n.set(e,t),()=>{n.set(e,void 0)}),[n,e,t])}useSyncedValues(e){let t=this;q(()=>{t.update(e)},[t,...Object.values(e)])}useControlledProp(e,t){g.useDebugValue(e);let n=this,r=t!==void 0;q(()=>{r&&!Object.is(n.state[e],t)&&n.setState({...n.state,[e]:t})},[n,e,t,r])}select(e,t,n,r){let i=this.selectors[e];return i(this.state,t,n,r)}useState(e,t,n,r){return g.useDebugValue(e),ea(this,this.selectors[e],t,n,r)}useContextCallback(e,t){g.useDebugValue(e);let n=K(t??Y);this.context[e]=n}useStateSetter(e){let t=g.useRef(void 0);return t.current===void 0&&(t.current=t=>{this.set(e,t)}),t.current}observe(e,t){let n;n=typeof e==`function`?e:this.selectors[e];let r=n(this.state);return t(r,r,this),this.subscribe(e=>{let i=n(e);if(!Object.is(r,i)){let e=r;r=i,t(i,e,this)}})}},oa={open:e=>e.open,transitionStatus:e=>e.transitionStatus,domReferenceElement:e=>e.domReferenceElement,referenceElement:e=>e.positionReference??e.referenceElement,floatingElement:e=>e.floatingElement,floatingId:e=>e.floatingId},sa=class extends aa{constructor(e){let{syncOnly:t,nested:n,onOpenChange:r,triggerElements:i,...a}=e;super({...a,positionReference:a.referenceElement,domReferenceElement:a.referenceElement},{onOpenChange:r,dataRef:{current:{}},events:wi(),nested:n,triggerElements:i},oa),this.syncOnly=t}syncOpenEvent=(e,t)=>{(!e||!this.state.open||t!=null&&qn(t))&&(this.context.dataRef.current.openEvent=e?t:void 0)};dispatchOpenChange=(e,t)=>{this.syncOpenEvent(e,t.event);let n={open:e,reason:t.reason,nativeEvent:t.event,nested:this.context.nested,triggerElement:t.trigger};this.context.events.emit(`openchange`,n)};setOpen=(e,t)=>{if(this.syncOnly){this.context.onOpenChange?.(e,t);return}this.dispatchOpenChange(e,t),this.context.onOpenChange?.(e,t)}};function ca(e){let{popupStore:t,treatPopupAsFloatingElement:n=!1,floatingRootContext:r,floatingId:i,nested:a,onOpenChange:o}=e,s=t.useState(`open`),c=t.useState(`activeTriggerElement`),l=t.useState(n?`popupElement`:`positionerElement`),u=t.context.triggerElements,d=o,f=g.useRef(null);r===void 0&&f.current===null&&(f.current=new sa({open:s,transitionStatus:void 0,referenceElement:c,floatingElement:l,triggerElements:u,onOpenChange:d,floatingId:i,syncOnly:!0,nested:a}));let p=r??f.current;return t.useSyncedValue(`floatingId`,i),q(()=>{let e={open:s,floatingId:i,referenceElement:c,floatingElement:l};xe(c)&&(e.domReferenceElement=c),p.state.positionReference===p.state.referenceElement&&(e.positionReference=c),p.update(e)},[s,i,c,l,p]),p.context.onOpenChange=d,p.context.nested=a,p}var la={tabIndex:-1,[Sn]:``};function ua(e){return t=>t!==`touch`||e.current}function da(e,t=!1){let n=en(),r=Di()!=null,i=ke(()=>e(n,r)).current;return ca({popupStore:i,treatPopupAsFloatingElement:t,floatingRootContext:i.state.floatingRootContext,floatingId:n,nested:r,onOpenChange:i.setOpen}),i}function fa({handle:e,store:t}){return q(()=>e.attachStore(t),[e,t]),null}function pa(e,t,n,r=!1){let i=e.preventUnmountingOnClose;t?i=!1:r&&(i=!0);let a=n?.id??null,o=e.activeTriggerId,s=e.activeTriggerElement;return(a||t)&&(o=a,s=n??null),{open:t,preventUnmountingOnClose:i,activeTriggerId:o,activeTriggerElement:s}}function ma(e,t={}){let{closeOnActiveTriggerUnmount:n=!1}=t,r=g.useRef(null),i=e.useState(`open`);q(()=>{if(!i){r.current=null,e.state.triggerCount!==0&&e.set(`triggerCount`,0);return}let t=e.context.triggerElements.size,a={};e.state.triggerCount!==t&&(a.triggerCount=t);let o=e.select(`activeTriggerId`),s=null;if(o){let t=e.context.triggerElements.getById(o);if(t)r.current=o,t!==e.state.activeTriggerElement&&(a.activeTriggerElement=t);else{for(let[t,n]of e.context.triggerElements.entries())if(n===e.state.activeTriggerElement){a.activeTriggerId=t,a.activeTriggerElement=n,r.current=t;break}a.activeTriggerId===void 0&&(r.current===o?s=o:r.current=null)}}else r.current=null;if(!s&&!o&&t===1){let t=e.context.triggerElements.entries().next();if(!t.done){let[e,n]=t.value;a.activeTriggerId=e,a.activeTriggerElement=n,r.current=e}}(a.triggerCount!==void 0||a.activeTriggerId!==void 0||a.activeTriggerElement!==void 0)&&e.update(a),s&&n&&queueMicrotask(()=>{if(e.select(`open`)&&e.select(`activeTriggerId`)===s&&!e.context.triggerElements.getById(s)){let t=Hr(Fr);e.setOpen(!1,t),t.isCanceled||e.update({activeTriggerId:null,activeTriggerElement:null})}})},[i,e,e.useState(`triggerCount`),e.useState(`activeTriggerId`),e.useState(`activeTriggerElement`),n])}function ha(e,t,n,r){let{mounted:i,setMounted:a,transitionStatus:o}=jr(e,!1,!1,r),s=t.useState(`preventUnmountingOnClose`),c=!e&&s;t.useSyncedValues({mounted:i,transitionStatus:o,preventUnmountingOnClose:c});let l=K(()=>{a(!1),t.update({activeTriggerId:null,activeTriggerElement:null,mounted:!1,preventUnmountingOnClose:!1}),n?.(),t.context.onOpenChangeComplete?.(!1)});return Ar({enabled:i&&!e&&!c,open:e,ref:t.context.popupRef,onComplete(){e||l()}}),{forceUnmount:l,transitionStatus:o}}function ga(e,t){e.useSyncedValues(t),q(()=>()=>{e.update({activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X})},[e])}function _a(e,t){q(()=>{!t&&e.state.openMethod!==null&&e.set(`openMethod`,null)},[t,e]),q(()=>()=>{e.state.openMethod!==null&&e.set(`openMethod`,null)},[e])}var va=class{constructor(){this.idMap=new Map}add(e,t){this.idMap.set(e,t)}delete(e){this.idMap.delete(e)}hasElement(e){for(let t of this.idMap.values())if(t===e)return!0;return!1}hasMatchingElement(e){for(let t of this.idMap.values())if(e(t))return!0;return!1}getById(e){return this.idMap.get(e)}entries(){return this.idMap.entries()}elements(){return this.idMap.values()}get size(){return this.idMap.size}};function ya(e,t,n=!1){return{open:!1,openProp:void 0,mounted:!1,transitionStatus:void 0,floatingRootContext:new sa({open:!1,transitionStatus:void 0,floatingElement:null,referenceElement:null,triggerElements:e,floatingId:t,syncOnly:!0,nested:n,onOpenChange:void 0}),floatingId:t,triggerCount:0,preventUnmountingOnClose:!1,payload:void 0,activeTriggerId:null,activeTriggerElement:null,triggerIdProp:void 0,popupElement:null,positionerElement:null,activeTriggerProps:X,inactiveTriggerProps:X,popupProps:X}}var ba=e=>e.triggerIdProp??e.activeTriggerId,xa=e=>e.openProp??e.open,Sa=e=>(e.popupElement?.id??e.floatingId)||void 0;function Ca(e,t){return t!==void 0&&xa(e)&&ba(e)===t}function wa(e,t){return Ca(e,t)?!0:t!==void 0&&xa(e)&&ba(e)==null&&e.triggerCount===1}var Ta={open:xa,mounted:e=>e.mounted,transitionStatus:e=>e.transitionStatus,floatingRootContext:e=>e.floatingRootContext,triggerCount:e=>e.triggerCount,preventUnmountingOnClose:e=>e.preventUnmountingOnClose,payload:e=>e.payload,activeTriggerId:ba,activeTriggerElement:e=>e.mounted?e.activeTriggerElement:null,popupId:Sa,isTriggerActive:(e,t)=>t!==void 0&&ba(e)===t,isOpenedByTrigger:(e,t)=>Ca(e,t),isMountedByTrigger:(e,t)=>t!==void 0&&ba(e)===t&&e.mounted,triggerProps:(e,t)=>t?e.activeTriggerProps:e.inactiveTriggerProps,triggerPopupId:(e,t)=>wa(e,t)?Sa(e):void 0,popupProps:e=>e.popupProps,popupElement:e=>e.popupElement,positionerElement:e=>e.positionerElement},Ea=g.createContext(void 0);function Da(){let e=g.useContext(Ea);if(e===void 0)throw Error(Ze(26));return e}var Oa=new Set([`ArrowUp`,`ArrowDown`,`ArrowLeft`,`ArrowRight`,`Home`,`End`]),ka=`--nested-dialogs`,Aa=`data-nested-dialog-open`,ja={...Pn,...Dn,nestedDialogOpen(e){return e?{[Aa]:``}:null}},Ma=g.forwardRef(function(e,t){let{render:n,className:r,style:i,finalFocus:a,initialFocus:o,...s}=e,c=Jr(),l=c.useState(`descriptionElementId`),u=c.useState(`disablePointerDismissal`),d=c.useState(`floatingRootContext`),f=c.useState(`popupProps`),p=c.useState(`modal`),m=c.useState(`mounted`),h=c.useState(`nested`),g=c.useState(`nestedOpenDialogCount`),_=c.useState(`open`),v=c.useState(`openMethod`),y=c.useState(`titleElementId`),b=c.useState(`transitionStatus`),x=c.useState(`role`),S=d.useState(`floatingId`);Da(),Ar({open:_,ref:c.context.popupRef,onComplete(){_&&c.context.onOpenChangeComplete?.(!0)}});let C=o===void 0?ua(c.context.popupRef):o,w=g>0,T=c.useStateSetter(`popupElement`),E=vt(`div`,e,{state:{open:_,nested:h,transitionStatus:b,nestedDialogOpen:w},props:[f,{id:S,"aria-labelledby":y,"aria-describedby":l,role:x,...la,hidden:!m,onKeyDown(e){Oa.has(e.key)&&e.stopPropagation()},style:{[ka]:g}},s],ref:[t,c.context.popupRef,T],stateAttributesMapping:ja});return(0,U.jsx)(Li,{context:d,openInteractionType:v,disabled:!m,closeOnFocusOut:!u,initialFocus:C,returnFocus:a,modal:p!==!1,restoreFocus:`popup`,children:E})});function Na(e){return ft(19)?e:e?`true`:void 0}var Pa=g.forwardRef(function(e,t){let{cutout:n,...r}=e,i;if(n){let e=n.getBoundingClientRect();i=`polygon(0% 0%,100% 0%,100% 100%,0% 100%,0% 0%,${e.left}px ${e.top}px,${e.left}px ${e.bottom}px,${e.right}px ${e.bottom}px,${e.right}px ${e.top}px,${e.left}px ${e.top}px)`}return(0,U.jsx)(`div`,{ref:t,role:`presentation`,"data-base-ui-inert":``,...r,style:{position:`fixed`,inset:0,userSelect:`none`,WebkitUserSelect:`none`,clipPath:i}})}),Fa=g.forwardRef(function(e,t){let{keepMounted:n=!1,...r}=e,i=Jr(),a=i.useState(`mounted`),o=i.useState(`modal`),s=i.useState(`open`);return a||n?(0,U.jsx)(Ea.Provider,{value:n,children:(0,U.jsxs)(Ci,{ref:t,...r,children:[a&&o===!0&&(0,U.jsx)(Pa,{ref:i.context.internalBackdropRef,inert:Na(!s)}),e.children]})}):null}),Ia={},La={},Ra=``;function za(e,t){return Ce(e)?e:t}function Ba(e,t,n){return/hidden|clip/.test(e.getComputedStyle(za(t,n)).overflowY)}function Va(e){if(typeof document>`u`)return!1;let t=J(e);return ve(t).innerWidth-t.documentElement.clientWidth>0}function Ha(e){if(!(typeof CSS<`u`&&CSS.supports&&CSS.supports(`scrollbar-gutter`,`stable`))||typeof document>`u`)return!1;let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a=i.style.overflowY,o=n.style.scrollbarGutter;n.style.scrollbarGutter=`stable`,i.style.overflowY=`scroll`;let s=i.offsetWidth;i.style.overflowY=`hidden`;let c=i.offsetWidth;return i.style.overflowY=a,n.style.scrollbarGutter=o,s===c}function Ua(e){let t=J(e),n=t.documentElement,r=t.body,i=za(n,r),a={overflowY:i.style.overflowY,overflowX:i.style.overflowX};return Object.assign(i.style,{overflowY:`hidden`,overflowX:`hidden`}),()=>{Object.assign(i.style,a)}}function Wa(e){let t=J(e),n=t.documentElement,r=t.body,i=ve(n),a=0,o=0,s=!1,c=wr.create();if(_n&&(i.visualViewport?.scale??1)!==1)return()=>{};function l(){let t=i.getComputedStyle(n),c=i.getComputedStyle(r),l=(t.scrollbarGutter||``).includes(`both-edges`)?`stable both-edges`:`stable`;a=n.scrollTop,o=n.scrollLeft,Ia={scrollbarGutter:n.style.scrollbarGutter,overflowY:n.style.overflowY,overflowX:n.style.overflowX},Ra=n.style.scrollBehavior,La={position:r.style.position,height:r.style.height,width:r.style.width,boxSizing:r.style.boxSizing,overflowY:r.style.overflowY,overflowX:r.style.overflowX,scrollBehavior:r.style.scrollBehavior};let u=n.scrollHeight>n.clientHeight,d=n.scrollWidth>n.clientWidth,f=t.overflowY===`scroll`||c.overflowY===`scroll`,p=t.overflowX===`scroll`||c.overflowX===`scroll`,m=Math.max(0,i.innerWidth-r.clientWidth),h=Math.max(0,i.innerHeight-r.clientHeight),g=parseFloat(c.marginTop)+parseFloat(c.marginBottom),_=parseFloat(c.marginLeft)+parseFloat(c.marginRight),v=za(n,r);if(s=Ha(e),s){n.style.scrollbarGutter=l,v.style.overflowY=`hidden`,v.style.overflowX=`hidden`;return}Object.assign(n.style,{scrollbarGutter:l,overflowY:`hidden`,overflowX:`hidden`}),(u||f)&&(n.style.overflowY=`scroll`),(d||p)&&(n.style.overflowX=`scroll`),Object.assign(r.style,{position:`relative`,height:g||h?`calc(100dvh - ${g+h}px)`:`100dvh`,width:_||m?`calc(100vw - ${_+m}px)`:`100vw`,boxSizing:`border-box`,overflowY:`hidden`,overflowX:`hidden`,scrollBehavior:`unset`}),r.scrollTop=a,r.scrollLeft=o,n.setAttribute(`data-base-ui-scroll-locked`,``),n.style.scrollBehavior=`unset`}function u(){Object.assign(n.style,Ia),Object.assign(r.style,La),s||(n.scrollTop=a,n.scrollLeft=o,n.removeAttribute(`data-base-ui-scroll-locked`),n.style.scrollBehavior=Ra)}function d(){u(),c.request(l)}l();let f=Q(i,`resize`,d);return()=>{c.cancel(),u(),typeof i.removeEventListener==`function`&&f()}}var Ga=new class{lockCount=0;restore=null;timeoutLock=br.create();timeoutUnlock=br.create();acquire(e){return this.lockCount+=1,this.lockCount===1&&this.restore===null&&this.timeoutLock.start(0,()=>this.lock(e)),this.release}release=()=>{--this.lockCount,this.lockCount===0&&this.restore&&this.timeoutUnlock.start(0,this.unlock)};unlock=()=>{this.lockCount===0&&this.restore&&(this.restore?.(),this.restore=null)};lock(e){if(this.lockCount===0||this.restore!==null)return;let t=J(e),n=t.documentElement,r=t.body,i=ve(n);if(Ba(i,n,r)){let t=new i.MutationObserver(()=>{Ba(i,n,r)||(t.disconnect(),this.restore=null,this.lock(e))}),a={attributes:!0};t.observe(n,a),t.observe(r,a),this.restore=()=>t.disconnect();return}let a=fn||!Va(e);this.restore=a?Ua(e):Wa(e)}};function Ka(e=!0,t=null){q(()=>{if(e)return Ga.acquire(t)},[e,t])}function qa({store:e,parentContext:t,isDrawer:n}){let r=e.useState(`open`),i=e.useState(`disablePointerDismissal`),a=e.useState(`modal`),o=e.useState(`popupElement`),s=e.useState(`floatingRootContext`),[c,l]=g.useState(0),[u,d]=g.useState(0),f=c===0,p=Bi(s,{outsidePressEvent(){return e.context.internalBackdropRef.current||e.context.backdropRef.current?`intentional`:{mouse:a===`trap-focus`?`sloppy`:`intentional`,touch:`sloppy`}},outsidePress(t){if(!e.context.outsidePressEnabledRef.current||`button`in t&&t.button!==0)return!1;if(`touches`in t){if(t.type===`touchend`){if(t.changedTouches.length!==1||t.touches.length!==0)return!1}else if(t.touches.length!==1)return!1}let n=xn(t);if(f&&!i){if(a){let t=e.context.internalBackdropRef.current,r=e.context.backdropRef.current;return t||r?t===n||r===n||Z(n,o)&&!n?.hasAttribute(`data-base-ui-portal`):!0}return!0}return!1},escapeKey:f});return Ka(r&&a===!0,o),e.useContextCallback(`onNestedDialogOpen`,(e,t)=>{l(e),d(t)}),q(()=>(t?.onNestedDialogOpen&&(r?t.onNestedDialogOpen(c+1,u+ +!!n):t.onNestedDialogOpen(0,0)),()=>{t?.onNestedDialogOpen&&r&&t.onNestedDialogOpen(0,0)}),[n,r,c,u,t]),ga(e,{activeTriggerProps:p.reference,inactiveTriggerProps:p.trigger,popupProps:p.floating,nestedOpenDialogCount:c,nestedOpenDrawerCount:u}),null}var Ja={...Ta,modal:e=>e.modal,nested:e=>e.nested,nestedOpenDialogCount:e=>e.nestedOpenDialogCount,nestedOpenDrawerCount:e=>e.nestedOpenDrawerCount,disablePointerDismissal:e=>e.disablePointerDismissal,openMethod:e=>e.openMethod,descriptionElementId:e=>e.descriptionElementId,titleElementId:e=>e.titleElementId,viewportElement:e=>e.viewportElement,role:e=>e.role},Ya=class extends aa{constructor(e,t,n){let r=new va,i=Xa(e,r,t,n);super(i,Za(r),Ja)}setOpen=(e,t)=>{t.preventUnmountOnClose=()=>{this.set(`preventUnmountingOnClose`,!0)},!e&&t.trigger==null&&this.state.activeTriggerId!=null&&(t.trigger=this.state.activeTriggerElement??void 0),this.context.onOpenChange?.(e,t),!t.isCanceled&&(this.state.floatingRootContext.dispatchOpenChange(e,t),this.update(pa(this.state,e,t.trigger)))}};function Xa(e,t,n,r=!1){return{...ya(t,n,r),modal:!0,disablePointerDismissal:!1,viewportElement:null,descriptionElementId:void 0,titleElementId:void 0,openMethod:null,nested:!1,nestedOpenDialogCount:0,nestedOpenDrawerCount:0,role:`dialog`,...e}}function Za(e){return{popupRef:g.createRef(),backdropRef:g.createRef(),internalBackdropRef:g.createRef(),outsidePressEnabledRef:{current:!0},triggerElements:e,onOpenChange:void 0,onOpenChangeComplete:void 0}}function Qa(e,t){let{children:n,open:r,defaultOpen:i=!1,onOpenChange:a,onOpenChangeComplete:o,disablePointerDismissal:s=!1,modal:c=!0,actionsRef:l,handle:u,triggerId:d,defaultTriggerId:f=null}=t,p=e===`drawer`,m=e===`alert-dialog`,h=m?!0:c,_=m||s,v=m?`alertdialog`:`dialog`,y=Jr(!0),b={modal:h,disablePointerDismissal:_,nested:y!=null,role:v},x=da((e,t)=>new Ya({open:i,openProp:r,activeTriggerId:f,triggerIdProp:d,...b},e,t),!0);x.useControlledProp(`openProp`,r),x.useControlledProp(`triggerIdProp`,d),x.useSyncedValues(b),x.useContextCallback(`onOpenChange`,a),x.useContextCallback(`onOpenChangeComplete`,o);let S=x.useState(`open`),C=x.useState(`mounted`),w=x.useState(`payload`);_a(x,S),ma(x);let{forceUnmount:T}=ha(S,x);g.useImperativeHandle(l,()=>({unmount:T,close:()=>x.setOpen(!1,Hr(Vr))}),[T,x]);let E=S||C;return(0,U.jsxs)(qr.Provider,{value:x,children:[u&&(0,U.jsx)(fa,{handle:u,store:x}),E&&(0,U.jsx)(qa,{store:x,parentContext:y?.context,isDrawer:p}),typeof n==`function`?n({payload:w}):n]})}var $a=Yi(function(e){return Qa(`dialog`,e)}),eo=g.forwardRef(function(e,t){let{render:n,className:r,style:i,id:a,...o}=e,s=Jr(),c=tn(a);return s.useSyncedValueWithCleanup(`titleElementId`,c),vt(`h2`,e,{ref:t,props:[{id:c},o]})});function to({...e}){return(0,U.jsx)($a,{"data-slot":`sheet`,...e})}function no({...e}){return(0,U.jsx)(Fa,{"data-slot":`sheet-portal`,...e})}function ro({className:e,...t}){return(0,U.jsx)(Yr,{"data-slot":`sheet-overlay`,className:H(`fixed inset-0 z-50 bg-black/10 transition-opacity duration-150 data-ending-style:opacity-0 data-starting-style:opacity-0 supports-backdrop-filter:backdrop-blur-xs`,e),...t})}function io({className:e,children:t,side:n=`right`,showCloseButton:r=!0,...i}){return(0,U.jsxs)(no,{children:[(0,U.jsx)(ro,{}),(0,U.jsxs)(Ma,{"data-slot":`sheet-content`,"data-side":n,className:H(`fixed z-50 flex flex-col gap-4 bg-popover bg-clip-padding text-sm text-popover-foreground shadow-lg transition duration-200 ease-in-out data-ending-style:opacity-0 data-starting-style:opacity-0 data-[side=bottom]:inset-x-0 data-[side=bottom]:bottom-0 data-[side=bottom]:h-auto data-[side=bottom]:border-t data-[side=bottom]:data-ending-style:translate-y-[2.5rem] data-[side=bottom]:data-starting-style:translate-y-[2.5rem] data-[side=left]:inset-y-0 data-[side=left]:left-0 data-[side=left]:h-full data-[side=left]:w-3/4 data-[side=left]:border-r data-[side=left]:data-ending-style:translate-x-[-2.5rem] data-[side=left]:data-starting-style:translate-x-[-2.5rem] data-[side=right]:inset-y-0 data-[side=right]:right-0 data-[side=right]:h-full data-[side=right]:w-3/4 data-[side=right]:border-l data-[side=right]:data-ending-style:translate-x-[2.5rem] data-[side=right]:data-starting-style:translate-x-[2.5rem] data-[side=top]:inset-x-0 data-[side=top]:top-0 data-[side=top]:h-auto data-[side=top]:border-b data-[side=top]:data-ending-style:translate-y-[-2.5rem] data-[side=top]:data-starting-style:translate-y-[-2.5rem] data-[side=left]:sm:max-w-sm data-[side=right]:sm:max-w-sm`,e),...i,children:[t,r&&(0,U.jsxs)(Xr,{"data-slot":`sheet-close`,render:(0,U.jsx)(jt,{variant:`ghost`,className:`absolute top-3 right-3`,size:`icon-sm`}),children:[(0,U.jsx)(fe,{}),(0,U.jsx)(`span`,{className:`sr-only`,children:`Close`})]})]})]})}function ao({className:e,...t}){return(0,U.jsx)(eo,{"data-slot":`sheet-title`,className:H(`font-heading text-base font-medium text-foreground`,e),...t})}var oo=[{type:`folder`,name:`.github`,path:`.github`,children:[{type:`folder`,name:`workflows`,path:`.github/workflows`,children:[{type:`file`,name:`rust.yml`,path:`.github/workflows/rust.yml`,language:`YAML`,content:`name: Deploy Rust Apps
 
 on:
   workflow_dispatch:
@@ -38695,6 +38695,8049 @@ un site simple pour naviguer dans les fichiers du repo.
 - [x] à gauche, un petit menu avec les dossier comme les text editors (VS, Zed, etc)
 - [x] en haut à gauche, le breadcrumb
 - [ ] quand clique sur recherche, un popup apparait (ref. shadcn/ui website)
+`}]},{type:`folder`,name:`sujets`,path:`sujets`,children:[{type:`folder`,name:`26_BCG_NSI_4`,path:`sujets/26_BCG_NSI_4`,children:[{type:`file`,name:`culture.py`,path:`sujets/26_BCG_NSI_4/culture.py`,language:`Python`,content:`#############################################################################
+# Jeux de données fournis                                                   #
+#############################################################################
+from plantes import Plante, plantes
+from mesures import mesures
+
+#############################################################################
+# Écrire le code de la fonction croissance_moyenne de la question 1         #
+#############################################################################
+
+
+def croissance_moyenne(plantes):
+    pass
+
+
+#############################################################################
+# Écrire le code de la fonction dictionnaire_mesure de la question 2      #
+#############################################################################
+
+def dictionnaire_mesure(plantes, mesures):
+    pass
+
+
+#############################################################################
+# Fonction défaillante à analyser et corriger pour les questions 3 et 4     #
+#############################################################################
+
+def purger_mesures_extremes(liste_mesures):
+    """
+    Supprime de la liste toutes les mesures dont la température 
+    n'est pas comprise entre 20 et 25°C inclus.
+    """
+    for mesure in liste_mesures:
+        if mesure['temperature'] < 20 or mesure['temperature'] > 25:
+            liste_mesures.remove(mesure)
+
+
+def test_purger():
+    mesures_test = [
+        {'jour': 1, 'plante': 'Basilic', 'temperature': 18.0},
+        {'jour': 2, 'plante': 'Basilic', 'temperature': 19.0},
+        {'jour': 3, 'plante': 'Basilic', 'temperature': 22.0},
+        {'jour': 4, 'plante': 'Basilic', 'temperature': 28.0},
+        {'jour': 5, 'plante': 'Basilic', 'temperature': 29.0}
+    ]
+
+    purger_mesures_extremes(mesures_test)
+
+    print("Résultat après la purge :")
+    for m in mesures_test:
+        print(f"Jour {m['jour']} : {m['temperature']}°C")
+`},{type:`file`,name:`mesures.py`,path:`sujets/26_BCG_NSI_4/mesures.py`,language:`Python`,content:`mesures = [
+    {'jour': 1, 'plante': 'Basilic', 'hauteur': 0.85,
+        'temperature': 29.3, 'humidite': 50.89},
+    {'jour': 1, 'plante': 'Tomate', 'hauteur': 1.27,
+        'temperature': 21.51, 'humidite': 47.19},
+    {'jour': 1, 'plante': 'Menthe', 'hauteur': 0.67,
+        'temperature': 27.75, 'humidite': 61.14},
+    {'jour': 1, 'plante': 'Tournesol', 'hauteur': 2.29,
+        'temperature': 18.42, 'humidite': 49.3},
+    {'jour': 2, 'plante': 'Basilic', 'hauteur': 1.7,
+        'temperature': 17.44, 'humidite': 78.99},
+    {'jour': 2, 'plante': 'Tomate', 'hauteur': 2.4,
+        'temperature': 18.98, 'humidite': 41.78},
+    {'jour': 2, 'plante': 'Menthe', 'hauteur': 1.25,
+        'temperature': 15.15, 'humidite': 67.99},
+    {'jour': 2, 'plante': 'Tournesol', 'hauteur': 4.44,
+        'temperature': 23.82, 'humidite': 77.61},
+    {'jour': 3, 'plante': 'Basilic', 'hauteur': 2.49,
+        'temperature': 20.03, 'humidite': 66.27},
+    {'jour': 3, 'plante': 'Tomate', 'hauteur': 3.68,
+        'temperature': 22.42, 'humidite': 54.39},
+    {'jour': 3, 'plante': 'Menthe', 'hauteur': 1.84,
+        'temperature': 25.24, 'humidite': 57.66},
+    {'jour': 3, 'plante': 'Tournesol', 'hauteur': 6.83,
+        'temperature': 20.74, 'humidite': 66.38},
+    {'jour': 4, 'plante': 'Basilic', 'hauteur': 3.33,
+        'temperature': 16.82, 'humidite': 63.55},
+    {'jour': 4, 'plante': 'Tomate', 'hauteur': 4.87,
+        'temperature': 16.59, 'humidite': 47.07},
+    {'jour': 4, 'plante': 'Menthe', 'hauteur': 2.43,
+        'temperature': 24.17, 'humidite': 59.43},
+    {'jour': 4, 'plante': 'Tournesol', 'hauteur': 9.41,
+        'temperature': 23.54, 'humidite': 69.56},
+    {'jour': 5, 'plante': 'Basilic', 'hauteur': 4.19,
+        'temperature': 27.37, 'humidite': 72.12},
+    {'jour': 5, 'plante': 'Tomate', 'hauteur': 6.11,
+        'temperature': 29.39, 'humidite': 49.34},
+    {'jour': 5, 'plante': 'Menthe', 'hauteur': 3.0,
+        'temperature': 29.86, 'humidite': 65.43},
+    {'jour': 5, 'plante': 'Tournesol', 'hauteur': 11.59,
+        'temperature': 24.73, 'humidite': 56.22},
+    {'jour': 6, 'plante': 'Basilic', 'hauteur': 4.99,
+        'temperature': 18.65, 'humidite': 62.91},
+    {'jour': 6, 'plante': 'Tomate', 'hauteur': 12.44,
+        'temperature': 21.11, 'humidite': 46.39},
+    {'jour': 6, 'plante': 'Menthe', 'hauteur': 3.68,
+        'temperature': 26.11, 'humidite': 54.93},
+    {'jour': 6, 'plante': 'Tournesol', 'hauteur': 14.17,
+        'temperature': 19.18, 'humidite': 41.58},
+    {'jour': 7, 'plante': 'Basilic', 'hauteur': 5.86,
+        'temperature': 27.86, 'humidite': 61.97},
+    {'jour': 7, 'plante': 'Tomate', 'hauteur': 13.66,
+        'temperature': 23.63, 'humidite': 62.21},
+    {'jour': 7, 'plante': 'Menthe', 'hauteur': 6.82,
+        'temperature': 24.92, 'humidite': 71.36},
+    {'jour': 7, 'plante': 'Tournesol', 'hauteur': 16.44,
+        'temperature': 25.53, 'humidite': 69.0},
+    {'jour': 8, 'plante': 'Basilic', 'hauteur': 6.64,
+        'temperature': 29.56, 'humidite': 47.12},
+    {'jour': 8, 'plante': 'Tomate', 'hauteur': 15.0,
+        'temperature': 29.46, 'humidite': 41.45},
+    {'jour': 8, 'plante': 'Menthe', 'hauteur': 7.42,
+        'temperature': 21.52, 'humidite': 74.6},
+    {'jour': 8, 'plante': 'Tournesol', 'hauteur': 18.99,
+        'temperature': 19.87, 'humidite': 55.77},
+    {'jour': 9, 'plante': 'Basilic', 'hauteur': 7.52,
+        'temperature': 24.92, 'humidite': 58.79},
+    {'jour': 9, 'plante': 'Tomate', 'hauteur': 16.31,
+        'temperature': 16.85, 'humidite': 79.64},
+    {'jour': 9, 'plante': 'Menthe', 'hauteur': 8.04,
+        'temperature': 28.98, 'humidite': 79.06},
+    {'jour': 9, 'plante': 'Tournesol', 'hauteur': 21.13,
+        'temperature': 16.17, 'humidite': 64.83},
+    {'jour': 10, 'plante': 'Basilic', 'hauteur': 8.41,
+        'temperature': 25.38, 'humidite': 49.77},
+    {'jour': 10, 'plante': 'Tomate', 'hauteur': 17.64,
+        'temperature': 23.69, 'humidite': 73.19},
+    {'jour': 10, 'plante': 'Menthe', 'hauteur': 11.21,
+        'temperature': 24.99, 'humidite': 43.91},
+    {'jour': 10, 'plante': 'Tournesol', 'hauteur': 23.53,
+        'temperature': 24.02, 'humidite': 60.73},
+    {'jour': 11, 'plante': 'Basilic', 'hauteur': 9.25,
+        'temperature': 28.63, 'humidite': 55.12},
+    {'jour': 11, 'plante': 'Tomate', 'hauteur': 19.0,
+        'temperature': 22.65, 'humidite': 66.99},
+    {'jour': 11, 'plante': 'Menthe', 'hauteur': 11.88,
+        'temperature': 24.49, 'humidite': 45.6},
+    {'jour': 11, 'plante': 'Tournesol', 'hauteur': 25.77,
+        'temperature': 29.82, 'humidite': 57.91},
+    {'jour': 12, 'plante': 'Basilic', 'hauteur': 12.5,
+        'temperature': 27.7, 'humidite': 52.99},
+    {'jour': 12, 'plante': 'Tomate', 'hauteur': 20.17,
+        'temperature': 23.68, 'humidite': 47.97},
+    {'jour': 12, 'plante': 'Menthe', 'hauteur': 12.52,
+        'temperature': 22.43, 'humidite': 59.96},
+    {'jour': 12, 'plante': 'Tournesol', 'hauteur': 28.26,
+        'temperature': 19.82, 'humidite': 69.18},
+    {'jour': 13, 'plante': 'Basilic', 'hauteur': 13.3,
+        'temperature': 19.07, 'humidite': 65.04},
+    {'jour': 13, 'plante': 'Tomate', 'hauteur': 21.46,
+        'temperature': 28.77, 'humidite': 54.26},
+    {'jour': 13, 'plante': 'Menthe', 'hauteur': 13.13,
+        'temperature': 18.51, 'humidite': 43.06},
+    {'jour': 13, 'plante': 'Tournesol', 'hauteur': 30.64,
+        'temperature': 27.94, 'humidite': 42.39},
+    {'jour': 14, 'plante': 'Basilic', 'hauteur': 14.13,
+        'temperature': 23.27, 'humidite': 48.27},
+    {'jour': 14, 'plante': 'Tomate', 'hauteur': 22.71,
+        'temperature': 22.4, 'humidite': 68.11},
+    {'jour': 14, 'plante': 'Menthe', 'hauteur': 13.77,
+        'temperature': 22.73, 'humidite': 58.8},
+    {'jour': 14, 'plante': 'Tournesol', 'hauteur': 32.87,
+        'temperature': 24.86, 'humidite': 53.46},
+    {'jour': 15, 'plante': 'Basilic', 'hauteur': 14.98,
+        'temperature': 22.04, 'humidite': 72.18},
+    {'jour': 15, 'plante': 'Tomate', 'hauteur': 24.08,
+        'temperature': 18.74, 'humidite': 54.86},
+    {'jour': 15, 'plante': 'Menthe', 'hauteur': 14.43,
+        'temperature': 16.98, 'humidite': 43.07},
+    {'jour': 15, 'plante': 'Tournesol', 'hauteur': 35.31,
+        'temperature': 24.9, 'humidite': 67.83},
+    {'jour': 16, 'plante': 'Basilic', 'hauteur': 15.84,
+        'temperature': 17.23, 'humidite': 42.38},
+    {'jour': 16, 'plante': 'Tomate', 'hauteur': 25.24,
+        'temperature': 15.21, 'humidite': 60.04},
+    {'jour': 16, 'plante': 'Menthe', 'hauteur': 15.07,
+        'temperature': 18.76, 'humidite': 46.25},
+    {'jour': 16, 'plante': 'Tournesol', 'hauteur': 37.5,
+        'temperature': 19.93, 'humidite': 66.7},
+    {'jour': 17, 'plante': 'Basilic', 'hauteur': 16.61,
+        'temperature': 27.57, 'humidite': 56.91},
+    {'jour': 17, 'plante': 'Tomate', 'hauteur': 26.43,
+        'temperature': 17.15, 'humidite': 72.62},
+    {'jour': 17, 'plante': 'Menthe', 'hauteur': 15.65,
+        'temperature': 19.08, 'humidite': 42.13},
+    {'jour': 17, 'plante': 'Tournesol', 'hauteur': 39.71,
+        'temperature': 21.8, 'humidite': 49.48},
+    {'jour': 18, 'plante': 'Basilic', 'hauteur': 17.43,
+        'temperature': 19.62, 'humidite': 72.73},
+    {'jour': 18, 'plante': 'Tomate', 'hauteur': 27.73,
+        'temperature': 27.07, 'humidite': 79.03},
+    {'jour': 18, 'plante': 'Menthe', 'hauteur': 16.32,
+        'temperature': 16.44, 'humidite': 41.52},
+    {'jour': 18, 'plante': 'Tournesol', 'hauteur': 52.23,
+        'temperature': 25.27, 'humidite': 65.4},
+    {'jour': 19, 'plante': 'Basilic', 'hauteur': 18.18,
+        'temperature': 24.63, 'humidite': 55.87},
+    {'jour': 19, 'plante': 'Tomate', 'hauteur': 28.96,
+        'temperature': 27.05, 'humidite': 68.65},
+    {'jour': 19, 'plante': 'Menthe', 'hauteur': 16.99,
+        'temperature': 26.0, 'humidite': 49.05},
+    {'jour': 19, 'plante': 'Tournesol', 'hauteur': 54.49,
+        'temperature': 15.37, 'humidite': 59.89},
+    {'jour': 20, 'plante': 'Basilic', 'hauteur': 19.04,
+        'temperature': 20.13, 'humidite': 75.28},
+    {'jour': 20, 'plante': 'Tomate', 'hauteur': 30.21,
+        'temperature': 21.84, 'humidite': 41.09},
+    {'jour': 20, 'plante': 'Menthe', 'hauteur': 17.59,
+        'temperature': 21.16, 'humidite': 61.9},
+    {'jour': 20, 'plante': 'Tournesol', 'hauteur': 57.01,
+        'temperature': 19.83, 'humidite': 60.57},
+    {'jour': 21, 'plante': 'Basilic', 'hauteur': 19.87,
+        'temperature': 28.57, 'humidite': 76.02},
+    {'jour': 21, 'plante': 'Tomate', 'hauteur': 31.34,
+        'temperature': 21.56, 'humidite': 58.48},
+    {'jour': 21, 'plante': 'Menthe', 'hauteur': 18.26,
+        'temperature': 26.17, 'humidite': 57.52},
+    {'jour': 21, 'plante': 'Tournesol', 'hauteur': 59.37,
+        'temperature': 16.62, 'humidite': 64.38},
+    {'jour': 22, 'plante': 'Basilic', 'hauteur': 20.65,
+        'temperature': 28.75, 'humidite': 65.53},
+    {'jour': 22, 'plante': 'Tomate', 'hauteur': 37.48,
+        'temperature': 24.8, 'humidite': 52.49},
+    {'jour': 22, 'plante': 'Menthe', 'hauteur': 18.85,
+        'temperature': 22.04, 'humidite': 61.16},
+    {'jour': 22, 'plante': 'Tournesol', 'hauteur': 61.86,
+        'temperature': 24.97, 'humidite': 54.92},
+    {'jour': 23, 'plante': 'Basilic', 'hauteur': 21.4,
+        'temperature': 24.9, 'humidite': 68.48},
+    {'jour': 23, 'plante': 'Tomate', 'hauteur': 38.61,
+        'temperature': 27.09, 'humidite': 54.35},
+    {'jour': 23, 'plante': 'Menthe', 'hauteur': 19.52,
+        'temperature': 16.84, 'humidite': 48.81},
+    {'jour': 23, 'plante': 'Tournesol', 'hauteur': 64.22,
+        'temperature': 28.33, 'humidite': 50.16},
+    {'jour': 24, 'plante': 'Basilic', 'hauteur': 22.3,
+        'temperature': 21.93, 'humidite': 41.7},
+    {'jour': 24, 'plante': 'Tomate', 'hauteur': 39.76,
+        'temperature': 27.36, 'humidite': 58.92},
+    {'jour': 24, 'plante': 'Menthe', 'hauteur': 20.16,
+        'temperature': 29.04, 'humidite': 50.37},
+    {'jour': 24, 'plante': 'Tournesol', 'hauteur': 66.78,
+        'temperature': 17.07, 'humidite': 65.12},
+    {'jour': 25, 'plante': 'Basilic', 'hauteur': 23.07,
+        'temperature': 21.37, 'humidite': 51.84},
+    {'jour': 25, 'plante': 'Tomate', 'hauteur': 41.03,
+        'temperature': 20.04, 'humidite': 55.46},
+    {'jour': 25, 'plante': 'Menthe', 'hauteur': 20.79,
+        'temperature': 22.15, 'humidite': 42.95},
+    {'jour': 25, 'plante': 'Tournesol', 'hauteur': 69.33,
+        'temperature': 25.48, 'humidite': 41.87},
+    {'jour': 26, 'plante': 'Basilic', 'hauteur': 23.98,
+        'temperature': 21.5, 'humidite': 74.77},
+    {'jour': 26, 'plante': 'Tomate', 'hauteur': 42.16,
+        'temperature': 16.24, 'humidite': 51.48},
+    {'jour': 26, 'plante': 'Menthe', 'hauteur': 21.48,
+        'temperature': 21.56, 'humidite': 41.14},
+    {'jour': 26, 'plante': 'Tournesol', 'hauteur': 71.77,
+        'temperature': 18.14, 'humidite': 67.48},
+    {'jour': 27, 'plante': 'Basilic', 'hauteur': 24.75,
+        'temperature': 17.85, 'humidite': 61.86},
+    {'jour': 27, 'plante': 'Tomate', 'hauteur': 43.38,
+        'temperature': 17.93, 'humidite': 60.52},
+    {'jour': 27, 'plante': 'Menthe', 'hauteur': 22.15,
+        'temperature': 25.36, 'humidite': 69.42},
+    {'jour': 27, 'plante': 'Tournesol', 'hauteur': 74.35,
+        'temperature': 19.09, 'humidite': 47.95},
+    {'jour': 28, 'plante': 'Basilic', 'hauteur': 25.64,
+        'temperature': 22.02, 'humidite': 54.36},
+    {'jour': 28, 'plante': 'Tomate', 'hauteur': 44.62,
+        'temperature': 23.58, 'humidite': 69.09},
+    {'jour': 28, 'plante': 'Menthe', 'hauteur': 22.82,
+        'temperature': 29.17, 'humidite': 77.13},
+    {'jour': 28, 'plante': 'Tournesol', 'hauteur': 76.91,
+        'temperature': 21.32, 'humidite': 59.52},
+    {'jour': 29, 'plante': 'Basilic', 'hauteur': 26.52,
+        'temperature': 25.45, 'humidite': 56.58},
+    {'jour': 29, 'plante': 'Tomate', 'hauteur': 45.86,
+        'temperature': 29.14, 'humidite': 49.19},
+    {'jour': 29, 'plante': 'Menthe', 'hauteur': 23.42,
+        'temperature': 22.19, 'humidite': 69.26},
+    {'jour': 29, 'plante': 'Tournesol', 'hauteur': 79.21,
+        'temperature': 27.19, 'humidite': 47.08},
+    {'jour': 30, 'plante': 'Basilic', 'hauteur': 27.42,
+        'temperature': 24.92, 'humidite': 64.83},
+    {'jour': 30, 'plante': 'Tomate', 'hauteur': 47.08,
+        'temperature': 28.93, 'humidite': 55.01},
+    {'jour': 30, 'plante': 'Menthe', 'hauteur': 24.05,
+        'temperature': 24.29, 'humidite': 72.09},
+    {'jour': 30, 'plante': 'Tournesol', 'hauteur': 81.79,
+        'temperature': 23.23, 'humidite': 79.24},
+    {'jour': 31, 'plante': 'Basilic', 'hauteur': 28.31,
+        'temperature': 18.2, 'humidite': 52.66},
+    {'jour': 31, 'plante': 'Tomate', 'hauteur': 53.29,
+        'temperature': 24.05, 'humidite': 64.23},
+    {'jour': 31, 'plante': 'Menthe', 'hauteur': 27.22,
+        'temperature': 15.36, 'humidite': 44.63},
+    {'jour': 31, 'plante': 'Tournesol', 'hauteur': 84.17,
+        'temperature': 19.87, 'humidite': 76.96},
+    {'jour': 32, 'plante': 'Basilic', 'hauteur': 29.12,
+        'temperature': 25.84, 'humidite': 75.61},
+    {'jour': 32, 'plante': 'Tomate', 'hauteur': 54.51,
+        'temperature': 20.67, 'humidite': 55.33},
+    {'jour': 32, 'plante': 'Menthe', 'hauteur': 27.89,
+        'temperature': 28.0, 'humidite': 70.53},
+    {'jour': 32, 'plante': 'Tournesol', 'hauteur': 86.63,
+        'temperature': 19.64, 'humidite': 49.27},
+    {'jour': 33, 'plante': 'Basilic', 'hauteur': 30.0,
+        'temperature': 25.92, 'humidite': 43.07},
+    {'jour': 33, 'plante': 'Tomate', 'hauteur': 55.65,
+        'temperature': 17.07, 'humidite': 41.59},
+    {'jour': 33, 'plante': 'Menthe', 'hauteur': 28.49,
+        'temperature': 22.25, 'humidite': 40.41},
+    {'jour': 33, 'plante': 'Tournesol', 'hauteur': 89.07,
+        'temperature': 25.98, 'humidite': 62.57},
+    {'jour': 34, 'plante': 'Basilic', 'hauteur': 30.76,
+        'temperature': 18.1, 'humidite': 78.14},
+    {'jour': 34, 'plante': 'Tomate', 'hauteur': 56.79,
+        'temperature': 29.23, 'humidite': 55.16},
+    {'jour': 34, 'plante': 'Menthe', 'hauteur': 29.15,
+        'temperature': 21.26, 'humidite': 53.42},
+    {'jour': 34, 'plante': 'Tournesol', 'hauteur': 91.57,
+        'temperature': 18.16, 'humidite': 76.96},
+    {'jour': 35, 'plante': 'Basilic', 'hauteur': 31.6,
+        'temperature': 27.28, 'humidite': 45.29},
+    {'jour': 35, 'plante': 'Tomate', 'hauteur': 57.92,
+        'temperature': 26.34, 'humidite': 72.17},
+    {'jour': 35, 'plante': 'Menthe', 'hauteur': 29.77,
+        'temperature': 29.36, 'humidite': 45.3},
+    {'jour': 35, 'plante': 'Tournesol', 'hauteur': 93.78,
+        'temperature': 22.52, 'humidite': 52.53},
+    {'jour': 36, 'plante': 'Basilic', 'hauteur': 32.39,
+        'temperature': 24.23, 'humidite': 71.93},
+    {'jour': 36, 'plante': 'Tomate', 'hauteur': 59.06,
+        'temperature': 27.57, 'humidite': 73.15},
+    {'jour': 36, 'plante': 'Menthe', 'hauteur': 30.35,
+        'temperature': 18.74, 'humidite': 69.75},
+    {'jour': 36, 'plante': 'Tournesol', 'hauteur': 96.1,
+        'temperature': 21.98, 'humidite': 72.06},
+    {'jour': 37, 'plante': 'Basilic', 'hauteur': 33.24,
+        'temperature': 27.0, 'humidite': 71.84},
+    {'jour': 37, 'plante': 'Tomate', 'hauteur': 60.42,
+        'temperature': 20.58, 'humidite': 49.58},
+    {'jour': 37, 'plante': 'Menthe', 'hauteur': 30.97,
+        'temperature': 23.4, 'humidite': 60.97},
+    {'jour': 37, 'plante': 'Tournesol', 'hauteur': 98.66,
+        'temperature': 21.56, 'humidite': 63.55},
+    {'jour': 38, 'plante': 'Basilic', 'hauteur': 34.13,
+        'temperature': 29.96, 'humidite': 68.48},
+    {'jour': 38, 'plante': 'Tomate', 'hauteur': 61.68,
+        'temperature': 19.37, 'humidite': 64.69},
+    {'jour': 38, 'plante': 'Menthe', 'hauteur': 34.14,
+        'temperature': 24.94, 'humidite': 72.67},
+    {'jour': 38, 'plante': 'Tournesol', 'hauteur': 100.82,
+        'temperature': 29.84, 'humidite': 43.73},
+    {'jour': 39, 'plante': 'Basilic', 'hauteur': 34.98,
+        'temperature': 17.63, 'humidite': 59.2},
+    {'jour': 39, 'plante': 'Tomate', 'hauteur': 62.86,
+        'temperature': 17.7, 'humidite': 41.45},
+    {'jour': 39, 'plante': 'Menthe', 'hauteur': 34.76,
+        'temperature': 28.21, 'humidite': 55.21},
+    {'jour': 39, 'plante': 'Tournesol', 'hauteur': 103.17,
+        'temperature': 25.91, 'humidite': 53.58},
+    {'jour': 40, 'plante': 'Basilic', 'hauteur': 38.35,
+        'temperature': 20.14, 'humidite': 65.12},
+    {'jour': 40, 'plante': 'Tomate', 'hauteur': 64.22,
+        'temperature': 20.45, 'humidite': 77.55},
+    {'jour': 40, 'plante': 'Menthe', 'hauteur': 35.41,
+        'temperature': 29.18, 'humidite': 45.0},
+    {'jour': 40, 'plante': 'Tournesol', 'hauteur': 105.32,
+        'temperature': 22.75, 'humidite': 46.55},
+    {'jour': 41, 'plante': 'Basilic', 'hauteur': 39.2,
+        'temperature': 23.52, 'humidite': 58.14},
+    {'jour': 41, 'plante': 'Tomate', 'hauteur': 65.36,
+        'temperature': 16.46, 'humidite': 42.68},
+    {'jour': 41, 'plante': 'Menthe', 'hauteur': 36.04,
+        'temperature': 18.83, 'humidite': 59.06},
+    {'jour': 41, 'plante': 'Tournesol', 'hauteur': 107.47,
+        'temperature': 18.31, 'humidite': 57.33},
+    {'jour': 42, 'plante': 'Basilic', 'hauteur': 40.08,
+        'temperature': 20.92, 'humidite': 59.07},
+    {'jour': 42, 'plante': 'Tomate', 'hauteur': 66.64,
+        'temperature': 26.02, 'humidite': 61.82},
+    {'jour': 42, 'plante': 'Menthe', 'hauteur': 36.72,
+        'temperature': 20.45, 'humidite': 60.52},
+    {'jour': 42, 'plante': 'Tournesol', 'hauteur': 109.94,
+        'temperature': 28.08, 'humidite': 44.91},
+    {'jour': 43, 'plante': 'Basilic', 'hauteur': 40.85,
+        'temperature': 25.52, 'humidite': 45.15},
+    {'jour': 43, 'plante': 'Tomate', 'hauteur': 67.82,
+        'temperature': 26.01, 'humidite': 63.54},
+    {'jour': 43, 'plante': 'Menthe', 'hauteur': 37.36,
+        'temperature': 28.87, 'humidite': 51.78},
+    {'jour': 43, 'plante': 'Tournesol', 'hauteur': 112.37,
+        'temperature': 26.69, 'humidite': 46.37},
+    {'jour': 44, 'plante': 'Basilic', 'hauteur': 41.68,
+        'temperature': 19.58, 'humidite': 42.05},
+    {'jour': 44, 'plante': 'Tomate', 'hauteur': 69.08,
+        'temperature': 29.19, 'humidite': 51.77},
+    {'jour': 44, 'plante': 'Menthe', 'hauteur': 37.98,
+        'temperature': 16.95, 'humidite': 49.35},
+    {'jour': 44, 'plante': 'Tournesol', 'hauteur': 114.54,
+        'temperature': 22.1, 'humidite': 42.67},
+    {'jour': 45, 'plante': 'Basilic', 'hauteur': 42.44,
+        'temperature': 15.68, 'humidite': 61.95},
+    {'jour': 45, 'plante': 'Tomate', 'hauteur': 70.41,
+        'temperature': 19.86, 'humidite': 57.75},
+    {'jour': 45, 'plante': 'Menthe', 'hauteur': 38.6,
+        'temperature': 20.6, 'humidite': 62.15},
+    {'jour': 45, 'plante': 'Tournesol', 'hauteur': 116.91,
+        'temperature': 17.82, 'humidite': 42.05},
+    {'jour': 46, 'plante': 'Basilic', 'hauteur': 43.32,
+        'temperature': 28.86, 'humidite': 53.39},
+    {'jour': 46, 'plante': 'Tomate', 'hauteur': 71.67,
+        'temperature': 20.35, 'humidite': 44.48},
+    {'jour': 46, 'plante': 'Menthe', 'hauteur': 39.28,
+        'temperature': 24.81, 'humidite': 47.78},
+    {'jour': 46, 'plante': 'Tournesol', 'hauteur': 119.16,
+        'temperature': 23.95, 'humidite': 59.11},
+    {'jour': 47, 'plante': 'Basilic', 'hauteur': 44.16,
+        'temperature': 18.38, 'humidite': 51.03},
+    {'jour': 47, 'plante': 'Tomate', 'hauteur': 73.04,
+        'temperature': 26.04, 'humidite': 51.18},
+    {'jour': 47, 'plante': 'Menthe', 'hauteur': 39.84,
+        'temperature': 22.3, 'humidite': 61.2},
+    {'jour': 47, 'plante': 'Tournesol', 'hauteur': 121.37,
+        'temperature': 22.75, 'humidite': 67.32},
+    {'jour': 48, 'plante': 'Basilic', 'hauteur': 45.04,
+        'temperature': 20.49, 'humidite': 68.74},
+    {'jour': 48, 'plante': 'Tomate', 'hauteur': 74.36,
+        'temperature': 15.93, 'humidite': 69.11},
+    {'jour': 48, 'plante': 'Menthe', 'hauteur': 40.46,
+        'temperature': 20.5, 'humidite': 57.25},
+    {'jour': 48, 'plante': 'Tournesol', 'hauteur': 123.55,
+        'temperature': 28.82, 'humidite': 76.84},
+    {'jour': 49, 'plante': 'Basilic', 'hauteur': 45.85,
+        'temperature': 27.47, 'humidite': 41.78},
+    {'jour': 49, 'plante': 'Tomate', 'hauteur': 75.68,
+        'temperature': 25.18, 'humidite': 78.01},
+    {'jour': 49, 'plante': 'Menthe', 'hauteur': 41.1,
+        'temperature': 17.33, 'humidite': 73.38},
+    {'jour': 49, 'plante': 'Tournesol', 'hauteur': 125.76,
+        'temperature': 28.4, 'humidite': 77.73},
+    {'jour': 50, 'plante': 'Basilic', 'hauteur': 46.76,
+        'temperature': 28.01, 'humidite': 76.48},
+    {'jour': 50, 'plante': 'Tomate', 'hauteur': 76.89,
+        'temperature': 15.27, 'humidite': 72.85},
+    {'jour': 50, 'plante': 'Menthe', 'hauteur': 41.78,
+        'temperature': 18.82, 'humidite': 55.13},
+    {'jour': 50, 'plante': 'Tournesol', 'hauteur': 128.02,
+        'temperature': 24.11, 'humidite': 46.81},
+    {'jour': 51, 'plante': 'Basilic', 'hauteur': 47.52,
+        'temperature': 19.93, 'humidite': 71.11},
+    {'jour': 51, 'plante': 'Tomate', 'hauteur': 78.24,
+        'temperature': 29.37, 'humidite': 74.47},
+    {'jour': 51, 'plante': 'Menthe', 'hauteur': 42.37,
+        'temperature': 23.95, 'humidite': 76.75},
+    {'jour': 51, 'plante': 'Tournesol', 'hauteur': 130.35,
+        'temperature': 21.17, 'humidite': 69.87},
+    {'jour': 52, 'plante': 'Basilic', 'hauteur': 48.36,
+        'temperature': 23.81, 'humidite': 49.03},
+    {'jour': 52, 'plante': 'Tomate', 'hauteur': 79.56,
+        'temperature': 25.42, 'humidite': 47.79},
+    {'jour': 52, 'plante': 'Menthe', 'hauteur': 43.03,
+        'temperature': 20.23, 'humidite': 65.76},
+    {'jour': 52, 'plante': 'Tournesol', 'hauteur': 132.54,
+        'temperature': 18.18, 'humidite': 75.27},
+    {'jour': 53, 'plante': 'Basilic', 'hauteur': 49.15,
+        'temperature': 27.19, 'humidite': 51.66},
+    {'jour': 53, 'plante': 'Tomate', 'hauteur': 80.77,
+        'temperature': 27.67, 'humidite': 40.96},
+    {'jour': 53, 'plante': 'Menthe', 'hauteur': 43.66,
+        'temperature': 16.93, 'humidite': 50.8},
+    {'jour': 53, 'plante': 'Tournesol', 'hauteur': 135.02,
+        'temperature': 27.22, 'humidite': 72.29},
+    {'jour': 54, 'plante': 'Basilic', 'hauteur': 49.91,
+        'temperature': 23.74, 'humidite': 43.88},
+    {'jour': 54, 'plante': 'Tomate', 'hauteur': 81.9,
+        'temperature': 19.82, 'humidite': 72.92},
+    {'jour': 54, 'plante': 'Menthe', 'hauteur': 44.34,
+        'temperature': 27.54, 'humidite': 68.13},
+    {'jour': 54, 'plante': 'Tournesol', 'hauteur': 137.41,
+        'temperature': 26.36, 'humidite': 69.75},
+    {'jour': 55, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 27.01, 'humidite': 52.11},
+    {'jour': 55, 'plante': 'Tomate', 'hauteur': 83.1,
+        'temperature': 15.36, 'humidite': 60.55},
+    {'jour': 55, 'plante': 'Menthe', 'hauteur': 44.99,
+        'temperature': 25.71, 'humidite': 71.3},
+    {'jour': 55, 'plante': 'Tournesol', 'hauteur': 139.56,
+        'temperature': 20.06, 'humidite': 48.42},
+    {'jour': 56, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 25.08, 'humidite': 44.28},
+    {'jour': 56, 'plante': 'Tomate', 'hauteur': 84.42,
+        'temperature': 24.15, 'humidite': 54.15},
+    {'jour': 56, 'plante': 'Menthe', 'hauteur': 45.66,
+        'temperature': 21.41, 'humidite': 62.32},
+    {'jour': 56, 'plante': 'Tournesol', 'hauteur': 142.09,
+        'temperature': 22.7, 'humidite': 54.81},
+    {'jour': 57, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 26.26, 'humidite': 74.49},
+    {'jour': 57, 'plante': 'Tomate', 'hauteur': 85.73,
+        'temperature': 23.24, 'humidite': 69.79},
+    {'jour': 57, 'plante': 'Menthe', 'hauteur': 46.29,
+        'temperature': 22.09, 'humidite': 62.48},
+    {'jour': 57, 'plante': 'Tournesol', 'hauteur': 144.53,
+        'temperature': 25.45, 'humidite': 52.53},
+    {'jour': 58, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 29.18, 'humidite': 58.27},
+    {'jour': 58, 'plante': 'Tomate', 'hauteur': 91.98,
+        'temperature': 28.71, 'humidite': 69.95},
+    {'jour': 58, 'plante': 'Menthe', 'hauteur': 46.91,
+        'temperature': 28.57, 'humidite': 72.86},
+    {'jour': 58, 'plante': 'Tournesol', 'hauteur': 146.96,
+        'temperature': 23.74, 'humidite': 60.12},
+    {'jour': 59, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 20.01, 'humidite': 57.71},
+    {'jour': 59, 'plante': 'Tomate', 'hauteur': 98.25,
+        'temperature': 16.26, 'humidite': 43.45},
+    {'jour': 59, 'plante': 'Menthe', 'hauteur': 47.48,
+        'temperature': 24.56, 'humidite': 67.79},
+    {'jour': 59, 'plante': 'Tournesol', 'hauteur': 149.33,
+        'temperature': 26.52, 'humidite': 64.91},
+    {'jour': 60, 'plante': 'Basilic', 'hauteur': 50,
+        'temperature': 27.55, 'humidite': 57.47},
+    {'jour': 60, 'plante': 'Tomate', 'hauteur': 99.37,
+        'temperature': 29.5, 'humidite': 50.26},
+    {'jour': 60, 'plante': 'Menthe', 'hauteur': 48.16,
+        'temperature': 23.65, 'humidite': 72.97},
+    {'jour': 60, 'plante': 'Tournesol', 'hauteur': 151.63,
+        'temperature': 21.2, 'humidite': 48.03},
+    {'jour': 61, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 15.56, 'humidite': 78.76},
+    {'jour': 61, 'plante': 'Menthe', 'hauteur': 48.77,
+        'temperature': 25.15, 'humidite': 40.8},
+    {'jour': 61, 'plante': 'Tournesol', 'hauteur': 163.97,
+        'temperature': 23.29, 'humidite': 74.81},
+    {'jour': 62, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 24.94, 'humidite': 45.51},
+    {'jour': 62, 'plante': 'Menthe', 'hauteur': 49.4,
+        'temperature': 17.87, 'humidite': 74.19},
+    {'jour': 62, 'plante': 'Tournesol', 'hauteur': 166.27,
+        'temperature': 25.77, 'humidite': 71.97},
+    {'jour': 63, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 15.33, 'humidite': 46.92},
+    {'jour': 63, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 18.33, 'humidite': 79.05},
+    {'jour': 63, 'plante': 'Tournesol', 'hauteur': 168.61,
+        'temperature': 27.26, 'humidite': 64.16},
+    {'jour': 64, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 25.18, 'humidite': 74.22},
+    {'jour': 64, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 22.14, 'humidite': 54.14},
+    {'jour': 64, 'plante': 'Tournesol', 'hauteur': 170.99,
+        'temperature': 18.05, 'humidite': 70.88},
+    {'jour': 65, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 20.06, 'humidite': 72.44},
+    {'jour': 65, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 16.91, 'humidite': 47.06},
+    {'jour': 65, 'plante': 'Tournesol', 'hauteur': 173.33,
+        'temperature': 27.31, 'humidite': 43.55},
+    {'jour': 66, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 18.69, 'humidite': 56.02},
+    {'jour': 66, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 23.08, 'humidite': 54.32},
+    {'jour': 66, 'plante': 'Tournesol', 'hauteur': 185.64,
+        'temperature': 23.55, 'humidite': 65.1},
+    {'jour': 67, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 29.57, 'humidite': 75.59},
+    {'jour': 67, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 17.84, 'humidite': 68.35},
+    {'jour': 67, 'plante': 'Tournesol', 'hauteur': 188.02,
+        'temperature': 26.13, 'humidite': 63.98},
+    {'jour': 68, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 15.11, 'humidite': 78.3},
+    {'jour': 68, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 17.25, 'humidite': 55.57},
+    {'jour': 68, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 27.68, 'humidite': 42.25},
+    {'jour': 69, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 16.54, 'humidite': 45.46},
+    {'jour': 69, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 20.8, 'humidite': 52.85},
+    {'jour': 69, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 21.71, 'humidite': 44.78},
+    {'jour': 70, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 20.43, 'humidite': 56.28},
+    {'jour': 70, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 18.25, 'humidite': 40.29},
+    {'jour': 70, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 20.77, 'humidite': 73.49},
+    {'jour': 71, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 23.89, 'humidite': 49.84},
+    {'jour': 71, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 16.81, 'humidite': 66.93},
+    {'jour': 71, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 20.09, 'humidite': 60.8},
+    {'jour': 72, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 26.37, 'humidite': 50.89},
+    {'jour': 72, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 19.72, 'humidite': 63.45},
+    {'jour': 72, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 28.36, 'humidite': 68.32},
+    {'jour': 73, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 22.9, 'humidite': 52.42},
+    {'jour': 73, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 19.54, 'humidite': 76.63},
+    {'jour': 73, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 29.37, 'humidite': 41.08},
+    {'jour': 74, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 26.66, 'humidite': 47.87},
+    {'jour': 74, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 27.85, 'humidite': 76.18},
+    {'jour': 74, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 29.28, 'humidite': 41.1},
+    {'jour': 75, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 15.95, 'humidite': 65.62},
+    {'jour': 75, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 15.9, 'humidite': 76.86},
+    {'jour': 75, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 17.14, 'humidite': 63.81},
+    {'jour': 76, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 23.33, 'humidite': 58.94},
+    {'jour': 76, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 16.0, 'humidite': 69.75},
+    {'jour': 76, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 26.29, 'humidite': 65.77},
+    {'jour': 77, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 20.47, 'humidite': 65.21},
+    {'jour': 77, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 22.95, 'humidite': 58.02},
+    {'jour': 77, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 29.59, 'humidite': 67.94},
+    {'jour': 78, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 22.22, 'humidite': 45.54},
+    {'jour': 78, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 15.6, 'humidite': 56.75},
+    {'jour': 78, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 29.06, 'humidite': 67.32},
+    {'jour': 79, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 21.17, 'humidite': 56.64},
+    {'jour': 79, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 25.81, 'humidite': 41.81},
+    {'jour': 79, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 15.32, 'humidite': 72.52},
+    {'jour': 80, 'plante': 'Tomate', 'hauteur': 100,
+        'temperature': 29.32, 'humidite': 62.5},
+    {'jour': 80, 'plante': 'Menthe', 'hauteur': 50,
+        'temperature': 23.9, 'humidite': 45.0},
+    {'jour': 80, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 23.61, 'humidite': 42.57},
+    {'jour': 81, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 19.01, 'humidite': 68.17},
+    {'jour': 82, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 24.79, 'humidite': 69.49},
+    {'jour': 83, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 20.06, 'humidite': 69.27},
+    {'jour': 84, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 29.16, 'humidite': 55.4},
+    {'jour': 85, 'plante': 'Tournesol', 'hauteur': 200,
+        'temperature': 16.11, 'humidite': 59.99}
+
+]
+`},{type:`file`,name:`plantes.py`,path:`sujets/26_BCG_NSI_4/plantes.py`,language:`Python`,content:`class Plante:
+    def __init__(self, nom, espece, croissance, taille, exposition):
+        self.nom = nom
+        self.espece = espece
+        self.croissance = croissance  # en jours
+        self.taille = taille          # en cm
+        self.exposition = exposition  # type d'exposition
+
+
+plantes = [
+    Plante("Basilic", "Ocimum basilicum", 60, 40, "plein soleil"),
+    Plante("Tomate", "Solanum lycopersicum", 80, 100, "plein soleil"),
+    Plante("Menthe", "Mentha spicata", 80, 50, "mi-ombre"),
+    Plante("Tournesol", "Helianthus annuus", 85, 200, "plein soleil"),
+    Plante("Fougère", "Dryopteris filix-mas", 90, 80, "ombre")
+]
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_4/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_4/sujet.pdf (26373 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_5`,path:`sujets/26_BCG_NSI_5`,children:[{type:`file`,name:`empreinte_ada_agr.json`,path:`sujets/26_BCG_NSI_5/empreinte_ada_agr.json`,language:`JSON`,content:`{
+  "Logement": 2660,
+  "Alimentation": 1500,
+  "Transport": 708,
+  "Consommation": 893,
+  "Services sociétaux": 1491
+}
+
+`},{type:`file`,name:`empreinte_ada.json`,path:`sujets/26_BCG_NSI_5/empreinte_ada.json`,language:`JSON`,content:`{
+  "Alimentation": {
+    "Repas": {
+      "Viande": {
+        "Blanche": 296,
+        "Rouge": 814
+      },
+      "Autre": 97
+    },
+    "Déchets": 152,
+    "Boisson": 141
+  },
+  "Logement": {
+    "Energie": {
+      "Electricité": 206,
+      "Cuisson": 105,
+      "Chauffage individuel": 1500
+    },
+    "Construction": 650,
+    "Location": 37,
+    "Ameublement": 162
+  },
+  "Transport": {
+    "Voiture": 563,
+    "Avion": 92,
+    "En commun": 29,
+    "Vélo": 10,
+    "Train": 14
+  },
+  "Consommation": {
+    "Textile": 418,
+    "Loisirs": 168,
+    "Produits manufacturés neufs": 121,
+    "Electronique": {
+      "Electroménager": 70,
+      "Numérique": 90
+    },
+    "Consommables": 26
+  },
+  "Services sociétaux": {
+    "Public": 1300,
+    "Marchand": 191
+  }
+}
+
+`},{type:`file`,name:`empreinte.py`,path:`sujets/26_BCG_NSI_5/empreinte.py`,language:`Python`,content:`import json
+
+########### Fonctions données ###########
+
+
+def chargement_json(nom_fichier):
+    """Charge le contenu d'un fichier JSON dans un dictionnaire Python renvoyé"""
+    with open(nom_fichier, "r", encoding="utf8") as curseur:
+        return json.load(curseur)
+
+
+def est_dictionnaire(objet):
+    """Teste si un objet est de type dictionnaire"""
+    return isinstance(objet, dict)
+
+
+##########################################
+
+
+# Première fonction à implémenter après avoir découvert le fichier JSON agrégé
+# Cf fichier \`empreinte_ada_agr.json\`
+def total_simple(empreinte):
+    """Fonction qui renvoie l'empreinte carbone totale d'un dictionnaire associant
+    une empreinte carbone à des noms de catégories"""
+    pass
+
+
+# Deuxième fonction : il faut la récursivité pour le cas des sous-catégories
+# Cf fichier \`empreinte_ada.json\`
+def total_rec(empreinte):
+    """Fonction récursive qui renvoie l'empreinte carbone totale représentée
+    par un dictionnaire dont les valeurs peuvent aussi être des dictionnaires"""
+    pass
+
+
+def test_total_rec():
+    test_dico1 = {"a": 1, "d": 2}
+    assert total_rec(test_dico1) == 3
+    test_dico2 = {"a": {"b": 1, "c": 2}, "d": {"e": 3}}
+    assert total_rec(test_dico2) == 6
+
+# ==========================================
+# Fonction à analyser et corriger (Question 3)
+# ==========================================
+
+
+def alerte_valeur_aberrante(empreinte, limite):
+    """
+    Fonction censée déterminer si au moins une valeur du dictionnaire
+    dépasse strictement la limite donnée.
+    """
+    for categorie, valeur in empreinte.items():
+        if est_dictionnaire(valeur):
+            return alerte_valeur_aberrante(valeur, limite)
+        else:
+            if valeur > limite:
+                return True
+    return False
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_5/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_5/sujet.pdf (27753 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_6`,path:`sujets/26_BCG_NSI_6`,children:[{type:`file`,name:`smoothie.py`,path:`sujets/26_BCG_NSI_6/smoothie.py`,language:`Python`,content:`class Boutique_smoothie:
+    def __init__(self, liste_fruits_disponibles):
+        self.liste_fruits_disponibles = liste_fruits_disponibles
+        self.db_smoothies = {
+            "Tropical": ["Mangue", "Ananas", "Banane"],
+            "Rouge": ["Fraise", "Framboise", "Cerise"],
+            "Vert": ["Kiwi", "Pomme verte", "Menthe"],
+            "Agrume": ["Orange", "Citron", "Pamplemousse"],
+            "Exotique": ["Papaye", "Fruit de la passion", "Noix de coco"],
+            "Tropical citron": ["Mangue", "Ananas", "Citron"],
+            "Rouge kiwi": ["Fraise", "Framboise", "Kiwi"],
+            "Exotique rouge": ["Papaye", "Fraise", "Fruit de la passion"],
+            "Vert citron": ["Kiwi", "Pomme verte", "Citron"],
+            "Soleil couchant": ["Mangue", "Fraise", "Pamplemousse"]
+        }
+
+    ##### QUESTION 1 #####
+    def smoothie_possible(self, nom_smoothie):
+        """Retourne True si le smoothie peut être préparé avec les fruits disponibles, False sinon."""
+        pass  # à remplacer par le code la méthode
+
+    ##### QUESTION 2 #####
+    def liste_smoothies_possibles(self):
+        """Retourne la liste des smoothies pouvant être préparés avec les fruits disponibles."""
+        pass  # à remplacer par le code la méthode
+
+    def score_proximité(self, nom1, nom2):
+        """Retourne le nombre de fruits communs entre deux smoothies."""
+        nb = 0
+        fruits1 = self.db_smoothies[nom1]
+        fruits2 = self.db_smoothies[nom2]
+        for fruit in fruits1:
+            if fruit in fruits2:
+                nb += 1
+        return nb
+
+    # Question 4
+    def plus_proche_possible(self, nom_smoothie_ref):
+        """Retourne le nom du smoothie le plus proche de nom_smoothie_ref en termes de fruits communs parmi les smoothies possibles.
+        En cas d'égalité, retourne le premier trouvé.
+        """
+        max_communs = 0
+        smoothie_proche = None
+        for nom_smoothie in self.db_smoothies:
+            nb_communs = self.score_proximité(nom_smoothie_ref, nom_smoothie)
+            if nb_communs > max_communs:
+                max_communs = nb_communs
+                smoothie_proche = nom_smoothie
+        return smoothie_proche
+
+    def affichage_possibles(self):
+        """Affiche les smoothies possibles."""
+        smoothies = self.liste_smoothies_possibles()
+        print("Smoothies possibles avec les fruits disponibles :")
+        for smoothie in smoothies:
+            print(smoothie)
+        print("Alternative aux autres smoothies :")
+        for smoothie in self.db_smoothies:
+            if smoothie not in smoothies:
+                proche = self.plus_proche_possible(smoothie)
+                if proche != None:
+                    print(f"Pour le smoothie {smoothie}, essayez {proche}.")
+                else:
+                    print(
+                        f"Pour le smoothie {smoothie}, aucun smoothie proche disponible.")
+
+# ========= Fonctions de test ==================
+
+
+def test_smoothie_possible():
+    boutique = Boutique_smoothie(
+        ["Mangue", "Ananas", "Banane", "Fraise", "Citron"])
+    assert boutique.smoothie_possible("Tropical") == True
+    assert boutique.smoothie_possible("Rouge") == False
+
+
+def test_liste_smoothies_possibles():
+    boutique1 = Boutique_smoothie(
+        ["Mangue", "Ananas", "Banane", "Fraise", "Citron"])
+    boutique2 = Boutique_smoothie(
+        ["Fraise", "Framboise", "Cerise", "Kiwi", "Orange", "Citron", "Pamplemousse"])
+    boutique3 = Boutique_smoothie(["Orange", "Mangue", "Papaye"])
+    assert boutique1.liste_smoothies_possibles() == [
+        "Tropical", "Tropical citron"]
+    assert boutique2.liste_smoothies_possibles() == [
+        "Rouge", "Agrume", "Rouge kiwi"]
+    assert boutique3.liste_smoothies_possibles() == []
+
+
+##### QUESTION 3 #####
+
+def test_score_proximité():
+    # À compléter
+    pass
+
+
+def test_plus_proche_possible():
+    boutique = Boutique_smoothie(
+        ["Mangue", "Ananas", "Banane", "Fraise", "Citron", "Kiwi", "Pomme verte"])
+    smoothie_proche = boutique.plus_proche_possible("Tropical")
+    assert smoothie_proche == "Tropical citron"
+
+    smoothie_proche2 = boutique.plus_proche_possible("Exotique")
+    assert smoothie_proche2 == None
+
+
+# ======== Lancement des tests ========
+
+test_smoothie_possible()
+test_liste_smoothies_possibles()
+test_plus_proche_possible()
+
+# Question 5
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_6/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_6/sujet.pdf (29599 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_7`,path:`sujets/26_BCG_NSI_7`,children:[{type:`file`,name:`coccinelles.py`,path:`sujets/26_BCG_NSI_7/coccinelles.py`,language:`Python`,content:`import random
+
+
+class Coccinelle:
+    def __init__(self, sexe, age, niv_nutrition):
+        self.age = age
+        self.esperance_de_vie = random.randint(200, 350)
+        self.sexe = sexe
+        self.niv_nutrition = niv_nutrition
+
+    def chasser(self, nb_proies, nb_coccinelles):
+        if nb_coccinelles == 0:
+            return nb_proies
+
+        proies_par_cocci = nb_proies / nb_coccinelles
+
+        if proies_par_cocci > 20:
+            consomme = random.randint(12, 20)
+        elif proies_par_cocci > 10:
+            consomme = random.randint(8, 15)
+        else:
+            consomme = random.randint(3, 8)
+
+        consomme = min(consomme, nb_proies)
+
+        if consomme >= 10:
+            self.niv_nutrition += 1
+        else:
+            self.niv_nutrition = max(0, self.niv_nutrition - 1)
+
+        return nb_proies - consomme
+
+    def reproduction(self):
+        """
+        Une femelle avec un niveau de nutrition >= 2 engendre exactement
+        deux descendants : un mâle et une femelle.
+        """
+        descendants = []
+        if self.sexe == "femelle" and self.niv_nutrition >= 2:
+            descendants.append(Coccinelle("male", 0, 0))
+            descendants.append(Coccinelle("femelle", 0, 0))
+            self.niv_nutrition = 0
+
+        return descendants
+
+    def a_survecu(self):
+        """
+        Met à jour l'âge de la coccinelle et indique si elle est encore en vie.
+        """
+        self.age = self.age + 1
+        return self.age < self.esperance_de_vie
+
+    def __repr__(self):
+        return f"Coccinelle {self.sexe}, âge: {self.age}/{self.esperance_de_vie}, niv_nutrition: {self.niv_nutrition}"
+
+
+def evolution(population, nb_proies):
+    """
+    Simule une journée dans l'écosystème :
+    - chasse des coccinelles
+    - reproduction
+    - vieillissement et mortalité
+    - croissance des pucerons
+
+    population est une liste d'instances de la classe Coccinelle
+    nb_proies est un entier indiquant le nombre de proies
+
+    Cette fonction renvoie un couple (population_suivante, nouveau_nb_proies) indiquant
+    la nouvelle population à la fin de la journée et le nombre de proies.
+    """
+    population_suivante = []
+    nouveau_nes = []
+    nb_coccinelles = len(population)
+
+    for coccinelle in population:
+        nb_proies = coccinelle.chasser(nb_proies, nb_coccinelles)
+
+        if coccinelle.a_survecu():
+            population_suivante.append(coccinelle)
+
+        nouveau_nes += coccinelle.reproduction()
+
+    # Croissance naturelle des pucerons (augmentation de 20% par jour)
+    nb_proies = int(nb_proies * 1.2)
+
+    # Ajout des nouveau-nés en fin de journée
+    population_suivante += nouveau_nes
+
+    return population_suivante, nb_proies
+
+
+#############################################################################
+# Écrire ci-dessous le code pour les questions de l'énoncé                  #
+#############################################################################
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_7/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_7/sujet.pdf (25560 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_8`,path:`sujets/26_BCG_NSI_8`,children:[{type:`file`,name:`addition_BCD.py`,path:`sujets/26_BCG_NSI_8/addition_BCD.py`,language:`Python`,content:`#############################################################################
+# Question 1 : Mise en évidence du problème des flottants                   #
+#############################################################################
+# Écrire ci-dessous la fonction calcul_recettes() et son appel
+
+
+#############################################################################
+# Question 2 : Conversion BCD vers Décimal                                  #
+#############################################################################
+# Écrire ci-dessous la fonction convertir_BCD_vers_decimal(liste_quartets)
+# et l'assertion de test demandée
+
+
+#############################################################################
+# Code fourni pour les questions 3 et 4                                     #
+#############################################################################
+
+def convertir_dec_vers_BCD(decimal):
+    """
+    Convertit une chaîne représentant un décimal vers une liste de quartets BCD.
+    Convention : virgule implicite avant les deux derniers quartets.
+    """
+    ajouter_zero = False
+    liste_quartets = []
+
+    if '.' not in decimal:
+        decimal = decimal + '.00'
+
+    for i in range(len(decimal)):
+        if decimal[i] != '.':
+            # convertit en binaire le nombre decimal[i]
+            # en rajoutant des 0 devant pour obtenir un quartet
+            quartet = bin(int(decimal[i]))[2:].zfill(4)
+            liste_quartets.append(quartet)
+
+        # Si le nombre n'a qu'un seul chiffre après la virgule
+        if decimal[i] == '.' and i == len(decimal) - 2:
+            ajouter_zero = True
+
+    if ajouter_zero:
+        liste_quartets.append('0000')
+
+    return liste_quartets
+
+
+def additionner_binaire_quartets(quartet1, quartet2, retenue):
+    """
+    Additionne bit à bit deux quartets binaires purs.
+    Renvoie un tuple (somme_binaire_str, nouvelle_retenue_int).
+    """
+    somme = ""
+    for i in range(4):
+        # Lecture de la droite vers la gauche
+        bit1 = int(quartet1[3 - i])
+        bit2 = int(quartet2[3 - i])
+        total = bit1 + bit2 + retenue
+
+        if total == 0:
+            somme = '0' + somme
+            retenue = 0
+        elif total == 1:
+            somme = '1' + somme
+            retenue = 0
+        elif total == 2:
+            somme = '0' + somme
+            retenue = 1
+        elif total == 3:
+            somme = '1' + somme
+            retenue = 1
+
+    return somme, retenue
+
+
+def corriger_BCD(somme, retenue):
+    """
+    Applique la correction BCD si le quartet dépasse 9 ou génère une retenue.
+    Ajoute '0110' (6) au quartet invalide.
+    """
+    # Si somme >= 10 ('1010' ou '1011' ou '1100' etc.)
+    if somme[0] == '1' and (somme[1] == '1' or somme[2] == '1'):
+        somme, retenue = additionner_binaire_quartets(somme, '0110', 0)
+        return somme, retenue
+
+    # S'il y a eu dépassement naturel lors de l'addition binaire
+    if retenue == 1:
+        somme, _ = additionner_binaire_quartets(somme, '0110', 0)
+        return somme, retenue
+
+    return somme, retenue
+
+
+def aligner_quartets(q1: list, q2: list) -> tuple:
+    """
+    Doit équilibrer les deux listes en ajoutant des '0000' à gauche 
+    de la liste la plus courte.
+    """
+    return q1, q2
+
+
+def additionner_nombres_format_BCD(a, b):
+    """
+    Additionne deux nombres au format BCD, quartet par quartet.
+    """
+    liste_quartets1 = convertir_dec_vers_BCD(a)
+    liste_quartets2 = convertir_dec_vers_BCD(b)
+
+    # Ajustement de la longueur
+    liste_quartets1, liste_quartets2 = aligner_quartets(
+        liste_quartets1, liste_quartets2)
+
+    retenue = 0
+    resultat = []
+    longueur_max = max(len(liste_quartets1), len(liste_quartets2))
+
+    for i in range(longueur_max):
+        index = longueur_max - i - 1
+
+        # Addition binaire simple des quartets
+        somme, retenue = additionner_binaire_quartets(
+            liste_quartets1[index], liste_quartets2[index], retenue)
+
+        resultat.insert(0, somme)
+
+    # Gestion de la dernière retenue éventuelle
+    if retenue == 1:
+        resultat.insert(0, '0001')
+
+    return resultat
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_8/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_8/sujet.pdf (32552 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_9`,path:`sujets/26_BCG_NSI_9`,children:[{type:`file`,name:`Face.py`,path:`sujets/26_BCG_NSI_9/Face.py`,language:`Python`,content:`class Face:
+
+    """
+    Représente une face d'un objet 3D.
+    """
+
+    def __init__(self, sommets):
+        self.sommets = sommets
+`},{type:`file`,name:`Imprimante3D.py`,path:`sujets/26_BCG_NSI_9/Imprimante3D.py`,language:`Python`,content:`from Objet3D import Objet3D
+
+#############################################################################
+# Variables et fonctions fournies pour la question 3                        #
+#############################################################################
+
+
+class Imprimante3D:
+    def __init__(self, remplissage, vitesse_extrusion):
+        self.remplissage = remplissage
+        self.vitesse_extrusion = vitesse_extrusion
+
+    #############################################################################
+    #  Écrire le code de la méthode estimation_impression de la question 3      #
+    #############################################################################
+
+    def estimation_impression(self, objet):
+        pass
+
+
+rhombi = Objet3D()
+
+# Définition des 24 sommets
+rhombi.ajouter_sommet(1, 1, 3)    # s0
+rhombi.ajouter_sommet(1, 1, -3)   # s1
+rhombi.ajouter_sommet(1, -1, 3)   # s2
+rhombi.ajouter_sommet(1, -1, -3)  # s3
+rhombi.ajouter_sommet(-1, 1, 3)   # s4
+rhombi.ajouter_sommet(-1, 1, -3)  # s5
+rhombi.ajouter_sommet(-1, -1, 3)  # s6
+rhombi.ajouter_sommet(-1, -1, -3)  # s7
+rhombi.ajouter_sommet(1, 3, 1)    # s8
+rhombi.ajouter_sommet(1, 3, -1)   # s9
+rhombi.ajouter_sommet(1, -3, 1)   # s10
+rhombi.ajouter_sommet(1, -3, -1)  # s11
+rhombi.ajouter_sommet(-1, 3, 1)   # s12
+rhombi.ajouter_sommet(-1, 3, -1)  # s13
+rhombi.ajouter_sommet(-1, -3, 1)  # s14
+rhombi.ajouter_sommet(-1, -3, -1)  # s15
+rhombi.ajouter_sommet(3, 1, 1)    # s16
+rhombi.ajouter_sommet(3, 1, -1)   # s17
+rhombi.ajouter_sommet(3, -1, 1)   # s18
+rhombi.ajouter_sommet(3, -1, -1)  # s19
+rhombi.ajouter_sommet(-3, 1, 1)   # s20
+rhombi.ajouter_sommet(-3, 1, -1)  # s21
+rhombi.ajouter_sommet(-3, -1, 1)  # s22
+rhombi.ajouter_sommet(-3, -1, -1)  # s23
+
+# Faces carrées principales (axiales)
+rhombi.ajouter_face([0, 2, 6, 4])     # Z+
+rhombi.ajouter_face([1, 5, 7, 3])     # Z-
+rhombi.ajouter_face([16, 17, 19, 18])  # X+
+rhombi.ajouter_face([20, 22, 23, 21])  # X-
+rhombi.ajouter_face([8, 12, 13, 9])   # Y+
+rhombi.ajouter_face([10, 11, 15, 14])  # Y-
+
+# Faces carrées de jonction (arêtes)
+rhombi.ajouter_face([0, 16, 18, 2])   # Z+/X+
+rhombi.ajouter_face([4, 6, 22, 20])   # Z+/X-
+rhombi.ajouter_face([1, 3, 19, 17])   # Z-/X+
+rhombi.ajouter_face([5, 21, 23, 7])   # Z-/X-
+rhombi.ajouter_face([0, 4, 12, 8])    # Z+/Y+
+rhombi.ajouter_face([2, 10, 14, 6])   # Z+/Y-
+rhombi.ajouter_face([1, 9, 13, 5])    # Z-/Y+
+rhombi.ajouter_face([3, 7, 15, 11])   # Z-/Y-
+rhombi.ajouter_face([8, 16, 17, 9])   # Y+/X+
+rhombi.ajouter_face([12, 20, 21, 13])  # Y+/X-
+rhombi.ajouter_face([10, 18, 19, 11])  # Y-/X+
+rhombi.ajouter_face([14, 22, 23, 15])  # Y-/X-
+
+# Faces triangulaires (sommets)
+rhombi.ajouter_face([0, 8, 16])  # X+Y+Z+
+rhombi.ajouter_face([4, 12, 20])  # X-Y+Z+
+rhombi.ajouter_face([2, 10, 18])  # X+Y-Z+
+rhombi.ajouter_face([6, 14, 22])  # X-Y-Z+
+rhombi.ajouter_face([1, 17, 9])  # X+Y+Z-
+rhombi.ajouter_face([5, 13, 21])  # X-Y+Z-
+rhombi.ajouter_face([3, 19, 11])  # X+Y-Z-
+rhombi.ajouter_face([7, 15, 23])  # X-Y-Z-
+
+# rhombi.afficher() # à décommenter pour afficher le rhombicuboctaèdre
+
+imprimante = Imprimante3D(20, 1.2)
+print(imprimante.estimation_impression(rhombi))
+`},{type:`file`,name:`Objet3D.py`,path:`sujets/26_BCG_NSI_9/Objet3D.py`,language:`Python`,content:`from Sommet import Sommet
+from Face import Face
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+
+
+class Objet3D:
+
+    """
+    Représente un objet 3D composé de sommets, de faces et d'un nom.
+    """
+
+    def __init__(self):
+        """
+        Initialise un objet 3D vide.
+        """
+        self.sommets = []
+        self.faces = []
+        self.nom = ""
+
+    def ajouter_sommet(self, x, y, z):
+        """
+        Ajoute un sommet à l'objet 3D.
+        """
+        self.sommets.append(Sommet(x, y, z))
+
+    def ajouter_face(self, liste_sommets):
+        """
+        Ajoute une face à l'objet 3D.
+        """
+        self.faces.append(Face([self.sommets[i] for i in liste_sommets]))
+
+    def __str__(self):
+        """
+        Renvoie une représentation textuelle de l'objet 3D.
+        """
+        return str({'nom': self.nom, 'sommets': len(self.sommets), 'faces': len(self.faces)})
+
+    def afficher(self):
+        """
+        Affiche l'objet 3D à l'aide de matplotlib.
+        """
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+
+        f = []
+        for face in self.faces:
+            x = [(s.x, s.y, s.z) for s in face.sommets]
+            f.append(x)
+        mesh = Poly3DCollection(f, alpha=0.4, edgecolor='black')
+        ax.add_collection3d(mesh)
+        plt.show()
+
+    #############################################################################
+    # Méthode à modifier de la question 5                                       #
+    #############################################################################
+    def transformer(self, rapport):
+        """
+        Applique une transformation d'échelle à l'objet 3D en modifiant directement ses sommets.
+        """
+        sommets = []
+        for sommet in self.sommets:
+            sommets.append(
+                Sommet(sommet.x * rapport,
+                       sommet.y * rapport, sommet.z * rapport))
+        self.sommets = sommets
+
+    #############################################################################
+    # Écrire le code de la méthode sommets_adjacents de la question 2           #
+    #############################################################################
+
+    def sommets_adjacents(self, s1, s2):
+        pass
+
+    def longueur_plus_longue_arete(self):
+        max_longueur = 0
+        for s1 in self.sommets:
+            for s2 in self.sommets:
+                if self.sommets_adjacents(s1, s2):
+                    d = s1.distance(s2)
+                    if d > max_longueur:
+                        max_longueur = d
+        return max_longueur
+
+    def volume_cube_englobant(self):
+        longueur_max = self.longueur_plus_longue_arete()
+        return longueur_max ** 3
+
+
+#############################################################################
+# Cube pour tester votre méthode de la question 2                           #
+#############################################################################
+
+cube = Objet3D()
+cube.ajouter_sommet(0, 0, 0)  # s0
+cube.ajouter_sommet(1, 2, 2)  # s1
+cube.ajouter_sommet(3, 3, 0)  # s2
+cube.ajouter_sommet(2, 1, -2)  # s3
+cube.ajouter_sommet(-2, 2, -1)  # s4
+cube.ajouter_sommet(-1, 4, 1)  # s5
+cube.ajouter_sommet(1, 5, -1)  # s6
+cube.ajouter_sommet(0, 3, -3)  # s7
+cube.ajouter_face([0, 1, 2, 3])
+cube.ajouter_face([4, 5, 6, 7])
+cube.ajouter_face([0, 1, 5, 4])
+cube.ajouter_face([1, 2, 6, 5])
+cube.ajouter_face([2, 3, 7, 6])
+cube.ajouter_face([3, 0, 4, 7])
+# cube.afficher() # à décommenter pour afficher le cube en 3d
+`},{type:`file`,name:`Sommet.py`,path:`sujets/26_BCG_NSI_9/Sommet.py`,language:`Python`,content:`import math
+
+
+class Sommet:
+
+    """
+    Représente un sommet (point) dans l'espace 3D.
+    """
+
+    def __init__(self, x, y, z):
+        """
+        Initialise un sommet avec ses coordonnées.
+        """
+        self.x = x
+        self.y = y
+        self.z = z
+
+    #############################################################################
+    # Écrire le code de la méthode distance de la question 1                    #
+    #############################################################################
+
+    def distance(self, s):
+        return ((s.x-self.x)**2+(s.y-self.y)**2+(s.z-self.z)**2)**0.5
+
+
+#############################################################################
+# Programme pour tester votre méthode de la question 1                      #
+#############################################################################
+s1 = Sommet(0, 0, 0)
+s2 = Sommet(3, 4, 0)
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_9/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_9/sujet.pdf (40066 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_10`,path:`sujets/26_BCG_NSI_10`,children:[{type:`file`,name:`analyse_eau.py`,path:`sujets/26_BCG_NSI_10/analyse_eau.py`,language:`Python`,content:`donnees = [
+    {"jour": "2025-02-04", "heure": "00:00", "chaude": 2, "froide": 3},
+    {"jour": "2025-02-04", "heure": "01:00", "chaude": 1, "froide": 2},
+    {"jour": "2025-02-04", "heure": "02:00", "chaude": 0, "froide": 0},
+    {"jour": "2025-02-04", "heure": "03:00", "chaude": 0, "froide": 0},
+    {"jour": "2025-02-04", "heure": "04:00", "chaude": 0, "froide": 1},
+    {"jour": "2025-02-04", "heure": "05:00", "chaude": 0, "froide": 0},
+    {"jour": "2025-02-04", "heure": "06:00", "chaude": 4, "froide": 6},
+    {"jour": "2025-02-04", "heure": "07:00", "chaude": 6, "froide": 8},
+    {"jour": "2025-02-05", "heure": "00:00", "chaude": 0, "froide": 0},
+    {"jour": "2025-02-05", "heure": "01:00", "chaude": 1, "froide": 1},
+    {"jour": "2025-02-05", "heure": "02:00", "chaude": 1, "froide": 1},
+    {"jour": "2025-02-05", "heure": "03:00", "chaude": 1, "froide": 1},
+    {"jour": "2025-02-05", "heure": "04:00", "chaude": 0, "froide": 0},
+    {"jour": "2025-02-05", "heure": "05:00", "chaude": 0, "froide": 0},
+]
+
+
+# -----------------------------
+# Fonctions à compléter
+# -----------------------------
+
+def total_conso(donnees, jour):
+    # À compléter
+    pass
+
+
+def fuite_possible(donnees, jour):
+    # À compléter
+    pass
+
+
+# -----------------------------
+# Fonction fournie (erronée)
+# -----------------------------
+
+def lissage_conso(valeurs):
+    """
+    Calcule une moyenne glissante sur les valeurs.
+    Pour chaque valeur, on calcule la moyenne avec ses voisins.
+    """
+
+    lisse = []
+    for i in range(len(valeurs)):
+        if i == 0:
+            m = (valeurs[i] + valeurs[i+1]) / 2
+        elif i == len(valeurs)-1:
+            m = (valeurs[i-1] + valeurs[i]) / 2
+        else:
+            m = (valeurs[i-1] + valeurs[i] + valeurs[i+1]) / 2
+        lisse.append(m)
+
+    return lisse
+
+
+# -----------------------------
+# Espace pour les tests
+# -----------------------------
+
+def test_lissage():
+    # À compléter : écrire au moins 3 assertions (assert) avec des listes
+    # de différentes tailles pour révéler les erreurs de la fonction
+    pass
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_10/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_10/sujet.pdf (28325 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_11`,path:`sujets/26_BCG_NSI_11`,children:[{type:`file`,name:`donnees_habitats.py`,path:`sujets/26_BCG_NSI_11/donnees_habitats.py`,language:`Python`,content:`zones_connues = [
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 3, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 3, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 10,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 3, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 3, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 10,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 3, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 7, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 10, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 4, 'densite_urbaine': 6,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 5, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 2, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 3, 'densite_urbaine': 0,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 3, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 7, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 8,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 8,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 9,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 8,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 8, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 8,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 3, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 6,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 10, 'densite_urbaine': 1,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 7, 'densite_urbaine': 10,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 6,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 5, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 10, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 9,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 3, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 3, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 2, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 6,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 2, 'densite_urbaine': 3,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 10, 'densite_urbaine': 9,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 9, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 9, 'densite_urbaine': 0,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 10, 'densite_urbaine': 6,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 0, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 3,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 1, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 10, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 10, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 5, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 7,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 10, 'densite_urbaine': 5,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 0, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 0, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 2,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 5, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 8, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 9, 'densite_urbaine': 10,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 3, 'densite_urbaine': 3,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 6, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 10,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 1,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 3, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 1, 'densite_urbaine': 2,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 0, 'proximite_eau': 5, 'densite_urbaine': 10,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 9, 'densite_urbaine': 2,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 6, 'densite_urbaine': 2,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 2, 'densite_urbaine': 10,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 10,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 4, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 4,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 2, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 3,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 2, 'densite_urbaine': 2,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 3, 'densite_urbaine': 8,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 0, 'densite_urbaine': 10,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 7,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 5,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 5, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 5,
+        'disponibilite_proies': 5, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 4, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 0, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 6,
+        'disponibilite_proies': 0, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 0, 'densite_urbaine': 7,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 8,
+        'disponibilite_proies': 1, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 5, 'densite_urbaine': 3,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 4, 'densite_urbaine': 6,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 0, 'densite_urbaine': 8,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 4, 'densite_urbaine': 2,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 8, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 0,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 1, 'densite_urbaine': 1,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 9, 'densite_urbaine': 7,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 3, 'proximite_eau': 4, 'densite_urbaine': 0,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 6, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 9, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 5, 'densite_urbaine': 4,
+        'disponibilite_proies': 6, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 5, 'densite_urbaine': 7,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 10, 'proximite_eau': 7, 'densite_urbaine': 2,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 7, 'densite_urbaine': 4,
+        'disponibilite_proies': 4, 'presence_renard': False},
+    {'vegetation': 2, 'proximite_eau': 8, 'densite_urbaine': 6,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 1,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 5, 'proximite_eau': 10, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 7, 'densite_urbaine': 7,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 9, 'densite_urbaine': 1,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 8, 'densite_urbaine': 4,
+        'disponibilite_proies': 10, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 7, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 0, 'densite_urbaine': 9,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 9, 'densite_urbaine': 5,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 4, 'proximite_eau': 6, 'densite_urbaine': 0,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 9, 'proximite_eau': 3, 'densite_urbaine': 8,
+        'disponibilite_proies': 8, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 8, 'densite_urbaine': 2,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 6, 'proximite_eau': 3, 'densite_urbaine': 9,
+        'disponibilite_proies': 6, 'presence_renard': True},
+    {'vegetation': 2, 'proximite_eau': 2, 'densite_urbaine': 7,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 2, 'densite_urbaine': 9,
+        'disponibilite_proies': 2, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 1, 'densite_urbaine': 9,
+        'disponibilite_proies': 7, 'presence_renard': True},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 4,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 6, 'densite_urbaine': 1,
+        'disponibilite_proies': 8, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 6, 'densite_urbaine': 9,
+        'disponibilite_proies': 3, 'presence_renard': True},
+    {'vegetation': 10, 'proximite_eau': 5, 'densite_urbaine': 2,
+        'disponibilite_proies': 1, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 7, 'presence_renard': False},
+    {'vegetation': 3, 'proximite_eau': 1, 'densite_urbaine': 0,
+        'disponibilite_proies': 10, 'presence_renard': False},
+    {'vegetation': 7, 'proximite_eau': 1, 'densite_urbaine': 6,
+        'disponibilite_proies': 2, 'presence_renard': False},
+    {'vegetation': 5, 'proximite_eau': 6, 'densite_urbaine': 8,
+        'disponibilite_proies': 3, 'presence_renard': False},
+    {'vegetation': 0, 'proximite_eau': 7, 'densite_urbaine': 5,
+        'disponibilite_proies': 4, 'presence_renard': True},
+    {'vegetation': 1, 'proximite_eau': 0, 'densite_urbaine': 3,
+        'disponibilite_proies': 9, 'presence_renard': False},
+    {'vegetation': 8, 'proximite_eau': 10, 'densite_urbaine': 4,
+        'disponibilite_proies': 1, 'presence_renard': False}
+]
+`},{type:`file`,name:`prediction_habitat.py`,path:`sujets/26_BCG_NSI_11/prediction_habitat.py`,language:`Python`,content:`from math import sqrt
+from donnees_habitats import zones_connues
+
+nouveau = {'vegetation': 5, 'proximite_eau': 2,
+           'densite_urbaine': 4, 'disponibilite_proies': 6}
+
+
+def distance(habitat_1, habitat_2):
+    '''
+    Calcule la distance euclidienne entre deux habitats.
+    entrée : 
+        - habitat_1 : dictionnaire représentant un habitat.
+        - habitat_2 : dictionnaire représentant un autre habitat.
+    sortie : 
+        - float : distance euclidienne entre habitat_1 et habitat_2.
+    '''
+    pass  # à remplacer par votre code
+
+
+def distance_d_un_habitat(habitat, habitats):
+    '''
+    Calcule la distance entre un habitat et chaque habitat de la liste.
+    entrée : 
+        - habitat : dictionnaire représentant un habitat.
+        - habitats : liste de dictionnaires représentant des habitats.
+    sortie : 
+        - list[tuple] : liste de tuples (distance, habitat) où distance est la distance entre habitat et chaque habitat de la liste.
+    '''
+    pass  # à remplacer par votre code
+
+
+def premiere_composante(c):
+    '''Fonction utilitaire renvoyant la première composante d'un tuple'''
+    return c[0]
+
+
+def k_plus_proches(k, habitat, habitats):
+    '''
+    Calcule les k habitats les plus proches de l'habitat donné.
+    entrée : 
+        - k : entier représentant le nombre d'habitats à retourner.
+        - habitat : dictionnaire représentant un habitat.
+        - habitats : liste de dictionnaires représentant des habitats.
+    sortie : 
+        - list[tuple] : liste de tuples (distance, habitat) l'élément à l'indice 0 est la distance euclidienne entre habitat 
+                        et chaque habitat de la liste et l'élément à l'indice 1 est le dictionnaire correspondant à l'habitat correspondant.
+    '''
+    # On calcule les distances
+    distances = distance_d_un_habitat(habitat, habitats)
+    # On cherche à trier les distances en fonction de la distance euclidienne.
+    distances.sort(key=premiere_composante)
+    # renvoie les distances jusque la borne k non comprise
+    return distances[:k]
+
+
+def presence_renard(k, habitat, habitats):
+    '''
+    Vérifie si l'habitat donné a plus de k/2 voisins avec des renards.
+    entrée : 
+        - k : entier représentant le nombre d'habitats à considérer.
+        - habitat : dictionnaire représentant un habitat.
+        - habitats : liste de dictionnaires représentant des habitats.
+    sortie : 
+        - bool : True si l'habitat a plus de k/2 voisins avec des renards, False sinon.
+    '''
+    habitats = k_plus_proches(k, habitat, habitats)
+    n_renards = 0
+    for habitat in habitats:
+        distance = habitat[0]
+        caracteristiques = habitat[1]
+        if distance['presence_renard']:
+            n_renards += 1
+    return n_renards > k/2
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_11/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_11/sujet.pdf (37172 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_12`,path:`sujets/26_BCG_NSI_12`,children:[{type:`file`,name:`donnees_renards.csv`,path:`sujets/26_BCG_NSI_12/donnees_renards.csv`,language:`Text`,content:`id;nom;poids;date_arrivee
+101;Zorro;6.5;2023-01-15
+102;Roxy;5.8;2023-02-10
+103;Filou;7.2;2023-03-05
+104;Kira;4.9;2024-11-20
+105;Rouky;6.1;2023-05-12
+106;Vixen;5.5;2023-06-01
+107;Goupil;7.8;2023-07-18
+108;Pipo;5.3;2023-08-22
+109;Vulpec;6.9;2023-09-09
+110;Foxy;4.5;2023-10-25
+111;Renardeau;3.2;2024-04-01
+112;Rubis;7.0;2024-03-10
+113;Sacha;6.3;2024-02-05
+114;Pacha;5.7;2024-01-28
+115;Delta;6.6;2023-11-03
+116;Écho;5.1;2023-12-19
+117;Tango;7.1;2024-05-15
+118;Oscar;5.9;2024-06-11
+119;Lima;6.8;2024-07-07
+120;Mia;4.7;2024-08-29
+121;Léo;6.4;2024-09-17
+122;Nina;5.6;2024-10-14
+123;Max;7.3;2024-05-25
+124;Bella;4.8;2024-04-18
+125;Toby;6.2;2024-03-29
+126;Sparky;5.0;2024-02-14
+127;Shadow;7.4;2024-01-01
+128;Pip;4.6;2023-11-29
+129;Ziggy;6.7;2023-10-10
+130;Loup;5.2;2023-09-01`},{type:`file`,name:`gestion_refuge.py`,path:`sujets/26_BCG_NSI_12/gestion_refuge.py`,language:`Python`,content:`import csv
+
+
+class Renard:
+    """
+    Classe représentant un renard dans le refuge.
+    Attributs : identifiant, nom, poids, date_arrivee.
+    """
+
+    def __init__(self, identifiant, nom, poids, date_arrivee):
+        self.identifiant = identifiant
+        self.nom = nom
+        self.poids = poids
+        self.date_arrviee = date_arrivee
+
+    def __str__(self):
+        return f"Renard ID {self.identifiant} - {self.nom} (Arrivé le {self.date_arrviee}) "
+
+
+class Refuge:
+    """
+    Classe représentant le refuge contenant la liste des renards.
+    """
+
+    def __init__(self, nom, adresse):
+        self.nom = nom
+        self.adresse = adresse
+        self.liste_renards = []
+
+    def recueillir(self, un_renard):
+        """
+        Méthode d'ajout d'un renard au refuge.
+        """
+        self.liste_renards.append(un_renard)
+
+    def lister_peu_corpulents(self):
+        """
+        Méthode qui renvoie une liste des Renards dont le poids est < 6.0 kg.
+        """
+        return [renard for renard in self.liste_renards if renard.poids < 6.0]
+
+    def pourcentage_peu_corpulents(self):
+        """
+        Méthode qui renvoie le pourcentage des renards peu corpulents.
+        """
+        if len(self.liste_renards) == 0:
+            return 0.0
+        return len(self.lister_peu_corpulents()) / len(self.liste_renards) * 100
+
+    def importer_donnees(self, nom_fichier):
+        """
+        Fonction qui importe les données des renards à partir d'un fichier CSV.
+        """
+        print(f"Tentative d'importation depuis {nom_fichier}...")
+        with open(nom_fichier, "r", encoding="utf-8") as f:
+            lignes = csv.DictReader(f, delimiter=";")
+            for ligne in lignes:
+                renard = Renard(
+                    identifiant=int(ligne["id"]),
+                    nom=ligne["nom"],
+                    poids=float(ligne["poids"]),
+                    date_arrivee=ligne["date_arrivee"],
+                )
+                self.recueillir(renard)
+        return print("Importé!")
+
+
+renard1 = Renard(200, "Oscar", 5.1, "2026-01-01")
+print(renard1)
+
+refuge1 = Refuge("SOS Goupil", "12 rue de la Forêt")
+refuge1.importer_donnees("donnees_renards.csv")
+
+print("======== Liste de peu corpulents =========")
+for renard in refuge1.lister_peu_corpulents():
+    print(renard)
+
+print(f"Pourcentage de peu corpulents: {refuge1.pourcentage_peu_corpulents()}%")
+
+# justification
+L = [renard for renard in refuge1.lister_peu_corpulents()]
+
+print(
+    f"Le nombre de renards peu corpulents {len(L)} ; le nombre de renards dans le refuge {len(refuge1.liste_renards)} "
+)
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_12/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_12/sujet.pdf (26906 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_13`,path:`sujets/26_BCG_NSI_13`,children:[{type:`file`,name:`etude_climatique.py`,path:`sujets/26_BCG_NSI_13/etude_climatique.py`,language:`Python`,content:`# ///////////////////////////////////////////////////////////////////////////
+# FONCTIONS DONNEES
+# ///////////////////////////////////////////////////////////////////////////
+
+def recupere_donnees_fichier_csv(nom_fichier):
+    """ Fonction qui récupère les données relevées du ballon sonde sans les en-têtes de la 1ère ligne """
+    altitudes = []                                  # Initialisation des listes de valeurs relevées
+    temperatures = []
+    longitudes = []
+    latitudes = []
+    # Ouverture du fichier csv au format releves_ballon_sonde.csv en mode "read"
+    contenu_fichier = open(nom_fichier, 'r')
+    # Supprime la 1ère ligne avec les en-têtes
+    contenu_fichier.readline()
+    # Parcours des lignes du fichier csv contenant les donnees relevées
+    for ligne in contenu_fichier.readlines():
+        # rstrip() supprime les \\n et espaces en fin de ligne
+        ligne = ligne.rstrip()
+        # création d'une listeValeurs. split(";") sépare les valeurs grâce au ;
+        listeValeurs = ligne.split(";")
+        # conversion string en int de l'altitude et insertion dans la liste correspondante
+        altitudes.append(int(listeValeurs[0]))
+        # conversion string en float de la température et insertion dans la liste correspondante
+        temperatures.append(float(listeValeurs[1]))
+        # conversion string en float de la longitude et insertion dans la liste correspondante
+        longitudes.append(float(listeValeurs[2]))
+        # conversion string en float de la latitude et insertion dans la liste correspondante
+        latitudes.append(float(listeValeurs[3]))
+
+    contenu_fichier.close()
+    return altitudes, temperatures, longitudes, latitudes
+
+
+def genere_kml(liste_longitudes, liste_latitudes):
+    """ Fonction qui génère un fichier de données géographiques au format standard international KML
+        Ce fichier est visionnable ensuite dans différents logiciels
+    """
+    fichier_kml = open(
+        'ballon sonde.kml', 'w')    # Création et ouverture du fichier kml en mode "write"
+    entete_fichier = '<?xml version="1.0" encoding="UTF-8"?>\\n'
+    entete_fichier += '<kml xmlns="http://www.opengis.net/kml/2.2">\\n'
+    entete_fichier += '<Document>\\n'
+    entete_fichier += '<name>Trajectoire ballon sonde</name>\\n'
+    # Ecriture du contenu de la variable entete_fichier dans le fichier kml
+    fichier_kml.write(entete_fichier)
+    for i in range(len(liste_longitudes)):
+        corps_fichier = '<Placemark>\\n'
+        corps_fichier += f'<name>Point {i}</name>\\n'
+        corps_fichier += '<Point>\\n'
+        corps_fichier += f'<coordinates>{liste_longitudes[i]},{liste_latitudes[i]}</coordinates>\\n'
+        corps_fichier += '</Point>\\n'
+        corps_fichier += '</Placemark>\\n'
+        fichier_kml.write(corps_fichier)
+    bas_fichier = '</Document>\\n'
+    fichier_kml.write(bas_fichier)
+    fichier_kml.close()                         # Fermeture du fichier kml
+
+
+# ///////////////////////////////////////////////////////////////////////////
+# TRAVAIL DEMANDE
+# ///////////////////////////////////////////////////////////////////////////
+
+# QUESTION 1
+# Compléter ici
+
+# QUESTION 2
+def conversion_K_en_C(liste_temperatures):
+    pass  # Ajuster la fonction
+
+# QUESTION 3
+
+
+def altitude_la_plus_froide(liste_altitudes, liste_temperatures):
+    pass  # Ajuster la fonction
+
+# AUTRES ELEMENTS DE CODE
+`},{type:`file`,name:`releves_ballon_sonde.csv`,path:`sujets/26_BCG_NSI_13/releves_ballon_sonde.csv`,language:`Text`,content:`Altitude_m;Temperature_K;Longitude;Latitude
+0;288.15;4.760467;45.602117
+200;286.85;4.760467;45.602167
+500;284.85;4.761183;45.60125
+1100;281.05;4.766717;45.600117
+1800;276.55;4.765183;45.60085
+2250;273.65;4.766633;45.601017
+2680;270.85;4.770567;45.605383
+5070;255.45;4.800883;45.602433
+6800;244.25;4.819033;45.608467
+8900;230.65;4.850517;45.608551
+9800;224.85;4.892783;45.601533
+11000;217.15;4.963467;45.596267
+13500;216.95;5.155833;45.586467
+15120;216.65;5.298383;45.591167
+17210;216.65;5.444417;45.595083
+19500;217.15;5.578417;45.597952
+20100;217.05;5.6044;45.605617
+21250;220.15;5.662033;45.611053
+23620;223.05;5.747867;45.62555
+24865;225.15;5.766817;45.616383`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_13/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_13/sujet.pdf (99652 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_14`,path:`sujets/26_BCG_NSI_14`,children:[{type:`file`,name:`IHM_evacuation.py`,path:`sujets/26_BCG_NSI_14/IHM_evacuation.py`,language:`Python`,content:`from simulation_evacuation import Piece, evacuation
+from tkinter import *
+from random import randint
+
+################################################################################
+# Il n'est pas nécessaire de comprendre (ni modifier) le code de ce programme. #
+# Son execution ouvre une interface graphique qui facilitera vos tests.        #
+################################################################################
+
+
+def creation_piece():
+    global choix_largeur, choix_profondeur, choix_nboccupants, piece_test
+    global dessin, dernier_affichage, nb_tour_evac
+    piece_test = Piece(choix_profondeur.get(), choix_largeur.get())
+    n = min(choix_nboccupants.get(), piece_test.capacite)
+    while n > 0:
+        i = randint(0, piece_test.i_max)
+        j = randint(0, piece_test.j_max)
+        nb = piece_test.ajouter_occupants(i, j, randint(1, min(5, n)))
+        n = n - nb
+    dernier_affichage = [[[None, None] for _ in range(
+        piece_test.j_max + 1)] for _ in range(piece_test.i_max + 1)]
+    dessin.delete(ALL)
+    nb_tour_evac.configure(text="")
+
+
+def affichage_grille():
+    global piece_test, dessin, mode_daltonien, dernier_affichage, nb_occ_restants
+    if piece_test is not None:
+        couleurs = ["white", "blue", "green", "yellow", "orange", "red"]
+        for (lg, cl) in piece_test.sorties:
+            if lg == 0:
+                dessin.create_text(15*cl+22, 7, text="P")
+            elif cl == 0:
+                dessin.create_text(7, 15*lg+22, text="P")
+            elif lg == piece_test.i_max:
+                dessin.create_text(15*cl+22, 15*lg+37, text="P")
+            else:
+                dessin.create_text(15*cl+37, 15*lg+22, text="P")
+        for lg in range(piece_test.i_max + 1):
+            for cl in range(piece_test.j_max + 1):
+                nb = piece_test.grille[lg][cl]
+                case = dernier_affichage[lg][cl]
+                if case[0] is None:
+                    case[0] = dessin.create_rectangle(
+                        15*cl+15, 15*lg+15, 15*cl+30, 15*lg+30, fill="white")
+                if case[1] is None:
+                    case[1] = dessin.create_text(15*cl+22, 15*lg+22, text="")
+                if dessin.itemcget(case[0], "fill") != couleurs[nb]:
+                    dessin.itemconfig(case[0], fill=couleurs[nb])
+                if mode_daltonien.get() == "oui" and dessin.itemcget(case[1], "text") != str(nb):
+                    dessin.itemconfig(case[1], text=str(nb))
+                if mode_daltonien.get() == "non" and dessin.itemcget(case[1], "text") != "":
+                    dessin.itemconfig(case[1], text="")
+        nb_occ_restants.configure(text=str(piece_test.nb_occupants_restants()))
+    dessin.after(100, affichage_grille)
+
+
+def clic_gauche(event):
+    global piece_test
+    if piece_test is not None:
+        cl, lg = event.x // 15, event.y // 15
+        if lg == 0:
+            # ajout d'une sortie au nord
+            piece_test.ajouter_sortie("N", min(cl-1, piece_test.j_max))
+        elif cl == 0:
+            # ajout d'une sortie à l'ouest
+            piece_test.ajouter_sortie("O", min(lg-1, piece_test.i_max))
+        elif lg > piece_test.i_max:
+            # ajout d'une sortie au sud
+            piece_test.ajouter_sortie("S", min(cl-1, piece_test.j_max))
+        elif cl > piece_test.j_max:
+            # ajout d'une sortie à l'est
+            piece_test.ajouter_sortie("E", min(lg-1, piece_test.i_max))
+        else:
+            # ajout d'occupants
+            piece_test.ajouter_occupants(lg-1, cl-1, 5)
+
+
+def alerter_occupants():
+    global piece_test
+    if piece_test is not None and piece_test.sorties != []:
+        nb_tour_evac.configure(text="")
+        piece_test.alerter()
+
+
+def evacuer_occupants():
+    global piece_test, nb_tour_evac
+    if piece_test is not None and piece_test.sorties != []:
+        nbT = evacuation(piece_test)
+        if piece_test.nb_occupants_restants() == 0:
+            nb_tour_evac.configure(
+                text="Evacuation effectuée en " + str(nbT) + " tours.")
+        else:
+            nb_tour_evac.configure(text="Echec de l'évacuation.")
+
+
+if __name__ == "__main__":
+    global fen, choix_largeur, choix_profondeur, choix_nboccupants
+    global piece_test, dessin, mode_daltonien, nb_occ_restants, nb_tour_evac
+    piece_test = None
+    # création de la fenêtre
+    fen = Tk()
+    fen.title("IHM de simulation d'évacuation")
+    fen.geometry("430x650")
+    # ajout des zones de saisie permettant de paramétrer la simulation
+    Label(fen, text="Largeur de la pièce").grid(row=1, column=1, columnspan=2)
+    choix_largeur = Scale(fen, from_=10, to=20, orient=HORIZONTAL)
+    choix_largeur.set(10)
+    choix_largeur.grid(row=1, column=3)
+    Label(fen, text="Profondeur de la pièce").grid(
+        row=2, column=1, columnspan=2)
+    choix_profondeur = Scale(fen, from_=10, to=20, orient=HORIZONTAL)
+    choix_profondeur.set(10)
+    choix_profondeur.grid(row=2, column=3)
+    Label(fen, text="Nombre d'occupants placés aléatoirement \\n(dans la limite de capacité de la pièce)").grid(
+        row=3, column=1, columnspan=2)
+    choix_nboccupants = Scale(fen, from_=10, to=2000, orient=HORIZONTAL)
+    choix_nboccupants.set(200)
+    choix_nboccupants.grid(row=3, column=3)
+    Label(fen, text="Affichage des nombres en plus des couleurs \\n (mode daltonien)").grid(
+        row=4, column=1, columnspan=2)
+    mode_daltonien = StringVar()
+    Checkbutton(fen, text="", var=mode_daltonien, onvalue="oui",
+                offvalue="non").grid(row=4, column=3)
+    mode_daltonien.set("non")
+    btn_grille = Button(fen, text="Créer la pièce", command=creation_piece)
+    btn_grille.grid(row=5, column=2)
+    # ajout du canvas où sera dessinée la pièce
+    Label(fen, text="Un clic sur un côté de la pièce permet d'ajouter une sortie. \\nPour ajouter des occupants, cliquer dans la pièce.").grid(
+        row=6, column=1, columnspan=3)
+    dessin = Canvas(fen, bg="grey", height=330, width=330)
+    dessin.grid(row=7, column=1, columnspan=3)
+    dessin.bind("<Button-1>", clic_gauche)
+    dessin.after(100, affichage_grille)
+    Label(fen, text="Nombre d'occupants actuellement dans la pièce :").grid(
+        row=8, column=1, columnspan=2)
+    nb_occ_restants = Label(fen, text="")
+    nb_occ_restants.grid(row=8, column=3)
+    # ajout des boutons d'alerte et d'évacuation
+    btn_alerte = Button(
+        fen, text="Alerter (un pas vers la sortie la plus proche)", command=alerter_occupants)
+    btn_alerte.grid(row=9, column=1, columnspan=2)
+    btn_evacuer = Button(fen, text="Evacuer", command=evacuer_occupants)
+    btn_evacuer.grid(row=9, column=3)
+    nb_tour_evac = Label(fen, text="")
+    nb_tour_evac.grid(row=10, column=1, columnspan=3)
+    # affichage de la fenêtre
+    fen.mainloop()
+`},{type:`file`,name:`simulation_evacuation.py`,path:`sujets/26_BCG_NSI_14/simulation_evacuation.py`,language:`Python`,content:`from random import randint, shuffle
+from copy import deepcopy
+
+
+class Piece:
+
+    def __init__(self, profondeur, largeur):
+        self.grille = [[0 for _ in range(largeur)] for _ in range(profondeur)]
+        self.i_max = profondeur-1
+        self.j_max = largeur-1
+        self.capacite = profondeur * largeur * 5
+        self.sorties = []
+
+    def ajouter_occupants(self, i, j, nb):
+        ''' permet d'ajouter jusqu'à nb occupants dans la case située ligne i et colonne j.
+            Le nombre d'occupants ajoutés est limité par la capacité d'accueil de la case (5).
+            Cette méthode renvoie le nombre d'occupants effectivement ajoutés.
+        '''
+        nb_add = min(nb, 5 - self.grille[i][j])
+        if nb_add > 0:
+            self.grille[i][j] = self.grille[i][j] + nb_add
+        return nb_add
+
+    def nb_occupants_restants(self):
+        ''' renvoie le nombre d'occupants restants dans la pièce.
+            A FAIRE (QUESTION 1)
+        '''
+        pass
+
+    def ajouter_sortie(self, direction, position):
+        ''' permet d'ajouter des sorties à la pièce.
+            A COMPLETER (QUESTION 3) (Pour l'instant, on n'utilise que deux directions !)
+        '''
+        if direction == "N":
+            self.sorties.append((0, position))
+        elif direction == "O":
+            self.sorties.append((position, 0))
+
+    def choix_sortie(self, i, j):
+        ''' renvoie la sortie à utiliser pour une personne positionnée sur la ligne i et la colonne j.
+            A CORRIGER (QUESTION 4) (Pour l'instant, seule la 1ère sortie est utilisée !)
+        '''
+        assert len(self.sorties) > 0, "Aucune sortie"
+        choix = self.sorties[0]
+        distance = abs(i - choix[0]) + abs(j - choix[1])
+        for k in range(1, len(self.sorties)):
+            autre_sortie = self.sorties[k]
+            if k < 0:
+                choix = autre_sortie
+                distance = d2
+        return choix
+
+    def deplacer(self, i, j, nb, direction, silencieux=True):
+        ''' effectue le déplacement dans la direction demandée d'au maximum
+            nb occupants actuellement en ligne i et colonne j.
+            Le déplacement est limité par la capacité d'accueil (5) de la case visée.
+            Cette fonction renvoie le nombre d'occupants déplacés.
+            IL N'EST PAS NECESSAIRE DE COMPRENDRE LE CODE DE CETTE METHODE.
+        '''
+        d = {"N": (-1, 0), "S": (1, 0), "E": (0, 1), "O": (0, -1)}
+        nv_i, nv_j = i + d[direction][0], j + d[direction][1]
+        nb_dep = min(nb, 5 - self.grille[nv_i][nv_j], self.grille[i][j])
+        if nb_dep > 0:
+            if not silencieux:
+                print("déplacement de ", nb_dep,
+                      " occupant(s) (", i, ",", j, ") vers ", direction)
+            self.grille[i][j] = self.grille[i][j] - nb_dep
+            self.grille[nv_i][nv_j] = self.grille[nv_i][nv_j] + nb_dep
+        return nb_dep
+
+    def alerter(self, silencieux=True):
+        ''' permet de simuler une alerte : chaque occupant se déplace d'une case
+            vers la sortie qui lui est conseillée par la méthode choix_sortie.
+            Cette méthode renvoie True si des déplacements ont pu avoir lieu, False sinon.
+            IL N'EST PAS NECESSAIRE DE COMPRENDRE LE CODE DE CETTE METHODE.
+        '''
+        old_grille = deepcopy(self.grille)
+        modif = False
+        for i in range(len(self.grille)):
+            for j in range(len(self.grille[i])):
+                if old_grille[i][j] > 0:
+                    sortie_i, sortie_j = self.choix_sortie(i, j)
+                    dx, dy = sortie_j-j, sortie_i-i
+                    if dx == 0 and dy == 0:
+                        if not silencieux:
+                            print("évacuation d'un occupant (", i, ",", j, ")")
+                        self.grille[i][j] = self.grille[i][j] - 1
+                        nb_dep = 1
+                    else:
+                        mvt_possibles = []
+                        if dx > 0:
+                            mvt_possibles.append("E")
+                        elif dx < 0 and j > 0:
+                            mvt_possibles.append("O")
+                        if dy > 0:
+                            mvt_possibles.append("S")
+                        elif dy < 0 and i > 0:
+                            mvt_possibles.append("N")
+                        shuffle(mvt_possibles)
+                        nb_dep = self.deplacer(
+                            i, j, old_grille[i][j], mvt_possibles[0], silencieux)
+                        if nb_dep == 0 and len(mvt_possibles) > 1:
+                            nb_dep = self.deplacer(
+                                i, j, old_grille[i][j], mvt_possibles[1], silencieux)
+                    if nb_dep > 0:
+                        modif = True
+        return modif
+
+    def __str__(self):
+        ''' Cette méthode permet de convertir une pièce en chaîne de caractères.
+            Ainsi, si p1 est une pièce, l'instruction print(p1) permettra d'afficher l'état actuel de la pièce dans la console.
+            IL N'EST PAS NECESSAIRE DE COMPRENDRE LE CODE DE CETTE METHODE.
+        '''
+        s = "  "
+        for j in range(self.j_max+1):
+            if (0, j) in self.sorties:
+                s = s + "P  "
+            else:
+                s = s + "   "
+        s = s + "\\n"
+        for i in range(len(self.grille)):
+            if (i, 0) in self.sorties:
+                s = s + "P"
+            else:
+                s = s + " "
+            s = s + str(self.grille[i])
+            if i != 0 and i != self.i_max and (i, self.j_max) in self.sorties:
+                s = s + "P\\n"
+            else:
+                s = s + "\\n"
+        s = s + "  "
+        for j in range(self.j_max+1):
+            if (self.i_max, j) in self.sorties:
+                s = s + "P  "
+            else:
+                s = s + "   "
+        return s + "\\n"
+
+
+def evacuation(p, silencieux=True):
+    ''' simule l'évacuation de la pièce et renvoie le nombre de tours nécessaire.
+        A chaque tour, chacun des occupants se déplace, si possible, d'une case
+        vers la sortie la plus proche. Si le paramètre silencieux vaut false,
+        l'état de la pièce à chaque tour est affiché dans la console.
+        A FAIRE EN QUESTION 2
+    '''
+    pass
+
+
+def test_nb_occupants_restants():
+    ''' Jeux de tests proposés pour la méthode nb_occupants_restants de la classe Piece.
+    '''
+    p1 = Piece(5, 7)
+    p1.ajouter_sortie("N", 5)
+    reussite = True
+    if p1.nb_occupants_restants() != 0:
+        print("La méthode nb_restants devrait renvoyer 0 quand la pièce est vide.")
+        reussite = False
+    n1 = randint(1, 5)
+    cases_occupees = {(0, 3): 4, (0, 1): 2, (3, 4): 3, (4, 0): n1, (4, 3): 2}
+    for c in cases_occupees:
+        p1.ajouter_occupants(c[0], c[1], cases_occupees[c])
+    if p1.nb_occupants_restants() != 11 + n1:
+        print("La méthode nb_restants renvoie",
+              p1.nb_occupants_restants(), " au lieu", 11 + n1)
+        reussite = False
+    if reussite == True:
+        print("Pas de problème détecté pour l'instant avec nb_occupants_restants. Il faudra vérifier que l'IHM affiche maintenant le bon nombre d'occupants restants.")
+
+
+def test_evacuation(silencieux: bool = True):
+    ''' Jeux de tests proposés pour la fonction evacuation.
+    '''
+    p1 = Piece(5, 7)
+    p1.ajouter_sortie("N", 5)
+    situations = [{"nom": "essai1", "cases_occupees": {(0, 3): 3, (1, 1): 1, (3, 2): 5}, "temps_attendu": 11},
+                  {"nom": "essai2", "cases_occupees": {
+                      (0, 3): 4, (0, 1): 2, (3, 4): 3, (4, 0): 1, (4, 3): 2}, "temps_attendu": 14},
+                  {"nom": "essai3", "cases_occupees": {(0, 3): 1, (0, 1): 2, (3, 4): 1, (4, 0): 3, (4, 3): 5}, "temps_attendu": 15}]
+    verif = True
+    for s in situations:
+        for c, nb in s["cases_occupees"].items():
+            p1.ajouter_occupants(c[0], c[1], nb)
+        nbT = evacuation(p1, silencieux)
+        if nbT != s["temps_attendu"]:
+            print("La fonction evacuation renvoie ", nbT,
+                  " au lieu de ", s["temps_attendu"], " pour ", s["nom"])
+            verif = False
+    if verif:
+        print("Pas de problème détecté pour l'instant avec l'évacuation. Il faudra vérifier avec l'IHM que les évacuations n'échouent plus.")
+
+
+def test_ajouter_sortie():
+    ''' Jeux de tests proposés pour tester les modifications apportées à la méthode ajouter_sortie de la classe Piece.
+    '''
+    p1 = Piece(5, 7)
+    p1.ajouter_sortie("N", 5)
+    n1 = randint(1, 5)
+    p1.ajouter_sortie("S", n1)
+    n2 = randint(1, 5)
+    p1.ajouter_sortie("E", n2)
+    p1.ajouter_sortie("O", 1)
+    if p1.sorties == [(0, 5), (4, n1), (n2, 6), (1, 0)]:
+        print("Pas de problème détecté avec le jeu de tests pour la méthode ajouter_sortie. Il faudra vérifier que l'ajout de sortie à l'est ou au sud de la pièce est maintenant possible via l'IHM.")
+    else:
+        print("L'ajout des sorties ne fonctionne pas correctement.")
+
+
+def test_choix_sortie():
+    ''' Jeux de tests proposés pour tester les modifications apportées à la méthode choix_sortie de la classe Piece.
+    '''
+    p1 = Piece(5, 7)
+    # Afin de pouvoir tester choix_sortie indépendamment de ajouter_sortie,
+    # on effectue ici une modification directe de l'attribut sorties de p1
+    p1.sorties = [(0, 5), (4, 1), (3, 6), (1, 0)]
+    try:
+        assert p1.choix_sortie(0, 3) == (0, 5)
+        assert p1.choix_sortie(0, 1) == (1, 0)
+        assert p1.choix_sortie(1, 2) == (1, 0)
+        assert p1.choix_sortie(3, 4) == (3, 6)
+        assert p1.choix_sortie(4, 0) == (4, 1)
+        assert p1.choix_sortie(4, 3) == (4, 1)
+        print("Pas de problème détecté avec le jeu de tests pour la méthode choix_sortie. Il faudra vérifier avec l'IHM que les occupants n'utilisent plus uniquement la première sortie lors des alertes.")
+    except:
+        print("La méthode choix_sortie ne renvoie pas la réponse attendue sur au moins l'un des tests.")
+
+
+if __name__ == "__main__":
+    test_nb_occupants_restants()
+    test_evacuation(False)
+    test_ajouter_sortie()
+    test_choix_sortie()
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_14/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_14/sujet.pdf (28470 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_15`,path:`sujets/26_BCG_NSI_15`,children:[{type:`file`,name:`cabinet.sqlite`,path:`sujets/26_BCG_NSI_15/cabinet.sqlite`,language:`Text`,content:`SQLite format 3\0\0\0@  \0\0\0\0\0\0-\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0.�\r\0\0\0\f�\03\r�\f�\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\x1B\x07%%�ytableconsultationconsultationCREATE TABLE consultation (
+            id INTEGER PRIMARY KEY,
+            id_animal INTEGER NOT NULL,
+            date TEXT NOT NULL,
+            motif TEXT,
+            FOREIGN KEY (id_animal) REFERENCES animal (id) ON DELETE CASCADE
+        )�N\x07�wtableanimalanimalCREATE TABLE animal (
+            id INTEGER PRIMARY KEY,
+            espece TEXT NOT NULL,
+            nom TEXT NOT NULL,
+            date_naissance TEXT NOT NULL,
+            id_proprietaire INTEGER NOT NULL,
+            FOREIGN KEY (id_proprietaire) REFERENCES proprietaire (id) ON DELETE CASCADE
+        )�J\x07%%�WtableproprietaireproprietaireCREATE TABLE proprietaire (
+            id INTEGER PRIMARY KEY,
+            nom TEXT NOT NULL,
+            prenom TEXT NOT NULL,
+            telephone TEXT
+        )\0\0\0�\0\0\0\0\b���>����jP*\x07\r�\r�\r�\r�\r_\rC\r$\r\f�\f�\f�\fz\fZ\f>\f"\f\v�\v�\v�\v\v[\v?\v\x1B
+�
+�
+�
+�
+p
+T
+8
+	�	�	�	�	p	J	,	\f\b�\b�\b�\b�\b\`\bF\b&\b\x07�\x07�\x07�\x07�\x07\\\x076\x07����nK,����fD"\0���tO3����pP2����pL-	����gH%
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\0\x1B\x1BGuillotMargot0665294!s\0)ÉtienneDenise06 08 72 07 87r\0!GalletCaroline0806444985!q\0-DiasVictoire(0)5-35-88-92-57p\0+BigotAgnès0.6.16.78.68.24o\0\x1B!MartinezBernard0518868685\x1Bn\0!MassonGilles0534877219m\0\x1B+LemaireAlix0-6-43-77-79-75"l\0\x1B)MercierMargaret03 80 80 04 52k\0)DiazMargot02.21.70.53.67"j\0-FaureBertrand(0)1.78.68.55.56!i\0)RivièreAudrey04-57-58-26-96h\0'PetitÉtienne0699274961539g\0!ValentinJeanne0139142907 f\0+BonnetJeanne0-3-55-03-86-94e\0+EvrardPaul0.4.67.99.75.55\x1Bd\0\x1B\x1BCharrierPatrick(0)1347c\0!BlinFrançois0638965311b\0'BrunHortense0779513179556 a\0'CollinLaurence0663548703144\`\0)GayGuy06.76.19.64.70"_\0\x1B\x1B+CharlesHonoré(0)656976344876^\0!ColasClaudine0637057411!]\0\x1B\x1B)NormandRichard02 56 78 93 05\\\0-LeducRoger(0)2 58 82 54 99[\0\x1B!SanchezNath0686367146#Z\0\x1B\x1B-Le GoffGeorges(0)2 58 46 87 00Y\0-BessonZoé(0)6.38.93.10.11 X\0\x1B+MauriceSusan0-6-99-81-78-52!W\0+PerezAugustin0-2-33-35-01-67$V\0\x1B!)GrenierChristophe06 30 83 07 86 U\0\x1B\x1B'HoareauPauline0145084309814 T\0+BenardSylvie0 1 69 29 50 59 S\0\x1B+MartinsManon0.6.32.38.59.94R\0)ThomasMichel06.25.75.34.24Q\0)JolyMatthieu06-65-89-77-84"P\0\x1B\x1B+GuillotColette0-1-70-70-63-75\x1BO\0\x1B\x1BHoareauMichèle0634719&N\0-MartineauEmmanuel(0)5 54 85 60 61M\0\x1B\x1BEvrardSusanne0345985L\0\x1B'GrenierYves0375420034938!K\0\x1B+LombardOdette0 5 87 85 86 83 J\0+ThomasClaire(0)175637425486I\0)JeanMargot04.98.12.01.79 H\0\x1B+GimenezInès0.1.42.97.08.29"G\0\x1B-PoirierJeanne(0)2-78-39-45-92F\0)MorenoLuce06.33.99.86.73 E\0+DumontÉlise0-3-59-00-97-77$D\0)LévêqueMichelle03 88 15 34 64#C\0!+HardyFrançoise0-3-53-49-78-65B\0\x1B'ChauvinLucie0699788983055"A\0\x1B)LeclercqAndrée02 69 95 39 06@\0)MoreauYves07 96 49 48 45?\0!!BodinStéphanie0732618932 >\0)ColinNathalie06-95-08-17-16=\0-GrosLucas(0)2.21.36.29.41<\0\x1B\x1BColasAntoine0658435!;\0\x1B+MoreauSuzanne0-6-98-05-31-54:\0\x1B!CarlierJeannine0381061704 9\0+FleuryGilles0 7 51 15 76 49#8\0+LerouxAlexandre0.7.79.93.33.64 7\0\x1B)RenaudPauline04 69 76 77 376\0)BretonLucie06 58 67 59 935\0\x1B!RenaultPierre0535142123$4\0!-GomezEmmanuelle(0)2-40-91-66-903\0!ClercJean0423472167"2\0\x1B-GodardThierry(0)1 55 79 04 26\x1B1\0\x1B!ValetteAlain0671856048 0\0\x1B+OlivierAimé0.2.36.21.95.79 /\0\x1B)GaudinBernard03 28 54 32 81'.\0!-GuichardChristelle(0)3 59 61 76 16-\0!FaivreLucas0636228832,\0!WeissPierre0279673822 +\0\x1B!!MendèsBernadette0130709285!*\0\x1B\x1B)LecomteRaymond07.45.48.02.42!)\0)DanielÉdouard05-35-95-87-54#(\0!)BriandVéronique07 47 48 52 56'\0\x1BBousquetPaulette0324182"&\0\x1B\x1B+MonnierAuguste0.3.23.29.90.33%\0!BouvetAlain0180495504"$\0\x1B\x1B+CarlierÉlodie0 2 32 26 26 31!#\0)PelletierMarie05-65-11-72-36 "\0\x1B+JacobJosette0.6.37.51.65.52!\0!LelièvreRoger0290730923 \0!RoyerCapucine0508840356\0\x1B)FaureGeorges06.37.97.66.64\0\x1B\x1B\x1BMailletÉlodie(0)3700\0!ClercMarcel0689851979\0\x1B!ReynaudHélène0794844108\x1B\x1B\0\x1B\x1BRenaultMichèle(0)5161$\0\x1B-RivièreCéline(0)2.53.55.32.26"\0\x1B-SeguinCéline(0)4 73 98 01 23\0+GalletRené0.4.66.37.14.71 \0)DavidMarcelle07 90 82 88 40\0!De SousaMargot0557675376\0\x1BNeveuAlexandre0158037 \0-BazinAdrien(0)5 63 87 12 47 \0\x1B+LagardeSusan0.3.82.36.42.93\0'MaillardDenis0698297390488\0+MaryMarcel0-4-77-36-70-18!\0-BlotAlphonse(0)4-71-37-31-23!\0\x1B+BouvierMarcel0.6.36.96.89.83$\0\x1B+FouquetAlexandre0.6.16.44.55.35\r\0\x1B\x1BLeleuAuguste0495672#\f\0\x1B\x1B-PoirierNicolas(0)1.81.85.12.49\v\0!!CarreJoséphine0698240371 
+\0)ColinVirginie04 89 59 35 50"	\0\x1B\x1B+MathieuSusanne0 5 16 47 89 40#\b\0'FrançoisAdrienne0296951353577"\x07\0!'JosephSébastien0674097114968\0!LopesMargot0631848268 \0'ToussaintHenri0699741923828\0\x1B!VincentMartin0564007299 \0\x1B+JoubertAnouk0 4 76 33 78 15\0!DumontMarcelle0648747223#\0\x1B)DuhamelFranç\0\0\0\x07�U\0\0\0�e\0\0\0t\0\0\0�\0\0\0\0\f���Y? ����w[A&\v\r�\r�\r�\r�\rz\r_\rA\r&\r
+\f�\f�\f�\f�\f}\fb\fI\f/\f\v�\v�\v�\v�\v�\vo\vQ\v5\v
+�
+�
+�
+�
+�
+h
+L
+2
+	�	�	�	�	�	p	P	4	\b�\b�\b�\b�\b�\bl\bS\b7\b\x07�\x07�\x07�\x07�\x07�\x07t\x07V\x07;\x07 \x07����lQ5�����iM3�����kP5\x1B�����vZ> ����x\\B&
+����tU7\0�\x07\0\x1BoiseauZéphyr20210113\0�\x1B�\0\x1BchatMinette20131212\0��\0\x1BlapinPépito20151217\0��\0\x1BlapinGalette20210203\0��\0chatPistache20201019\0��\0lapinGrignote20120211\0��\0chatTango20120922\0��\0\0chienLila20250706\0�\0chatPatate20131005\0�~\0chienDjango20170626}\0chatOlive20100322|\0oiseauTutti20100624~{\0oiseauMoka20250604}\x1Bz\0oiseauNacré20250210|y\0chienRiley20210515{x\0chienMalice20190604{w\0lapinPoupette20161216yv\0chienOréo20160902yu\0lapinFlanelle20190806wt\0oiseauFolie20140709ws\0\x1BchatMitaine20220128ur\0chatSushi20221115uq\0chienPacha20180303tp\0\x1BoiseauCaprice20200122to\0chienNico20190105rn\0chienTika20131127qm\0\x1BoiseauQuetzal20140629ql\0chienTika20111006ok\0chienSimba20100303nj\0oiseauEole20150626li\0oiseauPlumette20110624lh\0oiseauOpale20140120kg\0chienVoyage20131007kf\0chatMirabelle20171209je\0lapinRafale20141010jd\0chienNico20181009g\x1Bc\0\x1BchienGouache20180706gb\0chienRomy20201208fa\0chienSirius20150409f\x1B\`\0\x1BchienSésame20180615d_\0\x1BoiseauFlèche20170406c^\0\x1BoiseauColibri20110831c\x1B]\0\x1BchienGoliath20161010b\\\0chatPaillette20121201b[\0lapinGaufre20220206\`Z\0chienGaston20181031\`Y\0oiseauRubis20160511]X\0chatFlocon20250701]W\0oiseauJazz20100805[V\0oiseauAquarelle20170425[U\0!lapinMarjolaine20250904WT\0\x1BchatCaramel20240821VS\0!lapinCotonnette20100922S\x1BR\0\x1BlapinSouffle20171105SQ\0chatLitchi20210511RP\0lapinOréo20210518QO\0\x1BoiseauSifflet20140822QN\0oiseauFugu20220707PM\0\x1BoiseauSoprano20210312OL\0chienNectar20181124NK\0chatMoka20220215MJ\0\x1BchatCarbone20100829LI\0oiseauFolie20110715L\x1BH\0oiseauCantor20210920KG\0lapinOlympe20141117KF\0chatDune20151228JE\0chatYoshi20150301JD\0lapinCâlisson20120920H\x1BC\0chatNymphéa20120218H\x1BB\0\x1BlapinCâline20190402EA\0oiseauZazou20250104E@\0chienSimba20220610C?\0lapinFroufrou20241002A>\0oiseauRuban20160617@=\0oiseauPrintemps20150811?<\0oiseauOpale20110709?;\0lapinCrème20110524>:\0chatRavel20250607<9\0chienDjango20190621<8\0chienPacha20200714:\x1B7\0oiseauSoleil20131107:6\0oiseauOpium2015070685\0chatPlume2024081044\0chienCharly202411193\x1B3\0\x1BlapinSirocco2025050822\0\x1BchatMistral2021031611\0lapinRuban2012091910\0chatPrune201905230/\0chatMirabelle201102010.\0!lapinChouquette20140507.-\0!oiseauCristallin20160430.,\0\x1BchatCaramel20110623-+\0lapinCalisson20180617-\x1B*\0\x1BlapinComète20220603,)\0chatPixel20141217+(\0\x1BchatSésame20250205*'\0chatTango20210519*&\0chatLoulou20220215)%\0oiseauChant20201128($\0chienHatchi20240621'#\0chatTango20160324'"\0chatJazz20210602"!\0lapinCacao20130405" \0chatChopin20191031\x1B\0\x1BlapinSpirale20100103\x1B\0oiseauSaphir20251124\x1B\0chienLucky20170611\x1B\x1B\0\x1BlapinComète20190425\x1B\0lapinPelote20230405\0chatOlympe20100324\0lapinMoelleux20250725\0chatCerise20251213\x1B\0oiseauSaphir20140502\0\x1BoiseauSifflet20241228\0\x1BoiseauCristal20200420\0chienAlto20170720\0lapinBiscotte20220823\0chienRocco20140311\0chatGollum20151209\0chatPlume20221107\0oiseauChant20130714\x1B\0oiseauNacré20190207\f\r\0\x1BoiseauCumulus20190227\v\f\0oiseauEole20120921\v\v\0lapinLys20150725
+
+\0chienPongo20160902
+	\0chienCroquette20150713	\b\0oiseauPlumette20101002	\x07\0chienRomy20130922\0chatVoyou20100120\0lapinBouton20120110\0chienNino20240715\0\x1BchatMistral20251206\0lapinRoudoudou20210901\0	oi\0\0\0\v�\0\0\0
+�\0\0\0	�\x07\0\0\0 @\0\0\0\0-���������������������|vpjd^XRLF@\f�\f~\fg\fN\f5\f\v�\v�\v�\v�\v�\vx\v]\vB\v'\v\f
+�
+�
+�
+�
+�
+t
+_
+H
+/
+	�	�	�	�	�	x	]	B	'	\f\b�\b�\b�\b�\b�\bn\bS\b8\b\b\x07�\x07�\x07�\x07�\x07{\x07d\x07I\x07.\x07�����qV;$	�����gL1�����tY>'������iN3�����oW?)�����{_C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0#\r20210428vaccination�\0#\r20200411vaccination�\0#\r20190324vaccination�\0\f20170423chirurgie�\0\f20190924chirurgie�\r\0\x1B\f20200224maladie�\f\0\f20150507chirurgie�\v\0\f20150209bilan�
+\0\f20201018bilan�	\0\f20131007bilan�\b\0\x1B\f20181211maladie�\x07\0\x1B\f20170329maladie�\0#\f20210828vaccination�\0#\f20200920vaccination�\0#\f20190806vaccination�\0#\f20180830vaccination�\0#\f20170717vaccination�\0#\f20160826vaccination�\0\0#\f20151006vaccination\0#\f20140926vaccination~\0#\f20131110vaccination}\0#\f20121110vaccination|\0\v20190125chirurgie{\0\v20200208chirurgiez\0\v20151016bilany\0\v20181223chirurgiex\0\v20191004bilanw\0\v20160509chirurgiev\0\v20230615bilanu\0\x1B\v20191125maladiet\0#\v20230713vaccinations\0#\v20220608vaccinationr\0#\v20210707vaccinationq\0#\v20200623vaccinationp\0#\v20190510vaccinationo\0#\v20180624vaccinationn\0#\v20170730vaccinationm\0#\v20160727vaccinationl\0#\v20150902vaccinationk\0#
+20250119vaccinationj\0#
+20240225vaccinationi\0#
+20230325vaccinationh\0#
+20220212vaccinationg\0#
+20210303vaccinationf\0#
+20200115vaccinatione\0#
+20181218vaccinationd\0#
+20171109vaccinationc\0#
+20161005vaccinationb\0\x1B	20160724maladiea\0#	20250723vaccination\`\0#	20240628vaccination_\0#	20230726vaccination^\0#	20220716vaccination]\0#	20210901vaccination\\\0#	20200821vaccination[\0#	20190817vaccinationZ\0#	20180815vaccinationY\0#	20170918vaccinationX\0#	20160819vaccinationW\0#	20150803vaccinationV\0\x1B\b20190113maladieU\0#\b20200703vaccinationT\0#\b20190729vaccinationS\0#\b20180730vaccinationR\0#\b20170827vaccinationQ\0#\b20160909vaccinationP\0#\b20150817vaccinationO\0#\b20140810vaccinationN\0#\b20130912vaccinationM\0#\b20121021vaccinationL\0#\b20111007vaccinationK\0#\b20101110vaccinationJ\0\x0720170112chirurgieI\0\x0720140524chirurgieH\0#\x0720241127vaccinationG\0#\x0720231019vaccinationF\0#\x0720221114vaccinationE\0#\x0720211125vaccinationD\0#\x0720210110vaccinationC\0#\x0720191128vaccinationB\0#\x0720181023vaccinationA\0#\x0720171028vaccination@\0#\x0720160922vaccination?\0#\x0720151109vaccination>\0#\x0720141004vaccination=\0#\x0720131016vaccination<\020151223bilan;\020200128chirurgie:\0\x1B20181230maladie9\020230925bilan8\020100206bilan7\0\x1B20110813maladie6\0#20240729vaccination5\0#20230707vaccination4\0#20220608vaccination3\0#20210420vaccination2\0#20200321vaccination1\0#20190304vaccination0\0#20180203vaccination/\0#20170207vaccination.\0#20160202vaccination-\0#20150130vaccination,\0#20140107vaccination+\0#20130130vaccination*\0#20120222vaccination)\0#20110304vaccination(\0#20100218vaccination'\020160513chirurgie&\020190704chirurgie%\0\x1B20150907maladie$\020130704bilan#\0\x1B20150329maladie"\0\x1B20131106maladie!\0#20190318vaccination \0#20180209vaccination\0#20170311vaccination\0#20160213vaccination\0#20150108vaccination\0#20140117vaccination\x1B\0#20130302vaccination\0#20120215vaccination\020250621bilan\0#20250715vaccination\0#20240821vaccination\0\x1B20250804maladie\0#20250925vaccination\0#20240912vaccination\0#20230807vaccination\0#20220911vaccination\0#20211008vaccination\0	20200616bilan\0	20250628chirurgie\0	\x1B20200623maladie\r\0	\x1B20180115maladie\f\0	20211120bilan\v\0	20180220bilan
+\0	\x1B20220516maladie	\0	20181218chirurgie\b\0	#20250122v\0\0\0,�R\0\0\0+�J\0\0\0*�@\0\0\0)�6\0\0\0(�+\0\0\0'�#\0\0\0&�\0\0\0%�\r\0\0\0$�\0\0\0#�~\0\0\0"�v\0\0\0!�m\0\0\0 �e\0\0\0�]\0\0\0�T\0\0\0�J\0\0\0�A\0\0\0\x1B�8\0\0\0�/\0\0\0�&\0\0\0�\0\0\0�\0\0\0�\r\0\0\0�\0\0\0�q\0\0\0�c\0\0\0�U\0\0\0�G\0\0\0�9\0\0\0�,\0\0\0�\0\0\0\r�\r\0\0\0t
+\0���|Z>����jP*\x07\r�\r�\r�\r�\r_\rC\r$\r\f�\f�\f�\fz\fZ\f>\f"\f\v�\v�\v�\v\v[\v?\v\x1B
+�
+�
+�
+�
+p
+T
+8
+	�	�	�	�	p	J	,	\f\b�\b�\b�\b�\b\`\bF\b&\b\x07�\x07�\x07�\x07�\x07\\\x076\x07����nK,����fD"\0���tO3����pP2����pL-	����gH%
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0t\0\x1B\x1BGuillotMargot0665294!s\0)ÉtienneDenise06 08 72 07 87r\0!GalletCaroline0806444985!q\0-DiasVictoire(0)5-35-88-92-57p\0+BigotAgnès0.6.16.78.68.24o\0\x1B!MartinezBernard0518868685\x1Bn\0!MassonGilles0534877219m\0\x1B+LemaireAlix0-6-43-77-79-75"l\0\x1B)MercierMargaret03 80 80 04 52k\0)DiazMargot02.21.70.53.67"j\0-FaureBertrand(0)1.78.68.55.56!i\0)RivièreAudrey04-57-58-26-96h\0'PetitÉtienne0699274961539g\0!ValentinJeanne0139142907 f\0+BonnetJeanne0-3-55-03-86-94e\0+EvrardPaul0.4.67.99.75.55\x1Bd\0\x1B\x1BCharrierPatrick(0)1347c\0!BlinFrançois0638965311b\0'BrunHortense0779513179556 a\0'CollinLaurence0663548703144\`\0)GayGuy06.76.19.64.70"_\0\x1B\x1B+CharlesHonoré(0)656976344876^\0!ColasClaudine0637057411!]\0\x1B\x1B)NormandRichard02 56 78 93 05\\\0-LeducRoger(0)2 58 82 54 99[\0\x1B!SanchezNath0686367146#Z\0\x1B\x1B-Le GoffGeorges(0)2 58 46 87 00Y\0-BessonZoé(0)6.38.93.10.11 X\0\x1B+MauriceSusan0-6-99-81-78-52!W\0+PerezAugustin0-2-33-35-01-67$V\0\x1B!)GrenierChristophe06 30 83 07 86 U\0\x1B\x1B'HoareauPauline0145084309814 T\0+BenardSylvie0 1 69 29 50 59 S\0\x1B+MartinsManon0.6.32.38.59.94R\0)ThomasMichel06.25.75.34.24Q\0)JolyMatthieu06-65-89-77-84"P\0\x1B\x1B+GuillotColette0-1-70-70-63-75\x1BO\0\x1B\x1BHoareauMichèle0634719&N\0-MartineauEmmanuel(0)5 54 85 60 61M\0\x1B\x1BEvrardSusanne0345985L\0\x1B'GrenierYves0375420034938!K\0\x1B+LombardOdette0 5 87 85 86 83 J\0+ThomasClaire(0)175637425486I\0)JeanMargot04.98.12.01.79 H\0\x1B+GimenezInès0.1.42.97.08.29"G\0\x1B-PoirierJeanne(0)2-78-39-45-92F\0)MorenoLuce06.33.99.86.73 E\0+DumontÉlise0-3-59-00-97-77$D\0)LévêqueMichelle03 88 15 34 64#C\0!+HardyFrançoise0-3-53-49-78-65B\0\x1B'ChauvinLucie0699788983055"A\0\x1B)LeclercqAndrée02 69 95 39 06@\0)MoreauYves07 96 49 48 45?\0!!BodinStéphanie0732618932 >\0)ColinNathalie06-95-08-17-16=\0-GrosLucas(0)2.21.36.29.41<\0\x1B\x1BColasAntoine0658435!;\0\x1B+MoreauSuzanne0-6-98-05-31-54:\0\x1B!CarlierJeannine0381061704 9\0+FleuryGilles0 7 51 15 76 49#8\0+LerouxAlexandre0.7.79.93.33.64 7\0\x1B)RenaudPauline04 69 76 77 376\0)BretonLucie06 58 67 59 935\0\x1B!RenaultPierre0535142123$4\0!-GomezEmmanuelle(0)2-40-91-66-903\0!ClercJean0423472167"2\0\x1B-GodardThierry(0)1 55 79 04 26\x1B1\0\x1B!ValetteAlain0671856048 0\0\x1B+OlivierAimé0.2.36.21.95.79 /\0\x1B)GaudinBernard03 28 54 32 81'.\0!-GuichardChristelle(0)3 59 61 76 16-\0!FaivreLucas0636228832,\0!WeissPierre0279673822 +\0\x1B!!MendèsBernadette0130709285!*\0\x1B\x1B)LecomteRaymond07.45.48.02.42!)\0)DanielÉdouard05-35-95-87-54#(\0!)BriandVéronique07 47 48 52 56'\0\x1BBousquetPaulette0324182"&\0\x1B\x1B+MonnierAuguste0.3.23.29.90.33%\0!BouvetAlain0180495504"$\0\x1B\x1B+CarlierÉlodie0 2 32 26 26 31!#\0)PelletierMarie05-65-11-72-36 "\0\x1B+JacobJosette0.6.37.51.65.52!\0!LelièvreRoger0290730923 \0!RoyerCapucine0508840356\0\x1B)FaureGeorges06.37.97.66.64\0\x1B\x1B\x1BMailletÉlodie(0)3700\0!ClercMarcel0689851979\0\x1B!ReynaudHélène0794844108\x1B\x1B\0\x1B\x1BRenaultMichèle(0)5161$\0\x1B-RivièreCéline(0)2.53.55.32.26"\0\x1B-SeguinCéline(0)4 73 98 01 23\0+GalletRené0.4.66.37.14.71 \0)DavidMarcelle07 90 82 88 40\0!De SousaMargot0557675376\0\x1BNeveuAlexandre0158037 \0-BazinAdrien(0)5 63 87 12 47 \0\x1B+LagardeSusan0.3.82.36.42.93\0'MaillardDenis0698297390488\0+MaryMarcel0-4-77-36-70-18!\0-BlotAlphonse(0)4-71-37-31-23!\0\x1B+BouvierMarcel0.6.36.96.89.83$\0\x1B+FouquetAlexandre0.6.16.44.55.35\r\0\x1B\x1BLeleuAuguste0495672#\f\0\x1B\x1B-PoirierNicolas(0)1.81.85.12.49\v\0!!CarreJoséphine0698240371 
+\0)ColinVirginie04 89 59 35 50"	\0\x1B\x1B+MathieuSusanne0 5 16 47 89 40#\b\0'FrançoisAdrienne0296951353577"\x07\0!'JosephSébastien0674097114968\0!LopesMargot0631848268 \0'ToussaintHenri0699741923828\0\x1B!VincentMartin0564007299 \0\x1B+JoubertAnouk0 4 76 33 78 15\0!DumontMarcelle0648747223#\0\x1B)DuhamelFrançois06-57-84-52-41\r\0\0\0q\0���}]8\x1B����tP/\r�\r�\r�\r�\rY\r3\r\f�\f�\f�\f�\fp\fK\f)\f\x07\v�\v�\v�\vu\vV\v2\v
+�
+�
+�
+�
+k
+F
+)
+\b	�	�	�	v	L	1	\x07\b�\b�\b�\bv\b\\\b=\b\x07�\x07�\x07�\x07�\x07a\x07E\x07 \x07���\\@#����rP.\r���|\\5����pO,����kJ*\x07����eA\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1B�e\0\x1B!BlancThierry0494415704�d\0)PascalAgnès06 30 01 02 82!�c\0)CouturierIsaac07 50 58 47 27�b\0!PayetDavid0699220684�a\0!!LévyAdélaïde0698580051#�\`\0\x1B+MaillotAugustin0-6-05-09-59-44 �_\0)BoulangerZoé07 57 79 61 63�^\0!EvrardMarc0635142549 �]\0\x1B)BonnetÉlodie06.38.87.52.38�\\\0)WagnerYves05-79-17-60-96�[\0\x1B+RibeiroLuc0.6.72.70.34.24�Z\0!BrunJean0736351711\x1B�Y\0\x1BBourgeoisJoseph0629779�X\0!ChrétienSusan0631047219%�W\0\x1B!+Le RouxJacqueline(0)367476541751!�V\0\x1B-MauryAndrée(0)4 97 42 59 29�U\0\x1BEvrardMichèle0376193 �T\0\x1B)BernardMarine07.65.18.86.27�S\0\x1B!GimenezJérôme0680785914$�R\0-ToussaintRoland(0)1.41.05.10.66�Q\0\x1BBrunetPaul0623150�P\0+LeroyMaryse0.5.67.76.53.11!�O\0-ÉtienneLucy(0)6-84-64-72-13�N\0!ParisDavid0632061932 �M\0-BaudrySusan(0)4 93 09 92 00$�L\0)PasquierValentine06.44.97.14.82�K\0\x1B\x1B!RaymondArnaude0609056553�J\0\x1B!OlivierZacharie0160572690%�I\0!\x1B+CarpentierThibaut0.4.22.43.71.67�H\0!LelièvreSabine0630445756$�G\0\x1B-TeixeiraTristan(0)3.67.63.44.33�F\0)BodinMaggie06-36-98-86-93�E\0)LegrosRoland03-59-39-24-69�D\0-PascalAlex(0)5.47.35.44.91 �C\0\x1B+RoyerGeorges0.7.76.74.60.79 �B\0-LucasMarthe(0)6 38 39 60 30�A\0\x1B'NavarroRoland0798604336423"�@\0+ChevalierNoël(0)256393906566!�?\0\x1B+GuillonThomas0-2-41-17-62-68�>\0!DupuisHenri0699692524�=\0\x1BHamonMichelle0636858 �<\0+MenardClaire0 7 50 32 68 30�;\0)GuyonArthur03-57-04-58-32 �:\0\x1B\x1B'LarocheBernard0508252551107�9\0\x1B\x1BMaréchalAuguste0482633�8\0!RoyerVirginie0774195478�7\0\x1B!PicardAuguste0770642356"�6\0\x1B-FerrandAndré(0)5 49 98 75 33�5\0!BrunAurore0633170082$�4\0)ToussaintThibault07 67 00 94 45%�3\0\x1B!+BouvierEmmanuelle0 3 89 89 35 50#�2\0\x1B+MartinezCharles0 6 42 89 30 48"�1\0!)BaronGeneviève06 42 23 53 78�0\0\x1B\x1BJacquesDaniel0565775#�/\0\x1B)MaillotFrançois01 72 67 39 09�.\0\x1B!CousinSuzanne0622761476�-\0\x1B\x1BMaceAndrée(0)4383 �,\0\x1B)DupontCécile04.98.87.21.44�+\0\x1B!JacquetMichelle0658964884#�*\0\x1B)RichardThéodore04 26 41 65 89$�)\0'MaréchalGuillaume0432888070135'�(\0!-BertrandChristophe(0)3 59 11 70 39�'\0\x1B\x1BHenryHonoré0682970'�&\0!-DelannoyAntoinette(0)2.50.71.44.77�%\0+BrunetLouis(0)488539221741$�$\0-SchneiderMichel(0)3 44 53 11 81"�#\0)RodriguezAimée02-19-05-33-90!�"\0+MeyerDanielle0-3-84-74-13-56�!\0-AndreNath(0)4.11.90.35.43� \0\x1BBouvetIsabelle0370030"�\0\x1B)BlanchetThierry07.75.81.03.61�\0\x1B)CaronCélina06 32 69 06 03�\0)ColletMichel07.74.19.91.51�\0!RivièreMichelle0783245490�\x1B\0\x1B!JoubertNathalie0380239746#�\0!+LopesAlexandria0 3 87 47 08 68�\0\x1BMarieRoland0174382!�\0)RocheValentine04-78-68-00-08�\0!AugerLaurence0456126365"�\0\x1B\x1B+LecomteVincent0.4.77.90.99.23!�\0)JosephJérôme06 03 35 09 79�\0-RoyerInès(0)4 26 33 90 11$�\0\x1B-SchmittMarcelle(0)3-68-04-62-70�\0-BoulayAlix(0)2.96.88.34.90�\0)RobertSylvie03.68.80.60.13"�\0#+De OliveiraGuy0.4.50.86.69.70�\0\x1B!AubertCamille0327409576#�\0-MenardAugustin(0)2.77.20.38.76�\r\0\x1B\x1BLombardInès0630755 �\f\0\x1B)BessonSusanne02 56 60 31 45�\v\0\x1B'HenryGilbert0637353340809�
+\0!CostaMichelle0749817266#�	\0-GaillardJeanne(0)2 56 60 95 86%�\b\0+LefebvreGrégoire0 6 72 30 27 23$�\x07\0\x1B!)PoulainChristophe06 98 75 57 87�\0'CourtoisDenis0473670434834�\0\x1B\x1BMerleLaurent0437303�\0!DurandGrégoire0559875949&�\0!+DelaunayThéophile0.2.30.02.52.35�\0\x1B'MarchalDenis0372759874702!�\0\x1B'MeunierHélène0645891261756�\0\0\x1B\x1B!BlondelBenoît0143937338\0\x1B!MartinsMarianne0482427893#~\0+DupuisStéphane0 6 32 59 77 85}\0)JolyLucas01.75.12.80.30"|\0\x1B\x1B+PereiraWilliam0 6 48 93 03 38\x1B{\0\x1B!RossiÉmilie0252929445#z\0+GuillaumeAimée0 7 85 62 91 42y\0'ParentDenise0371806640643x\0)PasquierAnne07 50 27 50 68w\0+GomesLucie(0)532879388692 v\0+RuizÉtienne0.6.37.27.12.12u\0!!PayetThéophile0632050351\r\0\0\0p\0���vU-\f���uP0\r�\r�\r�\r�\rl\rF\r+\r\f�\f�\f�\fx\f[\f;\f\v�\v�\v�\v�\vi\vG\v#
+�
+�
+�
+�
+n
+M
+-
+	�	�	�	�	j	O	5	\b�\b�\b�\b�\b^\b;\b\x07�\x07�\x07�\x07�\x07s\x07W\x075\x07����a@$���rL)���zX3\f����eE$\v���za<\x1B����kM)\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0!�U\0\x1B+SeguinSusanne0.7.54.23.37.52!�T\0\x1B+RobertSuzanne0.6.79.20.08.73\x1B�S\0\x1B\x1BSchmittAurélie0603812�R\0\x1B!\x1BBernardÉlisabeth0666573\x1B�Q\0\x1B!DavidAntoine0695415077$�P\0\x1B-GautierBenjamin(0)3.45.53.76.58%�O\0\x1B-FernandezPatrick(0)5-90-36-28-63 �N\0'DupuisJeannine0796700167420�M\0+PagesAimé0 4 44 75 63 61"�L\0\x1B\x1B+CordierGeorges0-6-34-69-91-52�K\0!GayAlex0660722026!�J\0'GarciaConstance0630508897927%�I\0+RodriguezMichelle0.6.38.98.84.56 �H\0+RobertAnaïs0-3-22-11-90-48�G\0'PagesDanielle0635018590291�F\0\x1B\x1BGeorgesGuy0663663�E\0)DenisAgathe04.65.44.40.02�D\0!BaillyIsabelle0328760232�C\0\x1B!GuibertMarine0785421102�B\0!!BaillyAlexandrie0383754634 �A\0)PiresLaetitia06 00 50 60 40�@\0+RouxDavid0.6.30.82.18.61 �?\0+DumontJeanne0 6 31 00 03 53$�>\0\x1B!)RollandAlexandria01 42 79 26 86"�=\0+DelattrePierre0-1-58-98-43-10�<\0)CoulonMarine06-35-72-96-58�;\0!CarreClémence0645300850 �:\0)CourtoisIsaac06 29 71 46 29 �9\0-MunozAnaïs(0)6.17.80.70.32"�8\0+GrégoireHenri0.7.62.06.69.46!�7\0!'LeducThéophile0699136086461 �6\0+LégerMarthe0-5-35-59-29-43#�5\0\x1B+PerrierBenjamin0.2.55.78.85.52$�4\0+MaillardMarianne0 6 95 10 59 04\x1B�3\0!\x1BVidalMarguerite0134960$�2\0\x1B!)RichardJacqueline07-79-00-28-17 �1\0#!De OliveiraLouise0325562604 �0\0'FabreCharlotte0586723480545�/\0\x1B\x1BGodardNicolas0695344�.\0'CoulonXavier0773229665095"�-\0\x1B\x1B+LacombeMaurice0.7.69.72.82.44�,\0\x1B!DevauxColette0632964279�+\0)BlinMarianne06-38-51-85-50�*\0+WeissNoémi0 4 42 47 15 61%�)\0+CharrierDorothée0 1 82 91 01 74!�(\0\x1B\x1B)JacquesÉmilie07.53.94.68.53�'\0\x1B-JoubertLuc(0)6.95.39.18.99�&\0\x1BNeveuBenjamin0638775�%\0\x1B)BrunMargaux06 37 94 72 87\x1B�$\0\x1B!HenryMaurice0765514478�#\0\x1B+MaheCharles0.7.41.78.65.97�"\0\x1B\x1B!MailletOlivier0635208321!�!\0)PerezValentine06.38.40.91.35 � \0!LemonnierJérôme0683273895 �\0\x1B-GarnierZoé(0)6-95-33-20-12#�\0\x1B)HumbertDorothée05-61-60-91-66�\0!!LesageStéphanie0617796083�\0\x1B!GuérinMathilde0411765902!�\x1B\0-ColletJeanne(0)6 22 22 65 07$�\0\x1B+BlondelHenriette0 6 46 67 68 24 �\0\x1B)CollinJacques04 80 26 48 83�\0\x1BMarieOdette0757504�\0\x1B\x1BTessierLucie0141039�\0\x1B\x1BTessierAimé0158644 �\0)MeyerLaetitia06.13.37.13.89�\0!JosephGrégoire0610250098�\0\x1B)RogerGilbert05 57 35 42 83 �\0+MoreauÉdith0.4.99.40.91.92�\0!MaheConstance0325536720�\0!RodriguezManon0699397397�\0\x1B!ChauvinIsabelle0524317196"�\0\x1B-EvrardGilbert(0)5-61-11-21-98#�\r\0-GodardÉtienne(0)5.59.06.01.72$�\f\0\x1B!)LoiseauÉléonore03 57 13 03 45�\v\0!AubryMaryse0477371766#�
+\0-GuichardJeanne(0)3-22-93-64-87!�	\0+CosteNathalie0.6.34.13.04.43�\b\0)DuboisLouise06 34 87 37 10"�\x07\0\x1B-DupréMonique(0)6.34.07.71.74 �\0-LaunayRémy(0)5 96 64 01 75 �\0-DupuyThomas(0)3-62-48-40-82�\0\x1B'BlondelMarine0632895759386$�\0)LelièvreMatthieu02.54.78.19.47\x1B�\0\x1B\x1BCharrierColette0545478�\0'HoarauAnouk0468604426512�\0\0\x1BMullerBertrand0774868"�\0\x1B)BlondelThibault04.78.90.25.71$�~\0\x1B+HernandezJacques0 7 41 43 13 09#�}\0\x1B)GuibertFrançois02-35-21-50-94�|\0\x1B\x1BMauryCharles0517248#�{\0-DufourLaetitia(0)4-82-41-97-40�z\0\x1B\x1BLoiseauAimé0545323#�y\0!)BonninFrançoise06-78-38-78-32�x\0\x1BCaronRémy(0)6698�w\0!!HuetAntoinette0153097280!�v\0'AlexandreVictor0610914655920�u\0\x1B'RémyBenoît0434348066784!�t\0+DescampsRené0 2 22 31 69 23�s\0)LedouxAgnès04 84 32 11 68�r\0\x1B\x1B!LaurentOcéane0632079569"�q\0+LebrunZacharie0-6-31-56-75-13$�p\0\x1B!)Le RouxVéronique06-30-49-11-16!�o\0\x1B\x1B)LagardeTristan05 53 62 58 70!�n\0\x1B+Le GoffAndré0.3.56.36.07.42%�m\0#'CharpentierBrigitte0632667651640�l\0+DialloLucy0.2.43.86.35.54%�k\0\x1B-CouturierLaurent(0)4 32 99 95 15�j\0\x1B'LopesSuzanne0631180531211!�i\0\x1B\x1B)GuillonBenoît06.40.29.48.00�h\0-AubryLéon(0)2.58.65.38.05\x1B�g\0)RoyRémy06 75 79 78 11#�f\0'DelaunayCatherine0450686432914\r\0\0\0;\x07�\0���mH(\v����b@\r�\r�\r�\r�\rr\rO\r.\r	\f�\f�\f�\f\f\`\f:\f\f\0\v�\v�\v�\vl\vG\v%\v
+�
+�
+�
+s
+O
+-
+\x07	�	�	�	}	\`	;	\b�\b�\b�\b�\bg\bE\b"\x07�\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0 �\0+TraoreAlfred(0)518928820786 �\0+DupontMarcel0-3-62-54-15-13�\0-ClercMarie(0)3.10.23.18.81"�\r\0\x1B-RocherVincent(0)6.36.52.96.63�\f\0\x1B+NormandZoé0.6.36.52.05.04%�\v\0+ChrétienHortense0-6-33-24-64-76\x1B�
+\0'GomesPaul0632956531301!�	\0\x1B+MenardOlivier0 3 56 99 61 37 �\b\0\x1B)FischerOlivie02-14-42-97-18"�\x07\0\x1B-MarquesNoémi(0)5.49.93.88.18�\0\x1B\x1B\x1BBonneauColette0531359"�\0\x1B\x1B+FischerCéline0 6 36 14 25 26�\0)HamonAlex06.33.78.94.81�\0\x1BDialloAlphonse0635309&�\0-AlexandreÉtienne(0)2 69 06 53 55#�\0\x1B)BourgeoisCorinne06 30 20 79 22�\0\0\x1B)MasseJosette06-35-21-13-55!�\0\x1B\x1B)HoareauMargaud06-55-42-30-86!�~\0\x1B+MauriceAgathe0-6-82-35-04-39"�}\0+LegendreSophie0 6 45 74 50 67%�|\0\x1B!+LegrandÉlisabeth(0)370800378410�{\0+AlvesYves(0)492834626601�z\0+BlinAnaïs0 6 41 32 79 50�y\0!TeixeiraMichelle0631619063"�x\0!'CarpentierDaniel0632502368459!�w\0\x1B+PeltierNoémi0.2.21.32.50.63!�v\0\x1B+LenoirAmélie0 6 89 74 67 76!�u\0\x1B\x1B)BesnardGeorges07 35 51 91 19%�t\0\x1B-OlivierDorothée(0)5 63 03 97 55�s\0\x1B\x1B\x1BCordierCéline0385183�r\0!BrunelAnouk0638377732#�q\0\x1B+GarnierPaulette0 5 81 39 30 38�p\0\x1B!BouchetSylvie0630371611#�o\0\x1B)PelletierMargaux06 20 40 74 12�n\0!RamosJulie0351699702$�m\0+Da SilvaAlphonse0.3.24.89.88.64�l\0)MilletRené07.72.10.82.23"�k\0\x1B-VincentÉdith(0)2 34 82 57 34�j\0\x1B)GrosGeorges06-14-68-67-95 �i\0\x1B)ValletMargaux03 64 42 04 33�h\0'DelmasAimé0382474024551 �g\0\x1B+DumasRaymond0 2 76 04 45 94 �f\0\x1B+BazinGabriel0 3 53 04 19 78\x1B�e\0\x1BImbertStéphane0667969�d\0\x1B'DupuisOlivier0549073859710%�c\0\x1B-FerrandFrançois(0)5-31-04-51-45�b\0+SimonAimée0-6-99-60-46-96�a\0+RenardInès0-6-31-24-51-28#�\`\0\x1B)MendèsThéodore04.76.41.40.53�_\0!De SousaValérie0752401018�^\0\x1B!RivièreWilliam0458404754\x1B�]\0\x1B!VidalBenoît0630213998�\\\0\x1BFabreFrançois0766132�[\0!MorenoBertrand0638116043"�Z\0\x1B-RichardAimée(0)1-53-72-97-82$�Y\0\x1B+RichardGuillaume0 6 33 13 52 61�X\0\x1B)VidalAntoine03 67 60 90 02"�W\0+GarciaMichelle0.5.17.13.78.33"�V\0-LecoqMichelle(0)4-94-46-82-84\r\0\0\0�\0����sY? ����w[A&\v\r�\r�\r�\r�\rz\r_\rA\r&\r
+\f�\f�\f�\f�\f}\fb\fI\f/\f\v�\v�\v�\v�\v�\vo\vQ\v5\v
+�
+�
+�
+�
+�
+h
+L
+2
+	�	�	�	�	�	p	P	4	\b�\b�\b�\b�\b�\bl\bS\b7\b\x07�\x07�\x07�\x07�\x07�\x07t\x07V\x07;\x07 \x07����lQ5�����iM3�����kP5\x1B�����vZ> ����x\\B&
+����tU7\0�\x07\0\x1BoiseauZéphyr20210113\0�\x1B�\0\x1BchatMinette20131212\0��\0\x1BlapinPépito20151217\0��\0\x1BlapinGalette20210203\0��\0chatPistache20201019\0��\0lapinGrignote20120211\0��\0chatTango20120922\0��\0\0chienLila20250706\0�\0chatPatate20131005\0�~\0chienDjango20170626}\0chatOlive20100322|\0oiseauTutti20100624~{\0oiseauMoka20250604}\x1Bz\0oiseauNacré20250210|y\0chienRiley20210515{x\0chienMalice20190604{w\0lapinPoupette20161216yv\0chienOréo20160902yu\0lapinFlanelle20190806wt\0oiseauFolie20140709ws\0\x1BchatMitaine20220128ur\0chatSushi20221115uq\0chienPacha20180303tp\0\x1BoiseauCaprice20200122to\0chienNico20190105rn\0chienTika20131127qm\0\x1BoiseauQuetzal20140629ql\0chienTika20111006ok\0chienSimba20100303nj\0oiseauEole20150626li\0oiseauPlumette20110624lh\0oiseauOpale20140120kg\0chienVoyage20131007kf\0chatMirabelle20171209je\0lapinRafale20141010jd\0chienNico20181009g\x1Bc\0\x1BchienGouache20180706gb\0chienRomy20201208fa\0chienSirius20150409f\x1B\`\0\x1BchienSésame20180615d_\0\x1BoiseauFlèche20170406c^\0\x1BoiseauColibri20110831c\x1B]\0\x1BchienGoliath20161010b\\\0chatPaillette20121201b[\0lapinGaufre20220206\`Z\0chienGaston20181031\`Y\0oiseauRubis20160511]X\0chatFlocon20250701]W\0oiseauJazz20100805[V\0oiseauAquarelle20170425[U\0!lapinMarjolaine20250904WT\0\x1BchatCaramel20240821VS\0!lapinCotonnette20100922S\x1BR\0\x1BlapinSouffle20171105SQ\0chatLitchi20210511RP\0lapinOréo20210518QO\0\x1BoiseauSifflet20140822QN\0oiseauFugu20220707PM\0\x1BoiseauSoprano20210312OL\0chienNectar20181124NK\0chatMoka20220215MJ\0\x1BchatCarbone20100829LI\0oiseauFolie20110715L\x1BH\0oiseauCantor20210920KG\0lapinOlympe20141117KF\0chatDune20151228JE\0chatYoshi20150301JD\0lapinCâlisson20120920H\x1BC\0chatNymphéa20120218H\x1BB\0\x1BlapinCâline20190402EA\0oiseauZazou20250104E@\0chienSimba20220610C?\0lapinFroufrou20241002A>\0oiseauRuban20160617@=\0oiseauPrintemps20150811?<\0oiseauOpale20110709?;\0lapinCrème20110524>:\0chatRavel20250607<9\0chienDjango20190621<8\0chienPacha20200714:\x1B7\0oiseauSoleil20131107:6\0oiseauOpium2015070685\0chatPlume2024081044\0chienCharly202411193\x1B3\0\x1BlapinSirocco2025050822\0\x1BchatMistral2021031611\0lapinRuban2012091910\0chatPrune201905230/\0chatMirabelle201102010.\0!lapinChouquette20140507.-\0!oiseauCristallin20160430.,\0\x1BchatCaramel20110623-+\0lapinCalisson20180617-\x1B*\0\x1BlapinComète20220603,)\0chatPixel20141217+(\0\x1BchatSésame20250205*'\0chatTango20210519*&\0chatLoulou20220215)%\0oiseauChant20201128($\0chienHatchi20240621'#\0chatTango20160324'"\0chatJazz20210602"!\0lapinCacao20130405" \0chatChopin20191031\x1B\0\x1BlapinSpirale20100103\x1B\0oiseauSaphir20251124\x1B\0chienLucky20170611\x1B\x1B\0\x1BlapinComète20190425\x1B\0lapinPelote20230405\0chatOlympe20100324\0lapinMoelleux20250725\0chatCerise20251213\x1B\0oiseauSaphir20140502\0\x1BoiseauSifflet20241228\0\x1BoiseauCristal20200420\0chienAlto20170720\0lapinBiscotte20220823\0chienRocco20140311\0chatGollum20151209\0chatPlume20221107\0oiseauChant20130714\x1B\0oiseauNacré20190207\f\r\0\x1BoiseauCumulus20190227\v\f\0oiseauEole20120921\v\v\0lapinLys20150725
+
+\0chienPongo20160902
+	\0chienCroquette20150713	\b\0oiseauPlumette20101002	\x07\0chienRomy20130922\0chatVoyou20100120\0lapinBouton20120110\0chienNino20240715\0\x1BchatMistral20251206\0lapinRoudoudou20210901\0	oiseauFlocon20171111\r\0\0\0}\0����cD$����pP1\r�\r�\r�\r�\ry\r\\\r?\r \r\0\f�\f�\f�\f�\fj\fN\f1\f\v�\v�\v�\v�\vy\v\\\v=\v
+�
+�
+�
+�
+�
+j
+M
+-
+	�	�	�	�	v	X	8	\b�\b�\b�\b�\b}\b[\b=\b\b\x07�\x07�\x07�\x07\x07_\x07C\x07%\x07����jL.\r����wY="����dH)\r����tX9�����lL.\f����tY<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0\x1BlapinGalette20251007�\0lapinPomme20200501�\0chatMoka20250109\0��\0chatFrimousse20140909\0��\0\0chienGhost20170905\0��\0\x1BoiseauCyclone20130531\0��~\0chienOréo20230819\0�\x1B�}\0\x1BchatComète20130601\0��|\0oiseauPatchouli20170820\0�\x1B�{\0oiseauTempo20171129\0��z\0lapinMoelleux20190530\0��y\0lapinCacao20110403\0��x\0lapinOréo20120203\0��w\0chatMoka20120714\0��v\0\x1BlapinChiffon20250823\0��u\0chatZouzou20120215\0��t\0\x1BoiseauSirocco20110624\0��s\0chienKiko20230504\0��r\0\x1BchienVanille20160422\0��q\0chienLila20100805\0��p\0#chatRitournelle20230613\0��o\0\x1BlapinGnocchi20111127\0�\x1B�n\0lapinRafale20200105\0��m\0chienFuego20251217\0��l\0chienOpale20240710\0��k\0chatGraal20130310\0��j\0\x1BchienSésame20190718\0��i\0chienSiri20140601\0��h\0chienFlanelle20210526\0��g\0lapinBrindille20150224\0��f\0chienCroquette20220304\0��e\0oiseauSaphir20150227\0��d\0\x1BchienCaramel20111021\0�\x1B�c\0oiseauFolie20221017\0��b\0chatOreo20240801\0��a\0oiseauRio20100418\0�\x1B�\`\0chienHubble20120625\0�\x1B�_\0chienHatchi20110714\0��^\0\x1BoiseauSoprano20140502\0�\x1B�]\0oiseauTango20130602\0�\x1B�\\\0chienNougat20240917\0��[\0chatOpium20240222\0��Z\0lapinChantilly20140320\0�\x1B�Y\0oiseauDelta20230512\0�\x1B�X\0lapinNectar20160406\0��W\0\x1BoiseauGlycine20110227\0��V\0oiseauClochette20210127\0�\x1B�U\0\x1BchatMistral20180104\0��T\0\x1BchienHaddock20160112\0��S\0lapinZibou20160105\0��R\0oiseauPlumet20140315\0�\x1B�Q\0\x1BchatMistral20190814\0��P\0lapinMoka20130804\0��O\0\x1BoiseauCristal20130731\0��N\0\x1BlapinGnocchi20180827\0� �M\0!oiseauTourbillon20171022\0��L\0\x1BlapinComète20210602\0� �K\0!oiseauCristallin20170815\0��J\0chatTsuki20191027\0�\x1B�I\0oiseauZazou20211126\0�\x1B�H\0\x1BchatZéphyr20120903\0��G\0!lapinCotonnette20110516\0��F\0chienBrume20180923\0��E\0lapinRéglisse20120711\0��D\0oiseauBambou20110811\0��C\0lapinPoupette20210409\0��B\0chienPixel20180621\0��A\0lapinMirabelle20220418\0��@\0\x1BoiseauCymbale20130315\0�\x1B�?\0lapinBéret20251130\0��>\0\x1BoiseauGlycine20210104\0��=\0oiseauPistil20121228\0�\x1B�<\0lapinBambou20160428\0�\x1B�;\0\x1BchatCarbone20150702\0��:\0chienDaisy20121126\0��9\0oiseauCantor20150106\0��8\0lapinNoisette20150829\0��7\0chienPacha20220526\0��6\0\x1BlapinSésame20230123\0��5\0lapinNuage20160729\0��4\0oiseauCobalt20240429\0��3\0lapinLys20170526\0��2\0oiseauCosmos20210623\0�\x1B�1\0oiseauOpale20120517\0��0\0\x1BoiseauSoprano20160907\0��/\0\x1BlapinZéphyr20120318\0��.\0chienGaïa20131216\0��-\0chatEncre20111219\0��,\0chatLitchi20231125\0��+\0oiseauPerroquet20151116\0��*\0!lapinTartelette20150812\0�\x1B�)\0chienCharly20240508\0��(\0chienOpale20230529\0��'\0chatChopin20250929\0��&\0chatPixel20110727\0��%\0oiseauNacré20160421\0��$\0oiseauCantor20230214\0�\x1B�#\0lapinBambou20130622\0��"\0chatIris20130915\0��!\0\x1BchienSésame20180601\0�� \0lapinFroufrou20121210\0��\0oiseauOlympe20140313\0��\0oiseauAzur20220902\0��\0chatFigaro20190714\0��\0chatPaillette20230118\0�\x1B�\x1B\0chienHatchi20150521\0�\x1B�\0\x1BchatComète20140609\0��\0lapinChantilly20161104\0��\0chienTwix20190719\0��\0oiseauBreeze20100919\0��\0oiseauBambou20120824\0��\0\x1BoiseauSifflet20210716\0�\x1B�\0oiseauOrion20180517\0�\x1B�\0chienWhisky20230430\0�\x1B�\0lapinNectar20240127\0��\0chatDomino20190828\0�\x1B�\0chienDjango20230817\0��\0chatFantôme20140403\0��\0\x1BoiseauSoleado20191101\0��\r\0\x1BlapinSouffle20240920\0�\x1B�\f\0lapinPistou20180527\0��\v\0oiseauCobalt20231125\0��
+\0chatToupie20121109\0��	\0oiseauPlumette20200829\0��\b\0#chatRitournelle20231104\0�\r\0\0\0~\0����pT3����|^@\r�\r�\r�\r�\rj\rN\r/\r\r\f�\f�\f�\f�\ft\fV\f5\f\v�\v�\v�\v�\v|\v_\v?\v\v\0
+�
+�
+�
+�
+l
+O
+1
+	�	�	�	�	{	[	=		\b�\b�\b�\b�\bj\bL\b,\b\x07�\x07�\x07�\x07�\x07s\x07S\x077\x07�����dE)
+����vV:�����fI+	����lL.\f����z[9�����gF*\0\0\0\0\0\0\0\0\0\0�\0chatNinja20161126{�\0oiseauRio20230922{�\0\0lapinGingembre20201208z�\0chienKiko20240606y�~\0oiseauSaphir20101220x�}\0\x1BchienGouache20141015x\x1B�|\0chienVoyage20220521w�{\0chienTempo20130607v�z\0chatTango20120426v�y\0lapinCâlisson20250628s�x\0!lapinTartelette20130120r�w\0\x1BchienHaddock20180919q�v\0chatArgent20220701q�u\0chatChopin20150613p�t\0chienOpale20100103o�s\0chatFélix20221207o\x1B�r\0chienCharly20100821n�q\0oiseauAquarelle20140730n\x1B�p\0\x1BchatCaramel20121212k�o\0lapinMoelleux20220904k�n\0\x1BchienGouache20130423i\x1B�m\0oiseauChant20161005e�l\0oiseauÉmeraude20180608e�k\0lapinBulle20140114b�j\0lapinRoudoudou20240408b�i\0oiseauSymphonie20241017a\x1B�h\0\x1BchatFéline20200930a�g\0chienTitus20151222\`�f\0chienRex20171026^\x1B�e\0chienPachou20100122^\x1B�d\0oiseauDelta20230428]�c\0chienPixel20120304\\�b\0\x1BlapinPoussin20160624\\�a\0\x1BoiseauQuetzal20150425[�\`\0lapinTournesol20181021[�_\0chienTika20210111Z�^\0\x1BoiseauCumulus20180516Z�]\0chienVoyou20160907Y�\\\0oiseauFlocon20240814X\x1B�[\0chienSnoopy20150625V�Z\0oiseauBambou20100611V�Y\0chatMoka20210406U�X\0oiseauIvoire20171029T�W\0chatZazou20130910T�V\0\x1BlapinCarotte20101101R�U\0chienGhost20180811R�T\0oiseauPrintemps20200601Q�S\0chatRubis20150806Q�R\0chienAbyss20231017O\x1B�Q\0oiseauGalet20211014O�P\0chatNinja20230910L�O\0lapinTournesol20210109K�N\0chatSushi20170526K�M\0\x1BoiseauFlèche20180104I\x1B�L\0\x1BchatFéline20160711H�K\0lapinGingembre20150824E�J\0chatBiscotte20170720E�I\0chienRhapsodie20201119D�H\0chienKenny20151205D�G\0chienTommy20181215C�F\0lapinFlanelle20250623B\x1B�E\0\x1BchatCaramel20180217@�D\0chienPlume20160918>�C\0lapinPistache20201215=�B\0lapinPistache20170205=�A\0lapinBrume20190728<�@\0chienBrume20110624<�?\0lapinOréo20220404;�>\0oiseauPistil20220616:\x1B�=\0oiseauPerla20110226:�<\0\x1BoiseauBiscuit201505226�;\0chatOlympe202011236�:\0chienJazz202511305�9\0#chatRitournelle201404215�8\0chienRubis201303184\x1B�7\0chienShadow201108233�6\0\x1BoiseauChromé201901303\x1B�5\0chienMalice201112022�4\0chatZouzou201612271�3\0chatOlympe202511011�2\0!chatGribouille20240219/�1\0oiseauKiko20230622/�0\0chatCendre20241128.�/\0chienVolt20220826,\x1B�.\0chienMalice20160308,�-\0chienCroquette20160127+�,\0\x1BoiseauPinceau20140319*�+\0chienFuego20140521)�*\0chienCroquette20100217(�)\0\x1BlapinPipette20231107(�(\0chienDaisy20170914&�'\0chienRubis20201023&�&\0\x1BoiseauCymbale20110515"�%\0\x1BlapinPeluche20181212�$\0lapinBrindille20161010\x1B�#\0oiseauGalet20211210�"\0chatPatate20250316\x1B�!\0lapinMuffin20190719� \0lapinMeringue20200428\x1B�\0!lapinCotonnette20170624\x1B�\0chatEncre20150212�\0#chatRitournelle20231019�\0\x1BlapinVelours20191118�\x1B\0chatMango20190718\x1B�\0lapinBounty20100809�\0\x1BoiseauVertige20191207\x1B�\0chienPachou20140428�\0chienGinko20231204\x1B�\0lapinMimosa20251115\x1B�\0lapinMuffin20091228�\0lapinChantilly20180825\x1B�\0chienWhisky20240904\x1B�\0oiseauGalet20230525\x1B�\0lapinGaufre20250207�\0\x1BoiseauBiscuit20110515\x1B�\0chienEclair20240506\r�\0lapinChantilly20221226\r\x1B�\r\0oiseauOrion20210430	�\f\0chatZazou20140520\b�\v\0lapinPissenlit20161101\b�
+\0chienNina20181206\x07�	\0chatRubis20170921\x07�\b\0oiseauFugu20171205�\x07\0chienKiko20150620�\0chatLoulou20241115\x1B�\0chienCharly20160410\r\0\0\0\r\0����gK)\r����tR5\r�\r�\r�\r�\r�\rg\rK\r,\r\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\x1B\0chatSushi20150817��\0\x1BchienJazzmin20131118��\0chatPlume20250420�\x1B�\0oiseauNuage20230203��\0chienTwix20190406��\0chatVoyou20201003��\0chatMoka20151108��\0\x1BlapinCarotte20110531��\0\x1BoiseauVertige20251110�\x1B�\0oiseauOpium20230501��\0chatCendre20150509��\0!lapinChâtaigne20120505��\0chienRocco20250717��\0\x1BchienVanille20241112�\x1B�\r\0chienCharly20250712��\f\0\x1BoiseauSoleado20160822��\v\0\x1BlapinÉclair20210123��
+\0chatPixel20160131��	\0oiseauÉmeraude20150921��\b\0chatEncre20250125��\x07\0chatGaufrette20121001��\0chatFleur20140312�\0chatRavel20241117�\0oiseauPatchouli20130905~�\0oiseauOlympe20200219}\r\0\0\0�C\0����~dJ0������gL1\r�\r�\r�\r�\r�\r~\rc\rH\r-\r\f�\f�\f�\f�\f�\f~\fg\fN\f5\f\v�\v�\v�\v�\v�\vx\v]\vB\v'\v\f
+�
+�
+�
+�
+�
+t
+_
+H
+/
+	�	�	�	�	�	x	]	B	'	\f\b�\b�\b�\b�\b�\bn\bS\b8\b\b\x07�\x07�\x07�\x07�\x07{\x07d\x07I\x07.\x07�����qV;$	�����gL1�����tY>'������iN3�����oW?)�����{_C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0#\r20210428vaccination�\0#\r20200411vaccination�\0#\r20190324vaccination�\0\f20170423chirurgie�\0\f20190924chirurgie�\r\0\x1B\f20200224maladie�\f\0\f20150507chirurgie�\v\0\f20150209bilan�
+\0\f20201018bilan�	\0\f20131007bilan�\b\0\x1B\f20181211maladie�\x07\0\x1B\f20170329maladie�\0#\f20210828vaccination�\0#\f20200920vaccination�\0#\f20190806vaccination�\0#\f20180830vaccination�\0#\f20170717vaccination�\0#\f20160826vaccination�\0\0#\f20151006vaccination\0#\f20140926vaccination~\0#\f20131110vaccination}\0#\f20121110vaccination|\0\v20190125chirurgie{\0\v20200208chirurgiez\0\v20151016bilany\0\v20181223chirurgiex\0\v20191004bilanw\0\v20160509chirurgiev\0\v20230615bilanu\0\x1B\v20191125maladiet\0#\v20230713vaccinations\0#\v20220608vaccinationr\0#\v20210707vaccinationq\0#\v20200623vaccinationp\0#\v20190510vaccinationo\0#\v20180624vaccinationn\0#\v20170730vaccinationm\0#\v20160727vaccinationl\0#\v20150902vaccinationk\0#
+20250119vaccinationj\0#
+20240225vaccinationi\0#
+20230325vaccinationh\0#
+20220212vaccinationg\0#
+20210303vaccinationf\0#
+20200115vaccinatione\0#
+20181218vaccinationd\0#
+20171109vaccinationc\0#
+20161005vaccinationb\0\x1B	20160724maladiea\0#	20250723vaccination\`\0#	20240628vaccination_\0#	20230726vaccination^\0#	20220716vaccination]\0#	20210901vaccination\\\0#	20200821vaccination[\0#	20190817vaccinationZ\0#	20180815vaccinationY\0#	20170918vaccinationX\0#	20160819vaccinationW\0#	20150803vaccinationV\0\x1B\b20190113maladieU\0#\b20200703vaccinationT\0#\b20190729vaccinationS\0#\b20180730vaccinationR\0#\b20170827vaccinationQ\0#\b20160909vaccinationP\0#\b20150817vaccinationO\0#\b20140810vaccinationN\0#\b20130912vaccinationM\0#\b20121021vaccinationL\0#\b20111007vaccinationK\0#\b20101110vaccinationJ\0\x0720170112chirurgieI\0\x0720140524chirurgieH\0#\x0720241127vaccinationG\0#\x0720231019vaccinationF\0#\x0720221114vaccinationE\0#\x0720211125vaccinationD\0#\x0720210110vaccinationC\0#\x0720191128vaccinationB\0#\x0720181023vaccinationA\0#\x0720171028vaccination@\0#\x0720160922vaccination?\0#\x0720151109vaccination>\0#\x0720141004vaccination=\0#\x0720131016vaccination<\020151223bilan;\020200128chirurgie:\0\x1B20181230maladie9\020230925bilan8\020100206bilan7\0\x1B20110813maladie6\0#20240729vaccination5\0#20230707vaccination4\0#20220608vaccination3\0#20210420vaccination2\0#20200321vaccination1\0#20190304vaccination0\0#20180203vaccination/\0#20170207vaccination.\0#20160202vaccination-\0#20150130vaccination,\0#20140107vaccination+\0#20130130vaccination*\0#20120222vaccination)\0#20110304vaccination(\0#20100218vaccination'\020160513chirurgie&\020190704chirurgie%\0\x1B20150907maladie$\020130704bilan#\0\x1B20150329maladie"\0\x1B20131106maladie!\0#20190318vaccination \0#20180209vaccination\0#20170311vaccination\0#20160213vaccination\0#20150108vaccination\0#20140117vaccination\x1B\0#20130302vaccination\0#20120215vaccination\020250621bilan\0#20250715vaccination\0#20240821vaccination\0\x1B20250804maladie\0#20250925vaccination\0#20240912vaccination\0#20230807vaccination\0#20220911vaccination\0#20211008vaccination\0	20200616bilan\0	20250628chirurgie\0	\x1B20200623maladie\r\0	\x1B20180115maladie\f\0	20211120bilan\v\0	20180220bilan
+\0	\x1B20220516maladie	\0	20181218chirurgie\b\0	#20250122vaccination\x07\0	#20240101vaccination\0	#20230130vaccination\0	#20220110vaccination\0	#20201220vaccination\0	#20200110vaccination\0	#20181130vaccination\0	#20171229vaccination\r\0\0\0�&\0����v^F*�����jN2\r�\r�\r�\r�\r�\rn\rR\r<\r$\r\f�\f�\f�\f�\f�\fn\fT\f>\f"\f\v�\v�\v�\v�\vz\v^\vB\v&\v\f
+�
+�
+�
+�
+�
+r
+V
+:
+
+	�	�	�	�	v	\`	D	(	\f\b�\b�\b�\b�\b�\bt\bX\b<\b \b\x07�\x07�\x07�\x07�\x07x\x07\\\x07@\x07$\x07\b�����tX< ����x\\@$\b����|\`D(\f�����jN2�����pT8\0����tX<&\0\0\0\0\0\0�\020231103bilan�\0#20250114vaccination�\0#20240218vaccination�\x1B\0#20230325vaccination�\0#20220425vaccination�\0#20210611vaccination�\0#20200706vaccination�\0#20190804vaccination�\0#20180725vaccination�\0#20170726vaccination�\0#20250604vaccination�\0#20240715vaccination�\0#20230605vaccination�\0#20220603vaccination�\0#20210605vaccination�\0#20200703vaccination�\0#20190607vaccination�\r\0\x1B20230623chirurgie�\f\0#\x1B20250523vaccination�\v\0#\x1B20240520vaccination�
+\0#\x1B20230508vaccination�	\020191015bilan�\b\0#20250109vaccination�\x07\0#20240209vaccination�\0#20230307vaccination�\0#20220313vaccination�\0#20210308vaccination�\0#20200324vaccination�\0#20190420vaccination�\0#20180324vaccination�\0\0#20170417vaccination�\0#20160427vaccination�~\0#20150319vaccination�}\0#20140315vaccination�|\0#20130320vaccination�{\0#20120412vaccination�z\0#20110328vaccination�y\0#20100505vaccination�x\0#20250821vaccination�w\0#20230726vaccination�v\0#20220828vaccination�u\0#20210831vaccination�t\0#20200921vaccination�s\0#20190809vaccination�r\0#20180717vaccination�q\0#20170609vaccination�p\0#20160618vaccination�o\0#20150710vaccination�n\0#20140613vaccination�m\0#20250213vaccination�l\020200912chirurgie�k\020201213chirurgie�j\020210115bilan�i\020250226bilan�h\0\x1B20210802maladie�g\0#20250813vaccination�f\0#20240807vaccination�e\0#20230809vaccination�d\0#20220812vaccination�c\0#20210707vaccination�b\0#20200605vaccination�a\0#20250822vaccination�\`\0#20240820vaccination�_\0#20231008vaccination�^\0#20221010vaccination�]\0#20211001vaccination�\\\0#20200926vaccination�[\0#20190813vaccination�Z\0#20180918vaccination�Y\0#20170827vaccination�X\0\x1B20240417maladie�W\020251216bilan�V\020240327bilan�U\0#20250908vaccination�T\0#20240926vaccination�S\0#20230824vaccination�R\0#20221002vaccination�Q\020180911bilan�P\0#20251009vaccination�O\0#20240828vaccination�N\0#20231009vaccination�M\0#20220904vaccination�L\0#20210724vaccination�K\0#20200610vaccination�J\0#20190724vaccination�I\0#20180613vaccination�H\0#20170607vaccination�G\0#20160430vaccination�F\0#20150322vaccination�E\0#20140418vaccination�D\0\x1B20230629maladie�C\020180728bilan�B\0\x1B20160106maladie�A\020240222chirurgie�@\0#20250113vaccination�?\0#20240104vaccination�>\0#20230125vaccination�=\0#20220224vaccination�<\0#20210319vaccination�;\0#20200216vaccination�:\0#20190203vaccination�9\0#20180206vaccination�8\0#20170218vaccination�7\0#20160103vaccination�6\020240307bilan�5\020240219chirurgie�4\020250107bilan�3\0#20251125vaccination�2\0#20241024vaccination�1\0#20231119vaccination�0\0#20221225vaccination�/\020141217chirurgie�.\020160520bilan�-\0\x1B20141001maladie�,\020200205bilan�+\0#20221015vaccination�*\0#20211119vaccination�)\0#20201012vaccination�(\0#20190912vaccination�'\0#20180825vaccination�&\0#20170811vaccination�%\0#20160723vaccination�$\0#20150813vaccination�#\0#20140912vaccination�"\0#20130824vaccination�!\0\x1B20190331maladie� \0#20250525vaccination�\0#20240529vaccination�\0#20230527vaccination�\0#20220603vaccination�\0#20210529vaccination�\x1B\0#20200415vaccination�\0#20190306vaccination�\0\x1B\r20200624maladie�\0\x1B\r20250517maladie�\0\r20210109chirurgie�\0#\r20250123vaccination�\0#\r20240302vaccination�\0#\r20230422vaccination�\0#\r20220511vaccination\r\0\0\0�8\0�����tX< ����xbL2\r�\r�\r�\r�\r�\rp\rT\r>\r&\r
+\f�\f�\f�\f�\f~\fb\fF\f0\f\f\v�\v�\v�\v�\v�\vh\vL\v0\v
+�
+�
+�
+�
+�
+p
+T
+8
+
+\0	�	�	�	�	�	r	\\	F	*	\b�\b�\b�\b�\b�\bh\bN\b4\b\x07�\x07�\x07�\x07�\x07�\x07t\x07X\x07<\x07 \x07����~bF*�����hL0�����vZ>"�����rX< ����x\\@$\b�����pT8\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�,\0#-20170519vaccination�+\0#-20160607vaccination�*\0\x1B,20170306maladie�)\0,20230616bilan�(\0,20151126bilan�'\0#,20250318vaccination�&\0#,20240504vaccination�%\0#,20230425vaccination�$\0#,20220403vaccination�#\0#,20210512vaccination�"\0#,20200508vaccination�!\0#,20190410vaccination� \0#,20180413vaccination�\0#,20170516vaccination�\0#,20160608vaccination�\0#,20150624vaccination�\0#,20140803vaccination�\x1B\0#,20130918vaccination�\0#,20120830vaccination�\0#,20110804vaccination�\0+20240727chirurgie�\0+20240929bilan�\0+20231004chirurgie�\0+20230817bilan�\0+20200322bilan�\0#+20251020vaccination�\0#+20241024vaccination�\0#+20231029vaccination�\0#+20220925vaccination�\0#+20210824vaccination�\0#+20200915vaccination�\r\0#+20190801vaccination�\f\0#+20180708vaccination�\v\0*20230406chirurgie�
+\0*20221219bilan�	\0*20220618chirurgie�\b\0#*20250804vaccination�\x07\0#*20240707vaccination�\0#*20230709vaccination�\0#*20220628vaccination�\0)20161129chirurgie�\0#)20251222vaccination�\0#)20241204vaccination�\0#)20240116vaccination�\0\0#)20230209vaccination�\0#)20220303vaccination�~\0#)20210307vaccination�}\0#)20200320vaccination�|\0#)20190217vaccination�{\0#)20180214vaccination�z\0#)20170108vaccination�y\0#)20151209vaccination�x\0#)20150119vaccination�w\0#(20250228vaccination�v\0'20230216bilan�u\0#'20250329vaccination�t\0#'20240502vaccination�s\0#'20230607vaccination�r\0#'20220522vaccination�q\0#'20210624vaccination�p\0&20231004chirurgie�o\0#&20250209vaccination�n\0#&20240207vaccination�m\0#&20230126vaccination�l\0#&20220309vaccination�k\0%20210717chirurgie�j\0%20221212chirurgie�i\0%20240607chirurgie�h\0#%20250211vaccination�g\0#%20240130vaccination�f\0#%20230126vaccination�e\0#%20211225vaccination�d\0#%20210115vaccination�c\0$20250126chirurgie�b\0#$20250818vaccination�a\0#$20240711vaccination�\`\0#20250912bilan�_\0#20240420bilan�^\0#20181115bilan�]\0\x1B#20200714maladie�\\\0#20200305bilan�[\0\x1B#20201007maladie�Z\0#20170607bilan�Y\0##20250706vaccination�X\0##20240801vaccination�W\0##20230708vaccination�V\0##20220523vaccination�U\0##20210610vaccination�T\0##20200714vaccination�S\0##20190711vaccination�R\0##20180720vaccination�Q\0##20170605vaccination�P\0##20160417vaccination�O\0"20240703chirurgie�N\0"20210806chirurgie�M\0#"20250801vaccination�L\0#"20240816vaccination�K\0#"20230715vaccination�J\0#"20220830vaccination�I\0#"20210714vaccination�H\0!20200716chirurgie�G\0!20161201bilan�F\0!20201230bilan�E\0!20191108bilan�D\0\x1B!20150426maladie�C\0!20171214bilan�B\0#!20200507vaccination�A\0#!20190324vaccination�@\0#!20180419vaccination�?\0#!20170524vaccination�>\0#!20160418vaccination�=\0#!20150508vaccination�<\0#!20140409vaccination�;\0#!20130514vaccination�:\0\x1B 20200210maladie�9\0 20220810bilan�8\0# 20251119vaccination�7\0# 20241201vaccination�6\0# 20231214vaccination�5\0# 20230123vaccination�4\0# 20220124vaccination�3\0# 20210108vaccination�2\0# 20191201vaccination�1\020140924chirurgie�0\020150408chirurgie�/\020150311bilan�.\020151023bilan�-\0#20170326vaccination�,\0#20160205vaccination�+\0#20141219vaccination�*\0#20140107vaccination�)\0#20121208vaccination�(\0#20120113vaccination�'\0#20110205vaccination�&\0#20100206vaccination�%\0#20251221vaccination�$\0\x1B20240505maladie�#\020230910bilan�"\0\x1B20200321maladie�!\0\x1B20240317maladie� \0\x1B20191113maladie�\020200726bilan\r\0\0\0�<\0����tX< �����x\`D(\f\r�\r�\r�\r�\r�\rh\rR\r6\r\f�\f�\f�\f�\f�\fr\fV\f:\f\f\v�\v�\v�\v�\v|\v\`\vD\v(\v\f
+�
+�
+�
+�
+�
+p
+T
+8
+
+\0	�	�	�	�	~	d	H	,	\b�\b�\b�\b�\b�\b|\b\`\bD\b(\b\x07�\x07�\x07�\x07�\x07�\x07j\x07N\x072\x07�����|dJ4����x\\@$\b�����dH,�����rV:\b�����hL0�����tX<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�9\0#<20130908vaccination�8\0#<20120814vaccination�7\0#<20110729vaccination�6\0;20180213chirurgie�5\0\x1B;20130525maladie�4\0;20150605chirurgie�3\0#;20180604vaccination�2\0#;20170702vaccination�1\0#;20160811vaccination�0\0#;20150706vaccination�/\0#;20140808vaccination�.\0#;20130908vaccination�-\0#;20120728vaccination�,\0#;20110624vaccination�+\0#:20250712vaccination�*\0\x1B920190826maladie�)\0\x1B920190806maladie�(\0920231214bilan�'\0#920250520vaccination�&\0#920240703vaccination�%\0#920230727vaccination�$\0#920220610vaccination�#\0#920210526vaccination�"\0#920200625vaccination�!\0#920190807vaccination� \0\x1B820250213maladie�\0820220904bilan�\0#820250727vaccination�\0#820240622vaccination�\0#820230716vaccination�\x1B\0#820220817vaccination�\0#820210930vaccination�\0#820200823vaccination�\0\x1B720210610maladie�\0#720231029vaccination�\0#720221025vaccination�\0#720211107vaccination�\0#720201014vaccination�\0#720190927vaccination�\0#720181111vaccination�\0#720171116vaccination�\0#720161201vaccination�\0#720151202vaccination�\0#720141207vaccination�\r\0#720131204vaccination�\f\0620180122bilan�\v\0620220521chirurgie�
+\0620201214bilan�	\0620160331chirurgie�\b\0\x1B620190908maladie�\x07\0620181201bilan�\0620231030chirurgie�\0620231212bilan�\0#620240815vaccination�\0#620230819vaccination�\0#620220820vaccination�\0#620210719vaccination�\0\0#620200706vaccination�\0#620190712vaccination�~\0#620180716vaccination�}\0#620170625vaccination�|\0#620160803vaccination�{\0#620150731vaccination�z\0#520250821vaccination�y\0#520240918vaccination�x\0420250520bilan�w\0#420251206vaccination�v\0#420250104vaccination�u\0#320250607vaccination�t\0220210829bilan�s\0220220629chirurgie�r\0220240428bilan�q\0220240411bilan�p\0#220250530vaccination�o\0#220240415vaccination�n\0#220230603vaccination�m\0#220220422vaccination�l\0#220210501vaccination�k\0120171115chirurgie�j\0120121025bilan�i\0\x1B120171029maladie�h\0#120200125vaccination�g\0#120190109vaccination�f\0#120171204vaccination�e\0#120161217vaccination�d\0#120151118vaccination�c\0#120141226vaccination�b\0#120131205vaccination�a\0#120121023vaccination�\`\0020231229bilan�_\0020200130bilan�^\0#020250609vaccination�]\0#020240616vaccination�\\\0#020230727vaccination�[\0#020220617vaccination�Z\0#020210717vaccination�Y\0#020200620vaccination�X\0#020190711vaccination�W\0/20240623bilan�V\0#/20250908vaccination�U\0#/20240919vaccination�T\0#/20230902vaccination�S\0#/20221021vaccination�R\0#/20211126vaccination�Q\0#/20201022vaccination�P\0#/20191012vaccination�O\0#/20181028vaccination�N\0#/20171206vaccination�M\0#/20161130vaccination�L\0#/20160108vaccination�K\0#/20141221vaccination�J\0#/20131224vaccination�I\0#/20130210vaccination�H\0#/20120204vaccination�G\0#/20110222vaccination�F\0.20141227bilan�E\0\x1B.20161226maladie�D\0#.20210815vaccination�C\0#.20200825vaccination�B\0#.20190722vaccination�A\0#.20180801vaccination�@\0#.20170703vaccination�?\0#.20160610vaccination�>\0#.20150730vaccination�=\0#.20140616vaccination�<\0\x1B-20230529maladie�;\0-20160821bilan�:\0-20181018chirurgie�9\0\x1B-20250627maladie�8\0-20160728bilan�7\0\x1B-20251215maladie�6\0\x1B-20171121maladie�5\0-20171226chirurgie�4\0#-20241222vaccination�3\0#-20240120vaccination�2\0#-20230126vaccination�1\0#-20220120vaccination�0\0#-20210309vaccination�/\0#-20200426vaccination�.\0#-20190421vaccination�-\0#-20180418vaccination\r\0\0\0�(\0����tX<"\b�����z^B&
+\r�\r�\r�\r�\r~\rb\rF\r0\r\f�\f�\f�\f�\f�\f~\fb\fF\f*\f\v�\v�\v�\v�\v�\vl\vV\v>\v$\v
+�
+�
+�
+�
+�
+n
+R
+6
+
+\0	�	�	�	�	t	X	<	 	\b�\b�\b�\b�\bx\b\\\b@\b$\b\b\x07�\x07�\x07�\x07�\x07�\x07f\x07J\x07.\x07�����pV< ����x\\@$\b�����|\`D(\f�����dJ4\b����~bF*�����|\`D(\0\0\0\0�G\0#H20240924vaccination�F\0#H20231028vaccination�E\0#H20221008vaccination�D\0#H20211011vaccination�C\0G20210503bilan�B\0G20181024bilan�A\0G20200808chirurgie�@\0\x1BG20160629maladie�?\0\x1BG20150519maladie�>\0#G20220120vaccination�=\0#G20201218vaccination�<\0#G20200119vaccination�;\0#G20181224vaccination�:\0#G20180127vaccination�9\0#G20161219vaccination�8\0#G20151215vaccination�7\0#G20141218vaccination�6\0F20210428chirurgie�5\0F20210619bilan�4\0F20250126bilan�3\0F20160324bilan�2\0F20190425chirurgie�1\0#F20241209vaccination�0\0#F20231209vaccination�/\0#F20221118vaccination�.\0#F20211216vaccination�-\0#F20210114vaccination�,\0#F20200111vaccination�+\0#F20190210vaccination�*\0#F20180205vaccination�)\0#F20170215vaccination�(\0#F20160121vaccination�'\0\x1BE20211109maladie�&\0E20181022bilan�%\0E20200130bilan�$\0E20160921chirurgie�#\0E20231008bilan�"\0\x1BE20160117maladie�!\0#E20250213vaccination� \0#E20240115vaccination�\0#E20230123vaccination�\0#E20220218vaccination�\0#E20210209vaccination�\0#E20200303vaccination�\x1B\0#E20190203vaccination�\0#E20180315vaccination�\0#E20170222vaccination�\0#E20160223vaccination�\0#E20150401vaccination�\0D20140227chirurgie�\0D20150822chirurgie�\0D20130512chirurgie�\0\x1BD20200717maladie�\0#D20191027vaccination�\0#D20180913vaccination�\0#D20170803vaccination�\0#D20160723vaccination�\0#D20150906vaccination�\r\0#D20141009vaccination�\f\0#D20131013vaccination�\v\0#D20121019vaccination�
+\0\x1BC20120812maladie�	\0C20190123chirurgie�\b\0#C20250425vaccination�\x07\0#C20240504vaccination�\0#C20230519vaccination�\0#C20220630vaccination�\0#C20210525vaccination�\0#C20200505vaccination�\0#C20190511vaccination�\0#C20180327vaccination�\0\0#C20170209vaccination�\0#C20160315vaccination�~\0#C20150318vaccination�}\0#C20140330vaccination�|\0#C20130428vaccination�{\0#C20120313vaccination�z\0#B20250520vaccination�y\0#B20240401vaccination�x\0#B20230507vaccination�w\0#B20220606vaccination�v\0#B20210523vaccination�u\0#B20200623vaccination�t\0#B20190506vaccination�s\0#A20250131vaccination�r\0@20230126chirurgie�q\0#@20250922vaccination�p\0#@20240908vaccination�o\0#@20230906vaccination�n\0#@20220726vaccination�m\0?20250703bilan�l\0#?20251019vaccination�k\0#?20241103vaccination�j\0>20160730chirurgie�i\0>20210919bilan�h\0>20240710chirurgie�g\0\x1B>20251203maladie�f\0>20200918bilan�e\0\x1B>20211028maladie�d\0>20240829chirurgie�c\0#>20251217vaccination�b\0#>20241029vaccination�a\0#>20231112vaccination�\`\0#>20221027vaccination�_\0#>20210909vaccination�^\0#>20200929vaccination�]\0#>20190901vaccination�\\\0#>20180822vaccination�[\0#>20170715vaccination�Z\0#>20160707vaccination�Y\0=20230421bilan�X\0\x1B=20210809maladie�W\0=20210821chirurgie�V\0=20200803chirurgie�U\0\x1B=20220407maladie�T\0=20231201bilan�S\0#=20250707vaccination�R\0#=20240524vaccination�Q\0#=20230528vaccination�P\0#=20220629vaccination�O\0#=20210627vaccination�N\0#=20200809vaccination�M\0#=20190807vaccination�L\0#=20180924vaccination�K\0#=20170922vaccination�J\0#=20160808vaccination�I\0#=20150907vaccination�H\0<20180608bilan�G\0\x1B<20120512maladie�F\0<20200518bilan�E\0<20190215chirurgie�D\0<20111210chirurgie�C\0<20160329bilan�B\0<20141228chirurgie�A\0<20170302chirurgie�@\0#<20201112vaccination�?\0#<20191022vaccination�>\0#<20180907vaccination�=\0#<20170907vaccination�<\0#<20160911vaccination�;\0#<20150729vaccination�:\0#<20140902vaccination\r\0\0\0�:\0����vZ>"�����lT<&\r�\r�\r�\r�\r�\rh\rL\r0\r\f�\f�\f�\f�\f�\fl\fP\f4\f\f\v�\v�\v�\v�\v�\vv\v^\vF\v,\v
+�
+�
+�
+�
+�
+r
+\\
+@
+$
+\b	�	�	�	�	|	f	J	.	\b�\b�\b�\b�\b�\b|\bd\bH\b,\b\x07�\x07�\x07�\x07�\x07�\x07n\x07R\x076\x07�����|dJ4�����x^F*�����fJ.�����nR6������hL6�����rV:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�U\0#V20241004vaccination�T\0#V20230819vaccination�S\0#V20220902vaccination�R\0#V20210822vaccination�Q\0#V20200704vaccination�P\0#V20190604vaccination�O\0#V20180605vaccination�N\0#V20170613vaccination�M\0#U20251021vaccination�L\0T20241020bilan�K\0#T20251021vaccination�J\0#T20240912vaccination�I\0S20140223bilan�H\0S20110119bilan�G\0S20150902bilan�F\0#S20170906vaccination�E\0#S20160817vaccination�D\0#S20150918vaccination�C\0#S20141005vaccination�B\0#S20131012vaccination�A\0#S20121004vaccination�@\0#S20110910vaccination�?\0#S20101019vaccination�>\0R20240316chirurgie�=\0R20191121chirurgie�<\0#R20250217vaccination�;\0#R20240327vaccination�:\0#R20230218vaccination�9\0#R20220205vaccination�8\0#R20210106vaccination�7\0#R20191221vaccination�6\0#R20190106vaccination�5\0#R20171128vaccination�4\0#Q20250410vaccination�3\0#Q20240302vaccination�2\0#Q20230419vaccination�1\0#Q20220510vaccination�0\0#Q20210627vaccination�/\0\x1BP20221228maladie�.\0P20211206chirurgie�-\0P20240826chirurgie�,\0P20220514bilan�+\0#P20250914vaccination�*\0#P20241002vaccination�)\0#P20230828vaccination�(\0#P20220727vaccination�'\0#P20210704vaccination�&\0O20200129bilan�%\0O20160606chirurgie�$\0\x1BO20220603maladie�#\0O20240717bilan�"\0\x1BO20240207maladie�!\0#O20240728vaccination� \0#O20230703vaccination�\0#O20220805vaccination�\0#O20210701vaccination�\0#O20200805vaccination�\0#O20190822vaccination�\x1B\0#O20181010vaccination�\0#O20170909vaccination�\0#O20161006vaccination�\0#O20151115vaccination�\0#O20141002vaccination�\0N20241228bilan�\0#N20250704vaccination�\0#N20240723vaccination�\0#N20230804vaccination�\0#N20220813vaccination�\0\x1BM20221108maladie�\0M20210523bilan�\0M20250808bilan�\0M20240721bilan�\r\0#M20251221vaccination�\f\0#M20250125vaccination�\v\0#M20240207vaccination�
+\0#M20230302vaccination�	\0#M20220316vaccination�\b\0#M20210402vaccination�\x07\0L20230209bilan�\0#L20250903vaccination�\0#L20241017vaccination�\0#L20231126vaccination�\0#L20221211vaccination�\0#L20211204vaccination�\0#L20201016vaccination�\0\0#L20191115vaccination�\0#L20181226vaccination�~\0K20231202bilan�}\0#K20250605vaccination�|\0#K20240416vaccination�{\0#K20230326vaccination�z\0#K20220402vaccination�y\0J20141110chirurgie�x\0\x1BJ20250702maladie�w\0\x1BJ20150828maladie�v\0J20241128chirurgie�u\0\x1BJ20130620maladie�t\0\x1BJ20241113maladie�s\0J20240512bilan�r\0J20240911bilan�q\0J20120216chirurgie�p\0\x1BJ20211220maladie�o\0\x1BJ20220623maladie�n\0J20130823bilan�m\0\x1BJ20250825maladie�l\0J20231108chirurgie�k\0#J20250607vaccination�j\0#J20240524vaccination�i\0#J20230605vaccination�h\0#J20220722vaccination�g\0#J20210720vaccination�f\0#J20200727vaccination�e\0#J20190804vaccination�d\0#J20180806vaccination�c\0#J20170717vaccination�b\0#J20160801vaccination�a\0#J20150618vaccination�\`\0#J20140623vaccination�_\0#J20130802vaccination�^\0#J20120801vaccination�]\0#J20110829vaccination�\\\0#J20100920vaccination�[\0I20210317chirurgie�Z\0\x1BI20120531maladie�Y\0I20150323bilan�X\0\x1BI20191027maladie�W\0\x1BI20131101maladie�V\0I20141110chirurgie�U\0I20180617bilan�T\0I20190706bilan�S\0#I20200915vaccination�R\0#I20190804vaccination�Q\0#I20180913vaccination�P\0#I20170908vaccination�O\0#I20161026vaccination�N\0#I20151008vaccination�M\0#I20140821vaccination�L\0#I20130707vaccination�K\0#I20120716vaccination�J\0#I20110822vaccination�I\0H20230218chirurgie�H\0#H20250902vaccination\r\0\0\0�4\0�����hL0�����lT:"
+\r�\r�\r�\r�\r~\rb\rF\r*\r\f�\f�\f�\f�\f�\fz\fd\fJ\f2\f\f\0\v�\v�\v�\v�\vt\vX\v<\v \v
+�
+�
+�
+�
+x
+\\
+@
+$
+\b	�	�	�	�	|	d	N	4		\0\b�\b�\b�\b�\b�\bd\bH\b,\b\x07�\x07�\x07�\x07�\x07�\x07~\x07d\x07J\x070\x07�����rV:�����jP8\0����tX<"\f�����pT8\0�����dH,�����hN4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�c\0a20161101chirurgie�b\0a20150422chirurgie�a\0#a20250401vaccination�\`\0#a20240515vaccination�_\0#a20230415vaccination�^\0#a20220326vaccination�]\0#a20210416vaccination�\\\0#a20200506vaccination�[\0#a20190330vaccination�Z\0#a20180315vaccination�Y\0#a20170322vaccination�X\0#a20160409vaccination�W\0#a20150525vaccination�V\0\x1B\`20251014maladie�U\0\`20230222chirurgie�T\0\`20241021bilan�S\0#\`20251016vaccination�R\0#\`20241003vaccination�Q\0#\`20230919vaccination�P\0#\`20220923vaccination�O\0#\`20210805vaccination�N\0#\`20200801vaccination�M\0#\`20190623vaccination�L\0#\`20180713vaccination�K\0\x1B_20190922maladie�J\0\x1B_20250205maladie�I\0\x1B_20180910maladie�H\0_20210301bilan�G\0_20240101chirurgie�F\0#_20250218vaccination�E\0#_20240320vaccination�D\0#_20230418vaccination�C\0#_20220517vaccination�B\0#_20210530vaccination�A\0#_20200414vaccination�@\0#_20190421vaccination�?\0#_20180331vaccination�>\0#_20170515vaccination�=\0\x1B^20201014maladie�<\0^20191215chirurgie�;\0\x1B^20171011maladie�:\0\x1B^20160626maladie�9\0^20180826chirurgie�8\0^20140125chirurgie�7\0\x1B^20150718maladie�6\0#^20201103vaccination�5\0#^20191014vaccination�4\0#^20181006vaccination�3\0#^20171019vaccination�2\0#^20161007vaccination�1\0#^20151105vaccination�0\0#^20141030vaccination�/\0#^20131031vaccination�.\0#^20121111vaccination�-\0#^20110924vaccination�,\0\x1B]20211003maladie�+\0]20161019chirurgie�*\0]20250919chirurgie�)\0]20200520chirurgie�(\0]20231225chirurgie�'\0]20250430bilan�&\0\x1B]20210711maladie�%\0]20191219bilan�$\0]20241230bilan�#\0#]20250102vaccination�"\0#]20240203vaccination�!\0#]20221228vaccination� \0#]20211118vaccination�\0#]20201118vaccination�\0#]20191028vaccination�\0#]20180922vaccination�\0#]20170929vaccination�\x1B\0#]20161113vaccination�\0\\20161117bilan�\0\\20181215bilan�\0\\20131228chirurgie�\0\\20200504chirurgie�\0\\20250401chirurgie�\0\\20141030bilan�\0\x1B\\20180608maladie�\0#\\20250317vaccination�\0#\\20240306vaccination�\0#\\20230305vaccination�\0#\\20220228vaccination�\0#\\20210217vaccination�\0#\\20200204vaccination�\r\0#\\20190226vaccination�\f\0#\\20180206vaccination�\v\0#\\20170226vaccination�
+\0#\\20160307vaccination�	\0#\\20150207vaccination�\b\0#\\20140124vaccination�\x07\0#\\20130115vaccination�\0#[20250308vaccination�\0#[20240329vaccination�\0#[20230423vaccination�\0#[20220317vaccination�\0#Z20250109vaccination�\0#Z20240120vaccination�\0\0#Z20230127vaccination�\0#Z20211225vaccination�~\0#Z20201226vaccination�}\0#Z20200130vaccination�|\0#Z20181218vaccination�{\0Y20240808bilan�z\0\x1BY20181029maladie�y\0Y20171219chirurgie�x\0Y20231020bilan�w\0Y20180915bilan�v\0Y20191010bilan�u\0Y20190218bilan�t\0Y20240728chirurgie�s\0#Y20250402vaccination�r\0#Y20240412vaccination�q\0#Y20230331vaccination�p\0#Y20220509vaccination�o\0#Y20210601vaccination�n\0#Y20200629vaccination�m\0#Y20190816vaccination�l\0#Y20180703vaccination�k\0#Y20170718vaccination�j\0#Y20160629vaccination�i\0#X20250817vaccination�h\0\x1BW20110501maladie�g\0\x1BW20160507maladie�f\0W20170607chirurgie�e\0\x1BW20120711maladie�d\0#W20191114vaccination�c\0#W20181201vaccination�b\0#W20171027vaccination�a\0#W20161031vaccination�\`\0#W20151010vaccination�_\0#W20141002vaccination�^\0#W20130912vaccination�]\0#W20120830vaccination�\\\0#W20110827vaccination�[\0#W20100831vaccination�Z\0\x1BV20220207maladie�Y\0V20190908chirurgie�X\0V20170611bilan�W\0\x1BV20191117maladie�V\0#V20250831vaccination\r\0\0\0�:\0�����pT8\0�����nR6\r�\r�\r�\r�\r�\rz\rd\rL\r6\r\f�\f�\f�\f�\f�\fr\fZ\f@\f$\f\b\v�\v�\v�\v�\v|\v\`\vJ\v.\v
+�
+�
+�
+�
+�
+j
+R
+<
+"
+\b	�	�	�	�	|	\`	D	(	\f\b�\b�\b�\b�\b�\bj\bP\b8\b"\b
+\x07�\x07�\x07�\x07�\x07�\x07r\x07V\x07:\x07\x07����vZB&
+����~bF*������jT>"����z^B&
+�����fJ.�����lR:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�q\0\x1Bk20110127maladie�p\0k20150914chirurgie�o\0k20190124chirurgie�n\0#k20211124vaccination�m\0#k20201109vaccination�l\0#k20191130vaccination�k\0#k20181124vaccination�j\0#k20171207vaccination�i\0#k20161108vaccination�h\0#k20150925vaccination�g\0#k20141004vaccination�f\0#k20131101vaccination�e\0#k20121218vaccination�d\0#k20120108vaccination�c\0#k20110223vaccination�b\0#k20100405vaccination�a\0\x1Bj20230620maladie�\`\0#j20250508vaccination�_\0#j20240410vaccination�^\0#j20230528vaccination�]\0#j20220608vaccination�\\\0#j20210726vaccination�[\0#j20200904vaccination�Z\0#j20190730vaccination�Y\0#j20180913vaccination�X\0#j20170811vaccination�W\0#j20160826vaccination�V\0#j20150804vaccination�U\0i20131107bilan�T\0i20200215bilan�S\0\x1Bi20120516maladie�R\0i20170708bilan�Q\0\x1Bi20151026maladie�P\0\x1Bi20120405maladie�O\0\x1Bi20140824maladie�N\0i20180117chirurgie�M\0i20190222bilan�L\0i20170903chirurgie�K\0#i20200712vaccination�J\0#i20190808vaccination�I\0#i20180715vaccination�H\0#i20170712vaccination�G\0#i20160816vaccination�F\0#i20150827vaccination�E\0#i20140813vaccination�D\0#i20130901vaccination�C\0#i20120802vaccination�B\0#i20110803vaccination�A\0\x1Bh20150605maladie�@\0#h20240111vaccination�?\0#h20230201vaccination�>\0#h20220213vaccination�=\0#h20210127vaccination�<\0#h20200217vaccination�;\0#h20190124vaccination�:\0#h20180107vaccination�9\0#h20170203vaccination�8\0#h20160227vaccination�7\0#h20150221vaccination�6\0#h20140301vaccination�5\0g20140203bilan�4\0g20220127chirurgie�3\0\x1Bg20230204maladie�2\0g20221023chirurgie�1\0g20131216chirurgie�0\0\x1Bg20210216maladie�/\0g20180501bilan�.\0\x1Bg20210701maladie�-\0g20170518chirurgie�,\0g20250526chirurgie�+\0\x1Bg20191017maladie�*\0#g20250906vaccination�)\0#g20240811vaccination�(\0#g20230922vaccination�'\0#g20220917vaccination�&\0#g20211016vaccination�%\0#g20201202vaccination�$\0#g20191101vaccination�#\0#g20181104vaccination�"\0#g20171125vaccination�!\0#g20161205vaccination� \0#g20151112vaccination�\0#g20141110vaccination�\0#g20131104vaccination�\0f20220421chirurgie�\0f20230814chirurgie�\x1B\0f20211218bilan�\0\x1Bf20200118maladie�\0#f20250202vaccination�\0#f20231220vaccination�\0#f20230124vaccination�\0#f20211222vaccination�\0#f20201209vaccination�\0#f20191215vaccination�\0#f20181218vaccination�\0#f20180109vaccination�\0e20200209bilan�\0#e20220112vaccination�\0#e20201123vaccination�\0#e20191226vaccination�\r\0#e20181224vaccination�\f\0#e20171217vaccination�\v\0#e20170122vaccination�
+\0#e20151206vaccination�	\0#e20141031vaccination�\b\0d20241226chirurgie�\x07\0\x1Bd20250922maladie�\0#d20250115vaccination�\0#d20231227vaccination�\0#d20221226vaccination�\0#d20211115vaccination�\0#d20201012vaccination�\0#d20191121vaccination�\0\0#d20181113vaccination�\0c20191213bilan�~\0\x1Bc20210802maladie�}\0c20191114bilan�|\0c20191115chirurgie�{\0c20230709bilan�z\0#c20250919vaccination�y\0#c20240907vaccination�x\0#c20230927vaccination�w\0#c20220825vaccination�v\0#c20210713vaccination�u\0#c20200706vaccination�t\0#c20190804vaccination�s\0#c20180804vaccination�r\0b20241208bilan�q\0b20220407bilan�p\0b20250429chirurgie�o\0\x1Bb20210103maladie�n\0\x1Bb20221025maladie�m\0#b20250312vaccination�l\0#b20240308vaccination�k\0#b20230217vaccination�j\0#b20220112vaccination�i\0#b20210113vaccination�h\0a20180627chirurgie�g\0a20201016bilan�f\0a20210411bilan�e\0a20230719bilan�d\0\x1Ba20160730maladie\r\0\0\0�,\0�����fJ.�����jN6\b\r�\r�\r�\r�\r|\r\`\rD\r(\r\f\f�\f�\f�\f�\f�\ft\f\\\fF\f0\f\v�\v�\v�\v�\v�\vn\vR\v6\v
+�
+�
+�
+�
+�
+|
+b
+H
+0
+
+	�	�	�	�	�	r	V	:		\b�\b�\b�\b�\b|\b\`\bD\b(\b\f\x07�\x07�\x07�\x07�\x07�\x07n\x07X\x07>\x07"\x07����z^D*�����x\\D,�����nXB&
+����~bF*������pV< ����zbH,\0\0\0\0�\0#v20160925vaccination�\0\0u20231220chirurgie�\0\x1Bu20200928maladie�~\0u20200703chirurgie�}\0#u20250223vaccination�|\0#u20240131vaccination�{\0#u20230109vaccination�z\0#u20211218vaccination�y\0#u20201104vaccination�x\0#u20190922vaccination�w\0t20180819chirurgie�v\0t20160113chirurgie�u\0\x1Bt20160902maladie�t\0\x1Bt20150628maladie�s\0t20180626bilan�r\0t20200524bilan�q\0\x1Bt20150402maladie�p\0t20181116bilan�o\0t20170610chirurgie�n\0t20200509bilan�m\0#t20230913vaccination�l\0#t20220813vaccination�k\0#t20210722vaccination�j\0#t20200716vaccination�i\0#t20190730vaccination�h\0#t20180909vaccination�g\0#t20170818vaccination�f\0#t20160731vaccination�e\0#t20150805vaccination�d\0#t20140807vaccination�c\0s20250105bilan�b\0s20230823bilan�a\0\x1Bs20220821maladie�\`\0#s20251031vaccination�_\0#s20241206vaccination�^\0#s20231214vaccination�]\0#s20230118vaccination�\\\0#s20220306vaccination�[\0r20241110chirurgie�Z\0\x1Br20250805maladie�Y\0\x1Br20250324maladie�X\0#r20250101vaccination�W\0#r20231222vaccination�V\0#r20221212vaccination�U\0\x1Bq20190322maladie�T\0q20251201bilan�S\0q20210302chirurgie�R\0\x1Bq20200511maladie�Q\0q20220515chirurgie�P\0q20190411chirurgie�O\0q20201113chirurgie�N\0#q20250427vaccination�M\0#q20240521vaccination�L\0#q20230430vaccination�K\0#q20220510vaccination�J\0#q20210416vaccination�I\0#q20200428vaccination�H\0#q20190508vaccination�G\0#q20180402vaccination�F\0p20240611chirurgie�E\0p20210530bilan�D\0p20241029bilan�C\0p20230910chirurgie�B\0p20241117chirurgie�A\0#p20251204vaccination�@\0#p20241112vaccination�?\0#p20231018vaccination�>\0#p20221207vaccination�=\0#p20220112vaccination�<\0#p20210118vaccination�;\0#p20200219vaccination�:\0o20191031chirurgie�9\0o20190203chirurgie�8\0o20190205chirurgie�7\0#o20250403vaccination�6\0#o20240409vaccination�5\0#o20230228vaccination�4\0#o20220131vaccination�3\0#o20210110vaccination�2\0#o20200122vaccination�1\0#o20190216vaccination�0\0n20171225chirurgie�/\0n20190108bilan�.\0n20201126bilan�-\0\x1Bn20200910maladie�,\0\x1Bn20210428maladie�+\0n20251025bilan�*\0n20200721bilan�)\0\x1Bn20161202maladie�(\0n20200304chirurgie�'\0n20150907chirurgie�&\0n20220716bilan�%\0\x1Bn20190413maladie�$\0#n20250716vaccination�#\0#n20240723vaccination�"\0#n20230826vaccination�!\0#n20221003vaccination� \0#n20211016vaccination�\0#n20201010vaccination�\0#n20191124vaccination�\0#n20190106vaccination�\0#n20180124vaccination�\x1B\0#n20170114vaccination�\0#n20160108vaccination�\0#n20150128vaccination�\0#n20140112vaccination�\0m20240209chirurgie�\0m20220104bilan�\0m20231005bilan�\0\x1Bm20220326maladie�\0\x1Bm20231211maladie�\0m20170408bilan�\0m20240225chirurgie�\0m20220426chirurgie�\0m20170429chirurgie�\0#m20230826vaccination�\r\0#m20220707vaccination�\f\0#m20210728vaccination�\v\0#m20200812vaccination�
+\0#m20190822vaccination�	\0#m20180822vaccination�\b\0#m20170805vaccination�\x07\0#m20160820vaccination�\0#m20150902vaccination�\0#m20140807vaccination�\0l20130608bilan�\0\x1Bl20180709maladie�\0\x1Bl20130413maladie�\0#l20221229vaccination�\0\0#l20211221vaccination�\0#l20201123vaccination�~\0#l20191023vaccination�}\0#l20181104vaccination�|\0#l20171107vaccination�{\0#l20161111vaccination�z\0#l20151028vaccination�y\0#l20141014vaccination�x\0#l20130909vaccination�w\0#l20121003vaccination�v\0#l20111120vaccination�u\0k20120510chirurgie�t\0k20140408chirurgie�s\0\x1Bk20140509maladie�r\0k20131217bilan\r\0\0\0�+\0����tX< �����lP4\r�\r�\r�\r�\r�\r~\rf\rL\r0\r\f�\f�\f�\f�\f�\fr\fX\fB\f*\f\v�\v�\v�\v�\v�\vp\vT\v8\v\v\0
+�
+�
+�
+�
+t
+X
+<
+ 
+	�	�	�	�	�	r	X	<	 	\b�\b�\b�\b�\bx\b\\\b@\b$\b\b\x07�\x07�\x07�\x07�\x07�\x07d\x07H\x07,\x07�����nXB(�����jN2�����x^D.�����cF)\f����{\`C&	����x[B+\0\0\0\0\0\0\0\0\0\0\0�\r\0\0�20121215bilan�\f\0\x1B\0�20170203maladie�\v\0#\0�20200117vaccination�
+\0#\0�20190120vaccination�	\0#\0�20180131vaccination�\b\0#\0�20170201vaccination�\x07\0#\0�20151231vaccination�\0#\0�20150215vaccination�\0#\0�20140225vaccination�\0#\0�20130320vaccination�\0#\0�20120302vaccination�\0\0�20151117chirurgie�\0#\0�20251031vaccination�\0\0#\0�20241012vaccination�\0#\0�20231010vaccination�~\0#\0�20221115vaccination�}\0#\0�20211106vaccination�|\0#\0�20201003vaccination�{\0#\0�20190919vaccination�z\0#\0�20180903vaccination�y\0#\0�20171013vaccination�x\0#\0�20161005vaccination�w\0#\0�20150908vaccination�v\0#\0�20140904vaccination�u\0#\0�20130929vaccination�t\0#\0�20121014vaccination�s\0#\0�20250817vaccination�r\020200413bilan�q\020160611chirurgie�p\020220130chirurgie�o\0\x1B20191005maladie�n\020161020bilan�m\0#20250219vaccination�l\0#20240315vaccination�k\0#20230330vaccination�j\0#20220326vaccination�i\0#20210507vaccination�h\0#20200528vaccination�g\0#20190624vaccination�f\0#20180807vaccination�e\0#20170920vaccination�d\0#20161028vaccination�c\0#20151215vaccination�b\0#20141116vaccination�a\0#20131118vaccination�\`\0~20240616bilan�_\0~20251109chirurgie�^\0~20201114bilan�]\0~20170926bilan�\\\0~20211215bilan�[\0#~20250219vaccination�Z\0#~20240409vaccination�Y\0#~20230410vaccination�X\0#~20220504vaccination�W\0#~20210602vaccination�V\0#~20200509vaccination�U\0#~20190625vaccination�T\0#~20180802vaccination�S\0#~20170723vaccination�R\0\x1B}20190813maladie�Q\0#}20240721vaccination�P\0#}20230820vaccination�O\0#}20220906vaccination�N\0#}20211012vaccination�M\0#}20201114vaccination�L\0#}20191206vaccination�K\0#}20190123vaccination�J\0#}20180111vaccination�I\0#}20170227vaccination�H\0#}20160325vaccination�G\0#}20150310vaccination�F\0#}20140424vaccination�E\0#}20130425vaccination�D\0#}20120409vaccination�C\0#}20110321vaccination�B\0#}20100503vaccination�A\0|20190630chirurgie�@\0\x1B|20190707maladie�?\0|20150722chirurgie�>\0\x1B|20130630maladie�=\0|20120216chirurgie�<\0|20180618bilan�;\0|20140130chirurgie�:\0|20160503chirurgie�9\0#|20191017vaccination�8\0#|20181012vaccination�7\0#|20170901vaccination�6\0#|20160823vaccination�5\0#|20150803vaccination�4\0#|20140704vaccination�3\0#|20130627vaccination�2\0#|20120607vaccination�1\0#|20110626vaccination�0\0#|20100801vaccination�/\0#{20250626vaccination�.\0#z20250326vaccination�-\0#y20250529vaccination�,\0#y20240708vaccination�+\0#y20230803vaccination�*\0#y20220731vaccination�)\0#y20210616vaccination�(\0\x1Bx20201101maladie�'\0x20210828bilan�&\0\x1Bx20191222maladie�%\0x20200119bilan�$\0x20230409chirurgie�#\0x20220315bilan�"\0#x20250705vaccination�!\0#x20240616vaccination� \0#x20230520vaccination�\0#x20220620vaccination�\0#x20210718vaccination�\0#x20200728vaccination�\0#x20190703vaccination�\x1B\0w20180126chirurgie�\0\x1Bw20220723maladie�\0\x1Bw20190703maladie�\0\x1Bw20240409maladie�\0w20201031bilan�\0#w20240730vaccination�\0#w20230810vaccination�\0#w20220816vaccination�\0#w20210903vaccination�\0#w20200904vaccination�\0#w20191019vaccination�\0#w20181130vaccination�\0#w20171228vaccination�\0#w20170108vaccination�\r\0v20190814bilan�\f\0v20180119bilan�\v\0\x1Bv20240418maladie�
+\0#v20250515vaccination�	\0#v20240518vaccination�\b\0#v20230619vaccination�\x07\0#v20220702vaccination�\0#v20210615vaccination�\0#v20200705vaccination�\0#v20190727vaccination�\0#v20180803vaccination�\0#v20170814vaccination\r\0\0\0�&\0����wZ= ����v[B%\b\r�\r�\r�\r�\rw\rZ\r=\r"\r\v\f�\f�\f�\f�\f�\fk\fN\f1\f\v�\v�\v�\v�\v�\vf\vI\v,\v
+�
+�
+�
+�
+�
+k
+N
+1
+	�	�	�	�	�	h	K	.	\b�\b�\b�\b�\b�\bc\bF\b)\b\f\x07�\x07�\x07�\x07�\x07�\x07f\x07M\x070\x07�����eJ/�����jM0\0����{^A$\x07����vY@)�����tW:\0����qZC&\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0#\0�20240309vaccination�\0\0�20220510bilan�\0\0�20221215bilan�\0\0�20191126chirurgie�\0#\0�20250113vaccination�\0#\0�20240129vaccination�\0#\0�20230201vaccination�\0#\0�20211225vaccination�\r\0#\0�20201116vaccination�\f\0#\0�20191015vaccination�\v\0#\0�20250912vaccination�
+\0#\0�20241005vaccination�	\0#\0�20230922vaccination�\b\0\0�20220615bilan�\x07\0\x1B\0�20141003maladie�\0\0�20241129chirurgie�\0\0�20151031chirurgie�\0\0�20200522chirurgie�\0\0�20230915bilan�\0\0�20200112bilan�\0\x1B\0�20200219maladie�\0\0#\0�20250612vaccination�\0#\0�20240710vaccination�~\0#\0�20230616vaccination�}\0#\0�20220526vaccination�|\0#\0�20210505vaccination�{\0#\0�20200508vaccination�z\0#\0�20190419vaccination�y\0#\0�20180504vaccination�x\0#\0�20170507vaccination�w\0#\0�20160513vaccination�v\0#\0�20150527vaccination�u\0#\0�20140501vaccination�t\0\0�20251022bilan�s\0\0�20210501chirurgie�r\0\x1B\0�20230320maladie�q\0\x1B\0�20240105maladie�p\0\0�20240729bilan�o\0#\0�20241116vaccination�n\0#\0�20231116vaccination�m\0#\0�20221028vaccination�l\0#\0�20211209vaccination�k\0#\0�20201104vaccination�j\0#\0�20191213vaccination�i\0\0�20250101bilan�h\0#\0�20251020vaccination�g\0#\0�20241103vaccination�f\0\0�20250912chirurgie�e\0\0�20250926chirurgie�d\0#\0�20251007vaccination�c\0#\0�20241113vaccination�b\0#\0�20230928vaccination�a\0#\0�20220811vaccination�\`\0#\0�20210907vaccination�_\0#\0�20200813vaccination�^\0#\0�20190820vaccination�]\0#\0�20180707vaccination�\\\0\x1B\0�20250413maladie�[\0#\0�20251008vaccination�Z\0#\0�20241028vaccination�Y\0#\0�20231217vaccination�X\0\x1B\0�20250811maladie�W\0\x1B\0�20231230maladie�V\0#\0�20250318vaccination�U\0#\0�20240506vaccination�T\0#\0�20230326vaccination�S\0#\0�20220210vaccination�R\0#\0�20210127vaccination�Q\0#\0�20200318vaccination�P\0#\0�20190206vaccination�O\0#\0�20171219vaccination�N\0#\0�20170205vaccination�M\0#\0�20160209vaccination�L\0#\0�20150311vaccination�K\0#\0�20140121vaccination�J\0#\0�20121217vaccination�I\0#\0�20250106vaccination�H\0#\0�20231228vaccination�G\0#\0�20221202vaccination�F\0#\0�20211024vaccination�E\0#\0�20200919vaccination�D\0\0�20240527chirurgie�C\0#\0�20251218vaccination�B\0#\0�20241208vaccination�A\0#\0�20231204vaccination�@\0\x1B\0�20210925maladie�?\0\x1B\0�20250918maladie�>\0\0�20231121chirurgie�=\0#\0�20250206vaccination�<\0#\0�20231225vaccination�;\0#\0�20230116vaccination�:\0#\0�20220225vaccination�9\0#\0�20210212vaccination�8\0#\0�20250509vaccination�7\0#\0�20240320vaccination�6\0#\0�20230329vaccination�5\0#\0�20220307vaccination�4\0#\0�20210318vaccination�3\0#\0�20200222vaccination�2\0#\0�20190224vaccination�1\0#\0�20180302vaccination�0\0#\0�20170303vaccination�/\0#\0�20160114vaccination�.\0#\0�20150113vaccination�-\0#\0�20140107vaccination�,\0\x1B\0�20230711maladie�+\0\0�20170403chirurgie�*\0\x1B\0�20151224maladie�)\0\x1B\0�20160716maladie�(\0\0�20230510bilan�'\0\0�20230502chirurgie�&\0#\0�20230827vaccination�%\0#\0�20221003vaccination�$\0#\0�20210925vaccination�#\0#\0�20201026vaccination�"\0#\0�20191129vaccination�!\0#\0�20181228vaccination� \0#\0�20180117vaccination�\0#\0�20170112vaccination�\0#\0�20160205vaccination�\0\x1B\0�20251027maladie�\0\0�20221016chirurgie�\x1B\0\x1B\0�20250106maladie�\0#\0�20250117vaccination�\0#\0�20240218vaccination�\0#\0�20230203vaccination�\0#\0�20220201vaccination�\0#\0�20210321vaccination�\0#\0�20251117vaccination�\0#\0�20241105vaccination�\0#\0�20231113vaccination�\0#\0�20221114vaccination�\0#\0�20211214vaccination�\0#\0�20201116vaccination�\0\x1B\0�20171221maladie�\0\x1B\0�20140427maladie\r\0\0\0�1\0����qX= ����rU:#
+\r�\r�\r�\r�\r}\r\`\rC\r*\r\f�\f�\f�\f�\f�\fc\fF\f)\f\f\v�\v�\v�\v�\v}\v\`\vC\v&\v	
+�
+�
+�
+�
+x
+]
+@
+#
+	�	�	�	�	{	\`	I	0	\b�\b�\b�\b�\b�\bm\bP\b3\b\x07�\x07�\x07�\x07�\x07�\x07~\x07a\x07D\x07'\x07
+����y\\?"����tW:\0����dG*\r�����cF)�����pS6�����kN1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0#\0�20230111vaccination�\x1B\0#\0�20211217vaccination�\0#\0�20210128vaccination�\0#\0�20200110vaccination�\0#\0�20190126vaccination�\0#\0�20171216vaccination�\0#\0�20170123vaccination�\0#\0�20160225vaccination�\0#\0�20150322vaccination�\0#\0�20140424vaccination�\0#\0�20250819vaccination�\0#\0�20240912vaccination�\0#\0�20230909vaccination�\0#\0�20220930vaccination�\0\0�20211225chirurgie�\r\0\0�20191125bilan�\f\0\0�20241019bilan�\v\0\x1B\0�20220216maladie�
+\0#\0�20250923vaccination�	\0#\0�20240922vaccination�\b\0#\0�20231004vaccination�\x07\0#\0�20221018vaccination�\0#\0�20210903vaccination�\0#\0�20200807vaccination�\0#\0�20190902vaccination�\0\x1B\0�20230208maladie�\0#\0�20250224vaccination�\0#\0�20240124vaccination�\0\0#\0�20230207vaccination�\0\0�20240218chirurgie�~\0\0�20180115bilan�}\0\0�20200529chirurgie�|\0\0�20221130chirurgie�{\0\0�20190412bilan�z\0#\0�20251018vaccination�y\0#\0�20241123vaccination�x\0#\0�20231026vaccination�w\0#\0�20221003vaccination�v\0#\0�20210820vaccination�u\0#\0�20200712vaccination�t\0#\0�20190731vaccination�s\0#\0�20180917vaccination�r\0#\0�20170811vaccination�q\0#\0�20160724vaccination�p\0#\0�20150704vaccination�o\0#\0�20250328vaccination�n\0#\0�20240406vaccination�m\0#\0�20230311vaccination�l\0#\0�20220412vaccination�k\0#\0�20210410vaccination�j\0#\0�20200228vaccination�i\0#\0�20190327vaccination�h\0#\0�20180513vaccination�g\0#\0�20170501vaccination�f\0#\0�20160506vaccination�e\0#\0�20150608vaccination�d\0#\0�20140703vaccination�c\0\0�20230209chirurgie�b\0\x1B\0�20220717maladie�a\0\0�20230421bilan�\`\0\x1B\0�20161105maladie�_\0\0�20180831bilan�^\0#\0�20241022vaccination�]\0#\0�20231028vaccination�\\\0#\0�20221002vaccination�[\0#\0�20210909vaccination�Z\0#\0�20201022vaccination�Y\0#\0�20191004vaccination�X\0#\0�20181109vaccination�W\0#\0�20171115vaccination�V\0#\0�20161224vaccination�U\0\0�20190908bilan�T\0\0�20220207chirurgie�S\0\x1B\0�20240311maladie�R\0\0�20250511bilan�Q\0\0�20200215chirurgie�P\0\0�20200306bilan�O\0#\0�20250619vaccination�N\0#\0�20240723vaccination�M\0#\0�20230808vaccination�L\0#\0�20220917vaccination�K\0#\0�20210813vaccination�J\0#\0�20200824vaccination�I\0#\0�20190814vaccination�H\0\0�20151226chirurgie�G\0#\0�20200613vaccination�F\0#\0�20190711vaccination�E\0#\0�20180626vaccination�D\0#\0�20170812vaccination�C\0#\0�20160717vaccination�B\0#\0�20150802vaccination�A\0#\0�20140822vaccination�@\0#\0�20130907vaccination�?\0#\0�20121013vaccination�>\0#\0�20110928vaccination�=\0#\0�20101025vaccination�<\0\0�20200227chirurgie�;\0#\0�20220723vaccination�:\0#\0�20210809vaccination�9\0#\0�20200903vaccination�8\0#\0�20190915vaccination�7\0#\0�20180813vaccination�6\0#\0�20170728vaccination�5\0#\0�20160803vaccination�4\0#\0�20150818vaccination�3\0#\0�20140921vaccination�2\0#\0�20130830vaccination�1\0#\0�20121003vaccination�0\0\x1B\0�20251124maladie�/\0\x1B\0�20230131maladie�.\0#\0�20250722vaccination�-\0#\0�20240723vaccination�,\0#\0�20230826vaccination�+\0#\0�20220923vaccination�*\0#\0�20210814vaccination�)\0\0�20210918chirurgie�(\0\0�20210814chirurgie�'\0\x1B\0�20240830maladie�&\0\0�20190221bilan�%\0\0�20190418chirurgie�$\0#\0�20250401vaccination�#\0#\0�20240309vaccination�"\0#\0�20230419vaccination�!\0#\0�20220530vaccination� \0#\0�20210522vaccination�\0#\0�20200527vaccination�\0#\0�20190627vaccination�\0#\0�20180612vaccination�\0\0�20230928chirurgie�\x1B\0\x1B\0�20231003maladie�\0#\0�20250509vaccination�\0#\0�20240513vaccination�\0#\0�20230604vaccination�\0\0�20250202chirurgie�\0#\0�20250219vaccination\r\0\0\0�4\0����hK.�����gL1\r�\r�\r�\r�\rv\rY\r<\r\r\f�\f�\f�\f�\fs\fV\f9\f\v�\v�\v�\v�\v�\vn\vW\v@\v'\v
+�
+�
+�
+�
+�
+r
+U
+8
+\x1B	�	�	�	�	�	q	T	7	 		\b�\b�\b�\b�\bx\b[\b>\b!\b\x07�\x07�\x07�\x07�\x07�\x07l\x07S\x07:\x07\x07����qT7�����lS<!
+�����rW:\0����uX;����xaF-�����nQ4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�&\0#\0�20201103vaccination�%\0#\0�20191106vaccination�$\0#\0�20181107vaccination�#\0#\0�20171201vaccination�"\0#\0�20161227vaccination�!\0#\0�20151228vaccination� \0\0�20170312chirurgie�\0\x1B\0�20230427maladie�\0\0�20160415bilan�\0\x1B\0�20220317maladie�\0\0�20210201chirurgie�\x1B\0\0�20230313bilan�\0\0�20211112chirurgie�\0\0�20220514bilan�\0#\0�20221026vaccination�\0#\0�20211208vaccination�\0#\0�20201208vaccination�\0#\0�20191121vaccination�\0#\0�20181207vaccination�\0#\0�20171130vaccination�\0#\0�20161104vaccination�\0#\0�20150922vaccination�\0\0�20240627bilan�\0#\0�20250713vaccination�\0#\0�20240603vaccination�\r\0#\0�20250706vaccination�\f\0#\0�20240805vaccination�\v\0#\0�20230623vaccination�
+\0#\0�20251110vaccination�	\0\0�20210627chirurgie�\b\0\0�20230602chirurgie�\x07\0\x1B\0�20201210maladie�\0\0�20200712bilan�\0\0�20240330chirurgie�\0\0�20121104chirurgie�\0\0�20200501bilan�\0\0�20160916bilan�\0\0�20230423chirurgie�\0\0\0�20210406bilan�\0\x1B\0�20181225maladie�~\0#\0�20250410vaccination�}\0#\0�20240412vaccination�|\0#\0�20230323vaccination�{\0#\0�20220420vaccination�z\0#\0�20210402vaccination�y\0#\0�20200426vaccination�x\0#\0�20190603vaccination�w\0#\0�20180530vaccination�v\0#\0�20170617vaccination�u\0#\0�20160611vaccination�t\0#\0�20150608vaccination�s\0#\0�20140706vaccination�r\0#\0�20130708vaccination�q\0#\0�20120810vaccination�p\0#\0�20110819vaccination�o\0\0�20251026chirurgie�n\0\x1B\0�20250308maladie�m\0\x1B\0�20241110maladie�l\0\0�20180113bilan�k\0\x1B\0�20191215maladie�j\0\0�20240312chirurgie�i\0\0�20190520bilan�h\0\x1B\0�20171027maladie�g\0#\0�20250608vaccination�f\0#\0�20240715vaccination�e\0#\0�20230721vaccination�d\0#\0�20220827vaccination�c\0#\0�20210728vaccination�b\0#\0�20200629vaccination�a\0#\0�20190713vaccination�\`\0#\0�20180824vaccination�_\0#\0�20170711vaccination�^\0#\0�20160531vaccination�]\0\0�20230903bilan�\\\0\0�20250723bilan�[\0#\0�20250426vaccination�Z\0#\0�20240316vaccination�Y\0#\0�20230402vaccination�X\0\x1B\0�20170814maladie�W\0#\0�20200822vaccination�V\0#\0�20190807vaccination�U\0#\0�20180909vaccination�T\0#\0�20170905vaccination�S\0#\0�20160912vaccination�R\0#\0�20150903vaccination�Q\0#\0�20140805vaccination�P\0#\0�20130730vaccination�O\0\x1B\0�20180911maladie�N\0\0�20160830chirurgie�M\0\0�20211001bilan�L\0\x1B\0�20170110maladie�K\0\0�20180701chirurgie�J\0\x1B\0�20180523maladie�I\0\x1B\0�20190728maladie�H\0\0�20180827bilan�G\0\0�20220826bilan�F\0#\0�20250907vaccination�E\0#\0�20240818vaccination�D\0#\0�20230808vaccination�C\0#\0�20220710vaccination�B\0#\0�20210821vaccination�A\0#\0�20200830vaccination�@\0#\0�20190824vaccination�?\0#\0�20180825vaccination�>\0#\0�20170809vaccination�=\0#\0�20160831vaccination�<\0#\0�20150910vaccination�;\0#\0�20141024vaccination�:\0#\0�20131025vaccination�9\0\0�20220525chirurgie�8\0#\0�20250919vaccination�7\0#\0�20241016vaccination�6\0#\0�20230909vaccination�5\0#\0�20220806vaccination�4\0#\0�20210618vaccination�3\0#\0�20200703vaccination�2\0#\0�20190610vaccination�1\0#\0�20180624vaccination�0\0\0�20130121bilan�/\0\x1B\0�20150220maladie�.\0\0�20130821bilan�-\0\0�20160624chirurgie�,\0\0�20130724chirurgie�+\0\x1B\0�20160729maladie�*\0#\0�20200627vaccination�)\0#\0�20190710vaccination�(\0#\0�20180525vaccination�'\0#\0�20170405vaccination�&\0#\0�20160219vaccination�%\0#\0�20150126vaccination�$\0#\0�20140208vaccination�#\0#\0�20130102vaccination�"\0\0�20190801bilan�!\0\0�20140906bilan� \0\x1B\0�20200615maladie�\0\0�20230815chirurgie�\0\x1B\0�20200619maladie�\0#\0�20240217vaccination\r\0\0\0�\0����oT9����z]@#\r�\r�\r�\r�\ru\rX\r;\r\r\f�\f�\f�\f�\ft\fW\f:\f\f\0\v�\v�\v�\v�\vs\v\\\v?\v"\v
+�
+�
+�
+�
+t
+]
+D
+-
+	�	�	�	�	�	p	S	6	\b�\b�\b�\b�\b�\bs\bX\bA\b&\b\x07�\x07�\x07�\x07�\x07�\x07m\x07P\x073\x07�����pS6�����wZ= �����kT7�����lO2�����gP3�����hQ:\0\0\0�/\0#\0�20150225vaccination�.\0\0�20190111bilan�-\0\0�20210313bilan�,\0#\0�20221116vaccination�+\0#\0�20211112vaccination�*\0#\0�20201218vaccination�)\0#\0�20191108vaccination�(\0#\0�20180919vaccination�'\0#\0�20170922vaccination�&\0#\0�20160830vaccination�%\0#\0�20151008vaccination�$\0\0�20250610bilan�#\0#\0�20250626vaccination�"\0#\0�20240813vaccination�!\0#\0�20230808vaccination� \0#\0�20220622vaccination�\0#\0�20250408vaccination�\0#\0�20240310vaccination�\0#\0�20230312vaccination�\0#\0�20230824vaccination�\x1B\0#\0�20220820vaccination�\0#\0�20210814vaccination�\0#\0�20200910vaccination�\0#\0�20191004vaccination�\0#\0�20180922vaccination�\0#\0�20170927vaccination�\0#\0�20160915vaccination�\0#\0�20250806vaccination�\0#\0�20240618vaccination�\0\0�20180327bilan�\0\0�20220513bilan�\0\0�20240712bilan�\0\0�20221021bilan�\0\x1B\0�20221122maladie�\r\0#\0�20240718vaccination�\f\0#\0�20230803vaccination�\v\0#\0�20220920vaccination�
+\0#\0�20210901vaccination�	\0#\0�20200918vaccination�\b\0#\0�20190911vaccination�\x07\0#\0�20180807vaccination�\0#\0�20170619vaccination�\0\0�20250714bilan�\0\0�20250830bilan�\0#\0�20250830vaccination�\0#\0�20240809vaccination�\0#\0�20230705vaccination�\0\0#\0�20220810vaccination�\0#\0�20210717vaccination�~\0\x1B\0�20160404maladie�}\0\x1B\0�20170112maladie�|\0#\0�20210827vaccination�{\0#\0�20200715vaccination�z\0#\0�20190704vaccination�y\0#\0�20180715vaccination�x\0#\0�20170623vaccination�w\0#\0�20160701vaccination�v\0#\0�20150603vaccination�u\0#\0�20140610vaccination�t\0#\0�20130713vaccination�s\0#\0�20120606vaccination�r\0\x1B\0�20210401maladie�q\0\x1B\0�20220506maladie�p\0\x1B\0�20190530maladie�o\0\0�20230617bilan�n\0\0�20231112chirurgie�m\0\0�20231229bilan�l\0\0�20211224chirurgie�k\0\0�20161030chirurgie�j\0\0�20250801bilan�i\0#\0�20251007vaccination�h\0#\0�20240821vaccination�g\0#\0�20230901vaccination�f\0#\0�20220922vaccination�e\0#\0�20210915vaccination�d\0#\0�20201016vaccination�c\0#\0�20191031vaccination�b\0#\0�20181001vaccination�a\0#\0�20171115vaccination�\`\0#\0�20161022vaccination�_\0\0�20151103bilan�^\0\x1B\0�20130422maladie�]\0\0�20160217chirurgie�\\\0\0�20190906chirurgie�[\0\0�20170712bilan�Z\0\x1B\0�20180526maladie�Y\0\0�20160507bilan�X\0#\0�20190609vaccination�W\0#\0�20180609vaccination�V\0#\0�20170628vaccination�U\0#\0�20160614vaccination�T\0#\0�20150705vaccination�S\0#\0�20140601vaccination�R\0#\0�20130610vaccination�Q\0#\0�20120501vaccination�P\0\0�20240527bilan�O\0\x1B\0�20171226maladie�N\0#\0�20250706vaccination�M\0#\0�20240704vaccination�L\0#\0�20230731vaccination�K\0#\0�20220621vaccination�J\0#\0�20210528vaccination�I\0#\0�20200712vaccination�H\0#\0�20190725vaccination�G\0#\0�20180622vaccination�F\0#\0�20170616vaccination�E\0#\0�20160428vaccination�D\0#\0�20150310vaccination�C\0#\0�20140121vaccination�B\0\x1B\0�20251116maladie�A\0#\0�20250502vaccination�@\0#\0�20240514vaccination�?\0#\0�20230424vaccination�>\0#\0�20220602vaccination�=\0#\0�20210502vaccination�<\0#\0�20200515vaccination�;\0#\0�20190404vaccination�:\0#\0�20180214vaccination�9\0#\0�20170209vaccination�8\0#\0�20160117vaccination�7\0#\0�20141227vaccination�6\0#\0�20131207vaccination�5\0#\0�20130123vaccination�4\0#\0�20120207vaccination�3\0\0�20250824chirurgie�2\0\0�20241003bilan�1\0#\0�20250208vaccination�0\0#\0�20240102vaccination�/\0\0�20200504chirurgie�.\0\0�20201001chirurgie�-\0\0�20220127chirurgie�,\0\0�20201210chirurgie�+\0#\0�20251006vaccination�*\0#\0�20241005vaccination�)\0#\0�20231001vaccination�(\0#\0�20220920vaccination�'\0#\0�20211109vaccination\r\0\0\0�!\0����oR5�����nQ4\r�\r�\r�\r�\r�\ri\rP\r9\r \r\x07\f�\f�\f�\f�\f�\fo\fV\f9\f\v�\v�\v�\v�\v�\vn\vQ\v4\v
+�
+�
+�
+�
+�
+y
+b
+K
+0
+	�	�	�	�	�	e	H	+	\b�\b�\b�\b�\b�\bf\bI\b,\b\x07�\x07�\x07�\x07�\x07�\x07o\x07T\x07=\x07&\x07	����|aD'
+����y\\?$\r�����y\\?"����tW:\0����uX;����pS<!\0\0\0\0\0\0\0�8\0\0�20181204chirurgie�7\0\0�20150716bilan�6\0#\0�20210807vaccination�5\0#\0�20200730vaccination�4\0#\0�20190909vaccination�3\0#\0�20181024vaccination�2\0#\0�20171123vaccination�1\0#\0�20161126vaccination�0\0#\0�20151024vaccination�/\0#\0�20140913vaccination�.\0#\0�20130925vaccination�-\0#\0�20120907vaccination�,\0#\0�20110928vaccination�+\0\0�20210608bilan�*\0#\0�20250611vaccination�)\0#\0�20240530vaccination�(\0#\0�20230614vaccination�'\0#\0�20220709vaccination�&\0#\0�20210529vaccination�%\0#\0�20250923vaccination�$\0#\0�20240823vaccination�#\0#\0�20230720vaccination�"\0#\0�20220831vaccination�!\0#\0�20210904vaccination� \0#\0�20200819vaccination�\0#\0�20190719vaccination�\0#\0�20180729vaccination�\0#\0�20250425vaccination�\0#\0�20240406vaccination�\x1B\0#\0�20230517vaccination�\0#\0�20220603vaccination�\0\0�20220901bilan�\0\x1B\0�20131202maladie�\0\0�20140814bilan�\0\x1B\0�20141124maladie�\0\0�20150704bilan�\0\0�20210925bilan�\0\0�20210702chirurgie�\0#\0�20220801vaccination�\0#\0�20210720vaccination�\0#\0�20200617vaccination�\0#\0�20190615vaccination�\0#\0�20180518vaccination�\r\0#\0�20170405vaccination�\f\0#\0�20160224vaccination�\v\0#\0�20150315vaccination�
+\0#\0�20140329vaccination�	\0#\0�20130420vaccination�\b\0\0�20240717chirurgie�\x07\0\x1B\0�20210601maladie�\0#\0�20250111vaccination�\0#\0�20231225vaccination�\0#\0�20221204vaccination�\0#\0�20211226vaccination�\0#\0�20210209vaccination�\0\0�20160815bilan�\0\0\0�20220325bilan�\0\0�20140620chirurgie�~\0\0�20210828chirurgie�}\0\0�20190424bilan�|\0\x1B\0�20220522maladie�{\0\0�20211013chirurgie�z\0#\0�20221222vaccination�y\0#\0�20211110vaccination�x\0#\0�20201123vaccination�w\0#\0�20200113vaccination�v\0#\0�20190222vaccination�u\0#\0�20180210vaccination�t\0#\0�20170103vaccination�s\0#\0�20160110vaccination�r\0#\0�20150223vaccination�q\0#\0�20140205vaccination�p\0#\0�20130207vaccination�o\0\0�20221024bilan�n\0#\0�20231029vaccination�m\0#\0�20221024vaccination�l\0#\0�20211123vaccination�k\0#\0�20201127vaccination�j\0#\0�20200107vaccination�i\0#\0�20190205vaccination�h\0#\0�20180326vaccination�g\0#\0�20170509vaccination�f\0#\0�20160602vaccination�e\0\0�20180206chirurgie�d\0\0�20250915bilan�c\0\0�20211210bilan�b\0\0�20160410chirurgie�a\0\0�20150715chirurgie�\`\0\0�20200302chirurgie�_\0\0�20150926bilan�^\0\0�20231213chirurgie�]\0\0�20250418chirurgie�\\\0#\0�20250816vaccination�[\0#\0�20240915vaccination�Z\0#\0�20231003vaccination�Y\0#\0�20220829vaccination�X\0#\0�20210809vaccination�W\0#\0�20200729vaccination�V\0#\0�20190723vaccination�U\0#\0�20180615vaccination�T\0#\0�20170801vaccination�S\0#\0�20160814vaccination�R\0#\0�20150808vaccination�Q\0\x1B\0�20151202maladie�P\0\x1B\0�20190503maladie�O\0\0�20220603chirurgie�N\0\x1B\0�20240920maladie�M\0\x1B\0�20131219maladie�L\0\0�20200212chirurgie�K\0\0�20150816bilan�J\0\x1B\0�20160408maladie�I\0\x1B\0�20140820maladie�H\0\0�20200709bilan�G\0\x1B\0�20190817maladie�F\0#\0�20241030vaccination�E\0#\0�20231109vaccination�D\0#\0�20221001vaccination�C\0#\0�20211016vaccination�B\0#\0�20200909vaccination�A\0#\0�20190925vaccination�@\0#\0�20180915vaccination�?\0#\0�20171010vaccination�>\0#\0�20161128vaccination�=\0#\0�20151126vaccination�<\0#\0�20141027vaccination�;\0#\0�20131110vaccination�:\0#\0�20121226vaccination�9\0\x1B\0�20161014maladie�8\0#\0�20240116vaccination�7\0#\0�20230205vaccination�6\0#\0�20220211vaccination�5\0#\0�20210102vaccination�4\0#\0�20191120vaccination�3\0#\0�20181130vaccination�2\0#\0�20171221vaccination�1\0#\0�20161229vaccination�0\0#\0�20160204vaccination\r\0\0\0�+\0�����nQ4�����mR7\r�\r�\r�\r�\r�\rl\rO\r6\r\r\f�\f�\f�\f�\f}\f\`\fC\f&\f	\v�\v�\v�\v�\v�\vi\vL\v/\v
+�
+�
+�
+�
+�
+d
+G
+*
+\r	�	�	�	�	�	m	T	9	 	\b�\b�\b�\b�\bv\b]\bF\b)\b\f\x07�\x07�\x07�\x07�\x07}\x07d\x07G\x07*\x07\r����|_F+�����hK.�����eJ3�����nQ4�����}dM0�����eH+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�A\0#\0�20220315vaccination�@\0#\0�20210427vaccination�?\0#\0�20200602vaccination�>\0#\0�20190502vaccination�=\0#\0�20180331vaccination�<\0#\0�20170505vaccination�;\0#\0�20160516vaccination�:\0#\0�20150622vaccination�9\0#\0�20140727vaccination�8\0#\0�20130905vaccination�7\0\0�20250319bilan�6\0\x1B\0�20220306maladie�5\0\0�20220226bilan�4\0\0�20200108bilan�3\0\x1B\0�20220918maladie�2\0\0�20220531chirurgie�1\0\0�20230921chirurgie�0\0#\0�20250923vaccination�/\0#\0�20240814vaccination�.\0#\0�20230801vaccination�-\0#\0�20220916vaccination�,\0#\0�20210923vaccination�+\0#\0�20200821vaccination�*\0#\0�20190913vaccination�)\0#\0�20180930vaccination�(\0\0�20250621chirurgie�'\0\0�20230831chirurgie�&\0\0�20190701chirurgie�%\0\0�20240213bilan�$\0\0�20180607chirurgie�#\0\0�20200730chirurgie�"\0#\0�20250528vaccination�!\0#\0�20240628vaccination� \0#\0�20230523vaccination�\0#\0�20220415vaccination�\0#\0�20210227vaccination�\0#\0�20200115vaccination�\0#\0�20181217vaccination�\x1B\0#\0�20171121vaccination�\0\0�20250906chirurgie�\0\0�20240322bilan�\0#\0�20250707vaccination�\0#\0�20240824vaccination�\0#\0�20230802vaccination�\0#\0�20220727vaccination�\0#\0�20210710vaccination�\0\0�20181106chirurgie�\0\x1B\0�20181104maladie�\0#\0�20250621vaccination�\0#\0�20240724vaccination�\0#\0�20230726vaccination�\0#\0�20220818vaccination�\r\0#\0�20210916vaccination�\f\0#\0�20200807vaccination�\v\0#\0�20190807vaccination�
+\0#\0�20180920vaccination�	\0#\0�20170909vaccination�\b\0\x1B\0�20220629maladie�\x07\0\0�20210114chirurgie�\0#\0�20250321vaccination�\0#\0�20240318vaccination�\0#\0�20230227vaccination�\0#\0�20220125vaccination�\0#\0�20210112vaccination�\0#\0�20191125vaccination�\0\0\0�20241223bilan�\0\x1B\0�20231028maladie�~\0#\0�20250128vaccination�}\0#\0�20240123vaccination�|\0#\0�20230108vaccination�{\0#\0�20220112vaccination�z\0\0�20211013chirurgie�y\0\0�20230402chirurgie�x\0\x1B\0�20210105maladie�w\0\0�20240424chirurgie�v\0\x1B\0�20160211maladie�u\0\x1B\0�20210714maladie�t\0\0�20191115chirurgie�s\0\0�20170201bilan�r\0\0�20181107chirurgie�q\0#\0�20250916vaccination�p\0#\0�20241030vaccination�o\0#\0�20231122vaccination�n\0#\0�20221221vaccination�m\0#\0�20211124vaccination�l\0#\0�20201228vaccination�k\0#\0�20191126vaccination�j\0#\0�20181207vaccination�i\0#\0�20180119vaccination�h\0#\0�20161224vaccination�g\0#\0�20151115vaccination�f\0#\0�20141110vaccination�e\0#\0�20131102vaccination�d\0#\0�20121006vaccination�c\0\0�20150516chirurgie�b\0\0�20130124chirurgie�a\0\0�20110604chirurgie�\`\0\0�20180822chirurgie�_\0\0�20160908bilan�^\0#\0�20180725vaccination�]\0#\0�20170707vaccination�\\\0#\0�20160628vaccination�[\0#\0�20150713vaccination�Z\0#\0�20140829vaccination�Y\0#\0�20130822vaccination�X\0#\0�20120802vaccination�W\0#\0�20110704vaccination�V\0\x1B\0�20210815maladie�U\0\x1B\0�20241217maladie�T\0\x1B\0�20200213maladie�S\0\0�20240621bilan�R\0\x1B\0�20201021maladie�Q\0#\0�20250622vaccination�P\0#\0�20240708vaccination�O\0#\0�20230805vaccination�N\0#\0�20220904vaccination�M\0#\0�20211006vaccination�L\0#\0�20201022vaccination�K\0#\0�20191122vaccination�J\0#\0�20181019vaccination�I\0\0�20160829chirurgie�H\0\0�20170205chirurgie�G\0\x1B\0�20161218maladie�F\0#\0�20190727vaccination�E\0#\0�20180914vaccination�D\0#\0�20170919vaccination�C\0#\0�20160807vaccination�B\0#\0�20150808vaccination�A\0#\0�20140711vaccination�@\0#\0�20130830vaccination�?\0#\0�20120818vaccination�>\0\x1B\0�20140608maladie�=\0\0�20150120bilan�<\0\0�20120616bilan�;\0\x1B\0�20200802maladie�:\0\0�20130525bilan�9\0\0�20181003chirurgie\r\0\0\0�\0����bE(\v����z_D)\f\r�\r�\r�\r�\r{\r^\rC\r(\r\f�\f�\f�\f�\f~\fa\fD\f'\f
+\v�\v�\v�\v�\v�\vn\vW\v<\v%\v
+
+�
+�
+�
+�
+y
+\\
+?
+"
+	�	�	�	�	t	W	:		\0\b�\b�\b�\b�\by\b^\bG\b,\b\x07�\x07�\x07�\x07�\x07~\x07a\x07D\x07'\x07�����pS6�����y\\?"����tY>'
+����y\\?$\r�����oR9"����tW:\0\0\0�J\0#\0�20211204vaccination�I\0#\0�20201222vaccination�H\0#\0�20200124vaccination�G\0#\0�20190122vaccination�F\0#\0�20180222vaccination�E\0#\0�20170122vaccination�D\0#\0�20160219vaccination�C\0#\0�20150407vaccination�B\0#\0�20140428vaccination�A\0\0�20230630bilan�@\0\x1B\0�20231111maladie�?\0#\0�20250528vaccination�>\0#\0�20240701vaccination�=\0#\0�20230626vaccination�<\0\x1B\0�20240201maladie�;\0\x1B\0�20200810maladie�:\0\0�20160722bilan�9\0\0�20231001chirurgie�8\0\0�20180816bilan�7\0\0�20180819chirurgie�6\0#\0�20230731vaccination�5\0#\0�20220714vaccination�4\0#\0�20210703vaccination�3\0#\0�20200617vaccination�2\0#\0�20190803vaccination�1\0#\0�20180719vaccination�0\0#\0�20170620vaccination�/\0#\0�20160508vaccination�.\0\0�20190606bilan�-\0\0�20200719chirurgie�,\0\0�20120508chirurgie�+\0#\0�20200814vaccination�*\0#\0�20190725vaccination�)\0#\0�20180705vaccination�(\0#\0�20170701vaccination�'\0#\0�20160709vaccination�&\0#\0�20150630vaccination�%\0#\0�20140531vaccination�$\0#\0�20130607vaccination�#\0#\0�20120518vaccination�"\0#\0�20110416vaccination�!\0\0�20240217chirurgie� \0\x1B\0�20231014maladie�\0\x1B\0�20250722maladie�\0\x1B\0�20210204maladie�\0#\0�20241228vaccination�\0#\0�20231230vaccination�\x1B\0#\0�20230214vaccination�\0#\0�20220302vaccination�\0#\0�20210317vaccination�\0\x1B\0�20250725maladie�\0\0�20241224chirurgie�\0\0�20180211bilan�\0\0�20230809chirurgie�\0\0�20230330chirurgie�\0\x1B\0�20210120maladie�\0#\0�20251216vaccination�\0#\0�20241104vaccination�\0#\0�20231001vaccination�\0#\0�20221113vaccination�\0#\0�20211214vaccination�\r\0#\0�20210110vaccination�\f\0#\0�20191223vaccination�\v\0#\0�20190209vaccination�
+\0#\0�20180219vaccination�	\0\0�20240603chirurgie�\b\0\0�20210705bilan�\x07\0\0�20161012chirurgie�\0\0�20190927chirurgie�\0\0�20180903bilan�\0\0�20190425chirurgie�\0#\0�20251215vaccination�\0#\0�20250105vaccination�\0#\0�20240223vaccination�\0\0#\0�20230407vaccination�\0#\0�20220511vaccination�~\0#\0�20210424vaccination�}\0#\0�20200510vaccination�|\0#\0�20190322vaccination�{\0#\0�20180222vaccination�z\0#\0�20170121vaccination�y\0#\0�20160229vaccination�x\0#\0�20230717vaccination�w\0#\0�20220725vaccination�v\0#\0�20210807vaccination�u\0#\0�20200914vaccination�t\0#\0�20191013vaccination�s\0#\0�20181108vaccination�r\0#\0�20171128vaccination�q\0#\0�20161207vaccination�p\0#\0�20160127vaccination�o\0\0�20211115chirurgie�n\0\0�20141202bilan�m\0\0�20170107chirurgie�l\0\0�20160424bilan�k\0\0�20161204bilan�j\0\x1B\0�20210316maladie�i\0\0�20210603chirurgie�h\0\x1B\0�20180201maladie�g\0\0�20210107chirurgie�f\0#\0�20230403vaccination�e\0#\0�20220414vaccination�d\0#\0�20210223vaccination�c\0#\0�20200118vaccination�b\0#\0�20190304vaccination�a\0#\0�20180302vaccination�\`\0#\0�20170309vaccination�_\0#\0�20160310vaccination�^\0#\0�20150426vaccination�]\0#\0�20140413vaccination�\\\0\x1B\0�20200215maladie�[\0\0�20240831chirurgie�Z\0\0�20240102chirurgie�Y\0#\0�20251127vaccination�X\0#\0�20241012vaccination�W\0#\0�20230925vaccination�V\0#\0�20220829vaccination�U\0#\0�20210818vaccination�T\0#\0�20200920vaccination�S\0#\0�20190916vaccination�R\0\0�20181216chirurgie�Q\0\0�20180112chirurgie�P\0\0�20181204chirurgie�O\0#\0�20210422vaccination�N\0#\0�20200610vaccination�M\0#\0�20190529vaccination�L\0#\0�20180713vaccination�K\0#\0�20170827vaccination�J\0#\0�20161008vaccination�I\0#\0�20151104vaccination�H\0#\0�20141029vaccination�G\0#\0�20130916vaccination�F\0\0�20220901chirurgie�E\0\x1B\0�20200216maladie�D\0\0�20131113bilan�C\0\x1B\0�20170601maladie�B\0#\0�20230312vaccination\r\0\0\0�4\0����y\`C&	����x[>!\r�\r�\r�\r�\r�\rl\rU\r>\r%\r
+\f�\f�\f�\f�\f}\f\`\fC\f&\f	\v�\v�\v�\v�\v�\vk\vP\v7\v\v
+�
+�
+�
+�
+t
+W
+:
+
+\0	�	�	�	�	w	\`	G	.		\0\b�\b�\b�\b�\b�\bh\bK\b.\b\x07�\x07�\x07�\x07�\x07�\x07c\x07F\x07)\x07�����dG*\r�����iN7�����lO2�����gJ-�����|_B%\b����}dM4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�T\0\x1B\0�20150430maladie�S\0\0�20211225bilan�R\0\x1B\0�20161213maladie�Q\0\0�20200824bilan�P\0#\0�20240518vaccination�O\0#\0�20230603vaccination�N\0#\0�20220629vaccination�M\0#\0�20210706vaccination�L\0#\0�20200713vaccination�K\0#\0�20190722vaccination�J\0#\0�20180616vaccination�I\0#\0�20170608vaccination�H\0#\0�20160601vaccination�G\0#\0�20150416vaccination�F\0\x1B\0�20141204maladie�E\0\0�20220218bilan�D\0\0�20201026bilan�C\0\x1B\0�20200819maladie�B\0\0�20221214bilan�A\0#\0�20221216vaccination�@\0#\0�20220101vaccination�?\0#\0�20201216vaccination�>\0#\0�20191101vaccination�=\0#\0�20181207vaccination�<\0#\0�20171027vaccination�;\0#\0�20160928vaccination�:\0#\0�20151113vaccination�9\0#\0�20141103vaccination�8\0#\0�20131016vaccination�7\0#\0�20121203vaccination�6\0#\0�20111202vaccination�5\0#\0�20251027vaccination�4\0#\0�20241109vaccination�3\0#\0�20231127vaccination�2\0#\0�20221106vaccination�1\0#\0�20250722vaccination�0\0#\0�20240831vaccination�/\0\0�20181023bilan�.\0\0�20171102chirurgie�-\0\x1B\0�20180615maladie�,\0\0�20151125chirurgie�+\0\0�20150628chirurgie�*\0\0�20180114chirurgie�)\0#\0�20200302vaccination�(\0#\0�20190302vaccination�'\0#\0�20180329vaccination�&\0#\0�20170311vaccination�%\0#\0�20160228vaccination�$\0#\0�20150414vaccination�#\0#\0�20140525vaccination�"\0#\0�20130616vaccination�!\0#\0�20120716vaccination� \0#\0�20110601vaccination�\0#\0�20100515vaccination�\0\0�20150718bilan�\0#\0�20230610vaccination�\0#\0�20220602vaccination�\x1B\0#\0�20210613vaccination�\0#\0�20200424vaccination�\0#\0�20190605vaccination�\0#\0�20180603vaccination�\0#\0�20170520vaccination�\0#\0�20160629vaccination�\0#\0�20150726vaccination�\0#\0�20140805vaccination�\0#\0�20130801vaccination�\0#\0�20120808vaccination�\0\0�20201121chirurgie�\0\x1B\0�20180319maladie�\0\0�20151210bilan�\0\x1B\0�20170126maladie�\r\0\0�20190928bilan�\f\0\0�20111007bilan�\v\0\0�20190307bilan�
+\0\x1B\0�20130223maladie�	\0\x1B\0�20180509maladie�\b\0\0�20131017bilan�\x07\0\x1B\0�20141125maladie�\0\x1B\0�20220819maladie�\0#\0�20220908vaccination�\0#\0�20210927vaccination�\0#\0�20201007vaccination�\0#\0�20191102vaccination�\0#\0�20180923vaccination�\0\0#\0�20170823vaccination�\0#\0�20160924vaccination�~\0#\0�20150919vaccination�}\0#\0�20140816vaccination�|\0#\0�20130718vaccination�{\0#\0�20120811vaccination�z\0#\0�20110816vaccination�y\0\0�20141003bilan�x\0\0�20231216chirurgie�w\0\x1B\0�20200416maladie�v\0\0�20171222chirurgie�u\0\0�20140828bilan�t\0\x1B\0�20160522maladie�s\0\0�20211022bilan�r\0#\0�20231116vaccination�q\0#\0�20221222vaccination�p\0#\0�20220103vaccination�o\0#\0�20210127vaccination�n\0#\0�20191214vaccination�m\0#\0�20190123vaccination�l\0#\0�20180219vaccination�k\0#\0�20170213vaccination�j\0#\0�20160315vaccination�i\0#\0�20150414vaccination�h\0#\0�20140527vaccination�g\0\x1B\0�20160701maladie�f\0\0�20160618chirurgie�e\0\x1B\0�20130814maladie�d\0\0�20191126bilan�c\0\0�20210501bilan�b\0\0�20211021chirurgie�a\0\x1B\0�20171102maladie�\`\0\x1B\0�20210331maladie�_\0\0�20161026bilan�^\0\0�20191006chirurgie�]\0\x1B\0�20220912maladie�\\\0#\0�20220926vaccination�[\0#\0�20211001vaccination�Z\0#\0�20200902vaccination�Y\0#\0�20190723vaccination�X\0#\0�20180618vaccination�W\0#\0�20170522vaccination�V\0#\0�20160625vaccination�U\0#\0�20150516vaccination�T\0#\0�20140523vaccination�S\0#\0�20130705vaccination�R\0#\0�20250929vaccination�Q\0#\0�20241104vaccination�P\0\x1B\0�20250420maladie�O\0#\0�20250209vaccination�N\0#\0�20240329vaccination�M\0\0�20140429chirurgie�L\0\x1B\0�20200721maladie�K\0\x1B\0�20180523maladie\r\0\0\0�3\0����bE(�����iL/\r�\r�\r�\r�\r�\rt\rW\r:\r\r\0\f�\f�\f�\f�\fs\fV\f9\f\v�\v�\v�\v�\v�\vr\v[\vD\v+\v
+�
+�
+�
+�
+}
+\`
+I
+.
+	�	�	�	�	�	s	V	9	\b�\b�\b�\b�\b�\bn\bQ\b4\b\x07�\x07�\x07�\x07�\x07�\x07m\x07P\x073\x07\x07����pS6\0����ybE(\v����z]@#�����v[B'
+����y\\?"�����gP3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�]\0#\0�20230603vaccination�\\\0\0�20230515bilan�[\0\0�20170717chirurgie�Z\0\0�20190304chirurgie�Y\0\0�20210110chirurgie�X\0\0�20160513bilan�W\0\0�20240804chirurgie�V\0\0�20180406chirurgie�U\0#\0�20250219vaccination�T\0#\0�20240228vaccination�S\0#\0�20230302vaccination�R\0#\0�20220209vaccination�Q\0#\0�20210304vaccination�P\0#\0�20200423vaccination�O\0#\0�20190423vaccination�N\0#\0�20180528vaccination�M\0#\0�20170629vaccination�L\0#\0�20160514vaccination�K\0\0�20101128chirurgie�J\0\x1B\0�20190620maladie�I\0\0�20210706chirurgie�H\0\x1B\0�20180921maladie�G\0\0�20200305bilan�F\0\0�20181231bilan�E\0\0�20120817bilan�D\0\0�20161005chirurgie�C\0\0�20210110bilan�B\0#\0�20210707vaccination�A\0#\0�20200716vaccination�@\0#\0�20190824vaccination�?\0#\0�20180930vaccination�>\0#\0�20170924vaccination�=\0#\0�20160826vaccination�<\0#\0�20150922vaccination�;\0#\0�20140902vaccination�:\0#\0�20130830vaccination�9\0#\0�20120727vaccination�8\0#\0�20110831vaccination�7\0#\0�20100831vaccination�6\0\0�20250713bilan�5\0\0�20250805bilan�4\0#\0�20250716vaccination�3\0#\0�20240814vaccination�2\0#\0�20230716vaccination�1\0\x1B\0�20130512maladie�0\0\x1B\0�20180123maladie�/\0#\0�20190202vaccination�.\0#\0�20180108vaccination�-\0#\0�20170227vaccination�,\0#\0�20160314vaccination�+\0#\0�20150129vaccination�*\0#\0�20131227vaccination�)\0#\0�20121220vaccination�(\0#\0�20120102vaccination�'\0\x1B\0�20241203maladie�&\0\x1B\0�20250223maladie�%\0#\0�20251223vaccination�$\0#\0�20241106vaccination�#\0#\0�20231112vaccination�"\0#\0�20221128vaccination�!\0#\0�20220105vaccination� \0#\0�20210102vaccination�\0#\0�20200128vaccination�\0\x1B\0�20240829maladie�\0#\0�20250710vaccination�\0#\0�20240824vaccination�\x1B\0#\0�20250223vaccination�\0#\0�20240228vaccination�\0#\0�20230323vaccination�\0#\0�20220501vaccination�\0#\0�20210505vaccination�\0#\0�20200518vaccination�\0#\0�20190406vaccination�\0#\0�20180522vaccination�\0#\0�20170519vaccination�\0#\0�20160509vaccination�\0#\0�20150411vaccination�\0#\0�20140415vaccination�\0#\0�20130413vaccination�\0\0�20250610chirurgie�\r\0\0�20220808bilan�\f\0\x1B\0�20200628maladie�\v\0\x1B\0�20200331maladie�
+\0\0�20251117chirurgie�	\0\0�20210130bilan�\b\0#\0�20250813vaccination�\x07\0#\0�20240715vaccination�\0#\0�20230727vaccination�\0#\0�20220730vaccination�\0#\0�20210626vaccination�\0#\0�20200814vaccination�\0#\0�20190808vaccination�\0\x1B\0�20170825maladie�\0\0\0�20160828bilan�\0\0�20210313bilan�~\0\x1B\0�20170119maladie�}\0#\0�20250606vaccination�|\0#\0�20240712vaccination�{\0#\0�20230720vaccination�z\0#\0�20220802vaccination�y\0#\0�20210709vaccination�x\0#\0�20200622vaccination�w\0#\0�20190710vaccination�v\0#\0�20180722vaccination�u\0#\0�20170706vaccination�t\0#\0�20160813vaccination�s\0#\0�20150829vaccination�r\0#\0�20140717vaccination�q\0\x1B\0�20230614maladie�p\0#\0�20250528vaccination�o\0#\0�20240712vaccination�n\0#\0�20230809vaccination�m\0#\0�20220711vaccination�l\0#\0�20210623vaccination�k\0\x1B\0�20220424maladie�j\0\0�20170324chirurgie�i\0\x1B\0�20170622maladie�h\0\0�20151120bilan�g\0#\0�20230103vaccination�f\0#\0�20220218vaccination�e\0#\0�20210319vaccination�d\0#\0�20200222vaccination�c\0#\0�20190224vaccination�b\0#\0�20180224vaccination�a\0#\0�20170307vaccination�\`\0#\0�20160229vaccination�_\0#\0�20150323vaccination�^\0\0�20250116bilan�]\0\0�20220812bilan�\\\0#\0�20250222vaccination�[\0#\0�20240306vaccination�Z\0#\0�20230320vaccination�Y\0#\0�20220417vaccination�X\0\x1B\0�20240825maladie�W\0\x1B\0�20230626maladie�V\0\0�20240917bilan�U\0\0�20220104chirurgie\r\0\0\0�0\0����wZ= ����rU<#\f\r�\r�\r�\r�\r�\rp\rU\r8\r\x1B\f�\f�\f�\f�\f�\fm\fP\f3\f\v�\v�\v�\v�\v�\vv\v_\vF\v)\v\f
+�
+�
+�
+�
+{
+^
+A
+$
+\x07	�	�	�	�	z	]	@	#	\b�\b�\b�\b�\bu\bX\b;\b\b\x07�\x07�\x07�\x07�\x07p\x07S\x076\x07�����oR5�����lO2�����kR;$\v����z]@#����ybI2\0�����jM0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�e\0#\0�20250922vaccination�d\0#\0�20241004vaccination�c\0#\0�20230921vaccination�b\0\0�20220825bilan�a\0\x1B\0�20140430maladie�\`\0\x1B\0�20190810maladie�_\0\x1B\0�20180318maladie�^\0\0�20161007bilan�]\0\x1B\0�20141101maladie�\\\0\x1B\0�20240210maladie�[\0\0�20200115bilan�Z\0\x1B\0�20140418maladie�Y\0\0�20220209bilan�X\0\x1B\0�20230620maladie�W\0#\0�20251113vaccination�V\0#\0�20241115vaccination�U\0#\0�20231021vaccination�T\0#\0�20221006vaccination�S\0#\0�20210902vaccination�R\0#\0�20200808vaccination�Q\0#\0�20190911vaccination�P\0#\0�20180924vaccination�O\0#\0�20171104vaccination�N\0#\0�20161112vaccination�M\0#\0�20150930vaccination�L\0#\0�20140817vaccination�K\0#\0�20130628vaccination�J\0\x1B\0�20180527maladie�I\0\0�20211102bilan�H\0\0�20240614bilan�G\0\x1B\0�20250814maladie�F\0\x1B\0�20190711maladie�E\0#\0�20251012vaccination�D\0#\0�20241004vaccination�C\0#\0�20230824vaccination�B\0#\0�20220911vaccination�A\0#\0�20210830vaccination�@\0#\0�20200822vaccination�?\0#\0�20190911vaccination�>\0#\0�20180923vaccination�=\0#\0�20170918vaccination�<\0\0�20180805chirurgie�;\0#\0�20250303vaccination�:\0#\0�20240119vaccination�9\0#\0�20230124vaccination�8\0#\0�20220128vaccination�7\0#\0�20210220vaccination�6\0#\0�20200111vaccination�5\0#\0�20190207vaccination�4\0#\0�20180107vaccination�3\0\0�20200721chirurgie�2\0\0�20250501chirurgie�1\0#\0�20251217vaccination�0\0#\0�20250125vaccination�/\0#\0�20240311vaccination�.\0#\0�20230425vaccination�-\0#\0�20220404vaccination�,\0#\0�20210423vaccination�+\0#\0�20200528vaccination�*\0#\0�20190711vaccination�)\0#\0�20180416vaccination�(\0#\0�20170409vaccination�'\0#\0�20160314vaccination�&\0#\0�20150212vaccination�%\0#\0�20140305vaccination�$\0#\0�20130324vaccination�#\0#\0�20120509vaccination�"\0#\0�20110521vaccination�!\0#\0�20190726vaccination� \0#\0�20180626vaccination�\0#\0�20170516vaccination�\0#\0�20160328vaccination�\0#\0�20150322vaccination�\0#\0�20140331vaccination�\x1B\0#\0�20130220vaccination�\0#\0�20120319vaccination�\0\x1B\0�20200612maladie�\0#\0�20250611vaccination�\0#\0�20240729vaccination�\0#\0�20230622vaccination�\0#\0�20220508vaccination�\0#\0�20210626vaccination�\0#\0�20200601vaccination�\0#\0�20190620vaccination�\0#\0�20180617vaccination�\0#\0�20170430vaccination�\0#\0�20160405vaccination�\0#\0�20150523vaccination�\r\0#\0�20140706vaccination�\f\0#\0�20130811vaccination�\v\0#\0�20120806vaccination�
+\0#\0�20250928vaccination�	\0\x1B\0�20240117maladie�\b\0\0�20130312bilan�\x07\0\0�20190921chirurgie�\0\0�20230420bilan�\0\0�20210214bilan�\0#\0�20250705vaccination�\0#\0�20240526vaccination�\0#\0�20230603vaccination�\0#\0�20220501vaccination�\0\0#\0�20210407vaccination�\0#\0�20200517vaccination�~\0#\0�20190411vaccination�}\0#\0�20180226vaccination�|\0#\0�20170212vaccination�{\0#\0�20160310vaccination�z\0#\0�20150414vaccination�y\0#\0�20140317vaccination�x\0#\0�20130402vaccination�w\0#\0�20120315vaccination�v\0\0�20190720chirurgie�u\0\0�20170913chirurgie�t\0\0�20121022chirurgie�s\0\0�20150121chirurgie�r\0\0�20210612bilan�q\0\0�20120804chirurgie�p\0\x1B\0�20210410maladie�o\0\0�20130107bilan�n\0\x1B\0�20130624maladie�m\0\x1B\0�20140808maladie�l\0#\0�20210614vaccination�k\0#\0�20200622vaccination�j\0#\0�20190626vaccination�i\0#\0�20180622vaccination�h\0#\0�20170707vaccination�g\0#\0�20160816vaccination�f\0#\0�20150827vaccination�e\0#\0�20140825vaccination�d\0#\0�20130714vaccination�c\0#\0�20120605vaccination�b\0#\0�20110721vaccination�a\0\x1B\0�20240410maladie�\`\0\x1B\0�20241127maladie�_\0#\0�20250608vaccination�^\0#\0�20240607vaccination\r\0\0\0�0\0����oR5�����nQ4\r�\r�\r�\r�\r�\ri\rL\r/\r\f�\f�\f�\f�\f�\fd\fG\f0\f\v�\v�\v�\v�\v�\v�\vh\vO\v2\v
+�
+�
+�
+�
+�
+i
+P
+5
+	�	�	�	�	�	n	Q	4	\b�\b�\b�\b�\b�\bu\bX\b;\b\b\x07�\x07�\x07�\x07�\x07p\x07S\x076\x07�����y\\?"����zcJ-����bE*�����y\\?"����~gL5�����jM0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�m\0#\v20240907vaccination�l\0#\v20230819vaccination�k\0#\v20220924vaccination�j\0#\v20211002vaccination�i\0#\v20200916vaccination�h\0#\v20190911vaccination�g\0#\v20181005vaccination�f\0#\v20171116vaccination�e\0#\v20161121vaccination�d\0
+20241122bilan�c\0
+20230709chirurgie�b\0
+20191116bilan�a\0\x1B
+20240114maladie�\`\0
+20230920bilan�_\0#
+20251120vaccination�^\0#
+20241015vaccination�]\0#
+20231007vaccination�\\\0#
+20221024vaccination�[\0#
+20211111vaccination�Z\0#
+20201019vaccination�Y\0#
+20191205vaccination�X\0#
+20190123vaccination�W\0\x1B	20190928maladie�V\0\x1B	20180201maladie�U\0\x1B	20240929maladie�T\0	20210911bilan�S\0\x1B	20250104maladie�R\0\x1B	20251222maladie�Q\0	20220408chirurgie�P\0#	20251128vaccination�O\0#	20241110vaccination�N\0#	20231022vaccination�M\0#	20221116vaccination�L\0#	20211024vaccination�K\0#	20201026vaccination�J\0#	20191118vaccination�I\0#	20181207vaccination�H\0#	20171024vaccination�G\0\x1B\b20180927maladie�F\0\b20191013bilan�E\0\b20240123bilan�D\0#\b20250826vaccination�C\0#\b20240910vaccination�B\0#\b20230903vaccination�A\0#\b20220903vaccination�@\0#\b20211015vaccination�?\0#\b20201127vaccination�>\0#\b20191124vaccination�=\0#\b20190111vaccination�<\0#\b20180112vaccination�;\0\x0720160705chirurgie�:\0\x0720171030chirurgie�9\0\x0720160910bilan�8\0\x1B\x0720211013maladie�7\0#\x0720251023vaccination�6\0#\x0720240906vaccination�5\0#\x0720230830vaccination�4\0#\x0720220915vaccination�3\0#\x0720210822vaccination�2\0#\x0720200725vaccination�1\0#\x0720190611vaccination�0\0#\x0720180607vaccination�/\0#\x0720170718vaccination�.\0#\x0720160825vaccination�-\0#\x0720150717vaccination�,\0#20251111vaccination�+\0#20241213vaccination�*\0\x1B20160804maladie�)\020161115chirurgie�(\020200528chirurgie�'\0\x1B20190823maladie�&\0#20250628vaccination�%\0#20240615vaccination�$\0#20230524vaccination�#\0#20220625vaccination�"\0#20210513vaccination�!\0#20200517vaccination� \0#20190611vaccination�\0#20180512vaccination�\0#20170608vaccination�\0#20160517vaccination�\0#20251116vaccination�\x1B\0\x1B20250124maladie�\020201020chirurgie�\0\x1B20221223maladie�\020210810chirurgie�\0#20250722vaccination�\0#20240906vaccination�\0#20230821vaccination�\0#20220711vaccination�\0#20210619vaccination�\0#20200604vaccination�\0#20250205vaccination�\0\x1B20180322maladie�\0\x1B20230929maladie�\020230317chirurgie�\r\020220604bilan�\f\020240818chirurgie�\v\020170126bilan�
+\020250730bilan�	\0\x1B20200308maladie�\b\020180327chirurgie�\x07\020170927bilan�\0#20250615vaccination�\0#20240715vaccination�\0#20230808vaccination�\0#20220831vaccination�\0#20210913vaccination�\0#20201009vaccination�\0\0#20190913vaccination�\0#20181019vaccination�~\0#20171205vaccination�}\0#20161017vaccination�|\0#20151025vaccination�{\0#20141016vaccination�z\0#\x0020250915vaccination�y\0#\x0020240907vaccination�x\0#\x0020230929vaccination�w\0#\x0020220912vaccination�v\0#\x0020211030vaccination�u\0#\x0020201006vaccination�t\0#\x0020190918vaccination�s\0#\x0020180925vaccination�r\0#\x0020170926vaccination�q\0\0�20220206chirurgie�p\0\0�20150929chirurgie�o\0#\0�20221229vaccination�n\0#\0�20211127vaccination�m\0#\0�20201221vaccination�l\0#\0�20191117vaccination�k\0#\0�20181103vaccination�j\0#\0�20170920vaccination�i\0#\0�20160804vaccination�h\0#\0�20150725vaccination�g\0#\0�20140609vaccination�f\0#\0�20130708vaccination\r\0\0\0�!\0����y\\?"����t]D+\r�\r�\r�\r�\r�\rj\rQ\r6\r\x1B\r\0\f�\f�\f�\f�\fs\fV\f=\f \f\v�\v�\v�\v�\vr\vU\v8\v\x1B
+�
+�
+�
+�
+�
+o
+R
+5
+	�	�	�	�	�	j	M	2	\b�\b�\b�\b�\b�\bm\bP\b3\b\x07�\x07�\x07�\x07�\x07�\x07|\x07_\x07B\x07%\x07����}\`C&	�����mT="����tW:\0����oV;$	�����eH+�����x[>!\0\0\0\0\0\0\0�v\0#20210918vaccination�u\0#20201105vaccination�t\0#20191210vaccination�s\0\x1B20220305bilan�r\0\x1B20231115bilan�q\0\x1B20200913chirurgie�p\0\x1B20240403bilan�o\0\x1B\x1B20230723maladie�n\0#\x1B20251105vaccination�m\0#\x1B20241016vaccination�l\0#\x1B20231202vaccination�k\0#\x1B20221103vaccination�j\0#\x1B20211016vaccination�i\0#\x1B20200909vaccination�h\0#\x1B20190829vaccination�g\020130622bilan�f\020120912chirurgie�e\020130916chirurgie�d\020170615chirurgie�c\020180328bilan�b\020111203chirurgie�a\0\x1B20101112maladie�\`\0#20180802vaccination�_\0#20170823vaccination�^\0#20160817vaccination�]\0#20150808vaccination�\\\0#20140801vaccination�[\0#20130810vaccination�Z\0#20120926vaccination�Y\0#20110820vaccination�X\0#20100927vaccination�W\0#20250219vaccination�V\0#20240105vaccination�U\0#20221223vaccination�T\0#20220130vaccination�S\0#20210214vaccination�R\0#20191230vaccination�Q\020210404chirurgie�P\020230811bilan�O\0\x1B20201218maladie�N\020150614bilan�M\020190928chirurgie�L\020231014bilan�K\0\x1B20190611maladie�J\0#20250101vaccination�I\0#20231204vaccination�H\0#20221129vaccination�G\0#20211026vaccination�F\0#20201023vaccination�E\0#20190919vaccination�D\0#20180820vaccination�C\0#20170718vaccination�B\0#20160621vaccination�A\0#20150523vaccination�@\0#20140605vaccination�?\020250509bilan�>\0#20241214vaccination�=\0#20240111vaccination�<\0#20251219vaccination�;\020161204bilan�:\0\x1B20150428maladie�9\0\x1B20140619maladie�8\020110820bilan�7\0#20171203vaccination�6\0#20161017vaccination�5\0#20151207vaccination�4\0#20141201vaccination�3\0#20131228vaccination�2\0#20130106vaccination�1\0#20111201vaccination�0\0#20101231vaccination�/\0#20100203vaccination�.\020221126chirurgie�-\020250401chirurgie�,\020220722chirurgie�+\020240224chirurgie�*\0#20250908vaccination�)\0#20240920vaccination�(\0#20230906vaccination�'\0#20221009vaccination�&\0#20211117vaccination�%\0#20201110vaccination�$\0#20191006vaccination�#\0#20180926vaccination�"\0#20250901vaccination�!\0#20241015vaccination� \020250204chirurgie�\0#20250523vaccination�\0#20240614vaccination�\0#20230625vaccination�\0#20250318vaccination�\x1B\0#20210320vaccination�\0#20200310vaccination�\0#20190128vaccination�\0#20180304vaccination�\0#20170125vaccination�\0#20151230vaccination�\0#20141230vaccination�\0#20140211vaccination�\0#20130322vaccination�\0#20120506vaccination�\0#20110607vaccination�\0\x1B20240619maladie�\0#20250423vaccination�\0#20240611vaccination�\r\0\x1B20250314maladie�\f\0#20250407vaccination�\v\0#20240310vaccination�
+\0#20230205vaccination�	\0\r20220507chirurgie�\b\0\r20210610chirurgie�\x07\0\r20230317chirurgie�\0\x1B\r20220619maladie�\0#\r20250506vaccination�\0#\r20240331vaccination�\0#\r20230514vaccination�\0#\r20220703vaccination�\0#\r20210524vaccination�\0\0\x1B\f20180508maladie�\0\f20150818bilan�~\0\x1B\f20230701maladie�}\0\x1B\f20170114maladie�|\0\f20181211bilan�{\0#\f20250909vaccination�z\0#\f20240916vaccination�y\0#\f20230801vaccination�x\0#\f20220823vaccination�w\0#\f20210730vaccination�v\0#\f20200818vaccination�u\0#\f20190808vaccination�t\0#\f20180702vaccination�s\0#\f20170624vaccination�r\0#\f20160621vaccination�q\0#\f20150530vaccination�p\0#\f20140620vaccination�o\0\v20191119bilan�n\0\x1B\v20180703maladie\r\0\0\0�,\0����sV9�����nQ4\r�\r�\r�\r�\r�\rw\rZ\r=\r \r\f�\f�\f�\f�\fr\fU\f8\f\x1B\f\0\v�\v�\v�\v�\vo\vR\v9\v \v	
+�
+�
+�
+�
+z
+]
+@
+#
+	�	�	�	�	u	^	A	$	\x07\b�\b�\b�\b�\bv\bY\b<\b\b\x07�\x07�\x07�\x07�\x07q\x07T\x077\x07�����rU8\x1B�����mR9"	�����qT;����pS6�����}fM4�����fI,\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�~\0#+20180427vaccination�}\0#+20170525vaccination�|\0#+20160701vaccination�{\0#+20150716vaccination�z\0#+20140626vaccination�y\0*20141124bilan�x\0*20191002bilan�w\0*20150714bilan�v\0*20161108chirurgie�u\0*20121126bilan�t\0\x1B*20121230maladie�s\0\x1B*20100811maladie�r\0*20120203bilan�q\0*20180221bilan�p\0*20100531chirurgie�o\0\x1B*20180816maladie�n\0*20181117bilan�m\0#*20210315vaccination�l\0#*20200413vaccination�k\0#*20190224vaccination�j\0#*20180302vaccination�i\0#*20170129vaccination�h\0#*20160108vaccination�g\0#*20141229vaccination�f\0#*20140121vaccination�e\0#*20130312vaccination�d\0#*20120127vaccination�c\0#*20110315vaccination�b\0#*20100402vaccination�a\0\x1B)20250308maladie�\`\0#)20251126vaccination�_\0#)20241113vaccination�^\0#)20231215vaccination�]\0(20180903bilan�\\\0(20240110bilan�[\0\x1B(20211109maladie�Z\0(20240622bilan�Y\0\x1B(20250426maladie�X\0(20240905bilan�W\0\x1B(20250411maladie�V\0(20240222chirurgie�U\0#(20250904vaccination�T\0#(20241020vaccination�S\0#(20231031vaccination�R\0#(20221025vaccination�Q\0#(20211212vaccination�P\0#(20201108vaccination�O\0#(20190921vaccination�N\0#(20180918vaccination�M\0#(20171031vaccination�L\0'20230323bilan�K\0#'20251025vaccination�J\0#'20241201vaccination�I\0#'20231108vaccination�H\0#'20221007vaccination�G\0#'20211005vaccination�F\0#'20201123vaccination�E\0#&20210227vaccination�D\0#&20200407vaccination�C\0#&20190410vaccination�B\0#&20180223vaccination�A\0#&20170409vaccination�@\0#&20160512vaccination�?\0#&20150430vaccination�>\0#&20140526vaccination�=\0#&20130711vaccination�<\0#&20120612vaccination�;\0#&20110624vaccination�:\0#%20251210vaccination�9\0#%20241227vaccination�8\0#%20240111vaccination�7\0#%20230125vaccination�6\0#%20220225vaccination�5\0#%20210129vaccination�4\0#%20200102vaccination�3\0#%20190125vaccination�2\0$20211121bilan�1\0#$20231128vaccination�0\0#$20221017vaccination�/\0#$20211127vaccination�.\0#$20201203vaccination�-\0#$20191103vaccination�,\0#$20181109vaccination�+\0#$20171206vaccination�*\0#$20161122vaccination�)\0##20250114vaccination�(\0##20240201vaccination�'\0##20230216vaccination�&\0##20220105vaccination�%\0#"20250426vaccination�$\0!20191022chirurgie�#\0!20230414bilan�"\0\x1B!20230422maladie�!\0\x1B!20190806maladie� \0#!20250122vaccination�\0#!20240118vaccination�\0#!20221217vaccination�\0#!20211115vaccination�\0#!20201003vaccination�\x1B\0#!20190827vaccination�\0 20221114chirurgie�\0# 20250301vaccination�\0# 20240325vaccination�\0# 20230328vaccination�\0# 20220509vaccination�\0# 20210530vaccination�\0# 20200613vaccination�\0#20240612vaccination�\0#20230529vaccination�\0#20220621vaccination�\0#20210506vaccination�\0#20200603vaccination�\0#20190702vaccination�\r\0#20180616vaccination�\f\0#20170726vaccination�\v\020160924chirurgie�
+\020170303bilan�	\020220104bilan�\b\0#20250217vaccination�\x07\0#20240327vaccination�\0#20230517vaccination�\0#20220621vaccination�\0#20210515vaccination�\0#20200502vaccination�\0#20190327vaccination�\0#20180304vaccination�\0\0#20170314vaccination�\0#20160406vaccination�~\0#20150309vaccination�}\0#20241213vaccination�|\0#20231130vaccination�{\0\x1B20210826maladie�z\0#20251118vaccination�y\0#20241017vaccination�x\0#20231115vaccination�w\0#20221015vaccination\r\0\0\0�0\0����oR5�����jM0\r�\r�\r�\r�\r�\rk\rN\r1\r\f�\f�\f�\f�\f�\ft\fW\f:\f\f\0\v�\v�\v�\v�\vo\vR\v5\v\v
+�
+�
+�
+�
+r
+W
+:
+
+\0	�	�	�	�	s	V	9	\b�\b�\b�\b�\b�\bt\b]\bB\b%\b\b\x07�\x07�\x07�\x07�\x07w\x07Z\x07=\x07 \x07�����kP7�����lO2�����gJ-�����rU8\x1B�����mP3�����jM0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\0#920190709vaccination�\0#920180526vaccination�\0#920170506vaccination�\0#920160625vaccination�\0\0#920150615vaccination�\0#920140606vaccination�~\0820210406chirurgie�}\0#820250228vaccination�|\0#820240207vaccination�{\0#820230108vaccination�z\0#820220210vaccination�y\0#820210220vaccination�x\0#820200111vaccination�w\0#820190218vaccination�v\0#820180327vaccination�u\0#820170430vaccination�t\0#820160406vaccination�s\0#820150430vaccination�r\0#820140311vaccination�q\0#820130423vaccination�p\0\x1B720150623maladie�o\0720171123bilan�n\0720210624chirurgie�m\0720150628chirurgie�l\0720130822chirurgie�k\0#720230213vaccination�j\0#720220302vaccination�i\0#720210216vaccination�h\0#720200111vaccination�g\0#720181230vaccination�f\0#720171122vaccination�e\0#720161208vaccination�d\0#720151227vaccination�c\0#720141206vaccination�b\0#720131111vaccination�a\0#720121002vaccination�\`\0#720111009vaccination�_\0#620251027vaccination�^\0#620241105vaccination�]\0#620231213vaccination�\\\0#620230112vaccination�[\0#620220203vaccination�Z\0#620210309vaccination�Y\0#620200305vaccination�X\0#620190307vaccination�W\0\x1B520200611maladie�V\0520160110chirurgie�U\0\x1B520200815maladie�T\0\x1B520170302maladie�S\0520141030bilan�R\0520120423chirurgie�Q\0520190911bilan�P\0#520230605vaccination�O\0#520220526vaccination�N\0#520210607vaccination�M\0#520200426vaccination�L\0#520190321vaccination�K\0#520180324vaccination�J\0#520170205vaccination�I\0#520151220vaccination�H\0#520150125vaccination�G\0#520140128vaccination�F\0#520130210vaccination�E\0#520120112vaccination�D\0420230320chirurgie�C\0420200322bilan�B\0420170410bilan�A\0#420250223vaccination�@\0#420240108vaccination�?\0#420221204vaccination�>\0#420220107vaccination�=\0#420210122vaccination�<\0#420200128vaccination�;\0#420190209vaccination�:\0#420171225vaccination�9\0#420170121vaccination�8\0#320251215vaccination�7\0#220250304vaccination�6\0#220240329vaccination�5\0\x1B120240116maladie�4\0#120250831vaccination�3\0#120240913vaccination�2\0#120230730vaccination�1\0020250515chirurgie�0\0#020241229vaccination�/\0#/20250831vaccination�.\0#/20241010vaccination�-\0#/20231030vaccination�,\0#/20221014vaccination�+\0.20250911chirurgie�*\0.20180411bilan�)\0#.20251008vaccination�(\0#.20241125vaccination�'\0#.20231210vaccination�&\0#.20221214vaccination�%\0#.20211119vaccination�$\0#.20210104vaccination�#\0#.20200209vaccination�"\0#.20190113vaccination�!\0#.20180102vaccination� \0#.20170211vaccination�\0#.20160401vaccination�\0\x1B-20211017maladie�\0\x1B-20211204maladie�\0-20181222bilan�\x1B\0#-20250507vaccination�\0#-20240529vaccination�\0#-20230505vaccination�\0#-20220415vaccination�\0#-20210312vaccination�\0#-20200207vaccination�\0#-20190219vaccination�\0#-20180129vaccination�\0#-20170222vaccination�\0#-20160309vaccination�\0,20150403bilan�\0#,20230715vaccination�\0#,20220528vaccination�\0#,20210413vaccination�\r\0#,20200305vaccination�\f\0#,20190218vaccination�\v\0#,20180328vaccination�
+\0#,20170511vaccination�	\0#,20160416vaccination�\b\0#,20150428vaccination�\x07\0#,20140424vaccination�\0#+20251121vaccination�\0#+20241009vaccination�\0#+20231113vaccination�\0#+20221019vaccination�\0#+20211205vaccination�\0#+20210122vaccination�\0\0#+20200129vaccination�\0#+20190320vaccination\r\0\0\0�5\0����oR7�����rW:\0\r�\r�\r�\r�\ro\rR\r5\r\f�\f�\f�\f�\f�\f�\fm\fT\f7\f\v�\v�\v�\v�\v�\vl\vO\v2\v\v\0
+�
+�
+�
+�
+�
+p
+Y
+<
+
+	�	�	�	�	q	V	9	\b�\b�\b�\b�\b�\bn\bQ\b4\b\x07�\x07�\x07�\x07�\x07�\x07y\x07b\x07G\x07.\x07�����iL5�����x[>!����y\`I2\x1B����sV; ����tW:\0����oR5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�\r\0#E20230304vaccination�\f\0#E20220117vaccination�\v\0#E20210303vaccination�
+\0#E20200415vaccination�	\0#E20190326vaccination�\b\0#E20180313vaccination�\x07\0#D20251114vaccination�\0#D20241103vaccination�\0#D20231122vaccination�\0#D20221215vaccination�\0#D20211111vaccination�\0#D20201021vaccination�\0#D20190929vaccination�\0\0#D20180823vaccination�\0#D20170907vaccination�~\0#D20161014vaccination�}\0C20250320chirurgie�|\0C20220913chirurgie�{\0C20240805chirurgie�z\0#C20251016vaccination�y\0#C20241107vaccination�x\0#C20231227vaccination�w\0#C20230102vaccination�v\0#C20211214vaccination�u\0#C20210120vaccination�t\0B20190504bilan�s\0B20241027bilan�r\0B20170915bilan�q\0B20190803bilan�p\0\x1BB20170313maladie�o\0\x1BB20180326maladie�n\0B20181231chirurgie�m\0#B20240803vaccination�l\0#B20230903vaccination�k\0#B20221004vaccination�j\0#B20211122vaccination�i\0#B20210107vaccination�h\0#B20191228vaccination�g\0#B20181219vaccination�f\0#B20180118vaccination�e\0#B20170225vaccination�d\0A20251103bilan�c\0A20241227chirurgie�b\0A20190728chirurgie�a\0A20240102chirurgie�\`\0A20210422chirurgie�_\0A20240130bilan�^\0#A20250609vaccination�]\0#A20240518vaccination�\\\0#A20230629vaccination�[\0#A20220713vaccination�Z\0#A20210727vaccination�Y\0#A20200711vaccination�X\0#A20190821vaccination�W\0@20130704bilan�V\0\x1B@20140901maladie�U\0@20220603chirurgie�T\0@20220101bilan�S\0\x1B@20211104maladie�R\0@20150419chirurgie�Q\0@20130317chirurgie�P\0\x1B@20190707maladie�O\0\x1B@20180821maladie�N\0#@20221111vaccination�M\0#@20211114vaccination�L\0#@20201019vaccination�K\0#@20191005vaccination�J\0#@20180912vaccination�I\0#@20171015vaccination�H\0#@20161121vaccination�G\0#@20151029vaccination�F\0#@20141023vaccination�E\0#@20131024vaccination�D\0#@20120919vaccination�C\0#@20110807vaccination�B\0?20241230chirurgie�A\0#?20250525vaccination�@\0#?20240405vaccination�?\0#?20230424vaccination�>\0#?20220506vaccination�=\0#>20250801vaccination�<\0#>20240722vaccination�;\0#>20230617vaccination�:\0#>20220708vaccination�9\0=20130430bilan�8\0\x1B=20200203maladie�7\0=20160105bilan�6\0=20191227bilan�5\0=20131121bilan�4\0\x1B=20181020maladie�3\0\x1B=20131030maladie�2\0\x1B=20120729maladie�1\0\x1B=20181110maladie�0\0#=20200628vaccination�/\0#=20190731vaccination�.\0#=20180628vaccination�-\0#=20170804vaccination�,\0#=20160709vaccination�+\0#=20150629vaccination�*\0#=20140511vaccination�)\0#=20130404vaccination�(\0#=20120328vaccination�'\0#=20110403vaccination�&\0\x1B<20220101maladie�%\0<20191116bilan�$\0<20230703bilan�#\0<20151023chirurgie�"\0\x1B<20220923maladie�!\0<20180807bilan� \0<20240511bilan�\0<20200128chirurgie�\0#<20250420vaccination�\0#<20240416vaccination�\0#<20230328vaccination�\x1B\0#<20220419vaccination�\0#<20210426vaccination�\0#<20200415vaccination�\0#<20190513vaccination�\0#<20180512vaccination�\0#<20170422vaccination�\0#<20160611vaccination�\0#<20150701vaccination�\0;20230811chirurgie�\0;20210803bilan�\0#;20251118vaccination�\0#;20241204vaccination�\0#;20231129vaccination�\0#;20230114vaccination�\r\0#;20211201vaccination�\f\0#;20201220vaccination�\v\0920210130chirurgie�
+\0#920250612vaccination�	\0#920240615vaccination�\b\0#920230714vaccination�\x07\0#920220608vaccination�\0#920210710vaccination�\0#920200803vaccination\r\0\0\0�$\0����fI,����~gP7\r�\r�\r�\r�\rx\r[\r>\r!\r\f�\f�\f�\f�\fw\f\\\fA\f(\f\v�\v�\v�\v�\v�\vm\vP\v3\v
+�
+�
+�
+�
+�
+j
+M
+0
+	�	�	�	�	�	�	j	O	2	\b�\b�\b�\b�\b�\bg\bP\b9\b\b\x07�\x07�\x07�\x07�\x07|\x07_\x07B\x07%\x07\b�����jS:\b�����dG*\r�����qV?(\v����z]@#\f�����x[>!����y^A$\0\0\0\0�\0#Q20221216vaccination�\0#Q20211117vaccination�\0P20250521chirurgie�\0P20250112bilan�\0#P20250813vaccination�\0#P20240930vaccination�\0#P20231011vaccination�\0#O20250314vaccination�\0#O20240130vaccination�\0#O20230315vaccination�\0#O20220226vaccination�\0#O20210216vaccination�\r\0\x1BN20230910maladie�\f\0\x1BN20250518maladie�\v\0N20190421chirurgie�
+\0\x1BN20250731maladie�	\0N20231020bilan�\b\0N20200103bilan�\x07\0N20200415bilan�\0#N20250507vaccination�\0#N20240330vaccination�\0#N20230406vaccination�\0#N20220222vaccination�\0#N20210307vaccination�\0#N20200409vaccination�\0\0#N20190412vaccination�\0#N20180518vaccination�~\0#N20170618vaccination�}\0M20220826bilan�|\0M20240212bilan�{\0M20200121chirurgie�z\0M20190416bilan�y\0M20211202bilan�x\0\x1BM20200125maladie�w\0M20191115chirurgie�v\0#M20251115vaccination�u\0#M20241210vaccination�t\0#M20231208vaccination�s\0#M20221207vaccination�r\0#M20211207vaccination�q\0#M20201222vaccination�p\0#M20191123vaccination�o\0#M20190103vaccination�n\0#M20180130vaccination�m\0L20231020bilan�l\0\x1BL20180107maladie�k\0L20161014bilan�j\0L20161120chirurgie�i\0\x1BL20180802maladie�h\0L20240307bilan�g\0L20210225bilan�f\0\x1BL20170924maladie�e\0L20250815bilan�d\0#L20251216vaccination�c\0#L20241121vaccination�b\0#L20231013vaccination�a\0#L20221011vaccination�\`\0#L20210905vaccination�_\0#L20200819vaccination�^\0#L20190807vaccination�]\0#L20180711vaccination�\\\0#L20170724vaccination�[\0#L20160821vaccination�Z\0K20151025bilan�Y\0\x1BK20180827maladie�X\0K20210630chirurgie�W\0K20221202chirurgie�V\0K20160412bilan�U\0K20161130bilan�T\0#K20221117vaccination�S\0#K20210928vaccination�R\0#K20201113vaccination�Q\0#K20191020vaccination�P\0#K20180924vaccination�O\0#K20171010vaccination�N\0#K20161006vaccination�M\0#K20151001vaccination�L\0J20180731chirurgie�K\0J20191203bilan�J\0J20210109bilan�I\0J20170802bilan�H\0\x1BJ20231116maladie�G\0J20250309chirurgie�F\0J20170801bilan�E\0\x1BJ20230923maladie�D\0#J20251014vaccination�C\0#J20241013vaccination�B\0#J20231105vaccination�A\0#J20221015vaccination�@\0#J20210830vaccination�?\0#J20201019vaccination�>\0#J20190902vaccination�=\0#J20180817vaccination�<\0#J20170811vaccination�;\0I20221023chirurgie�:\0#I20241230vaccination�9\0#I20231226vaccination�8\0#I20230123vaccination�7\0#I20220217vaccination�6\0#I20210104vaccination�5\0\x1BH20180819maladie�4\0\x1BH20180627maladie�3\0\x1BH20180714maladie�2\0\x1BH20160327maladie�1\0\x1BH20230407maladie�0\0H20231108chirurgie�/\0H20191005chirurgie�.\0H20250314chirurgie�-\0H20251123chirurgie�,\0#H20251120vaccination�+\0#H20241230vaccination�*\0#H20231211vaccination�)\0#H20230120vaccination�(\0#H20220205vaccination�'\0#H20210114vaccination�&\0#H20200224vaccination�%\0#H20190329vaccination�$\0#H20180322vaccination�#\0#H20170301vaccination�"\0#H20160115vaccination�!\0\x1BG20200130maladie� \0G20251006bilan�\0G20221125chirurgie�\0\x1BG20250409maladie�\0G20250123bilan�\0G20250204bilan�\x1B\0#G20250212vaccination�\0#G20240215vaccination�\0#G20230121vaccination�\0#G20220103vaccination�\0#G20201223vaccination�\0#G20200124vaccination�\0#G20190128vaccination�\0#F20250808vaccination�\0\x1BE20250614maladie�\0E20180316bilan�\0\x1BE20200407maladie�\0E20231125bilan�\0#E20250221vaccination�\0#E20240223vaccination\r\0\0\0�$\0����oR9 ����rU8\x1B\r�\r�\r�\r�\r�\r�\rj\rS\r8\r!\r\f�\f�\f�\f�\f{\f^\fA\f*\f\r\v�\v�\v�\v�\v|\v_\vB\v)\v
+�
+�
+�
+�
+�
+t
+W
+:
+
+\0	�	�	�	�	o	R	5	\b�\b�\b�\b�\b�\bj\bM\b2\b\x1B\b\x07�\x07�\x07�\x07�\x07�\x07j\x07Q\x074\x07�����iL1�����tW:\b����wZ= ����zaF-�����vY<����qT=$\0\0\0\0\0\0\0\0�#\0\x1B[20190512maladie�"\0[20160212bilan�!\0#[20250402vaccination� \0#[20240406vaccination�\0#[20230301vaccination�\0#[20220401vaccination�\0#[20210518vaccination�\0#[20200702vaccination�\x1B\0#[20190617vaccination�\0#[20180601vaccination�\0#[20170627vaccination�\0#[20160711vaccination�\0#[20150720vaccination�\0\x1BZ20130725maladie�\0Z20180225chirurgie�\0Z20130904bilan�\0\x1BZ20151110maladie�\0Z20101207chirurgie�\0Z20151212chirurgie�\0\x1BZ20150602maladie�\0Z20110930chirurgie�\0\x1BZ20130716maladie�\r\0Z20111027chirurgie�\f\0\x1BZ20140317maladie�\v\0Z20190810chirurgie�
+\0#Z20200126vaccination�	\0#Z20190131vaccination�\b\0#Z20180317vaccination�\x07\0#Z20170303vaccination�\0#Z20160404vaccination�\0#Z20150218vaccination�\0#Z20140407vaccination�\0#Z20130517vaccination�\0#Z20120408vaccination�\0#Z20110529vaccination�\0\0#Z20100710vaccination�\0Y20220915bilan�~\0Y20221223chirurgie�}\0#Y20250708vaccination�|\0#Y20240611vaccination�{\0#Y20230714vaccination�z\0#Y20220610vaccination�y\0#Y20210517vaccination�x\0\x1BX20241215maladie�w\0\x1BX20240319maladie�v\0X20190515chirurgie�u\0\x1BX20250110maladie�t\0X20190125chirurgie�s\0#X20251209vaccination�r\0#X20241025vaccination�q\0#X20231215vaccination�p\0#X20221209vaccination�o\0#X20211121vaccination�n\0#X20201215vaccination�m\0#X20191116vaccination�l\0#X20181117vaccination�k\0#X20171207vaccination�j\0\x1BW20200418maladie�i\0\x1BW20240918maladie�h\0W20170916chirurgie�g\0W20170109bilan�f\0W20200729chirurgie�e\0W20220427bilan�d\0W20170816chirurgie�c\0\x1BW20181221maladie�b\0W20150412bilan�a\0W20141207chirurgie�\`\0#W20250817vaccination�_\0#W20240629vaccination�^\0#W20230811vaccination�]\0#W20220824vaccination�\\\0#W20210924vaccination�[\0#W20201018vaccination�Z\0#W20191008vaccination�Y\0#W20181002vaccination�X\0#W20171017vaccination�W\0#W20161201vaccination�V\0#W20151119vaccination�U\0#W20141119vaccination�T\0#W20131020vaccination�S\0#V20180210vaccination�R\0#V20161223vaccination�Q\0#V20160115vaccination�P\0#V20150128vaccination�O\0#V20140218vaccination�N\0#V20130115vaccination�M\0#V20111209vaccination�L\0#V20101215vaccination�K\0U20190116chirurgie�J\0\x1BU20210424maladie�I\0U20211023bilan�H\0\x1BU20250213maladie�G\0U20181128bilan�F\0\x1BU20201214maladie�E\0#U20250313vaccination�D\0#U20240419vaccination�C\0#U20230529vaccination�B\0#U20220613vaccination�A\0#U20210731vaccination�@\0#U20200724vaccination�?\0#U20190913vaccination�>\0#U20180919vaccination�=\0T20220816bilan�<\0#T20250627vaccination�;\0#T20240724vaccination�:\0#T20230913vaccination�9\0#T20220913vaccination�8\0#T20210831vaccination�7\0#T20200716vaccination�6\0S20251205bilan�5\0S20240728chirurgie�4\0S20240528bilan�3\0S20230627chirurgie�2\0S20180506bilan�1\0\x1BS20210102maladie�0\0S20250107bilan�/\0S20250601bilan�.\0\x1BS20231122maladie�-\0S20200913bilan�,\0#S20250524vaccination�+\0#S20240602vaccination�*\0#S20230521vaccination�)\0#S20220710vaccination�(\0#S20210723vaccination�'\0#S20200826vaccination�&\0#S20190810vaccination�%\0#S20180724vaccination�$\0#S20170822vaccination�#\0#S20160905vaccination�"\0#S20150914vaccination�!\0\x1BR20240821maladie� \0\x1BR20240730maladie�\0#R20251111vaccination�\0#R20241028vaccination�\0#R20231107vaccination�\0#Q20251027vaccination�\x1B\0#Q20241208vaccination�\0#Q20240107vaccination\r\0\0\0�"\0����y\\?"����tW<%\r�\r�\r�\r�\r�\rp\rS\r6\r\f�\f�\f�\f�\f�\fo\fR\f5\f\v�\v�\v�\v�\v�\vn\vQ\v4\v
+�
+�
+�
+�
+�
+{
+^
+A
+$
+\x07	�	�	�	�	v	Y	<		\b�\b�\b�\b�\bq\bT\b;\b"\b\x07\x07�\x07�\x07�\x07�\x07z\x07]\x07@\x07#\x07����u^G.�����wZA*\r����|_B%\b�����fI,����~aD'
+����y\\?"\0\0\0\0\0\0\0\0\0\0�+\0#h20211030vaccination�*\0#h20201022vaccination�)\0#g20250619vaccination�(\0#g20240805vaccination�'\0#g20230910vaccination�&\0#g20221024vaccination�%\0#g20210922vaccination�$\0#g20201110vaccination�#\0#g20191215vaccination�"\0#g20181127vaccination�!\0#g20171223vaccination� \0#g20161217vaccination�\0#g20160130vaccination�\0#f20241216vaccination�\0#f20240104vaccination�\0#f20221201vaccination�\x1B\0#f20211118vaccination�\0#f20201207vaccination�\0#f20191226vaccination�\0#f20190110vaccination�\0#f20171122vaccination�\0e20170624bilan�\0e20180409bilan�\0#e20211212vaccination�\0#e20210125vaccination�\0#e20200316vaccination�\0#e20190222vaccination�\0#e20180213vaccination�\0#e20170214vaccination�\0#e20160206vaccination�\r\0#e20150111vaccination�\f\0#e20140222vaccination�\v\0#e20130313vaccination�
+\0#e20120126vaccination�	\0#e20110122vaccination�\b\0#e20100219vaccination�\x07\0d20230918bilan�\0\x1Bd20240902maladie�\0#d20250607vaccination�\0#d20240627vaccination�\0#d20230524vaccination�\0\x1Bc20170905maladie�\0c20190805bilan�\0\0c20140628chirurgie�\0c20141123bilan�~\0c20190327chirurgie�}\0\x1Bc20170309maladie�|\0c20121218bilan�{\0c20150508bilan�z\0#c20231229vaccination�y\0#c20230130vaccination�x\0#c20220317vaccination�w\0#c20210410vaccination�v\0#c20200520vaccination�u\0#c20190416vaccination�t\0#c20180430vaccination�s\0#c20170511vaccination�r\0#c20160504vaccination�q\0#c20150426vaccination�p\0#c20140404vaccination�o\0#c20130510vaccination�n\0#c20120416vaccination�m\0\x1Bb20191202maladie�l\0b20191129chirurgie�k\0\x1Bb20220814maladie�j\0\x1Bb20190522maladie�i\0#b20240417vaccination�h\0#b20230324vaccination�g\0#b20220413vaccination�f\0#b20210526vaccination�e\0#b20200519vaccination�d\0#b20190625vaccination�c\0#b20180607vaccination�b\0#b20170708vaccination�a\0#b20160726vaccination�\`\0#a20240703vaccination�_\0#a20230815vaccination�^\0#a20220817vaccination�]\0#a20210903vaccination�\\\0#a20201019vaccination�[\0#a20191011vaccination�Z\0#a20180909vaccination�Y\0#a20170819vaccination�X\0#a20160710vaccination�W\0#a20150529vaccination�V\0\`20240802bilan�U\0\x1B\`20250228maladie�T\0\`20200730chirurgie�S\0\`20201020chirurgie�R\0\x1B\`20220222maladie�Q\0#\`20250731vaccination�P\0#\`20240820vaccination�O\0#\`20230829vaccination�N\0#\`20221007vaccination�M\0#\`20211120vaccination�L\0#\`20201216vaccination�K\0#\`20191224vaccination�J\0#\`20181204vaccination�I\0\x1B_20210504maladie�H\0#_20250301vaccination�G\0#_20240311vaccination�F\0#_20230121vaccination�E\0#_20220303vaccination�D\0#_20210206vaccination�C\0^20230830chirurgie�B\0^20230505chirurgie�A\0#^20250815vaccination�@\0#^20240903vaccination�?\0#^20230919vaccination�>\0#^20220817vaccination�=\0#^20210725vaccination�<\0#^20200828vaccination�;\0#^20190710vaccination�:\0#^20180703vaccination�9\0]20161203bilan�8\0]20200511chirurgie�7\0\x1B]20210429maladie�6\0\x1B]20180817maladie�5\0]20220112bilan�4\0]20250401bilan�3\0]20200818chirurgie�2\0#]20250219vaccination�1\0#]20240118vaccination�0\0#]20230102vaccination�/\0#]20211117vaccination�.\0#]20201127vaccination�-\0#]20191014vaccination�,\0#]20181121vaccination�+\0#]20171008vaccination�*\0#]20161027vaccination�)\0#\\20250821vaccination�(\0#\\20240916vaccination�'\0[20170324chirurgie�&\0[20200805chirurgie�%\0\x1B[20180216maladie�$\0[20160222chirurgie\r\0\0\0�#\0����uZ= ����tW:\0\r�\r�\r�\r�\r\rd\rG\r*\r\r\f�\f�\f�\f�\f|\fa\fJ\f/\f\v�\v�\v�\v�\v�\vp\vS\v6\v
+�
+�
+�
+�
+�
+}
+b
+K
+0
+	�	�	�	�	�	g	J	-	\b�\b�\b�\b�\b�\bn\bS\b8\b!\b
+\x07�\x07�\x07�\x07�\x07�\x07j\x07M\x070\x07�����eH+�����pYB'\f�����nQ4�����s\\E*�����iL/�����jS:#\0\0\0\0\0�6\0r20130106bilan�5\0\x1Br20210419maladie�4\0r20181206bilan�3\0r20180227bilan�2\0#r20220629vaccination�1\0#r20210604vaccination�0\0#r20200527vaccination�/\0#r20190709vaccination�.\0#r20180824vaccination�-\0#r20171003vaccination�,\0#r20161014vaccination�+\0#r20150927vaccination�*\0#r20140818vaccination�)\0#r20130802vaccination�(\0#r20120902vaccination�'\0#r20111006vaccination�&\0#r20100924vaccination�%\0\x1Bq20170420maladie�$\0q20220108bilan�#\0q20231009chirurgie�"\0q20240524bilan�!\0q20190318bilan� \0q20171102bilan�\0\x1Bq20150510maladie�\0#q20240101vaccination�\0#q20221201vaccination�\0#q20211110vaccination�\x1B\0#q20201214vaccination�\0#q20191204vaccination�\0#q20181105vaccination�\0#q20171108vaccination�\0#q20161112vaccination�\0#q20151005vaccination�\0#q20140916vaccination�\0p20160927bilan�\0\x1Bp20180304maladie�\0p20250703bilan�\0p20130704chirurgie�\0p20180314chirurgie�\0p20190820bilan�\0p20230312bilan�\r\0p20190806chirurgie�\f\0\x1Bp20230222maladie�\v\0p20140518bilan�
+\0\x1Bp20231023maladie�	\0#p20250607vaccination�\b\0#p20240510vaccination�\x07\0#p20230503vaccination�\0#p20220402vaccination�\0#p20210224vaccination�\0#p20200309vaccination�\0#p20190213vaccination�\0#p20180219vaccination�\0#p20170216vaccination�\0\0#p20160121vaccination�\0#p20150218vaccination�~\0#p20140223vaccination�}\0#p20130130vaccination�|\0#o20250915vaccination�{\0#o20241015vaccination�z\0#o20231103vaccination�y\0#o20221002vaccination�x\0\x1Bn20211004maladie�w\0n20150203bilan�v\0\x1Bn20151022maladie�u\0n20211224bilan�t\0n20171031bilan�s\0n20151031chirurgie�r\0n20240904chirurgie�q\0n20250201bilan�p\0\x1Bn20211207maladie�o\0n20240307chirurgie�n\0#n20241216vaccination�m\0#n20231203vaccination�l\0#n20221019vaccination�k\0#n20210901vaccination�j\0#n20200807vaccination�i\0#n20190721vaccination�h\0#n20180612vaccination�g\0#n20170516vaccination�f\0#n20160507vaccination�e\0#n20150618vaccination�d\0#n20140518vaccination�c\0#n20130523vaccination�b\0m20170622chirurgie�a\0m20240816chirurgie�\`\0m20191130bilan�_\0m20210304chirurgie�^\0\x1Bm20240503maladie�]\0m20240127bilan�\\\0m20190705chirurgie�[\0m20170428bilan�Z\0#m20250123vaccination�Y\0#m20231214vaccination�X\0#m20221105vaccination�W\0#m20211117vaccination�V\0#m20210102vaccination�U\0#m20191223vaccination�T\0#m20190105vaccination�S\0#m20171218vaccination�R\0#m20161106vaccination�Q\0\x1Bl20230305maladie�P\0\x1Bl20191216maladie�O\0\x1Bl20191111maladie�N\0l20201211chirurgie�M\0l20181014bilan�L\0l20221202chirurgie�K\0#l20250705vaccination�J\0#l20240730vaccination�I\0#l20230719vaccination�H\0#l20220709vaccination�G\0#l20210804vaccination�F\0#l20200807vaccination�E\0#l20190829vaccination�D\0#l20180722vaccination�C\0k20170805chirurgie�B\0k20210720chirurgie�A\0k20140331bilan�@\0k20180811bilan�?\0k20150418chirurgie�>\0#k20210115vaccination�=\0#k20200128vaccination�<\0#k20190213vaccination�;\0#k20180318vaccination�:\0#k20170423vaccination�9\0#k20160404vaccination�8\0#k20150303vaccination�7\0#k20140211vaccination�6\0j20240729chirurgie�5\0#j20250621vaccination�4\0#j20240507vaccination�3\0#i20250927vaccination�2\0#i20241114vaccination�1\0h20211126chirurgie�0\0h20240526bilan�/\0#h20251106vaccination�.\0#h20241206vaccination�-\0#h20231114vaccination�,\0#h20220925vaccination\r\0\0\0�0\0�����dG*\r����|_B%\b\r�\r�\r�\r�\r}\rf\rO\r6\r\x1B\r\f�\f�\f�\f�\f}\f\`\fC\f&\f	\v�\v�\v�\v�\vz\va\vH\v1\v\v
+�
+�
+�
+�
+~
+a
+D
++
+	�	�	�	�	}	\`	C	(	\b�\b�\b�\b�\b�\be\bH\b+\b\x07�\x07�\x07�\x07�\x07�\x07p\x07Y\x07B\x07'\x07�����dG*\r����|_B'�����fI,�����iR9 	�����kN5�����jM0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�@\0#}20220621vaccination�?\0#}20210808vaccination�>\0#}20200921vaccination�=\0#}20191020vaccination�<\0#}20181121vaccination�;\0#}20171230vaccination�:\0#}20161216vaccination�9\0#}20151125vaccination�8\0#}20141105vaccination�7\0\x1B|20241115maladie�6\0#|20250703vaccination�5\0#|20240806vaccination�4\0#|20230622vaccination�3\0#|20220615vaccination�2\0{20160614bilan�1\0{20250530bilan�0\0\x1B{20221127maladie�/\0{20191229bilan�.\0\x1B{20231211maladie�-\0\x1B{20170428maladie�,\0{20241118bilan�+\0\x1B{20150407maladie�*\0\x1B{20141213maladie�)\0#{20240731vaccination�(\0#{20230621vaccination�'\0#{20220616vaccination�&\0#{20210628vaccination�%\0#{20200817vaccination�$\0#{20190720vaccination�#\0#{20180808vaccination�"\0#{20170623vaccination�!\0#{20160808vaccination� \0#{20150722vaccination�\0#{20140618vaccination�\0#{20130704vaccination�\0z20190110bilan�\0\x1Bz20190901maladie�\x1B\0z20120919chirurgie�\0#z20250914vaccination�\0#z20240803vaccination�\0#z20230826vaccination�\0#z20220813vaccination�\0#z20210710vaccination�\0#z20200714vaccination�\0#z20190701vaccination�\0#z20180714vaccination�\0#z20170613vaccination�\0#z20160727vaccination�\0#z20150611vaccination�\0#z20140506vaccination�\0#z20130509vaccination�\r\0#z20120611vaccination�\f\0#y20250814vaccination�\v\0\x1Bx20160129maladie�
+\0\x1Bx20151112maladie�	\0x20180831chirurgie�\b\0x20200330bilan�\x07\0x20130128bilan�\0x20191209chirurgie�\0\x1Bx20190726maladie�\0\x1Bx20151018maladie�\0\x1Bx20200324maladie�\0x20130213chirurgie�\0#x20200704vaccination�\0\0#x20190707vaccination�\0#x20180608vaccination�~\0#x20170504vaccination�}\0#x20160530vaccination�|\0#x20150529vaccination�{\0#x20140420vaccination�z\0#x20130309vaccination�y\0w20240407chirurgie�x\0w20210101chirurgie�w\0\x1Bw20230517maladie�v\0w20220330chirurgie�u\0#w20250924vaccination�t\0#w20241025vaccination�s\0#w20231017vaccination�r\0#w20221205vaccination�q\0#w20211129vaccination�p\0#w20201104vaccination�o\0#w20191018vaccination�n\0#w20181020vaccination�m\0\x1Bv20250531maladie�l\0#v20250830vaccination�k\0#v20240830vaccination�j\0#v20230801vaccination�i\0#v20220802vaccination�h\0u20221214bilan�g\0u20220423chirurgie�f\0u20230313bilan�e\0u20250729bilan�d\0\x1Bu20230828maladie�c\0u20170628bilan�b\0\x1Bu20151212maladie�a\0\x1Bu20160218maladie�\`\0u20150921chirurgie�_\0#u20250115vaccination�^\0#u20240221vaccination�]\0#u20230322vaccination�\\\0#u20220208vaccination�[\0#u20210224vaccination�Z\0#u20200307vaccination�Y\0#u20190426vaccination�X\0#u20180610vaccination�W\0#u20170707vaccination�V\0#u20160627vaccination�U\0#u20150729vaccination�T\0t20200906bilan�S\0t20140714bilan�R\0\x1Bt20150917maladie�Q\0t20210401chirurgie�P\0\x1Bt20211113maladie�O\0t20201101bilan�N\0t20111110bilan�M\0t20160525chirurgie�L\0\x1Bt20130330maladie�K\0#t20211208vaccination�J\0#t20201220vaccination�I\0#t20200127vaccination�H\0#t20190306vaccination�G\0#t20180308vaccination�F\0#t20170321vaccination�E\0#t20160207vaccination�D\0#t20150205vaccination�C\0#t20140304vaccination�B\0#t20130120vaccination�A\0#t20120227vaccination�@\0#t20110204vaccination�?\0#t20100206vaccination�>\0#s20251216vaccination�=\0#s20250128vaccination�<\0#s20240228vaccination�;\0#s20230123vaccination�:\0\x1Br20130817maladie�9\0r20190109bilan�8\0r20180503bilan�7\0r20210527chirurgie\r\0\0\0�$\0����qT7�����lQ6\r�\r�\r�\r�\r\rb\rI\r,\r\f�\f�\f�\f�\f�\fe\fH\f+\f\v�\v�\v�\v�\v}\v\`\vC\v*\v
+�
+�
+�
+�
+�
+}
+f
+I
+,
+	�	�	�	�	�	m	R	5	\b�\b�\b�\b�\b�\bj\bM\b0\b\x07�\x07�\x07�\x07�\x07�\x07}\x07b\x07K\x07.\x07�����iL/�����pU>#\f�����fI,����~aD'
+����y\\?"�����oV=$\0\0\0\0\0\0\0\0�J\0\x1B�20151101maladie�I\0\x1B�20231113maladie�H\0\x1B�20220602maladie�G\0�20180309bilan�F\0�20181118bilan�E\0\x1B�20190921maladie�D\0�20240713chirurgie�C\0�20221110chirurgie�B\0\x1B�20211008maladie�A\0#�20241103vaccination�@\0#�20231126vaccination�?\0#�20221102vaccination�>\0#�20211113vaccination�=\0#�20201126vaccination�<\0#�20191029vaccination�;\0#�20180917vaccination�:\0#�20171018vaccination�9\0#�20161116vaccination�8\0#�20151026vaccination�7\0#�20250228vaccination�6\0#�20250722vaccination�5\0#�20240806vaccination�4\0#�20230723vaccination�3\0#�20220820vaccination�2\0#�20210918vaccination�1\0#�20200905vaccination�0\0#�20190903vaccination�/\0#�20180930vaccination�.\0#�20171115vaccination�-\0#�20161223vaccination�,\0#�20151106vaccination�+\0#�20141226vaccination�*\0#�20131217vaccination�)\0#�20121110vaccination�(\0�20210730bilan�'\0�20240906chirurgie�&\0�20150919bilan�%\0�20190702chirurgie�$\0�20221004bilan�#\0�20160413chirurgie�"\0�20160308bilan�!\0\x1B�20140613maladie� \0�20230323chirurgie�\0#�20250830vaccination�\0#�20241017vaccination�\0#�20231106vaccination�\0#�20221116vaccination�\x1B\0#�20211016vaccination�\0#�20200914vaccination�\0#�20190731vaccination�\0#�20180619vaccination�\0#�20170703vaccination�\0#�20160516vaccination�\0#�20150611vaccination�\0#�20140430vaccination�\0�20251005bilan�\0#�20241217vaccination�\0�20150131bilan�\0�20200304chirurgie�\0�20180824bilan�\0�20140309chirurgie�\r\0\x1B�20180125maladie�\f\0�20160723chirurgie�\v\0\x1B�20191112maladie�
+\0�20210206bilan�	\0#�20230803vaccination�\b\0#�20220808vaccination�\x07\0#�20210706vaccination�\0#�20200724vaccination�\0#�20190830vaccination�\0#�20180817vaccination�\0#�20170720vaccination�\0#�20160802vaccination�\0#�20150831vaccination�\0\0#�20140921vaccination�\0#�20131013vaccination�~\0�20240703chirurgie�}\0�20230628chirurgie�|\0�20221003bilan�{\0\x1B�20250624maladie�z\0#�20250417vaccination�y\0#�20240417vaccination�x\0#�20230511vaccination�w\0#�20220421vaccination�v\0#�20210323vaccination�u\0#�20200404vaccination�t\0�20170724bilan�s\0\x1B�20170125maladie�r\0�20231211bilan�q\0\x1B�20190314maladie�p\0\x1B�20180303maladie�o\0�20200410bilan�n\0\x1B�20170224maladie�m\0�20240706chirurgie�l\0\x1B�20161216maladie�k\0#�20250126vaccination�j\0#�20240216vaccination�i\0#�20230109vaccination�h\0#�20220112vaccination�g\0#�20210106vaccination�f\0#�20191213vaccination�e\0#�20181213vaccination�d\0#�20171210vaccination�c\0#�20170106vaccination�b\0#�20251118vaccination�a\0#�20241126vaccination�\`\0#�20231027vaccination�_\0\x1B�20240215maladie�^\0#�20241229vaccination�]\0#�20240206vaccination�\\\0#�20230317vaccination�[\0#�20220129vaccination�Z\0#�20210125vaccination�Y\0\x1B20251114maladie�X\0#20250721vaccination�W\0#20240712vaccination�V\0~20180725chirurgie�U\0\x1B~20191105maladie�T\0\x1B~20120407maladie�S\0~20171130chirurgie�R\0~20120328chirurgie�Q\0~20120629bilan�P\0~20160217chirurgie�O\0~20150814chirurgie�N\0#~20200209vaccination�M\0#~20190306vaccination�L\0#~20180405vaccination�K\0#~20170401vaccination�J\0#~20160218vaccination�I\0#~20150304vaccination�H\0#~20140402vaccination�G\0#~20130315vaccination�F\0#~20120227vaccination�E\0#~20110120vaccination�D\0}20250801chirurgie�C\0#}20250510vaccination�B\0#}20240610vaccination�A\0#}20230627vaccination\r\0\0\0�.\0����oR5�����x[>!\r�\r�\r�\r�\rs\rV\r9\r\f�\f�\f�\f�\f�\fv\f[\fD\f+\f\v�\v�\v�\v�\v�\vn\vQ\v4\v
+�
+�
+�
+�
+�
+i
+P
+7
+ 
+	�	�	�	�	�	e	H	+	\b�\b�\b�\b�\b}\bf\bK\b2\b\x07�\x07�\x07�\x07�\x07�\x07m\x07P\x073\x07�����rU8\x1B�����mP3�����tW:\0����qT7�����lO2�����s\\E.\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�R\0�20230107bilan�Q\0�20131214bilan�P\0�20241004bilan�O\0\x1B�20200229maladie�N\0\x1B�20240402maladie�M\0\x1B�20190123maladie�L\0#�20250101vaccination�K\0#�20240129vaccination�J\0#�20230123vaccination�I\0#�20220215vaccination�H\0#�20210125vaccination�G\0#�20200126vaccination�F\0#�20190204vaccination�E\0#�20180301vaccination�D\0#�20170312vaccination�C\0#�20160229vaccination�B\0#�20150111vaccination�A\0#�20140102vaccination�@\0#�20250515vaccination�?\0#�20250110vaccination�>\0#�20240211vaccination�=\0#�20230223vaccination�<\0�20200828chirurgie�;\0#�20250329vaccination�:\0#�20240416vaccination�9\0#�20230326vaccination�8\0#�20220505vaccination�7\0#�20210611vaccination�6\0#�20200428vaccination�5\0#�20190428vaccination�4\0�20220508bilan�3\0�20230125bilan�2\0#�20251201vaccination�1\0#�20241101vaccination�0\0#�20231115vaccination�/\0#�20221027vaccination�.\0#�20211019vaccination�-\0#�20201118vaccination�,\0#�20250331vaccination�+\0#�20240520vaccination�*\0#�20230702vaccination�)\0#�20220804vaccination�(\0#�20210809vaccination�'\0#�20200921vaccination�&\0#�20191008vaccination�%\0#�20181123vaccination�$\0#�20171208vaccination�#\0#�20161206vaccination�"\0#�20151220vaccination�!\0�20180817chirurgie� \0\x1B�20150329maladie�\0\x1B�20120220maladie�\0#�20180730vaccination�\0#�20170716vaccination�\0#�20160904vaccination�\x1B\0#�20150824vaccination�\0#�20140910vaccination�\0#�20130901vaccination�\0#�20120716vaccination�\0#�20110624vaccination�\0�20230706bilan�\0#�20250728vaccination�\0#�20240713vaccination�\0#�20230610vaccination�\0\x1B�20191001maladie�\0�20170417chirurgie�\0�20201020bilan�\0#�20250516vaccination�\0#�20240630vaccination�\r\0#�20230605vaccination�\f\0#�20220527vaccination�\v\0#�20210512vaccination�
+\0#�20200517vaccination�	\0#�20190519vaccination�\b\0#�20180626vaccination�\x07\0#�20170524vaccination�\0#�20160525vaccination�\0#�20150622vaccination�\0�20151222chirurgie�\0�20190226bilan�\0�20161112bilan�\0�20170102chirurgie�\0\0�20180306bilan�\0\x1B�20160624maladie�~\0\x1B�20150204maladie�}\0#�20200427vaccination�|\0#�20190416vaccination�{\0#�20180527vaccination�z\0#�20170706vaccination�y\0#�20160521vaccination�x\0#�20150427vaccination�w\0#�20140424vaccination�v\0#�20130601vaccination�u\0#�20120610vaccination�t\0#�20250808vaccination�s\0#�20241224vaccination�r\0#�20250809vaccination�q\0�20180430bilan�p\0�20241101chirurgie�o\0\x1B�20240525maladie�n\0�20230526chirurgie�m\0\x1B�20180329maladie�l\0�20171211bilan�k\0�20240321chirurgie�j\0\x1B�20190503maladie�i\0\x1B�20250927maladie�h\0#�20250426vaccination�g\0#�20240605vaccination�f\0#�20230721vaccination�e\0#�20220629vaccination�d\0#�20210816vaccination�c\0#�20200816vaccination�b\0#�20190825vaccination�a\0#�20180804vaccination�\`\0#�20170828vaccination�_\0#�20160915vaccination�^\0#�20251206vaccination�]\0#�20250115vaccination�\\\0#�20240128vaccination�[\0#�20230215vaccination�Z\0#�20220127vaccination�Y\0#�20210308vaccination�X\0\x1B�20220202maladie�W\0�20210917bilan�V\0�20211003chirurgie�U\0�20210129chirurgie�T\0#�20250530vaccination�S\0#�20240416vaccination�R\0#�20230418vaccination�Q\0#�20220309vaccination�P\0#�20210123vaccination�O\0#�20200229vaccination�N\0#�20190324vaccination�M\0#�20180502vaccination�L\0#�20170405vaccination�K\0#�20160226vaccination\r\0\0\0\r�\0�����dG*\r����|_B'\r�\r�\r�\r�\r�\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0�i\0�20170915chirurgie�h\0�20230717chirurgie�g\0\x1B�20190323maladie�f\0�20220309bilan�e\0\x1B�20191104maladie�d\0�20191217bilan�c\0�20160808chirurgie�b\0#�20251001vaccination�a\0#�20240818vaccination�\`\0#�20230913vaccination�_\0#�20220924vaccination�^\0#�20211012vaccination�]\0#�20201004vaccination�\\\0#�20190918vaccination�[\0#�20181010vaccination�Z\0#�20171020vaccination�Y\0#�20160916vaccination�X\0#�20150916vaccination�W\0�20141019bilan�V\0\x1B�20181017maladie�U\0�20250827chirurgie�T\0�20250825chirurgie�S\0\x1B�20141021maladie`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_15/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_15/sujet.pdf (163564 octets)]`},{type:`file`,name:`veto.py`,path:`sujets/26_BCG_NSI_15/veto.py`,language:`Python`,content:`# -----------------------------------------------------------------------------
+# Numéros de téléphones
+# Question 1 : nettoyage des numéros de téléphone
+
+# Écrire la fonction normalisation_tel ici
+
+
+import sqlite3
+
+
+def test_normalisation_tel():
+    """
+    Tous les tests doivent passer...
+    """
+    assert normalisation_tel("06 12 99 90 12") == "0612999012"
+    assert normalisation_tel("02 12 99 90 12") == "0212999012"
+    assert normalisation_tel("02.12.99.90.12") == "0212999012"
+    assert normalisation_tel("0.6.12.99.90.12") == "0612999012"
+    assert normalisation_tel("06-12-99-90-12") == "0612999012"
+    assert normalisation_tel("(0)6.12.99-90-12 gilbert") == "0612999012"
+    assert normalisation_tel("061299901") == "061299901"
+    assert normalisation_tel("06129990123") == "06129990123"
+    print('Les tests de la fonction normalisation_tel sont passés')
+
+
+# -----------------------------------------------------------------------------
+# Question 2 : validation des numéros de téléphone
+
+
+def validation_tel(tel):
+    """
+    Validation des numéros de téléphone portable français
+    selon les conditions spécifiées.
+    :param tel: numéro de téléphone
+    :return: True si le numéro est valide, False sinon
+    """
+    if len(tel) != 10:
+        return False
+    if tel[0] != "0":
+        return False
+    if tel[1] != "6" and tel[1] != "7":
+        return False
+    return True
+
+
+# Ecrire votre jeu de tests permettant
+# de vérifier le bon fonctionnement de la fonction.
+
+
+# -----------------------------------------------------------------------------
+# Détermination de la liste des chats à vacciner
+# Question 3 : interrogation de la base de données
+
+DB_PATH = "cabinet.sqlite"
+
+
+def proprietaires_animaux_nes_apres(date):
+    """
+    Renvoie les noms et prénoms des propriétaires d'animaux nés après la date \`date\`,
+    triés par ordre alphabétique de noms puis prénoms
+
+    :param: date: date de naissance minimale
+    :return: liste [(nom_proprietaire, prenom_ proprietaire)]
+    """
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    resultat = cursor.execute(
+        """
+    SELECT proprietaire.nom, proprietaire.prenom
+    FROM proprietaire
+        JOIN  animal ON proprietaire.id = animal.id_proprietaire 
+    WHERE animal.date_naissance > ?
+    ORDER BY proprietaire.nom, proprietaire.prenom;
+    """,
+        (date,),
+    )
+    return list(resultat)
+
+
+def consultation_vaccination_chat(date):
+    """
+    Renvoie les consultations de vaccination de chats dont la date
+    est supérieure à la date \`date\`.
+
+    :param: date: date minimale
+    :return: liste [(id_animal, nom_animal, tel_proprietaire, date_consultation)]
+    """
+    pass
+
+
+def test_consultation_vaccination_chat():
+    vaccinations = consultation_vaccination_chat("20240923")
+    assert len(vaccinations) == 118
+    assert vaccinations[0] == (16, "Plume", "0.6.36.96.89.83", "20241024")
+    assert vaccinations[1] == (16, "Plume", "0.6.36.96.89.83", "20251125")
+    assert vaccinations[2] == (17, "Gollum", "0.6.36.96.89.83", "20250113")
+    assert vaccinations[3] == (26, "Olympe", "(0)4 73 98 01 23", "20250109")
+    assert vaccinations[4] == (32, "Chopin", "06.37.97.66.64", "20241201")
+    assert vaccinations[5] == (32, "Chopin", "06.37.97.66.64", "20251119")
+    assert vaccinations[6] == (34, "Jazz", "0.6.37.51.65.52", "20250801")
+    assert vaccinations[7] == (35, "Tango", "0324182", "20250706")
+    assert vaccinations[8] == (38, "Loulou", "05-35-95-87-54", "20250209")
+
+    # Vérification stricte du tri (ORDER BY id_animal, date_consultation)
+    assert vaccinations == sorted(vaccinations, key=lambda x: (x[0], x[3]))
+
+    print('Les tests de la fonction consultation_vaccination_chat sont passés')
+
+# test_consultation_vaccination_chat()
+
+# -----------------------------------------------------------------------------
+# Question 4 : détermination de la date de dernière vaccination
+
+
+def derniere_vaccination(consultations):
+    """
+    Renvoie un dictionnaire ayant pour clef l'identifiant de l'animal,
+    et dont la valeur associée est la dernière consultation de cet animal.
+
+    Chaque consultation est un tuple :
+
+    (id_animal, nom_animal, tel_proprietaire, date_consultation)
+    """
+    derniere = {}
+    for consult in consultations:
+        id_animal = consult[0]
+        date = consult[3]
+        if id_animal not in derniere:
+            derniere[id_animal] = consult
+        elif date < derniere[id_animal][3]:
+            derniere[id_animal] = consult
+    return derniere
+
+
+def test_derniere_vaccination():
+    consultations_pour_test = [
+        (16, "Plume", "0.6.36.96.89.83", "20241024"),
+        (16, "Plume", "0.6.36.96.89.83", "20251125"),
+        (17, "Gollum", "0.6.36.96.89.83", "20250113"),
+        (26, "Olympe", "(0)4 73 98 01 23", "20250109"),
+        (32, "Chopin", "06.37.97.66.64", "20241201"),
+        (32, "Chopin", "06.37.97.66.64", "20251119"),
+        (34, "Jazz", "0.6.37.51.65.52", "20250801"),
+        (35, "Tango", "0324182", "20250706"),
+        (38, "Loulou", "05-35-95-87-54", "20250209"),
+        (39, "Tango", "07.45.48.02.42", "20250329"),
+        (40, "Sésame", "07.45.48.02.42", "20250228"),
+        (41, "Pixel", "0130709285", "20241204"),
+        (41, "Pixel", "0130709285", "20251222"),
+    ]
+
+    resultat = derniere_vaccination(consultations_pour_test)
+    # Affichage des résultats, décommenter si besoin
+    # for a,r in resultat.items():
+    #     print(a, ":", r)
+
+    assert derniere_vaccination(consultations_pour_test) == {
+        16: (16, "Plume", "0.6.36.96.89.83", "20251125"),
+        17: (17, "Gollum", "0.6.36.96.89.83", "20250113"),
+        26: (26, "Olympe", "(0)4 73 98 01 23", "20250109"),
+        32: (32, "Chopin", "06.37.97.66.64", "20251119"),
+        34: (34, "Jazz", "0.6.37.51.65.52", "20250801"),
+        35: (35, "Tango", "0324182", "20250706"),
+        38: (38, "Loulou", "05-35-95-87-54", "20250209"),
+        39: (39, "Tango", "07.45.48.02.42", "20250329"),
+        40: (40, "Sésame", "07.45.48.02.42", "20250228"),
+        41: (41, "Pixel", "0130709285", "20251222"),
+    }
+    print('Les tests de la fonction derniere_vaccination sont passés')
+`}]},{type:`folder`,name:`26_BCG_NSI_16`,path:`sujets/26_BCG_NSI_16`,children:[{type:`file`,name:`datas.csv`,path:`sujets/26_BCG_NSI_16/datas.csv`,language:`Text`,content:`Year,Anomaly
+1851,-0.15
+1852,-0.05
+1853,-0.03
+1854,-0.09
+1855,-0.02
+1856,-0.03
+1857,-0.15
+1858,-0.17
+1859,-0.16
+1860,-0.03
+1861,-0.25
+1862,-0.25
+1863,-0.31
+1864,-0.21
+1865,-0.15
+1866,-0.09
+1867,-0.11
+1868,-0.2
+1869,-0.1
+1870,-0.08
+1871,-0.18
+1872,-0.15
+1873,-0.19
+1874,-0.2
+1875,-0.22
+1876,-0.23
+1877,-0.23
+1878,0.14
+1879,0.11
+1880,-0.16
+1881,-0.16
+1882,-0.08
+1883,-0.18
+1884,-0.19
+1885,-0.31
+1886,-0.27
+1887,-0.3
+1888,-0.29
+1889,-0.08
+1890,-0.07
+1891,-0.32
+1892,-0.21
+1893,-0.28
+1894,-0.32
+1895,-0.3
+1896,-0.19
+1897,-0.1
+1898,-0.1
+1899,-0.26
+1900,-0.15
+1901,-0.05
+1902,-0.1
+1903,-0.22
+1904,-0.39
+1905,-0.4
+1906,-0.25
+1907,-0.16
+1908,-0.36
+1909,-0.43
+1910,-0.4
+1911,-0.39
+1912,-0.38
+1913,-0.34
+1914,-0.29
+1915,-0.15
+1916,-0.09
+1917,-0.34
+1918,-0.43
+1919,-0.27
+1920,-0.24
+1921,-0.23
+1922,-0.18
+1923,-0.25
+1924,-0.24
+1925,-0.25
+1926,-0.16
+1927,-0.11
+1928,-0.16
+1929,-0.18
+1930,-0.32
+1931,-0.09
+1932,-0.04
+1933,-0.15
+1934,-0.25
+1935,-0.11
+1936,-0.15
+1937,-0.09
+1938,0
+1939,0
+1940,0.03
+1941,0.15
+1942,0.24
+1943,0.06
+1944,0.1
+1945,0.23
+1946,0.15
+1947,-0.05
+1948,0
+1949,-0.06
+1950,-0.09
+1951,-0.14
+1952,0.01
+1953,0.04
+1954,0.08
+1955,-0.07
+1956,-0.14
+1957,-0.16
+1958,0.09
+1959,0.07
+1960,0.07
+1961,0.01
+1962,0.07
+1963,0.05
+1964,0.07
+1965,-0.17
+1966,-0.08
+1967,-0.02
+1968,0
+1969,-0.04
+1970,0.12
+1971,0.04
+1972,-0.07
+1973,0.1
+1974,0.17
+1975,-0.04
+1976,0.01
+1977,-0.03
+1978,0.2
+1979,0.11
+1980,0.22
+1981,0.32
+1982,0.32
+1983,0.21
+1984,0.33
+1985,0.19
+1986,0.16
+1987,0.23
+1988,0.36
+1989,0.37
+1990,0.31
+1991,0.45
+1992,0.42
+1993,0.23
+1994,0.26
+1995,0.35
+1996,0.46
+1997,0.35
+1998,0.52
+1999,0.62
+2000,0.4
+2001,0.42
+2002,0.57
+2003,0.62
+2004,0.62
+2005,0.57
+2006,0.68
+2007,0.68
+2008,0.59
+2009,0.58
+2010,0.68
+2011,0.72
+2012,0.61
+2013,0.67
+2014,0.69
+2015,0.76
+2016,0.95
+2017,1.02
+2018,0.92
+2019,0.88
+2020,1.01
+2021,0.99
+2022,0.88
+2023,0.9
+2024,1.22
+2025,1.29
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_16/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_16/sujet.pdf (45648 octets)]`},{type:`file`,name:`warming_stripes.png`,path:`sujets/26_BCG_NSI_16/warming_stripes.png`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_16/warming_stripes.png (15615 octets)]`},{type:`file`,name:`warming_stripes.py`,path:`sujets/26_BCG_NSI_16/warming_stripes.py`,language:`Python`,content:`import csv
+import matplotlib.pyplot as plt
+
+############ Question 1  ############
+
+
+def charger(nom_fichier):
+    """
+    Lit un fichier CSV (contenant les colonnes 'Year' et 'Anomaly') 
+    et renvoie une liste de dictionnaires correctement typés.
+    """
+    donnees = []
+    with open(nom_fichier, mode='r', encoding='utf-8') as f:
+        lecteur = csv.DictReader(f)
+        for ligne in lecteur:
+            annee = int(ligne["Year"])
+            ecart = float(ligne["Anomaly"])
+            donnees.append({"année": annee, "écart": ecart})
+    return donnees
+
+
+# Chargement global des données
+datas_temperature = charger("datas.csv")
+
+#############################################################################
+# Question 1 : Recherche de l'écart                                         #
+#############################################################################
+
+# Écrire la fonction ecart_temperature et ses tests ici
+
+#############################################################################
+# Question 2 : Dernière année négative                                      #
+#############################################################################
+
+
+def derniere_annee_ecart_negatif(datas):
+    annee = max([element["année"] for element in datas])
+    ecart = ecart_temperature(datas, annee)
+    while ecart >= 0:
+        annee = annee - 1
+        ecart = ecart_temperature(datas, annee)
+    return annee
+
+
+#############################################################################
+# Question 3 : Analyse et correction de bug                                 #
+#############################################################################
+
+def moyenne_ecarts(annee_debut, annee_fin, datas):
+    """
+    Renvoie la moyenne des écarts de température pour la période comprise 
+    entre annee_debut et annee_fin (incluses).
+    """
+    somme = 0
+    compteur = 0
+    for dico in datas:
+        if annee_debut <= dico["année"] and dico["année"] <= annee_fin:
+            somme = somme - dico["écart"]
+            compteur += 1
+    return somme / compteur
+
+
+def prevision(datas, annee, n):
+    """
+    Renvoie l'écart de température attendu calculé par régression linéaire 
+    sur les n dernières années.
+    """
+    longueur = len(datas)
+    annee_debut = datas[longueur-n]["année"]
+    annee_fin = datas[longueur-1]["année"]
+
+    moy_annees = (annee_debut + annee_fin) / 2
+    moy_temperatures = moyenne_ecarts(annee_debut, annee_fin, datas)
+
+    numerateur = 0
+    denominateur = 0
+    for i in range(1, n+1):
+        ecart_annee = datas[longueur-i]["année"] - moy_annees
+        ecart_temp = datas[longueur-i]["écart"] - moy_temperatures
+        numerateur += ecart_annee * ecart_temp
+        denominateur += ecart_annee ** 2
+
+    a = numerateur / denominateur
+    b = moy_temperatures - a * moy_annees
+
+    return a * annee + b
+
+# print("Prévision pour 2040 :", prevision(datas_temperature, 2040, 20))
+
+
+#############################################################################
+# Question 4 : Dataviz (Warming Stripes)                                    #
+#############################################################################
+
+def graphique(datas):
+    """
+    Représente visuellement les warming stripes.
+    """
+    fig, ax = plt.subplots(figsize=(10, 2))
+
+    # Création d'une palette de couleurs basée sur l'amplitude thermique
+    cmap = plt.get_cmap("seismic")
+    temperatures = [dico["écart"] for dico in datas]
+    max_val = max(max(temperatures), -min(temperatures))
+    norm = plt.Normalize(-max_val, max_val)
+
+    # A COMPLETER
+    # Création des listes annees et ordonnees 
+    # pour les abscisses et ordonnées
+
+    # Génération du graphique
+    ax.bar(annees, ordonnees, width=1.0, color=cmap(norm(temperatures)))
+    ax.set_title("Warming Stripes mondiales - Base 1901-2000")
+    plt.yticks([], [])  # Masque l'axe Y car seule la couleur compte
+    ax.set_xlabel("Année")
+
+    plt.tight_layout()
+    plt.show()
+
+# graphique(datas_temperature)
+`}]},{type:`folder`,name:`26_BCG_NSI_17`,path:`sujets/26_BCG_NSI_17`,children:[{type:`file`,name:`analyse_budget.py`,path:`sujets/26_BCG_NSI_17/analyse_budget.py`,language:`Python`,content:`import csv
+
+
+def lire_mouvements_depuis_csv(nom_fichier_csv):
+    """
+    Lit les données d'un fichier CSV et les retourne en liste de dictionnaires.
+    Les colonnes 'montant' et 'mois' sont converties respectivement en flottant et en entier.
+    """
+    mouvements_csv = []
+    try:
+        with open(nom_fichier_csv, mode='r', newline='', encoding='utf-8') as fichier_csv:
+            lecteur_csv = csv.DictReader(fichier_csv)
+            for ligne in lecteur_csv:
+                ligne['montant'] = float(ligne['montant'])
+                ligne['mois'] = int(ligne['mois'])
+                mouvements_csv.append(ligne)
+        return mouvements_csv
+    except FileNotFoundError:
+        print(f"Erreur : Le fichier '{nom_fichier_csv}' est introuvable.")
+        return []
+
+
+mouvements_test = [
+    {'type': 'recette', 'catégorie': 'cotisations', 'montant': 1200.0, 'mois': 1},
+    {'type': 'recette', 'catégorie': 'billetterie', 'montant': 300.0, 'mois': 6},
+    {'type': 'dépense', 'catégorie': 'fonctionnement', 'montant': 450.0, 'mois': 6},
+    {'type': 'dépense', 'catégorie': 'déplacements', 'montant': 200.0, 'mois': 12},
+    {'type': 'dépense', 'catégorie': 'salaires', 'montant': 1500.0, 'mois': 12},
+    {'type': 'recette', 'catégorie': 'subventions', 'montant': 800.0, 'mois': 12}
+]
+
+#############################################################################
+# Écrire ci-dessous la fonction total_par_type et ses tests (Question 1)    #
+#############################################################################
+
+
+#############################################################################
+# Fonctions de calcul du solde (Questions 2 et 3)                           #
+#############################################################################
+
+def solde_mensuel(mouvements, mois):
+    """
+    Calcule le solde pour un mois donné (recettes - dépenses).
+    """
+    total_recettes = 0
+    total_depenses = 0
+
+    for m in mouvements:
+        if m['mois'] == mois:
+            if m['type'] == 'recette':
+                total_recettes += m['montant']
+            else:
+                total_depenses += m['montant']
+
+    return total_recettes - total_depenses
+
+
+def solde_annuel(mouvements):
+    """
+    Calcule le solde annuel en additionnant les soldes de chaque mois.
+    """
+    total = 0
+    # Parcourt les mois de l'année pour cumuler le bilan
+    for m in range(1, 12):
+        total = total + solde_mensuel(mouvements, m)
+
+    return total
+
+
+#############################################################################
+# Écrire ci-dessous la fonction test_solde_annuel (Question 2)              #
+#############################################################################
+
+
+#############################################################################
+# Programme principal pour analyser le fichier complet                      #
+#############################################################################
+
+# mouvements_complets = lire_mouvements_depuis_csv("budget_complet.csv")
+# print("Le solde annuel sur le fichier complet est de :", solde_annuel(mouvements_complets))
+`},{type:`file`,name:`budget_complet.csv`,path:`sujets/26_BCG_NSI_17/budget_complet.csv`,language:`Text`,content:`type,catégorie,montant,mois\r
+dépense,autres_charges,269.87,1\r
+dépense,autres_charges,165.32,1\r
+dépense,autres_charges,320.95,1\r
+dépense,autres_charges,259.87,1\r
+dépense,autres_charges,100.52,1\r
+dépense,autres_charges,322.11,1\r
+dépense,autres_charges,116.54,1\r
+dépense,autres_charges,100.21,1\r
+dépense,autres_charges,293.05,1\r
+dépense,autres_charges,255.05,1\r
+dépense,autres_charges,216.2,1\r
+dépense,autres_charges,143.23,1\r
+dépense,autres_charges,191.39,1\r
+dépense,autres_charges,181.38,1\r
+dépense,autres_charges,254.0,1\r
+dépense,autres_charges,174.68,1\r
+dépense,autres_charges,160.82,1\r
+dépense,autres_charges,267.82,1\r
+dépense,autres_charges,197.31,1\r
+dépense,autres_charges,139.49,1\r
+dépense,autres_charges,161.99,1\r
+dépense,autres_charges,117.89,1\r
+dépense,autres_charges,333.7,1\r
+dépense,autres_charges,175.06,1\r
+dépense,autres_charges,255.24,1\r
+dépense,autres_charges,230.02,1\r
+dépense,autres_charges,270.95,1\r
+dépense,autres_charges,274.61,1\r
+dépense,déplacements,833.23,1\r
+dépense,déplacements,826.61,1\r
+dépense,déplacements,833.73,1\r
+dépense,déplacements,950.67,1\r
+dépense,déplacements,434.65,1\r
+dépense,déplacements,599.13,1\r
+dépense,déplacements,368.27,1\r
+dépense,déplacements,1079.4,1\r
+dépense,déplacements,1238.19,1\r
+dépense,déplacements,200.4,1\r
+dépense,déplacements,1059.21,1\r
+dépense,déplacements,667.3,1\r
+dépense,fonctionnement,57.07,1\r
+dépense,fonctionnement,454.82,1\r
+dépense,fonctionnement,446.94,1\r
+dépense,fonctionnement,369.22,1\r
+dépense,fonctionnement,305.47,1\r
+dépense,fonctionnement,300.39,1\r
+dépense,fonctionnement,95.05,1\r
+dépense,fonctionnement,134.81,1\r
+dépense,fonctionnement,37.17,1\r
+dépense,fonctionnement,510.19,1\r
+dépense,fonctionnement,88.59,1\r
+dépense,fonctionnement,166.08,1\r
+dépense,fonctionnement,74.38,1\r
+dépense,fonctionnement,227.28,1\r
+dépense,fonctionnement,501.34,1\r
+dépense,fonctionnement,131.06,1\r
+dépense,fonctionnement,559.29,1\r
+dépense,fonctionnement,532.64,1\r
+dépense,fonctionnement,257.45,1\r
+dépense,fonctionnement,543.58,1\r
+dépense,fonctionnement,10.48,1\r
+dépense,fonctionnement,313.69,1\r
+dépense,fonctionnement,490.94,1\r
+dépense,fonctionnement,123.44,1\r
+dépense,fonctionnement,269.74,1\r
+dépense,fonctionnement,180.56,1\r
+dépense,fonctionnement,523.06,1\r
+dépense,fonctionnement,253.51,1\r
+dépense,fonctionnement,455.99,1\r
+dépense,fonctionnement,109.83,1\r
+dépense,salaires,2383.57,1\r
+dépense,salaires,1818.89,1\r
+dépense,salaires,2131.9,1\r
+dépense,salaires,2122.23,1\r
+dépense,salaires,1978.38,1\r
+dépense,salaires,2396.45,1\r
+dépense,salaires,1953.41,1\r
+dépense,salaires,1907.45,1\r
+dépense,salaires,1650.57,1\r
+dépense,salaires,2396.04,1\r
+dépense,salaires,2077.8,1\r
+dépense,salaires,1985.67,1\r
+dépense,salaires,1758.5,1\r
+dépense,salaires,2203.37,1\r
+dépense,salaires,1790.61,1\r
+dépense,salaires,1704.65,1\r
+dépense,salaires,1500.2,1\r
+dépense,salaires,2369.92,1\r
+dépense,salaires,1916.7,1\r
+dépense,salaires,1953.92,1\r
+recette,billetterie,80.0,1\r
+recette,billetterie,40.0,1\r
+recette,billetterie,290.0,1\r
+recette,billetterie,30.0,1\r
+recette,billetterie,330.0,1\r
+recette,billetterie,40.0,1\r
+recette,billetterie,300.0,1\r
+recette,billetterie,280.0,1\r
+recette,billetterie,370.0,1\r
+recette,billetterie,320.0,1\r
+recette,billetterie,240.0,1\r
+recette,billetterie,350.0,1\r
+recette,billetterie,260.0,1\r
+recette,billetterie,210.0,1\r
+recette,billetterie,60.0,1\r
+recette,billetterie,300.0,1\r
+recette,billetterie,130.0,1\r
+recette,billetterie,160.0,1\r
+recette,billetterie,90.0,1\r
+recette,billetterie,230.0,1\r
+recette,billetterie,350.0,1\r
+recette,billetterie,290.0,1\r
+recette,billetterie,380.0,1\r
+recette,billetterie,270.0,1\r
+recette,billetterie,310.0,1\r
+recette,billetterie,340.0,1\r
+recette,billetterie,110.0,1\r
+recette,billetterie,380.0,1\r
+recette,billetterie,80.0,1\r
+recette,billetterie,190.0,1\r
+recette,billetterie,100.0,1\r
+recette,billetterie,300.0,1\r
+recette,billetterie,80.0,1\r
+recette,billetterie,200.0,1\r
+recette,billetterie,220.0,1\r
+recette,marketing,530.42,1\r
+recette,marketing,100.98,1\r
+recette,marketing,470.56,1\r
+recette,marketing,417.01,1\r
+recette,marketing,175.8,1\r
+recette,marketing,671.33,1\r
+recette,marketing,371.18,1\r
+recette,marketing,100.68,1\r
+recette,marketing,461.93,1\r
+recette,marketing,445.95,1\r
+recette,marketing,506.85,1\r
+recette,marketing,572.5,1\r
+recette,marketing,280.97,1\r
+recette,marketing,301.75,1\r
+recette,marketing,100.54,1\r
+recette,marketing,429.13,1\r
+recette,marketing,330.23,1\r
+recette,marketing,100.04,1\r
+recette,marketing,431.65,1\r
+recette,sponsoring,1900.0,1\r
+recette,sponsoring,2300.0,1\r
+recette,sponsoring,400.0,1\r
+recette,sponsoring,1300.0,1\r
+recette,sponsoring,500.0,1\r
+recette,sponsoring,900.0,1\r
+recette,sponsoring,2300.0,1\r
+recette,sponsoring,500.0,1\r
+recette,sponsoring,1200.0,1\r
+recette,sponsoring,800.0,1\r
+recette,sponsoring,1000.0,1\r
+recette,sponsoring,1400.0,1\r
+recette,subventions,56500.0,1\r
+dépense,autres_charges,126.1,2\r
+dépense,autres_charges,100.17,2\r
+dépense,autres_charges,117.17,2\r
+dépense,autres_charges,219.58,2\r
+dépense,autres_charges,289.28,2\r
+dépense,autres_charges,346.46,2\r
+dépense,autres_charges,148.86,2\r
+dépense,autres_charges,100.12,2\r
+dépense,autres_charges,326.09,2\r
+dépense,autres_charges,151.84,2\r
+dépense,autres_charges,131.89,2\r
+dépense,autres_charges,310.14,2\r
+dépense,autres_charges,100.21,2\r
+dépense,autres_charges,281.53,2\r
+dépense,autres_charges,284.27,2\r
+dépense,autres_charges,228.68,2\r
+dépense,autres_charges,173.42,2\r
+dépense,autres_charges,100.85,2\r
+dépense,autres_charges,271.92,2\r
+dépense,autres_charges,319.52,2\r
+dépense,autres_charges,101.54,2\r
+dépense,autres_charges,322.59,2\r
+dépense,autres_charges,131.92,2\r
+dépense,autres_charges,122.91,2\r
+dépense,autres_charges,279.51,2\r
+dépense,autres_charges,137.05,2\r
+dépense,autres_charges,226.42,2\r
+dépense,autres_charges,259.97,2\r
+dépense,autres_charges,200.75,2\r
+dépense,autres_charges,132.5,2\r
+dépense,autres_charges,140.4,2\r
+dépense,autres_charges,144.09,2\r
+dépense,autres_charges,280.83,2\r
+dépense,autres_charges,146.45,2\r
+dépense,autres_charges,100.09,2\r
+dépense,déplacements,1149.74,2\r
+dépense,déplacements,1186.12,2\r
+dépense,déplacements,1245.78,2\r
+dépense,déplacements,1041.87,2\r
+dépense,déplacements,214.47,2\r
+dépense,déplacements,200.72,2\r
+dépense,déplacements,718.12,2\r
+dépense,déplacements,409.4,2\r
+dépense,déplacements,971.79,2\r
+dépense,déplacements,1141.34,2\r
+dépense,déplacements,792.76,2\r
+dépense,déplacements,200.57,2\r
+dépense,fonctionnement,417.24,2\r
+dépense,fonctionnement,581.36,2\r
+dépense,fonctionnement,573.67,2\r
+dépense,fonctionnement,228.89,2\r
+dépense,fonctionnement,185.31,2\r
+dépense,fonctionnement,581.78,2\r
+dépense,fonctionnement,520.58,2\r
+dépense,fonctionnement,44.09,2\r
+dépense,fonctionnement,73.94,2\r
+dépense,fonctionnement,168.83,2\r
+dépense,fonctionnement,323.15,2\r
+dépense,fonctionnement,190.04,2\r
+dépense,fonctionnement,13.57,2\r
+dépense,fonctionnement,86.67,2\r
+dépense,fonctionnement,340.88,2\r
+dépense,fonctionnement,197.08,2\r
+dépense,fonctionnement,42.87,2\r
+dépense,fonctionnement,422.19,2\r
+dépense,fonctionnement,85.49,2\r
+dépense,fonctionnement,563.12,2\r
+dépense,fonctionnement,348.09,2\r
+dépense,fonctionnement,381.49,2\r
+dépense,fonctionnement,288.18,2\r
+dépense,fonctionnement,428.53,2\r
+dépense,fonctionnement,18.33,2\r
+dépense,fonctionnement,277.46,2\r
+dépense,fonctionnement,329.38,2\r
+dépense,fonctionnement,260.25,2\r
+dépense,fonctionnement,417.58,2\r
+dépense,fonctionnement,108.27,2\r
+dépense,fonctionnement,542.58,2\r
+dépense,fonctionnement,425.0,2\r
+dépense,fonctionnement,304.07,2\r
+dépense,fonctionnement,254.91,2\r
+dépense,fonctionnement,230.52,2\r
+dépense,fonctionnement,183.5,2\r
+dépense,fonctionnement,459.51,2\r
+dépense,salaires,2383.57,2\r
+dépense,salaires,1818.89,2\r
+dépense,salaires,2131.9,2\r
+dépense,salaires,2122.23,2\r
+dépense,salaires,1978.38,2\r
+dépense,salaires,2396.45,2\r
+dépense,salaires,1953.41,2\r
+dépense,salaires,1907.45,2\r
+dépense,salaires,1650.57,2\r
+dépense,salaires,2396.04,2\r
+dépense,salaires,2077.8,2\r
+dépense,salaires,1985.67,2\r
+dépense,salaires,1758.5,2\r
+dépense,salaires,2203.37,2\r
+dépense,salaires,1790.61,2\r
+dépense,salaires,1704.65,2\r
+dépense,salaires,1500.2,2\r
+dépense,salaires,2369.92,2\r
+dépense,salaires,1916.7,2\r
+dépense,salaires,1953.92,2\r
+recette,billetterie,350.0,2\r
+recette,billetterie,180.0,2\r
+recette,billetterie,240.0,2\r
+recette,billetterie,100.0,2\r
+recette,billetterie,300.0,2\r
+recette,billetterie,40.0,2\r
+recette,billetterie,160.0,2\r
+recette,billetterie,210.0,2\r
+recette,billetterie,150.0,2\r
+recette,billetterie,240.0,2\r
+recette,billetterie,180.0,2\r
+recette,billetterie,280.0,2\r
+recette,billetterie,390.0,2\r
+recette,billetterie,230.0,2\r
+recette,billetterie,220.0,2\r
+recette,billetterie,290.0,2\r
+recette,billetterie,180.0,2\r
+recette,billetterie,330.0,2\r
+recette,billetterie,350.0,2\r
+recette,billetterie,220.0,2\r
+recette,billetterie,390.0,2\r
+recette,billetterie,270.0,2\r
+recette,billetterie,160.0,2\r
+recette,billetterie,370.0,2\r
+recette,billetterie,50.0,2\r
+recette,billetterie,350.0,2\r
+recette,billetterie,50.0,2\r
+recette,billetterie,310.0,2\r
+recette,billetterie,100.0,2\r
+recette,billetterie,50.0,2\r
+recette,billetterie,120.0,2\r
+recette,marketing,170.71,2\r
+recette,marketing,216.27,2\r
+recette,marketing,509.75,2\r
+recette,marketing,122.03,2\r
+recette,marketing,218.41,2\r
+recette,marketing,716.55,2\r
+recette,marketing,474.47,2\r
+recette,marketing,477.38,2\r
+recette,marketing,136.79,2\r
+recette,marketing,416.43,2\r
+recette,marketing,325.9,2\r
+recette,marketing,351.74,2\r
+recette,marketing,150.32,2\r
+recette,marketing,126.99,2\r
+recette,sponsoring,700.0,2\r
+recette,sponsoring,700.0,2\r
+recette,sponsoring,1200.0,2\r
+recette,sponsoring,1500.0,2\r
+recette,sponsoring,2000.0,2\r
+recette,sponsoring,500.0,2\r
+recette,sponsoring,1400.0,2\r
+recette,sponsoring,400.0,2\r
+recette,sponsoring,2400.0,2\r
+recette,sponsoring,1000.0,2\r
+recette,sponsoring,1900.0,2\r
+recette,sponsoring,300.0,2\r
+recette,sponsoring,700.0,2\r
+dépense,autres_charges,209.2,3\r
+dépense,autres_charges,181.03,3\r
+dépense,autres_charges,266.31,3\r
+dépense,autres_charges,127.23,3\r
+dépense,autres_charges,101.33,3\r
+dépense,autres_charges,233.19,3\r
+dépense,autres_charges,179.28,3\r
+dépense,autres_charges,100.83,3\r
+dépense,autres_charges,100.14,3\r
+dépense,autres_charges,325.61,3\r
+dépense,autres_charges,184.34,3\r
+dépense,autres_charges,100.12,3\r
+dépense,autres_charges,204.79,3\r
+dépense,autres_charges,235.2,3\r
+dépense,autres_charges,339.11,3\r
+dépense,autres_charges,237.45,3\r
+dépense,autres_charges,315.44,3\r
+dépense,autres_charges,100.03,3\r
+dépense,autres_charges,318.97,3\r
+dépense,autres_charges,100.9,3\r
+dépense,autres_charges,100.54,3\r
+dépense,autres_charges,219.28,3\r
+dépense,autres_charges,321.55,3\r
+dépense,autres_charges,119.95,3\r
+dépense,autres_charges,319.88,3\r
+dépense,autres_charges,283.46,3\r
+dépense,autres_charges,323.38,3\r
+dépense,autres_charges,100.9,3\r
+dépense,autres_charges,209.83,3\r
+dépense,autres_charges,114.02,3\r
+dépense,autres_charges,313.33,3\r
+dépense,déplacements,200.17,3\r
+dépense,déplacements,714.1,3\r
+dépense,déplacements,723.93,3\r
+dépense,déplacements,594.67,3\r
+dépense,déplacements,200.64,3\r
+dépense,déplacements,200.56,3\r
+dépense,déplacements,806.49,3\r
+dépense,déplacements,459.31,3\r
+dépense,déplacements,742.85,3\r
+dépense,déplacements,322.63,3\r
+dépense,déplacements,382.31,3\r
+dépense,déplacements,674.7,3\r
+dépense,déplacements,1121.47,3\r
+dépense,déplacements,1061.25,3\r
+dépense,déplacements,1099.07,3\r
+dépense,déplacements,404.17,3\r
+dépense,déplacements,330.3,3\r
+dépense,déplacements,1138.62,3\r
+dépense,déplacements,629.29,3\r
+dépense,déplacements,983.83,3\r
+dépense,fonctionnement,90.53,3\r
+dépense,fonctionnement,340.23,3\r
+dépense,fonctionnement,487.28,3\r
+dépense,fonctionnement,315.74,3\r
+dépense,fonctionnement,254.22,3\r
+dépense,fonctionnement,575.87,3\r
+dépense,fonctionnement,191.71,3\r
+dépense,fonctionnement,54.13,3\r
+dépense,fonctionnement,318.82,3\r
+dépense,fonctionnement,521.8,3\r
+dépense,fonctionnement,295.55,3\r
+dépense,fonctionnement,44.47,3\r
+dépense,fonctionnement,443.97,3\r
+dépense,fonctionnement,300.14,3\r
+dépense,fonctionnement,332.24,3\r
+dépense,fonctionnement,383.93,3\r
+dépense,fonctionnement,547.35,3\r
+dépense,fonctionnement,442.53,3\r
+dépense,fonctionnement,232.17,3\r
+dépense,fonctionnement,106.84,3\r
+dépense,fonctionnement,546.9,3\r
+dépense,fonctionnement,495.35,3\r
+dépense,fonctionnement,324.29,3\r
+dépense,fonctionnement,157.59,3\r
+dépense,fonctionnement,509.29,3\r
+dépense,fonctionnement,504.19,3\r
+dépense,fonctionnement,69.92,3\r
+dépense,fonctionnement,76.43,3\r
+dépense,fonctionnement,386.66,3\r
+dépense,fonctionnement,78.5,3\r
+dépense,fonctionnement,530.25,3\r
+dépense,fonctionnement,203.01,3\r
+dépense,fonctionnement,508.32,3\r
+dépense,fonctionnement,333.46,3\r
+dépense,fonctionnement,584.82,3\r
+dépense,fonctionnement,241.56,3\r
+dépense,fonctionnement,60.92,3\r
+dépense,fonctionnement,121.82,3\r
+dépense,fonctionnement,50.74,3\r
+dépense,fonctionnement,536.78,3\r
+dépense,fonctionnement,242.53,3\r
+dépense,fonctionnement,581.25,3\r
+dépense,fonctionnement,559.65,3\r
+dépense,fonctionnement,472.75,3\r
+dépense,fonctionnement,583.79,3\r
+dépense,salaires,2383.57,3\r
+dépense,salaires,1818.89,3\r
+dépense,salaires,2131.9,3\r
+dépense,salaires,2122.23,3\r
+dépense,salaires,1978.38,3\r
+dépense,salaires,2396.45,3\r
+dépense,salaires,1953.41,3\r
+dépense,salaires,1907.45,3\r
+dépense,salaires,1650.57,3\r
+dépense,salaires,2396.04,3\r
+dépense,salaires,2077.8,3\r
+dépense,salaires,1985.67,3\r
+dépense,salaires,1758.5,3\r
+dépense,salaires,2203.37,3\r
+dépense,salaires,1790.61,3\r
+dépense,salaires,1704.65,3\r
+dépense,salaires,1500.2,3\r
+dépense,salaires,2369.92,3\r
+dépense,salaires,1916.7,3\r
+dépense,salaires,1953.92,3\r
+recette,billetterie,340.0,3\r
+recette,billetterie,270.0,3\r
+recette,billetterie,190.0,3\r
+recette,billetterie,360.0,3\r
+recette,billetterie,170.0,3\r
+recette,billetterie,70.0,3\r
+recette,billetterie,330.0,3\r
+recette,billetterie,20.0,3\r
+recette,billetterie,70.0,3\r
+recette,billetterie,20.0,3\r
+recette,billetterie,60.0,3\r
+recette,billetterie,30.0,3\r
+recette,billetterie,230.0,3\r
+recette,billetterie,330.0,3\r
+recette,billetterie,80.0,3\r
+recette,billetterie,200.0,3\r
+recette,billetterie,70.0,3\r
+recette,billetterie,170.0,3\r
+recette,billetterie,120.0,3\r
+recette,billetterie,50.0,3\r
+recette,marketing,475.13,3\r
+recette,marketing,710.62,3\r
+recette,marketing,638.38,3\r
+recette,marketing,484.67,3\r
+recette,marketing,175.63,3\r
+recette,marketing,167.62,3\r
+recette,marketing,676.8,3\r
+recette,marketing,242.64,3\r
+recette,marketing,397.95,3\r
+recette,marketing,377.54,3\r
+recette,marketing,433.46,3\r
+recette,marketing,669.82,3\r
+recette,marketing,437.15,3\r
+recette,marketing,210.33,3\r
+recette,marketing,515.77,3\r
+recette,marketing,494.78,3\r
+recette,marketing,448.83,3\r
+recette,marketing,737.74,3\r
+recette,marketing,590.76,3\r
+recette,sponsoring,2100.0,3\r
+recette,sponsoring,1100.0,3\r
+recette,sponsoring,1100.0,3\r
+recette,sponsoring,400.0,3\r
+recette,sponsoring,1700.0,3\r
+recette,sponsoring,900.0,3\r
+recette,sponsoring,2500.0,3\r
+recette,sponsoring,1600.0,3\r
+dépense,autres_charges,269.32,4\r
+dépense,autres_charges,167.11,4\r
+dépense,autres_charges,100.82,4\r
+dépense,autres_charges,332.88,4\r
+dépense,autres_charges,198.71,4\r
+dépense,autres_charges,106.81,4\r
+dépense,autres_charges,282.71,4\r
+dépense,autres_charges,164.63,4\r
+dépense,autres_charges,315.65,4\r
+dépense,autres_charges,171.38,4\r
+dépense,autres_charges,284.47,4\r
+dépense,autres_charges,259.26,4\r
+dépense,autres_charges,100.69,4\r
+dépense,autres_charges,194.35,4\r
+dépense,autres_charges,100.78,4\r
+dépense,autres_charges,331.35,4\r
+dépense,autres_charges,173.52,4\r
+dépense,autres_charges,332.92,4\r
+dépense,autres_charges,215.49,4\r
+dépense,autres_charges,100.75,4\r
+dépense,autres_charges,126.6,4\r
+dépense,autres_charges,158.76,4\r
+dépense,autres_charges,100.7,4\r
+dépense,autres_charges,222.34,4\r
+dépense,autres_charges,103.68,4\r
+dépense,autres_charges,145.2,4\r
+dépense,autres_charges,231.91,4\r
+dépense,autres_charges,100.34,4\r
+dépense,autres_charges,100.44,4\r
+dépense,autres_charges,183.13,4\r
+dépense,autres_charges,288.43,4\r
+dépense,autres_charges,142.49,4\r
+dépense,autres_charges,100.54,4\r
+dépense,autres_charges,151.16,4\r
+dépense,autres_charges,339.53,4\r
+dépense,autres_charges,244.64,4\r
+dépense,autres_charges,164.43,4\r
+dépense,déplacements,457.62,4\r
+dépense,déplacements,849.33,4\r
+dépense,déplacements,1131.5,4\r
+dépense,déplacements,453.31,4\r
+dépense,déplacements,413.03,4\r
+dépense,déplacements,200.4,4\r
+dépense,déplacements,269.69,4\r
+dépense,déplacements,878.48,4\r
+dépense,déplacements,200.82,4\r
+dépense,déplacements,935.99,4\r
+dépense,déplacements,946.37,4\r
+dépense,déplacements,1021.03,4\r
+dépense,déplacements,442.89,4\r
+dépense,déplacements,200.2,4\r
+dépense,déplacements,360.54,4\r
+dépense,déplacements,237.04,4\r
+dépense,déplacements,447.76,4\r
+dépense,déplacements,948.93,4\r
+dépense,déplacements,794.73,4\r
+dépense,déplacements,752.9,4\r
+dépense,déplacements,933.05,4\r
+dépense,déplacements,552.32,4\r
+dépense,fonctionnement,195.26,4\r
+dépense,fonctionnement,11.75,4\r
+dépense,fonctionnement,213.62,4\r
+dépense,fonctionnement,366.96,4\r
+dépense,fonctionnement,146.29,4\r
+dépense,fonctionnement,69.48,4\r
+dépense,fonctionnement,364.28,4\r
+dépense,fonctionnement,158.89,4\r
+dépense,fonctionnement,192.9,4\r
+dépense,fonctionnement,482.7,4\r
+dépense,fonctionnement,580.37,4\r
+dépense,fonctionnement,283.73,4\r
+dépense,fonctionnement,270.58,4\r
+dépense,fonctionnement,589.94,4\r
+dépense,fonctionnement,419.75,4\r
+dépense,fonctionnement,219.67,4\r
+dépense,fonctionnement,368.51,4\r
+dépense,fonctionnement,194.59,4\r
+dépense,fonctionnement,554.69,4\r
+dépense,fonctionnement,504.38,4\r
+dépense,fonctionnement,182.84,4\r
+dépense,fonctionnement,15.47,4\r
+dépense,fonctionnement,386.61,4\r
+dépense,fonctionnement,434.07,4\r
+dépense,fonctionnement,284.07,4\r
+dépense,fonctionnement,320.58,4\r
+dépense,fonctionnement,283.46,4\r
+dépense,fonctionnement,279.09,4\r
+dépense,fonctionnement,290.42,4\r
+dépense,fonctionnement,446.78,4\r
+dépense,fonctionnement,511.45,4\r
+dépense,salaires,2383.57,4\r
+dépense,salaires,1818.89,4\r
+dépense,salaires,2131.9,4\r
+dépense,salaires,2122.23,4\r
+dépense,salaires,1978.38,4\r
+dépense,salaires,2396.45,4\r
+dépense,salaires,1953.41,4\r
+dépense,salaires,1907.45,4\r
+dépense,salaires,1650.57,4\r
+dépense,salaires,2396.04,4\r
+dépense,salaires,2077.8,4\r
+dépense,salaires,1985.67,4\r
+dépense,salaires,1758.5,4\r
+dépense,salaires,2203.37,4\r
+dépense,salaires,1790.61,4\r
+dépense,salaires,1704.65,4\r
+dépense,salaires,1500.2,4\r
+dépense,salaires,2369.92,4\r
+dépense,salaires,1916.7,4\r
+dépense,salaires,1953.92,4\r
+recette,billetterie,170.0,4\r
+recette,billetterie,370.0,4\r
+recette,billetterie,230.0,4\r
+recette,billetterie,240.0,4\r
+recette,billetterie,10.0,4\r
+recette,billetterie,50.0,4\r
+recette,billetterie,120.0,4\r
+recette,billetterie,150.0,4\r
+recette,billetterie,20.0,4\r
+recette,billetterie,300.0,4\r
+recette,billetterie,120.0,4\r
+recette,billetterie,180.0,4\r
+recette,billetterie,140.0,4\r
+recette,billetterie,10.0,4\r
+recette,billetterie,30.0,4\r
+recette,billetterie,230.0,4\r
+recette,billetterie,240.0,4\r
+recette,billetterie,230.0,4\r
+recette,billetterie,10.0,4\r
+recette,billetterie,370.0,4\r
+recette,billetterie,170.0,4\r
+recette,billetterie,90.0,4\r
+recette,billetterie,260.0,4\r
+recette,billetterie,190.0,4\r
+recette,billetterie,100.0,4\r
+recette,billetterie,160.0,4\r
+recette,billetterie,340.0,4\r
+recette,billetterie,140.0,4\r
+recette,billetterie,250.0,4\r
+recette,billetterie,40.0,4\r
+recette,billetterie,240.0,4\r
+recette,billetterie,10.0,4\r
+recette,marketing,439.81,4\r
+recette,marketing,616.71,4\r
+recette,marketing,569.07,4\r
+recette,marketing,485.65,4\r
+recette,marketing,392.0,4\r
+recette,marketing,274.27,4\r
+recette,marketing,254.72,4\r
+recette,marketing,481.36,4\r
+recette,marketing,545.89,4\r
+recette,marketing,135.8,4\r
+recette,marketing,389.44,4\r
+recette,marketing,632.99,4\r
+recette,marketing,166.02,4\r
+recette,marketing,713.48,4\r
+recette,marketing,496.28,4\r
+recette,marketing,517.97,4\r
+recette,marketing,574.25,4\r
+recette,sponsoring,2300.0,4\r
+recette,sponsoring,2000.0,4\r
+recette,sponsoring,2100.0,4\r
+recette,sponsoring,800.0,4\r
+recette,sponsoring,1400.0,4\r
+recette,sponsoring,1300.0,4\r
+recette,sponsoring,2500.0,4\r
+recette,sponsoring,300.0,4\r
+recette,sponsoring,1300.0,4\r
+recette,sponsoring,100.0,4\r
+recette,sponsoring,700.0,4\r
+recette,sponsoring,2300.0,4\r
+recette,sponsoring,2500.0,4\r
+recette,sponsoring,2400.0,4\r
+recette,sponsoring,600.0,4\r
+recette,sponsoring,1800.0,4\r
+recette,sponsoring,1600.0,4\r
+recette,sponsoring,2100.0,4\r
+recette,sponsoring,600.0,4\r
+recette,sponsoring,1500.0,4\r
+dépense,autres_charges,100.16,5\r
+dépense,autres_charges,222.63,5\r
+dépense,autres_charges,100.2,5\r
+dépense,autres_charges,271.52,5\r
+dépense,autres_charges,325.55,5\r
+dépense,autres_charges,200.2,5\r
+dépense,autres_charges,254.37,5\r
+dépense,autres_charges,160.98,5\r
+dépense,autres_charges,329.75,5\r
+dépense,autres_charges,225.44,5\r
+dépense,autres_charges,132.39,5\r
+dépense,autres_charges,100.1,5\r
+dépense,autres_charges,100.99,5\r
+dépense,autres_charges,246.59,5\r
+dépense,autres_charges,271.65,5\r
+dépense,autres_charges,133.93,5\r
+dépense,autres_charges,287.44,5\r
+dépense,autres_charges,333.97,5\r
+dépense,autres_charges,196.38,5\r
+dépense,autres_charges,118.49,5\r
+dépense,autres_charges,152.68,5\r
+dépense,autres_charges,231.09,5\r
+dépense,autres_charges,332.83,5\r
+dépense,autres_charges,163.52,5\r
+dépense,autres_charges,180.75,5\r
+dépense,autres_charges,100.29,5\r
+dépense,autres_charges,221.3,5\r
+dépense,autres_charges,245.32,5\r
+dépense,autres_charges,310.1,5\r
+dépense,autres_charges,190.32,5\r
+dépense,autres_charges,132.42,5\r
+dépense,autres_charges,202.13,5\r
+dépense,autres_charges,189.92,5\r
+dépense,autres_charges,207.37,5\r
+dépense,autres_charges,100.88,5\r
+dépense,autres_charges,276.95,5\r
+dépense,autres_charges,100.08,5\r
+dépense,autres_charges,100.4,5\r
+dépense,autres_charges,187.6,5\r
+dépense,autres_charges,148.27,5\r
+dépense,autres_charges,287.42,5\r
+dépense,déplacements,315.23,5\r
+dépense,déplacements,822.2,5\r
+dépense,déplacements,371.05,5\r
+dépense,déplacements,802.26,5\r
+dépense,déplacements,412.74,5\r
+dépense,déplacements,437.22,5\r
+dépense,déplacements,918.04,5\r
+dépense,déplacements,959.91,5\r
+dépense,déplacements,1163.73,5\r
+dépense,déplacements,1076.17,5\r
+dépense,déplacements,1079.54,5\r
+dépense,déplacements,487.54,5\r
+dépense,déplacements,991.97,5\r
+dépense,déplacements,545.4,5\r
+dépense,déplacements,484.57,5\r
+dépense,fonctionnement,126.66,5\r
+dépense,fonctionnement,538.18,5\r
+dépense,fonctionnement,93.37,5\r
+dépense,fonctionnement,94.68,5\r
+dépense,fonctionnement,454.36,5\r
+dépense,fonctionnement,74.31,5\r
+dépense,fonctionnement,325.83,5\r
+dépense,fonctionnement,232.14,5\r
+dépense,fonctionnement,539.62,5\r
+dépense,fonctionnement,77.02,5\r
+dépense,fonctionnement,127.07,5\r
+dépense,fonctionnement,562.96,5\r
+dépense,fonctionnement,362.61,5\r
+dépense,fonctionnement,267.47,5\r
+dépense,fonctionnement,404.22,5\r
+dépense,fonctionnement,407.97,5\r
+dépense,fonctionnement,239.37,5\r
+dépense,fonctionnement,314.37,5\r
+dépense,fonctionnement,230.67,5\r
+dépense,fonctionnement,132.5,5\r
+dépense,fonctionnement,82.59,5\r
+dépense,fonctionnement,345.11,5\r
+dépense,fonctionnement,333.24,5\r
+dépense,fonctionnement,516.83,5\r
+dépense,fonctionnement,478.04,5\r
+dépense,fonctionnement,128.06,5\r
+dépense,fonctionnement,92.33,5\r
+dépense,fonctionnement,211.93,5\r
+dépense,fonctionnement,302.7,5\r
+dépense,fonctionnement,428.63,5\r
+dépense,fonctionnement,104.1,5\r
+dépense,fonctionnement,246.5,5\r
+dépense,salaires,2383.57,5\r
+dépense,salaires,1818.89,5\r
+dépense,salaires,2131.9,5\r
+dépense,salaires,2122.23,5\r
+dépense,salaires,1978.38,5\r
+dépense,salaires,2396.45,5\r
+dépense,salaires,1953.41,5\r
+dépense,salaires,1907.45,5\r
+dépense,salaires,1650.57,5\r
+dépense,salaires,2396.04,5\r
+dépense,salaires,2077.8,5\r
+dépense,salaires,1985.67,5\r
+dépense,salaires,1758.5,5\r
+dépense,salaires,2203.37,5\r
+dépense,salaires,1790.61,5\r
+dépense,salaires,1704.65,5\r
+dépense,salaires,1500.2,5\r
+dépense,salaires,2369.92,5\r
+dépense,salaires,1916.7,5\r
+dépense,salaires,1953.92,5\r
+recette,billetterie,230.0,5\r
+recette,billetterie,130.0,5\r
+recette,billetterie,320.0,5\r
+recette,billetterie,370.0,5\r
+recette,billetterie,300.0,5\r
+recette,billetterie,100.0,5\r
+recette,billetterie,310.0,5\r
+recette,billetterie,300.0,5\r
+recette,billetterie,280.0,5\r
+recette,billetterie,100.0,5\r
+recette,billetterie,10.0,5\r
+recette,billetterie,70.0,5\r
+recette,billetterie,110.0,5\r
+recette,billetterie,90.0,5\r
+recette,billetterie,230.0,5\r
+recette,billetterie,100.0,5\r
+recette,billetterie,70.0,5\r
+recette,billetterie,70.0,5\r
+recette,billetterie,20.0,5\r
+recette,billetterie,270.0,5\r
+recette,billetterie,240.0,5\r
+recette,billetterie,330.0,5\r
+recette,billetterie,220.0,5\r
+recette,billetterie,240.0,5\r
+recette,billetterie,50.0,5\r
+recette,billetterie,340.0,5\r
+recette,billetterie,90.0,5\r
+recette,billetterie,310.0,5\r
+recette,billetterie,290.0,5\r
+recette,billetterie,370.0,5\r
+recette,billetterie,170.0,5\r
+recette,billetterie,390.0,5\r
+recette,billetterie,120.0,5\r
+recette,billetterie,160.0,5\r
+recette,billetterie,190.0,5\r
+recette,billetterie,390.0,5\r
+recette,billetterie,200.0,5\r
+recette,billetterie,120.0,5\r
+recette,marketing,192.04,5\r
+recette,marketing,769.24,5\r
+recette,marketing,402.18,5\r
+recette,marketing,190.91,5\r
+recette,marketing,508.89,5\r
+recette,marketing,170.0,5\r
+recette,marketing,558.12,5\r
+recette,marketing,611.72,5\r
+recette,marketing,613.59,5\r
+recette,marketing,653.37,5\r
+recette,marketing,226.29,5\r
+recette,marketing,653.4,5\r
+recette,sponsoring,2400.0,5\r
+recette,sponsoring,300.0,5\r
+recette,sponsoring,2300.0,5\r
+recette,sponsoring,1900.0,5\r
+recette,sponsoring,1400.0,5\r
+recette,sponsoring,1400.0,5\r
+recette,sponsoring,2600.0,5\r
+recette,sponsoring,500.0,5\r
+recette,sponsoring,2600.0,5\r
+recette,sponsoring,2500.0,5\r
+recette,sponsoring,1500.0,5\r
+recette,sponsoring,700.0,5\r
+recette,sponsoring,100.0,5\r
+recette,sponsoring,2600.0,5\r
+recette,sponsoring,500.0,5\r
+recette,sponsoring,2600.0,5\r
+recette,sponsoring,1800.0,5\r
+recette,sponsoring,1400.0,5\r
+recette,sponsoring,1500.0,5\r
+recette,sponsoring,1300.0,5\r
+recette,sponsoring,2600.0,5\r
+recette,sponsoring,500.0,5\r
+recette,sponsoring,1700.0,5\r
+recette,sponsoring,2300.0,5\r
+recette,sponsoring,300.0,5\r
+recette,sponsoring,900.0,5\r
+recette,sponsoring,2400.0,5\r
+recette,subventions,59600.0,5\r
+dépense,autres_charges,219.08,6\r
+dépense,autres_charges,137.61,6\r
+dépense,autres_charges,233.5,6\r
+dépense,autres_charges,334.59,6\r
+dépense,autres_charges,332.66,6\r
+dépense,autres_charges,229.46,6\r
+dépense,autres_charges,309.36,6\r
+dépense,autres_charges,142.19,6\r
+dépense,autres_charges,239.23,6\r
+dépense,autres_charges,114.68,6\r
+dépense,autres_charges,229.45,6\r
+dépense,autres_charges,274.52,6\r
+dépense,autres_charges,292.47,6\r
+dépense,autres_charges,259.05,6\r
+dépense,autres_charges,203.77,6\r
+dépense,autres_charges,345.97,6\r
+dépense,autres_charges,299.65,6\r
+dépense,autres_charges,227.63,6\r
+dépense,autres_charges,134.33,6\r
+dépense,autres_charges,179.62,6\r
+dépense,autres_charges,173.64,6\r
+dépense,autres_charges,125.65,6\r
+dépense,autres_charges,100.36,6\r
+dépense,autres_charges,259.55,6\r
+dépense,autres_charges,110.93,6\r
+dépense,autres_charges,110.0,6\r
+dépense,autres_charges,204.13,6\r
+dépense,autres_charges,148.24,6\r
+dépense,autres_charges,115.94,6\r
+dépense,autres_charges,252.82,6\r
+dépense,autres_charges,160.3,6\r
+dépense,autres_charges,100.99,6\r
+dépense,autres_charges,114.05,6\r
+dépense,autres_charges,205.84,6\r
+dépense,autres_charges,262.98,6\r
+dépense,autres_charges,124.14,6\r
+dépense,autres_charges,258.03,6\r
+dépense,autres_charges,266.54,6\r
+dépense,autres_charges,129.97,6\r
+dépense,déplacements,514.25,6\r
+dépense,déplacements,893.11,6\r
+dépense,déplacements,361.0,6\r
+dépense,déplacements,882.82,6\r
+dépense,déplacements,967.09,6\r
+dépense,déplacements,385.27,6\r
+dépense,déplacements,1257.26,6\r
+dépense,déplacements,868.08,6\r
+dépense,déplacements,1015.79,6\r
+dépense,fonctionnement,543.3,6\r
+dépense,fonctionnement,293.63,6\r
+dépense,fonctionnement,170.14,6\r
+dépense,fonctionnement,166.12,6\r
+dépense,fonctionnement,418.77,6\r
+dépense,fonctionnement,357.44,6\r
+dépense,fonctionnement,527.94,6\r
+dépense,fonctionnement,464.11,6\r
+dépense,fonctionnement,549.23,6\r
+dépense,fonctionnement,25.05,6\r
+dépense,fonctionnement,547.02,6\r
+dépense,fonctionnement,303.3,6\r
+dépense,fonctionnement,274.23,6\r
+dépense,fonctionnement,484.38,6\r
+dépense,fonctionnement,190.26,6\r
+dépense,fonctionnement,58.02,6\r
+dépense,fonctionnement,534.32,6\r
+dépense,fonctionnement,32.46,6\r
+dépense,fonctionnement,300.23,6\r
+dépense,fonctionnement,20.56,6\r
+dépense,fonctionnement,84.32,6\r
+dépense,fonctionnement,537.6,6\r
+dépense,fonctionnement,35.0,6\r
+dépense,fonctionnement,315.93,6\r
+dépense,fonctionnement,419.06,6\r
+dépense,fonctionnement,64.42,6\r
+dépense,fonctionnement,47.57,6\r
+dépense,fonctionnement,347.66,6\r
+dépense,fonctionnement,498.6,6\r
+dépense,fonctionnement,37.55,6\r
+dépense,fonctionnement,346.15,6\r
+dépense,fonctionnement,436.85,6\r
+dépense,fonctionnement,150.97,6\r
+dépense,fonctionnement,173.75,6\r
+dépense,fonctionnement,198.19,6\r
+dépense,fonctionnement,199.48,6\r
+dépense,fonctionnement,265.91,6\r
+dépense,fonctionnement,353.14,6\r
+dépense,fonctionnement,97.41,6\r
+dépense,fonctionnement,279.02,6\r
+dépense,fonctionnement,510.66,6\r
+dépense,fonctionnement,317.5,6\r
+dépense,salaires,2383.57,6\r
+dépense,salaires,1818.89,6\r
+dépense,salaires,2131.9,6\r
+dépense,salaires,2122.23,6\r
+dépense,salaires,1978.38,6\r
+dépense,salaires,2396.45,6\r
+dépense,salaires,1953.41,6\r
+dépense,salaires,1907.45,6\r
+dépense,salaires,1650.57,6\r
+dépense,salaires,2396.04,6\r
+dépense,salaires,2077.8,6\r
+dépense,salaires,1985.67,6\r
+dépense,salaires,1758.5,6\r
+dépense,salaires,2203.37,6\r
+dépense,salaires,1790.61,6\r
+dépense,salaires,1704.65,6\r
+dépense,salaires,1500.2,6\r
+dépense,salaires,2369.92,6\r
+dépense,salaires,1916.7,6\r
+dépense,salaires,1953.92,6\r
+recette,billetterie,110.0,6\r
+recette,billetterie,170.0,6\r
+recette,billetterie,240.0,6\r
+recette,billetterie,290.0,6\r
+recette,billetterie,80.0,6\r
+recette,billetterie,180.0,6\r
+recette,billetterie,370.0,6\r
+recette,billetterie,300.0,6\r
+recette,billetterie,100.0,6\r
+recette,billetterie,330.0,6\r
+recette,billetterie,390.0,6\r
+recette,billetterie,150.0,6\r
+recette,billetterie,20.0,6\r
+recette,billetterie,270.0,6\r
+recette,billetterie,360.0,6\r
+recette,billetterie,90.0,6\r
+recette,billetterie,60.0,6\r
+recette,billetterie,80.0,6\r
+recette,billetterie,70.0,6\r
+recette,billetterie,200.0,6\r
+recette,billetterie,200.0,6\r
+recette,billetterie,270.0,6\r
+recette,billetterie,370.0,6\r
+recette,billetterie,40.0,6\r
+recette,billetterie,200.0,6\r
+recette,billetterie,340.0,6\r
+recette,billetterie,10.0,6\r
+recette,billetterie,20.0,6\r
+recette,billetterie,60.0,6\r
+recette,billetterie,350.0,6\r
+recette,billetterie,180.0,6\r
+recette,billetterie,130.0,6\r
+recette,billetterie,340.0,6\r
+recette,billetterie,380.0,6\r
+recette,billetterie,280.0,6\r
+recette,billetterie,310.0,6\r
+recette,marketing,157.94,6\r
+recette,marketing,517.63,6\r
+recette,marketing,100.75,6\r
+recette,marketing,274.82,6\r
+recette,marketing,557.8,6\r
+recette,marketing,168.91,6\r
+recette,marketing,135.74,6\r
+recette,marketing,269.0,6\r
+recette,marketing,407.52,6\r
+recette,marketing,499.89,6\r
+recette,marketing,425.12,6\r
+recette,marketing,452.98,6\r
+recette,marketing,225.4,6\r
+recette,marketing,534.65,6\r
+recette,marketing,153.45,6\r
+recette,marketing,140.38,6\r
+recette,marketing,351.69,6\r
+recette,marketing,168.54,6\r
+recette,marketing,668.88,6\r
+recette,marketing,466.48,6\r
+recette,marketing,164.3,6\r
+recette,sponsoring,1800.0,6\r
+recette,sponsoring,100.0,6\r
+recette,sponsoring,2000.0,6\r
+recette,sponsoring,1600.0,6\r
+recette,sponsoring,1800.0,6\r
+recette,sponsoring,300.0,6\r
+recette,sponsoring,1600.0,6\r
+recette,sponsoring,1900.0,6\r
+recette,sponsoring,1800.0,6\r
+recette,sponsoring,800.0,6\r
+recette,sponsoring,2100.0,6\r
+dépense,autres_charges,307.87,7\r
+dépense,autres_charges,124.72,7\r
+dépense,autres_charges,217.69,7\r
+dépense,autres_charges,120.18,7\r
+dépense,autres_charges,322.9,7\r
+dépense,autres_charges,279.36,7\r
+dépense,autres_charges,234.99,7\r
+dépense,autres_charges,177.2,7\r
+dépense,autres_charges,100.14,7\r
+dépense,autres_charges,100.21,7\r
+dépense,autres_charges,210.61,7\r
+dépense,autres_charges,100.19,7\r
+dépense,autres_charges,121.51,7\r
+dépense,autres_charges,213.89,7\r
+dépense,autres_charges,264.56,7\r
+dépense,autres_charges,179.52,7\r
+dépense,autres_charges,174.97,7\r
+dépense,autres_charges,100.85,7\r
+dépense,autres_charges,100.67,7\r
+dépense,autres_charges,342.5,7\r
+dépense,autres_charges,329.91,7\r
+dépense,autres_charges,136.17,7\r
+dépense,autres_charges,172.92,7\r
+dépense,autres_charges,317.96,7\r
+dépense,autres_charges,110.82,7\r
+dépense,déplacements,200.93,7\r
+dépense,déplacements,1103.36,7\r
+dépense,déplacements,457.2,7\r
+dépense,déplacements,593.28,7\r
+dépense,déplacements,1048.11,7\r
+dépense,déplacements,336.93,7\r
+dépense,déplacements,1221.37,7\r
+dépense,déplacements,200.23,7\r
+dépense,déplacements,814.17,7\r
+dépense,déplacements,539.3,7\r
+dépense,déplacements,241.19,7\r
+dépense,déplacements,706.36,7\r
+dépense,déplacements,338.52,7\r
+dépense,déplacements,236.76,7\r
+dépense,fonctionnement,272.38,7\r
+dépense,fonctionnement,326.66,7\r
+dépense,fonctionnement,20.35,7\r
+dépense,fonctionnement,82.06,7\r
+dépense,fonctionnement,222.39,7\r
+dépense,fonctionnement,76.87,7\r
+dépense,fonctionnement,25.42,7\r
+dépense,fonctionnement,57.27,7\r
+dépense,fonctionnement,475.76,7\r
+dépense,fonctionnement,40.66,7\r
+dépense,fonctionnement,520.59,7\r
+dépense,fonctionnement,376.62,7\r
+dépense,fonctionnement,119.61,7\r
+dépense,fonctionnement,532.39,7\r
+dépense,fonctionnement,365.91,7\r
+dépense,fonctionnement,358.14,7\r
+dépense,fonctionnement,119.62,7\r
+dépense,fonctionnement,386.25,7\r
+dépense,fonctionnement,301.2,7\r
+dépense,fonctionnement,195.57,7\r
+dépense,fonctionnement,14.87,7\r
+dépense,fonctionnement,477.04,7\r
+dépense,fonctionnement,211.81,7\r
+dépense,fonctionnement,345.77,7\r
+dépense,fonctionnement,347.99,7\r
+dépense,fonctionnement,490.11,7\r
+dépense,fonctionnement,239.13,7\r
+dépense,fonctionnement,487.56,7\r
+dépense,fonctionnement,446.53,7\r
+dépense,fonctionnement,563.13,7\r
+dépense,fonctionnement,186.56,7\r
+dépense,fonctionnement,168.45,7\r
+dépense,fonctionnement,58.05,7\r
+dépense,fonctionnement,147.91,7\r
+dépense,fonctionnement,532.48,7\r
+dépense,fonctionnement,535.36,7\r
+dépense,fonctionnement,351.26,7\r
+dépense,fonctionnement,506.36,7\r
+dépense,salaires,2383.57,7\r
+dépense,salaires,1818.89,7\r
+dépense,salaires,2131.9,7\r
+dépense,salaires,2122.23,7\r
+dépense,salaires,1978.38,7\r
+dépense,salaires,2396.45,7\r
+dépense,salaires,1953.41,7\r
+dépense,salaires,1907.45,7\r
+dépense,salaires,1650.57,7\r
+dépense,salaires,2396.04,7\r
+dépense,salaires,2077.8,7\r
+dépense,salaires,1985.67,7\r
+dépense,salaires,1758.5,7\r
+dépense,salaires,2203.37,7\r
+dépense,salaires,1790.61,7\r
+dépense,salaires,1704.65,7\r
+dépense,salaires,1500.2,7\r
+dépense,salaires,2369.92,7\r
+dépense,salaires,1916.7,7\r
+dépense,salaires,1953.92,7\r
+recette,billetterie,390.0,7\r
+recette,billetterie,150.0,7\r
+recette,billetterie,330.0,7\r
+recette,billetterie,120.0,7\r
+recette,billetterie,30.0,7\r
+recette,billetterie,200.0,7\r
+recette,billetterie,290.0,7\r
+recette,billetterie,170.0,7\r
+recette,billetterie,260.0,7\r
+recette,billetterie,250.0,7\r
+recette,billetterie,360.0,7\r
+recette,billetterie,110.0,7\r
+recette,billetterie,260.0,7\r
+recette,billetterie,110.0,7\r
+recette,billetterie,260.0,7\r
+recette,billetterie,40.0,7\r
+recette,billetterie,210.0,7\r
+recette,billetterie,100.0,7\r
+recette,billetterie,230.0,7\r
+recette,billetterie,200.0,7\r
+recette,billetterie,50.0,7\r
+recette,billetterie,50.0,7\r
+recette,billetterie,10.0,7\r
+recette,billetterie,20.0,7\r
+recette,billetterie,270.0,7\r
+recette,billetterie,300.0,7\r
+recette,billetterie,380.0,7\r
+recette,billetterie,180.0,7\r
+recette,billetterie,330.0,7\r
+recette,billetterie,290.0,7\r
+recette,billetterie,10.0,7\r
+recette,billetterie,160.0,7\r
+recette,billetterie,140.0,7\r
+recette,billetterie,20.0,7\r
+recette,billetterie,160.0,7\r
+recette,billetterie,200.0,7\r
+recette,billetterie,340.0,7\r
+recette,marketing,743.43,7\r
+recette,marketing,620.4,7\r
+recette,marketing,435.06,7\r
+recette,marketing,308.64,7\r
+recette,marketing,618.94,7\r
+recette,marketing,355.83,7\r
+recette,marketing,149.46,7\r
+recette,marketing,730.45,7\r
+recette,marketing,100.57,7\r
+recette,marketing,147.12,7\r
+recette,marketing,351.11,7\r
+recette,marketing,210.25,7\r
+recette,marketing,295.3,7\r
+recette,marketing,771.33,7\r
+recette,marketing,437.89,7\r
+recette,marketing,451.53,7\r
+recette,sponsoring,400.0,7\r
+recette,sponsoring,2400.0,7\r
+recette,sponsoring,2500.0,7\r
+recette,sponsoring,2500.0,7\r
+recette,sponsoring,2000.0,7\r
+recette,sponsoring,400.0,7\r
+recette,sponsoring,2600.0,7\r
+recette,sponsoring,100.0,7\r
+recette,sponsoring,2300.0,7\r
+recette,sponsoring,2300.0,7\r
+recette,sponsoring,2100.0,7\r
+recette,sponsoring,2400.0,7\r
+recette,sponsoring,300.0,7\r
+recette,sponsoring,1900.0,7\r
+recette,sponsoring,100.0,7\r
+recette,sponsoring,700.0,7\r
+recette,sponsoring,1500.0,7\r
+recette,sponsoring,1100.0,7\r
+recette,sponsoring,1900.0,7\r
+recette,sponsoring,2200.0,7\r
+dépense,autres_charges,105.47,8\r
+dépense,autres_charges,231.62,8\r
+dépense,autres_charges,278.1,8\r
+dépense,autres_charges,321.61,8\r
+dépense,autres_charges,100.11,8\r
+dépense,autres_charges,136.97,8\r
+dépense,autres_charges,283.79,8\r
+dépense,autres_charges,220.23,8\r
+dépense,autres_charges,258.34,8\r
+dépense,autres_charges,153.08,8\r
+dépense,autres_charges,232.64,8\r
+dépense,autres_charges,151.84,8\r
+dépense,autres_charges,340.83,8\r
+dépense,autres_charges,291.88,8\r
+dépense,autres_charges,283.93,8\r
+dépense,autres_charges,332.64,8\r
+dépense,autres_charges,133.91,8\r
+dépense,autres_charges,231.65,8\r
+dépense,autres_charges,142.41,8\r
+dépense,autres_charges,100.95,8\r
+dépense,autres_charges,100.64,8\r
+dépense,autres_charges,315.82,8\r
+dépense,autres_charges,293.17,8\r
+dépense,autres_charges,118.92,8\r
+dépense,autres_charges,248.92,8\r
+dépense,autres_charges,100.22,8\r
+dépense,autres_charges,170.24,8\r
+dépense,autres_charges,170.23,8\r
+dépense,autres_charges,311.85,8\r
+dépense,autres_charges,253.25,8\r
+dépense,autres_charges,100.25,8\r
+dépense,autres_charges,292.59,8\r
+dépense,autres_charges,326.58,8\r
+dépense,autres_charges,195.59,8\r
+dépense,déplacements,1200.08,8\r
+dépense,déplacements,576.54,8\r
+dépense,déplacements,496.36,8\r
+dépense,déplacements,1011.17,8\r
+dépense,déplacements,1079.75,8\r
+dépense,déplacements,577.65,8\r
+dépense,déplacements,503.18,8\r
+dépense,déplacements,1010.73,8\r
+dépense,déplacements,774.67,8\r
+dépense,déplacements,607.1,8\r
+dépense,fonctionnement,584.51,8\r
+dépense,fonctionnement,179.32,8\r
+dépense,fonctionnement,533.6,8\r
+dépense,fonctionnement,197.54,8\r
+dépense,fonctionnement,409.32,8\r
+dépense,fonctionnement,563.29,8\r
+dépense,fonctionnement,593.26,8\r
+dépense,fonctionnement,180.02,8\r
+dépense,fonctionnement,72.52,8\r
+dépense,fonctionnement,592.84,8\r
+dépense,fonctionnement,363.19,8\r
+dépense,fonctionnement,264.86,8\r
+dépense,fonctionnement,241.8,8\r
+dépense,fonctionnement,544.74,8\r
+dépense,fonctionnement,255.29,8\r
+dépense,fonctionnement,241.55,8\r
+dépense,fonctionnement,505.21,8\r
+dépense,fonctionnement,282.55,8\r
+dépense,fonctionnement,191.63,8\r
+dépense,fonctionnement,252.16,8\r
+dépense,fonctionnement,260.71,8\r
+dépense,fonctionnement,192.33,8\r
+dépense,fonctionnement,466.96,8\r
+dépense,fonctionnement,36.64,8\r
+dépense,fonctionnement,551.95,8\r
+dépense,fonctionnement,53.42,8\r
+dépense,fonctionnement,283.5,8\r
+dépense,fonctionnement,109.22,8\r
+dépense,fonctionnement,108.28,8\r
+dépense,salaires,2383.57,8\r
+dépense,salaires,1818.89,8\r
+dépense,salaires,2131.9,8\r
+dépense,salaires,2122.23,8\r
+dépense,salaires,1978.38,8\r
+dépense,salaires,2396.45,8\r
+dépense,salaires,1953.41,8\r
+dépense,salaires,1907.45,8\r
+dépense,salaires,1650.57,8\r
+dépense,salaires,2396.04,8\r
+dépense,salaires,2077.8,8\r
+dépense,salaires,1985.67,8\r
+dépense,salaires,1758.5,8\r
+dépense,salaires,2203.37,8\r
+dépense,salaires,1790.61,8\r
+dépense,salaires,1704.65,8\r
+dépense,salaires,1500.2,8\r
+dépense,salaires,2369.92,8\r
+dépense,salaires,1916.7,8\r
+dépense,salaires,1953.92,8\r
+recette,billetterie,180.0,8\r
+recette,billetterie,220.0,8\r
+recette,billetterie,220.0,8\r
+recette,billetterie,110.0,8\r
+recette,billetterie,230.0,8\r
+recette,billetterie,40.0,8\r
+recette,billetterie,20.0,8\r
+recette,billetterie,280.0,8\r
+recette,billetterie,20.0,8\r
+recette,billetterie,270.0,8\r
+recette,billetterie,110.0,8\r
+recette,billetterie,140.0,8\r
+recette,billetterie,60.0,8\r
+recette,billetterie,120.0,8\r
+recette,billetterie,140.0,8\r
+recette,billetterie,30.0,8\r
+recette,billetterie,330.0,8\r
+recette,billetterie,130.0,8\r
+recette,billetterie,40.0,8\r
+recette,billetterie,210.0,8\r
+recette,billetterie,50.0,8\r
+recette,billetterie,350.0,8\r
+recette,billetterie,110.0,8\r
+recette,billetterie,350.0,8\r
+recette,billetterie,270.0,8\r
+recette,billetterie,350.0,8\r
+recette,billetterie,150.0,8\r
+recette,billetterie,370.0,8\r
+recette,billetterie,190.0,8\r
+recette,billetterie,320.0,8\r
+recette,billetterie,300.0,8\r
+recette,billetterie,350.0,8\r
+recette,billetterie,130.0,8\r
+recette,marketing,761.75,8\r
+recette,marketing,410.7,8\r
+recette,marketing,446.52,8\r
+recette,marketing,100.94,8\r
+recette,marketing,179.02,8\r
+recette,marketing,125.26,8\r
+recette,marketing,145.19,8\r
+recette,marketing,240.04,8\r
+recette,marketing,233.77,8\r
+recette,marketing,191.12,8\r
+recette,marketing,316.63,8\r
+recette,marketing,450.29,8\r
+recette,marketing,259.49,8\r
+recette,marketing,168.37,8\r
+recette,sponsoring,2200.0,8\r
+recette,sponsoring,900.0,8\r
+recette,sponsoring,1300.0,8\r
+recette,sponsoring,900.0,8\r
+recette,sponsoring,1900.0,8\r
+recette,sponsoring,2100.0,8\r
+recette,sponsoring,2000.0,8\r
+recette,sponsoring,1500.0,8\r
+recette,sponsoring,1800.0,8\r
+recette,sponsoring,2000.0,8\r
+recette,sponsoring,1500.0,8\r
+recette,sponsoring,1100.0,8\r
+recette,sponsoring,700.0,8\r
+recette,sponsoring,2100.0,8\r
+recette,sponsoring,2500.0,8\r
+recette,sponsoring,1100.0,8\r
+recette,sponsoring,900.0,8\r
+recette,sponsoring,100.0,8\r
+recette,sponsoring,1500.0,8\r
+dépense,autres_charges,100.6,9\r
+dépense,autres_charges,115.06,9\r
+dépense,autres_charges,216.57,9\r
+dépense,autres_charges,123.02,9\r
+dépense,autres_charges,106.04,9\r
+dépense,autres_charges,197.25,9\r
+dépense,autres_charges,287.29,9\r
+dépense,autres_charges,301.19,9\r
+dépense,autres_charges,171.33,9\r
+dépense,autres_charges,202.8,9\r
+dépense,autres_charges,210.33,9\r
+dépense,autres_charges,166.02,9\r
+dépense,autres_charges,193.67,9\r
+dépense,autres_charges,167.34,9\r
+dépense,autres_charges,252.03,9\r
+dépense,autres_charges,324.72,9\r
+dépense,autres_charges,100.89,9\r
+dépense,autres_charges,249.12,9\r
+dépense,autres_charges,100.14,9\r
+dépense,autres_charges,100.17,9\r
+dépense,autres_charges,276.25,9\r
+dépense,autres_charges,198.4,9\r
+dépense,autres_charges,321.32,9\r
+dépense,autres_charges,278.52,9\r
+dépense,autres_charges,100.96,9\r
+dépense,autres_charges,297.84,9\r
+dépense,autres_charges,224.95,9\r
+dépense,autres_charges,165.56,9\r
+dépense,autres_charges,271.69,9\r
+dépense,autres_charges,262.5,9\r
+dépense,autres_charges,128.94,9\r
+dépense,déplacements,1007.26,9\r
+dépense,déplacements,1014.98,9\r
+dépense,déplacements,998.78,9\r
+dépense,déplacements,200.93,9\r
+dépense,déplacements,412.39,9\r
+dépense,déplacements,1061.61,9\r
+dépense,déplacements,259.74,9\r
+dépense,déplacements,559.45,9\r
+dépense,déplacements,300.98,9\r
+dépense,déplacements,1080.09,9\r
+dépense,déplacements,813.99,9\r
+dépense,déplacements,744.0,9\r
+dépense,déplacements,687.32,9\r
+dépense,déplacements,1244.92,9\r
+dépense,déplacements,223.16,9\r
+dépense,déplacements,975.85,9\r
+dépense,déplacements,688.55,9\r
+dépense,déplacements,515.03,9\r
+dépense,déplacements,1096.66,9\r
+dépense,déplacements,427.44,9\r
+dépense,déplacements,542.01,9\r
+dépense,fonctionnement,400.78,9\r
+dépense,fonctionnement,525.57,9\r
+dépense,fonctionnement,471.52,9\r
+dépense,fonctionnement,137.88,9\r
+dépense,fonctionnement,153.73,9\r
+dépense,fonctionnement,490.73,9\r
+dépense,fonctionnement,164.47,9\r
+dépense,fonctionnement,330.06,9\r
+dépense,fonctionnement,266.42,9\r
+dépense,fonctionnement,28.64,9\r
+dépense,fonctionnement,300.29,9\r
+dépense,fonctionnement,590.62,9\r
+dépense,fonctionnement,321.86,9\r
+dépense,fonctionnement,334.77,9\r
+dépense,fonctionnement,115.05,9\r
+dépense,fonctionnement,145.37,9\r
+dépense,fonctionnement,306.73,9\r
+dépense,fonctionnement,458.98,9\r
+dépense,fonctionnement,383.39,9\r
+dépense,fonctionnement,51.37,9\r
+dépense,fonctionnement,470.53,9\r
+dépense,fonctionnement,237.22,9\r
+dépense,fonctionnement,445.57,9\r
+dépense,fonctionnement,177.06,9\r
+dépense,fonctionnement,434.27,9\r
+dépense,fonctionnement,178.31,9\r
+dépense,salaires,2383.57,9\r
+dépense,salaires,1818.89,9\r
+dépense,salaires,2131.9,9\r
+dépense,salaires,2122.23,9\r
+dépense,salaires,1978.38,9\r
+dépense,salaires,2396.45,9\r
+dépense,salaires,1953.41,9\r
+dépense,salaires,1907.45,9\r
+dépense,salaires,1650.57,9\r
+dépense,salaires,2396.04,9\r
+dépense,salaires,2077.8,9\r
+dépense,salaires,1985.67,9\r
+dépense,salaires,1758.5,9\r
+dépense,salaires,2203.37,9\r
+dépense,salaires,1790.61,9\r
+dépense,salaires,1704.65,9\r
+dépense,salaires,1500.2,9\r
+dépense,salaires,2369.92,9\r
+dépense,salaires,1916.7,9\r
+dépense,salaires,1953.92,9\r
+recette,billetterie,330.0,9\r
+recette,billetterie,190.0,9\r
+recette,billetterie,280.0,9\r
+recette,billetterie,230.0,9\r
+recette,billetterie,180.0,9\r
+recette,billetterie,80.0,9\r
+recette,billetterie,60.0,9\r
+recette,billetterie,330.0,9\r
+recette,billetterie,310.0,9\r
+recette,billetterie,310.0,9\r
+recette,billetterie,40.0,9\r
+recette,billetterie,150.0,9\r
+recette,billetterie,390.0,9\r
+recette,billetterie,50.0,9\r
+recette,billetterie,310.0,9\r
+recette,billetterie,220.0,9\r
+recette,billetterie,350.0,9\r
+recette,billetterie,230.0,9\r
+recette,billetterie,80.0,9\r
+recette,billetterie,220.0,9\r
+recette,billetterie,310.0,9\r
+recette,billetterie,340.0,9\r
+recette,billetterie,80.0,9\r
+recette,billetterie,210.0,9\r
+recette,billetterie,90.0,9\r
+recette,billetterie,140.0,9\r
+recette,billetterie,350.0,9\r
+recette,marketing,733.67,9\r
+recette,marketing,298.99,9\r
+recette,marketing,170.39,9\r
+recette,marketing,472.3,9\r
+recette,marketing,617.77,9\r
+recette,marketing,319.21,9\r
+recette,marketing,521.1,9\r
+recette,marketing,185.11,9\r
+recette,marketing,375.39,9\r
+recette,marketing,242.48,9\r
+recette,marketing,518.08,9\r
+recette,marketing,387.04,9\r
+recette,marketing,165.46,9\r
+recette,marketing,610.81,9\r
+recette,marketing,606.4,9\r
+recette,marketing,176.09,9\r
+recette,marketing,618.79,9\r
+recette,marketing,542.69,9\r
+recette,marketing,227.9,9\r
+recette,sponsoring,1500.0,9\r
+recette,sponsoring,900.0,9\r
+recette,sponsoring,1000.0,9\r
+recette,sponsoring,300.0,9\r
+recette,sponsoring,400.0,9\r
+recette,sponsoring,2500.0,9\r
+recette,sponsoring,2100.0,9\r
+recette,sponsoring,100.0,9\r
+recette,sponsoring,1600.0,9\r
+recette,sponsoring,800.0,9\r
+recette,sponsoring,2000.0,9\r
+recette,sponsoring,2000.0,9\r
+recette,sponsoring,1700.0,9\r
+recette,sponsoring,2300.0,9\r
+recette,sponsoring,700.0,9\r
+recette,sponsoring,1600.0,9\r
+recette,sponsoring,1100.0,9\r
+recette,sponsoring,1700.0,9\r
+recette,sponsoring,2000.0,9\r
+recette,sponsoring,900.0,9\r
+recette,sponsoring,2000.0,9\r
+dépense,autres_charges,100.88,10\r
+dépense,autres_charges,181.42,10\r
+dépense,autres_charges,306.2,10\r
+dépense,autres_charges,100.46,10\r
+dépense,autres_charges,269.61,10\r
+dépense,autres_charges,185.09,10\r
+dépense,autres_charges,137.81,10\r
+dépense,autres_charges,210.46,10\r
+dépense,autres_charges,196.41,10\r
+dépense,autres_charges,200.54,10\r
+dépense,autres_charges,119.06,10\r
+dépense,autres_charges,257.73,10\r
+dépense,autres_charges,100.53,10\r
+dépense,autres_charges,100.61,10\r
+dépense,autres_charges,303.54,10\r
+dépense,autres_charges,129.21,10\r
+dépense,autres_charges,111.21,10\r
+dépense,autres_charges,279.34,10\r
+dépense,autres_charges,282.32,10\r
+dépense,autres_charges,117.02,10\r
+dépense,autres_charges,261.53,10\r
+dépense,autres_charges,101.9,10\r
+dépense,autres_charges,100.54,10\r
+dépense,autres_charges,237.08,10\r
+dépense,autres_charges,157.45,10\r
+dépense,autres_charges,104.11,10\r
+dépense,autres_charges,291.12,10\r
+dépense,autres_charges,196.69,10\r
+dépense,autres_charges,297.26,10\r
+dépense,autres_charges,185.82,10\r
+dépense,autres_charges,348.64,10\r
+dépense,autres_charges,306.35,10\r
+dépense,autres_charges,209.82,10\r
+dépense,autres_charges,226.86,10\r
+dépense,autres_charges,199.97,10\r
+dépense,autres_charges,100.91,10\r
+dépense,autres_charges,331.22,10\r
+dépense,autres_charges,216.31,10\r
+dépense,autres_charges,159.89,10\r
+dépense,autres_charges,230.9,10\r
+dépense,autres_charges,181.44,10\r
+dépense,autres_charges,271.42,10\r
+dépense,autres_charges,152.73,10\r
+dépense,autres_charges,100.94,10\r
+dépense,déplacements,822.56,10\r
+dépense,déplacements,207.72,10\r
+dépense,déplacements,463.54,10\r
+dépense,déplacements,1111.21,10\r
+dépense,déplacements,424.74,10\r
+dépense,déplacements,802.36,10\r
+dépense,déplacements,545.53,10\r
+dépense,déplacements,200.36,10\r
+dépense,déplacements,729.14,10\r
+dépense,déplacements,383.56,10\r
+dépense,fonctionnement,53.9,10\r
+dépense,fonctionnement,87.08,10\r
+dépense,fonctionnement,52.09,10\r
+dépense,fonctionnement,299.3,10\r
+dépense,fonctionnement,169.12,10\r
+dépense,fonctionnement,219.05,10\r
+dépense,fonctionnement,312.55,10\r
+dépense,fonctionnement,244.86,10\r
+dépense,fonctionnement,257.69,10\r
+dépense,fonctionnement,512.56,10\r
+dépense,fonctionnement,555.38,10\r
+dépense,fonctionnement,297.43,10\r
+dépense,fonctionnement,288.07,10\r
+dépense,fonctionnement,121.44,10\r
+dépense,fonctionnement,324.12,10\r
+dépense,fonctionnement,450.32,10\r
+dépense,fonctionnement,466.67,10\r
+dépense,fonctionnement,256.62,10\r
+dépense,fonctionnement,549.64,10\r
+dépense,fonctionnement,49.85,10\r
+dépense,fonctionnement,157.59,10\r
+dépense,fonctionnement,315.64,10\r
+dépense,fonctionnement,478.06,10\r
+dépense,fonctionnement,412.3,10\r
+dépense,fonctionnement,126.66,10\r
+dépense,fonctionnement,353.28,10\r
+dépense,salaires,2383.57,10\r
+dépense,salaires,1818.89,10\r
+dépense,salaires,2131.9,10\r
+dépense,salaires,2122.23,10\r
+dépense,salaires,1978.38,10\r
+dépense,salaires,2396.45,10\r
+dépense,salaires,1953.41,10\r
+dépense,salaires,1907.45,10\r
+dépense,salaires,1650.57,10\r
+dépense,salaires,2396.04,10\r
+dépense,salaires,2077.8,10\r
+dépense,salaires,1985.67,10\r
+dépense,salaires,1758.5,10\r
+dépense,salaires,2203.37,10\r
+dépense,salaires,1790.61,10\r
+dépense,salaires,1704.65,10\r
+dépense,salaires,1500.2,10\r
+dépense,salaires,2369.92,10\r
+dépense,salaires,1916.7,10\r
+dépense,salaires,1953.92,10\r
+recette,billetterie,390.0,10\r
+recette,billetterie,240.0,10\r
+recette,billetterie,370.0,10\r
+recette,billetterie,90.0,10\r
+recette,billetterie,300.0,10\r
+recette,billetterie,230.0,10\r
+recette,billetterie,290.0,10\r
+recette,billetterie,140.0,10\r
+recette,billetterie,60.0,10\r
+recette,billetterie,290.0,10\r
+recette,billetterie,340.0,10\r
+recette,billetterie,70.0,10\r
+recette,billetterie,230.0,10\r
+recette,billetterie,310.0,10\r
+recette,billetterie,210.0,10\r
+recette,billetterie,120.0,10\r
+recette,billetterie,160.0,10\r
+recette,billetterie,260.0,10\r
+recette,billetterie,320.0,10\r
+recette,billetterie,360.0,10\r
+recette,billetterie,340.0,10\r
+recette,billetterie,390.0,10\r
+recette,billetterie,330.0,10\r
+recette,billetterie,110.0,10\r
+recette,billetterie,100.0,10\r
+recette,billetterie,50.0,10\r
+recette,billetterie,90.0,10\r
+recette,billetterie,120.0,10\r
+recette,billetterie,220.0,10\r
+recette,billetterie,300.0,10\r
+recette,billetterie,280.0,10\r
+recette,billetterie,330.0,10\r
+recette,marketing,597.11,10\r
+recette,marketing,666.58,10\r
+recette,marketing,234.54,10\r
+recette,marketing,660.51,10\r
+recette,marketing,536.17,10\r
+recette,marketing,107.42,10\r
+recette,marketing,124.46,10\r
+recette,marketing,227.09,10\r
+recette,marketing,123.87,10\r
+recette,marketing,743.41,10\r
+recette,marketing,611.97,10\r
+recette,marketing,442.12,10\r
+recette,marketing,357.14,10\r
+recette,marketing,207.74,10\r
+recette,marketing,748.57,10\r
+recette,marketing,747.93,10\r
+recette,marketing,761.21,10\r
+recette,sponsoring,2300.0,10\r
+recette,sponsoring,200.0,10\r
+recette,sponsoring,1400.0,10\r
+recette,sponsoring,1200.0,10\r
+recette,sponsoring,800.0,10\r
+recette,sponsoring,1300.0,10\r
+recette,sponsoring,300.0,10\r
+recette,sponsoring,1500.0,10\r
+recette,sponsoring,800.0,10\r
+recette,sponsoring,400.0,10\r
+recette,sponsoring,2000.0,10\r
+recette,subventions,36100.0,10\r
+dépense,autres_charges,290.51,11\r
+dépense,autres_charges,300.91,11\r
+dépense,autres_charges,158.93,11\r
+dépense,autres_charges,250.23,11\r
+dépense,autres_charges,130.3,11\r
+dépense,autres_charges,100.86,11\r
+dépense,autres_charges,100.92,11\r
+dépense,autres_charges,143.79,11\r
+dépense,autres_charges,206.11,11\r
+dépense,autres_charges,162.32,11\r
+dépense,autres_charges,203.68,11\r
+dépense,autres_charges,294.13,11\r
+dépense,autres_charges,328.02,11\r
+dépense,autres_charges,158.75,11\r
+dépense,autres_charges,141.82,11\r
+dépense,autres_charges,318.57,11\r
+dépense,autres_charges,201.01,11\r
+dépense,autres_charges,222.91,11\r
+dépense,autres_charges,100.52,11\r
+dépense,autres_charges,224.04,11\r
+dépense,autres_charges,166.9,11\r
+dépense,autres_charges,314.4,11\r
+dépense,autres_charges,126.23,11\r
+dépense,autres_charges,150.71,11\r
+dépense,autres_charges,241.49,11\r
+dépense,autres_charges,100.04,11\r
+dépense,autres_charges,224.81,11\r
+dépense,autres_charges,330.23,11\r
+dépense,autres_charges,193.28,11\r
+dépense,déplacements,955.98,11\r
+dépense,déplacements,546.93,11\r
+dépense,déplacements,851.65,11\r
+dépense,déplacements,1081.89,11\r
+dépense,déplacements,587.9,11\r
+dépense,déplacements,559.33,11\r
+dépense,déplacements,737.64,11\r
+dépense,déplacements,1168.87,11\r
+dépense,déplacements,311.68,11\r
+dépense,déplacements,376.31,11\r
+dépense,déplacements,277.65,11\r
+dépense,déplacements,417.09,11\r
+dépense,déplacements,664.95,11\r
+dépense,déplacements,310.18,11\r
+dépense,déplacements,331.22,11\r
+dépense,déplacements,580.76,11\r
+dépense,déplacements,937.02,11\r
+dépense,déplacements,200.63,11\r
+dépense,fonctionnement,244.82,11\r
+dépense,fonctionnement,417.58,11\r
+dépense,fonctionnement,370.98,11\r
+dépense,fonctionnement,579.43,11\r
+dépense,fonctionnement,262.29,11\r
+dépense,fonctionnement,517.23,11\r
+dépense,fonctionnement,280.51,11\r
+dépense,fonctionnement,76.76,11\r
+dépense,fonctionnement,327.82,11\r
+dépense,fonctionnement,335.51,11\r
+dépense,fonctionnement,84.32,11\r
+dépense,fonctionnement,311.07,11\r
+dépense,fonctionnement,152.02,11\r
+dépense,fonctionnement,131.24,11\r
+dépense,fonctionnement,460.59,11\r
+dépense,fonctionnement,185.14,11\r
+dépense,fonctionnement,367.06,11\r
+dépense,fonctionnement,572.01,11\r
+dépense,fonctionnement,302.69,11\r
+dépense,fonctionnement,403.12,11\r
+dépense,fonctionnement,570.52,11\r
+dépense,fonctionnement,304.07,11\r
+dépense,fonctionnement,46.86,11\r
+dépense,fonctionnement,174.0,11\r
+dépense,fonctionnement,215.01,11\r
+dépense,fonctionnement,419.81,11\r
+dépense,fonctionnement,430.77,11\r
+dépense,fonctionnement,332.68,11\r
+dépense,fonctionnement,58.63,11\r
+dépense,salaires,2383.57,11\r
+dépense,salaires,1818.89,11\r
+dépense,salaires,2131.9,11\r
+dépense,salaires,2122.23,11\r
+dépense,salaires,1978.38,11\r
+dépense,salaires,2396.45,11\r
+dépense,salaires,1953.41,11\r
+dépense,salaires,1907.45,11\r
+dépense,salaires,1650.57,11\r
+dépense,salaires,2396.04,11\r
+dépense,salaires,2077.8,11\r
+dépense,salaires,1985.67,11\r
+dépense,salaires,1758.5,11\r
+dépense,salaires,2203.37,11\r
+dépense,salaires,1790.61,11\r
+dépense,salaires,1704.65,11\r
+dépense,salaires,1500.2,11\r
+dépense,salaires,2369.92,11\r
+dépense,salaires,1916.7,11\r
+dépense,salaires,1953.92,11\r
+recette,billetterie,160.0,11\r
+recette,billetterie,100.0,11\r
+recette,billetterie,130.0,11\r
+recette,billetterie,310.0,11\r
+recette,billetterie,370.0,11\r
+recette,billetterie,230.0,11\r
+recette,billetterie,220.0,11\r
+recette,billetterie,100.0,11\r
+recette,billetterie,230.0,11\r
+recette,billetterie,310.0,11\r
+recette,billetterie,280.0,11\r
+recette,billetterie,360.0,11\r
+recette,billetterie,130.0,11\r
+recette,billetterie,70.0,11\r
+recette,billetterie,280.0,11\r
+recette,billetterie,110.0,11\r
+recette,billetterie,210.0,11\r
+recette,billetterie,380.0,11\r
+recette,billetterie,80.0,11\r
+recette,billetterie,280.0,11\r
+recette,billetterie,240.0,11\r
+recette,billetterie,290.0,11\r
+recette,billetterie,290.0,11\r
+recette,billetterie,130.0,11\r
+recette,billetterie,360.0,11\r
+recette,billetterie,90.0,11\r
+recette,billetterie,210.0,11\r
+recette,billetterie,250.0,11\r
+recette,billetterie,260.0,11\r
+recette,billetterie,270.0,11\r
+recette,billetterie,380.0,11\r
+recette,billetterie,140.0,11\r
+recette,billetterie,110.0,11\r
+recette,billetterie,30.0,11\r
+recette,billetterie,230.0,11\r
+recette,billetterie,120.0,11\r
+recette,marketing,619.9,11\r
+recette,marketing,480.54,11\r
+recette,marketing,176.2,11\r
+recette,marketing,645.8,11\r
+recette,marketing,264.96,11\r
+recette,marketing,766.27,11\r
+recette,marketing,473.04,11\r
+recette,marketing,716.0,11\r
+recette,marketing,340.81,11\r
+recette,marketing,588.27,11\r
+recette,marketing,461.8,11\r
+recette,marketing,707.26,11\r
+recette,marketing,751.43,11\r
+recette,sponsoring,900.0,11\r
+recette,sponsoring,1900.0,11\r
+recette,sponsoring,500.0,11\r
+recette,sponsoring,2200.0,11\r
+recette,sponsoring,1300.0,11\r
+recette,sponsoring,500.0,11\r
+recette,sponsoring,600.0,11\r
+recette,sponsoring,1500.0,11\r
+recette,sponsoring,700.0,11\r
+recette,sponsoring,1100.0,11\r
+recette,sponsoring,1800.0,11\r
+recette,sponsoring,300.0,11\r
+recette,sponsoring,1100.0,11\r
+recette,sponsoring,300.0,11\r
+recette,sponsoring,2000.0,11\r
+recette,subventions,49600.0,11\r
+recette,subventions,65800.0,11\r
+recette,subventions,88400.0,11\r
+dépense,autres_charges,246.89,12\r
+dépense,autres_charges,268.42,12\r
+dépense,autres_charges,213.95,12\r
+dépense,autres_charges,103.59,12\r
+dépense,autres_charges,134.95,12\r
+dépense,autres_charges,153.3,12\r
+dépense,autres_charges,310.09,12\r
+dépense,autres_charges,103.42,12\r
+dépense,autres_charges,286.02,12\r
+dépense,autres_charges,100.32,12\r
+dépense,autres_charges,173.96,12\r
+dépense,autres_charges,261.6,12\r
+dépense,autres_charges,125.78,12\r
+dépense,autres_charges,141.17,12\r
+dépense,autres_charges,100.92,12\r
+dépense,autres_charges,123.46,12\r
+dépense,autres_charges,216.05,12\r
+dépense,autres_charges,147.02,12\r
+dépense,autres_charges,192.74,12\r
+dépense,autres_charges,100.45,12\r
+dépense,autres_charges,118.58,12\r
+dépense,autres_charges,241.88,12\r
+dépense,autres_charges,276.09,12\r
+dépense,autres_charges,142.34,12\r
+dépense,autres_charges,100.84,12\r
+dépense,autres_charges,228.2,12\r
+dépense,déplacements,508.43,12\r
+dépense,déplacements,469.34,12\r
+dépense,déplacements,203.33,12\r
+dépense,déplacements,264.56,12\r
+dépense,déplacements,1183.32,12\r
+dépense,déplacements,285.74,12\r
+dépense,déplacements,310.4,12\r
+dépense,déplacements,200.16,12\r
+dépense,déplacements,785.77,12\r
+dépense,déplacements,806.4,12\r
+dépense,déplacements,200.51,12\r
+dépense,déplacements,835.29,12\r
+dépense,déplacements,730.52,12\r
+dépense,déplacements,272.55,12\r
+dépense,déplacements,913.77,12\r
+dépense,déplacements,1079.69,12\r
+dépense,déplacements,1038.24,12\r
+dépense,fonctionnement,295.44,12\r
+dépense,fonctionnement,423.84,12\r
+dépense,fonctionnement,395.08,12\r
+dépense,fonctionnement,185.24,12\r
+dépense,fonctionnement,448.13,12\r
+dépense,fonctionnement,48.95,12\r
+dépense,fonctionnement,133.33,12\r
+dépense,fonctionnement,394.44,12\r
+dépense,fonctionnement,361.68,12\r
+dépense,fonctionnement,198.83,12\r
+dépense,fonctionnement,360.93,12\r
+dépense,fonctionnement,74.19,12\r
+dépense,fonctionnement,426.58,12\r
+dépense,fonctionnement,242.4,12\r
+dépense,fonctionnement,557.92,12\r
+dépense,fonctionnement,303.86,12\r
+dépense,fonctionnement,248.44,12\r
+dépense,fonctionnement,289.09,12\r
+dépense,fonctionnement,552.16,12\r
+dépense,fonctionnement,340.23,12\r
+dépense,fonctionnement,446.57,12\r
+dépense,fonctionnement,68.31,12\r
+dépense,fonctionnement,406.72,12\r
+dépense,fonctionnement,584.01,12\r
+dépense,fonctionnement,363.82,12\r
+dépense,fonctionnement,555.6,12\r
+dépense,fonctionnement,306.31,12\r
+dépense,fonctionnement,523.09,12\r
+dépense,fonctionnement,209.95,12\r
+dépense,fonctionnement,247.41,12\r
+dépense,fonctionnement,186.02,12\r
+dépense,fonctionnement,10.68,12\r
+dépense,fonctionnement,94.03,12\r
+dépense,fonctionnement,123.56,12\r
+dépense,fonctionnement,289.62,12\r
+dépense,salaires,2383.57,12\r
+dépense,salaires,1818.89,12\r
+dépense,salaires,2131.9,12\r
+dépense,salaires,2122.23,12\r
+dépense,salaires,1978.38,12\r
+dépense,salaires,2396.45,12\r
+dépense,salaires,1953.41,12\r
+dépense,salaires,1907.45,12\r
+dépense,salaires,1650.57,12\r
+dépense,salaires,2396.04,12\r
+dépense,salaires,2077.8,12\r
+dépense,salaires,1985.67,12\r
+dépense,salaires,1758.5,12\r
+dépense,salaires,2203.37,12\r
+dépense,salaires,1790.61,12\r
+dépense,salaires,1704.65,12\r
+dépense,salaires,1500.2,12\r
+dépense,salaires,2369.92,12\r
+dépense,salaires,1916.7,12\r
+dépense,salaires,1953.92,12\r
+recette,billetterie,280.0,12\r
+recette,billetterie,70.0,12\r
+recette,billetterie,20.0,12\r
+recette,billetterie,10.0,12\r
+recette,billetterie,260.0,12\r
+recette,billetterie,140.0,12\r
+recette,billetterie,120.0,12\r
+recette,billetterie,190.0,12\r
+recette,billetterie,130.0,12\r
+recette,billetterie,210.0,12\r
+recette,billetterie,230.0,12\r
+recette,billetterie,230.0,12\r
+recette,billetterie,80.0,12\r
+recette,billetterie,300.0,12\r
+recette,billetterie,120.0,12\r
+recette,billetterie,170.0,12\r
+recette,billetterie,70.0,12\r
+recette,billetterie,340.0,12\r
+recette,billetterie,320.0,12\r
+recette,billetterie,40.0,12\r
+recette,billetterie,240.0,12\r
+recette,billetterie,160.0,12\r
+recette,billetterie,360.0,12\r
+recette,billetterie,150.0,12\r
+recette,billetterie,190.0,12\r
+recette,billetterie,90.0,12\r
+recette,billetterie,330.0,12\r
+recette,billetterie,220.0,12\r
+recette,billetterie,110.0,12\r
+recette,billetterie,10.0,12\r
+recette,billetterie,300.0,12\r
+recette,billetterie,310.0,12\r
+recette,billetterie,130.0,12\r
+recette,billetterie,310.0,12\r
+recette,billetterie,100.0,12\r
+recette,billetterie,350.0,12\r
+recette,billetterie,180.0,12\r
+recette,billetterie,180.0,12\r
+recette,billetterie,110.0,12\r
+recette,billetterie,120.0,12\r
+recette,billetterie,50.0,12\r
+recette,billetterie,160.0,12\r
+recette,billetterie,280.0,12\r
+recette,marketing,368.2,12\r
+recette,marketing,211.97,12\r
+recette,marketing,253.99,12\r
+recette,marketing,502.54,12\r
+recette,marketing,163.53,12\r
+recette,marketing,134.0,12\r
+recette,marketing,100.71,12\r
+recette,marketing,266.56,12\r
+recette,marketing,608.67,12\r
+recette,marketing,366.72,12\r
+recette,marketing,227.41,12\r
+recette,marketing,544.91,12\r
+recette,marketing,119.77,12\r
+recette,marketing,100.33,12\r
+recette,marketing,401.7,12\r
+recette,marketing,287.82,12\r
+recette,marketing,663.98,12\r
+recette,marketing,685.12,12\r
+recette,marketing,380.27,12\r
+recette,sponsoring,400.0,12\r
+recette,sponsoring,1900.0,12\r
+recette,sponsoring,2400.0,12\r
+recette,sponsoring,1000.0,12\r
+recette,sponsoring,1300.0,12\r
+recette,sponsoring,1500.0,12\r
+recette,sponsoring,1400.0,12\r
+recette,sponsoring,200.0,12\r
+recette,sponsoring,2400.0,12\r
+recette,sponsoring,1900.0,12\r
+recette,sponsoring,2400.0,12\r
+recette,sponsoring,2500.0,12\r
+recette,sponsoring,700.0,12\r
+recette,sponsoring,1600.0,12\r
+recette,sponsoring,1300.0,12\r
+recette,sponsoring,800.0,12\r
+recette,sponsoring,1100.0,12\r
+recette,sponsoring,1000.0,12\r
+recette,sponsoring,2100.0,12\r
+recette,sponsoring,800.0,12\r
+recette,sponsoring,1700.0,12\r
+recette,sponsoring,1100.0,12\r
+recette,sponsoring,2000.0,12\r
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_17/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_17/sujet.pdf (26660 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_18`,path:`sujets/26_BCG_NSI_18`,children:[{type:`file`,name:`analyse_temperatures_polynesie.py`,path:`sujets/26_BCG_NSI_18/analyse_temperatures_polynesie.py`,language:`Python`,content:`# =================================================================================#
+# Données de test
+donnees_test = [
+    # Société - Données sur 2010 et 2020
+    {'date': '2010-01-15', 'zone': 'Societe', 'temperature': 27.0},
+    {'date': '2010-06-20', 'zone': 'Societe', 'temperature': 26.5},
+    {'date': '2011-03-10', 'zone': 'Societe', 'temperature': 27.5},
+    {'date': '2020-02-14', 'zone': 'Societe', 'temperature': 28.0},
+    {'date': '2020-08-22', 'zone': 'Societe', 'temperature': 28.5},
+    {'date': '2021-05-30', 'zone': 'Societe', 'temperature': 29.0},
+
+    # Tuamotu - Données sur 2010 et 2020
+    {'date': '2015-04-10', 'zone': 'Tuamotu', 'temperature': 26.8},
+    {'date': '2020-07-15', 'zone': 'Tuamotu', 'temperature': 27.5},
+    {'date': '2021-09-20', 'zone': 'Tuamotu', 'temperature': 28.0},
+
+    # Marquises - Données uniquement sur 2020
+    {'date': '2020-03-15', 'zone': 'Marquises', 'temperature': 25.5},
+    {'date': '2021-07-10', 'zone': 'Marquises', 'temperature': 26.0},
+    {'date': '2022-11-25', 'zone': 'Marquises', 'temperature': 26.5},
+]
+
+# =================================================================================#
+#  Question 1 : Ecrire le code de votre fonction température_moyenne
+
+
+# =================================================================================#
+#  Question 2 : Ecrire le code de votre fonction detection_anomalies
+
+
+# =================================================================================#
+# code de la fonction evolution_par_decennie à corriger dans la question 4:
+
+
+def evolution_par_decennie(zone, donnees):
+    """
+    Calcule l'évolution des températures moyennes par décennie pour une zone.
+
+    ATTENTION: Cette fonction contient un bug volontaire à détecter et corriger.
+
+    Arguments:
+        zone (str): Nom de l'archipel (ex: 'Societe', 'Tuamotu')
+        donnees (list): Liste de dictionnaires de relevés
+
+    Renvoie:
+        dict: Dictionnaire {décennie : température_moyenne}
+              ex: {2010: 27.5, 2020: 28.3}
+              Renvoie un dictionnaire vide si la zone n'existe pas
+    """
+    # Filtrage des relevés pour la zone
+    releves_zone = [r for r in donnees if r['zone'] == zone]
+
+    if len(releves_zone) == 0:
+        return {}
+
+    # Regroupement par décennie
+    temperatures_par_decennie = {}
+
+    for releve in releves_zone:
+        # Extraction de l'année de la date (format: 'YYYY-MM-DD')
+        annee = int(releve['date'].split('-')[0])
+
+        # Calcul de la décennie
+        decennie = (annee // 10)
+
+        if decennie not in temperatures_par_decennie:
+            temperatures_par_decennie[decennie] = []
+
+        temperatures_par_decennie[decennie].append(releve['temperature'])
+
+    # Calcul des moyennes
+    moyennes = {}
+    for decennie, temperatures in temperatures_par_decennie.items():
+        moyennes[decennie] = round(sum(temperatures) / len(temperatures), 2)
+
+    return moyennes
+
+
+# =================================================================================#
+#  Exercice 2.1 :
+"""
+Tests
+À compléter par le candidat dans le cadre de la question 3
+"""
+
+
+def test_zone_inexistante():
+    """
+    Test 1 : Tester une zone qui n'existe pas
+
+    À compléter:
+    1. Appeler evolution_par_decennie avec une zone inexistante
+    2. Vérifier que le résultat est un dictionnaire vide
+    """
+    pass  # à remplacer par le code du candidat
+
+
+def test_une_seule_decennie():
+    """
+    Test 2: Tester une zone avec données sur une seule décennie
+
+    À compléter:
+    1. Appeler evolution_par_decennie avec la zone appropriée
+    2. Vérifier que le résultat ne contient qu'une seule décennie (2020)
+    3. Vérifier la température moyenne
+    """
+    pass  # à remplacer par le code du candidat
+
+
+def test_plusieurs_decennies():
+    """
+    Test 3 : Tester une zone avec données sur plusieurs décennies
+
+    À compléter:
+    1. Appeler evolution_par_decennie avec la zone appropriée
+    2. Vérifier que le résultat contient bien les clés 2010 et 2020
+    3. Vérifier que les températures moyennes sont cohérentes
+    """
+    pass  # à remplacer par le code du candidat
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_18/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_18/sujet.pdf (27980 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_19`,path:`sujets/26_BCG_NSI_19`,children:[{type:`file`,name:`donnees.py`,path:`sujets/26_BCG_NSI_19/donnees.py`,language:`Python`,content:`reservoirs = [
+    {"nom": "Nuiavai", "capacite": 100000, "volume": 55000, "district": "Tepua"},
+    {"nom": "Farepape", "capacite": 120000, "volume": 45000, "district": "Fare"},
+    {"nom": "Vaipuna", "capacite": 80000, "volume": 60000, "district": "Hiva Oro"},
+    {"nom": "Vaihere", "capacite": 95000, "volume": 20000, "district": "Fare"},
+    {"nom": "Teanavai", "capacite": 110000, "volume": 90000, "district": "Avera"},
+    {"nom": "Matavai", "capacite": 70000, "volume": 25000, "district": "Tepua"},
+    {"nom": "Anaʻitea", "capacite": 85000, "volume": 30000, "district": "Hiva Oro"},
+    {"nom": "Faaroa", "capacite": 60000, "volume": 40000, "district": "Avera"},
+    {"nom": "Vaitiare", "capacite": 105000, "volume": 95000, "district": "Fare"},
+    {"nom": "Motuavai", "capacite": 90000, "volume": 10000, "district": "Tepua"}
+]
+`},{type:`file`,name:`gestion_eau.py`,path:`sujets/26_BCG_NSI_19/gestion_eau.py`,language:`Python`,content:`# ------------------------------------
+# gestion_eau.py
+# Programme de contrôle des réservoirs
+# ------------------------------------
+from donnees import reservoirs
+
+# Question 1 : écrire la fonction est_en_penurie
+
+
+def est_en_penurie(reservoirs, nom_reservoir):
+    pass
+
+# Question 2 : écrire la fonction volume_par_district
+
+
+def volume_par_district(reservoirs):
+    pass
+
+# Question 3
+
+
+def volume_moyen(reservoirs):
+    """
+    Renvoie le volume moyen d'eau disponible dans les réservoirs.
+    """
+    somme_totale = 0
+    for r in reservoirs:
+        somme_totale += r["volume"]
+    moyenne = somme_totale / (len(reservoirs)-1)
+    return moyenne
+
+# Question 4
+
+
+def liste_districts(reservoirs):
+    """
+    Renvoie la liste des districts présents dans les données.
+    """
+    liste = []
+    for r in reservoirs:
+        if (r["district"] not in liste):
+            liste.append(r["district"])
+    return liste
+
+
+def reservoirs_par_district(reservoirs):
+    """
+    Renvoie un dictionnaire associant chaque district à la liste
+    des réservoirs qui s’y trouvent.
+    """
+    liste_rpd = {}
+    for r in reservoirs:
+        district = r["district"]
+        if district not in liste_rpd:
+            liste_rpd[district] = []
+        liste_rpd[district].append(r)
+    return liste_rpd
+
+
+def districts_vulnerables(reservoirs):
+    pass
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_19/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_19/sujet.pdf (26456 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_20`,path:`sujets/26_BCG_NSI_20`,children:[{type:`file`,name:`code_empreinte.py`,path:`sujets/26_BCG_NSI_20/code_empreinte.py`,language:`Python`,content:`# Données d'émissions en gCO2e par unité
+EMISSIONS = {
+    'emails_simples': 4,       # par email
+    'emails_pj': 19,           # par email avec pièce jointe
+    'streaming_sd': 36,        # par heure
+    'streaming_hd': 100,       # par heure
+    'recherches': 7,           # par recherche
+    'stockage_cloud': 10       # par Go par mois
+}
+
+# Exemples d'utilisateurs pour les tests
+utilisateur1 = {
+    'emails_simples': 150,
+    'emails_pj': 20,
+    'streaming_sd': 10,
+    'streaming_hd': 25,
+    'recherches': 500,
+    'stockage_cloud': 15
+}
+
+utilisateur2 = {
+    'streaming_hd': 15,
+    'emails_simples': 100,
+    'recherches': 10
+}
+
+utilisateur3 = {
+    'emails_simples': 50,
+    'emails_pj': 5,
+    'streaming_sd': 30,
+    'streaming_hd': 5,
+    'recherches': 200,
+    'stockage_cloud': 5
+}
+
+utilisateur4 = {
+    'emails_simples': 100,
+    'recherches': 50
+}
+
+utilisateur5 = {
+    'emails_simples': 50,
+    'recherches': 100
+}
+
+utilisateur6 = {}
+
+#############################################################################
+# Écrire le code de la fonction calculer_empreinte de la question 1         #
+#############################################################################
+
+
+#############################################################################
+# Écrire le code de la fonction classer_par_impact de la question 2         #
+#############################################################################
+
+
+#############################################################################
+# Fonction fournie pour la question 3                                       #
+#############################################################################
+
+def comparer(u1, u2):
+    """Compare les émissions de deux utilisateurs pour toutes les activités.
+    Renvoie un dictionnaire avec, pour chaque activité, la différence des
+    émissions (émissions de l’utilisateur 2 moins celles de l’utilisateur 1).
+    Si une activité est absente chez un utilisateur, on considère que
+    son émission vaut 0."""
+    differences = {}
+    for activite in EMISSIONS:
+        quantite1 = 0
+        quantite2 = 0
+        if activite in u1:
+            quantite1 = u1[activite]
+        if activite in u2:
+            quantite2 = u2[activite]
+        emission1 = quantite1 * EMISSIONS[activite]
+        emission2 = quantite2 * EMISSIONS[activite]
+        differences[activite] = emission2 - emission1
+    return differences
+
+
+def test_comparer():
+    diff = comparer(utilisateur4, utilisateur5)
+    assert diff['emails_simples'] == -200  # (50-100) * 4
+    assert diff['recherches'] == 350     # (100-50) * 7
+    # Ajouter vos tests ci-dessous avec justifications
+
+
+#############################################################################
+# Fonction fournie pour la question 4                                       #
+#############################################################################
+def comparer_v2(u1, u2):
+    """Compare les émissions de deux utilisateurs pour toutes les activités.
+    Renvoie un dictionnaire avec, pour chaque activité, l'écart des émissions
+    sous forme de pourcentage, en proportion de la première émission."""
+    ecarts = {}
+    for activite in EMISSIONS:
+        quantite1 = 0
+        quantite2 = 0
+        if activite in u1:
+            quantite1 = u1[activite]
+        if activite in u2:
+            quantite2 = u2[activite]
+        emission1 = quantite1 * EMISSIONS[activite]
+        emission2 = quantite2 * EMISSIONS[activite]
+        ecarts[activite] = (emission2 - emission1)/emission1 * 100
+    return ecarts
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_20/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_20/sujet.pdf (32886 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_21`,path:`sujets/26_BCG_NSI_21`,children:[{type:`file`,name:`cartes.py`,path:`sujets/26_BCG_NSI_21/cartes.py`,language:`Python`,content:`import datetime
+
+
+def date_future(nb_jours):
+    """Renvoie la date située nb_jours après aujourd'hui"""
+    return datetime.date.today() + datetime.timedelta(days=nb_jours)
+
+
+# Variable contenant les délais en jours pour chaque niveau (index 0 à 4)
+DELAIS = [1, 3, 7, 15, 30]
+
+
+class Carte:
+
+    def __init__(self, question, reponse):
+        self.question = question
+        self.reponse = reponse
+        self.niveau = 0
+        # À la création, la carte est à réviser le jour même
+        self.date_prochaine = datetime.date.today()
+
+    def __repr__(self):
+        return f"<Carte: {self.question} (Niveau {self.niveau})>"
+
+    #############################################################################
+    # Écrire la méthode traiter_reponse(self, succes) de la question 1          #
+    #############################################################################
+
+
+# Des cartes et un paquet de cartes pour réaliser des tests
+c1 = Carte("Capitale de l'Italie ?", "Rome")
+c1.niveau = 2
+c1.date_prochaine = date_future(4)
+c2 = Carte("7 x 8 ?", "56")
+c2.date_prochaine = date_future(1)
+c3 = Carte("Symbole du Fer ?", "Fe")
+c3.date_prochaine = date_future(7)
+
+paquet = [c1, c2, c3]
+
+
+#############################################################################
+# Écrire la fonction extraire_cartes_du_jour de la question 2               #
+#############################################################################
+
+
+#############################################################################
+# Fonction défaillante à analyser et corriger pour la question 3            #
+#############################################################################
+
+def extraire_cartes_a_renforcer(paquet):
+    """
+    Parcourt le paquet et renvoie la liste des cartes ayant le 
+    niveau d'avancement le plus faible.
+    """
+    if len(paquet) == 0:
+        return []
+
+    niveau_min = paquet[0].niveau
+    a_renforcer = []
+
+    for carte in paquet:
+        if carte.niveau < niveau_min:
+            niveau_min = carte.niveau
+            a_renforcer.append(carte)
+        elif carte.niveau == niveau_min:
+            a_renforcer.append(carte)
+
+    return a_renforcer
+
+
+def test_renforcement():
+    # Création d'un paquet de test
+    c1 = Carte("Capitale de l'Italie ?", "Rome")
+    c1.niveau = 2
+
+    c2 = Carte("7 x 8 ?", "56")
+    c2.niveau = 1
+
+    c3 = Carte("Symbole du Fer ?", "Fe")
+    c3.niveau = 2
+
+    mon_paquet = [c1, c2, c3]
+
+    # Appel de la fonction défaillante
+    resultat = extraire_cartes_a_renforcer(mon_paquet)
+
+    print("Cartes à renforcer (celles ayant le niveau le plus bas) :")
+    print(resultat)
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_21/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_21/sujet.pdf (30426 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_22`,path:`sujets/26_BCG_NSI_22`,children:[{type:`file`,name:`ascii.py`,path:`sujets/26_BCG_NSI_22/ascii.py`,language:`Python`,content:`figure1 = [(0, 1, 0, 0, 1, 1, 0, 1),
+           (0, 0, 1, 0, 1, 1, 1, 0),
+           (0, 1, 0, 0, 1, 0, 0, 0),
+           (0, 1, 1, 0, 0, 0, 0, 1),
+           (0, 1, 1, 1, 0, 0, 1, 0),
+           (0, 1, 1, 0, 0, 0, 0, 1)]
+
+dict_ascii = {
+    0: "NUL", 1: "SOH", 2: "STX", 3: "ETX", 4: "EOT", 5: "ENQ", 6: "ACK", 7: "BEL",
+    8: "BS", 9: "HT", 10: "LF", 11: "VT", 12: "FF", 13: "CR", 14: "SO", 15: "SI",
+    16: "DLE", 17: "DC1", 18: "DC2", 19: "DC3", 20: "DC4", 21: "NAK", 22: "SYN", 23: "ETB",
+    24: "CAN", 25: "EM", 26: "SUB", 27: "ESC", 28: "FS", 29: "GS", 30: "RS", 31: "US",
+    32: " ", 33: "!", 34: "\\"", 35: "#", 36: "$", 37: "%", 38: "&", 39: "'",
+    40: "(", 41: ")", 42: "*", 43: "+", 44: ",", 45: "-", 46: ".", 47: "/",
+    48: "0", 49: "1", 50: "2", 51: "3", 52: "4", 53: "5", 54: "6", 55: "7",
+    56: "8", 57: "9", 58: ":", 59: ";", 60: "<", 61: "=", 62: ">", 63: "?",
+    64: "@", 65: "A", 66: "B", 67: "C", 68: "D", 69: "E", 70: "F", 71: "G",
+    72: "H", 73: "I", 74: "J", 75: "K", 76: "L", 77: "M", 78: "N", 79: "O",
+    80: "P", 81: "Q", 82: "R", 83: "S", 84: "T", 85: "U", 86: "V", 87: "W",
+    88: "X", 89: "Y", 90: "Z", 91: "[", 92: "\\\\", 93: "]", 94: "^", 95: "_",
+    96: "\`", 97: "a", 98: "b", 99: "c", 100: "d", 101: "e", 102: "f", 103: "g",
+    104: "h", 105: "i", 106: "j", 107: "k", 108: "l", 109: "m", 110: "n", 111: "o",
+    112: "p", 113: "q", 114: "r", 115: "s", 116: "t", 117: "u", 118: "v", 119: "w",
+    120: "x", 121: "y", 122: "z", 123: "{", 124: "|", 125: "}", 126: "~", 127: "DEL"
+}
+
+test1 = [84, 101, 115, 116, 32, 49, 32, 114, 101, 117, 115, 115, 105, 33]
+
+test2 = [84, 101, 115, 116, 32, 50, 32, 114, 101, 117, 115, 115, 105, 33]
+
+test3 = [84, 101, 115, 116, 32, 51, 32, 114, 233, 117, 115, 115, 105, 33]
+`},{type:`file`,name:`qrcode.py`,path:`sujets/26_BCG_NSI_22/qrcode.py`,language:`Python`,content:`import ascii
+
+#############################################################################
+# Question 1 et 2 : Écrire les codes des fonctions bin2dec et qrcode2dec
+#              Proposer un test de qrcode2dec
+#############################################################################
+
+
+# implémentation du QR Code de la figure 1:
+qrcode_fig1 = ascii.figure1
+
+
+#############################################################################
+# Question 3 : Fonctions dec2str et test_dec2str
+#############################################################################
+def dec2str(liste_dec):
+    """ entrée: liste d'entiers décimaux
+        sortie: chaine de caractère formée des caractères correspondant
+        de la table ascii """
+    table_ascii = ascii.dict_ascii
+    chaine = ""
+    for entier in liste_dec:
+        chaine += table_ascii[entier]
+    return chaine
+
+
+def test_dec2str():
+    """ Teste la fonction dec2str avec des données issues du module fourni """
+    tests = [ascii.test1, ascii.test2, ascii.test3]
+    for test in tests:
+        print(dec2str(test))
+
+
+def qrcode2str(qrcode):
+    return dec2str(qrcode2dec(qrcode))
+
+#############################################################################
+# Question 4 : Fonction str2qrcode déficiente
+#############################################################################
+
+
+def str2qrcode(message):
+    """
+    Convertit une chaine de caractères en liste de tuples binaires.
+    """
+    qrcode = []
+    table_inverse = {valeur: cle for cle, valeur in ascii.dict_ascii.items()}
+
+    for caractere in message:
+        entier = table_inverse.get(caractere, 63)
+        binaire_str = bin(entier)[2:]
+        ligne = tuple(int(bit) for bit in binaire_str)
+        qrcode.append(ligne)
+
+    return qrcode
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_22/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_22/sujet.pdf (127745 octets)]`}]},{type:`folder`,name:`26_BCG_NSI_23`,path:`sujets/26_BCG_NSI_23`,children:[{type:`file`,name:`analyse.py`,path:`sujets/26_BCG_NSI_23/analyse.py`,language:`Python`,content:`import matplotlib.pyplot as plt
+from transmission import Transmission
+
+# Extraction des données
+with open("data.txt", "r") as f:
+    trames = f.read().split("\\n")
+    trames.pop()  # La dernière ligne est vide, on la supprime
+
+# Création d'une liste de températures pour les transmissions valides
+transmissions = [Transmission(t) for t in trames]
+temperatures = [t.get_temperature() for t in transmissions if t.est_valide()]
+
+print(f"Nombre de trames reçues : {len(trames)}")
+print(f"Nombre de trames valides : {len(temperatures)}")
+
+# Affichage des températures
+plt.figure(figsize=(10, 5))
+plt.plot(temperatures, label="Température (°C)")
+plt.title("Évolution de la température")
+plt.xlabel("Mesures")
+plt.ylabel("Température (°C)")
+plt.legend()
+plt.grid(True)
+plt.show()
+`},{type:`file`,name:`data.txt`,path:`sujets/26_BCG_NSI_23/data.txt`,language:`Text`,content:`0010101011001000010010001100011000101101
+0010101010011111010010001010011000011001
+0010101011010101010010001010011000011101
+0010101001011110010010000111011000011111
+0010101000101110010010001000011000011011
+0010101000100001010010000101011000101001
+0010101011110100010010000011011000111100
+0010101010101100011010000001011000111010
+0010101001110101010010000001011000111110
+0010101011101111010001111111011000111100
+0010101010101111010001111101011001001011
+0010101000110110010001111101011000111010
+0010101011000000010001111011011000101011
+0010101001001001010001111001011000101101
+0010101001100000010001111001011000111000
+0010101000100011010001110111011000111110
+0010101011100110010001110111011000111110
+0010101001000110010001110110011000101101
+0010101000111000010001110011011000101101
+0010101011011111010001110100011000011111
+0010101000001011010001110100011000101111
+0010101011011101010001110010011000101011
+0010101001100011010001110010011000101011
+0010101011011111010001110000011000011101
+0010101010000111010001110000011000011001
+0010101000100100010001101110011000011001
+0010101010000111010001101110011000011001
+0010101010001111010001101100011000011111
+0010101011101110010001101100011000011011
+0010101001011100010001101101011000011001
+0010101011010001010001101011011000011001
+0010101000000101010001101011011000011001
+0010101011111010010001101011011000001000
+0010101011011000010001101011011000001000
+0010101011001001010001101011011000011001
+0010101010110100010001101011011000011001
+0010101010001011010001101011011000001000
+0010101001000100010001101011011000001000
+0010101000011101010001101000011000011001
+0010101001001001010001101000011000011101
+0010101010110011010001100111011000011101
+0010101001111100010001100111011000011101
+0010101010001111010001100111011000011101
+0010101000110010010001100111011000011101
+0010101011011110010001100111011000011001
+0010101011010101010001100111011000011101
+0010101000100110010001100111011000011101
+0010101001011101010001100111011000011101
+0010101011101011010001101001011000011011
+0010101011010001010001101000011000101001
+0010101000100001010001101011011000011001
+0010101000000001010001101100011000011111
+0010101010100110011001101110011000011001
+0010101001101001010001110010011000011011
+0010101011111111010001110100011000001010
+0010101001101110010001110111011000001110
+0010101010111100010001111011011000001110
+0010101001000111010001111111010110011000
+0010101001001010010010000010010110001111
+0010101010100100010010000101010110001101
+0010101010101001010010001010010101111001
+0010101001011001010010001110010101111011
+0010101010101100010010010011010101101010
+0010101011111111010010010111010101011000
+0010101001110001010010011101010101011000
+0010101000110010010010100000010101101110
+0010101000110110010010100100010101101000
+0010101010101100010010101001010101111011
+0010101000110111010010101011010101111101
+0010101010011101010010101101010101111101
+0010101001111000010010101111010110001011
+0010101010110111010010110010010110011010
+00101010000110010100111100110101100011111
+0010101000100010010010110111010110001011
+0010101010101101010010111001010110001101
+0010101011001000010010111100010101111101
+0010101011101001010010111110010101101110
+0010101011111101010011000011010101011110
+0010101011000000010011000101010101001011
+0010101000011101010011001010010101001011
+0010101010011001010011001010010101011010
+0010101000100101010011000111010101101100
+0010101010010100010011001000010101101100
+0010101011001110010011001000010101101100
+0010101000111101010011000111010101101100
+0010101000011011010011001010010101011010
+0010101010011111010011001000010101011000
+0010101001100101010011000101010101011010
+0010101011001011010011000101010101101110
+0010101010001110010011000011010101101010
+0010101011101000010011000011010101011010
+0010101010010101010011000011010101011010
+0010101001110101010011000101010101001111
+0010101000101111010011000101010101001111
+0010101010000001010011001000010101001001
+0010101010010011010011001000010100111000
+0010101001010110010011001000010100101001
+0010101010000010010011001010010100101011
+0010101011001011010011001000010100111100
+0010101010110001010011001000010101001001
+0010101011100100010011001011010101001001
+0010101001010101010011001000010101011000
+0010101001000110010011001000010101011100
+0010101011000101010011001000010101011000
+0010101001000101010011001000010101011100
+0010101001001111010011000110010101101110
+0010101001011100010011000011010101111011
+0010101000100001010010111110010110001011
+0010101011110001010010111001010110011100
+0010101010100000010010111001010110011000
+00101010100000100100101101110110001010
+0010101011110110010010110100011000001010
+0010101000011101010010110010011000011011
+0010101000011010011010101111011000101111
+0010101011111011010010101101011000111100
+0010101001110010010010101101011001001001
+0010101010000101010010101011011001001101
+0010101001100101010010101001011001011010
+0010101000000001010010100110011001011110
+0010101010111011010010100100011001101000
+0010101010010100010010100100011001101100
+0010101001011110010010100011011001101110
+0010101001011101010010100000011001111111
+0010101011111010010010011101011010001001
+0010101011110110010010011110011010011000
+00101010010000110100001111011011010011000
+0010101001000100010010011011011100001001
+0010101000001100010010011011011100001001
+0010101011101011010010011010011100001011
+0010101010011111010010011010011100001011
+0010101000111001010010010111011010011000
+0010101011101011010010010101011010011010
+0010101001010011010010010100011010001001
+0010101010010111010010010011011010001111
+0010101010100101010010010001011010011000
+0010101000001101010010010001011010011100
+0010101011111001010010001110011010011010
+0010101011101011010010001110011010011010
+0010101011101111010010001100011010011100
+0010101000111111010010001100011010011000
+0010101011011100010010001011011010011110
+0010101010010100010010001010011010011100
+0010101001110000010010001010011010011100
+0010101011000110010010000111011010011010
+0010101001011000010010001000011010011110
+0010101010110000010010000101011010011100
+0010101000101101010010000101011010011000
+0010101010111100010010000101011100001101
+0010101000111010010010000011011100001001
+0010101010101010010010000100011100001011
+0010101011010000010010000001011010011110
+0010101011000100010010000001011010011110
+0010101000100111010010000001011010011010
+0010101011110110010001111111011010011000
+0010101001110110010001111101011100001111
+0010101001001010010001111101011010011110
+0010101001010001010001111101011010011110
+0010101000001010010001111101011010011010
+0010101011011001010001111011011010011110
+0010101011010001010001111011011010011010
+0010101010110011010001111011011010011110
+0010101010111111010001111001011010011100
+0010101010001101010001111001011010011000
+0010101001000110010001111001011010011100
+0010101010000000010001110111011010001111
+0010101001111100010001110111011010001111
+0010101001111100010001110111011010001111
+0010101011000100010001110111011010001111
+0010101000111010010001110111011010001011
+0010101000101011010001110110011010011000
+0010101000101100010001110110011010011100
+0010101001000001010001110110011010011000
+0010101011111011010001110110011010011100
+0010101010111110010001110011011010011000
+0010101011010111010001110100011010011010
+0010101011100110010001110100011010011110
+0010101000000111010001110100011010011110
+0010101001011100010001110100011010011010
+0010101010001011010001110100011010011010
+0010101001101011010001110110011010011100
+0010101010110000010001110111011010011110
+0010101001101110010001110111011010001111
+0010101001010001010001111001011010011100
+0010101000100010010001111011011010011010
+0010101001110011010001111110011010001111
+0010101010000100010010000001011010001011
+0010101011100001010010000101011010001001
+0010101010000001010010000111011001111011
+0010101011011010010010001100011001111101
+0010101011100100010010001110011001101010
+0010101001110001010010010011011001011010
+0010101011110101010010010101011000111010
+0010101001100100010010011010011000111110
+0010101001111111010010011011011000101101
+0010101000111111010010011111011000011011
+0010101011100101010010100011011000011111
+0010101000101001010010100100011000011101
+0010101001011000010010101001011000001110
+0010101010110101010010101101011000001100
+0010101010010010010010110010010110011110
+0010101011111010010010110011010110001001
+0010101010011110010010111001010110001101
+0010101010001111010010111100010101101100
+0010101001010001010010111110010110001111
+0010101000110001010011000011010110011110
+0010101010010010010011000011011000011111
+0010101010011100010011000101011000011011
+0010101011010001010011000101011000101011
+0010101001111011010011000101011000101011
+0010101010010111010011001000011000011101
+0010101010100000010011001010011000011011
+0010101001010000010011001111011000001010
+0010101001111111010011010010011000001110
+0010101011010101010011010001011000001110
+0010101010011010010011010100010110011010
+0010101011011101010011010111010110011010
+0010101001100001010011011001010110001101
+0010101000101010010011011001010110001101
+0010101011110111010011011010010101111101
+0010101011111001010011011010010110001001
+0010101011111010010011010111010110001011
+0010101000100010010011010100010101111011
+0010101010001111010011010100010101101110
+0010101000011011010011010001010101011010
+0010101011111011010011010010010101101110
+0010101011111100010011010010010101111011
+0010101010100110010011001111010101111011
+0010101011100111010011001101010110001001
+0010101011001000010011001010010110011110
+0010101001000111010011001011011000001000
+0010101010000001010011001101010110011000
+0010101000001110010011001101010110001101
+0010101011011010010011001101010110001101
+0010101010100110010011001101010110001001
+0010101000011001010011001101010110001101
+0010101001100011010011001101011000001000
+0010101011011100010011001101010110001101
+0010101000011110010011001010010110001011
+0010101001001010010011001000010110001101
+0010101001010001010011000011010110011110
+0010101000101111010010111110011000011111
+0010101001110101010010111100011000011101
+0010101011000011010010110111011000101011
+0010101000011111010010110100011000111110
+0010101001000010010010101111011001001011
+0010101010011010010010101101011001011000
+0010101010000000010010101011011001101100
+0010101011000011010010101001011001101010
+0010101011111110010010100110011001111111
+0010101011100110010010100100011001111101
+0010101001100001010010100100011010001101
+0010101010101001010010100011011010001011
+0010101001110000010010100000011010001111
+0010101011000001010010100000011010011110
+0010101010001001001001100110011010011110
+0010101011010010010010011110011010011000
+0010101011100111010010011011011100001001
+0010101011110111010010011011011100011100
+0010101011111011010010011100011100011110
+0010101011000010010010011010011100011110
+0010101001010110010010011010011100001011
+0010101010100111010010010111011100001101
+0010101001001101010010011000011100001001
+0010101001110011010010010101011100001111
+0010101011001100010010010011011100001011
+0010101010100100010010010011011100001111
+0010101001101101010010010001011100001101
+0010101011110000010010001110011100001011
+0010101001000000010010001111011100001101
+0010101000110100010010001100011100001101
+0010101011110111010010001100011100011100
+0010101011101011010010001100011100011000
+0010101000010111010010001010011100011000
+0010101010111011010010001010011100011000
+0010101000110110010010001000011100011010
+0010101000111111010010001000011100011010
+0010101010010111010010001000011100011110
+0010101011100001010010000101011100011000
+0010101001100111010010000101011100101100
+0010101010110111010010000100011100101010
+0010101000100111010010000001011100101010
+0010101010101100010010000001011100101010
+0010101001000000010001111111011100101100
+0010101001010001010001111111011100101100
+0010101000011010010001111101011100111111
+0010101010000000010001111100011100101100
+0010101000101010010001111011011100101110
+0010101000010010010001111011011100111011
+0010101011010000010001111001011100101100
+0010101000110001010001111001011100101100
+0010101011100111010001111001011100101000
+0010101010010111010001111001011100101100
+0010101000001001010001110111011100101010
+0010101000100110010001110111011100101110
+0010101010010100010001110111011100101110
+0010101000000010010001110110011100101100
+0010101000100010010001110110011100101000
+0010101001100100010001110110011100101100
+0010101011010100010001110110011100101000
+0010101000101000010001110110011100101000
+0010101010111010010001110100011100101110
+0010101001101011010001110100011100101110
+0010101011011011010001110010011100111011
+0010101010110111010001110010011100101010
+0010101001100100010001110010011100101110
+0010101001001101010001110000011100111001
+0010101011001001010001110000011100101000
+0010101000011001010001110000011100101100
+0010101000110011010001110010011100101010
+0010101000111011010001110010011100011110
+0010101000100010010001110100011100011010
+0010101000111111010001110100011100011010
+0010101010011101010001110110011100001101
+0010101001011000010001110111011100001111
+`},{type:`file`,name:`sujet.pdf`,path:`sujets/26_BCG_NSI_23/sujet.pdf`,language:`Text`,content:`[Fichier binaire non affichable dans l'explorateur: sujets/26_BCG_NSI_23/sujet.pdf (30379 octets)]`},{type:`file`,name:`transmission.py`,path:`sujets/26_BCG_NSI_23/transmission.py`,language:`Python`,content:`class Transmission:
+
+    def __init__(self, trame):
+        self._id = None
+        self._temperature = None
+        self._humidite = None
+        self._trame = trame
+
+        self.decoder()
+
+    def __repr__(self):
+        """ Méthode permettant l'affichage """
+        return f"ID : {self._id} / Temp. : {self._temperature}°C / Hum. : {self._humidite}%"
+
+    def decoder(self):
+        self.decoder_id()
+        self.decoder_temperature()
+        self.decoder_humidite()
+
+    def decoder_id(self):
+        # int(s, 2) : conversion binaire -> décimal
+        self._id = int(self._trame[0:8], 2)
+
+    def decoder_temperature(self):
+        pass  # À compléter
+
+    def decoder_humidite(self):
+        pass  # À compléter
+
+    def get_id(self):
+        return self._id
+
+    def get_temperature(self):
+        return self._temperature
+
+    def get_humidite(self):
+        return self._humidite
+
+    def est_valide(self):
+        return False  # À compléter
+`}]},{type:`file`,name:`README.md`,path:`sujets/README.md`,language:`Markdown`,content:`# Sujets
+Sujets conseillés :
+- [4](./26_BCG_NSI_4)
+- [7](./26_BCG_NSI_7)
+- [8](./26_BCG_NSI_8)
+- [10](./26_BCG_NSI_10)
+- [12](./26_BCG_NSI_12) ✅
+- [13](./26_BCG_NSI_13)
+- [17](./26_BCG_NSI_17)
+- [19](./26_BCG_NSI_19)
+- [23](./26_BCG_NSI_23)
+
+> [!note]
+> Pour trouver les sujets vierges, revenir à [4b39964](https://github.com/mokotanin/not-so-informatic/tree/4b3996450b515b78279a63528b5e6796c6e63642/sujets)
 `}]},{type:`folder`,name:`tle-séance 01`,path:`tle-séance 01`,children:[{type:`folder`,name:`chipeur`,path:`tle-séance 01/chipeur`,children:[{type:`file`,name:`bri.py`,path:`tle-séance 01/chipeur/bri.py`,language:`Python`,content:`def defiler(f):
     if f[2] == 0:
         print("La file est vide")
@@ -50766,7 +58809,7 @@ export default defineConfig(({ mode }) => ({
 `}];function so(e,t=[]){return e.flatMap(e=>{let n={...e,ancestors:t};return e.type===`folder`?[n,...so(e.children,[...t,e])]:[n]})}var $=i(e(((e,t)=>{function n(e){return e instanceof Map?e.clear=e.delete=e.set=function(){throw Error(`map is read-only`)}:e instanceof Set&&(e.add=e.clear=e.delete=function(){throw Error(`set is read-only`)}),Object.freeze(e),Object.getOwnPropertyNames(e).forEach(t=>{let r=e[t],i=typeof r;(i===`object`||i===`function`)&&!Object.isFrozen(r)&&n(r)}),e}var r=class{constructor(e){e.data===void 0&&(e.data={}),this.data=e.data,this.isMatchIgnored=!1}ignoreMatch(){this.isMatchIgnored=!0}};function i(e){return e.replace(/&/g,`&amp;`).replace(/</g,`&lt;`).replace(/>/g,`&gt;`).replace(/"/g,`&quot;`).replace(/'/g,`&#x27;`)}function a(e,...t){let n=Object.create(null);for(let t in e)n[t]=e[t];return t.forEach(function(e){for(let t in e)n[t]=e[t]}),n}var o=`</span>`,s=e=>!!e.scope,c=(e,{prefix:t})=>{if(e.startsWith(`language:`))return e.replace(`language:`,`language-`);if(e.includes(`.`)){let n=e.split(`.`);return[`${t}${n.shift()}`,...n.map((e,t)=>`${e}${`_`.repeat(t+1)}`)].join(` `)}return`${t}${e}`},l=class{constructor(e,t){this.buffer=``,this.classPrefix=t.classPrefix,e.walk(this)}addText(e){this.buffer+=i(e)}openNode(e){if(!s(e))return;let t=c(e.scope,{prefix:this.classPrefix});this.span(t)}closeNode(e){s(e)&&(this.buffer+=o)}value(){return this.buffer}span(e){this.buffer+=`<span class="${e}">`}},u=(e={})=>{let t={children:[]};return Object.assign(t,e),t},d=class e{constructor(){this.rootNode=u(),this.stack=[this.rootNode]}get top(){return this.stack[this.stack.length-1]}get root(){return this.rootNode}add(e){this.top.children.push(e)}openNode(e){let t=u({scope:e});this.add(t),this.stack.push(t)}closeNode(){if(this.stack.length>1)return this.stack.pop()}closeAllNodes(){for(;this.closeNode(););}toJSON(){return JSON.stringify(this.rootNode,null,4)}walk(e){return this.constructor._walk(e,this.rootNode)}static _walk(e,t){return typeof t==`string`?e.addText(t):t.children&&(e.openNode(t),t.children.forEach(t=>this._walk(e,t)),e.closeNode(t)),e}static _collapse(t){typeof t!=`string`&&t.children&&(t.children.every(e=>typeof e==`string`)?t.children=[t.children.join(``)]:t.children.forEach(t=>{e._collapse(t)}))}},f=class extends d{constructor(e){super(),this.options=e}addText(e){e!==``&&this.add(e)}startScope(e){this.openNode(e)}endScope(){this.closeNode()}__addSublanguage(e,t){let n=e.root;t&&(n.scope=`language:${t}`),this.add(n)}toHTML(){return new l(this,this.options).value()}finalize(){return this.closeAllNodes(),!0}};function p(e){return e?typeof e==`string`?e:e.source:null}function m(e){return _(`(?=`,e,`)`)}function h(e){return _(`(?:`,e,`)*`)}function g(e){return _(`(?:`,e,`)?`)}function _(...e){return e.map(e=>p(e)).join(``)}function v(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function y(...e){return`(`+(v(e).capture?``:`?:`)+e.map(e=>p(e)).join(`|`)+`)`}function b(e){return RegExp(e.toString()+`|`).exec(``).length-1}function x(e,t){let n=e&&e.exec(t);return n&&n.index===0}var S=new RegExp(y(/\[(?:[^\\\]]|\\.)*\]/,/\(\?<(?![=!])[^>]+>/,/\(\?'[^']+'/,/\(\??/,/\\([1-9][0-9]*)/,/\\./));function C(e,{joinWith:t}){let n=0;return e.map(e=>{n+=1;let t=n,r=p(e),i=``;for(;r.length>0;){let e=S.exec(r);if(!e){i+=r;break}i+=r.substring(0,e.index),r=r.substring(e.index+e[0].length),e[0][0]===`\\`&&e[1]?i+=`\\`+String(Number(e[1])+t):(i+=e[0],(e[0]===`(`||/^\(\?[<']/.test(e[0]))&&n++)}return i}).map(e=>`(${e})`).join(t)}var w=/\b\B/,T=`[a-zA-Z]\\w*`,E=`[a-zA-Z_]\\w*`,D=`\\b\\d+(\\.\\d+)?`,O=`(-?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)`,k=`\\b(0b[01]+)`,A=`!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|<<|<<=|<=|<|===|==|=|>>>=|>>=|>=|>>>|>>|>|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~`,j=(e={})=>{let t=/^#![ ]*\//;return e.binary&&(e.begin=_(t,/.*\b/,e.binary,/\b.*/)),a({scope:`meta`,begin:t,end:/$/,relevance:0,"on:begin":(e,t)=>{e.index!==0&&t.ignoreMatch()}},e)},M={begin:`\\\\[\\s\\S]`,relevance:0},N={scope:`string`,begin:`'`,end:`'`,illegal:`\\n`,contains:[M]},P={scope:`string`,begin:`"`,end:`"`,illegal:`\\n`,contains:[M]},F={begin:/\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/},I=function(e,t,n={}){let r=a({scope:`comment`,begin:e,end:t,contains:[]},n);r.contains.push({scope:`doctag`,begin:`[ ]*(?=(TODO|FIXME|NOTE|BUG|OPTIMIZE|HACK|XXX):)`,end:/(TODO|FIXME|NOTE|BUG|OPTIMIZE|HACK|XXX):/,excludeBegin:!0,relevance:0});let i=y(`I`,`a`,`is`,`so`,`us`,`to`,`at`,`if`,`in`,`it`,`on`,/[A-Za-z]+['](d|ve|re|ll|t|s|n)/,/[A-Za-z]+[-][a-z]+/,/[A-Za-z][a-z]{2,}/);return r.contains.push({begin:_(/[ ]+/,`(`,i,/[.]?[:]?([.][ ]|[ ])/,`){3}`)}),r},L=I(`//`,`$`),R=I(`/\\*`,`\\*/`),z=I(`#`,`$`),B=Object.freeze({__proto__:null,APOS_STRING_MODE:N,BACKSLASH_ESCAPE:M,BINARY_NUMBER_MODE:{scope:`number`,begin:k,relevance:0},BINARY_NUMBER_RE:k,COMMENT:I,C_BLOCK_COMMENT_MODE:R,C_LINE_COMMENT_MODE:L,C_NUMBER_MODE:{scope:`number`,begin:O,relevance:0},C_NUMBER_RE:O,END_SAME_AS_BEGIN:function(e){return Object.assign(e,{"on:begin":(e,t)=>{t.data._beginMatch=e[1]},"on:end":(e,t)=>{t.data._beginMatch!==e[1]&&t.ignoreMatch()}})},HASH_COMMENT_MODE:z,IDENT_RE:T,MATCH_NOTHING_RE:w,METHOD_GUARD:{begin:`\\.\\s*[a-zA-Z_]\\w*`,relevance:0},NUMBER_MODE:{scope:`number`,begin:D,relevance:0},NUMBER_RE:D,PHRASAL_WORDS_MODE:F,QUOTE_STRING_MODE:P,REGEXP_MODE:{scope:`regexp`,begin:/\/(?=[^/\n]*\/)/,end:/\/[gimuy]*/,contains:[M,{begin:/\[/,end:/\]/,relevance:0,contains:[M]}]},RE_STARTERS_RE:A,SHEBANG:j,TITLE_MODE:{scope:`title`,begin:T,relevance:0},UNDERSCORE_IDENT_RE:E,UNDERSCORE_TITLE_MODE:{scope:`title`,begin:E,relevance:0}});function ee(e,t){e.input[e.index-1]===`.`&&t.ignoreMatch()}function te(e,t){e.className!==void 0&&(e.scope=e.className,delete e.className)}function ne(e,t){t&&e.beginKeywords&&(e.begin=`\\b(`+e.beginKeywords.split(` `).join(`|`)+`)(?!\\.)(?=\\b|\\s)`,e.__beforeBegin=ee,e.keywords=e.keywords||e.beginKeywords,delete e.beginKeywords,e.relevance===void 0&&(e.relevance=0))}function re(e,t){Array.isArray(e.illegal)&&(e.illegal=y(...e.illegal))}function V(e,t){if(e.match){if(e.begin||e.end)throw Error(`begin & end are not supported with match`);e.begin=e.match,delete e.match}}function ie(e,t){e.relevance===void 0&&(e.relevance=1)}var ae=(e,t)=>{if(!e.beforeMatch)return;if(e.starts)throw Error(`beforeMatch cannot be used with starts`);let n=Object.assign({},e);Object.keys(e).forEach(t=>{delete e[t]}),e.keywords=n.keywords,e.begin=_(n.beforeMatch,m(n.begin)),e.starts={relevance:0,contains:[Object.assign(n,{endsParent:!0})]},e.relevance=0,delete n.beforeMatch},oe=[`of`,`and`,`for`,`in`,`not`,`or`,`if`,`then`,`parent`,`list`,`value`],se=`keyword`;function ce(e,t,n=se){let r=Object.create(null);return typeof e==`string`?i(n,e.split(` `)):Array.isArray(e)?i(n,e):Object.keys(e).forEach(function(n){Object.assign(r,ce(e[n],t,n))}),r;function i(e,n){t&&(n=n.map(e=>e.toLowerCase())),n.forEach(function(t){let n=t.split(`|`);r[n[0]]=[e,le(n[0],n[1])]})}}function le(e,t){return t?Number(t):+!ue(e)}function ue(e){return oe.includes(e.toLowerCase())}var de={},fe=e=>{console.error(e)},pe=(e,...t)=>{console.log(`WARN: ${e}`,...t)},me=(e,t)=>{de[`${e}/${t}`]||(console.log(`Deprecated as of ${e}. ${t}`),de[`${e}/${t}`]=!0)},he=Error();function H(e,t,{key:n}){let r=0,i=e[n],a={},o={};for(let e=1;e<=t.length;e++)o[e+r]=i[e],a[e+r]=!0,r+=b(t[e-1]);e[n]=o,e[n]._emit=a,e[n]._multi=!0}function U(e){if(Array.isArray(e.begin)){if(e.skip||e.excludeBegin||e.returnBegin)throw fe(`skip, excludeBegin, returnBegin not compatible with beginScope: {}`),he;if(typeof e.beginScope!=`object`||e.beginScope===null)throw fe(`beginScope must be object`),he;H(e,e.begin,{key:`beginScope`}),e.begin=C(e.begin,{joinWith:``})}}function ge(e){if(Array.isArray(e.end)){if(e.skip||e.excludeEnd||e.returnEnd)throw fe(`skip, excludeEnd, returnEnd not compatible with endScope: {}`),he;if(typeof e.endScope!=`object`||e.endScope===null)throw fe(`endScope must be object`),he;H(e,e.end,{key:`endScope`}),e.end=C(e.end,{joinWith:``})}}function _e(e){e.scope&&typeof e.scope==`object`&&e.scope!==null&&(e.beginScope=e.scope,delete e.scope)}function W(e){_e(e),typeof e.beginScope==`string`&&(e.beginScope={_wrap:e.beginScope}),typeof e.endScope==`string`&&(e.endScope={_wrap:e.endScope}),U(e),ge(e)}function ve(e){function t(t,n){return new RegExp(p(t),`m`+(e.case_insensitive?`i`:``)+(e.unicodeRegex?`u`:``)+(n?`g`:``))}class n{constructor(){this.matchIndexes={},this.regexes=[],this.matchAt=1,this.position=0}addRule(e,t){t.position=this.position++,this.matchIndexes[this.matchAt]=t,this.regexes.push([t,e]),this.matchAt+=b(e)+1}compile(){this.regexes.length===0&&(this.exec=()=>null);let e=this.regexes.map(e=>e[1]);this.matcherRe=t(C(e,{joinWith:`|`}),!0),this.lastIndex=0}exec(e){this.matcherRe.lastIndex=this.lastIndex;let t=this.matcherRe.exec(e);if(!t)return null;let n=t.findIndex((e,t)=>t>0&&e!==void 0),r=this.matchIndexes[n];return t.splice(0,n),Object.assign(t,r)}}class r{constructor(){this.rules=[],this.multiRegexes=[],this.count=0,this.lastIndex=0,this.regexIndex=0}getMatcher(e){if(this.multiRegexes[e])return this.multiRegexes[e];let t=new n;return this.rules.slice(e).forEach(([e,n])=>t.addRule(e,n)),t.compile(),this.multiRegexes[e]=t,t}resumingScanAtSamePosition(){return this.regexIndex!==0}considerAll(){this.regexIndex=0}addRule(e,t){this.rules.push([e,t]),t.type===`begin`&&this.count++}exec(e){let t=this.getMatcher(this.regexIndex);t.lastIndex=this.lastIndex;let n=t.exec(e);if(this.resumingScanAtSamePosition()&&!(n&&n.index===this.lastIndex)){let t=this.getMatcher(0);t.lastIndex=this.lastIndex+1,n=t.exec(e)}return n&&(this.regexIndex+=n.position+1,this.regexIndex===this.count&&this.considerAll()),n}}function i(e){let t=new r;return e.contains.forEach(e=>t.addRule(e.begin,{rule:e,type:`begin`})),e.terminatorEnd&&t.addRule(e.terminatorEnd,{type:`end`}),e.illegal&&t.addRule(e.illegal,{type:`illegal`}),t}function o(n,r){let a=n;if(n.isCompiled)return a;[te,V,W,ae].forEach(e=>e(n,r)),e.compilerExtensions.forEach(e=>e(n,r)),n.__beforeBegin=null,[ne,re,ie].forEach(e=>e(n,r)),n.isCompiled=!0;let s=null;return typeof n.keywords==`object`&&n.keywords.$pattern&&(n.keywords=Object.assign({},n.keywords),s=n.keywords.$pattern,delete n.keywords.$pattern),s||=/\w+/,n.keywords&&=ce(n.keywords,e.case_insensitive),a.keywordPatternRe=t(s,!0),r&&(n.begin||=/\B|\b/,a.beginRe=t(a.begin),!n.end&&!n.endsWithParent&&(n.end=/\B|\b/),n.end&&(a.endRe=t(a.end)),a.terminatorEnd=p(a.end)||``,n.endsWithParent&&r.terminatorEnd&&(a.terminatorEnd+=(n.end?`|`:``)+r.terminatorEnd)),n.illegal&&(a.illegalRe=t(n.illegal)),n.contains||=[],n.contains=[].concat(...n.contains.map(function(e){return be(e===`self`?n:e)})),n.contains.forEach(function(e){o(e,a)}),n.starts&&o(n.starts,r),a.matcher=i(a),a}if(e.compilerExtensions||=[],e.contains&&e.contains.includes(`self`))throw Error("ERR: contains `self` is not supported at the top-level of a language.  See documentation.");return e.classNameAliases=a(e.classNameAliases||{}),o(e)}function ye(e){return e?e.endsWithParent||ye(e.starts):!1}function be(e){return e.variants&&!e.cachedVariants&&(e.cachedVariants=e.variants.map(function(t){return a(e,{variants:null},t)})),e.cachedVariants?e.cachedVariants:ye(e)?a(e,{starts:e.starts?a(e.starts):null}):Object.isFrozen(e)?a(e):e}var xe=`11.12.0`,G=class extends Error{constructor(e,t){super(e),this.name=`HTMLInjectionError`,this.html=t}},Se=i,Ce=a,we=Symbol(`nomatch`),Te=7,Ee=function(e){let t=Object.create(null),i=Object.create(null),a=[],o=!0,s=`Could not find the language '{}', did you forget to load/include a language module?`,c={disableAutodetect:!0,name:`Plain text`,contains:[]},l={ignoreUnescapedHTML:!1,throwUnescapedHTML:!1,noHighlightRe:/^(no-?highlight)$/i,languageDetectRe:/\blang(?:uage)?-([\w-]+)\b/i,classPrefix:`hljs-`,cssSelector:`pre code`,languages:null,__emitter:f};function u(e){return l.noHighlightRe.test(e)}function d(e){let t=e.className+` `;t+=e.parentNode?e.parentNode.className:``;let n=l.languageDetectRe.exec(t);if(n){let t=N(n[1]);return t||(pe(s.replace(`{}`,n[1])),pe(`Falling back to no-highlight mode for this block.`,e)),t?n[1]:`no-highlight`}return t.split(/\s+/).find(e=>u(e)||N(e))}function p(e,t,n){let r=``,i=``;typeof t==`object`?(r=e,n=t.ignoreIllegals,i=t.language):(me(`10.7.0`,`highlight(lang, code, ...args) has been deprecated.`),me(`10.7.0`,`Please use highlight(code, options) instead.
 https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(n=!0);let a={code:r,language:i};z(`before:highlight`,a);let o=a.result?a.result:v(a.language,a.code,n);return o.code=a.code,z(`after:highlight`,o),o}function v(e,n,i,a){let c=Object.create(null);function u(e,t){return e.keywords[t]}function d(){if(!A.keywords){M.addText(P);return}let e=0;A.keywordPatternRe.lastIndex=0;let t=A.keywordPatternRe.exec(P),n=``;for(;t;){n+=P.substring(e,t.index);let r=D.case_insensitive?t[0].toLowerCase():t[0],i=u(A,r);if(i){let[e,a]=i;if(M.addText(n),n=``,c[r]=(c[r]||0)+1,c[r]<=Te&&(F+=a),e.startsWith(`_`))n+=t[0];else{let n=D.classNameAliases[e]||e;m(t[0],n)}}else n+=t[0];e=A.keywordPatternRe.lastIndex,t=A.keywordPatternRe.exec(P)}n+=P.substring(e),M.addText(n)}function f(){if(P===``)return;let e=null;if(typeof A.subLanguage==`string`){if(!t[A.subLanguage]){M.addText(P);return}e=v(A.subLanguage,P,!0,j[A.subLanguage]),j[A.subLanguage]=e._top}else e=S(P,A.subLanguage.length?A.subLanguage:null);A.relevance>0&&(F+=e.relevance),M.__addSublanguage(e._emitter,e.language)}function p(){A.subLanguage==null?d():f(),P=``}function m(e,t){e!==``&&(M.startScope(t),M.addText(e),M.endScope())}function h(e,t){let n=1,r=t.length-1;for(;n<=r;){if(!e._emit[n]){n++;continue}let r=D.classNameAliases[e[n]]||e[n],i=t[n];r?m(i,r):(P=i,d(),P=``),n++}}function g(e,t){return e.scope&&typeof e.scope==`string`&&M.openNode(D.classNameAliases[e.scope]||e.scope),e.beginScope&&(e.beginScope._wrap?(m(P,D.classNameAliases[e.beginScope._wrap]||e.beginScope._wrap),P=``):e.beginScope._multi&&(h(e.beginScope,t),P=``)),A=Object.create(e,{parent:{value:A}}),A}function _(e,t,n){let i=x(e.endRe,n);if(i){if(e[`on:end`]){let n=new r(e);e[`on:end`](t,n),n.isMatchIgnored&&(i=!1)}if(i){for(;e.endsParent&&e.parent;)e=e.parent;return e}}if(e.endsWithParent)return _(e.parent,t,n)}function y(e){return A.matcher.regexIndex===0?(P+=e[0],1):(R=!0,0)}function b(e){let t=e[0],n=e.rule,i=new r(n),a=[n.__beforeBegin,n[`on:begin`]];for(let n of a)if(n&&(n(e,i),i.isMatchIgnored))return y(t);return n.skip?P+=t:(n.excludeBegin&&(P+=t),p(),!n.returnBegin&&!n.excludeBegin&&(P=t)),g(n,e),n.returnBegin?0:t.length}function C(e){let t=e[0],r=n.substring(e.index),i=_(A,e,r);if(!i)return we;let a=A;A.endScope&&A.endScope._wrap?(p(),m(t,A.endScope._wrap)):A.endScope&&A.endScope._multi?(p(),h(A.endScope,e)):a.skip?P+=t:(a.returnEnd||a.excludeEnd||(P+=t),p(),a.excludeEnd&&(P=t));do A.scope&&M.closeNode(),!A.skip&&!A.subLanguage&&(F+=A.relevance),A=A.parent;while(A!==i.parent);return i.starts&&g(i.starts,e),a.returnEnd?0:t.length}function w(){let e=[];for(let t=A;t!==D;t=t.parent)t.scope&&e.unshift(t.scope);e.forEach(e=>M.openNode(e))}let T={};function E(t,r){let a=r&&r[0];if(P+=t,a==null)return p(),0;if(T.type===`begin`&&r.type===`end`&&T.index===r.index&&a===``){if(P+=n.slice(r.index,r.index+1),!o){let t=Error(`0 width match regex (${e})`);throw t.languageName=e,t.badRule=T.rule,t}return 1}if(T=r,r.type===`begin`)return b(r);if(r.type===`illegal`&&!i){let e=Error(`Illegal lexeme "`+a+`" for mode "`+(A.scope||`<unnamed>`)+`"`);throw e.mode=A,e}if(r.type===`end`){let e=C(r);if(e!==we)return e}if(r.type===`illegal`&&a===``)return r.index===n.length||(P+=`
 `),1;if(L>1e5&&L>r.index*3)throw Error(`potential infinite loop, way more iterations than matches`);return P+=a,a.length}let D=N(e);if(!D)throw fe(s.replace(`{}`,e)),Error(`Unknown language: "`+e+`"`);let O=ve(D),k=``,A=a||O,j={},M=new l.__emitter(l);w();let P=``,F=0,I=0,L=0,R=!1;try{if(D.__emitTokens)D.__emitTokens(n,M);else{for(A.matcher.considerAll();;){L++,R?R=!1:A.matcher.considerAll(),A.matcher.lastIndex=I;let e=A.matcher.exec(n);if(!e)break;let t=E(n.substring(I,e.index),e);I=e.index+t}E(n.substring(I))}return M.finalize(),k=M.toHTML(),{language:e,value:k,relevance:F,illegal:!1,_emitter:M,_top:A}}catch(t){if(t.message&&t.message.includes(`Illegal`))return{language:e,value:Se(n),illegal:!0,relevance:0,_illegalBy:{message:t.message,index:I,context:n.slice(I-100,I+100),mode:t.mode,resultSoFar:k},_emitter:M};if(o)return{language:e,value:Se(n),illegal:!1,relevance:0,errorRaised:t,_emitter:M,_top:A};throw t}}function b(e){let t={value:Se(e),illegal:!1,relevance:0,_top:c,_emitter:new l.__emitter(l)};return t._emitter.addText(e),t}function S(e,n){n=n||l.languages||Object.keys(t);let r=b(e),i=n.filter(N).filter(F).map(t=>v(t,e,!1));i.unshift(r);let[a,o]=i.sort((e,t)=>{if(e.relevance!==t.relevance)return t.relevance-e.relevance;if(e.language&&t.language){if(N(e.language).supersetOf===t.language)return 1;if(N(t.language).supersetOf===e.language)return-1}return 0}),s=a;return s.secondBest=o,s}function C(e,t,n){let r=t&&i[t]||n;e.classList.add(`hljs`),e.classList.add(`language-${r}`)}function w(e){let t=null,n=d(e);if(u(n))return;if(z(`before:highlightElement`,{el:e,language:n}),e.dataset.highlighted){console.log("Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",e);return}if(e.children.length>0&&(l.ignoreUnescapedHTML||(console.warn(`One of your code blocks includes unescaped HTML. This is a potentially serious security risk.`),console.warn(`https://github.com/highlightjs/highlight.js/wiki/security`),console.warn(`The element with unescaped HTML:`),console.warn(e)),l.throwUnescapedHTML))throw new G(`One of your code blocks includes unescaped HTML.`,e.innerHTML);t=e;let r=t.textContent,i=n?p(r,{language:n,ignoreIllegals:!0}):S(r);e.innerHTML=i.value,e.dataset.highlighted=`yes`,C(e,n,i.language),e.result={language:i.language,re:i.relevance,relevance:i.relevance},i.secondBest&&(e.secondBest={language:i.secondBest.language,relevance:i.secondBest.relevance}),z(`after:highlightElement`,{el:e,result:i,text:r})}function T(e){l=Ce(l,e)}let E=()=>{k(),me(`10.6.0`,`initHighlighting() deprecated.  Use highlightAll() now.`)};function D(){k(),me(`10.6.0`,`initHighlightingOnLoad() deprecated.  Use highlightAll() now.`)}let O=!1;function k(){function e(){k()}if(document.readyState===`loading`){O||window.addEventListener(`DOMContentLoaded`,e,!1),O=!0;return}document.querySelectorAll(l.cssSelector).forEach(w)}function A(n,r){let i=null;try{i=r(e)}catch(e){if(fe(`Language definition for '{}' could not be registered.`.replace(`{}`,n)),o)fe(e);else throw e;i=c}i.name||(i.name=n),t[n]=i,i.rawDefinition=r.bind(null,e),i.aliases&&P(i.aliases,{languageName:n})}function j(e){delete t[e];for(let t of Object.keys(i))i[t]===e&&delete i[t]}function M(){return Object.keys(t)}function N(e){return e=(e||``).toLowerCase(),t[e]||t[i[e]]}function P(e,{languageName:t}){typeof e==`string`&&(e=[e]),e.forEach(e=>{i[e.toLowerCase()]=t})}function F(e){let t=N(e);return t&&!t.disableAutodetect}function I(e){e[`before:highlightBlock`]&&!e[`before:highlightElement`]&&(e[`before:highlightElement`]=t=>{e[`before:highlightBlock`](Object.assign({block:t.el},t))}),e[`after:highlightBlock`]&&!e[`after:highlightElement`]&&(e[`after:highlightElement`]=t=>{e[`after:highlightBlock`](Object.assign({block:t.el},t))})}function L(e){I(e),a.push(e)}function R(e){let t=a.indexOf(e);t!==-1&&a.splice(t,1)}function z(e,t){let n=e;a.forEach(function(e){e[n]&&e[n](t)})}function ee(e){return me(`10.7.0`,`highlightBlock will be removed entirely in v12.0`),me(`10.7.0`,`Please use highlightElement now.`),w(e)}Object.assign(e,{highlight:p,highlightAuto:S,highlightAll:k,highlightElement:w,highlightBlock:ee,configure:T,initHighlighting:E,initHighlightingOnLoad:D,registerLanguage:A,unregisterLanguage:j,listLanguages:M,getLanguage:N,registerAliases:P,autoDetection:F,inherit:Ce,addPlugin:L,removePlugin:R}),e.debugMode=function(){o=!1},e.safeMode=function(){o=!0},e.versionString=xe,e.regex={concat:_,lookahead:m,either:y,optional:g,anyNumberOfTimes:h};for(let e in B)typeof B[e]==`object`&&n(B[e]);return Object.assign(e,B),e},De=Ee({});De.newInstance=()=>Ee({}),t.exports=De,De.HighlightJS=De,De.default=De}))()).default;function co(e){let t=e.regex,n={},r={begin:/\$\{/,end:/\}/,contains:[`self`,{begin:/:-/,contains:[n]}]};Object.assign(n,{className:`variable`,variants:[{begin:t.concat(/\$[\w\d#@][\w\d_]*/,`(?![\\w\\d])(?![$])`)},r]});let i={className:`subst`,begin:/\$\(/,end:/\)/,contains:[e.BACKSLASH_ESCAPE]},a=e.inherit(e.COMMENT(),{match:[/(^|\s)/,/#.*$/],scope:{2:`comment`}}),o={begin:/<<-?\s*(?=\w+)/,starts:{contains:[e.END_SAME_AS_BEGIN({begin:/(\w+)/,end:/(\w+)/,className:`string`})]}},s={className:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,n,i]};i.contains.push(s);let c={match:/\\"/},l={className:`string`,begin:/'/,end:/'/},u={match:/\\'/},d={begin:/\$?\(\(/,end:/\)\)/,contains:[{begin:/\d+#[0-9a-f]+/,className:`number`},e.NUMBER_MODE,n]},f=e.SHEBANG({binary:`(${[`fish`,`bash`,`zsh`,`sh`,`csh`,`ksh`,`tcsh`,`dash`,`scsh`].join(`|`)})`,relevance:10}),p={className:`function`,begin:/\w[\w\d_]*\s*\(\s*\)\s*\{/,returnBegin:!0,contains:[e.inherit(e.TITLE_MODE,{begin:/\w[\w\d_]*/})],relevance:0},m=[`if`,`then`,`else`,`elif`,`fi`,`time`,`for`,`while`,`until`,`in`,`do`,`done`,`case`,`esac`,`coproc`,`function`,`select`],h=[`true`,`false`],g={match:/(\/[a-z._-]+)+/},_=[`break`,`cd`,`continue`,`eval`,`exec`,`exit`,`export`,`getopts`,`hash`,`pwd`,`readonly`,`return`,`shift`,`test`,`times`,`trap`,`umask`,`unset`],v=[`alias`,`bind`,`builtin`,`caller`,`command`,`declare`,`echo`,`enable`,`help`,`let`,`local`,`logout`,`mapfile`,`printf`,`read`,`readarray`,`source`,`sudo`,`type`,`typeset`,`ulimit`,`unalias`],y=`autoload.bg.bindkey.bye.cap.chdir.clone.comparguments.compcall.compctl.compdescribe.compfiles.compgroups.compquote.comptags.comptry.compvalues.dirs.disable.disown.echotc.echoti.emulate.fc.fg.float.functions.getcap.getln.history.integer.jobs.kill.limit.log.noglob.popd.print.pushd.pushln.rehash.sched.setcap.setopt.stat.suspend.ttyctl.unfunction.unhash.unlimit.unsetopt.vared.wait.whence.where.which.zcompile.zformat.zftp.zle.zmodload.zparseopts.zprof.zpty.zregexparse.zsocket.zstyle.ztcp`.split(`.`),b=`chcon.chgrp.chown.chmod.cp.dd.df.dir.dircolors.ln.ls.mkdir.mkfifo.mknod.mktemp.mv.realpath.rm.rmdir.shred.sync.touch.truncate.vdir.b2sum.base32.base64.cat.cksum.comm.csplit.cut.expand.fmt.fold.head.join.md5sum.nl.numfmt.od.paste.ptx.pr.sha1sum.sha224sum.sha256sum.sha384sum.sha512sum.shuf.sort.split.sum.tac.tail.tr.tsort.unexpand.uniq.wc.arch.basename.chroot.date.dirname.du.echo.env.expr.factor.groups.hostid.id.link.logname.nice.nohup.nproc.pathchk.pinky.printenv.printf.pwd.readlink.runcon.seq.sleep.stat.stdbuf.stty.tee.test.timeout.tty.uname.unlink.uptime.users.who.whoami.yes`.split(`.`);return{name:`Bash`,aliases:[`sh`,`zsh`],keywords:{$pattern:/\b[a-z][a-z0-9._-]+\b/,keyword:m,literal:h,built_in:[..._,...v,`set`,`shopt`,...y,...b]},contains:[f,e.SHEBANG(),p,d,a,o,g,s,c,l,u,n]}}function lo(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,variants:[{begin:`\\b[a-z\\d_]*_t\\b`},{match:t.concat(/\batomic_/,t.either(`bool`,`char`,`schar`,`uchar`,`short`,`ushort`,`int`,`uint`,`long`,`ulong`,`llong`,`ullong`,`char16_t`,`char32_t`,`wchar_t`,`int_least8_t`,`uint_least8_t`,`int_least16_t`,`uint_least16_t`,`int_least32_t`,`uint_least32_t`,`int_least64_t`,`uint_least64_t`,`int_fast8_t`,`uint_fast8_t`,`int_fast16_t`,`uint_fast16_t`,`int_fast32_t`,`uint_fast32_t`,`int_fast64_t`,`uint_fast64_t`,`intptr_t`,`uintptr_t`,`size_t`,`ptrdiff_t`,`intmax_t`,`uintmax_t`),/\b/)}]},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{match:/\b(0b[01']+)/},{match:/(-?)\b([\d']+(\.[\d']*)?|\.[\d']+)((ll|LL|l|L)(u|U)?|(u|U)(ll|LL|l|L)?|f|F|b|B)/},{match:/(-?)\b(0[xX][a-fA-F0-9]+(?:'[a-fA-F0-9]+)*(?:\.[a-fA-F0-9]*(?:'[a-fA-F0-9]*)*)?(?:[pP][-+]?[0-9]+)?(l|L)?(u|U)?)/},{match:/(-?)\b\d+(?:'\d+)*(?:\.\d*(?:'\d*)*)?(?:[eE][-+]?\d+)?/}],relevance:0},c={scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},l={className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef elifdef elifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]},u=[c,l],d={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},f=t.optional(r)+e.IDENT_RE+`\\s*\\(`,p={keyword:`asm.auto.break.case.continue.default.do.else.enum.extern.for.fortran.goto.if.inline.register.restrict.return.sizeof.typeof.typeof_unqual.struct.switch.typedef.union.volatile.while._Alignas._Alignof._Atomic._Generic._Noreturn._Static_assert._Thread_local.alignas.alignof.noreturn.static_assert.thread_local._Pragma`.split(`.`),type:`float.double.signed.unsigned.int.short.long.char.void._Bool._BitInt._Complex._Imaginary._Decimal32._Decimal64._Decimal96._Decimal128._Decimal64x._Decimal128x._Float16._Float32._Float64._Float128._Float32x._Float64x._Float128x.const.static.constexpr.complex.bool.imaginary`.split(`.`),literal:`true false NULL`,built_in:`std string wstring cin cout cerr clog stdin stdout stderr stringstream istringstream ostringstream auto_ptr deque list queue stack vector map set pair bitset multiset multimap unordered_set unordered_map unordered_multiset unordered_multimap priority_queue make_pair array shared_ptr abort terminate abs acos asin atan2 atan calloc ceil cosh cos exit exp fabs floor fmod fprintf fputs free frexp fscanf future isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit tolower toupper labs ldexp log10 log malloc realloc memchr memcmp memcpy memset modf pow printf putchar puts scanf sinh sin snprintf sprintf sqrt sscanf strcat strchr strcmp strcpy strcspn strlen strncat strncmp strncpy strpbrk strrchr strspn strstr tanh tan vfprintf vprintf vsprintf endl initializer_list unique_ptr`},m=[...u,a,n,e.C_BLOCK_COMMENT_MODE,s,o],h={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:p,contains:m.concat([{begin:/\(/,end:/\)/,keywords:p,contains:m.concat([`self`]),relevance:0}]),relevance:0},g={begin:`(`+i+`[\\*&\\s]+){1,12}`+f,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:p,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:p,relevance:0},{begin:f,returnBegin:!0,contains:[e.inherit(d,{className:`title.function`})],relevance:0},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:p,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...u]};return{name:`C`,aliases:[`h`],keywords:p,disableAutodetect:!0,illegal:`</`,contains:[].concat(h,g,m,[...u,{begin:e.IDENT_RE+`::`,keywords:p},{className:`class`,beginKeywords:`enum class struct union`,end:/[{;:<>=]/,contains:[{beginKeywords:`final class struct`},e.TITLE_MODE]}]),exports:{preprocessor:l,strings:o,keywords:p}}}function uo(e){let t=e.regex,n=e.COMMENT(`//`,`$`,{contains:[{begin:/\\\n/}]}),r=`[a-zA-Z_]\\w*::`,i=`(?!struct)(decltype\\(auto\\)|`+t.optional(r)+`[a-zA-Z_]\\w*`+t.optional(`<[^<>]+>`)+`)`,a={className:`type`,begin:`\\b[a-z\\d_]*_t\\b`},o={className:`string`,variants:[{begin:`(u8?|U|L)?"`,end:`"`,illegal:`\\n`,contains:[e.BACKSLASH_ESCAPE]},{begin:`(u8?|U|L)?'(\\\\(x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4,8}|[0-7]{3}|\\S)|.)`,end:`'`,illegal:`.`},e.END_SAME_AS_BEGIN({begin:/(?:u8?|U|L)?R"([^()\\\s"]{0,16})\(/,end:/\)([^()\\\s"]{0,16})"/})]},s={className:`number`,variants:[{begin:`[+-]?(?:(?:\\b[0-9](?:'?[0-9])*\\.(?:[0-9](?:'?[0-9])*)?|\\.[0-9](?:'?[0-9])*)(?:[Ee][+-]?[0-9](?:'?[0-9])*)?|\\b[0-9](?:'?[0-9])*[Ee][+-]?[0-9](?:'?[0-9])*|\\b0[Xx](?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*(?:\\.(?:[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)?)?|\\.[0-9A-Fa-f](?:'?[0-9A-Fa-f])*)[Pp][+-]?[0-9](?:'?[0-9])*)(?:[Ff](?:16|32|64|128)?|(BF|bf)16|[Ll]|)`},{begin:`[+-]?\\b(?:0[Bb][01](?:'?[01])*|0[Xx][0-9A-Fa-f](?:'?[0-9A-Fa-f])*|0(?:'?[0-7])*|[1-9](?:'?[0-9])*)(?:[Uu](?:LL?|ll?)|[Uu][Zz]?|(?:LL?|ll?)[Uu]?|[Zz][Uu]|)`}],relevance:0},c=[{scope:`meta`,begin:/#\s*include\b/,end:/$/,keywords:{keyword:`include`},contains:[{begin:/\\\n/},o,{scope:`string`,begin:/<.*?>/},n,e.C_BLOCK_COMMENT_MODE]},{className:`meta`,begin:/#\s*[a-z]+\b/,end:/$/,keywords:{keyword:`if else elif endif define undef warning error line pragma _Pragma ifdef ifndef include`},contains:[{begin:/\\\n/,relevance:0},e.inherit(o,{className:`string`}),n,e.C_BLOCK_COMMENT_MODE]}],l={className:`title`,begin:t.optional(r)+e.IDENT_RE,relevance:0},u=t.optional(r)+e.IDENT_RE+`\\s*\\(`,d=`alignas.alignof.and.and_eq.asm.atomic_cancel.atomic_commit.atomic_noexcept.auto.bitand.bitor.break.case.catch.class.co_await.co_return.co_yield.compl.concept.const_cast|10.consteval.constexpr.constinit.continue.decltype.default.delete.do.dynamic_cast|10.else.enum.explicit.export.extern.false.final.for.friend.goto.if.import.inline.module.mutable.namespace.new.noexcept.not.not_eq.nullptr.operator.or.or_eq.override.private.protected.public.reflexpr.register.reinterpret_cast|10.requires.return.sizeof.static_assert.static_cast|10.struct.switch.synchronized.template.this.thread_local.throw.transaction_safe.transaction_safe_dynamic.true.try.typedef.typeid.typename.union.using.virtual.volatile.while.xor.xor_eq`.split(`.`),f=[`bool`,`char`,`char16_t`,`char32_t`,`char8_t`,`double`,`float`,`int`,`long`,`short`,`void`,`wchar_t`,`unsigned`,`signed`,`const`,`static`],p=`any.auto_ptr.barrier.binary_semaphore.bitset.complex.condition_variable.condition_variable_any.counting_semaphore.deque.false_type.flat_map.flat_set.future.imaginary.initializer_list.istringstream.jthread.latch.lock_guard.multimap.multiset.mutex.optional.ostringstream.packaged_task.pair.promise.priority_queue.queue.recursive_mutex.recursive_timed_mutex.scoped_lock.set.shared_future.shared_lock.shared_mutex.shared_timed_mutex.shared_ptr.stack.string_view.stringstream.timed_mutex.thread.true_type.tuple.unique_lock.unique_ptr.unordered_map.unordered_multimap.unordered_multiset.unordered_set.variant.vector.weak_ptr.wstring.wstring_view`.split(`.`),m=`abort.abs.acos.apply.as_const.asin.atan.atan2.calloc.ceil.cerr.cin.clog.cos.cosh.cout.declval.endl.exchange.exit.exp.fabs.floor.fmod.forward.fprintf.fputs.free.frexp.fscanf.future.invoke.isalnum.isalpha.iscntrl.isdigit.isgraph.islower.isprint.ispunct.isspace.isupper.isxdigit.labs.launder.ldexp.log.log10.make_pair.make_shared.make_shared_for_overwrite.make_tuple.make_unique.malloc.memchr.memcmp.memcpy.memset.modf.move.pow.printf.putchar.puts.realloc.scanf.sin.sinh.snprintf.sprintf.sqrt.sscanf.std.stderr.stdin.stdout.strcat.strchr.strcmp.strcpy.strcspn.strlen.strncat.strncmp.strncpy.strpbrk.strrchr.strspn.strstr.swap.tan.tanh.terminate.to_underlying.tolower.toupper.vfprintf.visit.vprintf.vsprintf`.split(`.`),h={type:f,keyword:d,literal:[`NULL`,`false`,`nullopt`,`nullptr`,`true`],built_in:[`_Pragma`],_type_hints:p},g={className:`function.dispatch`,relevance:0,keywords:{_hint:m},begin:t.concat(/\b/,`(?!${d.join(`|`)})`,e.IDENT_RE,t.lookahead(/(<[^<>]+>|)\s*\(/))},_=[g,...c,a,n,e.C_BLOCK_COMMENT_MODE,s,o],v={variants:[{begin:/=/,end:/;/},{begin:/\(/,end:/\)/},{beginKeywords:`new throw return else`,end:/;/}],keywords:h,contains:_.concat([{begin:/\(/,end:/\)/,keywords:h,contains:_.concat([`self`]),relevance:0}]),relevance:0},y={className:`function`,begin:`(`+i+`[\\*&\\s]+){1,12}`+u,returnBegin:!0,end:/[{;=]/,excludeEnd:!0,keywords:h,illegal:/[^\w\s\*&:<>.]/,contains:[{begin:`decltype\\(auto\\)`,keywords:h,relevance:0},{begin:u,returnBegin:!0,contains:[l],relevance:0},{begin:/::/,relevance:0},{begin:/:/,endsWithParent:!0,contains:[o,s]},{relevance:0,match:/,/},{className:`params`,begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[n,e.C_BLOCK_COMMENT_MODE,o,s,a,{begin:/\(/,end:/\)/,keywords:h,relevance:0,contains:[`self`,n,e.C_BLOCK_COMMENT_MODE,o,s,a]}]},a,n,e.C_BLOCK_COMMENT_MODE,...c]};return{name:`C++`,aliases:[`cc`,`c++`,`h++`,`hpp`,`hh`,`hxx`,`cxx`],keywords:h,illegal:`</`,classNameAliases:{"function.dispatch":`built_in`},contains:[].concat(v,y,g,_,[...c,{begin:`\\b(deque|list|queue|priority_queue|pair|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array|tuple|optional|variant|function|flat_map|flat_set)\\s*<(?!<)`,end:`>`,keywords:h,contains:[`self`,a]},{begin:e.IDENT_RE+`::`,keywords:h},{match:[/\b(?:enum(?:\s+(?:class|struct))?|class|struct|union)/,/\s+/,/\w+/],className:{1:`keyword`,3:`title.class`}}])}}var fo=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},UNICODE_RANGE:{scope:`number`,begin:/\b[Uu]\+[0-9A-Fa-f][0-9A-Fa-f?]{0,5}(-[0-9A-Fa-f][0-9A-Fa-f]{0,5})?/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),po=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),mo=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),ho=[...po,...mo],go=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),_o=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),vo=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),yo=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.corner-bottom-left-shape.corner-bottom-right-shape.corner-shape.corner-top-left-shape.corner-top-right-shape.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.unicode-range.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function bo(e){let t=e.regex,n=fo(e),r={begin:/-(webkit|moz|ms|o)-(?=[a-z])/},i=/@-?\w[\w]*(-\w+)*/,a=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE];return{name:`CSS`,case_insensitive:!0,illegal:/[=|'\$]/,keywords:{keyframePosition:`from to`},classNameAliases:{keyframePosition:`selector-tag`},contains:[n.BLOCK_COMMENT,r,n.CSS_NUMBER_MODE,{className:`selector-id`,begin:/#[A-Za-z0-9_-]+/,relevance:0},{className:`selector-class`,begin:`\\.[a-zA-Z-][a-zA-Z0-9_-]*`,relevance:0},n.ATTRIBUTE_SELECTOR_MODE,{className:`selector-pseudo`,variants:[{begin:`:(`+_o.join(`|`)+`)`},{begin:`:(:)?(`+vo.join(`|`)+`)`}]},n.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+yo.join(`|`)+`)\\b`},{begin:/:/,end:/[;}{]/,contains:[n.BLOCK_COMMENT,n.HEXCOLOR,n.IMPORTANT,n.CSS_NUMBER_MODE,n.UNICODE_RANGE,...a,{begin:/(url|data-uri)\(/,end:/\)/,relevance:0,keywords:{built_in:`url data-uri`},contains:[...a,{className:`string`,begin:/[^)]/,endsWithParent:!0,excludeEnd:!0}]},n.FUNCTION_DISPATCH]},{begin:t.lookahead(/@/),end:`[{;]`,relevance:0,illegal:/:/,contains:[{className:`keyword`,begin:i},{begin:/\s/,endsWithParent:!0,excludeEnd:!0,relevance:0,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:go.join(` `)},contains:[{begin:/[a-z-]+(?=:)/,className:`attribute`},...a,n.CSS_NUMBER_MODE]}]},{className:`selector-tag`,begin:`\\b(`+ho.join(`|`)+`)\\b`}]}}function xo(e){let t=e.regex,n={className:`number`,relevance:0,variants:[{begin:/([+-]+)?[\d]+_[\d_]+/},{begin:e.NUMBER_RE}]},r=e.COMMENT();r.variants=[{begin:/;/,end:/$/},{begin:/#/,end:/$/}];let i={className:`variable`,variants:[{begin:/\$[\w\d"][\w\d_]*/},{begin:/\$\{(.*?)\}/}]},a={className:`literal`,begin:/\bon|off|true|false|yes|no\b/},o={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:`'''`,end:`'''`,relevance:10},{begin:`"""`,end:`"""`,relevance:10},{begin:`"`,end:`"`},{begin:`'`,end:`'`}]},s={begin:/\[/,end:/\]/,contains:[r,a,i,o,n,`self`],relevance:0},c=t.either(/[A-Za-z0-9_-]+/,/"(\\"|[^"])*"/,/'[^']*'/);return{name:`TOML, also INI`,aliases:[`toml`],case_insensitive:!0,illegal:/\S/,contains:[r,{className:`section`,begin:/\[+/,end:/\]+/},{begin:t.concat(c,`(\\s*\\.\\s*`,c,`)*`,t.lookahead(/\s*=\s*[^#\s]/)),className:`attr`,starts:{end:/$/,contains:[r,s,a,i,o,n]}}]}}var So=`[0-9](_*[0-9])*`,Co=`\\.(${So})`,wo=`[0-9a-fA-F](_*[0-9a-fA-F])*`,To={className:`number`,variants:[{begin:`(\\b(${So})((${Co})|\\.)?|(${Co}))[eE][+-]?(${So})[fFdD]?\\b`},{begin:`\\b(${So})((${Co})[fFdD]?\\b|\\.([fFdD]\\b)?)`},{begin:`(${Co})[fFdD]?\\b`},{begin:`\\b(${So})[fFdD]\\b`},{begin:`\\b0[xX]((${wo})\\.?|(${wo})?\\.(${wo}))[pP][+-]?(${So})[fFdD]?\\b`},{begin:`\\b(0|[1-9](_*[0-9])*)[lL]?\\b`},{begin:`\\b0[xX](${wo})[lL]?\\b`},{begin:`\\b0(_*[0-7])*[lL]?\\b`},{begin:`\\b0[bB][01](_*[01])*[lL]?\\b`}],relevance:0};function Eo(e,t,n){return n===-1?``:e.replace(t,r=>Eo(e,t,n-1))}function Do(e){let t=e.regex,n=`[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*`,r=`(?:(?:\\s*\\[\\s*])+)?`,i=`(?:\\?(?:\\s+(?:extends|super)\\s+[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)?|[À-ʸa-zA-Z_$][À-ʸa-zA-Z_$0-9]*<@@@>(?:(?:\\s*\\[\\s*])+)?)`,a=Eo(`(?:\\s*<\\s*`+i+`(?:\\s*,\\s*`+i+`)*\\s*>)?`,/<@@@>/g,2),o={keyword:`synchronized.abstract.private.var.static.if.const .for.while.strictfp.finally.protected.import.native.final.void.enum.else.break.transient.catch.instanceof.volatile.case.assert.package.default.public.try.switch.continue.throws.protected.public.private.module.requires.exports.do.sealed.yield.permits.goto.when`.split(`.`),literal:[`false`,`true`,`null`],type:[`char`,`boolean`,`long`,`float`,`int`,`byte`,`short`,`double`],built_in:[`super`,`this`]},s={className:`meta`,begin:`@`+n,contains:[{begin:/\(/,end:/\)/,contains:[`self`]}]},c={className:`params`,begin:/\(/,end:/\)/,keywords:o,relevance:0,contains:[e.C_BLOCK_COMMENT_MODE],endsParent:!0};return{name:`Java`,aliases:[`jsp`],keywords:o,illegal:/<\/|#/,contains:[e.COMMENT(`/\\*\\*`,`\\*/`,{relevance:0,contains:[{begin:/\w+@/,relevance:0},{className:`doctag`,begin:`@[A-Za-z]+`}]}),{begin:/import java\.[a-z]+\./,keywords:`import`,relevance:2},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{begin:/"""/,end:/"""/,className:`string`,contains:[e.BACKSLASH_ESCAPE]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,{match:[/\b(?:class|interface|enum|extends|implements|new)/,/\s+/,n],className:{1:`keyword`,3:`title.class`}},{match:/non-sealed/,scope:`keyword`},{beginKeywords:`new throw return else yield assert`,relevance:0},{begin:[n,t.concat(a,r,/\s+/),n,r,/\s*/,/=(?!=)/],className:{1:`type`,3:`variable`,6:`operator`}},{begin:[/record/,/\s+/,n],className:{1:`keyword`,3:`title.class`},contains:[c,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},{begin:[n,t.concat(a,r,/\s+/),n,/\s*(?=\()/],className:{1:`type`,3:`title.function`},keywords:o,contains:[{className:`params`,begin:/\(/,end:/\)/,keywords:o,relevance:0,contains:[s,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,To,e.C_BLOCK_COMMENT_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]},To,s]}}var Oo=`[A-Za-z$_][0-9A-Za-z$_]*`,ko=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ao=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],jo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Mo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],No=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Po=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Fo=[].concat(No,jo,Mo);function Io(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Oo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Oo,keyword:ko,literal:Ao,built_in:Fo,"variable.language":Po},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...jo,...Mo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...No,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}var Lo={scope:`number`,match:`([-+]?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)|NaN|[-+]?Infinity`,relevance:0};function Ro(e){let t={className:`attr`,begin:/(("(\\.|[^\\"\r\n])*")|('(\\.|[^\\'\r\n])*'))(?=\s*:)/,relevance:1.01},n={match:/[{}[\],:]/,className:`punctuation`,relevance:0},r=[`true`,`false`,`null`],i={scope:`literal`,beginKeywords:r.join(` `)};return{name:`JSON`,aliases:[`jsonc`,`json5`],keywords:{literal:r},contains:[t,n,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,i,Lo,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE],illegal:`\\S`}}function zo(e){let t=e.regex,n={begin:/<\/?[A-Za-z_]/,end:`>`,subLanguage:`xml`,relevance:0},r={match:/^ {0,3}([-*_])[ \t]*(?:\1[ \t]*){2,}$/},i={className:`code`,variants:[{begin:"(`{3,})[^`](.|\\n)*?\\1`*[ ]*"},{begin:`(~{3,})[^~](.|\\n)*?\\1~*[ ]*`},{begin:"```",end:"```+[ ]*$"},{begin:`~~~`,end:`~~~+[ ]*$`},{begin:"`.+?`"},{begin:`(?=^( {4}|\\t))`,contains:[{begin:`^( {4}|\\t)`,end:`(\\n)$`}],relevance:0}]},a={className:`bullet`,begin:`^[ 	]*([*+-]|(\\d+\\.))(?=\\s+)`,end:`\\s+`,excludeEnd:!0},o={begin:/^\[[^\n]+\]:/,returnBegin:!0,contains:[{className:`symbol`,begin:/\[/,end:/\]/,excludeBegin:!0,excludeEnd:!0},{className:`link`,begin:/:\s*/,end:/$/,excludeBegin:!0}]},s={variants:[{begin:/\[.+?\]\[.*?\]/,relevance:0},{begin:/\[.+?\]\(((data|javascript|mailto):|(?:http|ftp)s?:\/\/).*?\)/,relevance:2},{begin:t.concat(/\[.+?\]\(/,/[A-Za-z][A-Za-z0-9+.-]*/,/:\/\/.*?\)/),relevance:2},{begin:/\[.+?\]\([./?&#].*?\)/,relevance:1},{begin:/\[.*?\]\(.*?\)/,relevance:0}],returnBegin:!0,contains:[{match:/\[(?=\])/},{className:`string`,relevance:0,begin:`\\[`,end:`\\]`,excludeBegin:!0,returnEnd:!0},{className:`link`,relevance:0,begin:`\\]\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0},{className:`symbol`,relevance:0,begin:`\\]\\[`,end:`\\]`,excludeBegin:!0,excludeEnd:!0}]},c={className:`strong`,contains:[],variants:[{begin:/_{2}(?!\s)/,end:/_{2}/},{begin:/\*{2}(?!\s)/,end:/\*{2}/}]},l={className:`emphasis`,contains:[],variants:[{begin:/\*(?![*\s])/,end:/\*/},{begin:/_(?![_\s])/,end:/_/,relevance:0}]},u=e.inherit(c,{contains:[]}),d=e.inherit(l,{contains:[]});c.contains.push(d),l.contains.push(u);let f=[n,s];return[c,l,u,d].forEach(e=>{e.contains=e.contains.concat(f)}),f=f.concat(c,l),{name:`Markdown`,aliases:[`md`,`mkdown`,`mkd`],contains:[{className:`section`,variants:[{begin:`^#{1,6}`,end:`$`,contains:f},{begin:`(?=^.+?\\n[=-]{2,}$)`,contains:[{begin:`^[=-]*$`},{begin:`^`,end:`\\n`,contains:f}]}]},n,a,r,c,l,{className:`quote`,begin:`^>\\s+`,contains:f,end:`$`},i,s,o,{scope:`literal`,match:/&([a-zA-Z0-9]+|#[0-9]{1,7}|#[Xx][0-9a-fA-F]{1,6});/}]}}function Bo(e){let t=e.regex,n=/(?![A-Za-z0-9])(?![$])/,r=t.concat(/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/,n),i=t.concat(/(\\?[A-Z][a-z0-9_\x7f-\xff]+|\\?[A-Z]+(?=[A-Z][a-z0-9_\x7f-\xff])){1,}/,n),a=t.concat(/[A-Z]+/,n),o={scope:`variable`,match:`\\$+`+r},s={scope:`meta`,variants:[{begin:/<\?php/,relevance:10},{begin:/<\?=/},{begin:/<\?/,relevance:.1},{begin:/\?>/}]},c={scope:`subst`,variants:[{begin:/\$\w+/},{begin:/\{\$/,end:/\}/}]},l=e.inherit(e.APOS_STRING_MODE,{illegal:null}),u=e.inherit(e.QUOTE_STRING_MODE,{illegal:null,contains:e.QUOTE_STRING_MODE.contains.concat(c)}),d={begin:/<<<[ \t]*(?:(\w+)|"(\w+)")\n/,end:/[ \t]*(\w+)\b/,contains:e.QUOTE_STRING_MODE.contains.concat(c),"on:begin":(e,t)=>{t.data._beginMatch=e[1]||e[2]},"on:end":(e,t)=>{t.data._beginMatch!==e[1]&&t.ignoreMatch()}},f=e.END_SAME_AS_BEGIN({begin:/<<<[ \t]*'(\w+)'\n/,end:/[ \t]*(\w+)\b/}),p=`[ 	
-]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}function Vo(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}function Ho(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}function Uo(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}var Wo=`[A-Za-z$_][0-9A-Za-z$_]*`,Go=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ko=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],qo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Jo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],Yo=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Xo=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Zo=[].concat(Yo,qo,Jo);function Qo(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Wo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Wo,keyword:Go,literal:Ko,built_in:Zo,"variable.language":Xo},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...qo,...Jo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...Yo,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}function $o(e){let t=e.regex,n=Qo(e),r=Wo,i=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],a={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},o={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:i},contains:[n.exports.CLASS_REFERENCE]},s={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},c={$pattern:Wo,keyword:Go.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:Ko,built_in:Zo.concat(i),"variable.language":Xo},l={className:`meta`,begin:`@`+r},u=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(n.keywords,c),n.exports.PARAMS_CONTAINS.push(l);let d=n.contains.find(e=>e.scope===`attr`),f=Object.assign({},d,{match:t.concat(r,t.lookahead(/\s*\?:/))});n.exports.PARAMS_CONTAINS.push([n.exports.CLASS_REFERENCE,d,f]),n.contains=n.contains.concat([l,a,o,f]),u(n,`shebang`,e.SHEBANG()),u(n,`use_strict`,s);let p=n.contains.find(e=>e.label===`func.def`);return p.relevance=0,Object.assign(n,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),n}function es(e){let t=e.regex,n=t.concat(/[\p{L}_]/u,t.optional(/[\p{L}0-9_.-]*:/u),/[\p{L}0-9_.-]*/u),r=/[\p{L}0-9._:-]+/u,i={className:`symbol`,begin:/&[a-z]+;|&#[0-9]+;|&#x[a-f0-9]+;/},a={begin:/\s/,contains:[{className:`keyword`,begin:/#?[a-z_][a-z1-9_-]+/,illegal:/\n/}]},o=e.inherit(a,{begin:/\(/,end:/\)/}),s=e.inherit(e.APOS_STRING_MODE,{className:`string`}),c=e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),l={endsWithParent:!0,illegal:/</,relevance:0,contains:[{className:`attr`,begin:r,relevance:0},{begin:/=\s*/,relevance:0,contains:[{className:`string`,endsParent:!0,variants:[{begin:/"/,end:/"/,contains:[i]},{begin:/'/,end:/'/,contains:[i]},{begin:/[^\s"'=<>`]+/}]}]}]};return{name:`HTML, XML`,aliases:[`html`,`xhtml`,`rss`,`atom`,`xjb`,`xsd`,`xsl`,`plist`,`wsf`,`svg`],case_insensitive:!0,unicodeRegex:!0,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,relevance:10,contains:[a,c,s,o,{begin:/\[/,end:/\]/,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,contains:[a,o,c,s]}]}]},e.COMMENT(/<!--/,/-->/,{relevance:10}),{begin:/<!\[CDATA\[/,end:/\]\]>/,relevance:10},i,{className:`meta`,end:/\?>/,variants:[{begin:/<\?xml/,relevance:10,contains:[c]},{begin:/<\?[a-z][a-z0-9]+/}]},{className:`tag`,begin:/<style(?=\s|>)/,end:/>/,keywords:{name:`style`},contains:[l],starts:{end:/<\/style>/,returnEnd:!0,subLanguage:`css`}},{className:`tag`,begin:/<script(?=\s|>)/,end:/>/,keywords:{name:`script`},contains:[l],starts:{end:/<\/script>/,returnEnd:!0,subLanguage:`javascript`}},{className:`tag`,begin:/<>|<\/>/},{className:`tag`,begin:t.concat(/</,t.lookahead(t.concat(n,t.either(/\/>/,/>/,/\s/)))),end:/\/?>/,contains:[{className:`name`,begin:n,relevance:0,starts:l}]},{className:`tag`,begin:t.concat(/<\//,t.lookahead(t.concat(n,/>/))),contains:[{className:`name`,begin:n,relevance:0},{begin:/>/,relevance:0,endsParent:!0}]}]}}function ts(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}$.registerLanguage(`bash`,co),$.registerLanguage(`c`,lo),$.registerLanguage(`cpp`,uo),$.registerLanguage(`css`,bo),$.registerLanguage(`ini`,xo),$.registerLanguage(`java`,Do),$.registerLanguage(`javascript`,Io),$.registerLanguage(`json`,Ro),$.registerLanguage(`markdown`,zo),$.registerLanguage(`php`,Bo),$.registerLanguage(`python`,Vo),$.registerLanguage(`rust`,Ho),$.registerLanguage(`sql`,Uo),$.registerLanguage(`typescript`,$o),$.registerLanguage(`xml`,es),$.registerLanguage(`yaml`,ts);var ns=(0,g.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:o}]=await Promise.all([a(()=>import(`./react-markdown-CDYNIP4f.js`),__vite__mapDeps([0,1,2,3,4,5,6,7])),a(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([8,3,6,7])),a(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([9,7])),a(()=>import(`./rehype-raw-BiKMfUhN.js`),__vite__mapDeps([10,3,4,1,2,5,7])),a(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([11,5]))]),s={...o,attributes:{...o.attributes,div:[...o.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...o.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...o.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function c({children:a}){return(0,U.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,s]],children:a})}return{default:c}}),rs={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function is(e,t){let n=rs[t];if(!n||!$.getLanguage(n))return null;let r;return e.split(`
+]`,m={scope:`string`,variants:[u,l,d,f]},h={scope:`number`,variants:[{begin:`\\b0[bB][01]+(?:_[01]+)*\\b`},{begin:`\\b0[oO][0-7]+(?:_[0-7]+)*\\b`},{begin:`\\b0[xX][\\da-fA-F]+(?:_[\\da-fA-F]+)*\\b`},{begin:`(?:\\b\\d+(?:_\\d+)*(\\.(?:\\d+(?:_\\d+)*))?|\\B\\.\\d+)(?:[eE][+-]?\\d+)?`}],relevance:0},g=[`false`,`null`,`true`],_=`__CLASS__.__DIR__.__FILE__.__FUNCTION__.__COMPILER_HALT_OFFSET__.__LINE__.__METHOD__.__NAMESPACE__.__TRAIT__.die.echo.exit.include.include_once.print.require.require_once.array.abstract.and.as.binary.bool.boolean.break.callable.case.catch.class.clone.const.continue.declare.default.do.double.else.elseif.empty.enddeclare.endfor.endforeach.endif.endswitch.endwhile.enum.eval.extends.final.finally.float.for.foreach.from.global.goto.if.implements.instanceof.insteadof.int.integer.interface.isset.iterable.list.match|0.mixed.new.never.object.or.private.protected.public.readonly.real.return.string.switch.throw.trait.try.unset.use.var.void.while.xor.yield`.split(`.`),v=`Error|0.AppendIterator.ArgumentCountError.ArithmeticError.ArrayIterator.ArrayObject.AssertionError.BadFunctionCallException.BadMethodCallException.CachingIterator.CallbackFilterIterator.CompileError.Countable.DirectoryIterator.DivisionByZeroError.DomainException.EmptyIterator.ErrorException.Exception.FilesystemIterator.FilterIterator.GlobIterator.InfiniteIterator.InvalidArgumentException.IteratorIterator.LengthException.LimitIterator.LogicException.MultipleIterator.NoRewindIterator.OutOfBoundsException.OutOfRangeException.OuterIterator.OverflowException.ParentIterator.ParseError.RangeException.RecursiveArrayIterator.RecursiveCachingIterator.RecursiveCallbackFilterIterator.RecursiveDirectoryIterator.RecursiveFilterIterator.RecursiveIterator.RecursiveIteratorIterator.RecursiveRegexIterator.RecursiveTreeIterator.RegexIterator.RuntimeException.SeekableIterator.SplDoublyLinkedList.SplFileInfo.SplFileObject.SplFixedArray.SplHeap.SplMaxHeap.SplMinHeap.SplObjectStorage.SplObserver.SplPriorityQueue.SplQueue.SplStack.SplSubject.SplTempFileObject.TypeError.UnderflowException.UnexpectedValueException.UnhandledMatchError.ArrayAccess.BackedEnum.Closure.Fiber.Generator.Iterator.IteratorAggregate.Serializable.Stringable.Throwable.Traversable.UnitEnum.WeakReference.WeakMap.Directory.__PHP_Incomplete_Class.parent.php_user_filter.self.static.stdClass`.split(`.`),y={keyword:_,literal:(e=>{let t=[];return e.forEach(e=>{t.push(e),e.toLowerCase()===e?t.push(e.toUpperCase()):t.push(e.toLowerCase())}),t})(g),built_in:v},b=e=>e.map(e=>e.replace(/\|\d+$/,``)),x={variants:[{match:[/new/,t.concat(p,`+`),t.concat(`(?!`,b(v).join(`\\b|`),`\\b)`),i],scope:{1:`keyword`,4:`title.class`}}]},S=t.concat(r,`\\b(?!\\()`),C={variants:[{match:[t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{2:`variable.constant`}},{match:[/::/,/class/],scope:{2:`variable.language`}},{match:[i,t.concat(/::/,t.lookahead(/(?!class\b)/)),S],scope:{1:`title.class`,3:`variable.constant`}},{match:[i,t.concat(`::`,t.lookahead(/(?!class\b)/))],scope:{1:`title.class`}},{match:[i,/::/,/class/],scope:{1:`title.class`,3:`variable.language`}}]},w={scope:`attr`,match:t.concat(r,t.lookahead(`:`),t.lookahead(/(?!::)/))},T={relevance:0,begin:/\(/,end:/\)/,keywords:y,contains:[w,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x]},E={relevance:0,match:[/\b/,t.concat(`(?!fn\\b|function\\b|`,b(_).join(`\\b|`),`|`,b(v).join(`\\b|`),`\\b)`),r,t.concat(p,`*`),t.lookahead(/(?=\()/)],scope:{3:`title.function.invoke`},contains:[T]};T.contains.push(E);let D=[w,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h,x],O={begin:t.concat(/#\[\s*\\?/,t.either(i,a)),beginScope:`meta`,end:/]/,endScope:`meta`,keywords:{literal:g,keyword:[`new`,`array`]},contains:[{begin:/\[/,end:/]/,keywords:{literal:g,keyword:[`new`,`array`]},contains:[`self`,...D]},...D,{scope:`meta`,variants:[{match:i},{match:a}]}]};return{case_insensitive:!1,keywords:y,contains:[O,e.HASH_COMMENT_MODE,e.COMMENT(`//`,`$`),e.COMMENT(`/\\*`,`\\*/`,{contains:[{scope:`doctag`,match:`@[A-Za-z]+`}]}),{match:/__halt_compiler\(\);/,keywords:`__halt_compiler`,starts:{scope:`comment`,end:e.MATCH_NOTHING_RE,contains:[{match:/\?>/,scope:`meta`,endsParent:!0}]}},s,{scope:`variable.language`,match:/\$this\b/},o,E,C,{match:[/const/,/\s/,r],scope:{1:`keyword`,3:`variable.constant`}},x,{scope:`function`,relevance:0,beginKeywords:`fn function`,end:/[;{]/,excludeEnd:!0,illegal:`[$%\\[]`,contains:[{beginKeywords:`use`},e.UNDERSCORE_TITLE_MODE,{begin:`=>`,endsParent:!0},{scope:`params`,begin:`\\(`,end:`\\)`,excludeBegin:!0,excludeEnd:!0,keywords:y,contains:[`self`,O,o,C,e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.HASH_COMMENT_MODE,m,h]}]},{scope:`class`,variants:[{beginKeywords:`enum`,illegal:/[($"]/},{beginKeywords:`class interface trait`,illegal:/[:($"]/}],relevance:0,end:/\{/,excludeEnd:!0,contains:[{beginKeywords:`extends implements`},e.UNDERSCORE_TITLE_MODE]},{beginKeywords:`namespace`,relevance:0,end:`;`,illegal:/[.']/,contains:[e.inherit(e.UNDERSCORE_TITLE_MODE,{scope:`title.class`})]},{beginKeywords:`use`,relevance:0,end:`;`,contains:[{match:/\b(as|const|function)\b/,scope:`keyword`},e.UNDERSCORE_TITLE_MODE]},m,h]}}function Vo(e){let t=e.regex,n=/[\p{XID_Start}_]\p{XID_Continue}*/u,r=`and.as.assert.async.await.break.case.class.continue.def.del.elif.else.except.finally.for.from.global.if.import.in.is.lambda.lazy.match.nonlocal|10.not.or.pass.raise.return.try.while.with.yield`.split(`.`),i={$pattern:/[A-Za-z]\w+|__\w+__/,keyword:r,built_in:`__import__.abs.aiter.all.anext.any.ascii.bin.bool.breakpoint.bytearray.bytes.callable.chr.classmethod.compile.complex.delattr.dict.dir.divmod.enumerate.eval.exec.filter.float.format.frozendict.frozenset.getattr.globals.hasattr.hash.help.hex.id.input.int.isinstance.issubclass.iter.len.list.locals.map.max.memoryview.min.next.object.oct.open.ord.pow.print.property.range.repr.reversed.round.sentinel.set.setattr.slice.sorted.staticmethod.str.sum.super.tuple.type.vars.zip`.split(`.`),literal:[`__debug__`,`Ellipsis`,`False`,`None`,`NotImplemented`,`True`],type:[`Any`,`Callable`,`Coroutine`,`Dict`,`List`,`Literal`,`Generic`,`Optional`,`Sequence`,`Set`,`Tuple`,`Type`,`Union`]},a={className:`meta`,begin:/^(>>>|\.\.\.) /},o={className:`subst`,begin:/\{/,end:/\}/,keywords:i,illegal:/#/},s={begin:/\{\{/,relevance:0},c={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([uU]|[bB]|[rR]|[bB][rR]|[rR][bB])?"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a],relevance:10},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'''/,end:/'''/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"""/,end:/"""/,contains:[e.BACKSLASH_ESCAPE,a,s,o]},{begin:/([uU]|[rR])'/,end:/'/,relevance:10},{begin:/([uU]|[rR])"/,end:/"/,relevance:10},{begin:/([bB]|[bB][rR]|[rR][bB])'/,end:/'/},{begin:/([bB]|[bB][rR]|[rR][bB])"/,end:/"/},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])'/,end:/'/,contains:[e.BACKSLASH_ESCAPE,s,o]},{begin:/([fFtT][rR]|[rR][fFtT]|[fFtT])"/,end:/"/,contains:[e.BACKSLASH_ESCAPE,s,o]},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},l=`[0-9](_?[0-9])*`,u=`(\\b(${l}))?\\.(${l})|\\b(${l})\\.`,d=`\\b|${r.join(`|`)}`,f={className:`number`,relevance:0,variants:[{begin:`(\\b(${l})|(${u}))[eE][+-]?(${l})[jJ]?(?=${d})`},{begin:`(${u})[jJ]?`},{begin:`\\b([1-9](_?[0-9])*|0+(_?0)*)[lLjJ]?(?=${d})`},{begin:`\\b0[bB](_?[01])+[lL]?(?=${d})`},{begin:`\\b0[oO](_?[0-7])+[lL]?(?=${d})`},{begin:`\\b0[xX](_?[0-9a-fA-F])+[lL]?(?=${d})`},{begin:`\\b(${l})[jJ](?=${d})`}]},p={className:`comment`,begin:t.lookahead(/# type:/),end:/$/,keywords:i,contains:[{begin:/# type:/},{begin:/#/,end:/\b\B/,endsWithParent:!0}]},m={className:`params`,variants:[{className:``,begin:/\(\s*\)/,skip:!0},{begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:i,contains:[`self`,a,f,c,e.HASH_COMMENT_MODE]}]};return o.contains=[c,f,a],{name:`Python`,aliases:[`py`,`gyp`,`ipython`],unicodeRegex:!0,keywords:i,illegal:/(<\/|\?)|=>/,contains:[a,f,{scope:`variable.language`,match:/\bself\b/},{beginKeywords:`if`,relevance:0},{match:/\bor\b/,scope:`keyword`},c,p,e.HASH_COMMENT_MODE,{match:[/\bdef/,/\s+/,n],scope:{1:`keyword`,3:`title.function`},contains:[m]},{variants:[{match:[/\bclass/,/\s+/,n,/\s*/,/\(\s*/,n,/\s*\)/]},{match:[/\bclass/,/\s+/,n]}],scope:{1:`keyword`,3:`title.class`,6:`title.class.inherited`}},{className:`meta`,begin:/^[\t ]*@/,end:/(?=#)|$/,contains:[f,m,c]}]}}function Ho(e){let t=e.regex,n=/(r#)?/,r=t.concat(n,e.UNDERSCORE_IDENT_RE),i=t.concat(n,e.IDENT_RE),a={scope:`title.function.invoke`,relevance:0,begin:t.concat(/\b/,/(?!(?:let|for|while|if|else|match)\b)/,i,t.lookahead(/\s*\(/))},o=`([ui](8|16|32|64|128|size)|f(16|32|64|128))?`,s=`abstract.as.async.await.become.box.break.const.continue.crate.do.dyn.else.enum.extern.false.final.fn.for.if.impl.in.let.loop.macro.match.mod.move.mut.override.priv.pub.raw.ref.return.self.Self.static.struct.super.trait.true.try.type.typeof.union.unsafe.unsized.use.virtual.where.while.yield`.split(`.`),c=[`true`,`false`,`Some`,`None`,`Ok`,`Err`],l=`drop .Copy.Send.Sized.Sync.Drop.Fn.FnMut.FnOnce.ToOwned.Clone.Debug.PartialEq.PartialOrd.Eq.Ord.AsRef.AsMut.Into.From.Default.Iterator.Extend.IntoIterator.DoubleEndedIterator.ExactSizeIterator.SliceConcatExt.ToString.assert!.assert_eq!.bitflags!.bytes!.cfg!.col!.concat!.concat_idents!.debug_assert!.debug_assert_eq!.env!.eprintln!.panic!.file!.format!.format_args!.include_bytes!.include_str!.line!.local_data_key!.module_path!.option_env!.print!.println!.select!.stringify!.try!.unimplemented!.unreachable!.vec!.write!.writeln!.macro_rules!.assert_ne!.debug_assert_ne!`.split(`.`),u=[`i8`,`i16`,`i32`,`i64`,`i128`,`isize`,`u8`,`u16`,`u32`,`u64`,`u128`,`usize`,`f16`,`f32`,`f64`,`f128`,`str`,`char`,`bool`,`Box`,`Option`,`Result`,`String`,`Vec`];return{name:`Rust`,aliases:[`rs`],keywords:{$pattern:e.IDENT_RE+`!?`,type:u,keyword:s,literal:c,built_in:l},illegal:`</`,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),e.inherit(e.QUOTE_STRING_MODE,{begin:/b?"/,illegal:null}),{scope:`symbol`,begin:/'[a-zA-Z_][a-zA-Z0-9_]*(?!')/},{scope:`string`,variants:[{begin:/b?r(#*)"(.|\n)*?"\1(?!#)/},{begin:/b?'/,end:/'/,contains:[{scope:`char.escape`,match:/\\('|"|\\|\w|x\w{2}|u\w{4}|U\w{8})/}]}]},{scope:`number`,variants:[{begin:`\\b0b([01_]+)`+o},{begin:`\\b0o([0-7_]+)`+o},{begin:`\\b0x([A-Fa-f0-9_]+)`+o},{begin:`\\b(\\d[\\d_]*(\\.[0-9_]+)?([eE][+-]?[0-9_]+)?)`+o}],relevance:0},{begin:[/\bsafe/,/\s+/,/extern/],scope:{1:`keyword`,3:`keyword`}},{begin:[/fn/,/\s+/,r],scope:{1:`keyword`,3:`title.function`}},{scope:`meta`,begin:`#!?\\[`,end:`\\]`,contains:[{scope:`string`,begin:/"/,end:/"/,contains:[e.BACKSLASH_ESCAPE]}]},{begin:[/let/,/\s+/,/(?:mut\s+)?/,r],scope:{1:`keyword`,3:`keyword`,4:`variable`}},{begin:[/for/,/\s+/,r,/\s+/,/in/],scope:{1:`keyword`,3:`variable`,5:`keyword`}},{begin:[/type/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:[/(?:trait|enum|struct|union|impl|for)/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}},{begin:e.IDENT_RE+`::`,keywords:{keyword:`Self`,built_in:l,type:u}},{scope:`punctuation`,begin:`->`},a]}}function Uo(e){let t=e.regex,n=e.COMMENT(`--`,`$`),r={scope:`string`,variants:[{begin:/'/,end:/'/,contains:[{match:/''/}]}]},i={begin:/"/,end:/"/,contains:[{match:/""/}]},a=[`true`,`false`,`unknown`],o=[`double precision`,`large object`,`with timezone`,`without timezone`],s=`bigint.binary.blob.boolean.char.character.clob.date.dec.decfloat.decimal.float.int.integer.interval.nchar.nclob.national.numeric.real.row.smallint.time.timestamp.varchar.varying.varbinary`.split(`.`),c=[`add`,`asc`,`collation`,`desc`,`final`,`first`,`last`,`view`],l=`abs.acos.all.allocate.alter.and.any.are.array.array_agg.array_max_cardinality.as.asensitive.asin.asymmetric.at.atan.atomic.authorization.avg.begin.begin_frame.begin_partition.between.bigint.binary.blob.boolean.both.by.call.called.cardinality.cascaded.case.cast.ceil.ceiling.char.char_length.character.character_length.check.classifier.clob.close.coalesce.collate.collect.column.commit.condition.connect.constraint.contains.convert.copy.corr.corresponding.cos.cosh.count.covar_pop.covar_samp.create.cross.cube.cume_dist.current.current_catalog.current_date.current_default_transform_group.current_path.current_role.current_row.current_schema.current_time.current_timestamp.current_path.current_role.current_transform_group_for_type.current_user.cursor.cycle.date.day.deallocate.dec.decimal.decfloat.declare.default.define.delete.dense_rank.deref.describe.deterministic.disconnect.distinct.double.drop.dynamic.each.element.else.empty.end.end_frame.end_partition.end-exec.equals.escape.every.except.exec.execute.exists.exp.external.extract.false.fetch.filter.first_value.float.floor.for.foreign.frame_row.free.from.full.function.fusion.get.global.grant.group.grouping.groups.having.hold.hour.identity.in.indicator.initial.inner.inout.insensitive.insert.int.integer.intersect.intersection.interval.into.is.join.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.language.large.last_value.lateral.lead.leading.left.like.like_regex.listagg.ln.local.localtime.localtimestamp.log.log10.lower.match.match_number.match_recognize.matches.max.member.merge.method.min.minute.mod.modifies.module.month.multiset.national.natural.nchar.nclob.new.no.none.normalize.not.nth_value.ntile.null.nullif.numeric.octet_length.occurrences_regex.of.offset.old.omit.on.one.only.open.or.order.out.outer.over.overlaps.overlay.parameter.partition.pattern.per.percent.percent_rank.percentile_cont.percentile_disc.period.portion.position.position_regex.power.precedes.precision.prepare.primary.procedure.ptf.range.rank.reads.real.recursive.ref.references.referencing.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.release.result.return.returns.revoke.right.rollback.rollup.row.row_number.rows.running.savepoint.scope.scroll.search.second.seek.select.sensitive.session_user.set.show.similar.sin.sinh.skip.smallint.some.specific.specifictype.sql.sqlexception.sqlstate.sqlwarning.sqrt.start.static.stddev_pop.stddev_samp.submultiset.subset.substring.substring_regex.succeeds.sum.symmetric.system.system_time.system_user.table.tablesample.tan.tanh.then.time.timestamp.timezone_hour.timezone_minute.to.trailing.translate.translate_regex.translation.treat.trigger.trim.trim_array.true.truncate.uescape.union.unique.unknown.unnest.update.upper.user.using.value.values.value_of.var_pop.var_samp.varbinary.varchar.varying.versioning.when.whenever.where.width_bucket.window.with.within.without.year`.split(`.`),u=`abs.acos.array_agg.asin.atan.avg.cast.ceil.ceiling.coalesce.corr.cos.cosh.count.covar_pop.covar_samp.cume_dist.dense_rank.deref.element.exp.extract.first_value.floor.json_array.json_arrayagg.json_exists.json_object.json_objectagg.json_query.json_table.json_table_primitive.json_value.lag.last_value.lead.listagg.ln.log.log10.lower.max.min.mod.nth_value.ntile.nullif.percent_rank.percentile_cont.percentile_disc.position.position_regex.power.rank.regr_avgx.regr_avgy.regr_count.regr_intercept.regr_r2.regr_slope.regr_sxx.regr_sxy.regr_syy.row_number.sin.sinh.sqrt.stddev_pop.stddev_samp.substring.substring_regex.sum.tan.tanh.translate.translate_regex.treat.trim.trim_array.unnest.upper.value_of.var_pop.var_samp.width_bucket`.split(`.`),d=[`current_catalog`,`current_date`,`current_default_transform_group`,`current_path`,`current_role`,`current_schema`,`current_transform_group_for_type`,`current_user`,`session_user`,`system_time`,`system_user`,`current_time`,`localtime`,`current_timestamp`,`localtimestamp`],f=[`create table`,`insert into`,`primary key`,`foreign key`,`not null`,`alter table`,`add constraint`,`grouping sets`,`on overflow`,`character set`,`respect nulls`,`ignore nulls`,`nulls first`,`nulls last`,`depth first`,`breadth first`],p=u,m=[...l,...c].filter(e=>!u.includes(e)),h={scope:`variable`,match:/@[a-z0-9][a-z0-9_]*/},g={scope:`operator`,match:/[-+*/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?/,relevance:0},_={match:t.concat(/\b/,t.either(...p),/\s*\(/),relevance:0,keywords:{built_in:p}};function v(e){return t.concat(/\b/,t.either(...e.map(e=>e.replace(/\s+/,`\\s+`))),/\b/)}let y={scope:`keyword`,match:v(f),relevance:0};function b(e,{exceptions:t,when:n}={}){let r=n;return t||=[],e.map(e=>e.match(/\|\d+$/)||t.includes(e)?e:r(e)?`${e}|0`:e)}return{name:`SQL`,case_insensitive:!0,illegal:/[{}]|<\//,keywords:{$pattern:/\b[\w\.]+/,keyword:b(m,{when:e=>e.length<3}),literal:a,type:s,built_in:d},contains:[{scope:`type`,match:v(o)},y,_,h,r,i,e.C_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,n,g]}}var Wo=`[A-Za-z$_][0-9A-Za-z$_]*`,Go=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),Ko=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],qo=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),Jo=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],Yo=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],Xo=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`self`,`global`],Zo=[].concat(Yo,qo,Jo);function Qo(e){let t=e.regex,n=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},r=Wo,i={begin:`<>`,end:`</>`},a=/<[A-Za-z0-9\\._:-]+\s*\/>/,o={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let r=e[0].length+e.index,i=e.input[r];if(i===`<`||i===`,`){t.ignoreMatch();return}i===`>`&&(n(e,{after:r})||t.ignoreMatch());let a,o=e.input.substring(r);if(a=o.match(/^\s*=/)){t.ignoreMatch();return}if((a=o.match(/^\s+extends\s+/))&&a.index===0){t.ignoreMatch();return}}},s={$pattern:Wo,keyword:Go,literal:Ko,built_in:Zo,"variable.language":Xo},c=`[0-9](_?[0-9])*`,l=`\\.(${c})`,u=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,d={className:`number`,variants:[{begin:`(\\b(${u})((${l})|\\.)?|(${l}))[eE][+-]?(${c})\\b`},{begin:`\\b(${u})\\b((${l})\\b|\\.)?|(${l})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},f={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:s,contains:[]},p={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`xml`}},m={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`css`}},h={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,f],subLanguage:`graphql`}},g={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,f]},_={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:r+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},v=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,{match:/\$\d+/},d];f.contains=v.concat({begin:/\{/,end:/\}/,keywords:s,contains:[`self`].concat(v)});let y=[].concat(_,f.contains),b=y.concat([{begin:/(\s*)\(/,end:/\)/,keywords:s,contains:[`self`].concat(y)}]),x={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b},S={variants:[{match:[/class/,/\s+/,r,/\s+/,/extends/,/\s+/,t.concat(r,`(`,t.concat(/\./,r),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,r],scope:{1:`keyword`,3:`title.class`}}]},C={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...qo,...Jo]}},w={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},T={variants:[{match:[/function/,/\s+/,r,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[x],illegal:/%/},E={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function D(e){return t.concat(`(?!`,e.join(`|`),`)`)}let O={match:t.concat(/\b/,D([...Yo,`super`,`import`,`await`].map(e=>`${e}\\s*\\(`)),r,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},k={begin:t.concat(/\./,t.lookahead(t.concat(r,/(?![0-9A-Za-z$_(])/))),end:r,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},A={match:[/get|set/,/\s+/,r,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},x]},j=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,M={match:[/const|var|let/,/\s+/,r,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(j)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[x]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:s,exports:{PARAMS_CONTAINS:b,CLASS_REFERENCE:C},illegal:/#(?![$_A-Za-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),w,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,p,m,h,g,_,{match:/\$\d+/},d,C,{scope:`attr`,match:r+t.lookahead(`:`),relevance:0},M,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[_,e.REGEXP_MODE,{className:`function`,begin:j,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:s,contains:b}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:i.begin,end:i.end},{match:a},{begin:o.begin,"on:begin":o.isTrulyOpeningTag,end:o.end}],subLanguage:`xml`,contains:[{begin:o.begin,end:o.end,skip:!0,contains:[`self`]}]}]},T,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[x,e.inherit(e.TITLE_MODE,{begin:r,className:`title.function`})]},{match:/\.\.\./,relevance:0},k,{match:`\\$`+r,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[x]},O,E,S,A,{match:/\$[(.]/}]}}function $o(e){let t=e.regex,n=Qo(e),r=Wo,i=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],a={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},o={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:i},contains:[n.exports.CLASS_REFERENCE]},s={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},c={$pattern:Wo,keyword:Go.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:Ko,built_in:Zo.concat(i),"variable.language":Xo},l={className:`meta`,begin:`@`+r},u=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(n.keywords,c),n.exports.PARAMS_CONTAINS.push(l);let d=n.contains.find(e=>e.scope===`attr`),f=Object.assign({},d,{match:t.concat(r,t.lookahead(/\s*\?:/))});n.exports.PARAMS_CONTAINS.push([n.exports.CLASS_REFERENCE,d,f]),n.contains=n.contains.concat([l,a,o,f]),u(n,`shebang`,e.SHEBANG()),u(n,`use_strict`,s);let p=n.contains.find(e=>e.label===`func.def`);return p.relevance=0,Object.assign(n,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),n}function es(e){let t=e.regex,n=t.concat(/[\p{L}_]/u,t.optional(/[\p{L}0-9_.-]*:/u),/[\p{L}0-9_.-]*/u),r=/[\p{L}0-9._:-]+/u,i={className:`symbol`,begin:/&[a-z]+;|&#[0-9]+;|&#x[a-f0-9]+;/},a={begin:/\s/,contains:[{className:`keyword`,begin:/#?[a-z_][a-z1-9_-]+/,illegal:/\n/}]},o=e.inherit(a,{begin:/\(/,end:/\)/}),s=e.inherit(e.APOS_STRING_MODE,{className:`string`}),c=e.inherit(e.QUOTE_STRING_MODE,{className:`string`}),l={endsWithParent:!0,illegal:/</,relevance:0,contains:[{className:`attr`,begin:r,relevance:0},{begin:/=\s*/,relevance:0,contains:[{className:`string`,endsParent:!0,variants:[{begin:/"/,end:/"/,contains:[i]},{begin:/'/,end:/'/,contains:[i]},{begin:/[^\s"'=<>`]+/}]}]}]};return{name:`HTML, XML`,aliases:[`html`,`xhtml`,`rss`,`atom`,`xjb`,`xsd`,`xsl`,`plist`,`wsf`,`svg`],case_insensitive:!0,unicodeRegex:!0,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,relevance:10,contains:[a,c,s,o,{begin:/\[/,end:/\]/,contains:[{className:`meta`,begin:/<![a-z]/,end:/>/,contains:[a,o,c,s]}]}]},e.COMMENT(/<!--/,/-->/,{relevance:10}),{begin:/<!\[CDATA\[/,end:/\]\]>/,relevance:10},i,{className:`meta`,end:/\?>/,variants:[{begin:/<\?xml/,relevance:10,contains:[c]},{begin:/<\?[a-z][a-z0-9]+/}]},{className:`tag`,begin:/<style(?=\s|>)/,end:/>/,keywords:{name:`style`},contains:[l],starts:{end:/<\/style>/,returnEnd:!0,subLanguage:`css`}},{className:`tag`,begin:/<script(?=\s|>)/,end:/>/,keywords:{name:`script`},contains:[l],starts:{end:/<\/script>/,returnEnd:!0,subLanguage:`javascript`}},{className:`tag`,begin:/<>|<\/>/},{className:`tag`,begin:t.concat(/</,t.lookahead(t.concat(n,t.either(/\/>/,/>/,/\s/)))),end:/\/?>/,contains:[{className:`name`,begin:n,relevance:0,starts:l}]},{className:`tag`,begin:t.concat(/<\//,t.lookahead(t.concat(n,/>/))),contains:[{className:`name`,begin:n,relevance:0},{begin:/>/,relevance:0,endsParent:!0}]}]}}function ts(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}$.registerLanguage(`bash`,co),$.registerLanguage(`c`,lo),$.registerLanguage(`cpp`,uo),$.registerLanguage(`css`,bo),$.registerLanguage(`ini`,xo),$.registerLanguage(`java`,Do),$.registerLanguage(`javascript`,Io),$.registerLanguage(`json`,Ro),$.registerLanguage(`markdown`,zo),$.registerLanguage(`php`,Bo),$.registerLanguage(`python`,Vo),$.registerLanguage(`rust`,Ho),$.registerLanguage(`sql`,Uo),$.registerLanguage(`typescript`,$o),$.registerLanguage(`xml`,es),$.registerLanguage(`yaml`,ts);var ns=(0,g.lazy)(async()=>{let[{default:e},{default:t},{default:n},{default:r},{default:i,defaultSchema:o}]=await Promise.all([a(()=>import(`./react-markdown-D0eGeZYj.js`),__vite__mapDeps([0,1,2,3,4,5,6,7])),a(()=>import(`./remark-gfm-GESheZXV.js`),__vite__mapDeps([8,3,6,7])),a(()=>import(`./lib-C8gMDuwA.js`),__vite__mapDeps([9,7])),a(()=>import(`./rehype-raw-B_pIef3K.js`),__vite__mapDeps([10,3,4,1,2,5,7])),a(()=>import(`./rehype-sanitize-CdL8W5GJ.js`),__vite__mapDeps([11,5]))]),s={...o,attributes:{...o.attributes,div:[...o.attributes.div??[],[`className`,/^markdown-alert(?:-(?:note|tip|important|warning|caution))?$/]],img:[...o.attributes.img??[],[`width`,/^\d{1,4}$/],[`height`,/^\d{1,4}$/],[`align`,/^(?:left|center|right)$/]],p:[...o.attributes.p??[],[`align`,/^(?:left|center|right)$/],[`className`,`markdown-alert-title`]]}};function c({children:a}){return(0,U.jsx)(e,{remarkPlugins:[t,n],rehypePlugins:[r,[i,s]],children:a})}return{default:c}}),rs={C:`c`,"C++":`cpp`,CSS:`css`,HTML:`xml`,Java:`java`,JavaScript:`javascript`,"JavaScript JSX":`javascript`,JSON:`json`,Markdown:`markdown`,PHP:`php`,Python:`python`,Rust:`rust`,Shell:`bash`,SQL:`sql`,TOML:`ini`,TypeScript:`typescript`,"TypeScript JSX":`typescript`,Vue:`xml`,XML:`xml`,YAML:`yaml`};function is(e,t){let n=rs[t];if(!n||!$.getLanguage(n))return null;let r;return e.split(`
 `).map(e=>{let t=$.highlight(e,{language:n,ignoreIllegals:!0,continuation:r});return r=t.top,t.value||` `})}function as(e){let t=e.split(`.`).pop()?.toLowerCase();return[`md`,`txt`,`pdf`].includes(t)?R:[`py`,`js`,`jsx`,`html`,`css`,`sql`,`json`].includes(t)?I:B}function os(e,t){return e.name.toLocaleLowerCase(`fr`).includes(t)?!0:e.type===`folder`&&e.children.some(e=>os(e,t))}function ss({name:e,term:t}){if(!t)return e;let n=e.toLocaleLowerCase(`fr`).indexOf(t);return n<0?e:(0,U.jsxs)(U.Fragment,{children:[e.slice(0,n),(0,U.jsx)(`mark`,{className:`rounded-sm bg-foreground/15 text-foreground`,children:e.slice(n,n+t.length)}),e.slice(n+t.length)]})}function cs({nodes:e,depth:t=0,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c}){return(n?e.filter(e=>os(e,n)):e).map(e=>{let l=e.type===`folder`,u=r.has(e.path)||!!(n&&l&&e.children.some(e=>os(e,n))),d=l?i===e.path:a===e.path,f=l?u?te:re:as(e.name);return(0,U.jsx)(`div`,{children:l?(0,U.jsxs)(Rt,{open:u,onOpenChange:()=>c(e.path),children:[(0,U.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,U.jsx)(zt,{"aria-label":`${u?`Replier`:`Déplier`} ${e.name}`,className:`flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground/70 transition-colors hover:bg-foreground/5 hover:text-foreground`,children:u?(0,U.jsx)(E,{className:`size-3.5`}):(0,U.jsx)(O,{className:`size-3.5`})}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:()=>o(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,U.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,U.jsx)(`span`,{className:`truncate`,children:(0,U.jsx)(ss,{name:e.name,term:n})})]})]}),(0,U.jsx)(Bt,{children:(0,U.jsx)(cs,{nodes:e.children,depth:t+1,query:n,expanded:r,currentFolderPath:i,selectedPath:a,onFolderSelect:o,onFileSelect:s,onToggle:c})})]}):(0,U.jsxs)(`div`,{className:`tree-row group flex items-center gap-1 rounded-md pr-2 transition-colors ${d?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,style:{paddingLeft:`${8+t*14}px`},children:[(0,U.jsx)(`span`,{className:`w-6 shrink-0`}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:()=>s(e),className:`h-7 min-w-0 flex-1 justify-start gap-2 rounded px-1.5 text-left text-xs font-normal text-current hover:bg-transparent hover:text-foreground`,children:[(0,U.jsx)(f,{className:`size-3.5 shrink-0 text-muted-foreground`}),(0,U.jsx)(`span`,{className:`truncate`,children:(0,U.jsx)(ss,{name:e.name,term:n})})]})]})},e.path)})}function ls({allEntries:e,query:t,expanded:n,currentFolderPath:r,selectedPath:i,onFolderSelect:a,onFileSelect:o,onToggle:s,onRootSelect:c,onClose:l}){let[u,d]=(0,g.useState)(!1),[f,p]=(0,g.useState)(!1),m=e.filter(e=>e.type===`file`).length;return(0,g.useEffect)(()=>{if(!u&&!f)return;let e=e=>{e.key===`Escape`&&(d(!1),p(!1))};return window.addEventListener(`keydown`,e),()=>window.removeEventListener(`keydown`,e)},[u,f]),(0,U.jsxs)(`div`,{className:`flex h-full min-h-0 flex-col bg-background text-foreground`,children:[(0,U.jsxs)(`div`,{className:`flex h-14.5 shrink-0 items-center justify-between border-b border-border px-4`,children:[(0,U.jsxs)(`div`,{className:`flex min-w-0 items-center gap-2.5`,children:[(0,U.jsx)(`button`,{type:`button`,onClick:()=>d(!0),"aria-label":`Agrandir le logo NSI`,className:`flex size-7 shrink-0 items-center justify-center rounded-md border border-border bg-secondary transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring`,children:(0,U.jsx)(`img`,{src:me,alt:``,className:`size-6 object-contain`})}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,onClick:c,className:`h-auto justify-start p-0 text-left hover:bg-transparent`,children:(0,U.jsxs)(`span`,{className:`text-xs font-medium tracking-wide`,children:[`NSI `,(0,U.jsx)(`span`,{className:`text-muted-foreground`,children:`/ explorer`})]})})]}),l&&(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:l,"aria-label":`Fermer la navigation`,className:`text-muted-foreground`,children:(0,U.jsx)(fe,{})})]}),u&&(0,pe.createPortal)((0,U.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Logo NSI en grand`,onClick:()=>d(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/75 p-6 backdrop-blur-sm`,children:(0,U.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`relative rounded-2xl border border-border bg-background p-5 shadow-2xl`,children:[(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>d(!1),"aria-label":`Fermer`,autoFocus:!0,className:`absolute right-2 top-2 z-10`,children:(0,U.jsx)(fe,{})}),(0,U.jsx)(`img`,{src:me,alt:`Logo NSI`,className:`max-h-[75vh] max-w-[min(80vw,40rem)] object-contain`})]})}),document.body),(0,U.jsxs)(`div`,{className:`flex items-center justify-between px-4 pb-2 pt-5`,children:[(0,U.jsx)(`span`,{className:`text-[10px] font-medium uppercase tracking-[0.16em] text-muted-foreground`,children:`Explorateur`}),(0,U.jsx)(`span`,{className:`font-mono text-[10px] text-muted-foreground/70`,children:m})]}),(0,U.jsxs)(jt,{type:`button`,variant:`ghost`,onClick:c,className:`mx-2 mb-2 h-8 w-auto justify-start gap-2 rounded-md px-2.5 text-xs ${r===``&&!i?`bg-accent text-foreground`:`text-muted-foreground hover:bg-accent/60 hover:text-foreground`}`,children:[(0,U.jsx)(ie,{className:`size-3.5`}),` Accueil`]}),(0,U.jsx)(Kr,{className:`min-h-0 flex-1 px-2 pb-4`,viewportClassName:`h-full`,children:t&&!oo.some(e=>os(e,t))?(0,U.jsx)(`p`,{className:`px-3 py-5 text-xs text-muted-foreground`,children:`Aucun fichier ou dossier trouvé.`}):(0,U.jsx)(cs,{nodes:oo,query:t,expanded:n,currentFolderPath:r,selectedPath:i,onFolderSelect:a,onFileSelect:o,onToggle:s})}),(0,U.jsxs)(`div`,{className:`flex items-center justify-between gap-2 border-t border-border px-4 py-3`,children:[(0,U.jsx)(`p`,{className:`truncate font-mono text-[10px] text-muted-foreground`,children:`Les prémices de la programmation`}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-xs`,onClick:()=>p(!0),"aria-label":`Informations sur le site`,title:`Informations sur le site`,className:`shrink-0 text-muted-foreground hover:text-foreground`,children:(0,U.jsx)(oe,{className:`size-3.5`})})]}),f&&(0,pe.createPortal)((0,U.jsx)(`div`,{role:`dialog`,"aria-modal":`true`,"aria-label":`Informations sur le site`,onClick:()=>p(!1),className:`fixed inset-0 z-100 flex items-center justify-center bg-black/65 p-4 backdrop-blur-sm`,children:(0,U.jsxs)(`div`,{onClick:e=>e.stopPropagation(),className:`flex max-h-[min(80vh,42rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-2xl`,children:[(0,U.jsxs)(`div`,{className:`flex shrink-0 items-center justify-between border-b border-border px-5 py-3`,children:[(0,U.jsx)(`h2`,{className:`text-sm font-medium`,children:`À propos du site`}),(0,U.jsx)(jt,{type:`button`,variant:`ghost`,size:`icon-sm`,onClick:()=>p(!1),"aria-label":`Fermer les informations`,autoFocus:!0,className:`text-muted-foreground`,children:(0,U.jsx)(fe,{})})]}),(0,U.jsx)(Kr,{className:`min-h-0 flex-1`,viewportClassName:`h-full`,children:(0,U.jsx)(`article`,{className:`markdown-preview px-6 py-5`,children:(0,U.jsx)(g.Suspense,{fallback:(0,U.jsx)(`p`,{className:`text-sm text-muted-foreground`,children:`Chargement des informations…`}),children:(0,U.jsx)(ns,{children:`# À propos de Not So Informatic
 
 **Not So Informatic** est un mélange de plusieurs projets informatiques.  
