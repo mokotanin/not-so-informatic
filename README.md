@@ -7,8 +7,8 @@
 
 En réalité, numérique et sciences informatiques
 
-25-26 Première </br>
-26-27 Terminale (tle)
+_25-26 Première_ </br>
+_26-27 Terminale (tle)_
 
 ## Dépendances
 
