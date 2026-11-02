@@ -355,7 +355,7 @@ wheels = [
 
 [[package]]
 name = "not-so-informatic"
-version = "0.1.0"
+version = "6.6.7"
 source = { editable = "." }
 dependencies = [
     { name = "arcade" },
