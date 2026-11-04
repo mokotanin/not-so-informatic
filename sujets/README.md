@@ -1,8 +1,10 @@
 # Sujets
+
 Sujets conseillés :
+
 - [4](./26_BCG_NSI_4)
 - [7](./26_BCG_NSI_7)
-- [8](./26_BCG_NSI_8)
+- [8](./26_BCG_NSI_8) ✅
 - [10](./26_BCG_NSI_10)
 - [12](./26_BCG_NSI_12) ✅
 - [13](./26_BCG_NSI_13)
