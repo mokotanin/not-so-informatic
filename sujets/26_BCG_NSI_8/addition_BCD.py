@@ -22,17 +22,26 @@ def calcul_recettes():
 liste_quartet = ["0001", "0011", "0101", "0110"]
 
 
-def convertir_BCD_vers_decimal(liste_quartets):
-    decimal = ""
+def convertir_BCD_vers_decimal(liste_quartet):
+    decimal = 0
+    resultat = ""
 
-    for i in range(len(liste_quartets)):
-        decimal=decimal+liste_quartets[i]*2**(len())
+    for i in range(len(liste_quartet)):
+        elt = liste_quartet[len(liste_quartet) - 1 - i]
 
-    decimal = float(decimal)
-    return decimal
+        for indice in range(len(elt)):
+            decimal = int(elt[indice]) * 2 ** (len(elt) - 1 - indice) + decimal
+
+        if len(liste_quartet) - 1 - i == 1:
+            resultat = "." + resultat
+        resultat = str(decimal) + resultat
+        decimal = 0
+
+    return float(resultat)
 
 
 print(convertir_BCD_vers_decimal(liste_quartet))
+
 #############################################################################
 # Code fourni pour les questions 3 et 4                                     #
 #############################################################################
