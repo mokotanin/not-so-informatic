@@ -2,7 +2,7 @@
 
 Sujets conseillés :
 
-- [4](./26_BCG_NSI_4)
+- [4](./26_BCG_NSI_4) ✅
 - [7](./26_BCG_NSI_7)
 - [8](./26_BCG_NSI_8) ✅
 - [10](./26_BCG_NSI_10)
