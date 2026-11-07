@@ -70,4 +70,4 @@ Ce [dossier](./side-projects/) contient plusieurs anciens repos supprimés car s
 
 ## Crédits
 
-Les séances antérieures à la 7 et la séance 13 ont été directement téléchargé du site de [Giselle Bareux](http://gisele.bareux.free.fr/index.htm).
+Merci à [Giselle Bareux](http://gisele.bareux.free.fr/index.htm) pour ses cours.
