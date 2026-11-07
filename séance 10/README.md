@@ -1,6 +1,4 @@
-![html](../assets/html.png) ![css](../assets/css.png) ![js](../assets/js.png) ![php](../assets/php.png)
-
-# séance 10
+# séance 10 / 12
 
 1. [code(Sic.)](<./code(Sic)/>) (html et css)
 2. [pipo](./popipopipopipo/) (php)
