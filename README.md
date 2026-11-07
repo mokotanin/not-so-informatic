@@ -43,3 +43,6 @@ Le code source des releases est dispo dans [crabe🦀](./side-projects/crabe/)
 ## Side projects personnel que je sais pas où mettre
 
 Ce [dossier](./side-projects/) contient plusieurs anciens repos supprimés car soit le projet n'était pas assez pris au sérieux, soit était là pour rien sur mon profil.
+
+## Crédits
+Les séances antérieures à la 7 et la séance 13 ont été directement téléchargé du site de [Giselle Bareux](http://gisele.bareux.free.fr/index.htm).
