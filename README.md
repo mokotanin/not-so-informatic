@@ -29,10 +29,10 @@ _26-27 Terminale (tle)_
 
 ### Terminale
 
-1. [Structures données linéaires et dictionnaires](.tle-séance%2001/)
-2. [Structures hiérarchiques : Arbres](.tle-séance%2002/)
-3. [Paradigmes de programmation](.tle-séance%2003/)
-4. [Algorithmique: Boyer Moore Horspool et tris](.tle-séance%2004/)
+1. [Structures données linéaires et dictionnaires](./tle-séance%2001/)
+2. [Structures hiérarchiques : Arbres](./tle-séance%2002/)
+3. [Paradigmes de programmation](./tle-séance%2003/)
+4. [Algorithmique : Boyer Moore Horspool et tris](./tle-séance%2004/)
 
 ## Dépendances
 
