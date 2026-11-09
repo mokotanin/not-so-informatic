@@ -2,5 +2,25 @@
 name = "protoxide"
 version = "0.1.0"
 edition = "2024"
+exclude = ["credentials.json"]
 
 [dependencies]
+aes = "0.8"
+base64 = "0.22"
+block-padding = "0.3"
+cbc = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
+flate2 = "1"
+hex = "0.4"
+md-5 = "0.10"
+rand = "0.8"
+regex = "1"
+reqwest = { version = "0.13", default-features = false, features = ["blocking", "cookies", "json", "rustls"] }
+rpassword = "7"
+rsa = "0.9"
+scraper = "0.25"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+url = "2"
