@@ -7,7 +7,7 @@ nsi.code-workspace/
 /projets/marmotte/akinator.png
 venv/
 side-projects/crabe/*/target/
-
+*.zip
 
 # --- react ---
 
