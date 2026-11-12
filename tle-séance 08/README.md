@@ -40,8 +40,9 @@ Au début de la séance, il n'y a pas d'exercice où l'on va coder.
 5. Il est symétrique donc c'est un graphe orienté.
 
 8. La matrice d'adjacence de ce graphe
-|  | 1 | 2 | 3 | 4 |
-| :--- | :---: | :---: | :---: | :---: |
+
+|   | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
 | **1** | 0 | 1 | 0 | 0 |
 | **2** | 1 | 2 | 1 | 0 |
 | **3** | 0 | 0 | 1 | 1 |
