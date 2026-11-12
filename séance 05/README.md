@@ -1,4 +1,4 @@
-# séance 5
+# Séance 5
 
 1. [fx=6x+5](./x-fx/) intro fonctions
 2. [rand int ma game](./randINTmagame/) utiliser `import random`

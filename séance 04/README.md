@@ -1,4 +1,4 @@
-# séance 4
+# Séance 4
 
 1. [algoo](./algoo/) algorithmique
 2. [monsieur tri](./monsieur_tri)

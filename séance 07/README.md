@@ -1,4 +1,4 @@
-# séance 7
+# Séance 7
 
 jsp à quoi ce truc sert mais en tout cas c'est fleuri
 

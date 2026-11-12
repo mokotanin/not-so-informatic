@@ -1,4 +1,4 @@
-# séance 3
+# Séance 3
 
 1. [monsieur Hand](./monsieur_hand/) prise en main
 2. [VAR](./VAR/) variables

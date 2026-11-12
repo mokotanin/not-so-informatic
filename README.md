@@ -33,6 +33,7 @@ _26-27 Terminale (tle)_
 2. [Structures hiérarchiques : Arbres](./tle-séance%2002/)
 3. [Paradigmes de programmation](./tle-séance%2003/)
 4. [Algorithmique : Boyer Moore Horspool et tris](./tle-séance%2004/)
+5. [Structures données relationnelle : Graphes](./tle-séance%2008)
 
 ## Dépendances
 

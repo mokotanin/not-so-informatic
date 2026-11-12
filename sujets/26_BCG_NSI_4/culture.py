@@ -30,12 +30,18 @@ print(croissance_moyenne(plantes))
 
 
 def dictionnaire_mesure(plantes, mesures):
-    d = {}
-    for el in plantes:
-        cl = el.nom
-        for i in range(len(mesures)):
-            if mesures["plantes"] == cl:
-                pass
+    resultat = {}
+    for pl in plantes:
+        resultat[pl.nom] = []
+    for mesure in mesures:
+        plante = mesure["plante"]
+        if plante in resultat:
+            resultat[plante].append(mesure)
+
+    return resultat
+
+
+print(dictionnaire_mesure(plantes, mesures))
 
 
 #############################################################################
@@ -48,7 +54,7 @@ def purger_mesures_extremes(liste_mesures):
     Supprime de la liste toutes les mesures dont la température
     n'est pas comprise entre 20 et 25°C inclus.
     """
-    for mesure in liste_mesures:
+    for mesure in liste_mesures[:]:  # la folie des grandeurs [:] blud
         if mesure["temperature"] < 20 or mesure["temperature"] > 25:
             liste_mesures.remove(mesure)
 
@@ -67,3 +73,6 @@ def test_purger():
     print("Résultat après la purge :")
     for m in mesures_test:
         print(f"Jour {m['jour']} : {m['temperature']}°C")
+
+
+test_purger()
