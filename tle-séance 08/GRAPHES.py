@@ -13,6 +13,10 @@ def ajouter_sommet(G, S):
 
 
 ajouter_sommet(gr, "A")
-ajouter_sommet(gr, "A")
 ajouter_sommet(gr, "B")
+ajouter_sommet(gr, "C")
+ajouter_sommet(gr, "D")
+ajouter_sommet(gr, "E")
+ajouter_sommet(gr, "F")
+
 print(gr)
