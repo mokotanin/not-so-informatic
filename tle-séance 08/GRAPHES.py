@@ -124,3 +124,15 @@ def deg_non_oriente(g, s):
 
 print("Le degré du sommet A de G2 est : " + str(deg_non_oriente(G2, "A")))
 print("Le degré du sommet C de G2 est : " + str(deg_non_oriente(G2, "C")))
+
+
+def deg_oriente(g, s):
+    deg = 0
+    for sommet in g:
+        if s in g[sommet] and sommet != s:
+            deg += 1
+    return deg
+
+
+print("Le degré du sommet A de gr est : " + str(deg_oriente(gr, "A")))
+print("Le degré du sommet B de gr est : " + str(deg_oriente(gr, "B")))
