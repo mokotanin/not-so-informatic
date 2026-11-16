@@ -71,8 +71,10 @@ print(G2)
 
 
 def supprimer_arc(G, sd, sf):
-    if sd in G and (sf in G.get(sd)):
-        del G.get(sd)[G.get(sd).index(sf)]
+    if sd in G and sf in G.get(sd):
+        del G[sd][G[sd].index(sf)]
+        if sd != sf and sd in G.get(sf):
+            del G[sf][G[sf].index(sd)]
         return G
     else:
         print("Impossible de supprimer cet arc")
@@ -110,7 +112,7 @@ print(G2)
 
 
 def nb_sommets(G):
-    return G
+    return len(G)
 
 
 print("Le nombre de sommets de gr est : " + str(nb_sommets(gr)))
@@ -118,8 +120,9 @@ print("Le nombre de sommets de G2 est : " + str(nb_sommets(G2)))
 
 
 def deg_non_oriente(g, s):
-    if g.keys != None:
-        return len(s)
+    if s in g:
+        return len(g[s])
+    return 0
 
 
 print("Le degré du sommet A de G2 est : " + str(deg_non_oriente(G2, "A")))
