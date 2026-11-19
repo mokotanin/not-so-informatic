@@ -50,3 +50,11 @@ Au début de la séance, il n'y a pas d'exercice où l'on va coder.
 
 > [!warning]
 > Source de cette matrice : Damien (pas fiable)
+
+19. Test de la fonction matrice adjacente
+|  | A | B | C | D |
+| :--- | :---: | :---: | :---: | :---: |
+| **A** | 0 | 1 | 0 | 1 |
+| **B** | 1 | 0 | 1 | 0 |
+| **C** | 0 | 1 | 0 | 0 |
+| **D** | 1 | 1 | 0 | 0 |
