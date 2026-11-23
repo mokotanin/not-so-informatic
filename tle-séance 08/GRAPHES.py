@@ -424,4 +424,49 @@ def dfs(G, s):
     return P
 
 
-plt.show()
+G = {
+    "A": ["B", "C"],
+    "B": ["A", "D", "E"],
+    "C": ["A", "D", "H"],
+    "D": ["B", "C", "E"],
+    "E": ["B", "D", "F"],
+    "F": ["E", "G"],
+    "G": ["F", "H"],
+    "H": ["G", "C"],
+}
+print(dfs(G, "C"))
+
+
+def connexe(G):
+    if len(G) == len(dfs(G, "A")):
+        print("ce graphe est connexe")
+    else:
+        print("ce graphe n'est pas connexe")
+
+
+def bfs(G, s):
+    P = {s: None}
+    Q = [s]
+    while Q:
+        u = Q.pop(0)
+        for v in G[u]:
+            if v in P:
+                continue
+            P[v] = u
+            Q.append(v)
+    return P
+
+
+G = {
+    "A": ["B", "C"],
+    "B": ["A", "D", "E"],
+    "C": ["A", "D", "H"],
+    "D": ["B", "C", "E"],
+    "E": ["B", "D", "F"],
+    "F": ["E", "G"],
+    "G": ["F", "H"],
+    "H": ["G", "C"],
+}
+
+print(bfs(G, "C"))
+# plt.show()
