@@ -26,6 +26,16 @@ def ajouter_arc(G, sd, sf):
     if sd in G and sf in G and sf not in G[sd]:
         # Ajout de sf dans la liste des successeurs de sd
         G[sd].append(sf)
+        return G
+    else:
+        print("Impossible de rajouter cet arc")
+        return G
+
+
+def ajouter_arete(G, sd, sf):
+    if sd in G and sf in G and sf not in G[sd]:
+        # Ajout de sf dans la liste des voisins de sd
+        G[sd].append(sf)
         # Si les sommets sont différents, on ajoute aussi sd chez sf
         if sd != sf:
             G[sf].append(sd)
@@ -41,12 +51,12 @@ ajouter_sommet(G2, "B")
 ajouter_sommet(G2, "C")
 ajouter_sommet(G2, "D")
 
-ajouter_arc(G2, "A", "B")
-ajouter_arc(G2, "A", "C")
-ajouter_arc(G2, "A", "D")
-ajouter_arc(G2, "B", "C")
-ajouter_arc(G2, "B", "D")
-ajouter_arc(G2, "C", "D")
+ajouter_arete(G2, "A", "B")
+ajouter_arete(G2, "A", "C")
+ajouter_arete(G2, "A", "D")
+ajouter_arete(G2, "B", "C")
+ajouter_arete(G2, "B", "D")
+ajouter_arete(G2, "C", "D")
 
 print("Graphe G2 :")
 for sommet, voisins in G2.items():
@@ -73,8 +83,6 @@ print(G2)
 def supprimer_arc(G, sd, sf):
     if sd in G and sf in G.get(sd):
         del G[sd][G[sd].index(sf)]
-        if sd != sf and sd in G.get(sf):
-            del G[sf][G[sf].index(sd)]
         return G
     else:
         print("Impossible de supprimer cet arc")
@@ -424,4 +432,49 @@ def dfs(G, s):
     return P
 
 
-plt.show()
+G = {
+    "A": ["B", "C"],
+    "B": ["A", "D", "E"],
+    "C": ["A", "D", "H"],
+    "D": ["B", "C", "E"],
+    "E": ["B", "D", "F"],
+    "F": ["E", "G"],
+    "G": ["F", "H"],
+    "H": ["G", "C"],
+}
+print(dfs(G, "C"))
+
+
+def connexe(G):
+    if len(G) == len(dfs(G, "A")):
+        print("ce graphe est connexe")
+    else:
+        print("ce graphe n'est pas connexe")
+
+
+def bfs(G, s):
+    P = {s: None}
+    Q = [s]
+    while Q:
+        u = Q.pop(0)
+        for v in G[u]:
+            if v in P:
+                continue
+            P[v] = u
+            Q.append(v)
+    return P
+
+
+G = {
+    "A": ["B", "C"],
+    "B": ["A", "D", "E"],
+    "C": ["A", "D", "H"],
+    "D": ["B", "C", "E"],
+    "E": ["B", "D", "F"],
+    "F": ["E", "G"],
+    "G": ["F", "H"],
+    "H": ["G", "C"],
+}
+
+print(bfs(G, "C"))
+# plt.show()
