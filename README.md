@@ -24,7 +24,7 @@ _26-27 Terminale (tle)_
 8. [Interface graphique : Tkinter](./séance%2008/)
 9. [Jeux](./séance%2009/)
 10. [Pages web statiques & dynamiques](./séance%2010/)
-11. [Architecture matérielle](./séance%2011/)
+11. [Architecture matérielle](./séance%2011/) (note : j'ai seulement fait en terminale parce que le prof avait la flemme)
 12. [Les réseaux](./séance%2012/)
 
 ### Terminale
